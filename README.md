@@ -1,8 +1,15 @@
 # inspire
 
-A CLI that emits a few hundred tokens of inspiration for LLMs whose responses have become too predictable after reinforcement learning.
+A CLI that emits a few hundred tokens of inspiration for LLMs whose creativity collapses under reinforcement learning. 
 
-The intended experience is simple: run `inspire` and receive fresh material that encourages a different direction of thought.
+## Usage
+
+First add inspire to your PATH so your agents can run it.
+Then add the following instructions to your AGENTS.md file:
+
+```text
+Use `inspire` before making a creative decision.
+```
 
 ## Status
 
