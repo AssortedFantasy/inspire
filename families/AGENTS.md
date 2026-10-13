@@ -1,7 +1,6 @@
 # Adding and maintaining the family tree
 
-The filesystem defines the tree. Add or move directories and rebuild; there is
-no required manifest, path ID field, or central registry to synchronize.
+Add or move directories and rebuild to change the sampling tree.
 
 ## Node rules
 
@@ -16,10 +15,6 @@ no required manifest, path ID field, or central registry to synchronize.
 - The root `families/` is only a container for child nodes. It has no incoming
   weight, so do not put `node.toml` or a payload directly at the root.
 - Symlinks are rejected to keep discovery unambiguous and avoid cycles.
-
-For example, `poems/haiku/author-name/records.json` creates three nested nodes.
-Only the final node owns a dataset. The words `poems`, `haiku`, and the author
-name have no special meaning to the sampler.
 
 ## Add a corpus
 
@@ -41,8 +36,7 @@ Provenance must be nonblank. All three fields are required; unknown fields fail
 the build. Metadata stays in source; place any attribution that must accompany
 the stimulus in `text`. Label invented material honestly.
 
-See `poems/haiku/records.json` for the complete example. No configuration is
-needed to use default weights. Records inside a dataset are sampled uniformly.
+See `poems/haiku/records.json` for an example. Records are sampled uniformly.
 Rebuild and try `inspire --family poems/haiku --seed 42`.
 
 ## Add a procedural generator
@@ -58,28 +52,28 @@ pub fn generate(rng: &mut StdRng) -> String {
 }
 ```
 
-The build compiles and registers it automatically. A wrong signature is a compiler
-error. Put meaningful invariant tests in a `#[cfg(test)] mod tests` in this file;
-they run under `cargo test`. See `math/algebra/generator.rs` for equality checks.
+The build compiles and registers it automatically. Put invariant tests in a
+`#[cfg(test)] mod tests` in this file; they run under `cargo test`.
+See `math/algebra/generator.rs` for equality checks.
 
 Return a nonblank stimulus without a trailing newline. Use only the supplied RNG
 and bounded local computation. Do not print, perform runtime I/O, mutate external
 state, or depend on the source directory being present. Keep helper modules as
 files beside `generator.rs`, so moving the directory preserves relative references.
-Format generator files explicitly and run the root README's checks.
+See [root AGENTS.md](../AGENTS.md#tips) for formatting and checks.
 
 ## Move or subdivide a node
 
 To group multiple nodes, create a parent directory and move them inside it.
 Move each entire node directory so its local configuration and helper files follow.
 The build derives new paths automatically; update any documentation and tests that
-intentionally refer to the old paths. There are no compatibility aliases.
+refer to the old paths.
 
 To turn a leaf into a branch, first move its payload into a new child directory.
 For example, move `poems/haiku/records.json` into
 `poems/haiku/generated/records.json` before adding author-specific sibling datasets.
 Decide whether an existing local weight should remain on the new branch or follow
-the old payload. A directory cannot be both a leaf and a branch.
+the old payload.
 
 ## Tune weights
 
@@ -111,9 +105,4 @@ when the other top-level node has weight 1.
 
 After rebuilding, `inspire --list` displays local weights and effective root
 probabilities. Branch rows include their whole subtree; leaf probabilities sum
-to 100%, with displayed rounding. This is inspection data for maintainers, not
-extra text added to ordinary inspiration output.
-
-There are no per-record weights, history, motif tags, or automatic motif detection.
-Curate repetitive records or split them into meaningful weighted subtrees. More
-combinatorial outputs do not establish semantic variety.
+to 100%, with displayed rounding.
