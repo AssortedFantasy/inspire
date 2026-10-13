@@ -25,6 +25,10 @@ For each generator, the build emits a module reference to its discovered
 `generator.rs` and registers `generate(&mut StdRng) -> String`. Generator unit
 tests join the application test suite.
 
+`DATA_SOURCES.md` and family files named `LICENSE`, `LICENSE.txt`, or `LICENSE.md`
+are also embedded, in sorted path order. `--data-licenses` prints the resulting
+dataset notices without initializing an RNG or accessing source files.
+
 Generated files live in Cargo's `OUT_DIR`. Changes under `families/` trigger
 discovery again.
 
@@ -89,6 +93,18 @@ pipes exit quietly; other errors go to stderr with status 1. `--help` prints
 - Calls are independent; repeats are possible.
 - Weights are compiled in; edits require rebuilding.
 - Moving directories changes CLI paths; old paths are not aliases.
+
+## Content review
+
+`scripts/review_content.py` inventories the source tree, computes effective leaf
+and per-record probabilities, detects normalized duplicate texts, and exports
+representative records for editorial review. With `--binary PATH`, it starts a
+temporary loopback dashboard and samples generator seeds through the existing
+API, avoiding one executable launch per output. It closes the server afterward.
+The default checks 128 seeds per generator; `--samples` controls how many outputs
+are included in the JSON report. Distinct text counts measure exact repetition,
+not structural variety or factual quality. Leaf-specific invariant tests and
+human review remain necessary.
 
 ## Dashboard
 

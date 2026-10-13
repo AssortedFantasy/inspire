@@ -15,6 +15,7 @@ cargo install --path . --locked
 inspire
 inspire --help-full
 inspire --list
+inspire --data-licenses
 inspire --family games/dice --seed 42
 inspire --family geography
 ```
@@ -88,6 +89,8 @@ family READMEs. Record metadata is not printed or embedded; required attribution
 belongs in the emitted text. Factual explanations are original paraphrases;
 excerpts identify their authors and works. Coverage is curated rather than
 exhaustive, and random constructions are not uniform over every possible object.
+Dataset license files are embedded and printed by `--data-licenses`; see
+[dataset redistribution notes](DATA_SOURCES.md).
 
 Seeds reproduce samples within a given build. Changing the tree, records,
 generators, or RNG version can change the output for an existing seed.

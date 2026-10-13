@@ -11,6 +11,7 @@ from pathlib import Path
 import subprocess
 import tomllib
 import unicodedata
+import urllib.request
 
 
 ROOT = Path(__file__).resolve().parents[1] / "families"
@@ -25,10 +26,47 @@ def weight(path):
     return tomllib.loads(config.read_text(encoding="utf-8")).get("weight", 1) if config.exists() else 1
 
 
-def review(binary=None, sample_count=3):
+def generator_samples(binary, seeds):
+    """Use the embedded dashboard to avoid launching a process for every seed."""
+    server = subprocess.Popen([str(binary), "--dashboard", "--port", "0"], stdout=subprocess.PIPE,
+                              encoding="utf-8")
+    try:
+        line = server.stdout.readline()
+        if not line.startswith("Dashboard: "):
+            raise RuntimeError(f"Dashboard did not start: {line!r}")
+        base = line.split()[1].rstrip("/")
+
+        def fetch(path):
+            with urllib.request.urlopen(base + path, timeout=30) as response:
+                return json.load(response)
+
+        def generators(node):
+            if node["kind"] == "generator":
+                yield node
+            for child in node["children"]:
+                yield from generators(child)
+
+        results = {}
+        for node in generators(fetch("/api/tree")):
+            outputs = []
+            offset = 0
+            while len(outputs) < seeds:
+                batch = fetch(f"/api/outputs?node={node['id']}&seed=0&offset={offset}")
+                outputs.extend(item["text"] for item in batch["items"])
+                offset = batch["next"]
+            results[node["path"]] = outputs[:seeds]
+        return results
+    finally:
+        server.terminate()
+        server.wait(timeout=10)
+        server.stdout.close()
+
+
+def review(binary=None, sample_count=3, seeds=128):
     families = defaultdict(lambda: Counter(records=0, corpora=0, generators=0))
     texts = defaultdict(list)
     leaves = []
+    generated = generator_samples(binary, max(seeds, sample_count)) if binary else {}
 
     def visit(path, probability):
         children = sorted(p for p in path.iterdir() if p.is_dir())
@@ -54,12 +92,8 @@ def review(binary=None, sample_count=3):
             families[family].update(generators=1)
             entry["kind"] = "generator"
             if binary:
-                outputs = []
-                for seed in range(max(128, sample_count)):
-                    result = subprocess.run([str(binary), "--family", relative, "--seed", str(seed)],
-                                            check=True, capture_output=True, encoding="utf-8")
-                    outputs.append(result.stdout.removesuffix("\n"))
-                entry.update(distinct_in_128=len(set(outputs[:128])),
+                outputs = generated[relative]
+                entry.update(sampled_seeds=seeds, distinct_outputs=len(set(outputs[:seeds])),
                              samples=[{"seed": i, "text": text} for i, text in enumerate(outputs[:sample_count])])
         leaves.append(entry)
 
@@ -75,11 +109,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--binary", type=Path, help="Sample generators with this built executable")
     parser.add_argument("--samples", type=int, default=3, help="Samples per leaf (positive integer)")
+    parser.add_argument("--seeds", type=int, default=128, help="Generator seeds to inspect (positive integer)")
     parser.add_argument("--output", type=Path, help="Save the full JSON report here")
     args = parser.parse_args()
-    if args.samples < 1:
-        parser.error("--samples must be positive")
-    report = review(args.binary.resolve() if args.binary else None, args.samples)
+    if args.samples < 1 or args.seeds < 1:
+        parser.error("--samples and --seeds must be positive")
+    report = review(args.binary.resolve() if args.binary else None, args.samples, args.seeds)
     if args.output:
         args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     for family, counts in report["families"].items():
