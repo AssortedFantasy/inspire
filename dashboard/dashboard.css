@@ -32,10 +32,10 @@ h2:focus { outline: none; }
 .node-kind { display: block; font-size: 11px; color: #54616d; margin-top: 3px; white-space: nowrap; }
 .disabled-nodes { margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; color: #596571; font-size: 12px; }
 .disabled-nodes button { padding: 4px 7px; font-size: 12px; }
-.bridge { height: 105px; position: relative; }
+.bridge { height: 32px; position: relative; }
 .connector { position: absolute; inset: 0; width: 100%; height: 100%; }
 .connector polygon { fill: #edf1f4; stroke: #bbc6cf; stroke-width: 1; vector-effect: non-scaling-stroke; }
-.preview { position: absolute; left: 0; right: 0; top: 12px; background: #fafbfc; border: 1px solid #c7d0d8; padding: 8px 10px; z-index: 2; pointer-events: none; }
+.preview { position: absolute; left: 0; right: 0; top: 6px; background: #fafbfc; border: 1px solid #c7d0d8; padding: 8px 10px; z-index: 2; pointer-events: none; }
 .preview[hidden] { display: none; }
 .preview-title { font-size: 12px; margin-bottom: 7px; }
 .preview-strip { display: flex; height: 36px; border: 1px solid #bdc6cf; }
