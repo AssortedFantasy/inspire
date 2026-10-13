@@ -53,12 +53,46 @@ fn identity(rng: &mut StdRng) -> (Expr, Expr) {
     }
 }
 
+impl Expr {
+    fn precedence(&self) -> u8 {
+        match self {
+            Self::Integer(_) => 3,
+            Self::Binary('*', _, _) => 2,
+            Self::Binary(_, _, _) => 1,
+        }
+    }
+
+    fn fmt_operand(&self, f: &mut fmt::Formatter<'_>, op: char, right: bool) -> fmt::Result {
+        let precedence = if op == '*' { 2 } else { 1 };
+        let parentheses = self.precedence() < precedence
+            || (right && op == '-' && self.precedence() == precedence)
+            || ((right || op == '*') && matches!(self, Self::Integer(n) if *n < 0));
+        if parentheses {
+            write!(f, "({self})")
+        } else {
+            write!(f, "{self}")
+        }
+    }
+}
+
 impl fmt::Display for Expr {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         match self {
-            Self::Integer(n) if *n < 0 => write!(f, "({n})"),
             Self::Integer(n) => write!(f, "{n}"),
-            Self::Binary(op, left, right) => write!(f, "({left} {op} {right})"),
+            Self::Binary(op, left, right) => {
+                left.fmt_operand(f, *op, false)?;
+                // Render addition/subtraction of negative integers with a single sign.
+                if matches!(op, '+' | '-')
+                    && let Self::Integer(n) = right.as_ref()
+                    && *n < 0
+                {
+                    let sign = if *op == '+' { '-' } else { '+' };
+                    write!(f, " {sign} {}", -i64::from(*n))
+                } else {
+                    write!(f, " {op} ")?;
+                    right.fmt_operand(f, *op, true)
+                }
+            }
         }
     }
 }
@@ -67,6 +101,33 @@ impl fmt::Display for Expr {
 mod tests {
     use super::*;
     use rand::SeedableRng;
+
+    #[test]
+    fn formatting_preserves_grouping_and_cleans_up_signs() {
+        let n = Expr::Integer;
+        for (expr, expected) in [
+            (binary('*', n(8), binary('+', n(8), n(-3))), "8 * (8 - 3)"),
+            (
+                binary('+', binary('*', n(8), n(8)), binary('*', n(8), n(-3))),
+                "8 * 8 + 8 * (-3)",
+            ),
+            (binary('-', n(3), binary('-', n(3), n(8))), "3 - (3 - 8)"),
+            (binary('-', n(3), binary('+', n(4), n(5))), "3 - (4 + 5)"),
+            (binary('+', binary('-', n(3), n(3)), n(8)), "3 - 3 + 8"),
+            (
+                binary('*', binary('+', n(8), n(6)), binary('-', n(8), n(6))),
+                "(8 + 6) * (8 - 6)",
+            ),
+            (binary('-', n(-2), n(-9)), "-2 + 9"),
+            (binary('*', n(-2), n(-9)), "(-2) * (-9)"),
+            (
+                binary('-', binary('*', n(-2), n(-2)), binary('*', n(-9), n(-9))),
+                "(-2) * (-2) - (-9) * (-9)",
+            ),
+        ] {
+            assert_eq!(expr.to_string(), expected);
+        }
+    }
 
     fn evaluate(expr: &Expr) -> i64 {
         match expr {
