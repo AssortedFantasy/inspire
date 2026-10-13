@@ -36,6 +36,9 @@ for material that benefits from constrained random construction.
    [the geography importer](geography/import_data.py) for an example.
 3. Keep raw downloads and temporary files outside the sampling tree. Commit the
    resulting records and useful importer/source notes; runtime stays offline.
+   Use `python -B` when importing helper modules so `__pycache__` directories do
+   not become invalid sampling nodes. Put download caches under `target/` or the
+   system temporary directory.
 4. Validate the schema, then spot-check the actual emitted text across categories.
    Check for prompt-like framing, errors, duplicates, misleading labels, and
    repetitive filler. A large record count or valid JSON does not establish quality.
@@ -43,6 +46,11 @@ for material that benefits from constrained random construction.
 When no suitable dataset exists, use verified primary material or a bounded
 generator and document that choice. A reference URL alone is not evidence that
 an LLM-authored record was downloaded from, or checked against, that source.
+
+Store required full dataset notices in a file named `LICENSE`, `LICENSE.txt`, or
+`LICENSE.md` within the associated branch. The build embeds those files for
+`--data-licenses`. Attribution required with each sampled record belongs in its
+emitted `text` as well. See [dataset redistribution notes](../DATA_SOURCES.md).
 
 ## Node rules
 
@@ -103,7 +111,7 @@ pub fn generate(rng: &mut StdRng) -> String {
 
 The build compiles and registers it automatically. Put invariant tests in a
 `#[cfg(test)] mod tests` in this file; they run under `cargo test`.
-See `math/algebra/generator.rs` for equality checks.
+See `math/algebra/polynomials/identities/generator.rs` for equality checks.
 
 Return a nonblank stimulus without a trailing newline. Use only the supplied RNG
 and bounded local computation. Do not print, perform runtime I/O, mutate external

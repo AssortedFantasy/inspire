@@ -20,6 +20,8 @@ Keep this up to date; list only important files and directories.
 - `src/`: CLI, packed layouts, sampling, and chunk retrieval.
 - `src/dashboard.rs`, `dashboard/`: embedded local server and output explorer.
 - `tests/`: build-tree and CLI integration tests.
+- `scripts/review_content.py`: counts, probabilities, duplicate checks, and output samples.
+- [DATA_SOURCES.md](DATA_SOURCES.md): embedded dataset redistribution notices.
 - [docs/architecture.md](docs/architecture.md): build and runtime details.
 
 # Tips
