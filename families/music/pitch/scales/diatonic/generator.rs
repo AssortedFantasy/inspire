@@ -1,0 +1,56 @@
+use rand::{Rng, rngs::StdRng};
+
+const NAMES: [&str; 12] = [
+    "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B",
+];
+const MODES: [&str; 7] = [
+    "Ionian",
+    "Dorian",
+    "Phrygian",
+    "Lydian",
+    "Mixolydian",
+    "Aeolian",
+    "Locrian",
+];
+const MAJOR: [u8; 7] = [0, 2, 4, 5, 7, 9, 11];
+
+fn intervals(mode: usize) -> Vec<u8> {
+    (0..7)
+        .map(|i| (MAJOR[(i + mode) % 7] + 12 - MAJOR[mode]) % 12)
+        .collect()
+}
+
+pub fn generate(rng: &mut StdRng) -> String {
+    let root: u8 = rng.random_range(0..12);
+    let mode = rng.random_range(0..7);
+    let steps = intervals(mode);
+    let notes: Vec<_> = steps
+        .iter()
+        .map(|i| NAMES[((root + i) % 12) as usize])
+        .collect();
+    format!(
+        "{} {} mode\nAscending pitch classes: {}.\nSemitones above tonic: {:?}. Twelve-tone equal temperament; pitch-class labels use sharps.",
+        NAMES[root as usize],
+        MODES[mode],
+        notes.join(" – "),
+        steps
+    )
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    fn modes_rotate_the_diatonic_step_pattern() {
+        for mode in 0..7 {
+            let steps = intervals(mode);
+            assert_eq!(steps[0], 0);
+            assert!(steps.windows(2).all(|w| w[0] < w[1]));
+            let gaps: Vec<_> = (0..7)
+                .map(|i| (steps[(i + 1) % 7] + 12 - steps[i]) % 12)
+                .collect();
+            assert_eq!(gaps.iter().filter(|&&g| g == 1).count(), 2);
+            assert_eq!(gaps.iter().filter(|&&g| g == 2).count(), 5);
+        }
+    }
+}

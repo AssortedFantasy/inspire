@@ -52,8 +52,9 @@ Use `inspire` before making a decision.
 
 ## Dataset
 
-The collection contains 2,134 records in 67 corpora and 13 procedural
-generators, organized under 15 top-level families.
+Fifteen top-level families combine downloaded corpora with bounded procedural
+generators. `inspire --list` shows the tree embedded in the current build;
+`python scripts/review_content.py` reports source record and generator counts.
 
 Select any branch or leaf with `--family`. Omit it to sample the whole tree.
 
@@ -62,26 +63,26 @@ Select any branch or leaf with `--family`. Omit it to sample the whole tree.
 | `chemistry` | Chemical compounds and balanced equations |
 | `design` | Coordinated wardrobes and SPICE circuits |
 | `games` | Dice, Sudoku, tic-tac-toe positions, chess openings |
-| `geography` | Real cities and administrative subdivisions |
+| `geography` | Settlements, administrative regions, countries, landforms, and waters |
 | `history` | Customs, inventions, and everyday practices |
 | `language` | Idioms, proverbs, etymologies, grammatical constructions |
 | `literature` | Public-domain quotations and passages, literary forms |
-| `math` | Algebraic identities, integrals, finite groups, mathematical concepts |
+| `math` | Exact algebra, analysis, geometry, graph objects, topology, and probability |
 | `mechanisms` | Mechanical, fluid, and control mechanisms |
-| `music` | Song titles and artists from a historical year-end chart |
-| `natural-world` | Animals, adaptations, geology, and weather |
+| `music` | Classical works, instruments, scales, harmony, rhythms, and melodic phrases |
+| `natural-world` | Species and biological traits, adaptations, plants, and natural processes |
 | `objects` | Actual car make, model, and year combinations |
 | `people` | Notable people grouped by field |
 | `procedures` | Algorithms, crafts, cooking, and experimental methods |
 | `random` | Dates and times, colors, and UUIDs |
 
 Weights are local to siblings: a larger corpus does not automatically receive
-more samples. Broad top-level families have weight 2; the narrower music and car
-collections and raw random values have weight 1. Names within `people`,
+more samples. Broad top-level families have weight 2; the car collection and raw
+random values have weight 1. Names within `people`,
 `objects/cars`, `natural-world/animals`, and `geography/subdivisions` have equal
-per-record shares across their folders. Geography favors cities over subdivisions
-3:1 while balancing city continents equally. Other children default to equal
-shares, except colors and dates each have twice UUID's share. `--list` shows the
+per-record shares across their folders. Other branches balance subjects rather
+than corpus size; family READMEs explain their local choices. Colors and dates
+each have twice UUID's share. `--list` shows the
 effective probabilities. Calls are independent, so repeats are possible.
 
 Source URLs and reuse notes live in each record's `provenance` field and in
