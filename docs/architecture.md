@@ -102,6 +102,8 @@ connection after a response. Requests have bounded headers and socket timeouts.
 counts, and effective probabilities. The UI sizes sibling rectangles by local
 weight, previews children on hover or keyboard focus, and keeps the chosen path
 above the output stream. Zero-weight children are separate inspectable controls.
+Dashboard percentages use at most one decimal place; positive values below
+0.1% display as `<0.1%`. Calculations and rectangle widths retain full precision.
 
 `/api/outputs?node=ID&seed=U64&offset=U64` returns up to 12 outputs and the next
 offset. Datasets shuffle record indexes from the stream seed, then page through

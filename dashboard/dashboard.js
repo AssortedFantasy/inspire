@@ -3,7 +3,9 @@
 const explorer = document.querySelector("#explorer");
 const jump = document.querySelector("#jump");
 const palette = [28, 45, 165, 205, 95, 260, 325, 185, 38, 135, 218, 285, 10, 65, 240];
-const percent = value => `${Number((value * 100).toPrecision(5))}%`;
+const percent = value => value > 0 && value < 0.001
+  ? "<0.1%"
+  : `${Number((value * 100).toFixed(1))}%`;
 const label = node => node.name.replaceAll("-", " ");
 const randomSeed = () => {
   const words = crypto.getRandomValues(new Uint32Array(2));
