@@ -25,7 +25,7 @@ impl Tree<'_> {
         &self.children[first as usize..first as usize + count as usize]
     }
 
-    fn name(&self, index: usize) -> &str {
+    pub fn name(&self, index: usize) -> &str {
         let Name { offset, len } = self.names[index];
         std::str::from_utf8(&self.name_bytes[offset as usize..offset as usize + len as usize])
             .expect("build validates node names")

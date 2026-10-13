@@ -18,8 +18,8 @@ Record texts are packed without separators into chunks of at most 64 KiB of
 decoded UTF-8. Records remain whole; oversized records occupy their own chunks.
 Chunks can span corpuses. Each chunk is independently compressed as a zlib-wrapped
 DEFLATE stream using `miniz_oxide`; all streams share one embedded byte array.
-Record IDs and provenance stay in source JSON. TOML/JSON parsing is absent from
-the release runtime.
+Record IDs and provenance stay in source JSON. TOML and source JSON parsing is
+absent from the release runtime; the dashboard uses JSON for its local API.
 
 For each generator, the build emits a module reference to its discovered
 `generator.rs` and registers `generate(&mut StdRng) -> String`. Generator unit
@@ -89,6 +89,32 @@ pipes exit quietly; other errors go to stderr with status 1. `--help` prints
 - Calls are independent; repeats are possible.
 - Weights are compiled in; edits require rebuilding.
 - Moving directories changes CLI paths; old paths are not aliases.
+
+## Dashboard
+
+`--dashboard [--port INTEGER]` starts a loopback HTTP server in
+`src/dashboard.rs`. Its HTML, CSS, and JavaScript under `dashboard/` are embedded
+with `include_str!`; there is no separate build or runtime dependency. The server
+prints its URL, accepts GET requests at that loopback address, and closes each
+connection after a response. Requests have bounded headers and socket timeouts.
+
+`/api/tree` exposes node IDs, names, paths, source kinds, local weights, record
+counts, and effective probabilities. The UI sizes sibling rectangles by local
+weight, previews children on hover or keyboard focus, and keeps the chosen path
+above the output stream. Zero-weight children are separate inspectable controls.
+
+`/api/outputs?node=ID&seed=U64&offset=U64` returns up to 12 outputs and the next
+offset. Datasets shuffle record indexes from the stream seed, then page through
+that permutation without replacement. They terminate at the record count.
+Generators use `seed.wrapping_add(offset + batch_position)` for each output and
+initialize the same RNG used by explicit CLI leaf sampling. Each output includes
+its seed as a decimal string to avoid JavaScript integer precision loss and allow
+CLI reproduction. Generator streams have no dataset-style endpoint.
+
+The browser appends outputs in normal document flow using an intersection
+observer, with a manual load/retry button. Changing the path or restarting a
+stream cancels pending fetches and discards stale responses. The server processes
+one request at a time to bound simultaneous generation and decompression.
 
 ## Release builds
 

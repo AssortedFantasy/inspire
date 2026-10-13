@@ -1,4 +1,5 @@
 mod cli;
+mod dashboard;
 mod layout;
 mod payload;
 mod tree;
@@ -31,6 +32,10 @@ fn run() -> Result<String, String> {
         cli::Action::FullHelp => return Ok(cli::FULL_HELP.into()),
         cli::Action::Version => return Ok(format!("inspire {}", env!("CARGO_PKG_VERSION"))),
         cli::Action::List => return Ok(TREE.listing()),
+        cli::Action::Dashboard => {
+            dashboard::serve(options.port.unwrap_or(8765))?;
+            return Ok(String::new());
+        }
         cli::Action::Sample => (),
     }
 

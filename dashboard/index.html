@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inspire — output dashboard</title>
+  <link rel="stylesheet" href="/dashboard.css">
+  <script src="/dashboard.js" defer></script>
+</head>
+<body>
+  <header>
+    <div><h1>Inspire <span>Output dashboard</span></h1>
+      <p>Width represents sibling weight. Hover to preview; click to explore.</p></div>
+    <div class="navigation">
+      <label for="jump">Jump to leaf</label>
+      <select id="jump" disabled><option value="">Choose a leaf…</option></select>
+      <button id="reset" type="button">Reset view</button>
+    </div>
+  </header>
+  <main id="explorer" aria-label="Sampling tree"><p role="status">Loading tree…</p></main>
+</body>
+</html>

@@ -5,6 +5,7 @@ pub enum Action {
     FullHelp,
     Version,
     List,
+    Dashboard,
 }
 
 #[derive(Debug)]
@@ -12,6 +13,7 @@ pub struct Options {
     pub action: Action,
     pub family: Option<String>,
     pub seed: Option<u64>,
+    pub port: Option<u16>,
 }
 
 pub const HELP: &str = "Generates a bit of inspiration";
@@ -19,11 +21,14 @@ pub const HELP: &str = "Generates a bit of inspiration";
 pub const FULL_HELP: &str = "
 Usage: inspire [--family PATH] [--seed INTEGER]
        inspire --list
+       inspire --dashboard [--port INTEGER]
 
 Options:
   --family PATH   Sample a branch or leaf, e.g. games/dice (use / on all platforms)
   --seed INTEGER  Reproduce a sample with an unsigned 64-bit seed
   --list          Show the tree, local weights, and effective probabilities
+  --dashboard     Serve the output dashboard locally (Ctrl+C to stop)
+  --port INTEGER  Dashboard port (default 8765; 0 chooses an available port)
   -h, --help      Show a brief description
   --help-full     Show detailed help
   -V, --version   Show the version
@@ -36,6 +41,7 @@ pub fn parse(args: impl IntoIterator<Item = String>) -> Result<Options, String> 
         action: Action::Sample,
         family: None,
         seed: None,
+        port: None,
     };
     while let Some(arg) = args.next() {
         match arg.as_str() {
@@ -60,12 +66,24 @@ pub fn parse(args: impl IntoIterator<Item = String>) -> Result<Options, String> 
                         .map_err(|_| "--seed requires an unsigned 64-bit integer")?,
                 );
             }
-            "--list" | "-h" | "--help" | "--help-full" | "-V" | "--version" => {
+            "--port" => {
+                if options.port.is_some() {
+                    return Err("--port specified twice".into());
+                }
+                options.port = Some(
+                    args.next()
+                        .ok_or("--port requires an integer from 0 to 65535")?
+                        .parse()
+                        .map_err(|_| "--port requires an integer from 0 to 65535")?,
+                );
+            }
+            "--dashboard" | "--list" | "-h" | "--help" | "--help-full" | "-V" | "--version" => {
                 if options.action != Action::Sample {
                     return Err("choose only one informational flag".into());
                 }
                 options.action = match arg.as_str() {
                     "--list" => Action::List,
+                    "--dashboard" => Action::Dashboard,
                     "-h" | "--help" => Action::Help,
                     "--help-full" => Action::FullHelp,
                     _ => Action::Version,
@@ -76,6 +94,9 @@ pub fn parse(args: impl IntoIterator<Item = String>) -> Result<Options, String> 
     }
     if options.action != Action::Sample && (options.family.is_some() || options.seed.is_some()) {
         return Err("--family and --seed apply only when sampling".into());
+    }
+    if options.port.is_some() && options.action != Action::Dashboard {
+        return Err("--port applies only with --dashboard".into());
     }
     Ok(options)
 }
@@ -94,6 +115,11 @@ mod tests {
             vec!["--family", "--list"],
             vec!["--wat"],
             vec!["--list", "--seed", "1"],
+            vec!["--port", "0"],
+            vec!["--dashboard", "--seed", "1"],
+            vec!["--dashboard", "--list"],
+            vec!["--dashboard", "--port", "65536"],
+            vec!["--dashboard", "--port"],
         ] {
             assert!(parse(args.into_iter().map(str::to_owned)).is_err());
         }

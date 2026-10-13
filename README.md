@@ -22,6 +22,26 @@ inspire --family geography
 Cargo's bin directory must be on `PATH`.
 Build only: `cargo build --release --locked`.
 
+## Output dashboard
+
+Run `inspire --dashboard`, then open the printed URL (normally
+`http://127.0.0.1:8765/`). Use `--port 0` to choose an available port, or
+`--port INTEGER` to choose one yourself. Stop the server with Ctrl+C.
+
+Each row splits a branch into rectangles proportional to sibling weights.
+Hover or focus a rectangle to preview its children; click to expand the next
+row and scroll to it. Ancestors remain visible above. The leaf selector jumps
+directly to an output stream. Narrow screens can scroll rows horizontally.
+
+At a leaf, the dashboard shows the full path's weighted probability and appends
+outputs as you scroll. Datasets appear in shuffled order without repeats and
+stop after every record; **Reshuffle** starts another pass. Generators continue
+indefinitely. Copy a generator's CLI command to reproduce an output. Zero-weight
+nodes remain inspectable, with their probability shown as zero.
+
+The dashboard, tree, and outputs are embedded in the same executable. It serves
+only on loopback and needs no internet, source files, or frontend installation.
+
 For an agent, add this to the consuming project's `AGENTS.md`, or your global
 `AGENTS.md`:
 
