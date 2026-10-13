@@ -32,6 +32,11 @@ fn run() -> Result<String, String> {
         cli::Action::FullHelp => return Ok(cli::FULL_HELP.into()),
         cli::Action::Version => return Ok(format!("inspire {}", env!("CARGO_PKG_VERSION"))),
         cli::Action::List => return Ok(TREE.listing()),
+        cli::Action::DataLicenses => {
+            return Ok(include_str!(concat!(env!("OUT_DIR"), "/data-licenses.txt"))
+                .trim_end()
+                .to_owned());
+        }
         cli::Action::Dashboard => {
             dashboard::serve(options.port.unwrap_or(8765))?;
             return Ok(String::new());

@@ -82,6 +82,15 @@ fn listing_and_help_respect_the_cli_contract() {
 }
 
 #[test]
+fn dataset_notices_are_available_without_the_source_checkout() {
+    let output = invoke(&["--data-licenses"]);
+    assert!(output.status.success());
+    let text = String::from_utf8(output.stdout).unwrap();
+    assert!(text.contains("Dataset sources and redistribution"));
+    assert!(text.contains("family READMEs"));
+}
+
+#[test]
 fn invalid_input_uses_stderr_and_fails() {
     for args in [
         vec!["--family", "//missing"],

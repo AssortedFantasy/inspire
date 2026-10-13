@@ -5,6 +5,7 @@ pub enum Action {
     FullHelp,
     Version,
     List,
+    DataLicenses,
     Dashboard,
 }
 
@@ -22,11 +23,13 @@ pub const FULL_HELP: &str = "
 Usage: inspire [--family PATH] [--seed INTEGER]
        inspire --list
        inspire --dashboard [--port INTEGER]
+       inspire --data-licenses
 
 Options:
   --family PATH   Sample a branch or leaf, e.g. games/dice (use / on all platforms)
   --seed INTEGER  Reproduce a sample with an unsigned 64-bit seed
   --list          Show the tree, local weights, and effective probabilities
+  --data-licenses Show source attribution and bundled dataset licenses
   --dashboard     Serve the output dashboard locally (Ctrl+C to stop)
   --port INTEGER  Dashboard port (default 8765; 0 chooses an available port)
   -h, --help      Show a brief description
@@ -77,12 +80,14 @@ pub fn parse(args: impl IntoIterator<Item = String>) -> Result<Options, String> 
                         .map_err(|_| "--port requires an integer from 0 to 65535")?,
                 );
             }
-            "--dashboard" | "--list" | "-h" | "--help" | "--help-full" | "-V" | "--version" => {
+            "--dashboard" | "--list" | "--data-licenses" | "-h" | "--help" | "--help-full"
+            | "-V" | "--version" => {
                 if options.action != Action::Sample {
                     return Err("choose only one informational flag".into());
                 }
                 options.action = match arg.as_str() {
                     "--list" => Action::List,
+                    "--data-licenses" => Action::DataLicenses,
                     "--dashboard" => Action::Dashboard,
                     "-h" | "--help" => Action::Help,
                     "--help-full" => Action::FullHelp,
