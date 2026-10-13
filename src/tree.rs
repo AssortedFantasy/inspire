@@ -1,78 +1,128 @@
+use crate::layout::{Name, Node, Source};
 use rand::{Rng, rngs::StdRng};
 use std::fmt::Write;
 
-pub struct Node {
-    pub path: &'static str,
-    pub weight: u32,
-    pub source: Source,
+pub struct Tree<'a> {
+    pub nodes: &'a [Node],
+    pub children: &'a [u32],
+    pub names: &'a [Name],
+    pub name_bytes: &'a [u8],
 }
 
-pub enum Source {
-    Branch {
-        children: &'static [usize],
-        total: u64,
-    },
-    Corpus {
-        bytes: &'static [u8],
-        count: u64,
-        decoded_len: usize,
-    },
-    Generator(fn(&mut StdRng) -> String),
-}
-
-fn child_for_ticket(nodes: &[Node], children: &[usize], mut ticket: u64) -> usize {
+fn child_for_ticket(nodes: &[Node], children: &[u32], mut ticket: u64) -> usize {
     for &index in children {
-        let weight = u64::from(nodes[index].weight);
+        let weight = u64::from(nodes[index as usize].weight);
         if ticket < weight {
-            return index;
+            return index as usize;
         }
         ticket -= weight;
     }
     unreachable!("ticket must be below the branch's positive total")
 }
 
-pub fn sample_leaf<'a>(nodes: &'a [Node], mut index: usize, rng: &mut StdRng) -> &'a Node {
-    while let Source::Branch { children, total } = nodes[index].source {
-        index = child_for_ticket(nodes, children, rng.random_range(0..total));
+impl Tree<'_> {
+    fn child_range(&self, first: u32, count: u32) -> &[u32] {
+        &self.children[first as usize..first as usize + count as usize]
     }
-    &nodes[index]
-}
 
-pub fn listing(nodes: &[Node]) -> String {
-    fn visit(nodes: &[Node], index: usize, depth: usize, probability: f64, output: &mut String) {
-        let node = &nodes[index];
+    fn name(&self, index: usize) -> &str {
+        let Name { offset, len } = self.names[index];
+        std::str::from_utf8(&self.name_bytes[offset as usize..offset as usize + len as usize])
+            .expect("build validates node names")
+    }
+
+    pub fn resolve(&self, path: &str) -> Option<usize> {
+        let mut index = 0;
+        for segment in path.split('/') {
+            let Source::Branch {
+                first_child,
+                child_count,
+                ..
+            } = self.nodes[index].source
+            else {
+                return None;
+            };
+            let children = self.child_range(first_child, child_count);
+            let position = children
+                .binary_search_by(|&child| self.name(child as usize).cmp(segment))
+                .ok()?;
+            index = children[position] as usize;
+        }
+        Some(index)
+    }
+
+    pub fn sample_leaf(&self, mut index: usize, rng: &mut StdRng) -> usize {
+        while let Source::Branch {
+            first_child,
+            child_count,
+            total_weight,
+        } = self.nodes[index].source
+        {
+            index = child_for_ticket(
+                self.nodes,
+                self.child_range(first_child, child_count),
+                rng.random_range(0..total_weight),
+            );
+        }
+        index
+    }
+
+    pub fn listing(&self) -> String {
+        let mut output = String::new();
+        self.visit(0, 0, 1.0, &mut String::new(), &mut output);
+        output.pop();
+        output
+    }
+
+    fn visit(
+        &self,
+        index: usize,
+        depth: usize,
+        probability: f64,
+        path: &mut String,
+        output: &mut String,
+    ) {
+        let saved_len = path.len();
+        let node = &self.nodes[index];
         if index != 0 {
+            if !path.is_empty() {
+                path.push('/');
+            }
+            path.push_str(self.name(index));
             let kind = match node.source {
                 Source::Branch { .. } => "branch",
-                Source::Corpus { .. } => "corpus",
+                Source::Corpus(_) => "corpus",
                 Source::Generator(_) => "generator",
             };
             writeln!(
                 output,
-                "{}{} [{kind}]\tweight={}\teffective={:.4}%",
-                "  ".repeat(depth - 1),
-                node.path,
+                "{:indent$}{path} [{kind}]\tweight={}\teffective={:.4}%",
+                "",
                 node.weight,
-                probability * 100.0
+                probability * 100.0,
+                indent = (depth - 1) * 2
             )
             .unwrap();
         }
-        if let Source::Branch { children, total } = node.source {
-            for &child in children {
-                visit(
-                    nodes,
-                    child,
+        if let Source::Branch {
+            first_child,
+            child_count,
+            total_weight,
+        } = node.source
+        {
+            for &child in self.child_range(first_child, child_count) {
+                self.visit(
+                    child as usize,
                     depth + 1,
-                    probability * f64::from(nodes[child].weight) / total as f64,
+                    probability * f64::from(self.nodes[child as usize].weight)
+                        / total_weight as f64,
+                    path,
                     output,
                 );
             }
         }
+        path.truncate(saved_len);
     }
-    let mut output = String::new();
-    visit(nodes, 0, 0, 1.0, &mut output);
-    output.pop();
-    output
 }
 
 #[cfg(test)]
@@ -80,67 +130,72 @@ mod tests {
     use super::*;
     use rand::SeedableRng;
 
-    fn dummy(_: &mut StdRng) -> String {
-        "example".into()
-    }
-
-    // Sibling branches receive 1:2 weight regardless of their leaf counts.
-    static FIXTURE: &[Node] = &[
-        Node {
-            path: "",
-            weight: 1,
-            source: Source::Branch {
-                children: &[1, 2, 5],
-                total: 3,
+    // Sorted siblings; branch weights are independent of their leaf counts.
+    static FIXTURE: Tree<'static> = Tree {
+        nodes: &[
+            Node {
+                weight: 1,
+                source: Source::Branch {
+                    first_child: 0,
+                    child_count: 3,
+                    total_weight: 3,
+                },
             },
-        },
-        Node {
-            path: "poems",
-            weight: 1,
-            source: Source::Generator(dummy),
-        },
-        Node {
-            path: "math",
-            weight: 2,
-            source: Source::Branch {
-                children: &[3, 4],
-                total: 4,
+            Node {
+                weight: 0,
+                source: Source::Branch {
+                    first_child: 3,
+                    child_count: 1,
+                    total_weight: 1,
+                },
             },
-        },
-        Node {
-            path: "math/algebra",
-            weight: 1,
-            source: Source::Generator(dummy),
-        },
-        Node {
-            path: "math/geometry",
-            weight: 3,
-            source: Source::Generator(dummy),
-        },
-        Node {
-            path: "disabled",
-            weight: 0,
-            source: Source::Branch {
-                children: &[6],
-                total: 1,
+            Node {
+                weight: 1,
+                source: Source::Generator(0),
             },
-        },
-        Node {
-            path: "disabled/leaf",
-            weight: 1,
-            source: Source::Generator(dummy),
-        },
-    ];
+            Node {
+                weight: 2,
+                source: Source::Branch {
+                    first_child: 4,
+                    child_count: 2,
+                    total_weight: 4,
+                },
+            },
+            Node {
+                weight: 1,
+                source: Source::Generator(0),
+            },
+            Node {
+                weight: 3,
+                source: Source::Generator(0),
+            },
+            Node {
+                weight: 1,
+                source: Source::Generator(0),
+            },
+        ],
+        children: &[1, 3, 6, 2, 4, 5],
+        names: &[
+            Name { offset: 0, len: 0 },
+            Name { offset: 0, len: 8 },
+            Name { offset: 8, len: 4 },
+            Name { offset: 12, len: 4 },
+            Name { offset: 16, len: 7 },
+            Name { offset: 23, len: 8 },
+            Name { offset: 31, len: 5 },
+        ],
+        name_bytes: b"disabledleafmathalgebrageometrypoems",
+    };
 
     #[test]
     fn sibling_weights_define_exact_intervals() {
-        assert_eq!(child_for_ticket(FIXTURE, &[1, 2, 5], 0), 1);
-        assert_eq!(child_for_ticket(FIXTURE, &[1, 2, 5], 1), 2);
-        assert_eq!(child_for_ticket(FIXTURE, &[1, 2, 5], 2), 2);
+        assert_eq!(child_for_ticket(FIXTURE.nodes, &[1, 3, 6], 0), 3);
+        assert_eq!(child_for_ticket(FIXTURE.nodes, &[1, 3, 6], 1), 3);
+        assert_eq!(child_for_ticket(FIXTURE.nodes, &[1, 3, 6], 2), 6);
         for ticket in 0..4 {
             assert_eq!(
-                child_for_ticket(FIXTURE, &[3, 4], ticket),
-                if ticket == 0 { 3 } else { 4 }
+                child_for_ticket(FIXTURE.nodes, &[4, 5], ticket),
+                if ticket == 0 { 4 } else { 5 }
             );
         }
     }
@@ -149,23 +204,45 @@ mod tests {
     fn subtree_sampling_stays_inside_and_explicit_selection_bypasses_incoming_weight() {
         let mut rng = StdRng::seed_from_u64(42);
         for _ in 0..100 {
-            assert!(sample_leaf(FIXTURE, 2, &mut rng).path.starts_with("math/"));
-            assert!(
-                !sample_leaf(FIXTURE, 0, &mut rng)
-                    .path
-                    .starts_with("disabled/")
-            );
+            assert!([4, 5].contains(&FIXTURE.sample_leaf(3, &mut rng)));
+            assert_ne!(FIXTURE.sample_leaf(0, &mut rng), 2);
         }
-        assert_eq!(sample_leaf(FIXTURE, 5, &mut rng).path, "disabled/leaf");
-        assert_eq!(sample_leaf(FIXTURE, 6, &mut rng).path, "disabled/leaf");
+        assert_eq!(FIXTURE.sample_leaf(1, &mut rng), 2);
+        assert_eq!(FIXTURE.sample_leaf(2, &mut rng), 2);
     }
 
     #[test]
-    fn listing_multiplies_probabilities_along_the_path() {
-        let output = listing(FIXTURE);
+    fn paths_resolve_segments_and_reject_partial_or_malformed_paths() {
+        for (path, index) in [
+            ("math", 3),
+            ("math/algebra", 4),
+            ("poems", 6),
+            ("disabled/leaf", 2),
+        ] {
+            assert_eq!(FIXTURE.resolve(path), Some(index));
+        }
+        for path in [
+            "",
+            "/math",
+            "math/",
+            "math//algebra",
+            "math/algebra/extra",
+            "Math",
+            "math\\algebra",
+            "algebra",
+            "mat",
+        ] {
+            assert_eq!(FIXTURE.resolve(path), None, "{path}");
+        }
+    }
+
+    #[test]
+    fn listing_multiplies_probabilities_and_restores_paths_between_siblings() {
+        let output = FIXTURE.listing();
         assert!(output.contains("math [branch]\tweight=2\teffective=66.6667%"));
         assert!(output.contains("math/algebra [generator]\tweight=1\teffective=16.6667%"));
         assert!(output.contains("math/geometry [generator]\tweight=3\teffective=50.0000%"));
         assert!(output.contains("disabled/leaf [generator]\tweight=1\teffective=0.0000%"));
+        assert!(output.ends_with("poems [generator]\tweight=1\teffective=33.3333%"));
     }
 }

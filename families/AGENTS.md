@@ -31,7 +31,7 @@ Create a leaf directory anywhere under a branch and add `records.json`:
 ```
 
 The array must be nonempty. IDs must be nonblank and unique within this dataset.
-Text must be nonblank and cannot contain NUL (`\u0000`), the internal separator.
+Text must be nonblank and cannot contain NUL (`\u0000`).
 Provenance must be nonblank. All three fields are required; unknown fields fail
 the build. Metadata stays in source; place any attribution that must accompany
 the stimulus in `text`. Label invented material honestly.

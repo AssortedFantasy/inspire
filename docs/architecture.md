@@ -10,14 +10,16 @@ the format, validation, and weighting examples.
 ## Build time
 
 `build.rs` calls `build_support.rs` to recursively discover the tree in sorted
-directory order. It emits a flat node array with branch child indexes and
-precomputed sibling-weight totals.
+directory order. It emits depth-first nodes, packed child indexes, and
+precomputed sibling-weight totals. Each branch references a contiguous range in
+the child-index array; those indexes need not be adjacent in the node array.
 
-For each dataset, the build joins UTF-8 record texts with NUL separators and
-compresses them into one zlib-wrapped DEFLATE stream using `miniz_oxide`.
-Record IDs and provenance stay in readable source JSON. Each leaf has its own
-stream; the registry embeds its compressed bytes, record count, and decoded
-length. TOML/JSON parsing is absent from the release runtime.
+Record texts are packed without separators into chunks of at most 64 KiB of
+decoded UTF-8. Records remain whole; oversized records occupy their own chunks.
+Chunks can span corpuses. Each chunk is independently compressed as a zlib-wrapped
+DEFLATE stream using `miniz_oxide`; all streams share one embedded byte array.
+Record IDs and provenance stay in source JSON. TOML/JSON parsing is absent from
+the release runtime.
 
 For each generator, the build emits a module reference to its discovered
 `generator.rs` and registers `generate(&mut StdRng) -> String`. Generator unit
@@ -26,6 +28,26 @@ tests join the application test suite.
 Generated files live in Cargo's `OUT_DIR`. Changes under `families/` trigger
 discovery again.
 
+## Embedded layout
+
+`src/layout.rs` defines the shared build/runtime descriptors. All indexes, counts,
+and byte offsets are checked at build time to fit `u32`; weight totals use `u64`.
+
+| Array | Contents |
+| --- | --- |
+| `NODES` | Local weight and branch, corpus, or generator source |
+| `CHILDREN` | Node indexes; branches store a first index and count |
+| `NAMES`, `NAME_BYTES` | Local name byte ranges, indexed alongside nodes |
+| `CORPUSES` | First record index and record count |
+| `RECORDS` | Chunk index, decoded byte offset, and byte length |
+| `CHUNKS` | Compressed byte offset, compressed length, and decoded length |
+| `COMPRESSED_BYTES` | Concatenated independent compressed streams |
+| `GENERATORS` | Registered generator functions |
+
+Full paths are not embedded. Explicit family lookup walks path segments using
+binary search among sorted child names. Listing constructs paths with one reusable
+buffer. Sampling only reads nodes and child indexes, without accessing names.
+
 ## Runtime and probabilities
 
 1. Parse the CLI. Help, version, and listing do not initialize an RNG.
@@ -33,9 +55,10 @@ discovery again.
 3. Initialize a seeded RNG, or seed it from the operating system.
 4. At each branch, draw an integer ticket within the sum of child weights and
    select the corresponding child. Repeat until reaching a leaf.
-5. For a dataset, choose a uniform record index, decompress only that dataset,
-   and extract its text. The decoded-length bound limits decompression.
-   For a generator, call its function with the same RNG.
+5. For a corpus, choose a uniform record index and decompress only its chunk.
+   Extract the indexed byte range and validate that record's UTF-8. Retrieval
+   reuses the decompression buffer for the output string. The decoded-length bound
+   limits decompression. For a generator, call its function with the same RNG.
 6. Write the stimulus plus a newline and exit.
 
 For a node c under parent p:
@@ -60,7 +83,9 @@ pipes exit quietly; other errors go to stderr with status 1. `--help` prints
 
 ## Limits
 
-- Retrieval decompresses the entire selected dataset and scans to the record.
+- Retrieval decompresses one whole chunk, including other records packed into it.
+- Oversized records exceed the normal chunk limit; retrieval scales with their size.
+- Packed arrays and byte buffers must each fit the 32-bit layout limits.
 - Calls are independent; repeats are possible.
 - Weights are compiled in; edits require rebuilding.
 - Moving directories changes CLI paths; old paths are not aliases.

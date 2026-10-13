@@ -17,7 +17,7 @@ Keep this up to date; list only important files and directories.
 
 - `families/`: sampling tree; see [family rules](families/AGENTS.md) for extensions.
 - `build.rs`, `build_support.rs`: tree validation and code generation.
-- `src/`: CLI, sampling, and output.
+- `src/`: CLI, packed layouts, sampling, and chunk retrieval.
 - `tests/`: build-tree and CLI integration tests.
 - [docs/architecture.md](docs/architecture.md): build and runtime details.
 

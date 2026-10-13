@@ -1,3 +1,4 @@
+use crate::layout;
 use miniz_oxide::deflate::compress_to_vec_zlib;
 use serde::Deserialize;
 use std::{
@@ -36,6 +37,33 @@ pub enum Kind {
     Branch(Vec<Node>),
     Corpus(Vec<Record>),
     Generator(PathBuf),
+}
+
+pub const CHUNK_SIZE: usize = 64 * 1024;
+
+#[derive(Default)]
+pub struct PackedTree {
+    pub nodes: Vec<layout::Node>,
+    pub children: Vec<u32>,
+    pub names: Vec<layout::Name>,
+    pub name_bytes: Vec<u8>,
+    pub corpuses: Vec<layout::Corpus>,
+    pub records: Vec<layout::Record>,
+    pub chunks: Vec<layout::Chunk>,
+    pub compressed_bytes: Vec<u8>,
+    pub generators: Vec<PathBuf>,
+}
+
+fn narrow(value: usize, label: &str) -> Result<u32, String> {
+    u32::try_from(value).map_err(|_| format!("{label} exceeds the packed layout's u32 limit"))
+}
+
+fn extended_len(current: usize, extra: usize, label: &str) -> Result<usize, String> {
+    let len = current
+        .checked_add(extra)
+        .ok_or_else(|| format!("{label} overflows usize"))?;
+    narrow(len, label)?;
+    Ok(len)
 }
 
 fn read(path: &Path) -> Result<String, String> {
@@ -166,69 +194,173 @@ fn visit(directory: &Path, path: String) -> Result<Node, String> {
     })
 }
 
-pub fn emit(tree: &Node, out: &Path) -> Result<(), String> {
-    let mut nodes = Vec::new();
-    let mut declarations = String::new();
-    emit_node(tree, out, &mut nodes, &mut declarations)?;
-    fs::write(
-        out.join("families.rs"),
-        format!(
-            "{declarations}\nstatic NODES: &[Node] = &[\n{}\n];\n",
-            nodes.join("\n")
-        ),
-    )
-    .map_err(|e| format!("{}: {e}", out.display()))
+pub fn pack(tree: &Node) -> Result<PackedTree, String> {
+    let mut packer = Packer {
+        tree: PackedTree::default(),
+        decoded: Vec::new(),
+    };
+    packer.node(tree)?;
+    packer.flush()?;
+    Ok(packer.tree)
 }
 
-fn emit_node(
-    node: &Node,
-    out: &Path,
-    nodes: &mut Vec<String>,
-    declarations: &mut String,
-) -> Result<usize, String> {
-    let index = nodes.len();
-    nodes.push(String::new());
-    let source = match &node.kind {
-        Kind::Branch(children) => {
-            let mut indexes = Vec::new();
-            let mut total = 0_u64;
-            for child in children {
-                indexes.push(emit_node(child, out, nodes, declarations)?);
-                total = total
-                    .checked_add(u64::from(child.weight))
-                    .ok_or("sibling weights overflow u64")?;
+struct Packer {
+    tree: PackedTree,
+    decoded: Vec<u8>,
+}
+
+impl Packer {
+    fn node(&mut self, node: &Node) -> Result<u32, String> {
+        let index = narrow(self.tree.nodes.len(), "node index")?;
+        extended_len(self.tree.nodes.len(), 1, "node count")?;
+        self.tree.nodes.push(layout::Node {
+            weight: node.weight,
+            source: layout::Source::Generator(0),
+        });
+        let name = node.path.rsplit('/').next().unwrap();
+        let offset = narrow(self.tree.name_bytes.len(), "name offset")?;
+        let len = narrow(name.len(), "name length")?;
+        extended_len(self.tree.name_bytes.len(), name.len(), "name bytes")?;
+        self.tree.name_bytes.extend_from_slice(name.as_bytes());
+        self.tree.names.push(layout::Name { offset, len });
+
+        let source = match &node.kind {
+            Kind::Branch(children) => {
+                let first_child = narrow(self.tree.children.len(), "child offset")?;
+                let child_count = narrow(children.len(), "child count")?;
+                let end = extended_len(self.tree.children.len(), children.len(), "child indexes")?;
+                // Reserve the parent's whole range before visiting nested branches.
+                self.tree.children.resize(end, 0);
+                let mut total_weight = 0_u64;
+                for (position, child) in children.iter().enumerate() {
+                    let child_index = self.node(child)?;
+                    self.tree.children[first_child as usize + position] = child_index;
+                    total_weight = total_weight
+                        .checked_add(u64::from(child.weight))
+                        .ok_or("sibling weights overflow u64")?;
+                }
+                layout::Source::Branch {
+                    first_child,
+                    child_count,
+                    total_weight,
+                }
             }
-            format!("Source::Branch {{ children: &{indexes:?}, total: {total} }}")
+            Kind::Corpus(records) => {
+                let index = narrow(self.tree.corpuses.len(), "corpus index")?;
+                extended_len(self.tree.corpuses.len(), 1, "corpus count")?;
+                let first_record = narrow(self.tree.records.len(), "record offset")?;
+                let record_count = narrow(records.len(), "corpus record count")?;
+                for record in records {
+                    self.record(record.text.as_bytes())?;
+                }
+                self.tree.corpuses.push(layout::Corpus {
+                    first_record,
+                    record_count,
+                });
+                layout::Source::Corpus(index)
+            }
+            Kind::Generator(path) => {
+                let index = narrow(self.tree.generators.len(), "generator index")?;
+                extended_len(self.tree.generators.len(), 1, "generator count")?;
+                self.tree.generators.push(path.clone());
+                layout::Source::Generator(index)
+            }
+        };
+        self.tree.nodes[index as usize].source = source;
+        Ok(index)
+    }
+
+    fn record(&mut self, bytes: &[u8]) -> Result<(), String> {
+        let len = narrow(bytes.len(), "record length")?;
+        extended_len(self.tree.records.len(), 1, "record count")?;
+        if bytes.len() > CHUNK_SIZE.saturating_sub(self.decoded.len()) {
+            self.flush()?;
         }
-        Kind::Corpus(records) => {
-            let payload = records
-                .iter()
-                .map(|r| r.text.as_str())
-                .collect::<Vec<_>>()
-                .join("\0");
-            let filename = format!("corpus_{index}.zlib");
-            fs::write(
-                out.join(&filename),
-                compress_to_vec_zlib(payload.as_bytes(), 9),
-            )
-            .map_err(|e| e.to_string())?;
+        let chunk = narrow(self.tree.chunks.len(), "chunk index")?;
+        let offset = narrow(self.decoded.len(), "record byte offset")?;
+        self.tree
+            .records
+            .push(layout::Record { chunk, offset, len });
+        self.decoded.extend_from_slice(bytes);
+        if self.decoded.len() >= CHUNK_SIZE {
+            self.flush()?;
+        }
+        Ok(())
+    }
+
+    fn flush(&mut self) -> Result<(), String> {
+        if self.decoded.is_empty() {
+            return Ok(());
+        }
+        extended_len(self.tree.chunks.len(), 1, "chunk count")?;
+        let compressed = compress_to_vec_zlib(&self.decoded, 9);
+        let offset = narrow(self.tree.compressed_bytes.len(), "chunk byte offset")?;
+        let compressed_len = narrow(compressed.len(), "compressed chunk length")?;
+        let decoded_len = narrow(self.decoded.len(), "decoded chunk length")?;
+        extended_len(
+            self.tree.compressed_bytes.len(),
+            compressed.len(),
+            "compressed bytes",
+        )?;
+        self.tree.chunks.push(layout::Chunk {
+            offset,
+            compressed_len,
+            decoded_len,
+        });
+        self.tree.compressed_bytes.extend_from_slice(&compressed);
+        self.decoded.clear();
+        Ok(())
+    }
+}
+
+pub fn emit(tree: &Node, out: &Path) -> Result<(), String> {
+    let packed = pack(tree)?;
+    let mut declarations = String::new();
+    let mut generators = Vec::new();
+    for (index, path) in packed.generators.iter().enumerate() {
+        declarations.push_str(&format!(
+            "#[path = {path:?}]\nmod generator_{index};\n",
+            path = path.to_str().ok_or("generator path must be UTF-8")?
+        ));
+        generators.push(format!("generator_{index}::generate"));
+    }
+    let nodes = packed
+        .nodes
+        .iter()
+        .map(|node| {
             format!(
-                "Source::Corpus {{ bytes: include_bytes!(concat!(env!(\"OUT_DIR\"), \"/{filename}\")), count: {}, decoded_len: {} }}",
-                records.len(),
-                payload.len()
+                "Node {{ weight: {}, source: Source::{:?} }},",
+                node.weight, node.source
             )
-        }
-        Kind::Generator(path) => {
-            declarations.push_str(&format!(
-                "#[path = {path:?}]\nmod generator_{index};\n",
-                path = path.to_str().ok_or("generator path must be UTF-8")?
-            ));
-            format!("Source::Generator(generator_{index}::generate)")
-        }
-    };
-    nodes[index] = format!(
-        "Node {{ path: {:?}, weight: {}, source: {source} }},",
-        node.path, node.weight
-    );
-    Ok(index)
+        })
+        .collect::<Vec<_>>()
+        .join("\n");
+    fs::write(out.join("chunks.bin"), &packed.compressed_bytes)
+        .map_err(|e| format!("{}: {e}", out.display()))?;
+    fs::write(out.join("families.rs"), format!(
+        "{declarations}\nstatic NODES: &[Node] = &[\n{nodes}\n];\n\
+         static CHILDREN: &[u32] = &{:?};\n\
+         static NAMES: &[Name] = &{:?};\n\
+         static NAME_BYTES: &[u8] = b{:?};\n\
+         static CORPUSES: &[Corpus] = &{:?};\n\
+         static RECORDS: &[Record] = &{:?};\n\
+         static CHUNKS: &[Chunk] = &{:?};\n\
+         static COMPRESSED_BYTES: &[u8] = include_bytes!(concat!(env!(\"OUT_DIR\"), \"/chunks.bin\"));\n\
+         static GENERATORS: &[payload::Generator] = &[{}];\n",
+        packed.children, packed.names,
+        std::str::from_utf8(&packed.name_bytes).map_err(|e| e.to_string())?,
+        packed.corpuses, packed.records, packed.chunks, generators.join(", ")
+    )).map_err(|e| format!("{}: {e}", out.display()))
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn packed_lengths_reject_u32_overflow() {
+        assert_eq!(narrow(u32::MAX as usize, "length").unwrap(), u32::MAX);
+        assert!(extended_len(u32::MAX as usize, 1, "length").is_err());
+        assert!(extended_len(usize::MAX, 1, "length").is_err());
+    }
 }

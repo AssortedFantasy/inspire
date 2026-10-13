@@ -1,4 +1,6 @@
 mod build_support;
+#[path = "src/layout.rs"]
+mod layout;
 
 use std::{env, path::PathBuf};
 
