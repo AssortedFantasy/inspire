@@ -14,9 +14,11 @@ inspire
 inspire --help-full
 ```
 
-Cargo's bin directory must be on `PATH`. Build only: `cargo build --release --locked`.
+Cargo's bin directory must be on `PATH`.
+Build only: `cargo build --release --locked`.
 
-For an agent, add this to the consuming project's `AGENTS.md`:
+For an agent, add this to the consuming project's `AGENTS.md`, or your global
+`AGENTS.md`:
 
 ```text
 Use `inspire` before making a decision.
