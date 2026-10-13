@@ -1,0 +1,3 @@
+# Keep Windows releases independent of a separately installed VC++ runtime.
+[target.'cfg(all(target_os = "windows", target_env = "msvc"))']
+rustflags = ["-C", "target-feature=+crt-static"]
