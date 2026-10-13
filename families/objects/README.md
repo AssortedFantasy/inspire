@@ -4,6 +4,8 @@
 by manufacturer origin. Nissan's branch further separates the Bluebird family,
 compacts and sports cars. Manufacturer origin does not imply an individual car's assembly
 location or sales market.
+Within `cars`, local weights follow descendant record counts so each catalogued
+vehicle has the same share, including within Nissan's extra grouping level.
 
 Years are kept with their documented meaning in each record's provenance:
 heritage collection vehicle year, calendar-year sales introduction or explicit

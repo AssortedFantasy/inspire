@@ -238,7 +238,12 @@ impl Outfit {
         lines.push(format!("Footwear: {shoe_color} {}.", self.shoes));
         lines.push(format!("Accessories: {}.", self.accessory));
         if self.mid.is_none() {
-            lines.push(format!("Use {} for the bag or hat accent.", p.accent));
+            let accent_item = match (self.weather, self.occasion) {
+                (Weather::Warm, Occasion::Trail) => "sun hat",
+                (Weather::Rain, Occasion::Trail) => "pack cover",
+                _ => "bag",
+            };
+            lines.push(format!("Accent: {} {accent_item}.", p.accent));
         }
         lines.join("\n")
     }

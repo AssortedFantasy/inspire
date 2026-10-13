@@ -51,7 +51,7 @@ Use `inspire` before making a decision.
 
 ## Dataset
 
-The initial collection contains 2,113 records in 66 corpora and 14 procedural
+The collection contains 2,134 records in 67 corpora and 13 procedural
 generators, organized under 15 top-level families.
 
 Select any branch or leaf with `--family`. Omit it to sample the whole tree.
@@ -75,9 +75,13 @@ Select any branch or leaf with `--family`. Omit it to sample the whole tree.
 | `random` | Dates and times, colors, and UUIDs |
 
 Weights are local to siblings: a larger corpus does not automatically receive
-more samples. With default weights, each top-level family receives an equal
-share, then each child receives an equal share within its parent. `--list` shows
-the effective probabilities. Calls are independent, so repeats are possible.
+more samples. Broad top-level families have weight 2; the narrower music and car
+collections and raw random values have weight 1. Names within `people`,
+`objects/cars`, `natural-world/animals`, and `geography/subdivisions` have equal
+per-record shares across their folders. Geography favors cities over subdivisions
+3:1 while balancing city continents equally. Other children default to equal
+shares, except colors and dates each have twice UUID's share. `--list` shows the
+effective probabilities. Calls are independent, so repeats are possible.
 
 Source URLs and reuse notes live in each record's `provenance` field and in
 family READMEs. Record metadata is not printed or embedded; required attribution
@@ -91,6 +95,11 @@ generators, or RNG version can change the output for an existing seed.
 Samples should be self-contained material, not prompts or assignments for the
 consuming agent. For new corpora, prefer downloading reusable source datasets
 and transforming them with reproducible importers; spot-check the emitted text.
+Procedures label their intrinsic steps as algorithms, kitchen/sewing procedures,
+or experiment protocols; language examples and proverbs are explicitly quoted.
+
+See [the content audit](docs/content-audit.md) for the weighting rationale,
+corrected issues, and remaining coverage limitations.
 
 See [family rules and sourcing workflow](families/AGENTS.md) to extend the dataset and
 [architecture](docs/architecture.md) for embedding and sampling details.

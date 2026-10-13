@@ -155,3 +155,11 @@ when the other top-level node has weight 1.
 After rebuilding, `inspire --list` displays local weights and effective root
 probabilities. Branch rows include their whole subtree; leaf probabilities sum
 to 100%, with displayed rounding.
+
+The current editorial policy is documented in [the content audit](../docs/content-audit.md).
+In homogeneous name collections (`people`, `objects/cars`, `natural-world/animals`,
+and `geography/subdivisions`), weights equal descendant record counts at every
+split. Update the affected leaf and ancestor weights when adding or moving
+records; an integration test checks equal conditional per-record probability.
+Other branches balance topics rather than records. Check the resulting leaf and
+per-record probabilities before treating a folder reorganization as cosmetic.

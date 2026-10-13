@@ -3,6 +3,8 @@
 Sixty short procedures: sorting and graph algorithms, hand sewing, classic
 kitchen methods, and small bench experiments. Each of the five leaves contains
 twelve records. Source URLs and adaptation notes remain in provenance.
+Each output begins with a named algorithm, procedure, or experiment protocol;
+the following steps belong to that specimen, not the consuming agent's task.
 
 Algorithms state their input constraints. Craft and cooking records paraphrase
 public-domain manuals; they omit hazardous historical treatments. Experiments

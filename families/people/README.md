@@ -3,6 +3,8 @@
 Curated factual names with compact descriptions of a field or contribution.
 The categories are browsing aids; people often worked across several fields.
 The selection is not a ranking, comprehensive history or endorsement.
+Local weights follow descendant record counts, giving every person the same
+share when sampling `people`, regardless of folder depth.
 
 Each record identifies the reference used for its original description.
 Science and literature use Nobel Prize Outreach historical accounts and award

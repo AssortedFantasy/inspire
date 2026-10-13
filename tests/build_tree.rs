@@ -73,6 +73,56 @@ fn branches(node: &build_support::Node) -> &[build_support::Node] {
 }
 
 #[test]
+fn name_collections_do_not_favor_records_in_smaller_folders() {
+    fn find<'a>(node: &'a build_support::Node, path: &str) -> Option<&'a build_support::Node> {
+        if node.path == path {
+            return Some(node);
+        }
+        match &node.kind {
+            Kind::Branch(children) => children.iter().find_map(|child| find(child, path)),
+            _ => None,
+        }
+    }
+
+    fn probabilities(node: &build_support::Node, share: f64, out: &mut Vec<(String, f64)>) {
+        match &node.kind {
+            Kind::Corpus(records) => {
+                out.extend(std::iter::repeat_n(
+                    (node.path.clone(), share / records.len() as f64),
+                    records.len(),
+                ));
+            }
+            Kind::Branch(children) => {
+                let total: u64 = children.iter().map(|child| u64::from(child.weight)).sum();
+                for child in children {
+                    probabilities(child, share * f64::from(child.weight) / total as f64, out);
+                }
+            }
+            Kind::Generator(_) => panic!("name collection contains a generator: {}", node.path),
+        }
+    }
+
+    let root = Path::new(env!("CARGO_MANIFEST_DIR")).join("families");
+    let tree = discover(&root).unwrap();
+    for path in [
+        "people",
+        "objects/cars",
+        "geography/subdivisions",
+        "natural-world/animals",
+    ] {
+        let mut records = Vec::new();
+        probabilities(find(&tree, path).unwrap(), 1.0, &mut records);
+        let expected = 1.0 / records.len() as f64;
+        for (leaf, actual) in records {
+            assert!(
+                (actual - expected).abs() < 1e-12,
+                "unequal record share in {leaf}"
+            );
+        }
+    }
+}
+
+#[test]
 fn discovers_nested_defaults_and_generates_registration() {
     let fixture = Fixture::new();
     fixture.corpus("poems/haiku/author");

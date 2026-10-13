@@ -55,7 +55,7 @@ pub fn generate(rng: &mut StdRng) -> String {
         side(&reaction.right, 1)
     );
     format!(
-        "{}\n{equation}\nConditions: {}\nFor a forward reaction extent of {extent} mol, consume {}; produce {}. Amounts are stoichiometric changes, not equilibrium yields.",
+        "{}\n{equation}\nConditions: {}\nForward reaction extent: {extent} mol. Consumption: {}; production: {}. Amounts are stoichiometric changes, not equilibrium yields.",
         reaction.title,
         reaction.condition,
         amounts(&reaction.left, extent),

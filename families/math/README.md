@@ -1,7 +1,7 @@
 # Mathematics
 
 `algebra` keeps the original polynomial identity generator. `integrals` creates
-parameterized exercises with real domains and exact answers. `finite-groups`
+parameterized integral identities with real domains and exact answers. `finite-groups`
 samples seven explicit constructions with orders and computed products.
 
 Three uniformly sampled corpora provide 24 definitions, 20 constructions, and

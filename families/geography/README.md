@@ -20,6 +20,9 @@ assert legal city status. Natural Earth's selection emphasizes regional
 significance, rather than being a population ranking or exhaustive gazetteer.
 Normal sibling weights apply, so continent leaves receive equal shares when
 sampling `geography/cities`, regardless of their record counts.
+Sampling `geography` gives cities three-quarters of calls and subdivisions
+one-quarter. Within subdivisions, each name has the same share: the three
+country lists have weights 50, 13, and 8.
 
 ## City sources and maintenance
 

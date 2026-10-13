@@ -64,21 +64,7 @@ const COMPOUNDS: &[(&str, &str)] = &[
 pub fn generate(rng: &mut StdRng) -> String {
     let (name, formula) = COMPOUNDS[rng.random_range(0..COMPOUNDS.len())];
     let atoms = composition(formula);
-    let divisor = atoms.values().copied().reduce(gcd).unwrap();
-    let empirical = atoms
-        .iter()
-        .map(|(element, count)| {
-            let count = count / divisor;
-            format!(
-                "{element}{}",
-                if count == 1 {
-                    String::new()
-                } else {
-                    count.to_string()
-                }
-            )
-        })
-        .collect::<String>();
+    let empirical = empirical_formula(formula, &atoms);
     let inventory = atoms
         .iter()
         .map(|(element, count)| format!("{element}: {count}"))
@@ -102,6 +88,24 @@ pub fn generate(rng: &mut StdRng) -> String {
             molecules * total
         )
     }
+}
+
+fn empirical_formula(formula: &str, atoms: &BTreeMap<String, u32>) -> String {
+    let divisor = atoms.values().copied().reduce(gcd).unwrap();
+    // Retain the catalog's conventional element order, e.g. NH3 rather than H3N.
+    let mut elements: Vec<_> = atoms.iter().collect();
+    elements.sort_by_key(|(element, _)| formula.find(element.as_str()).unwrap());
+    elements
+        .into_iter()
+        .map(|(element, count)| {
+            let count = count / divisor;
+            if count == 1 {
+                element.clone()
+            } else {
+                format!("{element}{count}")
+            }
+        })
+        .collect()
 }
 
 fn gcd(mut a: u32, mut b: u32) -> u32 {
@@ -171,6 +175,12 @@ mod tests {
 
     #[test]
     fn independent_composition_examples_and_seeded_outputs() {
+        for (molecular, empirical) in [("NH3", "NH3"), ("C2H6", "CH3"), ("C6H6", "CH")] {
+            assert_eq!(
+                empirical_formula(molecular, &composition(molecular)),
+                empirical
+            );
+        }
         assert_eq!(composition("C2H6O2").values().sum::<u32>(), 10);
         assert_eq!(composition("NH3")["H"], 3);
         assert_eq!(composition("CH4N2O")["N"], 2);
