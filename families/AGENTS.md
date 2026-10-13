@@ -36,8 +36,15 @@ Provenance must be nonblank. All three fields are required; unknown fields fail
 the build. Metadata stays in source; place any attribution that must accompany
 the stimulus in `text`. Label invented material honestly.
 
-See `poems/haiku/records.json` for an example. Records are sampled uniformly.
-Rebuild and try `inspire --family poems/haiku --seed 42`.
+See the corpora under `geography/` for examples. Records are sampled uniformly.
+Rebuild and try `inspire --family geography --seed 42`.
+
+Prefer factual names, original source-grounded explanations, and verified
+public-domain quotations. Record precise source URLs and relevant reuse terms;
+do not label paraphrases as quotations or unsupported material as verified.
+Keep song metadata separate from copyrighted lyrics. Generated artifacts should
+have useful constraints and tests for their substantive invariants (legal moves,
+unique puzzle solutions, balanced reactions), not just output formatting.
 
 ## Add a procedural generator
 
@@ -70,8 +77,8 @@ The build derives new paths automatically; update any documentation and tests th
 refer to the old paths.
 
 To turn a leaf into a branch, first move its payload into a new child directory.
-For example, move `poems/haiku/records.json` into
-`poems/haiku/generated/records.json` before adding author-specific sibling datasets.
+For example, move `literature/quotations/records.json` into
+`literature/quotations/classical/records.json` before adding other sibling datasets.
 Decide whether an existing local weight should remain on the new branch or follow
 the old payload.
 
@@ -89,7 +96,7 @@ configuration file also uses the default weight.
 
 The default probability of reaching a node is the product of the sibling selection
 probabilities along its path. Descendant counts and dataset sizes do not affect a
-branch's share. With equal-weight `poems` and `math`, mathematics receives half
+branch's share. With equal-weight `literature` and `math`, mathematics receives half
 the calls even if it has many more leaves. Giving `math` weight 2 changes its
 share to two-thirds.
 

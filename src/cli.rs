@@ -21,7 +21,7 @@ Usage: inspire [--family PATH] [--seed INTEGER]
        inspire --list
 
 Options:
-  --family PATH   Sample a branch or leaf, e.g. poems/haiku (use / on all platforms)
+  --family PATH   Sample a branch or leaf, e.g. games/dice (use / on all platforms)
   --seed INTEGER  Reproduce a sample with an unsigned 64-bit seed
   --list          Show the tree, local weights, and effective probabilities
   -h, --help      Show a brief description
