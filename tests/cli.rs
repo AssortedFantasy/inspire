@@ -88,6 +88,25 @@ fn dataset_notices_are_available_without_the_source_checkout() {
     let text = String::from_utf8(output.stdout).unwrap();
     assert!(text.contains("Dataset sources and redistribution"));
     assert!(text.contains("family READMEs"));
+
+    fn check_licenses(directory: &std::path::Path, notices: &str) {
+        for entry in std::fs::read_dir(directory).unwrap() {
+            let path = entry.unwrap().path();
+            if path.is_dir() {
+                check_licenses(&path, notices);
+            } else if matches!(
+                path.file_name().and_then(|name| name.to_str()),
+                Some("LICENSE" | "LICENSE.txt" | "LICENSE.md")
+            ) {
+                let license = std::fs::read_to_string(&path).unwrap();
+                assert!(notices.contains(license.trim_end()), "{}", path.display());
+            }
+        }
+    }
+    check_licenses(
+        &std::path::Path::new(env!("CARGO_MANIFEST_DIR")).join("families"),
+        &text,
+    );
 }
 
 #[test]
