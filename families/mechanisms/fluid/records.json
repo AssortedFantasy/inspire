@@ -1,0 +1,92 @@
+[
+  {
+    "id": "pascal-transmission",
+    "text": "A pressure change applied to a confined fluid is transmitted throughout it. A hydraulic system uses this to connect forces at separated pistons.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.3; https://openstax.org/books/university-physics-volume-1/pages/14-3-pascals-principle-and-hydraulics. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "hydraulic-area-ratio",
+    "text": "In an ideal hydraulic lift with pistons at the same height, a larger output piston produces more force at the same pressure. It travels a shorter distance than the smaller input piston.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.3; https://openstax.org/books/university-physics-volume-1/pages/14-3-pascals-principle-and-hydraulics. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "hydraulic-work",
+    "text": "A hydraulic lift multiplies force without multiplying work: the smaller piston must move farther to displace the volume needed by the larger piston.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.3; https://openstax.org/books/university-physics-volume-1/pages/14-3-pascals-principle-and-hydraulics. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "continuity",
+    "text": "For steady incompressible flow through a tube, volume flow rate stays constant. A narrower cross-section therefore requires a higher average speed.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.5; https://openstax.org/books/university-physics-volume-1/pages/14-5-fluid-dynamics. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "streamline",
+    "text": "A streamline follows the local direction of fluid velocity. In steady flow, the velocity pattern at each fixed position does not change with time.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.5; https://openstax.org/books/university-physics-volume-1/pages/14-5-fluid-dynamics. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "bernoulli-balance",
+    "text": "For steady, incompressible flow with negligible friction, Bernoulli's equation balances pressure, kinetic energy per volume, and gravitational energy per volume along a streamline.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.6; https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "venturi",
+    "text": "An ideal flow speeds up in a narrowed tube and has lower static pressure there when elevation is unchanged. A constriction can therefore create a measurable pressure difference.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.6; https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "jet-entrainment",
+    "text": "A fast jet can create a low-pressure region that draws another fluid into the stream. An atomizer uses moving air to pick up droplets of liquid.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.6; https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "viscous-shear",
+    "text": "Viscosity resists neighboring layers of fluid sliding past one another. In a tube, the walls slow the adjacent fluid.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.7; https://openstax.org/books/university-physics-volume-1/pages/14-7-viscosity-and-turbulence. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "poiseuille-radius",
+    "text": "For steady laminar flow of a Newtonian fluid in a circular tube, Poiseuille's law makes flow rate proportional to the fourth power of radius. A small constriction can have a large effect.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.7; https://openstax.org/books/university-physics-volume-1/pages/14-7-viscosity-and-turbulence. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "poiseuille-length",
+    "text": "Under Poiseuille's assumptions, doubling a tube's length halves its flow rate if its radius, fluid viscosity, and pressure difference stay fixed.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.7; https://openstax.org/books/university-physics-volume-1/pages/14-7-viscosity-and-turbulence. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "reynolds-number",
+    "text": "Reynolds number compares inertial and viscous effects. It helps assess whether a flow is likely to remain orderly or become turbulent.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.7; https://openstax.org/books/university-physics-volume-1/pages/14-7-viscosity-and-turbulence. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "capillary-rise",
+    "text": "A wetting liquid can rise inside a narrow tube as adhesive and cohesive effects shape its meniscus. For otherwise equal conditions, a narrower tube produces a larger rise.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, College Physics 2e, section 11.8; https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "contact-angle",
+    "text": "The contact angle shows how a liquid meets a solid surface. The balance between adhesion and cohesion can make a drop spread out or bead up.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, College Physics 2e, section 11.8; https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "surface-tension",
+    "text": "Surface tension tends to reduce a liquid's exposed area. A small object can be supported by the deformed surface even when its material is denser than the liquid.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, College Physics 2e, section 11.8; https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
+  },
+  {
+    "id": "siphon-head",
+    "text": "A primed siphon can move water over a high point to an outlet below the source reservoir. The difference in water levels supplies the gravitational drive.",
+    "provenance": "Original factual paraphrase. Source: Hughes and Gurung, Exploring the boundary between a siphon and barometer in a hypobaric chamber, Scientific Reports 4, 4741 (2014); https://www.nature.com/articles/srep04741. Consulted 2026-10-13."
+  },
+  {
+    "id": "siphon-low-pressure",
+    "text": "Pressure near the top of an ordinary siphon is below ambient pressure. Lowering the ambient pressure can make the water boil at the crest and interrupt continuous flow.",
+    "provenance": "Original factual paraphrase. Source: Hughes and Gurung, Exploring the boundary between a siphon and barometer in a hypobaric chamber, Scientific Reports 4, 4741 (2014); https://www.nature.com/articles/srep04741. Consulted 2026-10-13."
+  },
+  {
+    "id": "siphon-tension",
+    "text": "Special experiments with prepared water have operated siphons above the usual barometric height limit. A liquid can sustain tension, but bubbles and cavitation often limit ordinary setups.",
+    "provenance": "Original factual paraphrase. Source: Boatwright, Hughes and Barry, The height limit of a siphon, Scientific Reports 5, 16790 (2015); https://www.nature.com/articles/srep16790. Consulted 2026-10-13."
+  }
+]

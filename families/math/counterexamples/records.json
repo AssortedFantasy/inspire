@@ -1,0 +1,102 @@
+[
+  {
+    "id": "zero-divisors",
+    "text": "Commutative does not imply an integral domain: in Z/6Z, the nonzero classes 2 and 3 multiply to zero.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Stacks Project, commutative algebra conventions, https://stacks.math.columbia.edu/tag/00AQ. No source prose reproduced."
+  },
+  {
+    "id": "domain-not-field",
+    "text": "An integral domain need not be a field: Z has no inverse for 2 because 2m=1 has no integer solution.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Stacks Project, commutative algebra conventions, https://stacks.math.columbia.edu/tag/00AQ. No source prose reproduced."
+  },
+  {
+    "id": "finite-ring-not-field",
+    "text": "A finite commutative ring need not be a field: Z/4Z contains the nonzero nilpotent class 2, with 2^2=0.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Stacks Project, commutative algebra conventions, https://stacks.math.columbia.edu/tag/00AQ. No source prose reproduced."
+  },
+  {
+    "id": "same-order",
+    "text": "Groups of the same order need not be isomorphic: C_4 has an element of order 4; C_2 x C_2 has none.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: J. S. Milne, Group Theory, https://www.jmilne.org/math/CourseNotes/GT.pdf. No source prose reproduced."
+  },
+  {
+    "id": "subgroup-not-normal",
+    "text": "A subgroup need not be normal: in S_3, conjugating <(12)> by (123) produces <(23)>, a different subgroup.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: J. S. Milne, Group Theory, https://www.jmilne.org/math/CourseNotes/GT.pdf. No source prose reproduced."
+  },
+  {
+    "id": "product-not-cyclic",
+    "text": "A product of cyclic groups need not be cyclic: every element of C_2 x C_2 has square equal to the identity.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: J. S. Milne, Group Theory, https://www.jmilne.org/math/CourseNotes/GT.pdf. No source prose reproduced."
+  },
+  {
+    "id": "noncommuting-matrices",
+    "text": "Matrix multiplication need not commute: for A=[[0,1],[0,0]] and B=[[0,0],[1,0]], AB=diag(1,0), BA=diag(0,1).",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
+  },
+  {
+    "id": "defective-matrix",
+    "text": "A real matrix need not be diagonalizable: [[1,1],[0,1]] has only one independent eigenvector despite having two rows.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
+  },
+  {
+    "id": "determinant-not-identity",
+    "text": "Determinant 1 does not imply the identity matrix: [[1,1],[0,1]] has determinant 1 and changes (0,1) to (1,1).",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
+  },
+  {
+    "id": "invertible-sum",
+    "text": "The sum of invertible matrices can be singular: I and -I are invertible, while I+(-I)=0.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
+  },
+  {
+    "id": "continuous-not-differentiable",
+    "text": "A continuous function need not be differentiable: |x| has left derivative -1 and right derivative +1 at zero.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis I, https://jirka.org/ra/realanal.pdf. No source prose reproduced."
+  },
+  {
+    "id": "continuous-not-uniform",
+    "text": "Continuity need not be uniform on an unbounded domain: x^2 on R has inputs n and n+1/n with vanishing separation but output gap tending to 2.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis I, https://jirka.org/ra/realanal.pdf. No source prose reproduced."
+  },
+  {
+    "id": "pointwise-not-uniform",
+    "text": "On [0,1], x^n converges pointwise to zero for x<1 and to one at x=1. Convergence is not uniform.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, pointwise and uniform convergence, https://www.jirka.org/ra/html/sec_puconv.html. No source prose reproduced."
+  },
+  {
+    "id": "bounded-not-convergent",
+    "text": "A bounded real sequence need not converge: (-1)^n has subsequences constantly +1 and -1.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis I, https://jirka.org/ra/realanal.pdf. No source prose reproduced."
+  },
+  {
+    "id": "terms-zero-not-summable",
+    "text": "Terms tending to zero do not ensure a series converges: sum(1/n) diverges; each dyadic block from n=2^k to 2^(k+1)-1 contributes at least 1/2.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis I, https://jirka.org/ra/realanal.pdf. No source prose reproduced."
+  },
+  {
+    "id": "conditional-not-absolute",
+    "text": "Convergence need not be absolute: sum((-1)^(n+1)/n), n>=1, converges by the alternating-series test; its absolute-value series is harmonic and diverges.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis I, https://jirka.org/ra/realanal.pdf. No source prose reproduced."
+  },
+  {
+    "id": "connected-not-compact",
+    "text": "Connected does not imply compact: R is connected, but the open cover {(-n,n): n=1,2,...} has no finite subcover.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
+  },
+  {
+    "id": "bounded-complete-not-compact",
+    "text": "A bounded complete metric space need not be compact: infinitely many points with the discrete metric have a singleton open cover with no finite subcover.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
+  },
+  {
+    "id": "open-intersection",
+    "text": "An infinite intersection of open sets need not be open: intersect (-1/n,1/n) over positive integers n to get {0} in R.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
+  },
+  {
+    "id": "uniform-derivatives",
+    "text": "Uniform convergence does not permit differentiating the limit: sin(nx)/n tends uniformly to zero on R, but its derivative at x=0 is always 1, while the limit function has derivative zero.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, pointwise and uniform convergence, https://www.jirka.org/ra/html/sec_puconv.html. No source prose reproduced."
+  }
+]

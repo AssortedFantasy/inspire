@@ -1,0 +1,122 @@
+[
+  {
+    "id": "group",
+    "text": "A group is a set with an associative binary operation, an identity, and an inverse for every element.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: J. S. Milne, Group Theory, https://www.jmilne.org/math/CourseNotes/GT.pdf. No source prose reproduced."
+  },
+  {
+    "id": "cyclic",
+    "text": "A group is cyclic if one element generates it: every element is an integer power of that generator.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: J. S. Milne, Group Theory, https://www.jmilne.org/math/CourseNotes/GT.pdf. No source prose reproduced."
+  },
+  {
+    "id": "normal-subgroup",
+    "text": "A subgroup N of G is normal when gNg^(-1)=N for every g in G.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: J. S. Milne, Group Theory, https://www.jmilne.org/math/CourseNotes/GT.pdf. No source prose reproduced."
+  },
+  {
+    "id": "quotient-group",
+    "text": "For a normal subgroup N of G, G/N consists of cosets gN with multiplication (gN)(hN)=(gh)N.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: J. S. Milne, Group Theory, https://www.jmilne.org/math/CourseNotes/GT.pdf. No source prose reproduced."
+  },
+  {
+    "id": "integral-domain",
+    "text": "An integral domain is a nonzero commutative ring with identity and no nonzero zero divisors.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Stacks Project, commutative algebra conventions, https://stacks.math.columbia.edu/tag/00AQ. No source prose reproduced."
+  },
+  {
+    "id": "ideal",
+    "text": "In a commutative ring R, an ideal is an additive subgroup I with rI contained in I for every r in R.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Stacks Project, commutative algebra conventions, https://stacks.math.columbia.edu/tag/00AQ. No source prose reproduced."
+  },
+  {
+    "id": "module",
+    "text": "An R-module is an abelian group with a unital, distributive scalar action of the ring R.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Stacks Project, commutative algebra conventions, https://stacks.math.columbia.edu/tag/00AQ. No source prose reproduced."
+  },
+  {
+    "id": "tensor-product",
+    "text": "For a commutative ring R, M tensor_R N represents R-bilinear maps out of M x N via a universal linear map.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Stacks Project, tensor products, https://stacks.math.columbia.edu/tag/00CV. No source prose reproduced."
+  },
+  {
+    "id": "localization",
+    "text": "For a commutative ring R and multiplicatively closed S, localization S^(-1)R makes every element of S invertible.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Stacks Project, localization, https://stacks.math.columbia.edu/tag/00CM. No source prose reproduced."
+  },
+  {
+    "id": "metric",
+    "text": "A metric d has nonnegative distances, d(x,y)=0 exactly when x=y, symmetry, and the triangle inequality.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
+  },
+  {
+    "id": "complete",
+    "text": "A metric space is complete if every Cauchy sequence converges to a point of that space.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
+  },
+  {
+    "id": "compact",
+    "text": "A space is compact if every open cover admits a finite subcover.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
+  },
+  {
+    "id": "dense",
+    "text": "A subset A is dense in X when its closure equals X; every nonempty open subset of X meets A.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
+  },
+  {
+    "id": "cauchy",
+    "text": "A sequence is Cauchy when, for every epsilon>0, all sufficiently late pairs of terms are within epsilon.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis I, https://jirka.org/ra/realanal.pdf. No source prose reproduced."
+  },
+  {
+    "id": "basis",
+    "text": "A basis of a vector space is a linearly independent spanning set; every vector has a unique finite expansion in it.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, vector spaces and convexity, https://www.jirka.org/ra/html/sec_vectorspaces.html. No source prose reproduced."
+  },
+  {
+    "id": "eigenvalue",
+    "text": "An eigenvalue lambda of a linear operator T satisfies T(v)=lambda*v for some nonzero vector v.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
+  },
+  {
+    "id": "nilpotent",
+    "text": "A linear operator N is nilpotent if N^k=0 for some positive integer k.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
+  },
+  {
+    "id": "projection",
+    "text": "A linear projection P is an operator satisfying P^2=P. Orthogonality is an additional condition, not part of this definition.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
+  },
+  {
+    "id": "convex",
+    "text": "A real vector-space subset C is convex when (1-t)x+ty lies in C for x,y in C and 0<=t<=1.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, vector spaces and convexity, https://www.jirka.org/ra/html/sec_vectorspaces.html. No source prose reproduced."
+  },
+  {
+    "id": "uniform-continuity",
+    "text": "Uniform continuity means one delta>0 works at all domain points for each epsilon>0: d(x,y)<delta implies d(f(x),f(y))<epsilon.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis I, https://jirka.org/ra/realanal.pdf. No source prose reproduced."
+  },
+  {
+    "id": "uniform-convergence",
+    "text": "Functions f_n converge uniformly to f when one index N works at every domain point for each error tolerance epsilon>0.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, pointwise and uniform convergence, https://www.jirka.org/ra/html/sec_puconv.html. No source prose reproduced."
+  },
+  {
+    "id": "pointwise-convergence",
+    "text": "Functions f_n converge pointwise to f when f_n(x) converges to f(x) at each fixed x; the required index may depend on x.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, pointwise and uniform convergence, https://www.jirka.org/ra/html/sec_puconv.html. No source prose reproduced."
+  },
+  {
+    "id": "supremum",
+    "text": "The supremum of a real set is its least upper bound. It need not belong to the set.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis I, https://jirka.org/ra/realanal.pdf. No source prose reproduced."
+  },
+  {
+    "id": "connected",
+    "text": "A topological space is connected if it cannot be split into two disjoint nonempty open subsets whose union is the space.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
+  }
+]

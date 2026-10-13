@@ -1,0 +1,62 @@
+[
+  {
+    "id": "case-drawing",
+    "text": "A. A. Stewart’s 1918 American typesetting manual asks an apprentice to draw the type case and label its boxes, then check that plan with the foreman. Familiarity begins with a verified spatial map, since superficially similar cases may hold characters in different positions (Learning the Case).",
+    "provenance": "Original factual paraphrase. A. A. Stewart, Typesetting (1918), United Typothetae of America educational manual; public-domain primary text, https://www.gutenberg.org/files/46113/46113-h/46113-h.htm . References name sections of the manual."
+  },
+  {
+    "id": "frequent-letter-boxes",
+    "text": "Stewart’s 1918 manual explains why a lower-case type tray is not alphabetical: frequent letters need larger boxes close to the compositor’s hand, while uncommon sorts lie farther away. The arrangement reduces reaching while accommodating unequal stocks (Learning the Case).",
+    "provenance": "Original factual paraphrase. A. A. Stewart, Typesetting (1918), United Typothetae of America educational manual; public-domain primary text, https://www.gutenberg.org/files/46113/46113-h/46113-h.htm . References name sections of the manual."
+  },
+  {
+    "id": "california-job-case",
+    "text": "Stewart identifies the California job case as a common American tray in 1918. It combines capitals, lowercase letters, numerals, punctuation, spaces, and quads, putting the sorts needed for ordinary English sentences into a single case (Learning the Case).",
+    "provenance": "Original factual paraphrase. A. A. Stewart, Typesetting (1918), United Typothetae of America educational manual; public-domain primary text, https://www.gutenberg.org/files/46113/46113-h/46113-h.htm . References name sections of the manual."
+  },
+  {
+    "id": "capital-j-u",
+    "text": "Stewart’s 1918 manual explains the exceptional positions of J and U in the capital case as later additions to an older arrangement that had treated I/J and V/U as variants. The physical tray retained a trace of alphabetic history (Learning the Case).",
+    "provenance": "Original factual paraphrase. A. A. Stewart, Typesetting (1918), United Typothetae of America educational manual; public-domain primary text, https://www.gutenberg.org/files/46113/46113-h/46113-h.htm . References name sections of the manual."
+  },
+  {
+    "id": "em-body",
+    "text": "For Stewart’s American compositors in 1918, an em is a square whose side equals the type body size: a twelve-point em measures twelve points each way. This makes an em a relative unit, while the pica supplies a fixed twelve-point measure (Units for Measuring).",
+    "provenance": "Original factual paraphrase. A. A. Stewart, Typesetting (1918), United Typothetae of America educational manual; public-domain primary text, https://www.gutenberg.org/files/46113/46113-h/46113-h.htm . References name sections of the manual."
+  },
+  {
+    "id": "blank-types",
+    "text": "Stewart distinguishes narrow blank spaces from larger quads in his 1918 typesetting manual. Neither prints a letter; their differing widths let the compositor separate words, indent paragraphs, and fill a line to its required measure (Spaces and Quads).",
+    "provenance": "Original factual paraphrase. A. A. Stewart, Typesetting (1918), United Typothetae of America educational manual; public-domain primary text, https://www.gutenberg.org/files/46113/46113-h/46113-h.htm . References name sections of the manual."
+  },
+  {
+    "id": "space-combinations",
+    "text": "Stewart teaches apprentices to combine fractional-em spaces to obtain widths absent from a single sort. His 1918 manual uses a common denominator of sixty to tabulate the combinations, connecting arithmetic directly to fitting a line of metal type (A Simple Spacing Table).",
+    "provenance": "Original factual paraphrase. A. A. Stewart, Typesetting (1918), United Typothetae of America educational manual; public-domain primary text, https://www.gutenberg.org/files/46113/46113-h/46113-h.htm . References name sections of the manual."
+  },
+  {
+    "id": "high-electrotype-blanks",
+    "text": "For pages intended as electrotype moulds, Stewart’s 1918 manual recommends higher spaces and quads. Filling the recesses between words and lines prevents moulding wax from entering deep crevices, adapting composition to the next manufacturing stage (Spaces and Quads).",
+    "provenance": "Original factual paraphrase. A. A. Stewart, Typesetting (1918), United Typothetae of America educational manual; public-domain primary text, https://www.gutenberg.org/files/46113/46113-h/46113-h.htm . References name sections of the manual."
+  },
+  {
+    "id": "hollow-quads-down",
+    "text": "Stewart says hollow quotation quads should reach the press with their open sides downward. Their lightness helps fill large blank areas, but an upward-facing cavity can retain dirt that later escapes onto ink rollers (American manual, 1918, Spaces and Quads).",
+    "provenance": "Original factual paraphrase. A. A. Stewart, Typesetting (1918), United Typothetae of America educational manual; public-domain primary text, https://www.gutenberg.org/files/46113/46113-h/46113-h.htm . References name sections of the manual."
+  },
+  {
+    "id": "first-later-proofs",
+    "text": "Stewart separates two proof-reading purposes in 1918 American printing: an initial impression catches composition errors, while later proofs verify corrections and page-making instructions. A proof is a checkpoint within production, not merely a preview of the finished page (Taking Proofs).",
+    "provenance": "Original factual paraphrase. A. A. Stewart, Typesetting (1918), United Typothetae of America educational manual; public-domain primary text, https://www.gutenberg.org/files/46113/46113-h/46113-h.htm . References name sections of the manual."
+  },
+  {
+    "id": "oversize-proof-planer",
+    "text": "Stewart notes that a proof planer and mallet remain useful when a locked form is too large for the available proof press. The 1918 shop can take an impression of part of a form to verify a detail before production printing (Taking Proofs).",
+    "provenance": "Original factual paraphrase. A. A. Stewart, Typesetting (1918), United Typothetae of America educational manual; public-domain primary text, https://www.gutenberg.org/files/46113/46113-h/46113-h.htm . References name sections of the manual."
+  },
+  {
+    "id": "type-reuse-cleaning",
+    "text": "Stewart’s 1918 typesetting manual insists that reusable type be cleaned after proofs and before ink hardens during an idle period. The rule treats cleaning as preparation for the next printing job, because dirty type cannot make a clean impression (Washing Type).",
+    "provenance": "Original factual paraphrase. A. A. Stewart, Typesetting (1918), United Typothetae of America educational manual; public-domain primary text, https://www.gutenberg.org/files/46113/46113-h/46113-h.htm . References name sections of the manual."
+  }
+]

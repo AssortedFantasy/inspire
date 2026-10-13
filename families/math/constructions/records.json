@@ -1,0 +1,102 @@
+[
+  {
+    "id": "direct-product",
+    "text": "Construct G x H using componentwise multiplication: (g,h)(g',h')=(gg',hh'). Its identity is (e_G,e_H).",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: J. S. Milne, Group Theory, https://www.jmilne.org/math/CourseNotes/GT.pdf. No source prose reproduced."
+  },
+  {
+    "id": "dihedral",
+    "text": "Construct the symmetry group of an n-gon using rotations r and reflection s: r^n=s^2=1 and srs=r^(-1); order 2n.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: J. S. Milne, Group Theory, https://www.jmilne.org/math/CourseNotes/GT.pdf. No source prose reproduced."
+  },
+  {
+    "id": "quaternion",
+    "text": "Construct Q_8 as {+/-1,+/-i,+/-j,+/-k} with i^2=j^2=k^2=ijk=-1. It has eight elements and is nonabelian.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: J. S. Milne, Group Theory, https://www.jmilne.org/math/CourseNotes/GT.pdf. No source prose reproduced."
+  },
+  {
+    "id": "permutation",
+    "text": "Construct S_n as all bijections of {1,...,n}, with composition. Its order is n!, and composition applies the right factor first.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: J. S. Milne, Group Theory, https://www.jmilne.org/math/CourseNotes/GT.pdf. No source prose reproduced."
+  },
+  {
+    "id": "polynomial-ring",
+    "text": "Construct R[x] as finite formal sums of powers of x with coefficients in a commutative ring R; add and multiply coefficients.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Stacks Project, commutative algebra conventions, https://stacks.math.columbia.edu/tag/00AQ. No source prose reproduced."
+  },
+  {
+    "id": "dual-numbers",
+    "text": "Construct dual numbers R[epsilon]/(epsilon^2). Multiply a+b*epsilon and c+d*epsilon to get ac+(ad+bc)*epsilon.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Stacks Project, commutative algebra conventions, https://stacks.math.columbia.edu/tag/00AQ. No source prose reproduced."
+  },
+  {
+    "id": "rational-localization",
+    "text": "Localize the integers at all nonzero integers. The result is the rational field Q, with a/b represented by an integer numerator and nonzero denominator.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Stacks Project, localization, https://stacks.math.columbia.edu/tag/00CM. No source prose reproduced."
+  },
+  {
+    "id": "tensor-quotient",
+    "text": "Construct M tensor_R N from the free R-module on pairs (m,n), quotienting by additivity in both slots and balanced scalar relations.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Stacks Project, tensor products, https://stacks.math.columbia.edu/tag/00CV. No source prose reproduced."
+  },
+  {
+    "id": "discrete-metric",
+    "text": "On any set X, set d(x,y)=0 for equal points and 1 otherwise. This defines the discrete metric.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
+  },
+  {
+    "id": "taxicab-metric",
+    "text": "On R^2, define d((x,y),(u,v))=|x-u|+|y-v|. Triangle inequalities in each coordinate prove the metric axioms.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
+  },
+  {
+    "id": "cantor-set",
+    "text": "Starting with [0,1], repeatedly remove the open middle third of every remaining interval. The intersection is the compact Cantor set.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
+  },
+  {
+    "id": "completion-of-rationals",
+    "text": "Complete Q with its usual metric by taking equivalence classes of Cauchy sequences; equivalent sequences have difference tending to zero. The completion is R.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
+  },
+  {
+    "id": "orthogonal-projection",
+    "text": "For a unit vector u in R^n, set P(v)=(u dot v)u. Then P^2=P, with image span(u) and kernel u-perpendicular.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
+  },
+  {
+    "id": "nilpotent-jordan-block",
+    "text": "The n-by-n matrix with ones on the superdiagonal and zeros elsewhere shifts coordinates. Its nth power is zero, but its (n-1)st power is nonzero.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
+  },
+  {
+    "id": "companion-matrix",
+    "text": "For x^2+a*x+b, the matrix [[0,-b],[1,-a]] has characteristic polynomial x^2+a*x+b.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
+  },
+  {
+    "id": "kernel-subspace",
+    "text": "Given a linear map T:V->W, construct ker(T)={v:T(v)=0}. Linearity makes this set a vector subspace.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, vector spaces and convexity, https://www.jirka.org/ra/html/sec_vectorspaces.html. No source prose reproduced."
+  },
+  {
+    "id": "geometric-series",
+    "text": "For |r|<1, sum r^n from n=0 to infinity. Partial sums are (1-r^(N+1))/(1-r), giving limit 1/(1-r).",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis I, https://jirka.org/ra/realanal.pdf. No source prose reproduced."
+  },
+  {
+    "id": "smooth-flat-function",
+    "text": "Set f(x)=exp(-1/x^2) for x!=0 and f(0)=0. Every derivative at zero vanishes, although f is positive away from zero.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis I, https://jirka.org/ra/realanal.pdf. No source prose reproduced."
+  },
+  {
+    "id": "convex-hull",
+    "text": "Construct the convex hull of A as all finite sums sum(t_i*a_i), with a_i in A, t_i>=0, and sum(t_i)=1.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, vector spaces and convexity, https://www.jirka.org/ra/html/sec_vectorspaces.html. No source prose reproduced."
+  },
+  {
+    "id": "uniform-approximation",
+    "text": "On [-1,1], the functions f_n(x)=sqrt(x^2+1/n) approximate |x| uniformly because 0<=f_n(x)-|x|<=1/sqrt(n).",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, pointwise and uniform convergence, https://www.jirka.org/ra/html/sec_puconv.html. No source prose reproduced."
+  }
+]
