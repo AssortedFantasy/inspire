@@ -87,4 +87,28 @@ mod tests {
             }
         }
     }
+
+    #[test]
+    fn every_generator_emits_reproducible_standalone_material() {
+        for node in NODES {
+            let Source::Generator(index) = node.source else {
+                continue;
+            };
+            for seed in (0..128).chain([u64::MAX]) {
+                let text = PAYLOADS
+                    .render(node.source, &mut StdRng::seed_from_u64(seed))
+                    .unwrap();
+                assert!(!text.trim().is_empty(), "generator {index}, seed {seed}");
+                assert!(!text.contains('\0'), "generator {index}, seed {seed}");
+                assert!(!text.ends_with('\n'), "generator {index}, seed {seed}");
+                assert_eq!(
+                    text,
+                    PAYLOADS
+                        .render(node.source, &mut StdRng::seed_from_u64(seed))
+                        .unwrap(),
+                    "generator {index}, seed {seed}"
+                );
+            }
+        }
+    }
 }
