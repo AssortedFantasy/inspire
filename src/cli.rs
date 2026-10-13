@@ -28,8 +28,7 @@ Options:
   --help-full     Show detailed help
   -V, --version   Show the version
 
-Prints one stimulus to stdout. No network access or persistent history.
-Seeds reproduce results for the same build and arguments.";
+Prints one stimulus to stdout.";
 
 pub fn parse(args: impl IntoIterator<Item = String>) -> Result<Options, String> {
     let mut args = args.into_iter();
