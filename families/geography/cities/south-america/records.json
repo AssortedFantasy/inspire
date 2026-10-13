@@ -1,0 +1,632 @@
+[
+  {
+    "id": "geography-city-ne-1159150201",
+    "text": "Alta Floresta — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150201; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150189",
+    "text": "Alvorada — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150189; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150929",
+    "text": "Antofagasta — Chile",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150929; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149417",
+    "text": "Arequipa — Peru",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149417; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150047",
+    "text": "Arica — Chile",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150047; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150621",
+    "text": "Asunción — Paraguay",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150621; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151099",
+    "text": "Bahía Blanca — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151099; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150291",
+    "text": "Bariloche — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150291; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149845",
+    "text": "Barranquilla — Colombia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149845; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150219",
+    "text": "Barreiras — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150219; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150193",
+    "text": "Belo Horizonte — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150193; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151441",
+    "text": "Belém — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151441; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151055",
+    "text": "Boa Vista — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151055; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151601",
+    "text": "Bogotá — Colombia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151601; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151443",
+    "text": "Brasília — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151443; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151559",
+    "text": "Buenos Aires — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151559; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151345",
+    "text": "Cali — Colombia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151345; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150305",
+    "text": "Campinas — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150305; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151019",
+    "text": "Campo Grande — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151019; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151493",
+    "text": "Caracas — Venezuela",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151493; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150857",
+    "text": "Cartagena — Colombia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150857; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150209",
+    "text": "Caxias do Sul — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150209; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151007",
+    "text": "Caxias — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151007; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150911",
+    "text": "Cayenne — French Guiana, France",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150911; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149419",
+    "text": "Chimbote — Peru",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149419; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149427",
+    "text": "Ciudad del Este — Paraguay",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149427; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150533",
+    "text": "Ciudad Guayana — Venezuela",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150533; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150199",
+    "text": "Colíder — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150199; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151091",
+    "text": "Comodoro Rivadavia — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151091; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150935",
+    "text": "Concepción — Chile",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150935; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150049",
+    "text": "Copiapó — Chile",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150049; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150191",
+    "text": "Corumbá — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150191; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149387",
+    "text": "Cottica — Suriname",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149387; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150045",
+    "text": "Coyhaique — Chile",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150045; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151001",
+    "text": "Cruzeiro do Sul — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151001; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149829",
+    "text": "Cuenca — Ecuador",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149829; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150205",
+    "text": "Cuiabá — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150205; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151449",
+    "text": "Curitiba — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151449; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150611",
+    "text": "Cusco — Peru",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150611; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151105",
+    "text": "Córdoba — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151105; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149191",
+    "text": "Durazno — Uruguay",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149191; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150279",
+    "text": "El Calafate — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150279; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151023",
+    "text": "Feira de Santana — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151023; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151021",
+    "text": "Florianópolis — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151021; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150299",
+    "text": "Formosa — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150299; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151451",
+    "text": "Fortaleza — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151451; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150585",
+    "text": "Georgetown — Guyana",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150585; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151459",
+    "text": "Goiânia — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151459; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151341",
+    "text": "Guayaquil — Ecuador",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151341; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149425",
+    "text": "Huancayo — Peru",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149425; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150619",
+    "text": "Ica — Peru",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150619; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150927",
+    "text": "Iquique — Chile",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150927; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149423",
+    "text": "Iquitos — Peru",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149423; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151017",
+    "text": "Ji-Paraná — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151017; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151133",
+    "text": "La Paz — Bolivia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151133; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150051",
+    "text": "La Serena — Chile",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150051; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151003",
+    "text": "Leticia — Colombia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151003; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151511",
+    "text": "Lima — Peru",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151511; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150053",
+    "text": "Los Ángeles — Chile",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150053; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151057",
+    "text": "Macapá — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151057; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150215",
+    "text": "Maceió — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150215; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151005",
+    "text": "Manaus — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151005; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149839",
+    "text": "Manizales — Colombia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149839; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151101",
+    "text": "Mar del Plata — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151101; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151011",
+    "text": "Marabá — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151011; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151237",
+    "text": "Maracaibo — Venezuela",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151237; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151343",
+    "text": "Medellín — Colombia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151343; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151093",
+    "text": "Mendoza — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151093; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150859",
+    "text": "Mitú — Colombia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150859; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150195",
+    "text": "Montes Claros — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150195; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150469",
+    "text": "Montevideo — Uruguay",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150469; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149271",
+    "text": "Mérida — Venezuela",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149271; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150225",
+    "text": "Natal — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150225; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150285",
+    "text": "Neuquén — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150285; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150597",
+    "text": "Paramaribo — Suriname",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150597; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149841",
+    "text": "Pasto — Colombia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149841; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150207",
+    "text": "Pelotas — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150207; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150313",
+    "text": "Petrolina — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150313; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149415",
+    "text": "Piura — Peru",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149415; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150211",
+    "text": "Ponta Grossa — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150211; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151447",
+    "text": "Porto Alegre — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151447; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150187",
+    "text": "Porto Velho — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150187; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151107",
+    "text": "Posadas — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151107; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149421",
+    "text": "Pucallpa — Peru",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149421; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149305",
+    "text": "Puerto Ayacucho — Venezuela",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149305; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151087",
+    "text": "Puerto Deseado — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151087; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150937",
+    "text": "Puerto Montt — Chile",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150937; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150925",
+    "text": "Punta Arenas — Chile",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150925; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150847",
+    "text": "Quito — Ecuador",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150847; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150283",
+    "text": "Rawson — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150283; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151461",
+    "text": "Recife — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151461; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150309",
+    "text": "Ribeirão Preto — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150309; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151097",
+    "text": "Riberalta — Bolivia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151097; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150181",
+    "text": "Rio Branco — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150181; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151619",
+    "text": "Rio de Janeiro — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151619; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150303",
+    "text": "Rosario — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150303; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151089",
+    "text": "Río Gallegos — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151089; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159141589",
+    "text": "Saint-Laurent-du-Maroni — French Guiana, France",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159141589; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150295",
+    "text": "Salta — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150295; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151453",
+    "text": "Salvador — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151453; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150505",
+    "text": "San Cristóbal — Venezuela",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150505; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150281",
+    "text": "San Juan — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150281; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150297",
+    "text": "San Miguel de Tucumán — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150297; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151135",
+    "text": "Santa Cruz de la Sierra — Bolivia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151135; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149831",
+    "text": "Santa Cruz — Ecuador",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159149831; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150301",
+    "text": "Santa Fe — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150301; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150289",
+    "text": "Santa Rosa — Argentina",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150289; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151009",
+    "text": "Santarém — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151009; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151615",
+    "text": "Santiago — Chile",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151615; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150307",
+    "text": "Sorocaba — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150307; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151183",
+    "text": "Stanley — Falkland Islands",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151183; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151095",
+    "text": "Sucre — Bolivia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151095; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150183",
+    "text": "São Luís — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150183; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151621",
+    "text": "São Paulo — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151621; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150613",
+    "text": "Tacna — Peru",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150613; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150337",
+    "text": "Tarija — Bolivia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150337; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150213",
+    "text": "Teresina — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150213; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150287",
+    "text": "Trinidad — Bolivia",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150287; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150615",
+    "text": "Trujillo — Peru",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150615; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150197",
+    "text": "Uberlândia — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150197; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150933",
+    "text": "Valdivia — Chile",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150933; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150507",
+    "text": "Valencia — Venezuela",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150507; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150931",
+    "text": "Valparaíso — Chile",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150931; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150223",
+    "text": "Vila Velha — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150223; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159151015",
+    "text": "Vilhena — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159151015; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150217",
+    "text": "Vitória da Conquista — Brazil",
+    "provenance": "Natural Earth 1:50m populated places v5.1.2, NE_ID 1159150217; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Names only; curated formatting and continental grouping; see geography/README.md."
+  }
+]
