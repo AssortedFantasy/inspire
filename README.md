@@ -68,5 +68,9 @@ exhaustive, and random constructions are not uniform over every possible object.
 Seeds reproduce samples within a given build. Changing the tree, records,
 generators, or RNG version can change the output for an existing seed.
 
-See [family rules](families/AGENTS.md) to extend the dataset and
+Samples should be self-contained material, not prompts or assignments for the
+consuming agent. For new corpora, prefer downloading reusable source datasets
+and transforming them with reproducible importers; spot-check the emitted text.
+
+See [family rules and sourcing workflow](families/AGENTS.md) to extend the dataset and
 [architecture](docs/architecture.md) for embedding and sampling details.

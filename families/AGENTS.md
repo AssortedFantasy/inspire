@@ -2,6 +2,48 @@
 
 Add or move directories and rebuild to change the sampling tree.
 
+## Content rules
+
+Emit self-contained material: a fact, name, quotation, mathematical object,
+position, puzzle, procedure, or generated artifact. Do not write prompts,
+assignments, creative challenges, or instructions directing the consuming agent's
+work. Do not substitute a request to create something for the thing itself.
+
+Mathematical constructions describe an object and its defining relations; they
+do not tell the reader to construct, prove, or calculate it. For example, replace
+"Construct G x H using componentwise multiplication" with "The direct product
+G x H has multiplication (g,h)(g',h')=(gg',hh') and identity (e_G,e_H)."
+Apply the same distinction across families: emit an outfit, not "Design an
+outfit"; emit a concrete game position, not "Imagine a game position."
+
+A procedure's steps or a puzzle's intrinsic rules can be part of the material.
+Include the actual procedure or puzzle, without adding an unrelated task for
+the consuming agent. Review meaning, not just imperative verbs; keyword checks
+cannot reliably distinguish these cases.
+
+## Recommended corpus workflow
+
+Prefer downloading an existing, reusable dataset and transforming it into the
+record format over having an LLM bulk-author a list. Use agents to find sources,
+write importers, and review results. Procedural generators remain appropriate
+for material that benefits from constrained random construction.
+
+1. Inspect the source data and its reuse terms. Record the exact download URL,
+   version or revision, and applicable attribution requirements.
+2. Download at development time and use a reproducible transformation. Preserve
+   stable source IDs, pin the input version or checksum where possible, and
+   document filtering, corrections, and category mappings. See
+   [the geography importer](geography/import_data.py) for an example.
+3. Keep raw downloads and temporary files outside the sampling tree. Commit the
+   resulting records and useful importer/source notes; runtime stays offline.
+4. Validate the schema, then spot-check the actual emitted text across categories.
+   Check for prompt-like framing, errors, duplicates, misleading labels, and
+   repetitive filler. A large record count or valid JSON does not establish quality.
+
+When no suitable dataset exists, use verified primary material or a bounded
+generator and document that choice. A reference URL alone is not evidence that
+an LLM-authored record was downloaded from, or checked against, that source.
+
 ## Node rules
 
 - A directory containing child directories is a branch.
