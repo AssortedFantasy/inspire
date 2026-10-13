@@ -129,6 +129,11 @@ initialize the same RNG used by explicit CLI leaf sampling. Each output includes
 its seed as a decimal string to avoid JavaScript integer precision loss and allow
 CLI reproduction. Generator streams have no dataset-style endpoint.
 
+Each dataset batch decodes a selected chunk once and reuses it for all records
+in that batch. The cache lives only for the request, is bounded by its 12 selected
+records, and stores compact copies of the selected texts. Ordinary CLI sampling
+still decodes only one chunk and reuses that buffer for its output string.
+
 The browser appends outputs in normal document flow using an intersection
 observer, with a manual load/retry button. Changing the path or restarting a
 stream cancels pending fetches and discards stale responses. The server processes

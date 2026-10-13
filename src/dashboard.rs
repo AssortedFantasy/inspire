@@ -75,8 +75,12 @@ fn outputs(index: usize, seed: u64, offset: u64) -> Result<Value, String> {
             let mut order: Vec<_> = (0..corpus.record_count).collect();
             order.shuffle(&mut StdRng::seed_from_u64(seed));
             let next = end.min(count);
-            for &record in &order[offset as usize..next as usize] {
-                let text = PAYLOADS.record_text((corpus.first_record + record) as usize)?;
+            let selected = &order[offset as usize..next as usize];
+            let indexes = selected
+                .iter()
+                .map(|&record| (corpus.first_record + record) as usize)
+                .collect::<Vec<_>>();
+            for (&record, text) in selected.iter().zip(PAYLOADS.record_texts(&indexes)?) {
                 items.push(json!({"text": text, "record": record + 1}));
             }
             (next, next == count)

@@ -1,6 +1,7 @@
 use crate::layout::{Chunk, Corpus, Record, Source};
 use miniz_oxide::inflate::decompress_to_vec_zlib_with_limit;
 use rand::{Rng, rngs::StdRng};
+use std::collections::{BTreeMap, btree_map::Entry};
 
 pub type Generator = fn(&mut StdRng) -> String;
 
@@ -48,6 +49,28 @@ impl Payloads<'_> {
         decoded.copy_within(range, 0);
         decoded.truncate(record.len as usize);
         String::from_utf8(decoded).map_err(|e| format!("invalid UTF-8 for record {index}: {e}"))
+    }
+
+    /// Decode each distinct chunk once for a bounded batch of selected records.
+    pub fn record_texts(&self, indexes: &[usize]) -> Result<Vec<String>, String> {
+        let mut chunks = BTreeMap::new();
+        indexes
+            .iter()
+            .map(|&index| {
+                let record = &self.records[index];
+                let decoded = match chunks.entry(record.chunk) {
+                    Entry::Occupied(entry) => entry.into_mut(),
+                    Entry::Vacant(entry) => entry.insert(self.decode_chunk(record.chunk as usize)?),
+                };
+                let range = record.offset as usize..record.offset as usize + record.len as usize;
+                let bytes = decoded
+                    .get(range)
+                    .ok_or_else(|| format!("invalid byte range for record {index}"))?;
+                std::str::from_utf8(bytes)
+                    .map(str::to_owned)
+                    .map_err(|e| format!("invalid UTF-8 for record {index}: {e}"))
+            })
+            .collect()
     }
 }
 
@@ -123,6 +146,12 @@ mod tests {
                 .unwrap_err()
                 .contains("decoded length")
         );
+        assert!(
+            payloads
+                .record_texts(&[0])
+                .unwrap_err()
+                .contains("decoded length")
+        );
         let chunks = [Chunk {
             decoded_len: 2,
             ..chunks[0]
@@ -132,6 +161,12 @@ mod tests {
             ..payloads
         };
         assert!(payloads.record_text(0).unwrap_err().contains("decompress"));
+        assert!(
+            payloads
+                .record_texts(&[0])
+                .unwrap_err()
+                .contains("decompress")
+        );
         let chunks = [Chunk {
             decoded_len: 3,
             ..chunks[0]
@@ -141,6 +176,12 @@ mod tests {
             ..payloads
         };
         assert!(payloads.record_text(0).unwrap_err().contains("byte range"));
+        assert!(
+            payloads
+                .record_texts(&[0])
+                .unwrap_err()
+                .contains("byte range")
+        );
 
         let bytes = compress_to_vec_zlib("é".as_bytes(), 9);
         let chunks = [Chunk {
@@ -160,5 +201,71 @@ mod tests {
             ..payloads
         };
         assert!(payloads.record_text(0).unwrap_err().contains("UTF-8"));
+        assert!(payloads.record_texts(&[0]).unwrap_err().contains("UTF-8"));
+    }
+
+    #[test]
+    fn batched_retrieval_preserves_order_repeats_and_only_decodes_selected_chunks() {
+        let first = "first😀最後";
+        let mut bytes = compress_to_vec_zlib(first.as_bytes(), 9);
+        let second_offset = bytes.len();
+        bytes.extend(compress_to_vec_zlib(b"other", 9));
+        let chunks = [
+            Chunk {
+                offset: 0,
+                compressed_len: second_offset as u32,
+                decoded_len: first.len() as u32,
+            },
+            Chunk {
+                offset: second_offset as u32,
+                compressed_len: (bytes.len() - second_offset) as u32,
+                decoded_len: 5,
+            },
+            Chunk {
+                offset: 0,
+                compressed_len: 1,
+                decoded_len: 1,
+            },
+        ];
+        let records = [
+            Record {
+                chunk: 0,
+                offset: 5,
+                len: 4,
+            },
+            Record {
+                chunk: 1,
+                offset: 0,
+                len: 5,
+            },
+            Record {
+                chunk: 0,
+                offset: 9,
+                len: 6,
+            },
+            Record {
+                chunk: 2,
+                offset: 0,
+                len: 1,
+            },
+        ];
+        let payloads = Payloads {
+            corpuses: &[],
+            records: &records,
+            chunks: &chunks,
+            compressed_bytes: &bytes,
+            generators: &[],
+        };
+        assert_eq!(
+            payloads.record_texts(&[2, 0, 1, 0]).unwrap(),
+            ["最後", "😀", "other", "😀"]
+        );
+        assert!(payloads.record_texts(&[]).unwrap().is_empty());
+        assert!(
+            payloads
+                .record_texts(&[0, 3])
+                .unwrap_err()
+                .contains("decompress chunk 2")
+        );
     }
 }

@@ -83,12 +83,14 @@ mod tests {
     fn every_embedded_corpus_is_valid() {
         for corpus in CORPUSES {
             assert!(corpus.record_count > 0);
-            for index in corpus.first_record as usize
-                ..corpus.first_record as usize + corpus.record_count as usize
-            {
-                let text = PAYLOADS.record_text(index).unwrap();
-                assert!(!text.trim().is_empty());
-                assert!(!text.contains('\0'));
+            let start = corpus.first_record as usize;
+            let end = start + corpus.record_count as usize;
+            for first in (start..end).step_by(256) {
+                let indexes = (first..(first + 256).min(end)).collect::<Vec<_>>();
+                for text in PAYLOADS.record_texts(&indexes).unwrap() {
+                    assert!(!text.trim().is_empty());
+                    assert!(!text.contains('\0'));
+                }
             }
         }
     }
