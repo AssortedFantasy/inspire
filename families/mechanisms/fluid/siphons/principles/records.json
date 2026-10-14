@@ -1,0 +1,17 @@
+[
+  {
+    "id": "siphon-head",
+    "text": "A primed siphon can move water over a high point to an outlet below the source reservoir. The difference in water levels supplies the gravitational drive.",
+    "provenance": "Original factual paraphrase. Source: Hughes and Gurung, Exploring the boundary between a siphon and barometer in a hypobaric chamber, Scientific Reports 4, 4741 (2014); https://www.nature.com/articles/srep04741. Consulted 2026-10-13."
+  },
+  {
+    "id": "siphon-low-pressure",
+    "text": "Pressure near the top of an ordinary siphon is below ambient pressure. Lowering the ambient pressure can make the water boil at the crest and interrupt continuous flow.",
+    "provenance": "Original factual paraphrase. Source: Hughes and Gurung, Exploring the boundary between a siphon and barometer in a hypobaric chamber, Scientific Reports 4, 4741 (2014); https://www.nature.com/articles/srep04741. Consulted 2026-10-13."
+  },
+  {
+    "id": "siphon-tension",
+    "text": "Special experiments with prepared water have operated siphons above the usual barometric height limit. A liquid can sustain tension, but bubbles and cavitation often limit ordinary setups.",
+    "provenance": "Original factual paraphrase. Source: Boatwright, Hughes and Barry, The height limit of a siphon, Scientific Reports 5, 16790 (2015); https://www.nature.com/articles/srep16790. Consulted 2026-10-13."
+  }
+]

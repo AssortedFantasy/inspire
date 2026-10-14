@@ -1,0 +1,17 @@
+[
+  {
+    "id": "pascal-transmission",
+    "text": "A pressure change applied to a confined fluid is transmitted throughout it. A hydraulic system uses this to connect forces at separated pistons.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.3; https://openstax.org/books/university-physics-volume-1/pages/14-3-pascals-principle-and-hydraulics. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  },
+  {
+    "id": "hydraulic-area-ratio",
+    "text": "In an ideal hydraulic lift with pistons at the same height, a larger output piston produces more force at the same pressure. It travels a shorter distance than the smaller input piston.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.3; https://openstax.org/books/university-physics-volume-1/pages/14-3-pascals-principle-and-hydraulics. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  },
+  {
+    "id": "hydraulic-work",
+    "text": "A hydraulic lift multiplies force without multiplying work: the smaller piston must move farther to displace the volume needed by the larger piston.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.3; https://openstax.org/books/university-physics-volume-1/pages/14-3-pascals-principle-and-hydraulics. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  }
+]

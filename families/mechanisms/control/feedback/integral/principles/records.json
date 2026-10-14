@@ -1,0 +1,17 @@
+[
+  {
+    "id": "integral-control",
+    "text": "Integral action accumulates error over time. It can keep changing the control output even when the instantaneous error is small.",
+    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PI lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralControl. Consulted 2026-10-13."
+  },
+  {
+    "id": "pi-controller",
+    "text": "A PI controller combines a response to present error with a response to accumulated error, often removing the offset left by proportional control.",
+    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PI lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralControl. Consulted 2026-10-13."
+  },
+  {
+    "id": "bumpless-transfer",
+    "text": "When switching from manual operation to automatic control, matching the controller's initial output to the current output can avoid an abrupt jump.",
+    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PI lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralControl. Consulted 2026-10-13."
+  }
+]

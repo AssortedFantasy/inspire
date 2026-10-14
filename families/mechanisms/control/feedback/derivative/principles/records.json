@@ -1,0 +1,17 @@
+[
+  {
+    "id": "derivative-action",
+    "text": "Derivative action responds to how quickly a measured process variable is changing. It can damp oscillation but also magnify measurement noise.",
+    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
+  },
+  {
+    "id": "derivative-filter",
+    "text": "Filtering a derivative estimate reduces its sensitivity to rapid measurement noise, at the cost of adding lag.",
+    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
+  },
+  {
+    "id": "derivative-kick",
+    "text": "A sudden target change can create a large derivative response if the controller differentiates error. Differentiating the measured variable instead avoids this target-induced kick.",
+    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
+  }
+]

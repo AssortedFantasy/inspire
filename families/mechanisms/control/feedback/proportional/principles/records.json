@@ -1,0 +1,12 @@
+[
+  {
+    "id": "proportional-control",
+    "text": "A proportional controller changes its output in proportion to the current difference between the target and the measured value.",
+    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, proportional-control lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalControl. Consulted 2026-10-13."
+  },
+  {
+    "id": "proportional-offset",
+    "text": "A proportional controller may need a persistent error to maintain the output required by a steady load. More gain can reduce this offset but changes the system's response.",
+    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, proportional-control lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalControl. Consulted 2026-10-13."
+  }
+]

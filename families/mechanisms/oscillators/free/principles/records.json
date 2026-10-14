@@ -1,0 +1,22 @@
+[
+  {
+    "id": "underdamped",
+    "text": "An underdamped oscillator crosses equilibrium repeatedly as its motion fades.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 15.5; https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  },
+  {
+    "id": "critical-damping",
+    "text": "In an ideal linear spring-and-mass system, critical damping returns the mass to equilibrium as quickly as possible without oscillation.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 15.5; https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  },
+  {
+    "id": "overdamped",
+    "text": "More damping is not always faster: an overdamped spring-and-mass system returns without oscillating but more slowly than a critically damped one.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 15.5; https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  },
+  {
+    "id": "viscous-damper",
+    "text": "A viscous damping model makes the resisting force proportional to velocity and opposite to motion, removing mechanical energy.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 15.5; https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  }
+]

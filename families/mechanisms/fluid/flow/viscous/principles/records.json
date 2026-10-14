@@ -1,0 +1,22 @@
+[
+  {
+    "id": "viscous-shear",
+    "text": "Viscosity resists neighboring layers of fluid sliding past one another. In a tube, the walls slow the adjacent fluid.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.7; https://openstax.org/books/university-physics-volume-1/pages/14-7-viscosity-and-turbulence. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  },
+  {
+    "id": "poiseuille-radius",
+    "text": "For steady laminar flow of a Newtonian fluid in a circular tube, Poiseuille's law makes flow rate proportional to the fourth power of radius. A small constriction can have a large effect.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.7; https://openstax.org/books/university-physics-volume-1/pages/14-7-viscosity-and-turbulence. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  },
+  {
+    "id": "poiseuille-length",
+    "text": "Under Poiseuille's assumptions, doubling a tube's length halves its flow rate if its radius, fluid viscosity, and pressure difference stay fixed.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.7; https://openstax.org/books/university-physics-volume-1/pages/14-7-viscosity-and-turbulence. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  },
+  {
+    "id": "reynolds-number",
+    "text": "Reynolds number compares inertial and viscous effects. It helps assess whether a flow is likely to remain orderly or become turbulent.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.7; https://openstax.org/books/university-physics-volume-1/pages/14-7-viscosity-and-turbulence. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  }
+]

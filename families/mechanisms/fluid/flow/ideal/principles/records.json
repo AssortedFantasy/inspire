@@ -1,0 +1,27 @@
+[
+  {
+    "id": "continuity",
+    "text": "For steady incompressible flow through a tube, volume flow rate stays constant. A narrower cross-section therefore requires a higher average speed.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.5; https://openstax.org/books/university-physics-volume-1/pages/14-5-fluid-dynamics. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  },
+  {
+    "id": "streamline",
+    "text": "A streamline follows the local direction of fluid velocity. In steady flow, the velocity pattern at each fixed position does not change with time.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.5; https://openstax.org/books/university-physics-volume-1/pages/14-5-fluid-dynamics. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  },
+  {
+    "id": "bernoulli-balance",
+    "text": "For steady, incompressible flow with negligible friction, Bernoulli's equation balances pressure, kinetic energy per volume, and gravitational energy per volume along a streamline.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.6; https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  },
+  {
+    "id": "venturi",
+    "text": "An ideal flow speeds up in a narrowed tube and has lower static pressure there when elevation is unchanged. A constriction can therefore create a measurable pressure difference.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.6; https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  },
+  {
+    "id": "jet-entrainment",
+    "text": "A fast jet can create a low-pressure region that draws another fluid into the stream. An atomizer uses moving air to pick up droplets of liquid.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 14.6; https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  }
+]

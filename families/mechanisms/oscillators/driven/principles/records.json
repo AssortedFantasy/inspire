@@ -1,0 +1,12 @@
+[
+  {
+    "id": "resonant-driving",
+    "text": "Small repeated pushes can produce a large motion when their timing matches an oscillator's resonant response.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 15.6; https://openstax.org/books/university-physics-volume-1/pages/15-6-forced-oscillations. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  },
+  {
+    "id": "resonance-bandwidth",
+    "text": "Lightly damped oscillators respond strongly over a narrower band of driving frequencies. Heavier damping broadens and reduces the response.",
+    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 15.6; https://openstax.org/books/university-physics-volume-1/pages/15-6-forced-oscillations. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+  }
+]

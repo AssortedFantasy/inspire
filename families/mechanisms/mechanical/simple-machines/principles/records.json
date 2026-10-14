@@ -33,15 +33,5 @@
     "id": "compound-machine",
     "text": "A compound machine combines simple machines, such as a lever and a pulley, into a mechanism for a more specific task.",
     "provenance": "Original factual paraphrase. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13."
-  },
-  {
-    "id": "moment-arm",
-    "text": "Torque depends on force and the perpendicular distance from the rotation axis to the force's line of action. A long handle is useful only if the force is applied in a useful direction.",
-    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 10.6; https://openstax.org/books/university-physics-volume-1/pages/10-6-torque. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
-  },
-  {
-    "id": "radial-force",
-    "text": "A force directed straight toward or away from a pivot produces no torque about that pivot, even if the force is large.",
-    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 10.6; https://openstax.org/books/university-physics-volume-1/pages/10-6-torque. Consulted 2026-10-13. OpenStax educational text is CC BY 4.0; this record is independently worded."
   }
 ]

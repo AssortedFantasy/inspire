@@ -1,0 +1,17 @@
+[
+  {
+    "id": "integral-windup",
+    "text": "When an actuator stays at its limit, accumulated integral error can keep the controller saturated after conditions change. Anti-windup methods limit this accumulation.",
+    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
+  },
+  {
+    "id": "sampled-pid",
+    "text": "A digital PID controller replaces a continuous integral with a sum and estimates rate of change from successive samples. The sample interval is part of the calculation.",
+    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
+  },
+  {
+    "id": "actuator-limits",
+    "text": "A controller can request more output than an actuator can supply. Clipping the command at the physical limits changes the behavior of the feedback loop.",
+    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
+  }
+]
