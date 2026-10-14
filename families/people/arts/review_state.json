@@ -1,0 +1,10 @@
+{
+  "node": "people/arts",
+  "reviewer": "/root/people/arts",
+  "parent": "/root/people",
+  "queue": ["literature", "music", "performance", "visual"],
+  "completed": [],
+  "current_child": null,
+  "status": "waiting-for-capacity",
+  "checks": ["Inspected arts taxonomy: literature, music, performance, visual; 13 final leaves", "Initial descendant-count weights: 384 + 360 + 360 + 480 = 1584"]
+}

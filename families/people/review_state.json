@@ -1,0 +1,27 @@
+{
+  "parent": "/root",
+  "manager": "/root/people",
+  "queue": [
+    "arts",
+    "science",
+    "society",
+    "technology",
+    "thought"
+  ],
+  "current": "arts",
+  "current_reviewer": "/root/people/arts",
+  "completed": [],
+  "baseline": {
+    "nodes": 50,
+    "branches": 16,
+    "leaves": 34,
+    "records": 4212
+  },
+  "verification": [
+    "Exact payload replay passed",
+    "Tampered source checksum rejected before payload writes",
+    "Isolated exclusion removed exactly one selected identity and introduced no replacement",
+    "Every affected descendant weight matched the remaining record count"
+  ],
+  "review_status": "in_progress"
+}

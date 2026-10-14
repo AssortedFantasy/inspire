@@ -1,632 +1,632 @@
 [
   {
     "id": "person-hedy-lamarr",
-    "text": "Hedy Lamarr — actor and inventor; co-designed a frequency-hopping communications system with George Antheil.",
+    "text": "Hedy Lamarr - actor and inventor; co-designed a frequency-hopping communications system with George Antheil.",
     "provenance": "Original concise factual description. Source: National Inventors Hall of Fame, https://www.invent.org/inductees/hedy-lamarr. Consulted 2026-10-13; source prose and images are not reproduced."
   },
   {
     "id": "person-garrett-morgan",
-    "text": "Garrett Morgan — inventor; safety hood and an improved traffic signal.",
+    "text": "Garrett Morgan - inventor; safety hood and an improved traffic signal.",
     "provenance": "Original concise factual description. Source: National Inventors Hall of Fame, https://www.invent.org/inductees/garrett-morgan. Consulted 2026-10-13; source prose and images are not reproduced."
   },
   {
     "id": "person-mary-anderson",
-    "text": "Mary Anderson — inventor; vehicle windshield-cleaning device.",
+    "text": "Mary Anderson - inventor; vehicle windshield-cleaning device.",
     "provenance": "Original concise factual description. Source: National Inventors Hall of Fame, https://www.invent.org/inductees/mary-anderson. Consulted 2026-10-13; source prose and images are not reproduced."
   },
   {
     "id": "person-nikola-tesla",
-    "text": "Nikola Tesla — inventor; alternating-current induction motor.",
+    "text": "Nikola Tesla - inventor; alternating-current induction motor.",
     "provenance": "Original concise factual description. Source: National Inventors Hall of Fame, https://www.invent.org/inductees/nikola-tesla. Consulted 2026-10-13; source prose and images are not reproduced."
   },
   {
     "id": "person-thomas-edison",
-    "text": "Thomas Edison — inventor; phonograph and practical electric-lighting systems.",
+    "text": "Thomas Edison - inventor; phonograph and practical electric-lighting systems.",
     "provenance": "Original concise factual description. Source: National Inventors Hall of Fame, https://www.invent.org/inductees/thomas-alva-edison. Consulted 2026-10-13; source prose and images are not reproduced."
   },
   {
     "id": "person-lewis-latimer",
-    "text": "Lewis Latimer — inventor; a method of making more durable carbon lamp filaments.",
+    "text": "Lewis Latimer - inventor; a method of making more durable carbon lamp filaments.",
     "provenance": "Original concise factual description. Source: National Inventors Hall of Fame, https://www.invent.org/inductees/lewis-latimer. Consulted 2026-10-13; source prose and images are not reproduced."
   },
   {
     "id": "wikidata-q7108761",
-    "text": "Otis Boykin — American inventor and engineer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Otis Boykin - American inventor and engineer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q7108761, https://www.wikidata.org/wiki/Q7108761; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q1284975",
-    "text": "Juan Vucetich — Anthropologis, police official and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Juan Vucetich - Anthropologis, police official and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1284975, https://www.wikidata.org/wiki/Q1284975; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q5343922",
-    "text": "Edward Keonjian — electronics scientist and engineer, inventor, developed first integral curcuits.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Edward Keonjian - electronics scientist and engineer, inventor, developed first integral curcuits.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q5343922, https://www.wikidata.org/wiki/Q5343922; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q708947",
-    "text": "Arthur Clifford Howard — Australian-born British inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Arthur Clifford Howard - Australian-born British inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q708947, https://www.wikidata.org/wiki/Q708947; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q78651",
-    "text": "Hanns Hörbiger — Austrian inventor and scientist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Hanns Hörbiger - Austrian inventor and scientist.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q78651, https://www.wikidata.org/wiki/Q78651; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q1706031",
-    "text": "Josef Werndl — Austrian entrepreneur and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Josef Werndl - Austrian entrepreneur and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1706031, https://www.wikidata.org/wiki/Q1706031; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q18645527",
-    "text": "Valentin Matija Živic — engineer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Valentin Matija Živic - engineer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18645527, https://www.wikidata.org/wiki/Q18645527; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q21996624",
-    "text": "Václav Svoboda — Czech entrepreneur, engineer and inventor (1882–1963).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Václav Svoboda - Czech entrepreneur, engineer and inventor (1882–1963).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q21996624, https://www.wikidata.org/wiki/Q21996624; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q526022",
-    "text": "František Křižík — Czech engineer, entrepreneur and inventor (1847-1941).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "František Křižík - Czech engineer, entrepreneur and inventor (1847-1941).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q526022, https://www.wikidata.org/wiki/Q526022; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q112877",
-    "text": "Charles K. Bliss — chemical engineer, inventor of Blissymbolics.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Charles K. Bliss - chemical engineer, inventor of Blissymbolics.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q112877, https://www.wikidata.org/wiki/Q112877; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q31167",
-    "text": "Siegfried Marcus — German-Austrian inventor and automobile pioneer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Siegfried Marcus - German-Austrian inventor and automobile pioneer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q31167, https://www.wikidata.org/wiki/Q31167; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q375257",
-    "text": "Anton Dreher — brewer, austrian member of Lower Austrian regional parliament, member of Austrian empire council, entrepreneur and inventor (1810-1863).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Anton Dreher - brewer, austrian member of Lower Austrian regional parliament, member of Austrian empire council, entrepreneur and inventor (1810-1863).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q375257, https://www.wikidata.org/wiki/Q375257; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q247575",
-    "text": "Zénon Bacq — radiobiologist, inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Zénon Bacq - radiobiologist, inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q247575, https://www.wikidata.org/wiki/Q247575; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q123961",
-    "text": "Karl Wilhelm von Bormann — German soldier and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Karl Wilhelm von Bormann - German soldier and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q123961, https://www.wikidata.org/wiki/Q123961; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q1467449",
-    "text": "Fritz Marguerre — German engineer, inventor and entrepreneur.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Fritz Marguerre - German engineer, inventor and entrepreneur.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1467449, https://www.wikidata.org/wiki/Q1467449; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q10288475",
-    "text": "Gastão Galhardo Madeira — Brazilian lawyer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Gastão Galhardo Madeira - Brazilian lawyer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q10288475, https://www.wikidata.org/wiki/Q10288475; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q1694679",
-    "text": "Peter Petroff — Bulgarian Inventor NASA Rocket Scientist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Peter Petroff - Bulgarian Inventor NASA Rocket Scientist.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1694679, https://www.wikidata.org/wiki/Q1694679; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q188962",
-    "text": "James Naismith — Canadian-American coach; inventor of basketball.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "James Naismith - Canadian-American coach; inventor of basketball.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q188962, https://www.wikidata.org/wiki/Q188962; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q41411",
-    "text": "Sandford Fleming — Scottish-born Canadian engineer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Sandford Fleming - Scottish-born Canadian engineer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q41411, https://www.wikidata.org/wiki/Q41411; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q5041724",
-    "text": "Carlos Albán — Colombian inventor who specialized in mathematics, chemistry, medicine, and surgery.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Carlos Albán - Colombian inventor who specialized in mathematics, chemistry, medicine, and surgery.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q5041724, https://www.wikidata.org/wiki/Q5041724; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q3514116",
-    "text": "Ante Šupuk — Croatian engineer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Ante Šupuk - Croatian engineer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3514116, https://www.wikidata.org/wiki/Q3514116; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q842243",
-    "text": "Franjo Hanaman — Croatian engineer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Franjo Hanaman - Croatian engineer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q842243, https://www.wikidata.org/wiki/Q842243; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q705292",
-    "text": "Stanislav Brebera — Czech chemical engineer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Stanislav Brebera - Czech chemical engineer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q705292, https://www.wikidata.org/wiki/Q705292; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q730128",
-    "text": "Otto Wichterle — Czech member of Czech National Council, politician, academic, chemical engineer, professor and inventor (1913-1998).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Otto Wichterle - Czech member of Czech National Council, politician, academic, chemical engineer, professor and inventor (1913-1998).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q730128, https://www.wikidata.org/wiki/Q730128; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q8018044",
-    "text": "William Salcer — Czechoslovak inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "William Salcer - Czechoslovak inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q8018044, https://www.wikidata.org/wiki/Q8018044; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q1344875",
-    "text": "Poul la Cour — Danish scientist, inventor and educationer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Poul la Cour - Danish scientist, inventor and educationer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1344875, https://www.wikidata.org/wiki/Q1344875; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q365463",
-    "text": "Cornelis Drebbel — Dutch inventor and submarine pioneer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Cornelis Drebbel - Dutch inventor and submarine pioneer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q365463, https://www.wikidata.org/wiki/Q365463; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q7106326",
-    "text": "Oscar Wirkkala — American logger-inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Oscar Wirkkala - American logger-inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q7106326, https://www.wikidata.org/wiki/Q7106326; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q5396",
-    "text": "Louis Blériot — French aviator, inventor and engineer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Louis Blériot - French aviator, inventor and engineer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q5396, https://www.wikidata.org/wiki/Q5396; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q71007",
-    "text": "Claudius Dornier — German aerospace engineer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Claudius Dornier - German aerospace engineer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q71007, https://www.wikidata.org/wiki/Q71007; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q77124",
-    "text": "le gentil — German scientist and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "le gentil - German scientist and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q77124, https://www.wikidata.org/wiki/Q77124; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q96235",
-    "text": "Josef Friedrich Schmidt — German board game inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Josef Friedrich Schmidt - German board game inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q96235, https://www.wikidata.org/wiki/Q96235; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q61218",
-    "text": "Peter Henlein — German inventor and watchmaker.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Peter Henlein - German inventor and watchmaker.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q61218, https://www.wikidata.org/wiki/Q61218; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q1655161",
-    "text": "Siegfried Böhm — inventor alemán (1921–2016).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Siegfried Böhm - inventor alemán (1921–2016).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1655161, https://www.wikidata.org/wiki/Q1655161; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q58577",
-    "text": "Ernst Werner von Siemens — German electrical engineer, inventor and industrialist (1816-1892).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Ernst Werner von Siemens - German electrical engineer, inventor and industrialist (1816-1892).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q58577, https://www.wikidata.org/wiki/Q58577; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q71032",
-    "text": "Robert Bosch — German industrialist, inventor, engineer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Robert Bosch - German industrialist, inventor, engineer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q71032, https://www.wikidata.org/wiki/Q71032; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q62007",
-    "text": "Helmut Gröttrup — German engineer and inventor of the smart card (1916-1981).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Helmut Gröttrup - German engineer and inventor of the smart card (1916-1981).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q62007, https://www.wikidata.org/wiki/Q62007; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q76692",
-    "text": "Augustus Siebe — Prussian engineer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Augustus Siebe - Prussian engineer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q76692, https://www.wikidata.org/wiki/Q76692; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q229235",
-    "text": "Cai Lun — Late 1st/early 2nd century Chinese inventor and eunuch court official.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Cai Lun - Late 1st/early 2nd century Chinese inventor and eunuch court official.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q229235, https://www.wikidata.org/wiki/Q229235; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q328679",
-    "text": "Johann Maria Farina — Italian perfumer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Johann Maria Farina - Italian perfumer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q328679, https://www.wikidata.org/wiki/Q328679; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q704391",
-    "text": "Kálmán Kandó — Hungarian engineer and inventor of phase converter (1869-1931).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Kálmán Kandó - Hungarian engineer and inventor of phase converter (1869-1931).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q704391, https://www.wikidata.org/wiki/Q704391; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q7415",
-    "text": "Mária Telkes — Hungarian–American scientist and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Mária Telkes - Hungarian–American scientist and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q7415, https://www.wikidata.org/wiki/Q7415; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q979865",
-    "text": "Richard Lovell Edgeworth — Anglo-Irish politician, writer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Richard Lovell Edgeworth - Anglo-Irish politician, writer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q979865, https://www.wikidata.org/wiki/Q979865; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q1871553",
-    "text": "Louis Brennan — Mechanical engineer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Louis Brennan - Mechanical engineer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1871553, https://www.wikidata.org/wiki/Q1871553; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q52155771",
-    "text": "Edward N. Hurley — Irish American businessman and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Edward N. Hurley - Irish American businessman and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q52155771, https://www.wikidata.org/wiki/Q52155771; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q4257569",
-    "text": "Mikhail Leitman — Soviet inventor (1937-2002).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Mikhail Leitman - Soviet inventor (1937-2002).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4257569, https://www.wikidata.org/wiki/Q4257569; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q5478237",
-    "text": "Franc Trkman — Slovenian inventor, entrepreneur.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Franc Trkman - Slovenian inventor, entrepreneur.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q5478237, https://www.wikidata.org/wiki/Q5478237; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q320321",
-    "text": "Tullio Campagnolo — Italian racing cyclist and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Tullio Campagnolo - Italian racing cyclist and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q320321, https://www.wikidata.org/wiki/Q320321; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q451062",
-    "text": "Kotaro Honda — Japanese scientist and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Kotaro Honda - Japanese scientist and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q451062, https://www.wikidata.org/wiki/Q451062; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q7787709",
-    "text": "Thomas Blount — British soldier, Member of Parliament and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Thomas Blount - British soldier, Member of Parliament and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q7787709, https://www.wikidata.org/wiki/Q7787709; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q93182",
-    "text": "Louis Braille — inventor of braille, a system of reading and writing used by people who are blind or visually impaired.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Louis Braille - inventor of braille, a system of reading and writing used by people who are blind or visually impaired.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q93182, https://www.wikidata.org/wiki/Q93182; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q140696",
-    "text": "James Hargreaves — Inventor of the spinning jenny.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "James Hargreaves - Inventor of the spinning jenny.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q140696, https://www.wikidata.org/wiki/Q140696; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q310720",
-    "text": "Thomas Savery — English inventor and engineer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Thomas Savery - English inventor and engineer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q310720, https://www.wikidata.org/wiki/Q310720; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q3779041",
-    "text": "Guglielmo Walton — British entrepreneur and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Guglielmo Walton - British entrepreneur and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3779041, https://www.wikidata.org/wiki/Q3779041; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q121838",
-    "text": "Joseph Aspdin — British mason, bricklayer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Joseph Aspdin - British mason, bricklayer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q121838, https://www.wikidata.org/wiki/Q121838; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q36488",
-    "text": "Guglielmo Marconi — Italian inventor and radio pioneer (1874-1937).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Guglielmo Marconi - Italian inventor and radio pioneer (1874-1937).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q36488, https://www.wikidata.org/wiki/Q36488; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q472375",
-    "text": "Hugo Koch — Dutch inventor and cryptologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Hugo Koch - Dutch inventor and cryptologist.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q472375, https://www.wikidata.org/wiki/Q472375; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q337200",
-    "text": "Henri Tudor — Engineer, inventor, and industrialist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Henri Tudor - Engineer, inventor, and industrialist.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q337200, https://www.wikidata.org/wiki/Q337200; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q26240188",
-    "text": "Agathe de Saint-Père — French-Canadian business entrepreneur and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Agathe de Saint-Père - French-Canadian business entrepreneur and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q26240188, https://www.wikidata.org/wiki/Q26240188; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q2070100",
-    "text": "Matthew A. Hunter — Metallurgist and inventor of the Hunter process.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Matthew A. Hunter - Metallurgist and inventor of the Hunter process.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q2070100, https://www.wikidata.org/wiki/Q2070100; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q18419892",
-    "text": "Mohammed Bah Abba — inventor nixerianu (1964–2010).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Mohammed Bah Abba - inventor nixerianu (1964–2010).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18419892, https://www.wikidata.org/wiki/Q18419892; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q200662",
-    "text": "Bi Sheng — inventor and printer (0990-1052).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Bi Sheng - inventor and printer (0990-1052).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q200662, https://www.wikidata.org/wiki/Q200662; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q3427091",
-    "text": "Henrik Christian Fredrik Størmer — engineer, inventor, industrialist and entrepreneur.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Henrik Christian Fredrik Størmer - engineer, inventor, industrialist and entrepreneur.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3427091, https://www.wikidata.org/wiki/Q3427091; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q5606758",
-    "text": "Gregorio Y. Zara — Filipino Engineer and Inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Gregorio Y. Zara - Filipino Engineer and Inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q5606758, https://www.wikidata.org/wiki/Q5606758; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q6381205",
-    "text": "Kazimierz Leski — Polish pilot, officer, spy, engineer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Kazimierz Leski - Polish pilot, officer, spy, engineer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6381205, https://www.wikidata.org/wiki/Q6381205; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q29268298",
-    "text": "Walter König — Polish inventor (1903–1996).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Walter König - Polish inventor (1903–1996).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q29268298, https://www.wikidata.org/wiki/Q29268298; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q16738864",
-    "text": "Stanisław Olszewski — Polish engineer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Stanisław Olszewski - Polish engineer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q16738864, https://www.wikidata.org/wiki/Q16738864; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q561034",
-    "text": "Tito Livio Burattini — Italian-Polish inventor, Egyptologist, instrument-maker.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Tito Livio Burattini - Italian-Polish inventor, Egyptologist, instrument-maker.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q561034, https://www.wikidata.org/wiki/Q561034; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q21850546",
-    "text": "Manuel Nunes — Portuguese inventor and joiner (1843-1922).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Manuel Nunes - Portuguese inventor and joiner (1843-1922).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q21850546, https://www.wikidata.org/wiki/Q21850546; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q737626",
-    "text": "Genrich Altshuller — Soviet inventor and writer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Genrich Altshuller - Soviet inventor and writer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q737626, https://www.wikidata.org/wiki/Q737626; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q27921673",
-    "text": "Anatoliy Fjodorovitsj Grigorovitsj — inventor rusu (1907–1999).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Anatoliy Fjodorovitsj Grigorovitsj - inventor rusu (1907–1999).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q27921673, https://www.wikidata.org/wiki/Q27921673; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q11758",
-    "text": "L. L. Zamenhof — Polish ophthalmologist and inventor of Esperanto.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "L. L. Zamenhof - Polish ophthalmologist and inventor of Esperanto.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q11758, https://www.wikidata.org/wiki/Q11758; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q18423186",
-    "text": "Antoni Lelowski — inventor polacu (1783–1855).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Antoni Lelowski - inventor polacu (1783–1855).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18423186, https://www.wikidata.org/wiki/Q18423186; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q20021846",
-    "text": "Otto Hetzer — entrepreneur and inventor (1846-1911).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Otto Hetzer - entrepreneur and inventor (1846-1911).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q20021846, https://www.wikidata.org/wiki/Q20021846; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q1355479",
-    "text": "James Beaumont Neilson — Scottish inventor of the hot-blast process for smelting iron.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "James Beaumont Neilson - Scottish inventor of the hot-blast process for smelting iron.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1355479, https://www.wikidata.org/wiki/Q1355479; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q6140614",
-    "text": "James Oliver — American inventor and industrialist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "James Oliver - American inventor and industrialist.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6140614, https://www.wikidata.org/wiki/Q6140614; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q2360530",
-    "text": "Vitaly Abalakov — Mountaineer, inventor,Armero.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Vitaly Abalakov - Mountaineer, inventor,Armero.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q2360530, https://www.wikidata.org/wiki/Q2360530; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q2064943",
-    "text": "Pavel Ignatievitch Grokhovsky — Russian inventor and aviator (1899-1946).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Pavel Ignatievitch Grokhovsky - Russian inventor and aviator (1899-1946).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q2064943, https://www.wikidata.org/wiki/Q2064943; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q354646",
-    "text": "Juan de la Cierva — Spanish aeronautical engineer and pilot; inventor of the autogyro.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Juan de la Cierva - Spanish aeronautical engineer and pilot; inventor of the autogyro.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q354646, https://www.wikidata.org/wiki/Q354646; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q2323231",
-    "text": "Bothalage Desmond James Stanley Fernando — Sri Lankan Medical Doctor and Inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Bothalage Desmond James Stanley Fernando - Sri Lankan Medical Doctor and Inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q2323231, https://www.wikidata.org/wiki/Q2323231; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q186261",
-    "text": "Gideon Sundback — Swedish-American inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Gideon Sundback - Swedish-American inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q186261, https://www.wikidata.org/wiki/Q186261; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q85565",
-    "text": "Jakub Kryštof Rad — entrepreneur and inventor (1799-1871).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Jakub Kryštof Rad - entrepreneur and inventor (1799-1871).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q85565, https://www.wikidata.org/wiki/Q85565; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q124068",
-    "text": "François Isaac de Rivaz — Swiss inventor and politician (1752-1828).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "François Isaac de Rivaz - Swiss inventor and politician (1752-1828).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q124068, https://www.wikidata.org/wiki/Q124068; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q77936",
-    "text": "Andreas Stihl — engineer and important inventor in the area of chainsaws.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Andreas Stihl - engineer and important inventor in the area of chainsaws.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q77936, https://www.wikidata.org/wiki/Q77936; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q828196",
-    "text": "Bertie Marshall — Trinidad and Tobago inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Bertie Marshall - Trinidad and Tobago inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q828196, https://www.wikidata.org/wiki/Q828196; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q12100529",
-    "text": "Виталий Павлович Деркач — inventor ucraín (1923–2012).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Виталий Павлович Деркач - inventor ucraín (1923–2012).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q12100529, https://www.wikidata.org/wiki/Q12100529; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q41619",
-    "text": "Verena Holmes — English mechanical engineer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Verena Holmes - English mechanical engineer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q41619, https://www.wikidata.org/wiki/Q41619; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q59207",
-    "text": "Alexander Parkes — metallurgist and inventor of the early plastic Parkesine.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Alexander Parkes - metallurgist and inventor of the early plastic Parkesine.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q59207, https://www.wikidata.org/wiki/Q59207; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q719717",
-    "text": "Barnes Wallis — English scientist, engineer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Barnes Wallis - English scientist, engineer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q719717, https://www.wikidata.org/wiki/Q719717; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q7440",
-    "text": "Ruth R. Benerito — American scientist and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Ruth R. Benerito - American scientist and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q7440, https://www.wikidata.org/wiki/Q7440; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q336176",
-    "text": "Luther George Simjian — American-Armenian inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Luther George Simjian - American-Armenian inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q336176, https://www.wikidata.org/wiki/Q336176; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q6446584",
-    "text": "Kurt Amplatz — Radiologist and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Kurt Amplatz - Radiologist and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6446584, https://www.wikidata.org/wiki/Q6446584; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q196287",
-    "text": "Mihajlo Pupin — Serbian American inventor and autobiographer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Mihajlo Pupin - Serbian American inventor and autobiographer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q196287, https://www.wikidata.org/wiki/Q196287; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q1443629",
-    "text": "Frank Lambert — French American inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Frank Lambert - French American inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1443629, https://www.wikidata.org/wiki/Q1443629; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q12674",
-    "text": "Rudolf Diesel — German inventor and mechanical engineer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Rudolf Diesel - German inventor and mechanical engineer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q12674, https://www.wikidata.org/wiki/Q12674; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q6095261",
-    "text": "Itzhak Bentov — Israeli-American engineer, inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Itzhak Bentov - Israeli-American engineer, inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6095261, https://www.wikidata.org/wiki/Q6095261; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q71004",
-    "text": "Emile Berliner — German-born American inventor of the phonograph.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Emile Berliner - German-born American inventor of the phonograph.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q71004, https://www.wikidata.org/wiki/Q71004; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q273314",
-    "text": "Antonio Meucci — Italian inventor and telephone pioneer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Antonio Meucci - Italian inventor and telephone pioneer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q273314, https://www.wikidata.org/wiki/Q273314; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q312242",
-    "text": "Hugo Gernsback — Luxembourgian American inventor, writer, editor, and publisher.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Hugo Gernsback - Luxembourgian American inventor, writer, editor, and publisher.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q312242, https://www.wikidata.org/wiki/Q312242; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q6523768",
-    "text": "Leo Gerstenzang — Polish-American inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Leo Gerstenzang - Polish-American inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6523768, https://www.wikidata.org/wiki/Q6523768; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q1746800",
-    "text": "Vladimir Karapetoff — Russian-American electrical engineer, inventor, professor, and author.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Vladimir Karapetoff - Russian-American electrical engineer, inventor, professor, and author.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1746800, https://www.wikidata.org/wiki/Q1746800; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q2366114",
-    "text": "George Washington — American inventor and businessman of Anglo-Belgian origin.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "George Washington - American inventor and businessman of Anglo-Belgian origin.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q2366114, https://www.wikidata.org/wiki/Q2366114; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q34286",
-    "text": "Alexander Graham Bell — scientist and inventor known for his work on the telephone.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Alexander Graham Bell - scientist and inventor known for his work on the telephone.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q34286, https://www.wikidata.org/wiki/Q34286; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q2120396",
-    "text": "Wilson Greatbatch — American engineer and inventor (1919–2011).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Wilson Greatbatch - American engineer and inventor (1919–2011).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q2120396, https://www.wikidata.org/wiki/Q2120396; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q5752248",
-    "text": "Carlos del Pozo y Sucre — Venezuelan scientist and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Carlos del Pozo y Sucre - Venezuelan scientist and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q5752248, https://www.wikidata.org/wiki/Q5752248; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q3449512",
-    "text": "Tom Parry Jones — Welsh scientist, inventor and entrepreneur.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Tom Parry Jones - Welsh scientist, inventor and entrepreneur.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3449512, https://www.wikidata.org/wiki/Q3449512; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q716074",
-    "text": "Wang Zhen — officer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Wang Zhen - officer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q716074, https://www.wikidata.org/wiki/Q716074; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q60095",
-    "text": "Otto von Guericke — German scientist, inventor, and politician (1602-1686).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Otto von Guericke - German scientist, inventor, and politician (1602-1686).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q60095, https://www.wikidata.org/wiki/Q60095; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q8264009",
-    "text": "Carlos Iraldi — Argentinian luthier and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Carlos Iraldi - Argentinian luthier and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q8264009, https://www.wikidata.org/wiki/Q8264009; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q939297",
-    "text": "David Unaipon — Indigenous Australian inventor and writer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "David Unaipon - Indigenous Australian inventor and writer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q939297, https://www.wikidata.org/wiki/Q939297; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q78926",
-    "text": "Viktor Kaplan — Austrian-Czech engineer and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Viktor Kaplan - Austrian-Czech engineer and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q78926, https://www.wikidata.org/wiki/Q78926; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q12057810",
-    "text": "Sylvester Krnka — Czech gunsmith and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Sylvester Krnka - Czech gunsmith and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q12057810, https://www.wikidata.org/wiki/Q12057810; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q57249",
-    "text": "Ferdinand Porsche — Austrian-German automotive engineer, inventor and Nazi who founded the Porsche car company.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Ferdinand Porsche - Austrian-German automotive engineer, inventor and Nazi who founded the Porsche car company.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q57249, https://www.wikidata.org/wiki/Q57249; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q9263364",
-    "text": "František Hruška — Czech inventor and beekeeper.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "František Hruška - Czech inventor and beekeeper.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q9263364, https://www.wikidata.org/wiki/Q9263364; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q1093961",
-    "text": "Jean de Wouters — Belgian inventor and aeronautical engineer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Jean de Wouters - Belgian inventor and aeronautical engineer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1093961, https://www.wikidata.org/wiki/Q1093961; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q10338430",
-    "text": "Nélio José Nicolai — inventor brasilanu (1940–2017).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Nélio José Nicolai - inventor brasilanu (1940–2017).",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q10338430, https://www.wikidata.org/wiki/Q10338430; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q4023226",
-    "text": "Yull Brown — Bulgarian-Australian inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Yull Brown - Bulgarian-Australian inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4023226, https://www.wikidata.org/wiki/Q4023226; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q733675",
-    "text": "Lewis Urry — Canadian inventor and chemical engineer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Lewis Urry - Canadian inventor and chemical engineer.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q733675, https://www.wikidata.org/wiki/Q733675; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   },
   {
     "id": "wikidata-q7405662",
-    "text": "Salomón Hakim — Colombian neurosurgeon and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Salomón Hakim - Colombian neurosurgeon and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q7405662, https://www.wikidata.org/wiki/Q7405662; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md. Reviewed correction: Correct malformed source surname hakier. University of the Andes identifies its physician and bioengineering researcher as Salomón Hakim. Source: https://medicina.uniandes.edu.co/es/publicaciones/de-la-valvula-de-hakim-a-la-nueva-teoria-de-la-mecanica-craneana; checked 2026-10-13."
   },
   {
     "id": "wikidata-q1765690",
-    "text": "Václav Červený — Czech entrepreneur and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "text": "Václav Červený - Czech entrepreneur and inventor.",
     "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1765690, https://www.wikidata.org/wiki/Q1765690; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
   }
 ]

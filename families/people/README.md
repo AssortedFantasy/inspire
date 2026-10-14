@@ -4,7 +4,6 @@ Factual person profiles grouped by discipline and role. Arts separates literatur
 visual art, music and performance; science separates formal, physical and life
 sciences; thought, society and technology cover scholarship, social contributions
 and technical work. Multi-disciplinary people appear once, in one browsing role.
-This is a partial collection, not a ranking, comprehensive history or endorsement.
 
 The original 132 compact contribution profiles are retained in `curated.json`,
 with their original IDs, text and references. Every original is explicitly mapped
@@ -25,26 +24,31 @@ records their SHA-256 checksums. Raw downloads stay in `target/people-sources/`.
 
 The source README declares CC BY 4.0; its repository also contains an MIT notice.
 Both complete source notices are retained in `LICENSE`, which the executable
-embeds for `--data-licenses`. Each imported profile emits the creators, source
-and CC BY 4.0 link. English names and short descriptions are copied from the
-dataset, with whitespace and final punctuation normalized; no biography prose
-is generated. The source's inferred birth/death years, gender and death
-circumstances are omitted. Years already present in a source description remain
-source metadata and are not independently asserted or expanded.
+embeds for `--data-licenses`. English names and short descriptions are copied
+from the dataset, with whitespace and final punctuation normalized; sampled
+profiles contain only the name and description. Source URLs, licenses and
+modification notes stay in provenance and the bundled notices. The source's
+inferred birth/death years, gender and death circumstances are omitted. Years
+already present in a source description remain source metadata and are not
+independently asserted or expanded.
 
 ## Selection and reproduction
 
 ```sh
 python -B families/people/import_data.py
+python -B families/people/verify_import.py
 ```
 
-The importer verifies every downloaded input checksum, preserves the originals,
-and adds up to 120 unique people per role. Explicit occupation terms in source
+The importer verifies every downloaded input checksum and preserves the originals.
+The initial selection added up to 120 unique people per role. Explicit occupation terms in source
 descriptions determine role membership; the dataset's broad inferred occupation
 column is not used. Fictional/mythological or disputed identity descriptions and
 current-status claims are filtered. Multi-role placement follows the documented
 order in `ROLES`, with original profiles taking priority. QIDs deduplicate people
 throughout the complete family, including homonyms with similar names.
+`selection.json` pins the resulting role/QID order. Review exclusions are applied
+after this bounded selection, so rebuilding cannot silently introduce an
+unreviewed replacement. Additional selected identities require their own review.
 `corrections.json` records bounded source-grounded corrections, exclusions and
 their primary references. These are applied before role classification; source
 errors in a clinical role or surname are corrected without generating bulk bios.

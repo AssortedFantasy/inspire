@@ -13,8 +13,6 @@ import urllib.request
 ROOT = Path(__file__).resolve().parent
 CACHE = ROOT.parents[1] / "target" / "people-sources"
 COMMIT = "776b4811e992ed593a59c01ff327dcc056e3ab4d"
-LIMIT = 120
-ATTRIBUTION = "Source: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/."
 
 # Only explicit role words in downloaded descriptions; first-match placement
 # is a browsing convention, never a claim that a person worked in one field.
@@ -54,13 +52,17 @@ ROLES = {
     "technology/engineering/inventors": r"\binventor\b",
     "technology/engineering/engineers": r"\bengineer\b",
 }
-PATTERNS = [(path, re.compile(pattern, re.I)) for path, pattern in ROLES.items()]
 EXCLUDED = re.compile(r"\b(?:fictional|mythological|legendary|biblical|god|goddess|deity|current|serving|since|alleged|convicted|pornographic|adult film)\b", re.I)
 
 
 def normalize(name):
     ascii_name = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]", "", ascii_name.lower())
+
+
+def compact_profile(name, description):
+    """Keep sampled text focused on the person's name and source description."""
+    return name + " - " + description.rstrip(".") + "."
 
 
 def sources():
@@ -87,11 +89,18 @@ def build(resolve=False):
     for item in curated:
         original_names[normalize(item["record"]["text"].split(" — ")[0])].append(item)
     identities = defaultdict(list)
-    candidates = defaultdict(lambda: defaultdict(list))
+    selection = json.loads((ROOT / "selection.json").read_text("utf-8"))
+    selected_ids = [qid for qids in selection.values() for qid in qids]
+    if len(selected_ids) != len(set(selected_ids)):
+        raise ValueError("Duplicate identity in pinned selection")
+    selected = set(selected_ids)
+    candidates = {}
     scanned = 0
     for filename, metadata, row in sources():
         scanned += 1
         qid, name = row["Id"].strip(), row["Name"].strip()
+        if not resolve and qid not in selected:
+            continue
         description = " ".join(row["Short description"].split())
         correction = corrections.get(qid, {})
         if correction.get("exclude"):
@@ -104,17 +113,7 @@ def build(resolve=False):
             continue
         if not re.fullmatch(r"Q[1-9][0-9]*", qid) or len(description) < 20 or EXCLUDED.search(description):
             continue
-        for path, pattern in PATTERNS:
-            if pattern.search(description):
-                if path == "arts/music/conductors" and re.search(r"\b(?:railway|railroad|train|bus)\b", description, re.I):
-                    continue
-                country = row["Country"].strip() or "unspecified"
-                bucket = candidates[path][country]
-                # Source order follows numeric QID. Bounded candidate prefixes
-                # contain many familiar entities but are not notability scores.
-                if len(bucket) < LIMIT:
-                    bucket.append((qid, name, description, filename, metadata))
-                break
+        candidates[qid] = (name, description, filename, metadata)
     if resolve:
         for normalized, items in original_names.items():
             matches = {row[0]: row for row in identities[normalized]}
@@ -134,26 +133,27 @@ def build(resolve=False):
     for item in curated:
         if item["qid"] in seen:
             raise ValueError("Duplicate curated identity: " + item["qid"])
-        leaves[item["path"]].append(item["record"])
+        record = dict(item["record"])
+        record["text"] = record["text"].replace(" — ", " - ")
+        leaves[item["path"]].append(record)
         seen.add(item["qid"])
-    for path, buckets in candidates.items():
-        added = 0
-        while buckets and added < LIMIT:
-            for country in sorted(list(buckets)):
-                qid, name, description, filename, metadata = buckets[country].pop(0)
-                if not buckets[country]:
-                    del buckets[country]
-                if qid in seen:
-                    continue
-                leaves[path].append({
-                    "id": "wikidata-" + qid.lower(),
-                    "text": f"{name} — {description.rstrip('.')}.\n{ATTRIBUTION}",
-                    "provenance": f"AgeDataset V1 (2022), {filename}, Wikidata {qid}, https://www.wikidata.org/wiki/{qid}; {metadata['url']}; SHA-256 {metadata['sha256']}; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md." + (f" Reviewed correction: {corrections[qid]['reason']} Source: {corrections[qid]['source']}; checked 2026-10-13." if qid in corrections else ""),
-                })
-                seen.add(qid)
-                added += 1
-                if added >= LIMIT:
-                    break
+    for path, qids in selection.items():
+        for qid in qids:
+            if corrections.get(qid, {}).get("exclude"):
+                continue
+            if qid in seen:
+                raise ValueError("Selection duplicates an original identity: " + qid)
+            if qid not in candidates:
+                raise ValueError("Selected identity missing or rejected: " + qid)
+            name, description, filename, metadata = candidates[qid]
+            if not re.search(ROLES[path], description, re.I):
+                raise ValueError("Selected role requires explicit review: " + path + "/" + qid)
+            leaves[path].append({
+                "id": "wikidata-" + qid.lower(),
+                "text": compact_profile(name, description),
+                "provenance": f"AgeDataset V1 (2022), {filename}, Wikidata {qid}, https://www.wikidata.org/wiki/{qid}; {metadata['url']}; SHA-256 {metadata['sha256']}; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md." + (f" Reviewed correction: {corrections[qid]['reason']} Source: {corrections[qid]['source']}; checked 2026-10-13." if qid in corrections else ""),
+            })
+            seen.add(qid)
     for path, records in sorted(leaves.items()):
         leaf = ROOT / path
         leaf.mkdir(parents=True, exist_ok=True)
