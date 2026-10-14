@@ -1,0 +1,32 @@
+[
+  {
+    "path": "random/dates/civil/gregorian",
+    "agent": "/root/random/dates/civil/gregorian",
+    "checks": [
+      "Isolated Rust tests passed with warnings denied: exhaustive calendar bijection, ISO boundaries, and newly added leap-century transitions.",
+      "All 219146 dates and weekdays independently matched Python datetime.",
+      "Twelve seed-42 emitted samples reviewed for coherent weekday, written date, and ISO spelling.",
+      "Added concise leaf README documenting equal-day sampling and proleptic Gregorian meaning; path and local weight unchanged."
+    ]
+  },
+  {
+    "path": "random/dates/civil/iso-week",
+    "agent": "/root/random/dates/civil/iso_week",
+    "checks": [
+      "All 219146 actual Rust ISO week tuples independently matched Python 3.12 datetime.date.isocalendar.",
+      "Six isolated Rust tests passed with warnings denied, including new exhaustive January 4/Monday anchor reference, week-53 eligibility for 600 years, and century/domain boundary fixtures.",
+      "Twelve seeded emitted samples checked for consistent weekday and Gregorian equivalents.",
+      "Added leaf README documenting equal-day sampling and ISO week-years extending to 1599/2200; arithmetic, path, and local weight unchanged."
+    ]
+  },
+  {
+    "path": "random/dates/civil/ordinal",
+    "agent": "/root/random/dates/civil/ordinal",
+    "checks": [
+      "All 219146 complete rendered outputs independently matched Python datetime date, day-of-year, and year length.",
+      "Three isolated Rust tests passed with warnings denied, including new deterministic rendering and leap-century/domain boundary regressions; generator and helper formatting checks passed.",
+      "Confirmed one-to-one equal-day sampling via random_range over the complete day domain.",
+      "Added concise README defining YYYY-DDD and per-day semantics; no arithmetic correction needed, path and local weight unchanged."
+    ]
+  }
+]

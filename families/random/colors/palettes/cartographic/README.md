@@ -27,4 +27,4 @@ Brewer (http://colorbrewer.org/). Copyright (c) 2002 Cynthia Brewer, Mark Harrow
 and The Pennsylvania State University. See [LICENSE.txt](LICENSE.txt) for the
 Apache-Style ColorBrewer license, preserved from the pinned upstream
 [`export/LICENSE.txt`](https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/LICENSE.txt).
-Every emitted record carries the required acknowledgment.
+The acknowledgment is bundled in `--data-licenses` and the source documentation.
