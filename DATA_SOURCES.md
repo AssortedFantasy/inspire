@@ -26,8 +26,17 @@ and the relevant family license files with redistributed source datasets.
 | Worldwide instrument vocabulary | [MIMO via DOREMUS](https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies), CC BY 4.0 | [Music](families/music/README.md), with source-supported broader families |
 | Cartographic color palettes | [ColorBrewer](https://colorbrewer2.org/), its own Apache-style notice | [ColorBrewer license](families/random/colors/palettes/cartographic/LICENSE.txt); every palette carries the required acknowledgment |
 | Museum artifact metadata | [Cleveland Museum of Art Open Access](https://www.clevelandart.org/open-access), CC0 | [Objects](families/objects/README.md); no images are included |
+| English word senses and antonyms | [Princeton WordNet 3.0](https://wordnet.princeton.edu/), WordNet's redistribution license | [Language](families/language/README.md); emitted definitions retain the required copyright notice |
+| Chess opening lines | [Lichess opening book](https://github.com/lichess-org/chess-openings), CC0 | [Games](families/games/README.md); complete lines have independent legal replay checks |
+| Historical person profiles | [Annamoradnejad and Annamoradnejad's AgeDataset V1](https://github.com/Moradnejad/AgeDataset), CC BY 4.0 data and accompanying MIT repository notice | [People](families/people/README.md); source identities, corrections and attribution are retained |
+| Chemical identities and structures | [PubChem](https://pubchem.ncbi.nlm.nih.gov/), selected factual metadata | [Chemistry](families/chemistry/README.md); no blanket license claim for third-party PubChem prose |
+| Historical accounts and literary passages | [Project Gutenberg](https://www.gutenberg.org/) and [Standard Ebooks](https://standardebooks.org/), particular public-domain editions | [History](families/history/README.md), [literature](families/literature/README.md); translator, edition, locator and source notices are retained |
+| Animal taxonomy and measured traits | [GBIF](https://www.gbif.org/), AVONET, PanTHERIA, AmphiBIO, FISHMORPH, AnimalTraits and Cefas | [Animals](families/natural-world/animals/README.md); individual sources carry CC BY, CC0 or OGL terms, with separate evidence types and units |
+| Plant profiles | [USDA NRCS PLANTS](https://plants.usda.gov/), freely reusable factual database information | [Plants](families/natural-world/plants/README.md); requested database citation accompanies each record |
+| Astronomical numerical properties | [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/) and [NASA/JPL Solar System Dynamics](https://ssd.jpl.nasa.gov/) | [Astronomy](families/natural-world/astronomy/README.md); literature solutions, missing values and uncertainties remain qualified |
+| Weather definitions | [NOAA National Weather Service](https://www.weather.gov/), government glossary material | [Natural phenomena](families/natural-world/phenomena/README.md); downloaded definitions and editorial paraphrases are distinguished |
+| Historical mechanical descriptions | Henry T. Brown, *Five Hundred and Seven Mechanical Movements*, 1908 edition, public domain | [Mechanisms](families/mechanisms/README.md); original book text is separate from modern site animations |
 
-Biological and other developing collections document their individual sources
-and evidence types in their family and leaf READMEs. Their full required notices
-are appended automatically below by the build; the source tree remains the
-record-level provenance reference.
+Family and leaf READMEs document additional sources, exact snapshots, selection
+bounds and evidence types. Full required notices are appended automatically below
+by the build; the source tree remains the record-level provenance reference.
