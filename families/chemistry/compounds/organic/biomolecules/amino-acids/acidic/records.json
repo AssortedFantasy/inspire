@@ -1,0 +1,12 @@
+[
+  {
+    "id": "pubchem-cid-5960",
+    "text": "L-aspartic acid\nMolecular formula: C4H7NO4.\nMolar mass (calculated): 133.10 g/mol.\nAtoms per molecule: C: 4, H: 7, N: 1, O: 4.\nL stereoisomer; IUPAC name: (2S)-2-aminobutanedioic acid.\nSMILES: C([C@@H](C(=O)O)N)C(=O)O\nNeutral structural representation; protonation in solution depends on pH.",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-aspartic%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 5960; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-33032",
+    "text": "L-glutamic acid\nMolecular formula: C5H9NO4.\nMolar mass (calculated): 147.13 g/mol.\nAtoms per molecule: C: 5, H: 9, N: 1, O: 4.\nL stereoisomer; IUPAC name: (2S)-2-aminopentanedioic acid.\nSMILES: C(CC(=O)O)[C@@H](C(=O)O)N\nNeutral structural representation; protonation in solution depends on pH.",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-glutamic%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 33032; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
+  }
+]

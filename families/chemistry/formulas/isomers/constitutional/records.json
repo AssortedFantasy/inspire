@@ -1,0 +1,107 @@
+[
+  {
+    "id": "constitutional-6360-7843",
+    "text": "isobutane and butane\nConstitutional isomers with molecular formula C4H10; their atoms have different connectivity.\nisobutane: CC(C)C\nbutane: CCCC",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 6360, 7843; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-6556-8003",
+    "text": "isopentane and pentane\nConstitutional isomers with molecular formula C5H12; their atoms have different connectivity.\nisopentane: CCC(C)C\npentane: CCCCC",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 6556, 8003; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-6556-10041",
+    "text": "isopentane and neopentane\nConstitutional isomers with molecular formula C5H12; their atoms have different connectivity.\nisopentane: CCC(C)C\nneopentane: CC(C)(C)C",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 6556, 10041; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-8003-10041",
+    "text": "pentane and neopentane\nConstitutional isomers with molecular formula C5H12; their atoms have different connectivity.\npentane: CCCCC\nneopentane: CC(C)(C)C",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 8003, 10041; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-6351-8252",
+    "text": "cyclopropane and propylene\nConstitutional isomers with molecular formula C3H6; their atoms have different connectivity.\ncyclopropane: C1CC1\npropylene: CC=C",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 6351, 8252; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-7844-9250",
+    "text": "1-butene and cyclobutane\nConstitutional isomers with molecular formula C4H8; their atoms have different connectivity.\n1-butene: CCC=C\ncyclobutane: C1CCC1",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 7844, 9250; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-995-8418",
+    "text": "phenanthrene and anthracene\nConstitutional isomers with molecular formula C14H10; their atoms have different connectivity.\nphenanthrene: C1=CC=C2C(=C1)C=CC3=CC=CC=C32\nanthracene: C1=CC=C2C=C3C=CC=CC3=CC2=C1",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 995, 8418; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-702-8254",
+    "text": "ethanol and dimethyl ether\nConstitutional isomers with molecular formula C2H6O; their atoms have different connectivity.\nethanol: CCO\ndimethyl ether: COC",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 702, 8254; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-1031-3776",
+    "text": "1-propanol and 2-propanol\nConstitutional isomers with molecular formula C3H8O; their atoms have different connectivity.\n1-propanol: CCCO\n2-propanol: CC(C)O",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 1031, 3776; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-263-3283",
+    "text": "1-butanol and diethyl ether\nConstitutional isomers with molecular formula C4H10O; their atoms have different connectivity.\n1-butanol: CCCCO\ndiethyl ether: CCOCC",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 263, 3283; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-244-7519",
+    "text": "benzyl alcohol and anisole\nConstitutional isomers with molecular formula C7H8O; their atoms have different connectivity.\nbenzyl alcohol: C1=CC=C(C=C1)CO\nanisole: COC1=CC=CC=C1",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 244, 7519; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-180-527",
+    "text": "acetone and propanal\nConstitutional isomers with molecular formula C3H6O; their atoms have different connectivity.\nacetone: CC(=O)C\npropanal: CCC=O",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 180, 527; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-261-6569",
+    "text": "butanal and 2-butanone\nConstitutional isomers with molecular formula C4H8O; their atoms have different connectivity.\nbutanal: CCCC=O\n2-butanone: CCC(=O)C",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 261, 6569; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-261-8028",
+    "text": "butanal and tetrahydrofuran\nConstitutional isomers with molecular formula C4H8O; their atoms have different connectivity.\nbutanal: CCCC=O\ntetrahydrofuran: C1CCOC1",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 261, 8028; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-6569-8028",
+    "text": "2-butanone and tetrahydrofuran\nConstitutional isomers with molecular formula C4H8O; their atoms have different connectivity.\n2-butanone: CCC(=O)C\ntetrahydrofuran: C1CCOC1",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 6569, 8028; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-176-7865",
+    "text": "acetic acid and methyl formate\nConstitutional isomers with molecular formula C2H4O2; their atoms have different connectivity.\nacetic acid: CC(=O)O\nmethyl formate: COC=O",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 176, 7865; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-1032-6584",
+    "text": "propionic acid and methyl acetate\nConstitutional isomers with molecular formula C3H6O2; their atoms have different connectivity.\npropionic acid: CCC(=O)O\nmethyl acetate: CC(=O)OC",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 1032, 6584; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-264-8857",
+    "text": "butyric acid and ethyl acetate\nConstitutional isomers with molecular formula C4H8O2; their atoms have different connectivity.\nbutyric acid: CCCC(=O)O\nethyl acetate: CCOC(=O)C",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 264, 8857; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-264-31275",
+    "text": "butyric acid and dioxane\nConstitutional isomers with molecular formula C4H8O2; their atoms have different connectivity.\nbutyric acid: CCCC(=O)O\ndioxane: C1COCCO1",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 264, 31275; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-8857-31275",
+    "text": "ethyl acetate and dioxane\nConstitutional isomers with molecular formula C4H8O2; their atoms have different connectivity.\nethyl acetate: CCOC(=O)C\ndioxane: C1COCCO1",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 8857, 31275; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  },
+  {
+    "id": "constitutional-674-6341",
+    "text": "dimethylamine and ethylamine\nConstitutional isomers with molecular formula C2H7N; their atoms have different connectivity.\ndimethylamine: CNC\nethylamine: CCN",
+    "provenance": "Pair of selected neutral organic compounds with identical composition and chemically distinct connectivity, excluding carbohydrates to avoid confusing epimers with constitutional isomers. PubChem CIDs 674, 6341; input URLs/hashes in source_manifest.json. Original explanatory prose."
+  }
+]

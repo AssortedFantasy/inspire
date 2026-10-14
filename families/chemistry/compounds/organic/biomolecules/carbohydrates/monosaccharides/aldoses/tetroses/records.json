@@ -1,0 +1,22 @@
+[
+  {
+    "id": "pubchem-cid-94176",
+    "text": "D-erythrose\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C4H8O4; empirical formula: CH2O.\nMolar mass (calculated): 120.10 g/mol; formal charge: 0.\nAtoms per molecule: C: 4, H: 8, O: 4.\nSystematic name: (2R,3R)-2,3,4-trihydroxybutanal\nStereochemical SMILES: C([C@H]([C@H](C=O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-erythrose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 94176; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-439665",
+    "text": "D-threose\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C4H8O4; empirical formula: CH2O.\nMolar mass (calculated): 120.10 g/mol; formal charge: 0.\nAtoms per molecule: C: 4, H: 8, O: 4.\nSystematic name: (2S,3R)-2,3,4-trihydroxybutanal\nStereochemical SMILES: C([C@H]([C@@H](C=O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-threose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 439665; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-5460674",
+    "text": "L-erythrose\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C4H8O4; empirical formula: CH2O.\nMolar mass (calculated): 120.10 g/mol; formal charge: 0.\nAtoms per molecule: C: 4, H: 8, O: 4.\nSystematic name: (2S,3S)-2,3,4-trihydroxybutanal\nStereochemical SMILES: C([C@@H]([C@@H](C=O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-erythrose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 5460674; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-5460672",
+    "text": "L-threose\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C4H8O4; empirical formula: CH2O.\nMolar mass (calculated): 120.10 g/mol; formal charge: 0.\nAtoms per molecule: C: 4, H: 8, O: 4.\nSystematic name: (2R,3S)-2,3,4-trihydroxybutanal\nStereochemical SMILES: C([C@@H]([C@H](C=O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-threose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 5460672; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
+  }
+]

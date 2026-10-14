@@ -1,0 +1,47 @@
+[
+  {
+    "id": "pubchem-cid-887",
+    "text": "methanol\nMolecular formula: CH4O.\nMolar mass (calculated): 32.042 g/mol.\nAtoms per molecule: C: 1, H: 4, O: 1.\nSMILES: CO",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methanol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 887; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-702",
+    "text": "ethanol\nMolecular formula: C2H6O.\nMolar mass (calculated): 46.07 g/mol.\nAtoms per molecule: C: 2, H: 6, O: 1.\nSMILES: CCO",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethanol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 702; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-1031",
+    "text": "1-propanol\nMolecular formula: C3H8O.\nMolar mass (calculated): 60.10 g/mol.\nAtoms per molecule: C: 3, H: 8, O: 1.\nSMILES: CCCO",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1-propanol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 1031; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-3776",
+    "text": "2-propanol\nMolecular formula: C3H8O.\nMolar mass (calculated): 60.10 g/mol.\nAtoms per molecule: C: 3, H: 8, O: 1.\nSMILES: CC(C)O",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2-propanol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 3776; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-263",
+    "text": "1-butanol\nMolecular formula: C4H10O.\nMolar mass (calculated): 74.12 g/mol.\nAtoms per molecule: C: 4, H: 10, O: 1.\nSMILES: CCCCO",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1-butanol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 263; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-174",
+    "text": "ethylene glycol\nMolecular formula: C2H6O2; empirical formula: CH3O.\nMolar mass (calculated): 62.07 g/mol.\nAtoms per molecule: C: 2, H: 6, O: 2.\nSMILES: C(CO)O",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethylene%20glycol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 174; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-753",
+    "text": "glycerol\nMolecular formula: C3H8O3.\nMolar mass (calculated): 92.09 g/mol.\nAtoms per molecule: C: 3, H: 8, O: 3.\nSMILES: C(C(CO)O)O",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glycerol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 753; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-996",
+    "text": "phenol\nMolecular formula: C6H6O.\nMolar mass (calculated): 94.11 g/mol.\nAtoms per molecule: C: 6, H: 6, O: 1.\nSMILES: C1=CC=C(C=C1)O",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/phenol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 996; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-244",
+    "text": "benzyl alcohol\nMolecular formula: C7H8O.\nMolar mass (calculated): 108.14 g/mol.\nAtoms per molecule: C: 7, H: 8, O: 1.\nSMILES: C1=CC=C(C=C1)CO",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/benzyl%20alcohol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 244; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  }
+]

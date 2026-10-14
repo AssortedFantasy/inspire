@@ -1,0 +1,454 @@
+{
+  "periodic-table": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
+    "sha256": "ff0f75976583b8a6493b18d0b42e83e1b68bd6e112b45d33578d98494ed5d321"
+  },
+  "compound-methane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "7d6b0305132ac3075c21f000ada500e2f1d1dd9dc9969c156b99c617b10c8a0a"
+  },
+  "compound-ethane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "135a793cb13c6c35b952079c72c4c1054f9116cdbc02d161ae457117bc7b0dd4"
+  },
+  "compound-propane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/propane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "ec5b40e607f24091fa139f03a95a4dfeaae6f4722f920fa5e7068302025cd90d"
+  },
+  "compound-butane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/butane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "616185372c623e32a7ffb1069933a289089029129cf791bbc816d47a1bc1a23b"
+  },
+  "compound-isobutane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/isobutane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "5ad1c0c65799dd5b7913824d97cda1dcefdb568b6a242a18b5888a6ae9b08c7a"
+  },
+  "compound-pentane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pentane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "d70823b4be06b73109915f47a25721e88fb07acb2219159d7577c7a93803aa23"
+  },
+  "compound-isopentane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/isopentane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "3d54b0b66ed3e7fa5072e89dfd6f74af057d83ffc2fd1bd94e1de1271467308f"
+  },
+  "compound-neopentane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/neopentane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "68d7dabacacbbcca6cb587dc3866c1ddd3caba5b91ab0611598435ce98b0a0b9"
+  },
+  "compound-hexane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/hexane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "8fc2f961da264593c4b47100561f27c366781352df70aed460a0947e3f3885fd"
+  },
+  "compound-heptane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/heptane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "298be2391addadb0ab66d6ee4b21bcca1d990b05197497ddcc3bda2f824e6aaf"
+  },
+  "compound-octane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/octane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "e3c5523e774b04e74f52e9bd547e2ef1947fc7c18b83c8e1eab39aad4f55f32f"
+  },
+  "compound-ethylene": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethylene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "bc6b305ec3aed20dfee377e231fac6f88b80aa94634de7a8d814461cafc49f41"
+  },
+  "compound-propylene": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/propylene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "0ff1766ca87379609c35439bfac727f8abbf10afa23da40b770cbfe67c9da3bc"
+  },
+  "compound-1-butene": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1-butene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "619543deee481c5ebab85feef95cbfb76b857d3ab5b9a90d3ce2f7483f52d723"
+  },
+  "compound-acetylene": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetylene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "2aab97660531276129ef0833696fc46cf1c572508823a5abaef930a574c668fd"
+  },
+  "compound-propyne": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/propyne/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "ee9c1a26fb743d8c15adacd2facb138bb1a6c4d19f325a0bfd179b1a020003ff"
+  },
+  "compound-1-butyne": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1-butyne/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "fe389094db3d935cb243d51ef02771d13781b849413062b40c7a21dc656f6e87"
+  },
+  "compound-cyclopropane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/cyclopropane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "e8d80b63a71ad5c9c620659d9158237550f52e56bea8a6c2a7eab398b63005ff"
+  },
+  "compound-cyclobutane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/cyclobutane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "835598f38dadce7c5325731a957d860e967300ff818a16a2e8c4bb222482ea55"
+  },
+  "compound-cyclopentane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/cyclopentane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "3f870691825f2b540adf06998a415cc40ba9d3e086dbebab09aed2f74b370202"
+  },
+  "compound-cyclohexane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/cyclohexane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "8f580194faa39181514414f2acc6ed0369b9e069274cfb32c060e7708b4c2cf6"
+  },
+  "compound-benzene": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/benzene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "b636f1e5ae63c6fc661e7a620f1ed52ad844b9cdfe19b390ceafc900306eeaff"
+  },
+  "compound-toluene": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/toluene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "6a5e80174789b76e5e7c3204c8fc1410530def2883b037fbef73556f513994ea"
+  },
+  "compound-ethylbenzene": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethylbenzene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "c047bddb92ffdcfc505307be67dd97a01a86407feecdde82a1844743632ce8b4"
+  },
+  "compound-naphthalene": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/naphthalene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "c6920a6f2e9ce0b967014cc142dba54066b518d5aa3c056549dace91e395b9f1"
+  },
+  "compound-anthracene": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/anthracene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "d00fc2aac8a5165764c97a2212c4f1e8380229a85ac78cfeaa9b0e418fbdb1ce"
+  },
+  "compound-phenanthrene": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/phenanthrene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "21da4c67c6fa1f68b60c35925521f8d387ea007e9d583997a2fb6a76f71a20c7"
+  },
+  "compound-methanol": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methanol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "739a02616e81cec9a9bc9266cf3dad8d5d68551479b2c192d27a1b7985df7b24"
+  },
+  "compound-ethanol": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethanol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "87786912314dcf5ca50d6d0986b2da48a91da648a48ccd90a40fa3d15c62b938"
+  },
+  "compound-1-propanol": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1-propanol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "6183c7d6fb50cafec806ea6c0f3ac4a43d5012a0581f49628d61a6c240d3adfe"
+  },
+  "compound-2-propanol": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2-propanol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "a978cffe0edf130dbac54e9dbf11a8b4b3ef2d1e237b14073212509d7fa85cc3"
+  },
+  "compound-1-butanol": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1-butanol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "fddb02cfb89c13647ea08e5a39f130586a5b2a0dce8515cf426a64265bbb3a6b"
+  },
+  "compound-ethylene-glycol": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethylene%20glycol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "adabbb691297ae7105e119528684197aa9dead95a2755cf130e7159999c53e7f"
+  },
+  "compound-glycerol": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glycerol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "11d21cde240556b34117e7fcf221bd67444c6048bee4d25968ff70dfa362dfe9"
+  },
+  "compound-phenol": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/phenol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "cfccc555905da3cf7844f9e9fba10dd155362b536e0eb5cb84ce276a380448d7"
+  },
+  "compound-benzyl-alcohol": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/benzyl%20alcohol/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "8d698c2b154f059637084b62c4c3495a3e9dfe42c0efb0b59fe0fde60d9fbcfa"
+  },
+  "compound-formaldehyde": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/formaldehyde/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "74dd0bd0e7cfa97517da9cc4fcca960302a655d62decf31bb6196ab3b769dfa5"
+  },
+  "compound-acetaldehyde": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetaldehyde/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "6746babb518a1eb5cc638964c5055ee153ba001ddc642c76acb697a9e06ff109"
+  },
+  "compound-propanal": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/propanal/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "7d28cb2a3cd975c6197b699a2063453f7a82027a74a81f3bb4e6cf2241cd1956"
+  },
+  "compound-butanal": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/butanal/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "24b6b09d44c7249d8b93cd0cbe753a6316c57cbd300f0279c0031cf9db49ec56"
+  },
+  "compound-benzaldehyde": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/benzaldehyde/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "c43942b6ec494ccc378e85ec11370dd6833e977bbad8a5aad9a91ae276c8dcec"
+  },
+  "compound-acetone": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetone/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "83666b37d09f6cb6773a2d0c54f361afcf181bf329da08e6ee1d796d81b947b2"
+  },
+  "compound-2-butanone": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2-butanone/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "7a7b63fd48151e4dfa1973104b13de80210969d17839b61ff2a0c73609ca08e6"
+  },
+  "compound-cyclohexanone": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/cyclohexanone/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "4a0a6915a0faf955409e91bef44a2fb28bb3c7ecfc1a99f6395331d6ced415ca"
+  },
+  "compound-formic-acid": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/formic%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "95a911cc304abc1683ed18fbc4b415fc3fb28816ab47f05b97c836163c414212"
+  },
+  "compound-acetic-acid": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetic%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "d51e8c9022200f5e2438c67563804706f6e27ac305ba3eb2d51f9f6fa53e3c43"
+  },
+  "compound-propionic-acid": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/propionic%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "907304ab8a0793021c68fda65dd153baa0569cdaba9e9fde0b26a363a6038919"
+  },
+  "compound-butyric-acid": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/butyric%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "44e9779d1a50f71a8e4cdd6366dcd980df76cf510669c6802e95462c35cac129"
+  },
+  "compound-benzoic-acid": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/benzoic%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "b44599c603c0f61aef0e742555715c6fc530c394eeb127f204ab5c0a532ac2a9"
+  },
+  "compound-oxalic-acid": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/oxalic%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "0d93b8f0bb631ac0369ae96bcc353dc2f811478c3f38a2d5eab84ad336a8b51e"
+  },
+  "compound-citric-acid": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/citric%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "fbfce435772df5573af4bcca37c87d664ac76351490bae2d43cfe624df7321c1"
+  },
+  "compound-succinic-acid": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/succinic%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "99ffb7c262c1036e3c4afd54f64b18ca6f1dc6da225a7300b397d71f8ebb13e7"
+  },
+  "compound-methyl-formate": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methyl%20formate/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "e8d1c1d23c076913b601fdb93fcc932abab9aedde0d4e757d6dbdd595e1ca04f"
+  },
+  "compound-ethyl-acetate": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethyl%20acetate/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "65e8e434bd0ca575bb3dc5a368af2c967b97c70ba7a06cb140015b9b388573df"
+  },
+  "compound-methyl-acetate": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methyl%20acetate/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "4b199bdbac1858fc31d1aee0a0132a899de207c7212ae850109c99f94434e7c4"
+  },
+  "compound-dimethyl-ether": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/dimethyl%20ether/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "927db21a6b85c98b7d615212a10df672c056aafcf9fc50d7a03e60a71620904a"
+  },
+  "compound-diethyl-ether": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/diethyl%20ether/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "c65ef47cb051369e302a035e84e754134a0684185439beb1880f26addfc5e9c0"
+  },
+  "compound-tetrahydrofuran": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/tetrahydrofuran/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "ad68e19dd9e7f1bf88f9e905c0f0008422f1aa143f5d2ef20b49116ba2063a37"
+  },
+  "compound-anisole": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/anisole/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "6057172f5c18a66d802efa1440ea1e239e8e93f68ca3479aa8560d411e386ff4"
+  },
+  "compound-dioxane": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/dioxane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "9ea68e5646c2d5d78751ef3d4a92602b45aa68ed64d780403f012decc6948389"
+  },
+  "compound-methylamine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methylamine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "8e79760727a3b9c19ebf4d1bc00a0ac839d95bcaf9ff4e63077e7f56e568324d"
+  },
+  "compound-ethylamine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethylamine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "5535b46d9c0ada971103e0096ebd5d33f7e85f4c64cc5509ef431236adbdcb75"
+  },
+  "compound-dimethylamine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/dimethylamine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "8cb9ab66ac5b34e096be59ccc7a3663f72bcaa243577d5269a83ba1c5fe154fb"
+  },
+  "compound-trimethylamine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/trimethylamine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "f337fc5f0f234ecc1879c0730043679bb341aafddfcc38d3a9b4c85e22d63257"
+  },
+  "compound-aniline": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/aniline/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "e6d9cd762c02537144b4c40fe1244bc7b9698283b70e2ee0b90a18284c1fa4c1"
+  },
+  "compound-urea": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/urea/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "3dbf974e4ea506d9ef6ee650b737e4076dbf7a480deb08a14f0525278a0d00b9"
+  },
+  "compound-acetamide": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetamide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "9ebabe6748b9531e47650e1d46a40ba8018f1bf43450ff8dcf0f270220dbd2e8"
+  },
+  "compound-formamide": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/formamide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "cef8ca9e09f600f610e1c4641e66c2eee205efba9d2d7613a2a7c2c8a1cd37f7"
+  },
+  "compound-pyridine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pyridine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "4e9440127628180c00f0e291a73d596ee3bb83ee35773d1f25f9b5421c7f86c0"
+  },
+  "compound-pyrrole": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pyrrole/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "978a2137386eff40944475f44e2f2543d66c052af558137cf0d8e3b9ccc0d90f"
+  },
+  "compound-imidazole": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/imidazole/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "58df5f5479d4d7624e9b246c5cff6bf727cac2bb825038f5d02936ca073c1978"
+  },
+  "compound-indole": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/indole/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "37480a7027cd1aefdcb9274427a3cf671a86a7284a4bce145abb11f1b54c849f"
+  },
+  "compound-pyrimidine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pyrimidine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "7897c3bf0b8f335e2b151863224a9383b962346a2950362bce714c93da2c7154"
+  },
+  "compound-purine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/purine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "f2e7daad9f82d2f99c15a26f45f9fb4577f54859c1402e36d1c1e00c96090277"
+  },
+  "compound-caffeine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/caffeine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "2d1f06b243c304b77b00e5f735e0b11ef7edc8a6843617dcbabddc045395d0b3"
+  },
+  "compound-glycine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glycine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "db16ac359b05448ac948b95b4f6f92c0ca1e609cb1b03ff8747317e20f12876f"
+  },
+  "compound-l-alanine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-alanine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "4113d1b48af3de46a18a5a8208bdca994c7651a2827953fc30175036d7b4ec7c"
+  },
+  "compound-l-valine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-valine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "1bec08331d12c8b43558e4ced23e0374d37136fc78e332607ac0f4f3ed7c8948"
+  },
+  "compound-l-leucine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-leucine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "f2d75213998e348e9383b33990b890001058176cf515752348dbed6782abdee8"
+  },
+  "compound-l-serine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-serine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "645a40d1eecdce5a317f8e3a63fc549ba1b041973af8b57d5983066352ea1cf2"
+  },
+  "compound-l-cysteine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-cysteine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "5bc5632f949526f66121fdb616b5b009f57806690b4703398db3cfdf0512a2ef"
+  },
+  "compound-l-lysine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-lysine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "86088159da86e04af6cfa338ee6cdb3f50da43c85442e53b6407c3a6a5dd7bab"
+  },
+  "compound-l-tryptophan": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-tryptophan/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "e4ccd6f46d69fc8104ff56044ae76d1eae90da204c3ba3bad090e676c887d5e0"
+  },
+  "compound-d-glucose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-glucose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "b8aee30c6fa20c9de2050660e7491b4bb1e48b3ce411ef75a3eca2feffbdce4c"
+  },
+  "compound-d-fructose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-fructose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "9e1b8ee007456b4d7f24d309ff26182eaf65e0b31b77be52261315de10f204da"
+  },
+  "compound-sucrose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sucrose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "6ceab47d83ae8e3357078f3666caf92f4239d22a5cf5f6ca238cb03befc441f7"
+  },
+  "compound-lactose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/lactose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "d9f46c67e537b5719bc93aa48ca39a3b5da648388d3f518c3425b02f2ce8b455"
+  },
+  "compound-maltose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/maltose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "1a14b1507b989a0d742a66434ec9f5b77e3931a29d2c35de62c809d3cf36a801"
+  },
+  "compound-d-ribose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-ribose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "b228f8ef163e6dbd9075c6411491cfa6dcee3e3df7525d5a99a4c8bdbc3c6f95"
+  },
+  "compound-water": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/water/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "70ee8f43ea845827a38a9aaa0cf56d93e69583dba6bf9f691e69172ab7685148"
+  },
+  "compound-ammonia": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ammonia/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "723403bb45cec9a7ce2e2e2d2bcd267003ae928d1b295de248db6f4028c33269"
+  },
+  "compound-carbon-monoxide": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/carbon%20monoxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "16574e59d0babb58a0968c8dac03305018bb4535c4151e9755ca7fdfb6844df3"
+  },
+  "compound-carbon-dioxide": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/carbon%20dioxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "42725bc179fd8882b747c75f6ef7bdd7493a8781f8f4c35b9f46e966659402e1"
+  },
+  "compound-sulfur-dioxide": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sulfur%20dioxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "8594e5a7c8cb3bb04fc90a355f226f9f870f67592ce1b4e8fcc88ff3126371e4"
+  },
+  "compound-hydrogen-sulfide": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/hydrogen%20sulfide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "3296f8e056f75677dada9a0fb28bd9cbb298b3d20b8dd568075b83441736858c"
+  },
+  "compound-carbon-disulfide": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/carbon%20disulfide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "4bbb34178818f9bf0592c2dc268cad56716c1986ca060e891d59a213ff6a3a1c"
+  },
+  "compound-nitric-oxide": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/nitric%20oxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "2a7a43888781e905f87a328a37300d1074d8968b47b35288c46d205d55b65d25"
+  },
+  "compound-hydrogen-peroxide": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/hydrogen%20peroxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "964ad48f04b52f8158124d5b0471b3fb4fa96d820583c42e52c94cf13843cf2d"
+  },
+  "compound-sodium-chloride": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20chloride/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "16c302efb4fa82961bd8b4c76d44eac405e370663ca4db987607230f54246ad6"
+  },
+  "compound-potassium-chloride": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/potassium%20chloride/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "b9a592a7d1d73bb23084c8204a9cc3df3ff4c507c051becffdc401ec5511d646"
+  },
+  "compound-calcium-carbonate": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/calcium%20carbonate/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "5680f4222086394d5b14733a691cd4deb3a223c6c7e8ad7065a00862cc66016a"
+  },
+  "compound-sodium-bicarbonate": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20bicarbonate/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "907c7617f3d28c001275c567e0802c2909c6d6e73ba08b94db9b73b681fb3052"
+  },
+  "compound-sodium-nitrate": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20nitrate/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "6dd0e53c3b77b86a431e943b0137e542056ea5b7f9494c07952ee8c0dd3cd746"
+  },
+  "compound-ammonium-chloride": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ammonium%20chloride/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "c802851ae1edb85d1ba3ba334563bc5dea2883dc1e1e35866fd722a0ad30db4c"
+  },
+  "compound-magnesium-oxide": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/magnesium%20oxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "b9896a8c7263b79e4549a8435078573fe43f345b5f5cec2fdea27dbf5c77a436"
+  },
+  "compound-calcium-oxide": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/calcium%20oxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "c6bd03a71e521b6b2e0705cc967d366beddf73ecbff6a1a87b67c00e01cdeedd"
+  },
+  "compound-cis-2-butene": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/cis-2-butene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "4166fbb2c7a3843f0f644087f6e73af42e9d32419c0f144ab56af3f8c407c527"
+  },
+  "compound-trans-2-butene": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/trans-2-butene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "cbd30b295c8f795a94aa3979d59282bb2d2285a8410d7068d5e34a1a1f0e725e"
+  },
+  "compound-maleic-acid": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/maleic%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "dbcb7fc37f701eb74a0615f35ab2358f44ccfef54fa9c496c95944e38b3c154a"
+  },
+  "compound-fumaric-acid": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/fumaric%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "ae08eee3831e4af0df1f79d79cbea280c2a025c050c625e3a59bba6f3b2c1cbb"
+  },
+  "compound-d-alanine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-alanine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "4034e9c28f84c728f20d9eb04b556183817b7145422eacedd112769474edee3a"
+  },
+  "compound-d-galactose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-galactose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "2259d11042e84b67761728e7c9e73ee6560f10606dced65951c793511f203f8e"
+  }
+}

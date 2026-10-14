@@ -1,0 +1,22 @@
+[
+  {
+    "id": "stereo-5287573-62695",
+    "text": "cis-2-butene and trans-2-butene\nGeometric diastereomers with molecular formula C4H8. The Z (cis) and E (trans) configurations have different arrangements across the carbon-carbon double bond.\ncis-2-butene: C/C=C\\C\ntrans-2-butene: C/C=C/C",
+    "provenance": "PubChem structure identities 5287573 and 62695; explicit stereochemical relation reviewed independently. Original prose and formatting; factual identity/calculated structures only. URLs and checksums in chemistry/source_manifest.json."
+  },
+  {
+    "id": "stereo-444266-444972",
+    "text": "maleic acid and fumaric acid\nGeometric diastereomers with molecular formula C4H4O4. Maleic acid is Z-butenedioic acid; fumaric acid is E-butenedioic acid.\nmaleic acid: C(=C\\C(=O)O)\\C(=O)O\nfumaric acid: C(=C/C(=O)O)\\C(=O)O",
+    "provenance": "PubChem structure identities 444266 and 444972; explicit stereochemical relation reviewed independently. Original prose and formatting; factual identity/calculated structures only. URLs and checksums in chemistry/source_manifest.json."
+  },
+  {
+    "id": "stereo-5950-71080",
+    "text": "L-alanine and D-alanine\nEnantiomers with molecular formula C3H7NO2. L-alanine has S configuration and D-alanine has R configuration at the alpha carbon. D/L labels specify configuration; optical-rotation sign is a separate property.\nL-alanine: C[C@@H](C(=O)O)N\nD-alanine: C[C@H](C(=O)O)N",
+    "provenance": "PubChem structure identities 5950 and 71080; explicit stereochemical relation reviewed independently. Original prose and formatting; factual identity/calculated structures only. URLs and checksums in chemistry/source_manifest.json."
+  },
+  {
+    "id": "stereo-5793-6036",
+    "text": "D-glucose and D-galactose\nDiastereomers with molecular formula C6H12O6. In their open-chain forms these aldohexoses differ at carbon 4 and are C4 epimers; glucose and fructose instead differ in connectivity.\nD-glucose: C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O\nD-galactose: C([C@@H]1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+    "provenance": "PubChem structure identities 5793 and 6036; explicit stereochemical relation reviewed independently. Original prose and formatting; factual identity/calculated structures only. URLs and checksums in chemistry/source_manifest.json."
+  }
+]

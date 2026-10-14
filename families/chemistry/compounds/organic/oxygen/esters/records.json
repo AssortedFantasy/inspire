@@ -1,0 +1,17 @@
+[
+  {
+    "id": "pubchem-cid-7865",
+    "text": "methyl formate\nMolecular formula: C2H4O2; empirical formula: CH2O.\nMolar mass (calculated): 60.05 g/mol.\nAtoms per molecule: C: 2, H: 4, O: 2.\nSMILES: COC=O",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methyl%20formate/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 7865; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-8857",
+    "text": "ethyl acetate\nMolecular formula: C4H8O2; empirical formula: C2H4O.\nMolar mass (calculated): 88.11 g/mol.\nAtoms per molecule: C: 4, H: 8, O: 2.\nSMILES: CCOC(=O)C",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethyl%20acetate/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 8857; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-6584",
+    "text": "methyl acetate\nMolecular formula: C3H6O2.\nMolar mass (calculated): 74.08 g/mol.\nAtoms per molecule: C: 3, H: 6, O: 2.\nSMILES: CC(=O)OC",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methyl%20acetate/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6584; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  }
+]

@@ -1,20 +1,20 @@
-# Balanced reactions
+# Reaction classes
 
-Two-thirds of samples balance complete combustion for one of 28 named C/H/O
-fuels. Oxygen demand follows from carbon, hydrogen, and oxygen atom counts;
-coefficients are reduced to their smallest positive integer ratio. Other samples
-use eight established neutralization, precipitation, decomposition, formation,
-or metal/water reactions. Output includes conditions and randomized stoichiometric
-amount changes; the ammonia reaction is explicitly an equilibrium.
+`generate_reactions.py` writes ten bounded generators from 87 reviewed templates.
+Each leaf has its own `support.rs` so moving the node preserves its code. Edit the
+Python catalog and regenerate, then format both Rust files.
 
-This is stoichiometry under the stated reaction assumptions, not a prediction of
-kinetics, selectivity, or equilibrium conversion. Formulas do not encode structure.
-Tests independently parse formulas (including parentheses), compare complete
-element inventories, check primitive coefficients, and verify fuel metadata.
+All species specify phases; charged species use `^+`, `^-`, `^2+`, etc. Net ionic
+equations omit spectator ions. Equilibrium arrows differ from idealized complete
+combustion, precipitation and displacement arrows.
 
-Sources checked:
-- [NIST compound names/formulas](https://wtt-lite.nist.gov/wtt-lite/help/lite.html).
-- [OpenStax Chemistry 2e: writing and balancing equations](https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations).
-- [OpenStax Chemistry 2e: classifying reactions](https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions).
+Neutralization enumerates soluble combinations of dilute strong monoprotic acids
+and alkali hydroxides plus one barium-hydroxide/nitric-acid example. It does not
+randomly combine salts or infer that every exchange precipitates. Combustion
+coefficients follow C/H/O accounting for 28 actual fuels, with water vapor among
+hot products. Extents multiply coefficients without predicting actual conversion.
 
-All generated explanatory prose and numerical extent exercises are original.
+Rust tests independently parse displayed formulas, parentheses and charges, and
+check every complete equation rather than sampled outputs alone. Balance is
+necessary but does not establish feasibility: explicit conditions and the reviewed
+source catalog provide that constraint.

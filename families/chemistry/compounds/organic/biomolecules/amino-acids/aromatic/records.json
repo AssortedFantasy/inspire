@@ -1,0 +1,17 @@
+[
+  {
+    "id": "pubchem-cid-6140",
+    "text": "L-phenylalanine\nMolecular formula: C9H11NO2.\nMolar mass (calculated): 165.19 g/mol.\nAtoms per molecule: C: 9, H: 11, N: 1, O: 2.\nL stereoisomer; IUPAC name: (2S)-2-amino-3-phenylpropanoic acid.\nSMILES: C1=CC=C(C=C1)C[C@@H](C(=O)O)N\nNeutral structural representation; protonation in solution depends on pH.",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-phenylalanine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6140; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-6057",
+    "text": "L-tyrosine\nMolecular formula: C9H11NO3.\nMolar mass (calculated): 181.19 g/mol.\nAtoms per molecule: C: 9, H: 11, N: 1, O: 3.\nL stereoisomer; IUPAC name: (2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid.\nSMILES: C1=CC(=CC=C1C[C@@H](C(=O)O)N)O\nNeutral structural representation; protonation in solution depends on pH.",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-tyrosine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6057; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-6305",
+    "text": "L-tryptophan\nMolecular formula: C11H12N2O2.\nMolar mass (calculated): 204.22 g/mol.\nAtoms per molecule: C: 11, H: 12, N: 2, O: 2.\nL stereoisomer; IUPAC name: (2S)-2-amino-3-(1H-indol-3-yl)propanoic acid.\nSMILES: C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N\nNeutral structural representation; protonation in solution depends on pH.",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-tryptophan/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6305; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
+  }
+]

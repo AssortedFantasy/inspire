@@ -1,0 +1,12 @@
+[
+  {
+    "id": "pubchem-cid-5862",
+    "text": "L-cysteine\nMolecular formula: C3H7NO2S.\nMolar mass (calculated): 121.16 g/mol.\nAtoms per molecule: C: 3, H: 7, N: 1, O: 2, S: 1.\nL stereoisomer; IUPAC name: (2R)-2-amino-3-sulfanylpropanoic acid.\nSMILES: C([C@@H](C(=O)O)N)S\nNeutral structural representation; protonation in solution depends on pH.",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-cysteine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 5862; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-6137",
+    "text": "L-methionine\nMolecular formula: C5H11NO2S.\nMolar mass (calculated): 149.21 g/mol.\nAtoms per molecule: C: 5, H: 11, N: 1, O: 2, S: 1.\nL stereoisomer; IUPAC name: (2S)-2-amino-4-methylsulfanylbutanoic acid.\nSMILES: CSCC[C@@H](C(=O)O)N\nNeutral structural representation; protonation in solution depends on pH.",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-methionine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6137; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
+  }
+]

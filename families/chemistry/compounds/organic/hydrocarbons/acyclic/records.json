@@ -1,0 +1,87 @@
+[
+  {
+    "id": "pubchem-cid-297",
+    "text": "methane\nMolecular formula: CH4.\nMolar mass (calculated): 16.043 g/mol.\nAtoms per molecule: C: 1, H: 4.\nSMILES: C",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 297; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-6324",
+    "text": "ethane\nMolecular formula: C2H6; empirical formula: CH3.\nMolar mass (calculated): 30.07 g/mol.\nAtoms per molecule: C: 2, H: 6.\nSMILES: CC",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6324; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-6334",
+    "text": "propane\nMolecular formula: C3H8.\nMolar mass (calculated): 44.10 g/mol.\nAtoms per molecule: C: 3, H: 8.\nSMILES: CCC",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/propane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6334; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-7843",
+    "text": "butane\nMolecular formula: C4H10; empirical formula: C2H5.\nMolar mass (calculated): 58.12 g/mol.\nAtoms per molecule: C: 4, H: 10.\nSMILES: CCCC",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/butane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 7843; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-6360",
+    "text": "isobutane\nMolecular formula: C4H10; empirical formula: C2H5.\nMolar mass (calculated): 58.12 g/mol.\nAtoms per molecule: C: 4, H: 10.\nSMILES: CC(C)C",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/isobutane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6360; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-8003",
+    "text": "pentane\nMolecular formula: C5H12.\nMolar mass (calculated): 72.15 g/mol.\nAtoms per molecule: C: 5, H: 12.\nSMILES: CCCCC",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pentane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 8003; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-6556",
+    "text": "isopentane\nMolecular formula: C5H12.\nMolar mass (calculated): 72.15 g/mol.\nAtoms per molecule: C: 5, H: 12.\nSMILES: CCC(C)C",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/isopentane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6556; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-10041",
+    "text": "neopentane\nMolecular formula: C5H12.\nMolar mass (calculated): 72.15 g/mol.\nAtoms per molecule: C: 5, H: 12.\nSMILES: CC(C)(C)C",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/neopentane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 10041; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-8058",
+    "text": "hexane\nMolecular formula: C6H14; empirical formula: C3H7.\nMolar mass (calculated): 86.18 g/mol.\nAtoms per molecule: C: 6, H: 14.\nSMILES: CCCCCC",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/hexane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 8058; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-8900",
+    "text": "heptane\nMolecular formula: C7H16.\nMolar mass (calculated): 100.20 g/mol.\nAtoms per molecule: C: 7, H: 16.\nSMILES: CCCCCCC",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/heptane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 8900; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-356",
+    "text": "octane\nMolecular formula: C8H18; empirical formula: C4H9.\nMolar mass (calculated): 114.23 g/mol.\nAtoms per molecule: C: 8, H: 18.\nSMILES: CCCCCCCC",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/octane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 356; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-6325",
+    "text": "ethylene\nMolecular formula: C2H4; empirical formula: CH2.\nMolar mass (calculated): 28.05 g/mol.\nAtoms per molecule: C: 2, H: 4.\nSMILES: C=C",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethylene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6325; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-8252",
+    "text": "propylene\nMolecular formula: C3H6; empirical formula: CH2.\nMolar mass (calculated): 42.08 g/mol.\nAtoms per molecule: C: 3, H: 6.\nSMILES: CC=C",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/propylene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 8252; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-7844",
+    "text": "1-butene\nMolecular formula: C4H8; empirical formula: CH2.\nMolar mass (calculated): 56.11 g/mol.\nAtoms per molecule: C: 4, H: 8.\nSMILES: CCC=C",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1-butene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 7844; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-6326",
+    "text": "acetylene\nMolecular formula: C2H2; empirical formula: CH.\nMolar mass (calculated): 26.04 g/mol.\nAtoms per molecule: C: 2, H: 2.\nSMILES: C#C",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetylene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6326; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-6335",
+    "text": "propyne\nMolecular formula: C3H4.\nMolar mass (calculated): 40.06 g/mol.\nAtoms per molecule: C: 3, H: 4.\nSMILES: CC#C",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/propyne/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6335; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-7846",
+    "text": "1-butyne\nMolecular formula: C4H6; empirical formula: C2H3.\nMolar mass (calculated): 54.09 g/mol.\nAtoms per molecule: C: 4, H: 6.\nSMILES: CCC#C",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1-butyne/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 7846; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  }
+]

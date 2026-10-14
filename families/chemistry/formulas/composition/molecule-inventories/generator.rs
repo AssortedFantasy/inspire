@@ -70,24 +70,12 @@ pub fn generate(rng: &mut StdRng) -> String {
         .map(|(element, count)| format!("{element}: {count}"))
         .collect::<Vec<_>>()
         .join(", ");
-    let isomers: Vec<_> = COMPOUNDS
-        .iter()
-        .filter(|(other, f)| *f == formula && *other != name)
-        .map(|(other, _)| *other)
-        .collect();
-    if !isomers.is_empty() && rng.random_ratio(1, 3) {
-        let other = isomers[rng.random_range(0..isomers.len())];
-        format!(
-            "{name} and {other}\nShared molecular formula: {formula}. Empirical formula: {empirical}.\nThey are different compounds; molecular composition alone does not specify structure."
-        )
-    } else {
-        let molecules = rng.random_range(2..=9);
-        let total: u32 = atoms.values().sum();
-        format!(
-            "{name}\nMolecular formula: {formula}. Empirical formula: {empirical}.\nAtoms per molecule: {inventory} ({total} total).\n{molecules} molecules contain {} atoms in total.",
-            molecules * total
-        )
-    }
+    let molecules = rng.random_range(2..=9);
+    let total: u32 = atoms.values().sum();
+    format!(
+        "{name}\nMolecular formula: {formula}. Empirical formula: {empirical}.\nAtoms per molecule: {inventory} ({total} total).\n{molecules} molecules contain {} atoms in total.",
+        molecules * total
+    )
 }
 
 fn empirical_formula(formula: &str, atoms: &BTreeMap<String, u32>) -> String {
@@ -186,13 +174,11 @@ mod tests {
         assert_eq!(composition("CH4N2O")["N"], 2);
         let mut a = StdRng::seed_from_u64(918);
         let mut b = StdRng::seed_from_u64(918);
-        let mut isomers = false;
+
         for _ in 0..200 {
             let output = generate(&mut a);
             assert_eq!(output, generate(&mut b));
             assert!(!output.ends_with('\n'));
-            isomers |= output.contains("different compounds");
         }
-        assert!(isomers);
     }
 }

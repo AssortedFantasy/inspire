@@ -1,0 +1,82 @@
+{
+  "compound-glycine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glycine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "db16ac359b05448ac948b95b4f6f92c0ca1e609cb1b03ff8747317e20f12876f"
+  },
+  "compound-l-alanine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-alanine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "4113d1b48af3de46a18a5a8208bdca994c7651a2827953fc30175036d7b4ec7c"
+  },
+  "compound-l-valine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-valine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "1bec08331d12c8b43558e4ced23e0374d37136fc78e332607ac0f4f3ed7c8948"
+  },
+  "compound-l-leucine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-leucine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "f2d75213998e348e9383b33990b890001058176cf515752348dbed6782abdee8"
+  },
+  "compound-l-isoleucine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-isoleucine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "185fe1aad55cc6f87d874acb9ab0948ed9a1a6d85e9f50a7ea1ddeec67e7a545"
+  },
+  "compound-l-proline": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-proline/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "4620792819c843d7b2e42b9da70e9187ba655884abeb33a9bb825029231a4b17"
+  },
+  "compound-l-phenylalanine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-phenylalanine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "b225fe9e8aa65061e7cc06360867e3acb6586ac13cf753f04c2873f8a59d88fa"
+  },
+  "compound-l-tyrosine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-tyrosine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "4e47e525c51a74109b76af0f328e3be9990e6a7fb227bc5080e57ec352b44a06"
+  },
+  "compound-l-tryptophan": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-tryptophan/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "e4ccd6f46d69fc8104ff56044ae76d1eae90da204c3ba3bad090e676c887d5e0"
+  },
+  "compound-l-serine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-serine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "645a40d1eecdce5a317f8e3a63fc549ba1b041973af8b57d5983066352ea1cf2"
+  },
+  "compound-l-threonine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-threonine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "56918f9b5206353a3298fb887a771b578cb6db7ed65c0d048a57753317b6cd53"
+  },
+  "compound-l-cysteine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-cysteine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "5bc5632f949526f66121fdb616b5b009f57806690b4703398db3cfdf0512a2ef"
+  },
+  "compound-l-methionine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-methionine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "0b70e2a931f8b5dbf190845a828fecdb9eb272a7a7bd3236799ff386c0db0bef"
+  },
+  "compound-l-asparagine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-asparagine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "5eba31701089380b63cac6b81d60fdc36e7f6e0a0e8b9a9ebba24424f5b32b05"
+  },
+  "compound-l-glutamine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-glutamine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "56d27e0d247ba347d554e8504a631b4d0d0e5e7ba7e0ae24568d34f3de553954"
+  },
+  "compound-l-aspartic-acid": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-aspartic%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "64f865e0131d6d47a6a3936a774de0fb13933e2ca00c540e435b2fbe442aaf5c"
+  },
+  "compound-l-glutamic-acid": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-glutamic%20acid/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "aaaafc98a5daf5ffdb8ddf66ab3772828e92c57d41e68201a598672759141929"
+  },
+  "compound-l-lysine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-lysine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "86088159da86e04af6cfa338ee6cdb3f50da43c85442e53b6407c3a6a5dd7bab"
+  },
+  "compound-l-arginine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-arginine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "6b1e8e09c148eae8f866df3afb3eacb740727196c3fc28f3189fd812cd4f4bea"
+  },
+  "compound-l-histidine": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-histidine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "844718fbd68d48d7de948ddd6369b784e1ea211125a1cd1c9c459711757eefaa"
+  }
+}

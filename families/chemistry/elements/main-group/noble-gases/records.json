@@ -1,0 +1,37 @@
+[
+  {
+    "id": "pubchem-element-2",
+    "text": "Helium (He)\nAtomic number: 2; 2 protons per nucleus and 2 electrons in a neutral atom.\nClassification: Noble gas.\nNeutral-atom electron configuration: 1s2.",
+    "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-element-10",
+    "text": "Neon (Ne)\nAtomic number: 10; 10 protons per nucleus and 10 electrons in a neutral atom.\nClassification: Noble gas.\nNeutral-atom electron configuration: [He]2s2 2p6.",
+    "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-element-18",
+    "text": "Argon (Ar)\nAtomic number: 18; 18 protons per nucleus and 18 electrons in a neutral atom.\nClassification: Noble gas.\nNeutral-atom electron configuration: [Ne]3s2 3p6.",
+    "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-element-36",
+    "text": "Krypton (Kr)\nAtomic number: 36; 36 protons per nucleus and 36 electrons in a neutral atom.\nClassification: Noble gas.\nNeutral-atom electron configuration: [Ar]4s2 3d10 4p6.",
+    "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-element-54",
+    "text": "Xenon (Xe)\nAtomic number: 54; 54 protons per nucleus and 54 electrons in a neutral atom.\nClassification: Noble gas.\nNeutral-atom electron configuration: [Kr]5s2 4d10 5p6.",
+    "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-element-86",
+    "text": "Radon (Rn)\nAtomic number: 86; 86 protons per nucleus and 86 electrons in a neutral atom.\nClassification: Noble gas.\nNeutral-atom electron configuration: [Xe]6s2 4f14 5d10 6p6.",
+    "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-element-118",
+    "text": "Oganesson (Og)\nAtomic number: 118; 118 protons per nucleus and 118 electrons in a neutral atom.\nClassification: Noble gas.\nNeutral-atom electron configuration: [Rn]7s2 7p6 5f14 6d10 (predicted). Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
+  }
+]

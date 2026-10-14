@@ -1,0 +1,17 @@
+[
+  {
+    "id": "pubchem-cid-1176",
+    "text": "urea\nMolecular formula: CH4N2O.\nMolar mass (calculated): 60.056 g/mol.\nAtoms per molecule: C: 1, H: 4, N: 2, O: 1.\nSMILES: C(=O)(N)N",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/urea/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 1176; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-178",
+    "text": "acetamide\nMolecular formula: C2H5NO.\nMolar mass (calculated): 59.07 g/mol.\nAtoms per molecule: C: 2, H: 5, N: 1, O: 1.\nSMILES: CC(=O)N",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetamide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 178; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-713",
+    "text": "formamide\nMolecular formula: CH3NO.\nMolar mass (calculated): 45.041 g/mol.\nAtoms per molecule: C: 1, H: 3, N: 1, O: 1.\nSMILES: C(=O)N",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/formamide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 713; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+  }
+]

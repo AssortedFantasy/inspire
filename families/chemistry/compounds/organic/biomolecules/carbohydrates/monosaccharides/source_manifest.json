@@ -1,0 +1,14 @@
+{
+  "compound-d-glucose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-glucose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "b8aee30c6fa20c9de2050660e7491b4bb1e48b3ce411ef75a3eca2feffbdce4c"
+  },
+  "compound-d-fructose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-fructose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "9e1b8ee007456b4d7f24d309ff26182eaf65e0b31b77be52261315de10f204da"
+  },
+  "compound-d-ribose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-ribose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "b228f8ef163e6dbd9075c6411491cfa6dcee3e3df7525d5a99a4c8bdbc3c6f95"
+  }
+}

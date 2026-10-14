@@ -1,0 +1,22 @@
+[
+  {
+    "id": "pubchem-cid-66308",
+    "text": "D-arabinose\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C5H10O5; empirical formula: CH2O.\nMolar mass (calculated): 150.13 g/mol; formal charge: 0.\nAtoms per molecule: C: 5, H: 10, O: 5.\nSystematic name: (2S,3R,4R)-2,3,4,5-tetrahydroxypentanal\nStereochemical SMILES: C([C@H]([C@H]([C@@H](C=O)O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-arabinose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 66308; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-644176",
+    "text": "L-lyxose\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C5H10O5; empirical formula: CH2O.\nMolar mass (calculated): 150.13 g/mol; formal charge: 0.\nAtoms per molecule: C: 5, H: 10, O: 5.\nSystematic name: (2R,3R,4S)-2,3,4,5-tetrahydroxypentanal\nStereochemical SMILES: C([C@@H]([C@H]([C@H](C=O)O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-lyxose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 644176; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-90428",
+    "text": "L-ribose\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C5H10O5; empirical formula: CH2O.\nMolar mass (calculated): 150.13 g/mol; formal charge: 0.\nAtoms per molecule: C: 5, H: 10, O: 5.\nSystematic name: (2S,3S,4S)-2,3,4,5-tetrahydroxypentanal\nStereochemical SMILES: C([C@@H]([C@@H]([C@@H](C=O)O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-ribose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 90428; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
+  },
+  {
+    "id": "pubchem-cid-95259",
+    "text": "L-xylose\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C5H10O5; empirical formula: CH2O.\nMolar mass (calculated): 150.13 g/mol; formal charge: 0.\nAtoms per molecule: C: 5, H: 10, O: 5.\nSystematic name: (2S,3R,4S)-2,3,4,5-tetrahydroxypentanal\nStereochemical SMILES: C([C@@H]([C@H]([C@@H](C=O)O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-xylose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 95259; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
+  }
+]

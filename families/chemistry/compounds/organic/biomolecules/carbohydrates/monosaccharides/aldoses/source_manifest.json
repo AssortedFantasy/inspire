@@ -1,0 +1,122 @@
+{
+  "monosaccharides-aldoses-d-glyceraldehyde": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-glyceraldehyde/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "7d38c034fc36d6234f69be862fc564cebd956fe2e1558a23e989e7c1770907a3"
+  },
+  "monosaccharides-aldoses-l-glyceraldehyde": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-glyceraldehyde/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "ad791a3f569c92ca310db201de22d70f65531818a837c98dab7acf3bb9c74be0"
+  },
+  "monosaccharides-aldoses-d-erythrose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-erythrose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "28da07a8f43c64a6d3559655c3582bdc6e9e97728f018892e1bf9ca0bcf17412"
+  },
+  "monosaccharides-aldoses-l-erythrose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-erythrose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "ad93cf47e9ab5fff12ce89cc1afb45c12df69a1f3ac58b452e31c090ab17c2e4"
+  },
+  "monosaccharides-aldoses-d-threose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-threose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "e65c6c79eb00a7eacd8a12a9f7532f930e964e9173fbfa8e05fabee5e72df82a"
+  },
+  "monosaccharides-aldoses-l-threose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-threose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "cad7fd18314f83945a957a815aedac1c3906a0bc76e7b92900a291f910a70411"
+  },
+  "monosaccharides-aldoses-l-ribose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-ribose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "2059e56b4d85313ab4fe1cb525f4c8f4db39bec6c80f81ae864ef0723dfb915d"
+  },
+  "monosaccharides-aldoses-d-arabinose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-arabinose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "b7491bdb67ac2660c14635efe59e983e7564b12650deb977039d3713fb2a4ce8"
+  },
+  "monosaccharides-aldoses-l-arabinose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-arabinose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "42e547b6724e99ca24b55086c9b8a065402e734c71ead17e0aebbebe73c23755"
+  },
+  "monosaccharides-aldoses-d-xylose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-xylose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "a11f3d3047aca52bc387dd77deca117bad1e89f86eaaeaefb014925d80184c22"
+  },
+  "monosaccharides-aldoses-l-xylose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-xylose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "ad412ce7b887f176f1edf4e1e4c07d0354f5e6590cfa285713d1f059aeaf4ff4"
+  },
+  "monosaccharides-aldoses-d-lyxose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-lyxose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "1de7e4756744de8fc4e483a257ca2a0c5b24dac5a9ed83729ba556eda7a5f1c8"
+  },
+  "monosaccharides-aldoses-l-lyxose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-lyxose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "d70a7f19c5d15c3e5fb24f1f9f687e770b93e641ed30c74b8095483e705c9b72"
+  },
+  "monosaccharides-aldoses-d-allose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-allose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "e570e3f01015e4ea96e561ba7506692a2940f1f60d0ce2e49412995b7270c83b"
+  },
+  "monosaccharides-aldoses-l-allose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-allose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "2263341572cabf5a216ce412e0bcae50c455d1a09d89e2604e33ecb612dd2366"
+  },
+  "monosaccharides-aldoses-d-altrose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-altrose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "3dbdd64fe41dbae1503d5e40e0a71fbee80809813123a6f6a03a2ff4a5a89a02"
+  },
+  "monosaccharides-aldoses-l-altrose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-altrose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "8b7500847340e9b3cd031a371fe302c23994ce7365ad9b55e8640007c79b6ea8"
+  },
+  "monosaccharides-aldoses-l-glucose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-glucose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "5e374ce701cfd9a54c1a29f566a46c79ebf7baa7f1e4bb0e2759cf3e8ca48520"
+  },
+  "monosaccharides-aldoses-d-mannose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-mannose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "9eb8b7b0b3da93f0f2fd8954f456ff67605dc5eb0a65a7e166eca69a30b6662b"
+  },
+  "monosaccharides-aldoses-l-mannose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-mannose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "19d06e8e5036cf41b4b17192e98cd0ee6e8a46b88b72afe73374ccbb91e29ba0"
+  },
+  "monosaccharides-aldoses-d-gulose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-gulose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "6e7610126681c060cbbf0d9808fb34620044ef7c7619fd770fd88888d25e797b"
+  },
+  "monosaccharides-aldoses-l-gulose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-gulose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "bf10c423d3e8540d0846e51f295064fc4f44e73557d0c4cc90626917eba2bbd8"
+  },
+  "monosaccharides-aldoses-d-idose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-idose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "cf6832ab43f2246f789017e2edb10d199fbcdd88d4384649a5ff8b9db902379e"
+  },
+  "monosaccharides-aldoses-l-idose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-idose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "a82ad45bed972af89d60f5606bdddc9ef9eb9d08de778408012c9cdd49d291fa"
+  },
+  "monosaccharides-aldoses-d-galactose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-galactose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "2259d11042e84b67761728e7c9e73ee6560f10606dced65951c793511f203f8e"
+  },
+  "monosaccharides-aldoses-l-galactose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-galactose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "0004a22d829788340961516526dfb50cd248426d89b7df7a73ba6a1b41f1795b"
+  },
+  "monosaccharides-aldoses-d-talose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-talose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "8b4972404d9165ab4e552e9bc72d25e1e4e6f40d1aedc0799b57f48596013e94"
+  },
+  "monosaccharides-aldoses-l-talose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-talose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "1626ceed6e6292c976a34df7d0be0cd200afaa7c155e32b48556906e9eaf6632"
+  },
+  "compound-d-glucose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-glucose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "b8aee30c6fa20c9de2050660e7491b4bb1e48b3ce411ef75a3eca2feffbdce4c"
+  },
+  "compound-d-ribose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-ribose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "b228f8ef163e6dbd9075c6411491cfa6dcee3e3df7525d5a99a4c8bdbc3c6f95"
+  }
+}
