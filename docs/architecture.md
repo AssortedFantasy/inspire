@@ -106,6 +106,10 @@ are included in the JSON report. Distinct text counts measure exact repetition,
 not structural variety or factual quality. Leaf-specific invariant tests and
 human review remain necessary.
 
+Chess opening integration tests use the `shakmaty` development dependency for
+SAN/UCI legality and resulting FEN positions. This dependency is confined to
+tests and does not enter the release executable.
+
 ## Dashboard
 
 `--dashboard [--port INTEGER]` starts a loopback HTTP server in
