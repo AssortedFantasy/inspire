@@ -33,7 +33,7 @@ mod tests {
             assert!(h < 360 && (20..=100).contains(&s) && (15..=85).contains(&l));
             // HSL chroma is positive for this domain, so hue is meaningful.
             let chroma = (1.0 - (2.0 * f64::from(l) / 100.0 - 1.0).abs()) * f64::from(s) / 100.0;
-            assert!(chroma >= 0.06 - 1e-12 && chroma <= 1.0);
+            assert!((0.06 - 1e-12..=1.0).contains(&chroma));
             hues[usize::from(h / 10)] = true;
             saturations[usize::from(s - 20)] = true;
             lightnesses[usize::from(l - 15)] = true;
