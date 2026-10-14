@@ -1,0 +1,52 @@
+[
+  {
+    "id": "uniform-continuity",
+    "text": "For metric spaces (X,d_X) and (Y,d_Y), f:X->Y is uniformly continuous when, for every epsilon>0, some delta>0 satisfies d_Y(f(x),f(y))<epsilon for all x,y in X with d_X(x,y)<delta. The same delta must serve every pair of domain points.",
+    "provenance": "Original mathematical exposition, checked against Jiri Lebl, Basic Analysis, Definition 7.5.10: https://www.jirka.org/ra/html/sec_metcont.html. No source prose copied; not an imported dataset."
+  },
+  {
+    "id": "continuous-not-uniform",
+    "text": "The continuous function f:R->R, f(x)=x^2, is not uniformly continuous with the usual distance. For positive integers n, the inputs n and n+1/n are 1/n apart, while their output gap is 2+1/n^2. Thus epsilon=1 defeats every proposed delta>0.",
+    "provenance": "Original example; continuity of polynomials checked against Jiri Lebl, Basic Analysis, Section 3.2: https://www.jirka.org/ra/html/sec_cont.html. Nonuniformity independently verified by expanding (n+1/n)^2-n^2. No source prose copied; not an imported dataset."
+  },
+  {
+    "id": "separate-continuity",
+    "text": "Set f(0,0)=0 and f(x,y)=xy/(x^2+y^2) elsewhere on R^2. Every function obtained by fixing one coordinate is continuous. Yet f(t,t)=1/2 for t!=0, so f is discontinuous at the origin. Separate continuity does not imply joint continuity.",
+    "provenance": "Original exposition, checked against Jiri Lebl, Basic Analysis, example following Proposition 7.5.2: https://www.jirka.org/ra/html/sec_metcont.html. Coordinate restrictions and diagonal values independently checked. No source prose copied; not an imported dataset."
+  },
+  {
+    "id": "square-root-holder",
+    "text": "On [0,infinity), |sqrt(x)-sqrt(y)|<=sqrt(|x-y|), so delta=epsilon^2 proves uniform continuity of the square root. It is not Lipschitz: the secant slope from 0 to h>0 is 1/sqrt(h), which is unbounded as h tends to 0.",
+    "provenance": "Original exposition, checked against Jiri Lebl, Basic Analysis, Example 3.4.10: https://www.jirka.org/ra/html/sec_unifcont.html. The displayed bound follows by squaring sqrt(x)-sqrt(y) for x>=y; secant slopes checked directly. No source prose copied; not an imported dataset."
+  },
+  {
+    "id": "bounded-oscillation-not-uniform",
+    "text": "The bounded continuous function f(x)=sin(1/x) on (0,1) is not uniformly continuous. For n>=1, take x_n=1/(2*pi*n+pi/2) and y_n=1/(2*pi*n+3*pi/2). Their separation tends to 0, but f(x_n)=1 and f(y_n)=-1. Boundedness of both domain and range is insufficient.",
+    "provenance": "Original example, checked against Jiri Lebl, Basic Analysis, Example 3.2.8 (continuity of the composition): https://www.jirka.org/ra/html/sec_cont.html and Exercise 3.4.8 (nonuniformity): https://www.jirka.org/ra/html/sec_unifcont.html. Sequence values checked directly. No source prose copied; not an imported dataset."
+  },
+  {
+    "id": "intermediate-values-domain-gap",
+    "text": "A continuous real function on [a,b] takes every value between its endpoint values. The interval hypothesis matters: on D=[-2,-1] union [1,2], f(x)=-1 for x<0 and f(x)=1 for x>0 is continuous in the subspace topology, yet never takes the intermediate value 0.",
+    "provenance": "Original theorem exposition and domain-gap example, checked against Jiri Lebl, Basic Analysis, Theorem 3.3.8: https://www.jirka.org/ra/html/sec_minmaxint.html. Continuity of the example follows because each component of D is open in D. No source prose copied; not an imported dataset."
+  },
+  {
+    "id": "extreme-values-open-endpoint",
+    "text": "A continuous real function on a nonempty closed bounded interval attains its minimum and maximum. On (0,1), the continuous bounded function f(x)=x has infimum 0 and supremum 1, but attains neither. Finite endpoint limits do not put the endpoints into the domain.",
+    "provenance": "Original exposition, checked against Jiri Lebl, Basic Analysis, Theorem 3.3.2 and Example 3.3.5: https://www.jirka.org/ra/html/sec_minmaxint.html. Bounds and nonattainment checked directly. No source prose copied; not an imported dataset."
+  },
+  {
+    "id": "thomae-function",
+    "text": "Thomae's function on (0,1) is T(x)=0 for irrational x and T(p/q)=1/q for rationals in lowest terms with q>0. It is continuous at every irrational and discontinuous at every rational. For any epsilon>0, only finitely many rationals in this interval have T(x)>=epsilon; irrational points can avoid them locally.",
+    "provenance": "Original exposition, checked against Jiri Lebl, Basic Analysis, Example 3.2.12 and its proof: https://www.jirka.org/ra/html/sec_cont.html. No source prose copied; not an imported dataset."
+  },
+  {
+    "id": "continuous-preimages",
+    "text": "For metric spaces X and Y, f:X->Y is continuous exactly when every open U in Y has an open preimage in X. Direct images behave differently: f(x)=x^2 sends the open interval (-1,1) to [0,1), which is not open in R.",
+    "provenance": "Original exposition and image example, checked against Jiri Lebl, Basic Analysis, Theorem 7.5.8: https://www.jirka.org/ra/html/sec_metcont.html. The direct image of (-1,1) was checked independently. No source prose copied; not an imported dataset."
+  },
+  {
+    "id": "uniform-endpoint-extension",
+    "text": "For finite real a<b, a function f:(a,b)->R is uniformly continuous exactly when it extends continuously to [a,b]. The extension is unique: its endpoint values are the one-sided limits of f. For example, sin(1/x) on (0,1) has no such extension because its limit at 0 does not exist.",
+    "provenance": "Original exposition, checked against Jiri Lebl, Basic Analysis, Proposition 3.4.6: https://www.jirka.org/ra/html/sec_unifcont.html. Failure of the example's endpoint limit follows from sequences with sine values 1 and -1. No source prose copied; not an imported dataset."
+  }
+]

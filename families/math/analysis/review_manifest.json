@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "leaves": [
+    {
+      "path": "math/analysis/continuity",
+      "reviewer": "/root/math/analysis/continuity",
+      "checks": [
+        "Reviewed all 10 source-grounded records, metric/uniform quantifiers, Thomae and oscillatory/separate-continuity counterexamples; preserved legacy IDs."
+      ]
+    },
+    {
+      "path": "math/analysis/convergence",
+      "reviewer": "/root/math/analysis/convergence",
+      "checks": [
+        "Reviewed all 10 records; corrected finite-supremum hypotheses and uniform quantifiers; checked Cauchy tails and limsup/liminf; replaced a cross-leaf duplicate."
+      ]
+    },
+    {
+      "path": "math/analysis/differentiation",
+      "reviewer": "/root/math/analysis/differentiation",
+      "checks": [
+        "Reviewed all 10 records; checked Darboux/MVT/inverse hypotheses, derivative-limit anchoring and the flat-function polynomial recurrence proof."
+      ]
+    },
+    {
+      "path": "math/analysis/series",
+      "reviewer": "/root/math/analysis/series",
+      "checks": [
+        "Reviewed all 10 records; checked exact telescoping/alternating tails, ratio-test limitations, endpoints, rearrangements and Cauchy-product hypotheses."
+      ]
+    },
+    {
+      "path": "math/analysis/integrals/indefinite/polynomials",
+      "reviewer": "/root/math/analysis/integrals/indefinite/polynomials_review",
+      "checks": [
+        "Reviewed focused self-contained extraction and actual sparse-polynomial outputs; numerical derivative invariants and formatting pass."
+      ]
+    },
+    {
+      "path": "math/analysis/integrals/indefinite/logarithms",
+      "reviewer": "/root/math/analysis/integrals/indefinite/logarithms_review",
+      "checks": [
+        "Checked logarithmic powers, both sign domains, constants on domain intervals, actual outputs and numerical derivatives after extraction."
+      ]
+    },
+    {
+      "path": "math/analysis/integrals/indefinite/exponentials",
+      "reviewer": "/root/math/analysis/integrals/indefinite/exponentials_review",
+      "checks": [
+        "Checked negative slopes and affine linear/quadratic exponential moments, actual outputs and numerical derivative invariants after extraction."
+      ]
+    },
+    {
+      "path": "math/analysis/integrals/indefinite/trigonometric",
+      "reviewer": "/root/math/analysis/integrals/indefinite/trigonometric_review",
+      "checks": [
+        "Checked squared trigonometric/secant forms, excluded poles, actual outputs and numerical derivatives after extraction."
+      ]
+    },
+    {
+      "path": "math/analysis/integrals/indefinite/inverse-trigonometric",
+      "reviewer": "/root/math/analysis/integrals/indefinite/inverse_trigonometric_review",
+      "checks": [
+        "Checked variable-radius inverse-trigonometric domains and arctangent integration by parts, actual outputs and derivative invariants after extraction."
+      ]
+    },
+    {
+      "path": "math/analysis/integrals/definite/polynomials",
+      "reviewer": "/root/math/analysis/integrals/definite/polynomials",
+      "checks": [
+        "Independently parsed and exactly integrated 80 emitted answers; checked cross-zero intervals, cancellation and six local invariants after extraction."
+      ]
+    },
+    {
+      "path": "math/analysis/integrals/definite/beta-integrals",
+      "reviewer": "/root/math/analysis/integrals/definite/beta_integrals",
+      "checks": [
+        "Reviewed 4,096 samples covering all 194 variants; independently checked polynomial multiplication/integration, substitution factors and trigonometric quadrature."
+      ]
+    },
+    {
+      "path": "math/analysis/integrals/definite/gamma-integrals",
+      "reviewer": "/root/math/analysis/integrals/definite/gamma_integrals",
+      "checks": [
+        "Checked 120 samples and all 246 parameter cases, Jacobians, quadrature, endpoints and reduced fractions; transformed-tail relative bound below 1e-12."
+      ]
+    }
+  ]
+}

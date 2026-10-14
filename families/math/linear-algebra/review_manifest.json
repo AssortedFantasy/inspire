@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "leaves": [
+    {
+      "path": "math/linear-algebra/vector-spaces",
+      "reviewer": "/root/math/linear_algebra/vector_spaces",
+      "checks": [
+        "Expanded 2 original records to 18 distinct statements and checked every example while preserving original IDs and text",
+        "Read author-hosted Axler fourth-edition chapters 1-3 and Lebl section 8.1; recorded precise theorem references and original-paraphrase provenance",
+        "Validated schema, nonblank fields, NUL absence, unique IDs/text, absence of prompts, leaf shape, and no exact text duplicates elsewhere in math"
+      ]
+    },
+    {
+      "path": "math/linear-algebra/matrices/concepts",
+      "reviewer": "/root/math/linear_algebra/matrices/concepts",
+      "checks": [
+        "Reviewed all 25 records against nine actually read MIT 18.06SC primary lecture-summary PDFs; new records are original paraphrases and calculations.",
+        "Preserved all 10 original IDs and texts verbatim; validated exact schema, nonblank strings, no NULs, unique IDs and normalized texts.",
+        "Checked field and dimension assumptions, numerical examples, 200 seeded matrix identity trials and five sampled records; reviewed self-contained non-prompt wording."
+      ]
+    },
+    {
+      "path": "math/linear-algebra/matrices/diagonalizable",
+      "reviewer": "/root/math/linear_algebra/matrices/diagonalizable",
+      "checks": [
+        "Read the substantive MIT 18.06SC diagonalization lecture-summary PDF and audited an actual seed-833 output, eigenbasis, characteristic polynomial, square and power formula.",
+        "Clarified diagonalizability over Q and parenthesized negative power bases; tested zero eigenvalues, positive exponent domain and separate zeroth power.",
+        "Passed three isolated Rust tests: 2000 sampled invariant cases, all 10290 bounded parameter combinations with powers 1 through 6, and emitted-notation regression.",
+        "Isolated Clippy with warnings denied and Rust 2024 formatting checks passed; verified bounded i64 arithmetic and supplied-RNG-only offline generation."
+      ]
+    },
+    {
+      "path": "math/linear-algebra/convex-geometry/concepts",
+      "reviewer": "/root/math/linear_algebra/convex_geometry/concepts",
+      "checks": [
+        "Read primary Lebl Section 8.1.4 and Boyd/Vandenberghe convex-sets lecture slides online; source-specific provenance records independent formulations.",
+        "Expanded two to sixteen distinct records and preserved both original IDs and exact texts.",
+        "Validated exact JSON schema, nonblank fields, no NUL, unique IDs and normalized texts using Python -B.",
+        "Reviewed all emitted texts, hypotheses, midpoint counterexamples, affine combinations, norm and cone closure, weak separation and supporting-hyperplane statements."
+      ]
+    },
+    {
+      "path": "math/linear-algebra/convex-geometry/barycentric-triangles",
+      "reviewer": "/root/math/linear_algebra/convex_geometry/barycentric_triangles",
+      "checks": [
+        "Read Alec Jacobson's primary barycentric-coordinate source online and checked the opposite-subtriangle area relation.",
+        "Inspected eight actual generated outputs for counterclockwise orientation, strict interior points, exact area ratios and reduced rational formatting.",
+        "Ran the isolated signed-subtriangle invariant test over 2,000 cases successfully and passed rustfmt --edition 2024 --check.",
+        "Verified parameter bounds, area 2..=72, positive weights 1..=9, total 3..=27 and maximum absolute vertex coordinate 42; documented discrete nonuniform sampling."
+      ]
+    },
+    {
+      "path": "math/linear-algebra/inner-product-spaces/orthogonal-projections",
+      "reviewer": "/root/math/linear_algebra/inner_product_spaces/orthogonal_projections",
+      "checks": [
+        "Read MIT 18.06 Spring 2022 problem set 5 solutions, problems 4–6, and checked the original rank-one projection construction and nonzero-pivot kernel basis.",
+        "Passed four isolated Rust tests: 2000 internal constructions, 2000 independently parsed emitted matrix/vector/kernel certificates, 186732 fraction cases, and the all-zero direction fallback.",
+        "Verified exact symmetry, idempotence, rank one, trace, fixed direction, projected vectors, independent kernel basis and perpendicular residuals; documented finite domains and i64 arithmetic bounds.",
+        "Inspected actual outputs for seeds 0, 1, 42, 99 and 9014, including zero coordinates, integer results, signs and mixed reduced denominators.",
+        "Rust 2024 formatting and isolated Clippy with warnings denied passed."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "leaves": [
+    {
+      "path": "math/topology/metric-spaces/concepts",
+      "reviewer": "/root/math/topology/metric_spaces/concepts",
+      "checks": [
+        "Reviewed every final text and primary references; retained all seven original IDs and texts.",
+        "Added four distinct metric concepts/examples; checked product-metric bounds and the arctan incompleteness example.",
+        "Tightened Cauchy and completion provenance; validated 11-record schema, unique IDs, nonblank fields and absence of NUL."
+      ]
+    },
+    {
+      "path": "math/topology/metric-spaces/weighted-tree-metrics",
+      "reviewer": "/root/math/topology/metric_spaces/weighted_tree_metrics",
+      "checks": [
+        "Reviewed positive-length tree metrics, finite completeness/compactness/discreteness and primary-source four-point claims.",
+        "Inspected rendered seeds 0, 1, 42, 536 and 499; independently verified support of 389885238 weighted trees.",
+        "Added and passed 500-seed emitted-output checks for edges, matrix and diameter against independent Floyd-Warshall; existing 500-case metric/four-point test and rustfmt passed."
+      ]
+    }
+  ]
+}

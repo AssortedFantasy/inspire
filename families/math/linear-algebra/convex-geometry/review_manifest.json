@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "leaves": [
+    {
+      "path": "math/linear-algebra/convex-geometry/concepts",
+      "reviewer": "/root/math/linear_algebra/convex_geometry/concepts",
+      "checks": [
+        "Read primary Lebl Section 8.1.4 and Boyd/Vandenberghe convex-sets lecture slides online; source-specific provenance records independent formulations.",
+        "Expanded two to sixteen distinct records and preserved both original IDs and exact texts.",
+        "Validated exact JSON schema, nonblank fields, no NUL, unique IDs and normalized texts using Python -B.",
+        "Reviewed all emitted texts, hypotheses, midpoint counterexamples, affine combinations, norm and cone closure, weak separation and supporting-hyperplane statements."
+      ]
+    },
+    {
+      "path": "math/linear-algebra/convex-geometry/barycentric-triangles",
+      "reviewer": "/root/math/linear_algebra/convex_geometry/barycentric_triangles",
+      "checks": [
+        "Read Alec Jacobson's primary barycentric-coordinate source online and checked the opposite-subtriangle area relation.",
+        "Inspected eight actual generated outputs for counterclockwise orientation, strict interior points, exact area ratios and reduced rational formatting.",
+        "Ran the isolated signed-subtriangle invariant test over 2,000 cases successfully and passed rustfmt --edition 2024 --check.",
+        "Verified parameter bounds, area 2..=72, positive weights 1..=9, total 3..=27 and maximum absolute vertex coordinate 42; documented discrete nonuniform sampling."
+      ]
+    }
+  ]
+}

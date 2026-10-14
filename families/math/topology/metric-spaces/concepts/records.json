@@ -1,0 +1,57 @@
+[
+  {
+    "id": "metric",
+    "text": "A metric d has nonnegative distances, d(x,y)=0 exactly when x=y, symmetry, and the triangle inequality.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
+  },
+  {
+    "id": "complete",
+    "text": "A metric space is complete if every Cauchy sequence converges to a point of that space.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
+  },
+  {
+    "id": "cauchy",
+    "text": "A sequence is Cauchy when, for every epsilon>0, all sufficiently late pairs of terms are within epsilon.",
+    "provenance": "Original formulation of standard mathematics; checked against Jiri Lebl, Basic Analysis, Definition 7.4.1, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
+  },
+  {
+    "id": "discrete-metric",
+    "text": "The discrete metric on a set X is d(x,y)=0 for equal points and 1 otherwise.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
+  },
+  {
+    "id": "taxicab-metric",
+    "text": "The taxicab metric on R^2 is d((x,y),(u,v))=|x-u|+|y-v|. Triangle inequalities in each coordinate establish the metric axioms.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
+  },
+  {
+    "id": "completion-of-rationals",
+    "text": "The completion of Q with its usual metric is R. Its points are equivalence classes of rational Cauchy sequences; equivalent sequences have difference tending to zero.",
+    "provenance": "Original formulation of standard mathematics; checked against David J. Eck, A Short Introduction to Metric Spaces, Section 5, completion construction and rational-number example, https://math.hws.edu/eck/metric-spaces/completeness.html. The identification with R is up to isometry. No source prose reproduced."
+  },
+  {
+    "id": "bounded-complete-not-compact",
+    "text": "A bounded complete metric space need not be compact: infinitely many points with the discrete metric have a singleton open cover with no finite subcover.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
+  },
+  {
+    "id": "metric-induced-topology",
+    "text": "The topology induced by a metric d consists of sets U such that every x in U has some ball B_d(x,r)={y:d(x,y)<r}, with r>0, contained in U. Balls depend on the ambient space: in [0,1] with its usual metric, B_d(0,1/2)=[0,1/2).",
+    "provenance": "Original source-grounded explanation; checked against Jiri Lebl, Basic Analysis, Definitions 7.2.1 and 7.2.4 and Example 7.2.3, https://www.jirka.org/ra/html/sec_mettop.html. No source prose reproduced."
+  },
+  {
+    "id": "total-boundedness",
+    "text": "A metric space is totally bounded if, for every epsilon>0, finitely many open balls of radius epsilon cover it. A metric space is compact exactly when it is complete and totally bounded. The usual interval (0,1) is totally bounded but incomplete: 1/n for n>=2 tends to the missing endpoint 0.",
+    "provenance": "Original source-grounded explanation and example; checked against David J. Eck, A Short Introduction to Metric Spaces, Definition 5.4, Theorems 5.5 and 5.6, and Exercise 5.1, https://math.hws.edu/eck/metric-spaces/completeness.html. The sequence starts at n=2 to keep every term in (0,1). No source prose reproduced."
+  },
+  {
+    "id": "product-sum-and-maximum-metrics",
+    "text": "For metric spaces (X,d_X) and (Y,d_Y), the product X x Y has metrics d_sum((x,y),(u,v))=d_X(x,u)+d_Y(y,v) and d_max((x,y),(u,v))=max{d_X(x,u),d_Y(y,v)}. Since d_max<=d_sum<=2d_max, they have the same open sets and Cauchy sequences.",
+    "provenance": "Original explanation with independently checked pointwise bounds; source context: Jiri Lebl, Basic Analysis, Exercise 7.1.6, https://www.jirka.org/ra/html/sec_metric.html; Exercise 7.2.9, https://www.jirka.org/ra/html/sec_mettop.html; Definition 7.4.1, https://www.jirka.org/ra/html/sec_metcompact.html. The bounds transfer ball inclusions and the Cauchy epsilon condition in both directions. No source prose reproduced."
+  },
+  {
+    "id": "same-topology-different-completeness",
+    "text": "On R, d(x,y)=|x-y| and rho(x,y)=|arctan(x)-arctan(y)| induce the same topology. The first is complete; the second is not. Under rho the sequence x_n=n is Cauchy because arctan(n) tends to pi/2, but it has no real limit because arctan(x)<pi/2 for every real x.",
+    "provenance": "Original source-grounded explanation; checked against Nicolas Addington, A Course in Metric Spaces and Point-Set Topology, updated October 7, 2026, Proposition 4.4, Example 4.5, and Section 7 discussion, https://pages.uoregon.edu/adding/courses/431/431notes.pdf. No source prose reproduced."
+  }
+]

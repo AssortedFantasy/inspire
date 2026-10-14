@@ -1,0 +1,92 @@
+[
+  {
+    "id": "basis",
+    "text": "A basis of a vector space is a linearly independent spanning set; every vector has a unique finite expansion in it.",
+    "provenance": "Original mathematical formulation, checked against Jiri Lebl, Basic Analysis, section 8.1.2, https://www.jirka.org/ra/html/sec_vectorspaces.html, accessed 2026-10-13. Standard mathematical definition; no source prose reproduced."
+  },
+  {
+    "id": "kernel-subspace",
+    "text": "The kernel of a linear map T:V->W is ker(T)={v:T(v)=0}. Linearity makes this set a vector subspace.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 3B, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "basis-extension",
+    "text": "In a finite-dimensional vector space, every linearly independent list can be extended to a basis, and every finite spanning list contains a basis. Independence supplies a starting point; spanning supplies a pool of candidates.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 2.30 and 2.32, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "dimension-depends-on-field",
+    "text": "C has dimension 1 over C, with basis {1}, but dimension 2 over R, with basis {1,i}. Changing the allowed scalars changes which vectors can be expressed from a proposed basis.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 2C, discussion following 2.37, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "dimension-of-subspace-sum",
+    "text": "For finite-dimensional subspaces U and W of one vector space, dim(U+W)=dim U+dim W-dim(U intersect W). Two distinct planes through the origin in R^3 intersect in a line and have sum R^3.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 2.43, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "direct-sum-pairwise-trap",
+    "text": "Two subspaces U and W form a direct sum exactly when U intersect W={0}. For three subspaces, pairwise zero intersections do not suffice: the x-axis, y-axis, and diagonal line in R^2 meet pairwise only at zero, but (1,1)=(1,0)+(0,1) gives a dependence between the three lines.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 1C and 3.93, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "complements-are-not-unique",
+    "text": "Every subspace of a finite-dimensional vector space has a complementary subspace. In R^2, the x-axis is complementary both to the y-axis and to span{(1,1)}: each choice gives a unique decomposition of every vector into one vector on each line.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 2.33, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "quotient-space-cosets",
+    "text": "For a subspace U of V, the quotient V/U consists of cosets v+U. Two vectors determine the same coset exactly when their difference lies in U. Addition is (v+U)+(w+U)=(v+w)+U, and scalar multiplication is a(v+U)=av+U; the zero vector of the quotient is U itself.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 3.99-3.104, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "quotient-vertical-coordinate",
+    "text": "Let U={(x,y,0):x,y in R}. Each coset in R^3/U is a horizontal plane, and the map (x,y,z)+U -> z identifies this quotient with R. The quotient dimension is 3-2=1, even though each coset is a two-dimensional subset of R^3.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 3E, especially 3.105, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "first-isomorphism-for-linear-maps",
+    "text": "For any linear map T:V->W, the map v+ker(T) -> T(v) is a linear isomorphism from V/ker(T) onto im(T). Passing to the quotient removes precisely the ambiguity between inputs with the same output.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 3.106-3.107, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "rank-nullity-example",
+    "text": "If V is finite-dimensional and T:V->W is linear, dim V=dim ker(T)+dim im(T). For T:R^3->R^2 given by T(x,y,z)=(x+z,y-z), the kernel is span{(-1,1,1)} and the image is R^2, so 3=1+2.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 3.21, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "infinite-sequence-shifts",
+    "text": "On the real vector space of all sequences, R(a1,a2,...)=(0,a1,a2,...) is injective but not surjective, while L(a1,a2,...)=(a2,a3,...) is surjective but not injective. LR is the identity, but RL erases the first coordinate. Thus injectivity and surjectivity of an endomorphism need not coincide in infinite dimension.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 3D, finite-dimensional invertibility equivalences, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "polynomial-hamel-basis",
+    "text": "The real polynomial space R[x] has the infinite algebraic basis {1,x,x^2,...}. Each polynomial uses only finitely many basis vectors. The power series 1+x+x^2+... is not a polynomial and is not a permitted infinite linear combination in this vector space.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 2A, polynomial space and finite linear combinations, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "algebraic-dual",
+    "text": "The algebraic dual V* of a vector space over F is the space of linear maps V->F. For finite-dimensional V, dim V*=dim V. A functional is determined by one scalar value for each vector of a basis, and those values can be assigned independently.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 3.109-3.116, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "dual-basis-oblique-coordinates",
+    "text": "For the basis b1=(1,1), b2=(1,-1) of R^2, the dual basis consists of phi1(x,y)=(x+y)/2 and phi2(x,y)=(x-y)/2. These functionals satisfy phi_i(b_j)=1 when i=j and 0 otherwise, and (x,y)=phi1(x,y)b1+phi2(x,y)b2.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 3.112-3.116, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "annihilator-of-a-line",
+    "text": "The annihilator U^0 of a subspace U consists of all linear functionals that vanish on U. In R^3, for U=span{(1,2,0)}, it is {phi(x,y,z)=a x+b y+c z : a+2b=0}. This is a two-dimensional subspace of the dual, with basis phi1(x,y,z)=2x-y and phi2(x,y,z)=z.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 3F, 3.121 and discussion following 3.124, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  },
+  {
+    "id": "linear-map-from-basis-values",
+    "text": "For a basis B of V, any assignment of vectors of W to the elements of B extends to exactly one linear map V->W. If T(1,1)=(2,0) and T(1,-1)=(0,3) in R^2, then T(x,y)=(x+y,3(x-y)/2).",
+    "provenance": "Original example, checked by basis-coordinate substitution; extension theorem checked against Jiri Lebl, Basic Analysis, proposition 8.1.17, https://www.jirka.org/ra/html/sec_vectorspaces.html, accessed 2026-10-13. No source prose reproduced."
+  },
+  {
+    "id": "linear-map-fibers",
+    "text": "If T:V->W is linear and T(v0)=w, then every solution of T(v)=w lies in the coset v0+ker(T), and every vector in that coset is a solution. For T(x,y)=x+2y, the solutions of T(x,y)=3 are (3,0)+t(-2,1), t in R.",
+    "provenance": "Original mathematical formulation and examples; facts checked against Sheldon Axler, Linear Algebra Done Right, fourth edition, 3E, 3.101 and 3.106, https://linear.axler.net/LADR4e.pdf, revision 2026-08-16, accessed 2026-10-13. Examples independently checked from the displayed equations or coordinates. No source prose reproduced."
+  }
+]

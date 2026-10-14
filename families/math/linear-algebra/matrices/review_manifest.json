@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "leaves": [
+    {
+      "path": "math/linear-algebra/matrices/concepts",
+      "reviewer": "/root/math/linear_algebra/matrices/concepts",
+      "checks": [
+        "Reviewed all 25 records against nine actually read MIT 18.06SC primary lecture-summary PDFs; new records are original paraphrases and calculations.",
+        "Preserved all 10 original IDs and texts verbatim; validated exact schema, nonblank strings, no NULs, unique IDs and normalized texts.",
+        "Checked field and dimension assumptions, numerical examples, 200 seeded matrix identity trials and five sampled records; reviewed self-contained non-prompt wording."
+      ]
+    },
+    {
+      "path": "math/linear-algebra/matrices/diagonalizable",
+      "reviewer": "/root/math/linear_algebra/matrices/diagonalizable",
+      "checks": [
+        "Read the substantive MIT 18.06SC diagonalization lecture-summary PDF and audited an actual seed-833 output, eigenbasis, characteristic polynomial, square and power formula.",
+        "Clarified diagonalizability over Q and parenthesized negative power bases; tested zero eigenvalues, positive exponent domain and separate zeroth power.",
+        "Passed three isolated Rust tests: 2000 sampled invariant cases, all 10290 bounded parameter combinations with powers 1 through 6, and emitted-notation regression.",
+        "Isolated Clippy with warnings denied and Rust 2024 formatting checks passed; verified bounded i64 arithmetic and supplied-RNG-only offline generation."
+      ]
+    }
+  ]
+}

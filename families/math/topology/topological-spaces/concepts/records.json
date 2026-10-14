@@ -1,0 +1,32 @@
+[
+  {
+    "id": "compact",
+    "text": "A space is compact if every open cover admits a finite subcover.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
+  },
+  {
+    "id": "dense",
+    "text": "A subset A is dense in X when its closure equals X; every nonempty open subset of X meets A.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
+  },
+  {
+    "id": "connected",
+    "text": "A topological space is connected if it cannot be split into two disjoint nonempty open subsets whose union is the space.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
+  },
+  {
+    "id": "cantor-set",
+    "text": "The Cantor set is the intersection of the closed sets left after successive removal of each interval's open middle third, starting with [0,1]. It is compact.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
+  },
+  {
+    "id": "connected-not-compact",
+    "text": "Connected does not imply compact: R is connected, but the open cover {(-n,n): n=1,2,...} has no finite subcover.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
+  },
+  {
+    "id": "open-intersection",
+    "text": "An infinite intersection of open sets need not be open: intersect (-1/n,1/n) over positive integers n to get {0} in R.",
+    "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
+  }
+]

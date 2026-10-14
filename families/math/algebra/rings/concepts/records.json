@@ -1,0 +1,107 @@
+[
+  {
+    "id": "integral-domain",
+    "text": "An integral domain is a commutative ring with 1 != 0 in which ab=0 implies a=0 or b=0. The integers form a domain; Z/6Z does not.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "ideal",
+    "text": "For a commutative ring R with identity, an ideal I is an additive subgroup satisfying ri in I for every r in R and i in I. In Z, the multiples of 4 form the ideal (4).",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "localization",
+    "text": "Let R be commutative with identity and S contain 1 and be closed under multiplication. In S^(-1)R, a/s=b/t exactly when u(at-bs)=0 for some u in S; every s/1 is invertible.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00CM. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "polynomial-ring",
+    "text": "For a commutative ring R with identity, R[x] consists of finite formal sums sum(a_i*x^i). Coefficients add termwise; products use convolution. Over Z, (1+2x)(3-x)=3+5x-2x^2.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "dual-numbers",
+    "text": "The real dual-number ring is R[epsilon]/(epsilon^2), with R denoting the real numbers. Each element is uniquely a+b*epsilon; multiplication gives ac+(ad+bc)*epsilon. The nonzero epsilon has square zero.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "rational-localization",
+    "text": "Localizing Z at S=Z minus {0} gives Q: a/b has integer a and nonzero integer b, and a/b=c/d exactly when ad=bc. Thus 2/3=4/6 in this localization.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00CM. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "zero-divisors",
+    "text": "Commutativity does not rule out zero divisors. In Z/6Z, the nonzero classes 2 and 3 have product 0; hence this ring is not an integral domain.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "domain-not-field",
+    "text": "The integers are an integral domain but not a field: the nonzero element 2 has no multiplicative inverse in Z because 2m=1 has no integer solution.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "finite-ring-not-field",
+    "text": "Z/4Z is finite and commutative with identity, but it is not a field: its nonzero class 2 has square 0 and cannot be invertible.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "prime-ideal-quotient",
+    "text": "For an ideal I of a commutative ring R with identity, I is prime exactly when R/I is an integral domain. In Z[x], (x) is prime because evaluation at 0 identifies Z[x]/(x) with Z.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "maximal-ideal-quotient",
+    "text": "An ideal I of a commutative ring R with identity is maximal exactly when R/I is a field. In Z[x], (2,x) is maximal because its quotient is the two-element field.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "idempotent-product",
+    "text": "In the product ring Z x Z, e=(1,0) satisfies e^2=e while e is neither 0 nor 1. Its complement 1-e=(0,1) satisfies e(1-e)=0.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "annihilator-example",
+    "text": "In R=Z/12Z, the annihilator of the class 4 is {0,3,6,9}: these are precisely the classes r with r*4=0. This set is the ideal generated by 3.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "local-ring-example",
+    "text": "A local ring has exactly one maximal ideal. In Z/8Z the odd classes are units, and the even classes form its unique maximal ideal (2); the residue field is Z/2Z.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "residue-field-at-zero",
+    "text": "For a prime ideal p of a commutative ring R, its residue field is the fraction field of R/p. In Z at p=(0), this field is Q; at p=(5), it is Z/5Z.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "localization-at-prime",
+    "text": "For a prime integer p, Z_(p) contains rational numbers with a denominator not divisible by p. Its unique maximal ideal consists of fractions whose numerator is divisible by p.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00AR. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "dyadic-localization",
+    "text": "The localization Z[1/2] has fractions a/2^n with a in Z and n>=0. It contains 3/8, while 1/3 is absent since no power of 2 is divisible by 3.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00CM. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "localization-kernel",
+    "text": "For commutative R and a multiplicative set S containing 1, a maps to 0 in S^(-1)R exactly when sa=0 for some s in S. Thus localization can erase nonzero elements when denominators are zero divisors.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00CM. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "nilpotent-localization",
+    "text": "In a commutative ring R with identity, localization at the powers 1,f,f^2,... is the zero ring exactly when f is nilpotent. For R=Z/8Z and f=2, the denominator set contains 2^3=0.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00CM. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "radical-ideal-example",
+    "text": "The radical of an ideal I in a commutative ring is the set of a with a^n in I for some integer n>=1. In Z, the radical of (72) is (6), since 72=2^3*3^2.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00E0. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  },
+  {
+    "id": "nilradical-intersection",
+    "text": "In a commutative ring with identity, the nilpotent elements form the intersection of all prime ideals. In Z/12Z they are exactly 0 and 6, the intersection of the ideals generated by 2 and by 3.",
+    "provenance": "Original explanation and worked example; mathematical context checked online 2026-10-13 against Stacks Project, https://stacks.math.columbia.edu/tag/00E0. Examples independently checked by the displayed definitions and arithmetic; no source prose or dataset copied."
+  }
+]

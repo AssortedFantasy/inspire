@@ -1,26 +1,23 @@
 # Algebra
 
-Samples small expression trees with addition, subtraction, multiplication, and
-`x` (sometimes also `y`), then collects terms using exact integer polynomial
-arithmetic. One-third of samples reverse the equality to show a decomposition
-instead of a simplification. Shapes and operators vary rather than selecting
-from fixed identity templates.
+Algebra is divided by mathematical object: groups, rings, modules, and
+polynomials. Generators describe actual objects and include evaluated examples;
+they never ask the consumer to perform the calculation. Sibling weights balance
+topics, independently of corpus size.
 
-Numeric inputs are sampled without replacement from 2 through 12. Derived
-coefficients can coincide, but the original expression never repeats a numeric
-input. Variables repeat as needed for products and collection of like terms.
+Existing algebra facts retain their stable IDs in the relevant `concepts`
+corpora. The old polynomial generator moved to `polynomials/identities`; the
+formerly mixed finite-group generator is separated by construction.
+Descendant READMEs document the precise CLI paths, bounds, sources, and invariant
+checks.
 
-Candidates have three to five operations and at least two numeric inputs. Reject
-cancellation to zero, constant subexpressions equal to one or minus one, degree
-above two, coefficients above 200 in magnitude, and uninteresting results with
-only one term or only unit linear coefficients. Both sides together are limited
-to 100 characters. After 64 attempts, use a small distributive identity as a
-fallback. All sampling uses the supplied RNG.
+- `groups/`: group facts and seven separate finite-group constructions.
+- `polynomials/`: exact symbolic identities and rational factorizations with
+  root multiplicities.
+- `rings/`: ring facts, quadratic finite fields, and composite residue rings.
+- `modules/`: module facts and tensor products of finite sums of cyclic modules.
 
-Output follows ordinary operator precedence, retains necessary grouping, and
-combines adjacent signs. For example:
-
-```text
-(9 * x - 6) * (x - 4) = 9 * x^2 - 42 * x + 24
-x * y - 11 * x + 12 * y = y * 12 - x * (11 - y)
-```
+These generators use exact bounded arithmetic and the supplied RNG. Runtime
+requires neither a computer-algebra system nor access to online sources.
+Reference notes distinguish original mathematical explanations from imported
+source material; a reference does not imply that prose was downloaded.
