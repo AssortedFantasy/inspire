@@ -106,8 +106,14 @@ are included in the JSON report. Distinct text counts measure exact repetition,
 not structural variety or factual quality. Leaf-specific invariant tests and
 human review remain necessary.
 
+`scripts/check_reviews.py` compares each family's `review_manifest.json` with
+its current leaves. It rejects missing or stale paths, repeated leaf reviewers,
+unfinished statuses, and entries without review notes. `--family PATH` can
+check a completed branch while other reviews are still underway. The ledger
+records editorial work; it does not replace source or invariant verification.
+
 Chess opening integration tests use the `shakmaty` development dependency for
-SAN/UCI legality and resulting FEN positions. This dependency is confined to
+complete legal, canonical SAN move histories. This dependency is confined to
 tests and does not enter the release executable.
 
 ## Dashboard
