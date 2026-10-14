@@ -970,5 +970,25 @@
   {
     "id": "pg-10636-p2998-c00000",
     "reason": "Transition without a substantive standalone description"
+  },
+  {
+    "id": "pg-17150-p0089-c00000",
+    "reason": "Clause 50 refers to the loan and field transfer in clause 49 (when he gave it, the money); sampled alone it omits that essential contractual context."
+  },
+  {
+    "id": "pg-17150-p0049-c00000",
+    "reason": "Clause 10 assumes the disputed lost-property purchase in clause 9; the buyer, giver and purchased it have no independent setup in this excerpt. Clause 9 retains the complete commercial dispute."
+  },
+  {
+    "id": "pg-17150-p0122-c00000",
+    "reason": "Clause 116 assumes the person seized as debt distraint in clause 115; distress and all that he gave lack the essential debt-seizure context when sampled alone."
+  },
+  {
+    "id": "pg-17150-p0178-c00000",
+    "reason": "Clause 172 assumes the widow and deceased-husband inheritance arrangement in clause 171; her husband and her sons have no independent setup, and the absent death context makes the property provision misleading when sampled alone."
+  },
+  {
+    "id": "pg-17150-p0233-c00000",
+    "reason": "Clause 227 assumes the unauthorized-branding offense defined in clause 226; the omitted owner-consent condition leaves the deception and the brander’s lack of knowledge undefined when sampled alone."
   }
 ]

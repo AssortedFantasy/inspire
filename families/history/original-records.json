@@ -14,12 +14,6 @@
     "type-reuse-cleaning"
   ],
   "ancient-world/egypt/museum-models": [
-    "papyrus-layers",
-    "black-red-ink",
-    "recto-before-verso",
-    "hieratic-papyrus",
-    "papyrus-everyday-fibers",
-    "papyrus-reed-skiffs",
     "granary-accounting-zone",
     "grain-labor-count",
     "boards-and-scrolls",
@@ -40,20 +34,6 @@
     "gold-on-woven-flowers",
     "indian-sarasa-kosode",
     "yuzen-colour-design"
-  ],
-  "ancient-world/rome/engineering/vitruvius": [
-    "chorobates-plumb",
-    "chorobates-water",
-    "three-water-networks",
-    "covered-water-channel",
-    "water-tunnel-shafts",
-    "clay-over-lead",
-    "tympanum-lift",
-    "bucket-chain",
-    "river-wheel",
-    "right-angle-mill",
-    "steelyard-distance",
-    "room-exposure"
   ],
   "material-practices/textiles/school-weaving/todd-1902": [
     "paper-before-loom",
@@ -82,5 +62,37 @@
     "two-teapots",
     "after-dinner-coffee",
     "recipe-accounting"
+  ],
+  "ancient-world/egypt/papyrus-materials": [
+    "papyrus-layers",
+    "black-red-ink",
+    "recto-before-verso",
+    "hieratic-papyrus",
+    "papyrus-everyday-fibers",
+    "papyrus-reed-skiffs"
+  ],
+  "ancient-world/rome/engineering/vitruvius/surveying": [
+    "chorobates-plumb",
+    "chorobates-water"
+  ],
+  "ancient-world/rome/engineering/vitruvius/aqueducts": [
+    "three-water-networks",
+    "covered-water-channel",
+    "water-tunnel-shafts",
+    "clay-over-lead"
+  ],
+  "ancient-world/rome/engineering/vitruvius/water-lifting": [
+    "tympanum-lift",
+    "bucket-chain",
+    "river-wheel"
+  ],
+  "ancient-world/rome/engineering/vitruvius/watermills": [
+    "right-angle-mill"
+  ],
+  "ancient-world/rome/engineering/vitruvius/statics": [
+    "steelyard-distance"
+  ],
+  "ancient-world/rome/engineering/vitruvius/room-exposures": [
+    "room-exposure"
   ]
 }

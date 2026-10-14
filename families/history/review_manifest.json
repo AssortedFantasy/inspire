@@ -1,0 +1,111 @@
+[
+  {
+    "path": "history/ancient-world/egypt/museum-models",
+    "reviewer": "/root/history/ancient_world/egypt/museum_models",
+    "checks": [
+      "Read and verified every one of the six final records against the Metropolitan Museum of Art primary collection accounts for granary 20.3.11 and bakery/brewery 20.3.12.",
+      "Confirmed Theban tomb provenance, approximate 1981-1975 BCE dating, separation of storage and accounting, six grain carriers and nine measuring/accounting figures, four scribes with two papyrus rolls and two wooden boards, workshop rooms, processing stages, conical loaves and separate ovens/stoves.",
+      "Confirmed emitted claims describe representations in specific funerary models rather than universal Egyptian work arrangements; paraphrases reproduce no museum prose or images.",
+      "Verified unique stable original IDs, three-field schema, nonblank distinct self-contained material, coherent final topic, and unchanged default topic weights.",
+      "Ran importer, byte-identical --check replay, and all three history source/preservation/corruption tests successfully after edits."
+    ],
+    "corrections": [
+      "Separated six papyrus manufacture/writing/use records into egypt/papyrus-materials and updated original-records preservation paths; those require their own terminal leaf reviewer.",
+      "Removed unsupported comparative word unusually from grain-labor-count; retained source-supported visible emphasis on measuring and accounting."
+    ],
+    "status": "completed",
+    "records": 6
+  },
+  {
+    "path": "history/ancient-world/egypt/papyrus-materials",
+    "reviewer": "/root/history/ancient_world/egypt/papyrus_materials",
+    "checks": [
+      "Independently read and verified all six factual paraphrases against Janice Kamrin, Papyrus in Ancient Egypt, Metropolitan Museum of Art, March 2015: https://www.metmuseum.org/essays/papyrus-in-ancient-egypt .",
+      "Checked layered stalk-pith writing surfaces and rolls, rush versus later reed writing implements, carbon and hematite inks, inner horizontal-fiber recto versus outer verso, changing scripts, manufactured fiber objects, and Predynastic bundled-stalk skiffs.",
+      "Confirmed chronology is stated only where the source supports it; funeral and pilgrimage boat shapes are described as tomb representations without asserting that every depicted boat was made from reeds. The coherent material topic contains no ritual speculation, unsupported symbolic interpretations, tasks, quotations or copied museum prose.",
+      "Verified all six original IDs remain at their updated preservation path, three-field schema, distinct self-contained nonblank text and provenance, no NUL, nonempty corpus-only leaf, and unchanged default topic weight.",
+      "Ran python -B families/history/import_data.py, byte-identical --check replay and all three test_import.py checks successfully; original-ID preservation and source corruption rejection pass."
+    ],
+    "status": "completed",
+    "records": 6
+  },
+  {
+    "path": "history/ancient-world/mesopotamia/babylon/hammurabi/agriculture",
+    "reviewer": "/root/history/ancient_world/mesopotamia/babylon/hammurabi/agriculture",
+    "checks": [
+      "Read every one of the 16 initial records and its preceding normalized primary-source clause; individually verified all 15 retained full contiguous clauses against checksummed Project Gutenberg book 17150 using import_data.Paragraphs and clean.",
+      "Verified clause locators 44, 47, 48, 49, 53, 57, 58, 60, 62, 64, 251, 253, 264, 265 and 267, complete entry offsets, excerpt hashes, Johns 1903 translation attribution, eighteenth-century BCE collection context and retained source notice.",
+      "Reviewed agricultural reclamation, debt relief, crop-backed lending, canal-bank liability, unauthorized grazing, orchard labor and shares, ox-owner liability, hired-field-worker theft and herdsman contracts as provisions of a historical legal collection; emitted wording makes no claim of universal enforcement or modern factual endorsement. Historical grain measures, social distinctions and punishment remain quoted without synthesized explanation.",
+      "Confirmed coherent agricultural legal topic, self-contained retained clauses despite archaic translation, no dependent fragments, duplicated quotations, chapter summaries, unsupported cultural generalizations or prompts; three-field schema, unique nonblank IDs and texts, no NUL, nonempty corpus-only leaf and unchanged default topic weight.",
+      "Ran Python -B importer, byte-identical --check replay and all three test_import.py tests successfully: source corruption rejection, schema and duplicate validation, and all 72 original IDs preserved."
+    ],
+    "corrections": [
+      "Removed imported pg-17150-p0089-c00000 (clause 50) from selections.json and documented its dependency on the field-transfer loan arrangement of clause 49 in exclusions.json; regenerated records through the importer rather than editing emitted quotation."
+    ],
+    "status": "completed",
+    "records": 15
+  },
+  {
+    "path": "history/ancient-world/mesopotamia/babylon/hammurabi/commerce",
+    "reviewer": "/root/history/ancient_world/mesopotamia/babylon/hammurabi/commerce",
+    "checks": [
+      "Read every initial record and its preceding source clause. Independently verified the 18 initial full contiguous excerpts against checksummed Project Gutenberg book 17150 using import_data.Paragraphs and clean; retained 16 self-contained clauses.",
+      "Verified retained clause locators 7, 8, 9, 23, 25, 104, 106, 107, 108, 112, 113, 117, 120, 124, 125 and 126, complete entry offsets, individual excerpt hashes, Johns 1903 translation credit, eighteenth-century BCE legal-collection context and retained source notice.",
+      "Reviewed purchase witnesses, stolen property and restitution, merchant-agent accounts, pricing, transport entrusted goods, creditor seizure, debt service, granary custody, deposits and false loss claims as historical legal provisions. Archaic vocabulary, social distinctions and penalties remain attributed quotation, with no modern endorsement or claim of universal enforcement.",
+      "Confirmed retained clauses contain their own relevant parties and conditions, a coherent commercial/property-law topic, distinct substantive material and no invented linking prose, omitted dependent setup, unsupported cultural generalizations, filler or consuming-agent prompts. Verified three-field schema, unique nonblank IDs/texts/provenance, no NUL, nonempty corpus-only leaf and unchanged default topic weight.",
+      "Ran Python -B importer, byte-identical --check replay and all three test_import.py tests successfully after reproducible exclusions; checksum corruption rejection, family schema/duplicate checks and preservation of all 72 original IDs pass."
+    ],
+    "corrections": [
+      "Removed pg-17150-p0049-c00000 (clause 10) from selections.json and documented its omitted disputed-purchase context from clause 9 in exclusions.json; retained the complete clause 9 account.",
+      "Removed pg-17150-p0122-c00000 (clause 116) from selections.json and documented its omitted debt-distraint context from clause 115 in exclusions.json. Regenerated records through the importer without rewriting quoted law."
+    ],
+    "status": "completed",
+    "records": 16
+  },
+  {
+    "path": "history/ancient-world/mesopotamia/babylon/hammurabi/family-property",
+    "reviewer": "/root/history/ancient_world/mesopotamia/babylon/hammurabi/family_property",
+    "checks": [
+      "Read every one of the 39 initial records and each immediately preceding source clause. Independently checked all full contiguous excerpts against checksummed Project Gutenberg book 17150 using import_data.Paragraphs and clean; retained 38 self-contained clauses.",
+      "Verified full-entry offsets, SHA-256 excerpt hashes, precise clause locators, exact emitted quotations, source checksum, Johns 1903 translation attribution, eighteenth-century BCE legal-collection context and retained redistribution notice.",
+      "Reviewed marriage dissolution and household maintenance, captive and absent spouses, dowry and marriage-portion distinctions, sealed deeds, separate premarital debts, inheritance of sons of different mothers and status, property rights of vowed women, adoption shares and guardianship of minor children. Historical measures, votary/hierodule/nu-bar categories, servitude distinctions, archaic syntax and punishments remain attributed primary-source wording without invented explanations, modern factual endorsement or universal enforcement claims.",
+      "Confirmed the retained clauses state relevant parties and conditions within each excerpt; clauses 171 and 176 repeat their own household setup despite initial conjunctions. Removed clause 172 because widowhood and deceased-husband inheritance are supplied only by clause 171. Retained material has no omitted essential setup, illustrations, chapter synopses, invented linking prose, duplicate quotations, filler or consuming-agent prompts.",
+      "Checked coherent family-property-law topic, three-field schema, unique nonblank IDs and texts/provenance, no NUL, nonempty corpus-only leaf and unchanged default topic weight. Ran Python -B importer, byte-identical --check replay and all three test_import.py tests successfully; source corruption rejection and preservation of all 72 original IDs pass."
+    ],
+    "corrections": [
+      "Removed imported pg-17150-p0178-c00000 (clause 172) through selections.json and documented its dependence on the deceased-husband inheritance setup of clause 171 in exclusions.json; regenerated records through the importer without rewriting quoted law."
+    ],
+    "status": "completed",
+    "records": 38
+  },
+  {
+    "path": "history/ancient-world/mesopotamia/babylon/hammurabi/justice-and-tenure",
+    "reviewer": "/root/history/ancient_world/mesopotamia/babylon/hammurabi/justice_and_tenure",
+    "checks": [
+      "Read every one of the nine actual records and both immediately adjacent source clauses. Independently verified all nine full contiguous excerpts against checksummed Project Gutenberg book 17150 using import_data.Paragraphs and clean.",
+      "Verified clause locators 2, 5, 26, 27, 30, 32, 34, 41 and 280, complete entry offsets, SHA-256 excerpt hashes, exact emitted quotations, source checksum, Johns 1903 translation attribution, eighteenth-century BCE legal-collection context and retained redistribution notice.",
+      "Reviewed river ordeal and house transfer, reversal of sealed judicial decisions, royal-service obligations, return and abandonment of service land, ransom financing and protected holdings, officials taking service property, exchanges of restricted holdings and foreign-purchased servants gaining freedom. Each retained provision includes its relevant parties and triggering conditions; adjacent clauses supply no essential omitted setup.",
+      "Confirmed coherent adjudication and status-dependent tenure provisions, self-contained substantive historical material and no dependent fragments, invented connecting prose, chapter synopses, omitted illustrations, duplicated quotation, filler or consuming-agent prompts. Archaic ganger, constable, tributary and servitude vocabulary remains quotation without silent modernization, universal enforcement claims or modern factual endorsement.",
+      "Verified three-field schema, unique nonblank IDs/texts/provenance, no NUL, nonempty corpus-only leaf and unchanged default topic weight. Ran Python -B importer, byte-identical --check replay and all three test_import.py tests successfully; source corruption rejection, family schema/duplicate validation and preservation of all 72 original IDs pass."
+    ],
+    "status": "completed",
+    "records": 9
+  },
+  {
+    "path": "history/ancient-world/mesopotamia/babylon/hammurabi/skilled-work",
+    "reviewer": "/root/history/ancient_world/mesopotamia/babylon/hammurabi/skilled_work",
+    "checks": [
+      "Read every one of the six initial records and both adjacent normalized source clauses. Independently reviewed all eight final full contiguous excerpts and adjacent clauses from checksummed Project Gutenberg book 17150 using import_data.Paragraphs and clean.",
+      "Verified precise clause locators 215, 218, 228, 234, 235, 237, 239 and 240; full-entry offsets, individual SHA-256 hashes, exact emitted quotations, source checksum, Johns 1903 translation attribution, eighteenth-century BCE legal-collection context and retained source notice.",
+      "Reviewed successful-treatment fees and professional liability, house-builder fees, navigation fees, repair or replacement of defective ships, negligent loss of freight, annual boatman wages and collision restitution. Retained excerpts state their own relevant parties and conditions; doctor clauses are historical legal provisions rather than medical instructions. Archaic social categories, measures and sanctions remain attributed quotation without invented modernization, claims of actual universal enforcement or modern factual endorsement.",
+      "Confirmed coherent skilled-worker fee and liability provisions, self-contained substantive material, no omitted essential setup, invented connecting prose, summaries, duplicated quotations, filler or consuming-agent prompts. Checked three-field schema, unique nonblank IDs/texts/provenance, no NUL, nonempty corpus-only leaf and unchanged default topic weight.",
+      "Ran Python -B importer, byte-identical --check replay and all three test_import.py tests successfully: checksum corruption rejection, schema/duplicate validation and preservation of all 72 original IDs."
+    ],
+    "corrections": [
+      "Removed imported pg-17150-p0233-c00000 (clause 227) through selections.json and documented its dependence on the omitted owner-consent offense of clause 226 in exclusions.json; no quotation was rewritten.",
+      "Added complete previously unselected source clauses 228, 234 and 239 with precise offsets and SHA-256 hashes, strengthening payment-contract diversity alongside retained liability provisions; regenerated records through the importer."
+    ],
+    "status": "completed",
+    "records": 8
+  }
+]

@@ -50,16 +50,6 @@
     "text_sha256": "5e03fb9b7d00943000c17e35f38789eb1947c9635a638b08c89947d92ce4f08d"
   },
   {
-    "id": "pg-17150-p0049-c00000",
-    "book": 17150,
-    "paragraph": 49,
-    "start": 0,
-    "end": 307,
-    "leaf": "ancient-world/mesopotamia/babylon/hammurabi/commerce",
-    "locator": "clause 10",
-    "text_sha256": "e4ddae23bbc13a80090218bc5bda3ce61343b90db2fefba1e94ea480c75a56f9"
-  },
-  {
     "id": "pg-17150-p0062-c00000",
     "book": 17150,
     "paragraph": 62,
@@ -180,16 +170,6 @@
     "text_sha256": "91c4ed14f4058c26df2a5ff8d41b56a2d8f851d6b6f6561a3e2d8685d437d851"
   },
   {
-    "id": "pg-17150-p0089-c00000",
-    "book": 17150,
-    "paragraph": 89,
-    "start": 0,
-    "end": 225,
-    "leaf": "ancient-world/mesopotamia/babylon/hammurabi/agriculture",
-    "locator": "clause 50",
-    "text_sha256": "aae0efeda68d980ae01f493527842b4a838b50c96b8920338c49e03f3c0ecd35"
-  },
-  {
     "id": "pg-17150-p0092-c00000",
     "book": 17150,
     "paragraph": 92,
@@ -308,16 +288,6 @@
     "leaf": "ancient-world/mesopotamia/babylon/hammurabi/commerce",
     "locator": "clause 113",
     "text_sha256": "2a4b84e45399068ef97188250106f4717ae4adccfdf5c9770f5ce4bfaa3388f1"
-  },
-  {
-    "id": "pg-17150-p0122-c00000",
-    "book": 17150,
-    "paragraph": 122,
-    "start": 0,
-    "end": 343,
-    "leaf": "ancient-world/mesopotamia/babylon/hammurabi/commerce",
-    "locator": "clause 116",
-    "text_sha256": "3d7c86980b46513b6ead22326c0b8d810f86c7103c87bea7ca67324db38276e1"
   },
   {
     "id": "pg-17150-p0123-c00000",
@@ -620,16 +590,6 @@
     "text_sha256": "a1d79df8671d62cdaa56c2c1f552bc4e5015e62fb74a42d343bb43b0792b36f3"
   },
   {
-    "id": "pg-17150-p0178-c00000",
-    "book": 17150,
-    "paragraph": 178,
-    "start": 0,
-    "end": 562,
-    "leaf": "ancient-world/mesopotamia/babylon/hammurabi/family-property",
-    "locator": "clause 172",
-    "text_sha256": "dcdd4c2955403c163425036653b7c7cc085362f7a8122607ba05780b2e4504f1"
-  },
-  {
     "id": "pg-17150-p0181-c00000",
     "book": 17150,
     "paragraph": 181,
@@ -780,14 +740,24 @@
     "text_sha256": "8d34a1c6a3e19852df41d85ac260662f905e4fee33111c2065d5fa4af2002e42"
   },
   {
-    "id": "pg-17150-p0233-c00000",
+    "id": "pg-17150-p0234-c00000",
     "book": 17150,
-    "paragraph": 233,
+    "paragraph": 234,
     "start": 0,
-    "end": 229,
+    "end": 138,
     "leaf": "ancient-world/mesopotamia/babylon/hammurabi/skilled-work",
-    "locator": "clause 227",
-    "text_sha256": "7aa85d0aba64a6abb14c8c8a5c7f76d5d00ccea80ca3e192c94787d6773b91bb"
+    "locator": "clause 228",
+    "text_sha256": "da354853c568959e5833439a7a501a0fbd9da4eb1d0daaf0662f96cea2767785"
+  },
+  {
+    "id": "pg-17150-p0240-c00000",
+    "book": 17150,
+    "paragraph": 240,
+    "start": 0,
+    "end": 117,
+    "leaf": "ancient-world/mesopotamia/babylon/hammurabi/skilled-work",
+    "locator": "clause 234",
+    "text_sha256": "999320fa2e4f5ad36e01632dc74367a7728d09f01df8d808c4ae9578ab181b17"
   },
   {
     "id": "pg-17150-p0241-c00000",
@@ -808,6 +778,16 @@
     "leaf": "ancient-world/mesopotamia/babylon/hammurabi/skilled-work",
     "locator": "clause 237",
     "text_sha256": "27cfcb2dab9f8f00a6a6f17843dd041acc0d5b3c8c9bc9da599649a6724e49ef"
+  },
+  {
+    "id": "pg-17150-p0245-c00000",
+    "book": 17150,
+    "paragraph": 245,
+    "start": 0,
+    "end": 80,
+    "leaf": "ancient-world/mesopotamia/babylon/hammurabi/skilled-work",
+    "locator": "clause 239",
+    "text_sha256": "4d10e512e9bbf376513dd553467f628d8e51e4f70e56f15085a9cab399cc2d65"
   },
   {
     "id": "pg-17150-p0246-c00000",
