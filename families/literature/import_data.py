@@ -22,6 +22,8 @@ def clean(node, verse=False):
     node = BeautifulSoup(str(node), "html.parser")
     for artifact in node.select(".pagenum,.pageno,.footnote,.note,.caption,.fig,.mynote,.comment,sup"):
         artifact.decompose()
+    for initial in node.select("span.letra img[alt]"):
+        initial.replace_with(initial["alt"])
     for link in node.select('a[href^="#Footnote"],a[href^="#FN"],a[href^="#fn"]'):
         link.decompose()
     if verse:
