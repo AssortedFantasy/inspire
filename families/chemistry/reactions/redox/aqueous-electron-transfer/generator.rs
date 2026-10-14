@@ -4,12 +4,50 @@ use rand::rngs::StdRng;
 use support::Reaction;
 
 const REACTIONS: &[Reaction] = &[
-Reaction { title: "Permanganate oxidizes iron(II)", left: &[(1, "MnO4^-(aq)"), (5, "Fe^2+(aq)"), (8, "H^+(aq)")], right: &[(1, "Mn^2+(aq)"), (5, "Fe^3+(aq)"), (4, "H2O(l)")], conditions: "Strongly acidic aqueous solution; H^+ denotes solvated proton convention.", equilibrium: false },
-Reaction { title: "Dichromate oxidizes iron(II)", left: &[(1, "Cr2O7^2-(aq)"), (6, "Fe^2+(aq)"), (14, "H^+(aq)")], right: &[(2, "Cr^3+(aq)"), (6, "Fe^3+(aq)"), (7, "H2O(l)")], conditions: "Strongly acidic aqueous solution; H^+ denotes solvated proton convention.", equilibrium: false },
-Reaction { title: "Cerium(IV) oxidizes iron(II)", left: &[(1, "Ce^4+(aq)"), (1, "Fe^2+(aq)")], right: &[(1, "Ce^3+(aq)"), (1, "Fe^3+(aq)")], conditions: "Acidic aqueous solution maintaining cerium(IV) in solution; no competing reductant.", equilibrium: false },
-Reaction { title: "Chlorine oxidizes bromide", left: &[(1, "Cl2(aq)"), (2, "Br^-(aq)")], right: &[(2, "Cl^-(aq)"), (1, "Br2(aq)")], conditions: "Aqueous halogen displacement; bromide is available in excess and strongly alkaline conditions are excluded.", equilibrium: false },
-Reaction { title: "Iodine oxidizes thiosulfate", left: &[(1, "I2(aq)"), (2, "S2O3^2-(aq)")], right: &[(2, "I^-(aq)"), (1, "S4O6^2-(aq)")], conditions: "Near-neutral aqueous iodometric conditions; tetrathionate is the oxidation product.", equilibrium: false },
-Reaction { title: "Permanganate oxidizes oxalate", left: &[(2, "MnO4^-(aq)"), (5, "C2O4^2-(aq)"), (16, "H^+(aq)")], right: &[(2, "Mn^2+(aq)"), (10, "CO2(g)"), (8, "H2O(l)")], conditions: "Warm strongly acidic aqueous solution; carbon dioxide escapes. Reaction can be slow initially.", equilibrium: false }
+    Reaction {
+        title: "Permanganate oxidizes iron(II)",
+        left: &[(1, "MnO4^-(aq)"), (5, "Fe^2+(aq)"), (8, "H^+(aq)")],
+        right: &[(1, "Mn^2+(aq)"), (5, "Fe^3+(aq)"), (4, "H2O(l)")],
+        conditions: "Strongly acidic aqueous solution; H^+ denotes solvated proton convention.",
+        equilibrium: false,
+    },
+    Reaction {
+        title: "Dichromate oxidizes iron(II)",
+        left: &[(1, "Cr2O7^2-(aq)"), (6, "Fe^2+(aq)"), (14, "H^+(aq)")],
+        right: &[(2, "Cr^3+(aq)"), (6, "Fe^3+(aq)"), (7, "H2O(l)")],
+        conditions: "Strongly acidic aqueous solution; H^+ denotes solvated proton convention.",
+        equilibrium: false,
+    },
+    Reaction {
+        title: "Cerium(IV) oxidizes iron(II)",
+        left: &[(1, "Ce^4+(aq)"), (1, "Fe^2+(aq)")],
+        right: &[(1, "Ce^3+(aq)"), (1, "Fe^3+(aq)")],
+        conditions: "Acidic aqueous solution maintaining cerium(IV) in solution; no competing reductant.",
+        equilibrium: false,
+    },
+    Reaction {
+        title: "Chlorine oxidizes bromide",
+        left: &[(1, "Cl2(aq)"), (2, "Br^-(aq)")],
+        right: &[(2, "Cl^-(aq)"), (1, "Br2(aq)")],
+        conditions: "Aqueous halogen displacement; bromide is available in excess and strongly alkaline conditions are excluded.",
+        equilibrium: false,
+    },
+    Reaction {
+        title: "Iodine oxidizes thiosulfate",
+        left: &[(1, "I2(aq)"), (2, "S2O3^2-(aq)")],
+        right: &[(2, "I^-(aq)"), (1, "S4O6^2-(aq)")],
+        conditions: "Near-neutral aqueous iodometric conditions; tetrathionate is the oxidation product.",
+        equilibrium: false,
+    },
+    Reaction {
+        title: "Permanganate oxidizes oxalate",
+        left: &[(2, "MnO4^-(aq)"), (5, "C2O4^2-(aq)"), (16, "H^+(aq)")],
+        right: &[(2, "Mn^2+(aq)"), (10, "CO2(g)"), (8, "H2O(l)")],
+        conditions: "Warm strongly acidic aqueous solution; carbon dioxide escapes. Reaction can be slow initially.",
+        equilibrium: false,
+    },
 ];
 
-pub fn generate(rng: &mut StdRng) -> String { support::generate(rng, REACTIONS) }
+pub fn generate(rng: &mut StdRng) -> String {
+    support::generate(rng, REACTIONS)
+}

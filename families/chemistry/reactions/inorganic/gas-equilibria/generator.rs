@@ -4,12 +4,50 @@ use rand::rngs::StdRng;
 use support::Reaction;
 
 const REACTIONS: &[Reaction] = &[
-Reaction { title: "Ammonia synthesis", left: &[(1, "N2(g)"), (3, "H2(g)")], right: &[(2, "NH3(g)")], conditions: "Haber equilibrium at elevated pressure and temperature with an iron-based catalyst.", equilibrium: true },
-Reaction { title: "Sulfur trioxide formation", left: &[(2, "SO2(g)"), (1, "O2(g)")], right: &[(2, "SO3(g)")], conditions: "Contact-process gas equilibrium with a vanadium oxide catalyst; it accelerates approach to equilibrium.", equilibrium: true },
-Reaction { title: "Dinitrogen tetroxide dissociation", left: &[(1, "N2O4(g)")], right: &[(2, "NO2(g)")], conditions: "Gas phase; increasing temperature favors dissociation to nitrogen dioxide.", equilibrium: true },
-Reaction { title: "Hydrogen iodide formation", left: &[(1, "H2(g)"), (1, "I2(g)")], right: &[(2, "HI(g)")], conditions: "Heated gas mixture, above iodine's condensation temperature for the stated gas phases.", equilibrium: true },
-Reaction { title: "Water-gas shift", left: &[(1, "CO(g)"), (1, "H2O(g)")], right: &[(1, "CO2(g)"), (1, "H2(g)")], conditions: "Steam and carbon monoxide over an appropriate shift catalyst; gas-phase equilibrium.", equilibrium: true },
-Reaction { title: "Methane steam reforming", left: &[(1, "CH4(g)"), (1, "H2O(g)")], right: &[(1, "CO(g)"), (3, "H2(g)")], conditions: "High-temperature nickel-catalyzed gas equilibrium; this is the reforming reaction, excluding downstream shift.", equilibrium: true }
+    Reaction {
+        title: "Ammonia synthesis",
+        left: &[(1, "N2(g)"), (3, "H2(g)")],
+        right: &[(2, "NH3(g)")],
+        conditions: "Haber equilibrium at elevated pressure and temperature with an iron-based catalyst.",
+        equilibrium: true,
+    },
+    Reaction {
+        title: "Sulfur trioxide formation",
+        left: &[(2, "SO2(g)"), (1, "O2(g)")],
+        right: &[(2, "SO3(g)")],
+        conditions: "Contact-process gas equilibrium with a vanadium oxide catalyst; it accelerates approach to equilibrium.",
+        equilibrium: true,
+    },
+    Reaction {
+        title: "Dinitrogen tetroxide dissociation",
+        left: &[(1, "N2O4(g)")],
+        right: &[(2, "NO2(g)")],
+        conditions: "Gas phase; increasing temperature favors dissociation to nitrogen dioxide.",
+        equilibrium: true,
+    },
+    Reaction {
+        title: "Hydrogen iodide formation",
+        left: &[(1, "H2(g)"), (1, "I2(g)")],
+        right: &[(2, "HI(g)")],
+        conditions: "Heated gas mixture, above iodine's condensation temperature for the stated gas phases.",
+        equilibrium: true,
+    },
+    Reaction {
+        title: "Water-gas shift",
+        left: &[(1, "CO(g)"), (1, "H2O(g)")],
+        right: &[(1, "CO2(g)"), (1, "H2(g)")],
+        conditions: "Steam and carbon monoxide over an appropriate shift catalyst; gas-phase equilibrium.",
+        equilibrium: true,
+    },
+    Reaction {
+        title: "Methane steam reforming",
+        left: &[(1, "CH4(g)"), (1, "H2O(g)")],
+        right: &[(1, "CO(g)"), (3, "H2(g)")],
+        conditions: "High-temperature nickel-catalyzed gas equilibrium; this is the reforming reaction, excluding downstream shift.",
+        equilibrium: true,
+    },
 ];
 
-pub fn generate(rng: &mut StdRng) -> String { support::generate(rng, REACTIONS) }
+pub fn generate(rng: &mut StdRng) -> String {
+    support::generate(rng, REACTIONS)
+}

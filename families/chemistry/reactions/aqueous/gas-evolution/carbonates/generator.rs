@@ -4,10 +4,36 @@ use rand::rngs::StdRng;
 use support::Reaction;
 
 const REACTIONS: &[Reaction] = &[
-Reaction { title: "Acid dissolution of CaCO3", left: &[(1, "CaCO3(s)"), (2, "H3O^+(aq)")], right: &[(1, "Ca^2+(aq)"), (1, "CO2(g)"), (3, "H2O(l)")], conditions: "Excess dilute nonoxidizing aqueous acid; carbon dioxide leaves the solution.", equilibrium: false },
-Reaction { title: "Acid dissolution of MgCO3", left: &[(1, "MgCO3(s)"), (2, "H3O^+(aq)")], right: &[(1, "Mg^2+(aq)"), (1, "CO2(g)"), (3, "H2O(l)")], conditions: "Excess dilute nonoxidizing aqueous acid; carbon dioxide leaves the solution.", equilibrium: false },
-Reaction { title: "Acid dissolution of ZnCO3", left: &[(1, "ZnCO3(s)"), (2, "H3O^+(aq)")], right: &[(1, "Zn^2+(aq)"), (1, "CO2(g)"), (3, "H2O(l)")], conditions: "Excess dilute nonoxidizing aqueous acid; carbon dioxide leaves the solution.", equilibrium: false },
-Reaction { title: "Bicarbonate acidification", left: &[(1, "HCO3^-(aq)"), (1, "H3O^+(aq)")], right: &[(1, "CO2(g)"), (2, "H2O(l)")], conditions: "Excess aqueous acid; carbon dioxide escapes. Bicarbonate is protonated and the carbonic acid product decomposes.", equilibrium: false }
+    Reaction {
+        title: "Acid dissolution of CaCO3",
+        left: &[(1, "CaCO3(s)"), (2, "H3O^+(aq)")],
+        right: &[(1, "Ca^2+(aq)"), (1, "CO2(g)"), (3, "H2O(l)")],
+        conditions: "Excess dilute nonoxidizing aqueous acid; carbon dioxide leaves the solution.",
+        equilibrium: false,
+    },
+    Reaction {
+        title: "Acid dissolution of MgCO3",
+        left: &[(1, "MgCO3(s)"), (2, "H3O^+(aq)")],
+        right: &[(1, "Mg^2+(aq)"), (1, "CO2(g)"), (3, "H2O(l)")],
+        conditions: "Excess dilute nonoxidizing aqueous acid; carbon dioxide leaves the solution.",
+        equilibrium: false,
+    },
+    Reaction {
+        title: "Acid dissolution of ZnCO3",
+        left: &[(1, "ZnCO3(s)"), (2, "H3O^+(aq)")],
+        right: &[(1, "Zn^2+(aq)"), (1, "CO2(g)"), (3, "H2O(l)")],
+        conditions: "Excess dilute nonoxidizing aqueous acid; carbon dioxide leaves the solution.",
+        equilibrium: false,
+    },
+    Reaction {
+        title: "Bicarbonate acidification",
+        left: &[(1, "HCO3^-(aq)"), (1, "H3O^+(aq)")],
+        right: &[(1, "CO2(g)"), (2, "H2O(l)")],
+        conditions: "Excess aqueous acid; carbon dioxide escapes. Bicarbonate is protonated and the carbonic acid product decomposes.",
+        equilibrium: false,
+    },
 ];
 
-pub fn generate(rng: &mut StdRng) -> String { support::generate(rng, REACTIONS) }
+pub fn generate(rng: &mut StdRng) -> String {
+    support::generate(rng, REACTIONS)
+}
