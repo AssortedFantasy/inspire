@@ -19,6 +19,7 @@ Keep this up to date; list only important files and directories.
 - `build.rs`, `build_support.rs`: tree validation and code generation.
 - `src/`: CLI, packed layouts, sampling, and chunk retrieval.
 - `src/dashboard.rs`, `dashboard/`: embedded local server and output explorer.
+- `scripts/review_dashboard.py`, `review-dashboard/`: external human review UI; feedback appends to `reviews/human-feedback.md`.
 - `tests/`: build-tree and CLI integration tests.
 - `scripts/review_content.py`: counts, probabilities, duplicate checks, and output samples.
 - [DATA_SOURCES.md](DATA_SOURCES.md): embedded dataset redistribution notices.

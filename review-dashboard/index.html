@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inspire review</title>
+  <link rel="stylesheet" href="/review.css">
+  <script src="/review.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Inspire review</h1>
+      <div class="scope"><label for="family">Family</label><select id="family"><option value="">All families</option></select></div>
+      <span id="count">0 reviewed this session</span>
+    </header>
+    <section class="sample" aria-label="Sample to review" aria-busy="true">
+      <div id="source"></div>
+      <div id="text">Loading sample…</div>
+    </section>
+    <form id="review">
+      <label for="notes">Your notes <span>(optional)</span></label>
+      <textarea id="notes" rows="3" maxlength="16000" placeholder="What works? What needs fixing?"></textarea>
+      <div class="actions">
+        <button type="submit" name="rating" value="LGTM" class="good" disabled>LGTM</button>
+        <button type="submit" name="rating" value="JANK" class="bad" disabled>JANK</button>
+      </div>
+    </form>
+    <div class="status-line"><span id="status" role="status" aria-live="polite">Loading…</span><button id="retry" hidden>Retry</button></div>
+    <footer>Feedback file: <span id="file"></span></footer>
+  </main>
+</body>
+</html>

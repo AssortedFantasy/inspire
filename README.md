@@ -43,6 +43,28 @@ nodes remain inspectable, with their probability shown as zero.
 The dashboard, tree, and outputs are embedded in the same executable. It serves
 only on loopback and needs no internet, source files, or frontend installation.
 
+## Human review dashboard
+
+Run `python scripts/review_dashboard.py` from the checkout. This separate Python
+tool rebuilds the current dataset and opens `http://127.0.0.1:8766/`. It requires
+Python 3 and Cargo, with no additional Python or frontend dependencies.
+
+Read the sample, optionally write notes, and click **LGTM** or **JANK** to save
+and load another random sample. The family selector narrows the review. Sampling
+gives each leaf an equal chance, then picks a random record or generator seed;
+this exposes small leaves as well as large corpora, independently of CLI weights.
+
+Feedback appends to `reviews/human-feedback.md`, including the full text, source
+path, record ID and provenance, or generator seed and binary hash. Notes stay
+literal Markdown code blocks for later AI review. Feedback survives restarts;
+the on-screen count covers the current session. The tool reads source records
+and invokes the CLI only for generated samples; it is not embedded in Inspire.
+
+Use `--feedback PATH` for a different file, `--port 0` for an available port,
+`--no-open` to skip opening the browser, or `--binary target/release/inspire.exe`
+to use an existing build without rebuilding. Stop with Ctrl+C.
+Check the review tool with `python -m unittest discover -s scripts -p test_review_dashboard.py`.
+
 For an agent, add this to the consuming project's `AGENTS.md`, or your global
 `AGENTS.md`:
 
