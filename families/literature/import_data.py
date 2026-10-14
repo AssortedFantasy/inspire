@@ -42,10 +42,21 @@ def record(source, locator, body, excerpt=False):
     credit = source["author"]
     if source.get("translator"):
         credit += "; English " + source.get("translation_kind", "translation") + " by " + source["translator"]
-    label = " [excerpt]" if excerpt else ""
+    # Keep printed chapter and quatrain references when they aid readers, while
+    # hiding source HTML anchors and import-time ordinals from sampled text.
+    display_locator = None
+    if match := re.fullmatch(r"quatrain-([IVXLCDM]+)", locator, re.I):
+        display_locator = f"Quatrain {match.group(1)}"
+    elif match := re.fullmatch(r"(.+); paragraphs-\d+-\d+", locator):
+        display_locator = match.group(1)
+    elif match := re.search(r"\bchapter\s+([IVXLCDM]+|\d+)\b", locator, re.I):
+        display_locator = f"Chapter {match.group(1)}"
+    citation = f"{credit}, {source['title']} ({source['edition']})"
+    if display_locator:
+        citation += f", {display_locator}"
     return {
         "id": f"pg-{source['id']}-{locator}",
-        "text": f"{body}\n— {credit}, {source['title']} ({source['edition']}), {locator}{label}",
+        "text": f"{body}\n- {citation}",
         "provenance": f"{source['url']}; downloaded 2026-10-13; SHA-256 {source['sha256']}. "
         f"Exact source locator: {locator}. {source['rights']} "
         "Underlying public-domain literary text; Project Gutenberg metadata, trademark statements, "
