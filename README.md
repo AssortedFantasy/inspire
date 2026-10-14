@@ -16,7 +16,7 @@ inspire
 inspire --help-full
 inspire --list
 inspire --data-licenses
-inspire --family games/dice --seed 42
+inspire --family games/chance/dice --seed 42
 inspire --family geography
 ```
 
@@ -61,8 +61,8 @@ Select any branch or leaf with `--family`. Omit it to sample the whole tree.
 | Family | Material |
 | --- | --- |
 | `chemistry` | Chemical compounds and balanced equations |
-| `design` | Coordinated wardrobes and SPICE circuits |
-| `games` | Dice, Sudoku, tic-tac-toe positions, chess openings |
+| `design` | Coordinated wardrobes, SPICE circuits, and textile weave drafts |
+| `games` | Legal board positions, opening books, card deals, dice, and puzzles |
 | `geography` | Settlements, administrative regions, countries, landforms, and waters |
 | `history` | Customs, inventions, and everyday practices |
 | `language` | Idioms, proverbs, etymologies, grammatical constructions |
@@ -71,14 +71,14 @@ Select any branch or leaf with `--family`. Omit it to sample the whole tree.
 | `mechanisms` | Mechanical, fluid, and control mechanisms |
 | `music` | Classical works, instruments, scales, harmony, rhythms, and melodic phrases |
 | `natural-world` | Species and biological traits, adaptations, plants, and natural processes |
-| `objects` | Actual car make, model, and year combinations |
+| `objects` | Historical museum artifacts and actual car make, model, and year combinations |
 | `people` | Notable people grouped by field |
 | `procedures` | Algorithms, crafts, cooking, and experimental methods |
 | `random` | Dates and times, colors, and UUIDs |
 
 Weights are local to siblings: a larger corpus does not automatically receive
-more samples. Broad top-level families have weight 2; the car collection and raw
-random values have weight 1. Names within `people`,
+more samples. Broad top-level families have weight 2; raw random values have
+weight 1. Names within `people`,
 `objects/cars`, `natural-world/animals`, and `geography/subdivisions` have equal
 per-record shares across their folders. Other branches balance subjects rather
 than corpus size; family READMEs explain their local choices. Colors and dates
