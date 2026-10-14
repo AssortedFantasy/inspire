@@ -205,8 +205,8 @@ def select(rows):
 def record(row):
     text = (
         f"{row['title']} - {row['creation_date'].rstrip('.')}\n"
-        f"Culture — {row['culture'].rstrip('.')}\n"
-        f"Materials — {row['technique'].rstrip('.')}\n"
+        f"Culture - {row['culture'].rstrip('.')}\n"
+        f"Materials - {row['technique'].rstrip('.')}\n"
         "Cleveland Museum of Art."
     )
     return {
