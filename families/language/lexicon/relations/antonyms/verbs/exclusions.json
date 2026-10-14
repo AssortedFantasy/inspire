@@ -1,0 +1,86 @@
+[
+  {
+    "id": "wn30-v-00358431",
+    "reason": "The historical death gloss claims loss of all bodily attributes as well as necessary functions; bodies retain attributes after death, so this overstates a biological definition."
+  },
+  {
+    "id": "wn30-v-00641252",
+    "reason": "The subtract gloss only says make a subtraction; it repeats the nominal derivative without explaining the arithmetic operation."
+  },
+  {
+    "id": "wn30-v-00503164",
+    "reason": "The stimulate gloss only says act as a stimulant; its derivative is circular and does not explain the intended sense."
+  },
+  {
+    "id": "wn30-v-00642098",
+    "reason": "The divide gloss only says perform a division; it does not define the arithmetic operation independently of a nominal derivative."
+  },
+  {
+    "id": "wn30-v-00641672",
+    "reason": "The multiply gloss only says combine by multiplication; it substitutes a nominal derivative for an explanation of the operation."
+  },
+  {
+    "id": "wn30-v-02417504",
+    "reason": "The idle gloss repeats be idle and describes a changeless situation; inactivity is not changelessness and this gloss does not explain the human activity sense."
+  },
+  {
+    "id": "wn30-v-01296462",
+    "reason": "The attach gloss only says cause to be attached; it is a circular passive restatement without an independent definition."
+  },
+  {
+    "id": "wn30-v-02407766",
+    "reason": "The precede gloss only says be the predecessor of, substituting a derived noun without explaining the temporal or office succession relationship."
+  },
+  {
+    "id": "wn30-v-02406585",
+    "reason": "The succeed gloss only says be the successor (of), substituting a derived noun without explaining the office succession relationship."
+  },
+  {
+    "id": "wn30-v-02684924",
+    "reason": "The continue gloss repeats continue a certain state, condition, or activity without independently defining continuation."
+  },
+  {
+    "id": "wn30-v-01346003",
+    "reason": "The open gloss only says cause to open or to become open; both formulations repeat the lemma without explaining the physical action."
+  },
+  {
+    "id": "wn30-v-01083044",
+    "reason": "The drop out gloss contains the malformed phrase defeat of lacking hope and restricts withdrawal to defeat or hopelessness; preserve neither a source typo nor a misleading restriction."
+  },
+  {
+    "id": "wn30-v-02288295",
+    "reason": "The win gloss repeats win something through ones efforts; it adds a circumstance without explaining the acquisition sense."
+  },
+  {
+    "id": "wn30-v-00644066",
+    "reason": "The synthesize gloss contains the malformed phrase more complex, product; remove the historical source error rather than silently rewriting a verbatim definition."
+  },
+  {
+    "id": "wn30-v-01526483",
+    "reason": "The engine idle gloss repeats idle and calls it run disconnected; idling engines are still running, and the gloss neither explains their unloaded operation nor supports the emitted idle/run contrast."
+  },
+  {
+    "id": "wn30-ant-v-02275365-02303331-b966eb06",
+    "reason": "Forfeiting a right and asserting a claim are not lexical opposites in the displayed senses: a forfeited claim can still be asserted, and claiming is not retaining or acquiring the right."
+  },
+  {
+    "id": "wn30-ant-v-01332730-01339505-e3f4e1aa",
+    "reason": "The uncover sense specifically exposes a body by removing clothing, while cover is unrestricted placement of a covering; the displayed pair mixes scopes rather than giving matched opposed senses."
+  },
+  {
+    "id": "wn30-ant-v-01433294-01434278-66090225",
+    "reason": "The bring gloss describes fetching or returning an object, whereas take away describes removal to another place or state; fetching can itself take an object away, so these exact senses are not complementary."
+  },
+  {
+    "id": "wn30-ant-v-01904930-01955984-3fd761a4",
+    "reason": "Riding and walking are alternative modes of travel, not antonyms; other modes are possible and absence of one does not indicate its supposed opposite."
+  },
+  {
+    "id": "wn30-ant-v-02109190-02110793-c3a2824e",
+    "reason": "Suffer is glossed as undergo or be subjected to, without adverse experience; one can both undergo and benefit from an event, so this pair does not establish the emitted positive/negative contrast."
+  },
+  {
+    "id": "wn30-ant-v-02560164-02564146-7e48a75e",
+    "reason": "Granting an exemption and ensuring observance of rules can coexist; enforcing a rule may include enforcing its exemptions. These unrestricted displayed senses do not form a reliable antonym pair."
+  }
+]

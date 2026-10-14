@@ -1,0 +1,23 @@
+[
+  {
+    "path": "lexicon/relations/antonyms/adjectives",
+    "reviewer": "/root/language/lexicon/relations/antonyms/adjectives",
+    "checks": [
+      "Read every emitted word pair and both definitions in all 160 initial records; reviewed antonym semantics, matched scopes, alternative categories, circular glosses, scientific wording, historical bias, and self-contained utility.",
+      "Loaded the official WordNet 3.0 tarball with import_wordnet.load under python -B and verified the pinned archive SHA256.",
+      "Verified every initial pair against an actual direct lexical ! pointer with exact hexadecimal source and target word indices; checked adjective POS/subtype, native adjective lexical domains, tagged lemmas, source offsets, and stable unordered pair identity hash.",
+      "Compared every initial definition and provenance byte-for-byte with importer reconstruction; verified the emitted copyright notice in every record and preserved verbatim definitions in retained records.",
+      "Compared lexicon/LICENSE exactly with the archive full LICENSE, including redistribution terms, copyright, disclaimer, and restriction on promotional use of Princeton names.",
+      "Checked the retained heterozygous/homozygous contrast against NHGRI https://www.genome.gov/genetics-glossary/heterozygous and the retained hydrophilic/hydrophobic contrast against IUPAC https://goldbook.iupac.org/terms/view/L03655; rejected the nonconscious sensory-capacity overstatement after consulting https://pubmed.ncbi.nlm.nih.gov/30364373/.",
+      "Validated the final nonempty coherent adjective-relations leaf: exact three-field corpus schema, nonblank strings, no NUL, unique IDs and full texts, removed every rejected record, and persistent sense-specific or relation-specific exclusions."
+    ],
+    "corrections": [
+      "Removed 24 of 160 pairs and retained 136 useful adjective antonym contrasts; no source definition was silently rewritten.",
+      "Recorded 18 global source-sense exclusions for circular or context-only glosses, color-agent restriction, conflation of fearlessness and resolve, absence-of-abundance restriction, nonconscious sensory-capacity overstatement, continuous/recurrent conflation, and comparability/sameness conflation.",
+      "Recorded 11 pair-only exclusions for mismatched dimensions, intermediate temporal categories, nonopposing media/dimensional categories, and coexistence of permanent recording with live performance.",
+      "Created leaf-local exclusions.json so importer replay removes the reviewed rows without replacing them with unreviewed records."
+    ],
+    "records": 136,
+    "status": "complete"
+  }
+]

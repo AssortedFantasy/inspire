@@ -1,0 +1,44 @@
+[
+  {
+    "path": "lexicon/senses/nouns/attributes",
+    "reviewer": "/root/language/lexicon/senses/nouns/attributes",
+    "checks": [
+      "Semantically read all 160 actual records for self-contained lexical meaning, dated or offensive framing, circularity, misleading restrictions, and scientific accuracy.",
+      "Official cached Princeton WordNet 3.0 tarball SHA256 verified: 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52.",
+      "All 160 initial records matched the exact bounded importer selection and archive verbatim definitions, tagged lemma order, noun.attribute native domain, POS and byte-offset IDs, provenance, and emitted copyright attribution.",
+      "Full embedded lexicon/LICENSE exactly matched archive LICENSE.",
+      "Cross-checked all existing antonym exclusions; shared rejected senses: wn30-n-04857083, wn30-n-05055974.",
+      "Primary-source checks used NASA for weightlessness and viscosity, IUPAC for radiation intensity, MIT probability lectures, NIST for temperature, and IES for dominant wavelength.",
+      "Retained records preserve source text verbatim; no rewritten glosses or unseen replacements were added.",
+      "Validated exact schema, nonblank fields, no NUL, stable unique IDs, unique text, nonempty corpus-only leaf, no child directories or generator payload.",
+      "Leaf-local exclusions are ordinary JSON with exactly id and substantive reason fields; replay removes these source IDs wherever they appear in antonyms."
+    ],
+    "corrections": [
+      "wn30-n-04709253: The definition only restates difficulty as being difficult, without explaining effort or obstacles.",
+      "wn30-n-04735233: The definition only restates variability as being subject to variation, without independent explanatory content.",
+      "wn30-n-04756172: The definition repeats probable and conflates the likelihood property with a probable event, without independently explaining either sense.",
+      "wn30-n-04806316: The definition only restates irreproducibility as being unreproducible, without explaining inability to repeat a result.",
+      "wn30-n-04819694: The definition only restates expressiveness as being expressive, without explaining the conveyed emotion or meaning.",
+      "wn30-n-04834605: The selfishness gloss requires stinginess, although disregard for others in pursuit of personal welfare need not concern giving or possessions.",
+      "wn30-n-04857083: The definition requires not showing fear; courage can coexist with expressed fear.",
+      "wn30-n-04878861: The definition only restates infidelity as being unfaithful, without explaining the relationship or breached commitment.",
+      "wn30-n-04884072: The definition only restates inhibition as being inhibited, without explaining restraint or suppression.",
+      "wn30-n-04904352: The serenity gloss requires freedom from emotion, although calm dispositions can include emotions; it conflates tranquility with emotional absence.",
+      "wn30-n-04930307: The definition only restates fit as the manner in which something fits, without explaining compatibility or dimensions.",
+      "wn30-n-04935003: The gloss restricts viscosity to liquids, although gases also have viscosity; unsuitable as a general physical definition. See https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/gas-properties-definitions/.",
+      "wn30-n-04975122: The gloss defines hue solely by dominant wavelength, which does not exist for purple stimuli; it presents a restricted colorimetric case as general. See https://ies.org/definitions/dominant-wavelength-of-a-color-stimulus/.",
+      "wn30-n-04977561: The skin-color gloss includes bruising as an unexplained cause of pallor, conflating discoloration with loss of color; remove this imprecise historical medical formulation.",
+      "wn30-n-05008227: The gloss combines maleness and masculinity under properties characteristic of male sex, obscuring the distinction between sex characteristics and gendered traits.",
+      "wn30-n-05015117: The cold gloss says absence of heat, conflating relative low temperature with absence of thermal energy or heat transfer. See https://www.nist.gov/si-redefinition/kelvin/kelvin-thermodynamic-temperature.",
+      "wn30-n-05028700: Comparatively small weight is not weightlessness; weightlessness concerns absence of apparent supported weight, including free fall. See https://www.nasa.gov/centers-and-facilities/glenn/what-is-microgravity/.",
+      "wn30-n-05055974: The definition merely restates the headword as mortal without explaining susceptibility to death.",
+      "wn30-n-05064827: The mathematical symmetry gloss only describes reflection in a line or plane, excluding rotational and other symmetries; an unjustified restriction in this unrestricted mathematical sense.",
+      "wn30-n-05091770: The favorable-cases ratio requires equally likely finite outcomes; the unrestricted probability gloss omits this condition. See https://math.mit.edu/~sheffield/440/Lecture5.pdf.",
+      "wn30-n-05099796: The radiation gloss defines intensity as an amount of energy, omitting the time and area dependence needed to distinguish intensity from energy. See https://iupac.org/wp-content/uploads/2019/05/IUPAC-GB3-2012-2ndPrinting-PDFsearchable.pdf.",
+      "wn30-n-05108947: The definition only restates increase as the amount by which something increases, without explaining the positive difference between quantities.",
+      "wn30-n-05143300: The gloss embeds a dated usage prescription favoring in behalf over on behalf for benefit, rather than providing a clear standalone lexical sense."
+    ],
+    "records": 137,
+    "status": "complete"
+  }
+]

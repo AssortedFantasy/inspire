@@ -1,0 +1,94 @@
+[
+  {
+    "id": "wn30-n-04709253",
+    "reason": "The definition only restates difficulty as being difficult, without explaining effort or obstacles."
+  },
+  {
+    "id": "wn30-n-04735233",
+    "reason": "The definition only restates variability as being subject to variation, without independent explanatory content."
+  },
+  {
+    "id": "wn30-n-04756172",
+    "reason": "The definition repeats probable and conflates the likelihood property with a probable event, without independently explaining either sense."
+  },
+  {
+    "id": "wn30-n-04806316",
+    "reason": "The definition only restates irreproducibility as being unreproducible, without explaining inability to repeat a result."
+  },
+  {
+    "id": "wn30-n-04819694",
+    "reason": "The definition only restates expressiveness as being expressive, without explaining the conveyed emotion or meaning."
+  },
+  {
+    "id": "wn30-n-04834605",
+    "reason": "The selfishness gloss requires stinginess, although disregard for others in pursuit of personal welfare need not concern giving or possessions."
+  },
+  {
+    "id": "wn30-n-04857083",
+    "reason": "The definition requires not showing fear; courage can coexist with expressed fear."
+  },
+  {
+    "id": "wn30-n-04878861",
+    "reason": "The definition only restates infidelity as being unfaithful, without explaining the relationship or breached commitment."
+  },
+  {
+    "id": "wn30-n-04884072",
+    "reason": "The definition only restates inhibition as being inhibited, without explaining restraint or suppression."
+  },
+  {
+    "id": "wn30-n-04904352",
+    "reason": "The serenity gloss requires freedom from emotion, although calm dispositions can include emotions; it conflates tranquility with emotional absence."
+  },
+  {
+    "id": "wn30-n-04930307",
+    "reason": "The definition only restates fit as the manner in which something fits, without explaining compatibility or dimensions."
+  },
+  {
+    "id": "wn30-n-04935003",
+    "reason": "The gloss restricts viscosity to liquids, although gases also have viscosity; unsuitable as a general physical definition. See https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/gas-properties-definitions/."
+  },
+  {
+    "id": "wn30-n-04975122",
+    "reason": "The gloss defines hue solely by dominant wavelength, which does not exist for purple stimuli; it presents a restricted colorimetric case as general. See https://ies.org/definitions/dominant-wavelength-of-a-color-stimulus/."
+  },
+  {
+    "id": "wn30-n-04977561",
+    "reason": "The skin-color gloss includes bruising as an unexplained cause of pallor, conflating discoloration with loss of color; remove this imprecise historical medical formulation."
+  },
+  {
+    "id": "wn30-n-05008227",
+    "reason": "The gloss combines maleness and masculinity under properties characteristic of male sex, obscuring the distinction between sex characteristics and gendered traits."
+  },
+  {
+    "id": "wn30-n-05015117",
+    "reason": "The cold gloss says absence of heat, conflating relative low temperature with absence of thermal energy or heat transfer. See https://www.nist.gov/si-redefinition/kelvin/kelvin-thermodynamic-temperature."
+  },
+  {
+    "id": "wn30-n-05028700",
+    "reason": "Comparatively small weight is not weightlessness; weightlessness concerns absence of apparent supported weight, including free fall. See https://www.nasa.gov/centers-and-facilities/glenn/what-is-microgravity/."
+  },
+  {
+    "id": "wn30-n-05055974",
+    "reason": "The definition merely restates the headword as mortal without explaining susceptibility to death."
+  },
+  {
+    "id": "wn30-n-05064827",
+    "reason": "The mathematical symmetry gloss only describes reflection in a line or plane, excluding rotational and other symmetries; an unjustified restriction in this unrestricted mathematical sense."
+  },
+  {
+    "id": "wn30-n-05091770",
+    "reason": "The favorable-cases ratio requires equally likely finite outcomes; the unrestricted probability gloss omits this condition. See https://math.mit.edu/~sheffield/440/Lecture5.pdf."
+  },
+  {
+    "id": "wn30-n-05099796",
+    "reason": "The radiation gloss defines intensity as an amount of energy, omitting the time and area dependence needed to distinguish intensity from energy. See https://iupac.org/wp-content/uploads/2019/05/IUPAC-GB3-2012-2ndPrinting-PDFsearchable.pdf."
+  },
+  {
+    "id": "wn30-n-05108947",
+    "reason": "The definition only restates increase as the amount by which something increases, without explaining the positive difference between quantities."
+  },
+  {
+    "id": "wn30-n-05143300",
+    "reason": "The gloss embeds a dated usage prescription favoring in behalf over on behalf for benefit, rather than providing a clear standalone lexical sense."
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "imperative",
+    "text": "English construction: Imperative\nExample: “Keep the receipt. Do not fold the map.”\nThe base verb issues an instruction; do not forms the negative instruction.",
+    "provenance": "Original editorial examples and explanations created for Inspire, 2026. Invented sentences illustrating conventional English constructions; not literary quotations, corpus observations, or claims about all dialects."
+  },
+  {
+    "id": "yes-no-question",
+    "text": "English construction: Yes–no question\nExample: “Did you lock the shed?”\nAuxiliary did precedes the subject, and lock remains in its base form.",
+    "provenance": "Original editorial examples and explanations created for Inspire, 2026. Invented sentences illustrating conventional English constructions; not literary quotations, corpus observations, or claims about all dialects."
+  },
+  {
+    "id": "subject-question",
+    "text": "English construction: Subject question\nExample: “Who locked the shed?”\nWho is the subject; this ordinary affirmative question does not need do-support.",
+    "provenance": "Original editorial examples and explanations created for Inspire, 2026. Invented sentences illustrating conventional English constructions; not literary quotations, corpus observations, or claims about all dialects."
+  },
+  {
+    "id": "object-question",
+    "text": "English construction: Object question\nExample: “Which shed did you lock?”\nThe questioned object moves to the front while did precedes the subject.",
+    "provenance": "Original editorial examples and explanations created for Inspire, 2026. Invented sentences illustrating conventional English constructions; not literary quotations, corpus observations, or claims about all dialects."
+  },
+  {
+    "id": "embedded-question",
+    "text": "English construction: Embedded question\nExample: “I wonder which shed you locked.”\nThe embedded clause uses subject–verb order rather than the order of a direct question.",
+    "provenance": "Original editorial examples and explanations created for Inspire, 2026. Invented sentences illustrating conventional English constructions; not literary quotations, corpus observations, or claims about all dialects."
+  },
+  {
+    "id": "tag-question",
+    "text": "English construction: Question tag\nExample: “The gate is open, isn't it?”\nA positive statement can take a negative tag when seeking confirmation.",
+    "provenance": "Original editorial examples and explanations created for Inspire, 2026. Invented sentences illustrating conventional English constructions; not literary quotations, corpus observations, or claims about all dialects."
+  },
+  {
+    "id": "negative-tag",
+    "text": "English construction: Negative statement with positive tag\nExample: “You haven't seen the key, have you?”\nThe tag repeats the auxiliary with reversed polarity.",
+    "provenance": "Original editorial examples and explanations created for Inspire, 2026. Invented sentences illustrating conventional English constructions; not literary quotations, corpus observations, or claims about all dialects."
+  }
+]

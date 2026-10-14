@@ -1,0 +1,38 @@
+[
+  {
+    "path": "lexicon/senses/nouns/cognition",
+    "reviewer": "/root/language/lexicon/senses/nouns/cognition",
+    "checks": [
+      "Semantically read all 160 actual records, including each displayed headword and definition, for self-contained meaning, dated or offensive framing, circularity, misleading restrictions, and mathematical or scientific accuracy.",
+      "Official cached Princeton WordNet 3.0 archive SHA256 verified: 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52.",
+      "Every initial record exactly matched the bounded importer selection and archive verbatim definition, tagged displayed lemma order, native noun.cognition domain, noun POS and byte-offset ID, provenance, and emitted copyright attribution.",
+      "Full lexicon/LICENSE exactly matched archive LICENSE; the license permits redistribution with its notice and disclaimer.",
+      "Accounted for antonym exclusions: shared rejected sense wn30-n-05698247 was also rejected here; excluded beginning/middle antonym pair does not invalidate the standalone beginning sense.",
+      "Checked disputed technical definitions against NIMH psychotherapy, APA psychology, NIST mean and line models, CGAL polynomial documentation, University of Waterloo polynomial definitions, NSF physical sciences, and the scholarly Stanford account of sense/reference.",
+      "Retained records preserve exact source wording; no glosses were rewritten and no unseen replacements were added.",
+      "Validated exact three-field schema, nonblank strings, no NUL, unique stable IDs and text, nonempty corpus-only leaf, no child directories or generator payload.",
+      "Leaf exclusions and manifest are ordinary JSON arrays; exclusions have exactly id and substantive reason fields and participate in global importer filtering of rejected senses from antonym pairs."
+    ],
+    "corrections": [
+      "wn30-n-05624700: The creativity gloss only restates the headword as the ability to create, without explaining originality or the production of new ideas or forms.",
+      "wn30-n-05673209: The forgetfulness gloss only restates the headword as a tendency to forget without explaining failures of memory or recall.",
+      "wn30-n-05697976: The trust/reliance gloss requires certainty based on past experience, although reliance can involve uncertainty and need not be based on prior experience; it overstates confidence as certainty.",
+      "wn30-n-05698247: The definition only restates the headword as unsure without independently explaining the epistemic state.",
+      "wn30-n-05708432: The perception gloss only restates the headword as the process of perceiving, without explaining sensory awareness or interpretation.",
+      "wn30-n-05795044: The arrangement/agreement gloss only restates the headwords as the thing arranged or agreed to; it does not independently describe a plan, disposition, or mutually accepted understanding.",
+      "wn30-n-05861317: The unrestricted mathematical degree gloss gives a highest power without specifying degree in a variable versus total degree; for a multivariate term total degree sums exponents rather than taking the highest. See https://doc.cgal.org/4.5.2/Polynomial/index.html.",
+      "wn30-n-05862410: The monic-polynomial gloss omits the defining requirement that the leading coefficient is one, falsely equating monic with univariate. See https://eceweb.uwaterloo.ca/~dwharder/Algorithmic_thinking/Polynomial_arithmetic/.",
+      "wn30-n-05867283: The geometric vertex gloss calls any intersection of lines a vertex and gives no incidence with the edges of the relevant figure; it is too broad to distinguish a vertex from an arbitrary crossing.",
+      "wn30-n-05922949: The reference gloss conflates a word's meaning with the class of objects it denotes and does not distinguish the relation of referring from its referents. See https://plato.stanford.edu/entries/frege/.",
+      "wn30-n-05952490: The supernaturalism gloss makes forces beyond ordinary understanding sufficient, conflating unexplained natural phenomena with belief in a supernatural realm or agency.",
+      "wn30-n-06008609: The axis gloss says only that a line satisfies certain unspecified conditions; without naming the conditions it fails to distinguish an axis from other lines through a figure.",
+      "wn30-n-06023969: The mean gloss leaves both functions unspecified, so it supplies no computable mathematical definition and would permit arbitrary quantities unrelated to a mean. See https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm.",
+      "wn30-n-06029306: The regression-line gloss treats an arbitrary smooth fitted curve as a line, conflating regression curves with the straight-line special case. See https://itl.nist.gov/div898/handbook/pmd/section8/pmd8111.htm.",
+      "wn30-n-06056923: The psychotherapy gloss treats it exclusively as a branch of psychiatry, obscuring that psychological treatment is provided by several mental-health professions. See https://www.nimh.nih.gov/health/topics/psychotherapies.",
+      "wn30-n-06094587: The physical-science gloss lists properties, phenomena, and laws rather than describing a discipline studying the material world; it confuses the subject matter with the science. See https://ncses.nsf.gov/surveys/federal-funds-research-development/2021.",
+      "wn30-n-06136258: The historical psychology gloss limits the discipline to mental life, omitting its study of behavior and its biological, social, and environmental contexts. See https://www.apa.org/ed/precollege/topss/science/overview."
+    ],
+    "records": 143,
+    "status": "complete"
+  }
+]

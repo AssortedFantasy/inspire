@@ -1,0 +1,118 @@
+[
+  {
+    "id": "wn30-a-00081671",
+    "reason": "Calm resolve or obliviousness to danger does not establish absence of fear; the historical unafraid gloss conflates fearlessness with composure and ignorance of danger."
+  },
+  {
+    "id": "wn30-a-00408660",
+    "reason": "The color-light gloss attributes lightness to a small amount of coloring agent, an unsupported restriction on color brightness that excludes illumination and other causes."
+  },
+  {
+    "id": "wn30-a-00409440",
+    "reason": "The color-dark gloss says having a dark hue, repeating the headword without independently explaining the shade."
+  },
+  {
+    "id": "wn30-a-00451510",
+    "reason": "The close gloss repeats close in relevance or relationship, providing a context rather than an independent definition."
+  },
+  {
+    "id": "wn30-a-00571643",
+    "reason": "The unconscious gloss asserts loss of the capacity for sensory perception and likens it to sleep or death, an unsuitable biological overstatement; sensory processing can persist in nonconscious states. See https://pubmed.ncbi.nlm.nih.gov/30364373/."
+  },
+  {
+    "id": "wn30-a-00592222",
+    "reason": "The continual gloss first asserts occurrence without interruption, then describes regular or frequent recurrence; it conflates continuous and recurrent occurrence."
+  },
+  {
+    "id": "wn30-a-01491775",
+    "reason": "The mature gloss only says characteristic of maturity, substituting a derivative without explaining the intended development or behavior."
+  },
+  {
+    "id": "wn30-a-01492394",
+    "reason": "The immature gloss only says characteristic of a lack of maturity, without independently explaining the intended development or behavior."
+  },
+  {
+    "id": "wn30-a-01569965",
+    "reason": "The natural gloss only repeats in accordance with nature and relating to nature, without explaining the intended category or property."
+  },
+  {
+    "id": "wn30-a-01570470",
+    "reason": "The unnatural gloss only restates contrary to nature or not determined by nature, without explaining what this poorly specified nature criterion denotes."
+  },
+  {
+    "id": "wn30-a-01654377",
+    "reason": "The open gloss only specifies use of mouth or eyes; it provides usage context but no definition of the property."
+  },
+  {
+    "id": "wn30-a-01655162",
+    "reason": "The closed gloss only specifies use especially of mouth or eyes; it provides usage context but no definition of the property."
+  },
+  {
+    "id": "wn30-a-01864123",
+    "reason": "The privileged gloss only says blessed with privileges, restating the derivative without explaining rights or advantages."
+  },
+  {
+    "id": "wn30-a-02062670",
+    "reason": "The same gloss allows merely comparable qualities, whereas comparability does not establish sameness; it obscures the distinction from different."
+  },
+  {
+    "id": "wn30-a-02080577",
+    "reason": "The satisfactory gloss only says giving satisfaction, substituting a nominal derivative without explaining adequacy or fulfillment of expectations."
+  },
+  {
+    "id": "wn30-a-02082218",
+    "reason": "The unsatisfactory gloss only says not giving satisfaction, without independently explaining inadequacy or failure to meet expectations."
+  },
+  {
+    "id": "wn30-a-02261386",
+    "reason": "The liquid gloss repeats existing as or having characteristics of a liquid; tending to flow does not independently distinguish this physical state from gases."
+  },
+  {
+    "id": "wn30-a-02335828",
+    "reason": "The sufficient gloss requires absence of abundance; an abundant quantity can also fulfill a requirement, so this restriction confuses sufficiency with bare adequacy."
+  },
+  {
+    "id": "wn30-ant-a-00005205-00006032-b6eb67e3",
+    "reason": "Relative is defined by estimation through comparison, while absolute is defined by perfection, completeness, or purity; the selected senses contrast different properties."
+  },
+  {
+    "id": "wn30-ant-a-00492677-00493460-b6ec9faa",
+    "reason": "Individual describes a single thing or person, while common describes communal participation or public ownership; singularity and communal participation are different dimensions that can coexist."
+  },
+  {
+    "id": "wn30-ant-a-00658259-00658942-b1bedb54",
+    "reason": "Planar and linear describe dimensional categories rather than opposing properties; a line can be embedded in a plane, and the displayed definitions do not establish an antonymic opposition."
+  },
+  {
+    "id": "wn30-ant-a-00725772-00727564-7d9e5461",
+    "reason": "Independent concerns freedom from external control, while dependent concerns requiring support or supply; support dependence can coexist with independence of control."
+  },
+  {
+    "id": "wn30-ant-a-00791227-00792991-336b0ed2",
+    "reason": "The subordinate sense concerns lower rank or importance, while dominant concerns exercising influence or control; someone of lower rank can still exercise dominant influence."
+  },
+  {
+    "id": "wn30-ant-a-01103021-01105620-b410ecf3",
+    "reason": "The nonspecific sense concerns an unidentified causal agent or microscope staining, while specific is a general particularity or uniqueness sense; the displayed scopes do not match."
+  },
+  {
+    "id": "wn30-ant-a-01422556-01422956-226454cf",
+    "reason": "Recorded concerns permanent registration, while live concerns contemporaneous performance; a live performance can simultaneously be recorded, and permanent records need not concern performances at all."
+  },
+  {
+    "id": "wn30-ant-a-01727926-01731351-55c70f29",
+    "reason": "Past and present are adjacent alternatives in a three-part time classification; present is explicitly intermediate between past and future rather than the opposite endpoint of past."
+  },
+  {
+    "id": "wn30-ant-a-01731351-01732270-0095eeb8",
+    "reason": "Future and present are adjacent alternatives in a three-part time classification; present is explicitly intermediate between past and future rather than the opposite endpoint of future."
+  },
+  {
+    "id": "wn30-ant-a-01996377-01997910-aee14dd1",
+    "reason": "Irresponsible concerns lack of care for consequences, whereas responsible also includes being held accountable; a careless person may still be held accountable, so these combined senses do not give a reliable opposition."
+  },
+  {
+    "id": "wn30-ant-a-02283703-02284578-029b9530",
+    "reason": "Writing and speech are alternative communication media, rather than opposite meanings; the same material can be both written down and spoken."
+  }
+]

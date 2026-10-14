@@ -1,0 +1,34 @@
+[
+  {
+    "path": "lexicon/senses/nouns/communication",
+    "reviewer": "/root/language/lexicon/senses/nouns/communication",
+    "checks": [
+      "Semantically read each of the 160 actual records for self-contained meaning, dated or offensive framing, circularity, misleading restrictions, and factual accuracy.",
+      "Verified the official cached Princeton WordNet 3.0 archive SHA256: 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52.",
+      "All 160 initial records matched the exact bounded importer selection, archive verbatim definitions, tagged lemma order, native noun.communication domain, POS and synset-byte-offset IDs, provenance, and emitted attribution.",
+      "Full embedded lexicon/LICENSE exactly matched the archive LICENSE.",
+      "Cross-checked all existing antonym exclusions and noun antonym pairs; no direct shared excluded sense IDs or retained pairs overlapped this leaf.",
+      "Checked borderline glosses against Cambridge grammar and ambiguity entries, the Poetry Foundation, Library of Congress folklore guidance, Stanford Encyclopedia of Philosophy, Smithsonian Folkways, and MIT differential-equations course material.",
+      "Retained records preserve exact source text; no rewritten glosses or unseen replacements were added.",
+      "Validated record schema, nonblank fields, no NUL, unique stable IDs, unique text, nonempty corpus-only leaf, and no child directories, generator payload, or symlinks.",
+      "Validated leaf-local exclusions as an ordinary JSON array with exactly id and substantive reason fields, and confirmed exact replay of bounded selection after all current lexical exclusions.",
+      "Importer exclusion propagation was checked for rejected communication IDs wherever used as noun antonym endpoints."
+    ],
+    "corrections": [
+      "wn30-n-06320569: The unrestricted verb gloss calls every verb a content word denoting an action, occurrence, or state, excluding auxiliary verbs that express grammatical functions. See https://dictionary.cambridge.org/grammar/british-grammar/main.",
+      "wn30-n-06377442: The poem gloss requires metrical feet and rhythmical lines, excluding free verse and other nonmetrical poetry. See https://www.poetryfoundation.org/education/glossary/free-verse.",
+      "wn30-n-06604319: The gloss describes meaning as impossible to determine from context without explaining the multiple possible interpretations that distinguish ambiguity from mere obscurity. See https://dictionary.cambridge.org/dictionary/english/ambiguity.",
+      "wn30-n-06636113: The gloss defines low-down as a collection of slang terms rather than the inside information those terms denote; it confuses the lexical label with its referent.",
+      "wn30-n-06670521: The differential-equation gloss only says it contains differentials of a function; it omits the relationship involving an unknown function and its derivatives and leaves the defining mathematical content unclear. See https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/5d563a4b017625de32789ce4c1e166fd_MIT18_03SCF11_s0_4text.pdf.",
+      "wn30-n-06756831: The lie gloss only requires departure from truth and omits the speaker belief or intent needed to distinguish a lie from a sincere mistake or fiction. See https://plato.stanford.edu/archives/spr2025/entries/lying-definition/.",
+      "wn30-n-06887599: The definition repeats projection as the projection of an image without explaining its optical display or transfer onto a screen.",
+      "wn30-n-07050177: The refrain/chorus gloss requires a soloist to be joined by a group and omits recurrence; it fails to describe refrains performed by a solo singer and conflates a repeated song section with its possible performers.",
+      "wn30-n-07051185: The blues gloss dates its origin to the beginning of the twentieth century and requires a melancholy sound, obscuring its nineteenth-century development and emotional diversity. Smithsonian describes its development in the post-Reconstruction sharecropping environment. See https://folkways.si.edu/lesson/blues-in-the-country.",
+      "wn30-n-07144834: The press-conference gloss restricts the person answering reporters to a politician or celebrity, excluding ordinary officials, researchers, and organizational representatives.",
+      "wn30-n-07222581: The fairytale gloss requires literal fairies and a child audience, excluding other supernatural beings or events and adult audiences. The Library of Congress describes supernatural beings or events and says these tales are only often created for children. See https://www.loc.gov/aba/publications/FreeSHM/H1627.pdf.",
+      "wn30-n-07233542: The definition merely restates damnation as the act of damning without explaining condemnation or a curse."
+    ],
+    "records": 148,
+    "status": "complete"
+  }
+]

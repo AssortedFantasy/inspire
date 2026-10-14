@@ -1,0 +1,22 @@
+[
+  {
+    "path": "lexicon/relations/antonyms/verbs",
+    "reviewer": "/root/language/lexicon/relations/antonyms/verbs",
+    "checks": [
+      "Read root and families AGENTS, language README, importer selection and lexical pointer implementation, and complete lexicon/LICENSE.",
+      "Read every one of the 111 actual input pair texts semantically for sense compatibility, self-contained definitions, circularity, historical scientific claims, malformed prose, and offensive wording.",
+      "Verified archive SHA256 against the pinned official WordNet 3.0 checksum and exact full embedded license equality with the archive LICENSE.",
+      "Reconstructed each stable unordered pair ID from exact indexed words and source/target POS and eight-digit offsets; checked lexical ! pointer source and target hexadecimal indices, bounds, both tagged words, and native verb domains.",
+      "Reconstructed all 111 emitted pair texts from archive definitions verbatim with omitted usage quotations and required attribution; all matched exactly.",
+      "Validated remaining records schema, nonblank id/text/provenance, no NUL, unique IDs and text, and nonempty leaf.",
+      "Kept this leaf dedicated to direct verb lexical contrasts; removed defective source senses globally via IDs and defective relationships via full pair IDs, without replacing rows or modifying source glosses."
+    ],
+    "corrections": [
+      "Removed 19 of 111 pairs; retained 92 reviewed records.",
+      "Recorded 15 defective source-sense exclusions and 6 pair-only exclusions with specific reasons in exclusions.json.",
+      "Removed circular derivative/passive glosses, a scientifically overstated death gloss, source prose errors, incompatible sense scopes, alternative travel modes, and the misleading engine idle/run relationship."
+    ],
+    "records": 92,
+    "status": "complete"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "lexicon/relations/antonyms/nouns",
+    "reviewer": "/root/language/lexicon/relations/antonyms/nouns",
+    "checks": [
+      "Read every emitted word pair and both definitions in all 100 initial records; checked antonym semantics, circularity, misleading restrictions, historical bias, scientific wording, and self-contained utility.",
+      "Loaded the official WordNet 3.0 archive via import_wordnet.load under python -B and verified its pinned SHA256.",
+      "Verified every original pair against an actual direct lexical ! pointer: exact hexadecimal source/target word indices, both noun POS, native noun domains, tagged lexical words, synset byte offsets, and stable unordered-pair identity hash.",
+      "Verified every original definition and provenance byte-for-byte against importer reconstruction, preserving verbatim source glosses; checked emitted attribution in every row.",
+      "Compared the full embedded lexicon/LICENSE exactly with the original archive LICENSE, including copyright, disclaimer, redistribution condition, and restriction on promotional use of Princeton names.",
+      "Confirmed this coherent noun-relation leaf remains nonempty with three-field corpus schema, nonblank values, no NUL, unique IDs, and unique full texts; confirmed all rejected rows are removed and persistent leaf-local exclusions identify offending senses globally or relations specifically."
+    ],
+    "corrections": [
+      "Removed 37 of 100 noun pairs; retained 63 useful sense-specific noun antonym/converse contrasts without changing source definitions.",
+      "Recorded 17 relation-specific exclusions for mismatched senses, parallel gender/kinship roles, nonopposing market/jurisdictional categories, and intermediate positions.",
+      "Recorded 28 source-sense exclusions for circular definitions, restrictive emotional/health/family formulations, undeclared-war omission, inappropriate intelligence-test framing, and the overly narrow mathematical curve definition.",
+      "Created exclusions.json with individual reasons so importer replay removes reviewed rows without introducing unreviewed replacement records."
+    ],
+    "records": 63,
+    "status": "complete"
+  }
+]
