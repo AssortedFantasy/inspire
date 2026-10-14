@@ -1,0 +1,18 @@
+[
+  {
+    "path": "music/instruments/catalogue/electronic",
+    "reviewer": "/root/music/instruments/catalogue/electronic",
+    "checks": [
+      "Independently parsed the current pinned mop-mimo.ttl with rdflib and verified SHA256 adebe2bc255e6947971e32bf261018acfe7a96123387ff228247fb25786ca1dd.",
+      "Checked all 24 current records for exact id/text/provenance schema, nonblank strings, absence of NUL, unique IDs, unique full texts and unique casefolded preferred labels.",
+      "Compared all 24 preferred labels with English SKOS preferred labels. Confirmed none has an English alternate label, so none was omitted.",
+      "Verified all 24 immediate broader links point to Electronic (2209), whose broader link is Electronic instruments (2208). Checked emitted ancestor context and the README explanation of this redundant-category collapse.",
+      "Checked completeness against all 25 source children of Electronic: precisely the generic MIDI instrument (2216) is excluded; all other 24 are retained.",
+      "Checked all 24 emitted notices for MIMO/DOREMUS credit, source concept IDs, CC BY 4.0 and license URL, pinned source revision and modification notice; checked provenance copyright and checksum.",
+      "Read actual emitted content for every record, including assembled-module apparatus, tape playback and electromechanical instruments in the documented historical museum grouping. Verified source closeMatch disambiguation of Beatbox as Drum_machine, Sackbut as Electronic_Sackbut and Sound cross as Croix_sonore.",
+      "Checked all current catalogue leaves recursively for duplicate preferred labels affecting these 24 records; none found. Confirmed node.toml weight equals 24."
+    ],
+    "corrections": [],
+    "records": 24
+  }
+]

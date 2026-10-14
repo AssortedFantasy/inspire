@@ -1,6 +1,19 @@
 Music data licensing
 ====================
 
+MIMO instrument vocabulary: Creative Commons Attribution 4.0 International.
+Copyright retained by Musical Instrument Museums Online (MIMO).
+Distributed through DOREMUS-ANR's controlled vocabularies.
+https://github.com/DOREMUS-ANR/knowledge-base/tree/9cfb5c9cc3147084c9ac01161102f8ac368b8f1b/vocabularies
+https://api.bnf.fr/fr/dumps-DOREMUS
+https://creativecommons.org/licenses/by/4.0/
+Full license text: instruments/catalogue/LICENSE.txt.
+Selected English preferred/alternate labels and broader relationships have
+been reformatted into records; components, ensembles and opaque categories
+were excluded. Each emitted record preserves owner, source and license credit.
+Source RDF SHA256 adebe2bc255e6947971e32bf261018acfe7a96123387ff228247fb25786ca1dd.
+As supplied under the license, this material is provided without warranties.
+
 Open Opus metadata: public domain under CC0 1.0 Universal.
 Publisher declaration: https://www.openopus.org/
 Publisher repository declaration: https://github.com/openopus-org/openopus_api#license

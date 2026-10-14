@@ -1,0 +1,12 @@
+[
+  {
+    "id": "corpora-instrument-7f9f439584025d9b",
+    "text": "Kick drum\nA drumhead is struck, usually by a beater operated with a foot pedal.",
+    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
+  },
+  {
+    "id": "corpora-instrument-991cb2fefb24b89b",
+    "text": "Tambourine\nA headed tambourine combines a struck membrane with sounding jingles. Headless variants sound through their jingles alone.",
+    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
+  }
+]

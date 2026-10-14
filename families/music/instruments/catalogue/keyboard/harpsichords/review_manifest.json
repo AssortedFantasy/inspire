@@ -1,0 +1,19 @@
+[
+  {
+    "path": "music/instruments/catalogue/keyboard/harpsichords",
+    "reviewer": "/root/music/instruments/catalogue/keyboard/harpsichords",
+    "checks": [
+      "Read families/AGENTS.md, families/music/README.md, import_mimo.py, the pinned vocabulary README and catalogue LICENSE.txt before review.",
+      "Independently parsed 43,783 RDF triples with rdflib and verified mop-mimo.ttl SHA256 adebe2bc255e6947971e32bf261018acfe7a96123387ff228247fb25786ca1dd and vocabulary README SHA256 4cab9868b68045163a3f1efcc78f3c8badcb6c568a45ad42c09d2418b85176c4.",
+      "All 14 records have exactly id, text and provenance; every field is a nonblank string without NUL. IDs, full text and case-folded preferred-name plus broader-context pairs are unique. No leaf ID or name/context pair is duplicated elsewhere in the catalogue.",
+      "Each preferred name equals its English RDF prefLabel. Every record explicitly links by skos:broader to 2239 Harpsichords, which explicitly links to 2230 Keyboard instruments. The leaf includes all 14 direct source children of 2239 and excludes the subfamily umbrella itself.",
+      "Verified all English alternate-label sets independently: none of these 14 concepts has eligible English alternate labels, and none is invented in output.",
+      "Read all emitted texts and provenance: Arpicordo, Portable harpsichord, Clavecin oculaire, Clavicytherium, Claviorgan, Digital harpsichord, Electric harpsichord, Harpsichord, Harpsichord-piano, Lute-harpsichord, Muselar, Spinet, Virginal and Double virginal. They emit concrete named vocabulary concepts with literal source context, without prompts, accessories, components, ensembles, opaque Others categories or inferred geographic/acoustic claims.",
+      "Investigated Clavecin oculaire against Philharmonie de Paris museum material: https://pad.philharmoniedeparis.fr/musique-et-arts-visuels-xix-xx-siecles.aspx?_lg=fr-FR and https://philharmoniedeparis.fr/fr/magazine/perspectives/quand-le-son-devient-geste . Its visual-music historical context does not justify an acoustic definition; retained only the explicit MIMO vocabulary relationship. Digital and electric variants likewise retain historical catalogue routing without a claim that all harpsichords share one sound mechanism.",
+      "Each output identifies MIMO via DOREMUS, the concept ID, pinned vocabulary source URL, CC BY 4.0 license URI and selection/reformatting notice. Each provenance retains copyright, source checksum, license declaration references, selection notice and the historical-classification/no-inference limitation. The pinned README declares CC BY 4.0 and retained MIMO ownership; the branch contains the full license.",
+      "Verified node.toml weight equals the actual record count 14. The directory has a corpus payload, no generator and no child directories. No importer, records, weights, global files or commits changed during review."
+    ],
+    "corrections": [],
+    "records": 14
+  }
+]

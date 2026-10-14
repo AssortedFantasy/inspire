@@ -1,0 +1,21 @@
+[
+  {
+    "path": "music/instruments/catalogue/mechanical",
+    "reviewer": "/root/music/instruments/catalogue/mechanical",
+    "records": 47,
+    "checks": [
+      "Read families/AGENTS.md, current music README and import_mimo.py; independently parsed the pinned Turtle with rdflib.",
+      "Verified Turtle SHA256 adebe2bc255e6947971e32bf261018acfe7a96123387ff228247fb25786ca1dd and 43,783 RDF triples; verified source README SHA256 4cab9868b68045163a3f1efcc78f3c8badcb6c568a45ad42c09d2418b85176c4 and its MIMO copyright/CC BY 4.0 declaration.",
+      "All 47 current records have exactly id, text and provenance; fields are nonblank strings without NUL. IDs, complete emitted texts and casefolded preferred-name-plus-context pairs are unique.",
+      "Compared every current preferred label with its English SKOS preferred label; all match exactly. None of the 47 concepts has an English-tagged alternate label, and none invents aliases.",
+      "Every concept has exactly one immediate broader edge to Mechanical (4476), which has exactly one broader edge to Mechanical instruments (4475). Verified emitted ancestor context and the README explanation of the redundant immediate-parent collapse.",
+      "Compared the retained concept set with all immediate children of Mechanical (4476): precisely all 47 are retained. The source supplies no meaningful deeper subdivision for this leaf.",
+      "Independently checked every complete emitted text against its preferred label, ancestor context, concept ID and exact attribution template. Read all 47 actual names and contexts for quality; they contain concrete source-vocabulary kinds rather than prompts, inferred geography, invented acoustic classifications or opaque placeholders.",
+      "Reviewed ambiguous historical vocabulary labels Automaton, Mechanical clock, Piano player and Triola in their explicit musical-instrument context. Source untagged aliases distinguish musical clocks and push-up piano apparatus; they remain excluded under the documented English-tagged alias policy. Historical labels are preserved without unsupported reinterpretation.",
+      "Every emitted notice carries MIMO/DOREMUS credit, concept ID, CC BY 4.0 with license URL, pinned source URL and selection/reformatting notice. Every provenance field retains the pinned revision/checksum, MIMO ownership, license declarations, modification description and historical-classification limitation; checked the embedded CC BY 4.0 legal code.",
+      "Checked all current catalogue records recursively for preferred-label overlaps involving these 47 records; none found. Parsed node.toml and verified exact weight 47; verified the directory remains a corpus leaf without generator or child directories.",
+      "Reviewed current records.json SHA256 0c31dd79487d9480e7fe46bf45052be6c23ff5aed6b2aec16e96c5ba71638f60. All independent payload assertions passed; no imported records were changed."
+    ],
+    "corrections": []
+  }
+]

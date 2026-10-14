@@ -1,0 +1,47 @@
+[
+  {
+    "id": "corpora-instrument-2940f4354ebd1ab7",
+    "text": "Harmonica\nThe player's breath sounds free reeds mounted inside the instrument.",
+    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
+  },
+  {
+    "id": "corpora-instrument-4f455aa4c594be22",
+    "text": "Bagpipe\nAir stored in a bag supplies one or more reed pipes; typical configurations include a melody pipe and drones.",
+    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
+  },
+  {
+    "id": "corpora-instrument-683fbca57577eaad",
+    "text": "Oboe\nA double reed excites the air column of a conical bore.",
+    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
+  },
+  {
+    "id": "corpora-instrument-765685635398206a",
+    "text": "Concertina\nBellows supply air to free reeds; buttons select the sounding pitches.",
+    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
+  },
+  {
+    "id": "corpora-instrument-a21df3a7265d6a72",
+    "text": "Bassoon\nA double reed excites the air column of a folded conical bore.",
+    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
+  },
+  {
+    "id": "corpora-instrument-aca029b3957dceb0",
+    "text": "Saxophone\nA single reed excites the air column of a conical bore.",
+    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
+  },
+  {
+    "id": "corpora-instrument-ae05a3bf72601ef6",
+    "text": "Accordion\nBellows supply air to free reeds; keys or buttons select the sounding pitches.",
+    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
+  },
+  {
+    "id": "corpora-instrument-bf8c10763e4a48eb",
+    "text": "Clarinet\nA single reed excites the air column of a predominantly cylindrical bore.",
+    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
+  },
+  {
+    "id": "corpora-instrument-dac16ced5155e31b",
+    "text": "Melodica\nA mouth-blown keyboard instrument with free reeds.",
+    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
+  }
+]

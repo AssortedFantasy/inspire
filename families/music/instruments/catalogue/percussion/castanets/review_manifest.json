@@ -1,0 +1,18 @@
+[
+  {
+    "path": "music/instruments/catalogue/percussion/castanets",
+    "reviewer": "/root/music/instruments/catalogue/percussion/castanets",
+    "checks": [
+      "Read families/AGENTS.md, music README, import_mimo.py, and the clavichords review-manifest schema; independently parsed the pinned Turtle with rdflib without calling the importer.",
+      "Verified Turtle SHA256 adebe2bc255e6947971e32bf261018acfe7a96123387ff228247fb25786ca1dd, 43,783 RDF triples, 2,324 English preferred labels, and source README SHA256 4cab9868b68045163a3f1efcc78f3c8badcb6c568a45ad42c09d2418b85176c4.",
+      "Independently traversed all English-labelled concepts through explicit broader edges to selected catalogue roots, applying documented exclusions and smallest-numerical-umbrella routing. Complete eligible membership is exactly mimo-2421, mimo-2423, mimo-5244, and mimo-5367; redundant umbrella mimo-2420 is excluded.",
+      "All four records contain exactly id, text, and provenance as nonblank strings without NUL. IDs, complete emitted texts, and case-folded preferred-name-plus-context pairs are unique.",
+      "Cap ke (2421), Castanets (2423), Kalenang (5244), and Tajeraste (5367) exactly match source English preferred labels. Each has exactly one direct broader edge to 2420 Castanets; 2420 has exactly one broader edge to 2370 Percussion instruments. None has an English alternate label; none invents aliases. Complete emitted text matches the independently derived label/context/attribution format.",
+      "Read all four complete outputs substantively: each is a self-contained instrument-vocabulary kind with source-labelled castanet context, without accessory, component, opaque placeholder, prompt, invented geography, or inferred acoustic description. Castanets (2423) is the retained instrument-kind concept, distinct from the excluded family umbrella (2420). Historical museum grouping is explicitly qualified in provenance.",
+      "Inspected pinned source README's CC BY 4.0 declaration and retained MIMO ownership, and the associated embedded LICENSE.txt. Every emitted output includes MIMO/DOREMUS attribution, concept ID, CC BY 4.0 with license URL, pinned source URL, and modification notice. Every provenance includes source checksum, copyright retention, pinned licensing declaration and BnF reference, selected RDF fields, modification scope, classification limitation, and access date.",
+      "Parsed node.toml and verified exactly weight 4, matching the four retained records. All independent assertions passed."
+    ],
+    "corrections": [],
+    "records": 4
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "path": "music/instruments/catalogue/keyboard/clavichords",
+    "reviewer": "/root/music/instruments/catalogue/keyboard/clavichords",
+    "checks": [
+      "Read families/AGENTS.md, music README, and import_mimo.py; independently parsed the pinned Turtle with rdflib rather than relying on importer output.",
+      "Verified Turtle SHA256 adebe2bc255e6947971e32bf261018acfe7a96123387ff228247fb25786ca1dd, 43,783 RDF triples, and pinned vocabulary README SHA256 4cab9868b68045163a3f1efcc78f3c8badcb6c568a45ad42c09d2418b85176c4.",
+      "Both records have exactly id, text, and provenance; all fields are nonblank strings without NUL; IDs, emitted texts, and preferred-name-plus-context pairs are unique.",
+      "mimo-2232 Clavichord and mimo-6147 Organ clavichord exactly match English preferred labels. Neither concept has English alternate labels, and neither output invents aliases.",
+      "Both concepts have exactly one explicit broader edge to 2231 Clavichords; 2231 has exactly one broader edge to 2230 Keyboard instruments. The umbrella has exactly these two children, validating complete leaf routing without duplicate umbrella payloads.",
+      "Read every complete emitted text: each identifies an instrument kind with truthful source-labelled context; neither is a component, accessory, ensemble, opaque placeholder, prompt, or inferred acoustic/geographic description. Historical vocabulary framing is preserved in provenance.",
+      "Every output contains MIMO/DOREMUS attribution, concept ID, CC BY 4.0 with license URL, pinned source URL, and selection/reformatting notice. Provenance retains source checksum, MIMO ownership, license declarations, modification description, and historical-classification limitation; inspected associated embedded LICENSE.txt and source README declaration.",
+      "Parsed node.toml and verified exact weight 2, matching both retained records. All independent assertions passed."
+    ],
+    "corrections": [],
+    "records": 2
+  }
+]

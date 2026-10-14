@@ -65,7 +65,7 @@ def works(cache):
             text = f"{name} — {title}"
             if subtitle and subtitle.casefold() != title.casefold():
                 text += f"\n{subtitle}"
-            text += f"\nOpen Opus classification: {genre.lower()}; composer period: {clean(composer['epoch'])}."
+            text += f"\nPeriod: {clean(composer['epoch'])}."
             grouped[genre.lower()].append({"id": "openopus-" + hashlib.sha256(identity).hexdigest()[:20], "text": text,
                 "provenance": f"Open Opus public-domain/CC0 metadata; {OPUS_URL}; API 1.20.6 snapshot 2026-10-13, SHA256 {OPUS_SHA}. Normalized whitespace/NFC; source classification retained. Licensing: https://www.openopus.org/ . No score, recording or lyrics."})
     for genre, records in grouped.items():
@@ -76,20 +76,48 @@ def works(cache):
 def instruments(cache):
     data = source(cache / "corpora/data/music/instruments.json", INSTRUMENT_URL, INSTRUMENT_SHA)
     categories = {
-        "air-columns": "air horn|bagpipe|bassoon|bugle|clarinet|didgeridoo|fife|flugelhorn|flute|French horn|harmonica|kazoo|melodica|oboe|pan flute|piccolo|pipe organ|saxophone|sousaphone|trombone|tuba|vuvuzela|accordion|concertina|calliope",
-        "strings": "banjo|bass guitar|cello|clavichord|dobro|dulcimer|fiddle|grand piano|guitar|harp|harpsichord|hurdy-gurdy|lute|lyre|mandolin|piano|sitar|ukulele|viola|violin|washtub bass|zither|baby grand piano",
-        "membranes": "kick drum|tambourine",
+        "air-driven/flutes": "fife|flute|pan flute|piccolo",
+        "air-driven/reeds": "bagpipe|bassoon|clarinet|harmonica|melodica|oboe|saxophone|accordion|concertina",
+        "air-driven/lip-excited": "bugle|didgeridoo|flugelhorn|French horn|sousaphone|trombone|tuba|vuvuzela",
+        "air-driven/pressure-fed": "air horn|calliope|pipe organ",
+        "strings/plucked": "banjo|bass guitar|dobro|guitar|harp|harpsichord|lute|lyre|mandolin|sitar|ukulele|washtub bass",
+        "strings/friction": "cello|fiddle|hurdy-gurdy|viola|violin",
+        "strings/keyboard-struck": "piano|clavichord|grand piano|baby grand piano",
+        "strings/varied-excitation": "dulcimer|zither",
+        "membranes/struck": "kick drum|tambourine",
+        "membranes/voice-excited": "kazoo",
         "solid-bodies": "glockenspiel|marimba|xylophone",
         "electronic": "Mellotron|theremin",
     }
     mapping = {item: category for category, items in categories.items() for item in items.split("|")}
     corrections = {"saxaphone": "saxophone", "mellotran": "Mellotron"}
-    descriptions = {
-        "air-columns": "Sound mechanism: a vibrating air column or air-driven reed.",
-        "strings": "Sound mechanism: vibrating strings.",
-        "membranes": "Sound mechanism: a vibrating membrane. Tambourines also have sounding jingles.",
-        "solid-bodies": "Sound mechanism: a vibrating solid body; these are tuned struck-bar instruments.",
-        "electronic": "Sound mechanism: electronic sound generation or playback. The Mellotron plays recorded tape samples; the theremin uses electronic oscillators.",
+    specific = {
+        "air horn": "Compressed air drives a vibrating diaphragm; a horn projects the resulting sound.",
+        "calliope": "Pressurized steam or compressed air sounds a bank of whistles, usually operated from a keyboard.",
+        "pipe organ": "A wind supply feeds pipes controlled from keyboards and pedals. Flue pipes sound through an edge-directed air stream; reed pipes use vibrating reeds.",
+        "accordion": "Bellows supply air to free reeds; keys or buttons select the sounding pitches.",
+        "concertina": "Bellows supply air to free reeds; buttons select the sounding pitches.",
+        "harmonica": "The player's breath sounds free reeds mounted inside the instrument.",
+        "melodica": "A mouth-blown keyboard instrument with free reeds.",
+        "bagpipe": "Air stored in a bag supplies one or more reed pipes; typical configurations include a melody pipe and drones.",
+        "bassoon": "A double reed excites the air column of a folded conical bore.",
+        "oboe": "A double reed excites the air column of a conical bore.",
+        "clarinet": "A single reed excites the air column of a predominantly cylindrical bore.",
+        "saxophone": "A single reed excites the air column of a conical bore.",
+        "harpsichord": "Keys operate jacks whose plectra pluck the instrument's strings.",
+        "hurdy-gurdy": "A hand-cranked wheel continuously rubs the strings; keys shorten the melody string's vibrating length.",
+        "piano": "Keys operate hammers that strike strings; dampers control the decay of most notes.",
+        "clavichord": "Keys raise metal tangents that strike the strings and remain in contact to define their vibrating length.",
+        "dulcimer": "The name covers several string instruments: hammered dulcimers are struck with beaters; Appalachian dulcimers are commonly strummed or plucked.",
+        "zither": "A structural family with strings extending across a body without a distinct neck. Different kinds may be plucked, struck or bowed.",
+        "kick drum": "A drumhead is struck, usually by a beater operated with a foot pedal.",
+        "tambourine": "A headed tambourine combines a struck membrane with sounding jingles. Headless variants sound through their jingles alone.",
+        "kazoo": "Humming into the instrument excites a membrane that modifies the player's vocal sound; it is a mirliton.",
+        "Mellotron": "A keyboard controls playback of sampled instrument sounds. Original Mellotrons use magnetic-tape strips; later digital models replay recorded samples electronically.",
+        "theremin": "Electronic oscillators produce the sound; hand positions near antennas control pitch and volume without touching the instrument.",
+        "marimba": "Mallets strike tuned bars, commonly coupled to resonators.",
+        "xylophone": "Mallets strike tuned bars arranged by pitch.",
+        "glockenspiel": "Mallets strike tuned metal bars arranged by pitch.",
     }
     grouped = defaultdict(list)
     for original in data["instruments"]:
@@ -98,11 +126,18 @@ def instruments(cache):
         if name in {"baby grand piano", "grand piano"}:
             continue
         category = mapping[name]
-        text = f"{name[0].upper() + name[1:]}\n{descriptions[category]}"
+        description = specific.get(name)
+        text = name[0].upper() + name[1:]
+        if description:
+            text += f"\n{description}"
         grouped[category].append({"id": "corpora-instrument-" + hashlib.sha256(original.encode()).hexdigest()[:16], "text": text,
             "provenance": f"Name from Darius Kazemi and Corpora contributors, CC0: {INSTRUMENT_URL}. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."})
     for category, records in grouped.items():
         write(f"instruments/sound-mechanism/{category}", records)
+    for former in ("air-driven", "strings", "membranes"):
+        old_payload = ROOT / "instruments/sound-mechanism" / former / "records.json"
+        if old_payload.exists():
+            old_payload.unlink()
 
 
 if __name__ == "__main__":

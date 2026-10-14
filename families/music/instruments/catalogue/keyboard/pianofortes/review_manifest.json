@@ -1,0 +1,20 @@
+[
+  {
+    "path": "music/instruments/catalogue/keyboard/pianofortes",
+    "reviewer": "/root/music/instruments/catalogue/keyboard/pianofortes",
+    "checks": [
+      "Read families/AGENTS.md, updated music README and import_mimo.py; independently parsed pinned Turtle with rdflib rather than importer output.",
+      "Verified RDF SHA256 adebe2bc255e6947971e32bf261018acfe7a96123387ff228247fb25786ca1dd and source vocabulary README SHA256 4cab9868b68045163a3f1efcc78f3c8badcb6c568a45ad42c09d2418b85176c4.",
+      "Checked all 33 records for exact id/text/provenance schema, nonblank strings without NUL, unique IDs, unique full output text and unique preferred-name/broader-context pairs.",
+      "Compared every emitted name with English SKOS prefLabel and every broader kind with explicit source edges; all have Pianofortes as their direct broader kind and Keyboard instruments as family.",
+      "Independently enumerated ancestor routes and numeric root-adjacent family selection; retained source concepts assigned to Pianofortes exactly equal the 33 leaf IDs; the Pianofortes umbrella itself is absent.",
+      "Verified all English alternate labels under the documented sorted four-name selection rule; only mimo-6713 has an alias, Work box piano, and it is preserved.",
+      "Read every emitted musical payload and all repeated source/provenance notices; outputs are concrete historical instrument names with literal vocabulary context, no prompts, ensembles, unsupported origins or acoustic claims, and no opaque Others contexts.",
+      "Examined Lutheal (mimo-2285) ambiguity using the live MIMO concept https://vocabulary.mimo-international.com/InstrumentsKeywords/en/page/2285 and the Philharmonie de Paris museum instrument article https://collectionsdumusee.philharmoniedeparis.fr/0159714-piano-lutheal-erard.aspx?_lg=fr-FR . MIMO explicitly treats the term as a Pianofortes instrument kind; the museum likewise describes the complete piano lutheal. Retained this historical instrument-vocabulary use, without claiming the attachment alone is a standalone piano.",
+      "Verified each emitted output includes MIMO/DOREMUS attribution, concept ID, CC BY 4.0 URL, pinned source URL and selection/reformatting modification notice. Each provenance retains MIMO copyright, source checksum, license declaration sources, modification scope and historical-vocabulary limitation; source README grants CC BY 4.0 and catalogue LICENSE.txt contains the full license.",
+      "Verified leaf node.toml is weight = 33 and reviewed all 33 current records; no record or importer corrections required."
+    ],
+    "corrections": [],
+    "records": 33
+  }
+]

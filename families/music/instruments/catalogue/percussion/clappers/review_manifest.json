@@ -1,0 +1,18 @@
+[
+  {
+    "path": "music/instruments/catalogue/percussion/clappers",
+    "reviewer": "/root/music/instruments/catalogue/percussion/clappers",
+    "checks": [
+      "Read families/AGENTS.md, music README, import_mimo.py, and the bells manifest format. Independently parsed the pinned Turtle with rdflib and traversed broader paths without importing or invoking importer functions.",
+      "Verified Turtle SHA256 adebe2bc255e6947971e32bf261018acfe7a96123387ff228247fb25786ca1dd, 43,783 RDF triples, 2,324 English preferred labels, and vocabulary README SHA256 4cab9868b68045163a3f1efcc78f3c8badcb6c568a45ad42c09d2418b85176c4.",
+      "Independently traversed every English-labelled concept to all seven selected roots, applied documented exclusions and minimum numerical root-adjacent umbrella routing, and obtained exactly the 37 emitted IDs. Clappers umbrella 2424 has direct broader root 2370 Percussion instruments and is excluded. All 37 eligible clappers-reachable candidates route here. Source child 8324 has only an untagged preferred label, not an English preferred label, and is correctly absent.",
+      "All 37 records contain exactly id, text, and provenance, each a nonblank string without NUL. IDs, complete texts, and preferred-name-plus-context pairs are unique. Parsed node.toml and verified exactly weight 37.",
+      "Exhaustively matched all English preferred names, meaningful immediate broader contexts, the Percussion instruments source family, and sorted eligible English alternate labels against independently parsed RDF. Every complete emitted text matches its source-derived expected text. The only selected English alias cases are Khartal/Kartal (clappers) and Cimta/Cimta (clappers); both are preserved. Untagged and other-language alternatives are not represented as English aliases.",
+      "Read every emitted name and context and 15 complete output records spanning the dataset, both alias cases, generic Clappers, Hammer clapper, Kemanak, Kasik, and Spoons. Outputs are concrete contextualized instrument-kind names, with no prompts, accessory-only concepts, opaque administrative labels, invented geography, or invented mechanisms. Historical source grouping is expressly attributed in text and qualified in provenance and README.",
+      "Inspected source triples for Clappers concepts 2424 and 2426, Khartal 2429, Hammer clapper 4819, Kemanak 5513, Kasik 6786, Spoons 6787, and both Cimta concepts. Retained payload 2426 is a source child concept with a different source Hornbostel-Sachs link from umbrella 2424. Cimta 4851 has broader Clappers, while Cimta 6281 has broader Rattles and remains in the rattles sibling; inspected that complete sibling output to confirm the meaningful context distinction is preserved.",
+      "Every emitted record retains MIMO/DOREMUS attribution, stable concept ID, CC BY 4.0 with license URL, pinned source URL, and selection/reformatting notice. Every provenance retains MIMO ownership, pinned revision and checksum, source license-declaration URLs, modification scope, historical-classification limitation, and access date. Read the pinned vocabulary README's CC BY 4.0 and MIMO ownership declaration and the associated complete LICENSE.txt sections 1 through 8. All final content, routing, schema, attribution, and weight checks passed."
+    ],
+    "corrections": [],
+    "records": 37
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "path": "music/instruments/catalogue/mirlitons",
+    "reviewer": "/root/music/instruments/catalogue/mirlitons",
+    "records": 4,
+    "checks": [
+      "Read families/AGENTS.md, current music README and import_mimo.py; independently parsed the pinned Turtle with rdflib without calling the importer.",
+      "Verified Turtle SHA256 adebe2bc255e6947971e32bf261018acfe7a96123387ff228247fb25786ca1dd and 43,783 RDF triples; verified source README SHA256 4cab9868b68045163a3f1efcc78f3c8badcb6c568a45ad42c09d2418b85176c4 and its MIMO copyright/CC BY 4.0 declaration. Inspected the associated embedded LICENSE.txt notice.",
+      "All four current records have exactly id, text and provenance; all fields are nonblank strings without NUL. IDs, complete emitted texts and casefolded preferred-name-plus-context pairs are unique.",
+      "Eunuch flute (2349), Kazoo (2351), Mirliton (2352) and Nyastaranga (2353) exactly match English SKOS preferred labels. None has an English-tagged alternate label, and no output invents aliases.",
+      "Each concept has exactly one explicit broader edge to Mirlitons (2348), which has exactly one broader edge to Mirlitons (2347). Verified all emitted contexts and completeness against the four immediate children of 2348; none has narrower children. The redundant umbrella supplies no meaningful deeper split.",
+      "Read all four complete emitted outputs and compared each against its source label, context, concept ID and exact attribution template. They are concrete instrument vocabulary kinds, with no components, accessories, ensemble umbrellas, opaque placeholders, prompts or inferred acoustic/geographic descriptions. Historical museum vocabulary framing is retained.",
+      "Every output contains MIMO/DOREMUS attribution, concept ID, CC BY 4.0 with license URL, pinned source URL and selection/reformatting notice. Compared every provenance field with the complete expected revision/checksum, ownership, license declarations, modification description and historical-classification limitation.",
+      "Checked current catalogue records recursively for preferred-label overlaps involving these four records; none found. Parsed node.toml and verified exact weight 4; verified the directory remains a corpus leaf without a generator or child directories.",
+      "Reviewed current records.json SHA256 0e1819cb8ef1c43d69857fef70978c6a1772537c87dbd3789f74d4ce4314ba15. All independent assertions passed; no imported records were changed."
+    ],
+    "corrections": []
+  }
+]

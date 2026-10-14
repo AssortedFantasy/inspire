@@ -1,12 +1,12 @@
 [
   {
     "id": "corpora-instrument-0e5c15c3764af3d7",
-    "text": "Theremin\nSound mechanism: electronic sound generation or playback. The Mellotron plays recorded tape samples; the theremin uses electronic oscillators.",
+    "text": "Theremin\nElectronic oscillators produce the sound; hand positions near antennas control pitch and volume without touching the instrument.",
     "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
   },
   {
     "id": "corpora-instrument-b95aec4244eab798",
-    "text": "Mellotron\nSound mechanism: electronic sound generation or playback. The Mellotron plays recorded tape samples; the theremin uses electronic oscillators.",
+    "text": "Mellotron\nA keyboard controls playback of sampled instrument sounds. Original Mellotrons use magnetic-tape strips; later digital models replay recorded samples electronically.",
     "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
   }
 ]

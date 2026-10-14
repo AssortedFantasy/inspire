@@ -1,17 +1,17 @@
 [
   {
     "id": "corpora-instrument-2a464f59ab545724",
-    "text": "Marimba\nSound mechanism: a vibrating solid body; these are tuned struck-bar instruments.",
+    "text": "Marimba\nMallets strike tuned bars, commonly coupled to resonators.",
     "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
   },
   {
     "id": "corpora-instrument-e89d21c271ba8481",
-    "text": "Glockenspiel\nSound mechanism: a vibrating solid body; these are tuned struck-bar instruments.",
+    "text": "Glockenspiel\nMallets strike tuned metal bars arranged by pitch.",
     "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
   },
   {
     "id": "corpora-instrument-ee726105e930b4a5",
-    "text": "Xylophone\nSound mechanism: a vibrating solid body; these are tuned struck-bar instruments.",
+    "text": "Xylophone\nMallets strike tuned bars arranged by pitch.",
     "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
   }
 ]

@@ -1,0 +1,18 @@
+[
+  {
+    "path": "music/instruments/catalogue/percussion/bells",
+    "reviewer": "/root/music/instruments/catalogue/percussion/bells",
+    "checks": [
+      "Read families/AGENTS.md, music README, and import_mimo.py; independently parsed the pinned Turtle with rdflib without invoking importer functions.",
+      "Verified Turtle SHA256 adebe2bc255e6947971e32bf261018acfe7a96123387ff228247fb25786ca1dd, 43,783 RDF triples, 2,324 English preferred labels, and vocabulary README SHA256 4cab9868b68045163a3f1efcc78f3c8badcb6c568a45ad42c09d2418b85176c4.",
+      "Independently traversed every English-labelled concept's broader paths to all seven selected roots, applied documented exclusions and minimum numerical root-adjacent umbrella routing, and obtained exactly the 56 emitted IDs. Bells umbrella 2371 has broader root 2370 Percussion instruments and is excluded from payloads; excluded concept 5291 is absent. No eligible bells candidates were lost.",
+      "All 56 records have exactly id, text, and provenance, each a nonblank string without NUL. IDs, complete emitted texts, and preferred-name-plus-context pairs are unique.",
+      "Exhaustively matched every English preferred label, every immediate meaningful broader context, the Percussion instruments source family, and sorted eligible English alternate labels against independently parsed triples. Every complete emitted text matches the source-derived expected text. Only Dibu dimbwa and Washint have selected English alternate labels, and both are preserved; untagged or other-language alternatives are not misrepresented as English aliases.",
+      "Inspected all 56 emitted names and contexts plus 13 complete output records spanning the dataset and both alternate-name cases. Material is concrete instrument-kind vocabulary without prompt framing or invented mechanisms/geography. Separately inspected all source triples for Woodblock 5700, Washint 2419, Dibu dimbwa 2396, Bells belt 6268, and Electric carillon 6622. Source-specific groupings, including Woodblock under Bells, are explicitly attributed to the historical MIMO vocabulary rather than asserted as universal acoustic classification.",
+      "Every emitted record includes MIMO/DOREMUS attribution, stable concept ID, CC BY 4.0 with license URL, pinned source URL, and selection/reformatting notice. Every provenance includes MIMO ownership, pinned revision/checksum, source license declaration URLs, modification scope, and historical-classification limitation. Inspected the pinned README's CC BY 4.0 and MIMO ownership declaration and associated complete LICENSE.txt sections 1 through 8.",
+      "Parsed node.toml and verified exactly weight 56, matching all retained records. All content, routing, schema, attribution, and weight assertions passed."
+    ],
+    "corrections": [],
+    "records": 56
+  }
+]

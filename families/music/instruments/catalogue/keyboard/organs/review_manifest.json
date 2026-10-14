@@ -1,0 +1,20 @@
+[
+  {
+    "path": "music/instruments/catalogue/keyboard/organs",
+    "reviewer": "/root/music/instruments/catalogue/keyboard/organs",
+    "checks": [
+      "Read families/AGENTS.md, music/README.md, import_mimo.py and all nine complete emitted records.",
+      "Independently parsed the cached pinned Turtle source with rdflib; verified 43,783 triples and SHA256 adebe2bc255e6947971e32bf261018acfe7a96123387ff228247fb25786ca1dd.",
+      "Verified the pinned vocabulary README SHA256 4cab9868b68045163a3f1efcc78f3c8badcb6c568a45ad42c09d2418b85176c4 and its explicit CC BY 4.0 declaration with MIMO ownership retained; inspected embedded LICENSE.txt, including license conditions and all eight sections.",
+      "Validated exact id/text/provenance schema, nonblank strings without NUL, nine unique IDs, nine unique full texts, and nine unique preferred-name/broader-context pairs.",
+      "Verified every emitted preferred label equals the source English preferred label and every concept has the explicit Organs broader link; verified Organs links directly to Keyboard instruments, concept 2230.",
+      "Independently traversed every descendant of the source Organs umbrella: the complete nine-concept subtree exactly matches emitted IDs, with no missing or extraneous records.",
+      "Verified every English alternate label selection: Water organ retains Hydraulic organ, and the remaining eight concepts have no English alternate labels.",
+      "Checked all nine outputs substantively: Aeolian organ, Organ, Portative organ, Positive organ, Pyrophone, Chamber organ, Water organ, Cabinet organ and Harmonium-organ are instrument kinds with self-contained source-qualified context, not components, accessories, ensembles, opaque Others concepts or prompts; historical catalogue grouping makes no acoustic or geographic inference.",
+      "Verified MIMO/DOREMUS attribution, concept ID, CC BY 4.0 URL, pinned source URL and modification notice in every emitted text; provenance preserves source checksum, ownership, license declaration and selection limitations.",
+      "Verified node.toml contains exactly weight = 9, matching the nine corpus records."
+    ],
+    "corrections": [],
+    "records": 9
+  }
+]

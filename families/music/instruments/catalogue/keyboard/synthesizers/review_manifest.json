@@ -1,0 +1,18 @@
+[
+  {
+    "path": "music/instruments/catalogue/keyboard/synthesizers",
+    "reviewer": "/root/music/instruments/catalogue/keyboard/synthesizers",
+    "checks": [
+      "Read families/AGENTS.md, the updated music README and import_mimo.py before reviewing the leaf.",
+      "Independently parsed the pinned Turtle with rdflib; verified 43,783 triples, 2,324 English preferred labels, RDF SHA256 adebe2bc255e6947971e32bf261018acfe7a96123387ff228247fb25786ca1dd and vocabulary README SHA256 4cab9868b68045163a3f1efcc78f3c8badcb6c568a45ad42c09d2418b85176c4.",
+      "Verified all five records have exactly id, text and provenance, nonblank string values, no NUL, and unique IDs, text and preferred-name/context combinations.",
+      "Verified English preferred labels and every explicit broader link for Buchla (2317), Electric organ (2318), Electronic organ (2319), Synclavier (2320) and Synthesizer (2321): each links directly to Synthesizers (2316), which links directly to Keyboard instruments (2230).",
+      "Independently traversed broader links across all English concepts and verified these five are the complete selected synthesizers family; the Synthesizers umbrella is excluded from payloads. No selected concept has English alternate labels, and none are invented in the output.",
+      "Substantively read all five outputs: named instrument kinds with self-contained, explicitly attributed historical museum-vocabulary context; no components, accessories, ensembles, opaque concepts, prompts, geographic inferences or acoustic inferences. Buchla is retained as the source's named synthesizer family without invented model/manufacturer details. Electric and electronic organs retain the source's historical Synthesizers routing without claiming an acoustic taxonomy.",
+      "Read the cached vocabulary license declaration and full catalogue LICENSE.txt. Verified each output carries MIMO/DOREMUS attribution, concept ID, pinned source link, CC BY 4.0 link and selection/reformatting notice; each provenance carries owner, checksum, license declaration sources, transformation and historical-classification caveats.",
+      "Verified node.toml is exactly weight = 5, matching the retained record count."
+    ],
+    "corrections": [],
+    "records": 5
+  }
+]
