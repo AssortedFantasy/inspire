@@ -1,0 +1,722 @@
+[
+  {
+    "id": "person-marie-curie",
+    "text": "Marie Curie — chemist; radium and polonium.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-ernest-rutherford",
+    "text": "Ernest Rutherford — physicist; radioactive element transformations.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-linus-pauling",
+    "text": "Linus Pauling — chemist; chemical bonding.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-dorothy-hodgkin",
+    "text": "Dorothy Hodgkin — crystallographer; biochemical molecular structures.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-frederick-sanger",
+    "text": "Frederick Sanger — biochemist; protein sequencing.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-melvin-calvin",
+    "text": "Melvin Calvin — chemist; photosynthetic carbon fixation.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-svante-arrhenius",
+    "text": "Svante Arrhenius — chemist; electrolytic dissociation.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-fritz-haber",
+    "text": "Fritz Haber — chemist; ammonia synthesis.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-victor-grignard",
+    "text": "Victor Grignard — chemist; organomagnesium reagents.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-paul-sabatier",
+    "text": "Paul Sabatier — chemist; catalytic hydrogenation.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-jacobus-van-t-hoff",
+    "text": "Jacobus van 't Hoff — chemist; osmotic pressure.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-william-ramsay",
+    "text": "William Ramsay — chemist; noble gases.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-alfred-werner",
+    "text": "Alfred Werner — chemist; coordination compounds.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-eduard-buchner",
+    "text": "Eduard Buchner — biochemist; cell-free fermentation.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-walther-nernst",
+    "text": "Walther Nernst — chemist; chemical thermodynamics.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-george-de-hevesy",
+    "text": "George de Hevesy — chemist; radioactive tracers.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-willard-libby",
+    "text": "Willard Libby — chemist; radiocarbon dating.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-jaroslav-heyrovsky",
+    "text": "Jaroslav Heyrovský — chemist; polarographic analysis.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-lars-onsager",
+    "text": "Lars Onsager — chemist; irreversible thermodynamics.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-ahmed-zewail",
+    "text": "Ahmed Zewail — chemist; femtosecond reaction studies.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-mario-molina",
+    "text": "Mario Molina — chemist; atmospheric ozone chemistry.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-f-sherwood-rowland",
+    "text": "F. Sherwood Rowland — chemist; ozone-depletion chemistry.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-akira-suzuki",
+    "text": "Akira Suzuki — chemist; palladium-catalysed cross-coupling.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Chemistry, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-chemistry/all/?gallery_style=page. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-ada-yonath",
+    "text": "Ada Yonath — crystallographer; ribosome structure.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, Nobel Prize-awarded women, https://www.nobelprize.org/prizes/peace/nobel-prize-awarded-women/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "wikidata-q5503903",
+    "text": "Friedrich Schickendantz — Argentinian chemist, botanist, geologist & meteorologist (1837-1896).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q5503903, https://www.wikidata.org/wiki/Q5503903; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q74948",
+    "text": "David Buckingham — Australian chemist and cricketer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q74948, https://www.wikidata.org/wiki/Q74948; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q78778",
+    "text": "Rudolf Hauschka — Austrian chemist, businessman and writer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q78778, https://www.wikidata.org/wiki/Q78778; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1446766",
+    "text": "Franz Fiala — botanist, chemist and archaeologist (1861-1898).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1446766, https://www.wikidata.org/wiki/Q1446766; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q325730",
+    "text": "Carl Kellner — Austrian chemist and mystic.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q325730, https://www.wikidata.org/wiki/Q325730; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q28042734",
+    "text": "Miroslav Karšulin — Croatian physical chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q28042734, https://www.wikidata.org/wiki/Q28042734; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q51844361",
+    "text": "Regina Feigl — Austrian-Brazilian chemist and businesswoman.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q51844361, https://www.wikidata.org/wiki/Q51844361; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q72631",
+    "text": "Friedrich Adolf Paneth — Austrian-born British chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q72631, https://www.wikidata.org/wiki/Q72631; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q90144",
+    "text": "Edmund Mach — Austrian chemist and oenologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q90144, https://www.wikidata.org/wiki/Q90144; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q84497",
+    "text": "Nikolaus Joseph von Jacquin — chemist, physician and botanist from the Netherlands (1727-1817).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q84497, https://www.wikidata.org/wiki/Q84497; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q51844370",
+    "text": "Margarete Furcht — Austrian-British chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q51844370, https://www.wikidata.org/wiki/Q51844370; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q658927",
+    "text": "Alois Wehrle — chemist, mineralogist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q658927, https://www.wikidata.org/wiki/Q658927; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4461250",
+    "text": "Teodor Torosiewicz — Polish chemist and pharmacist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4461250, https://www.wikidata.org/wiki/Q4461250; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4062325",
+    "text": "Shikhbala Aliev — Soviet chemist (1910-1960).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4062325, https://www.wikidata.org/wiki/Q4062325; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1492732",
+    "text": "Wilhelm von Beck — Belarusian chemist and university teacher (1822-1907).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1492732, https://www.wikidata.org/wiki/Q1492732; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q311665",
+    "text": "Ernest Solvay — Belgian chemist, industrialist, philanthropist (1838-1922).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q311665, https://www.wikidata.org/wiki/Q311665; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1978453",
+    "text": "Nestor Joseph Trappeniers — Belgian chemist and university professor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1978453, https://www.wikidata.org/wiki/Q1978453; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1964114",
+    "text": "Frederik Wilhelm Christiaan Krecke — Dutch chemist (1812-1882).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1964114, https://www.wikidata.org/wiki/Q1964114; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q183509",
+    "text": "Ilya Prigogine — Russian-Belgian physical chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q183509, https://www.wikidata.org/wiki/Q183509; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q10294297",
+    "text": "Heinrich Rheinboldt — German-Brasilian chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q10294297, https://www.wikidata.org/wiki/Q10294297; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q14378770",
+    "text": "Hans Stammreich — Brazilian chemist and molecular spectroscopist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q14378770, https://www.wikidata.org/wiki/Q14378770; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q18608213",
+    "text": "Nikola Mollov — Bulgarian organic chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18608213, https://www.wikidata.org/wiki/Q18608213; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6762723",
+    "text": "Marie-Thérèse Assiga Ahanda — Cameroonian writer, chemist, paramount chief of the Ewondo people.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6762723, https://www.wikidata.org/wiki/Q6762723; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7515",
+    "text": "Maud Menten — Canadian physician and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q7515, https://www.wikidata.org/wiki/Q7515; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6384539",
+    "text": "Keith J. Laidler — British-born chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6384539, https://www.wikidata.org/wiki/Q6384539; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q562597",
+    "text": "Ondřej Pukl — Czech runner and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q562597, https://www.wikidata.org/wiki/Q562597; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3509698",
+    "text": "Jiří Baborovský — Czech physical chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3509698, https://www.wikidata.org/wiki/Q3509698; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q555993",
+    "text": "Hans Peter Jørgen Julius Thomsen — Danish chemist and scientist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q555993, https://www.wikidata.org/wiki/Q555993; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q295099",
+    "text": "Ejnar Hertzsprung — Danish astronomer and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q295099, https://www.wikidata.org/wiki/Q295099; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q21341263",
+    "text": "Nicolaas Bondt — Dutch physician, botanist, and chemist (1765-1796).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q21341263, https://www.wikidata.org/wiki/Q21341263; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q25338552",
+    "text": "C. Ainsworth Mitchell — British chemist and forensic scientist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q25338552, https://www.wikidata.org/wiki/Q25338552; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q42304408",
+    "text": "Robert Peter — English-American physician, toxicologist, chemist, natural scientist (1805-1894).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q42304408, https://www.wikidata.org/wiki/Q42304408; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q65675691",
+    "text": "John Mickleburgh — English chemist, and the third holder of the 1702 Chair of Chemistry at the University of Cambridge.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q65675691, https://www.wikidata.org/wiki/Q65675691; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q909010",
+    "text": "Paul Kogerman — Estonian chemist and university teacher (1891-1951).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q909010, https://www.wikidata.org/wiki/Q909010; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q157239",
+    "text": "Artturi Ilmari Virtanen — Finnish chemist and professor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q157239, https://www.wikidata.org/wiki/Q157239; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q637733",
+    "text": "Edvard Hjelt — Finnish chemist and politician (1855-1921).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q637733, https://www.wikidata.org/wiki/Q637733; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3374265",
+    "text": "Pehr Adrian Gadd — Finnish chemist, ornithologist and biologist (1727-1797).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3374265, https://www.wikidata.org/wiki/Q3374265; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q529",
+    "text": "Louis Pasteur — French chemist and microbiologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q529, https://www.wikidata.org/wiki/Q529; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q312587",
+    "text": "Claude Louis Berthollet — French chemist (1748-1822).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q312587, https://www.wikidata.org/wiki/Q312587; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1731504",
+    "text": "Karl Heinrich Schattenmann — Alsatian chemist (1785-1869).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1731504, https://www.wikidata.org/wiki/Q1731504; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q76625",
+    "text": "Robert Havemann — German chemist, and an East German dissident (1910-1982).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q76625, https://www.wikidata.org/wiki/Q76625; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1460872",
+    "text": "Friedrich Ludwig Hünefeld — chemist and university teacher (1799-1882).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1460872, https://www.wikidata.org/wiki/Q1460872; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7249",
+    "text": "Agnes Pockels — German chemist pioneer in surface science.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q7249, https://www.wikidata.org/wiki/Q7249; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q73455",
+    "text": "Ivar Karl Ugi — Estonian-German organic chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q73455, https://www.wikidata.org/wiki/Q73455; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1133992",
+    "text": "Cornelius Weiss — German chemist and politician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1133992, https://www.wikidata.org/wiki/Q1133992; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q17521365",
+    "text": "Arthur Simon — German chemist and university teacher (1893-1962).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q17521365, https://www.wikidata.org/wiki/Q17521365; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q77073",
+    "text": "Julius Lothar Meyer — German physician and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q77073, https://www.wikidata.org/wiki/Q77073; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4741788",
+    "text": "Ambrose Godfrey — German-English chemist, inventor of the fire extinguisher (1660-1741).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4741788, https://www.wikidata.org/wiki/Q4741788; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q28039323",
+    "text": "Max Siegfried — German physiologist and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q28039323, https://www.wikidata.org/wiki/Q28039323; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7377264",
+    "text": "Rudolf Marloth — South African botanist, pharmacist and chemist (1855-1931).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q7377264, https://www.wikidata.org/wiki/Q7377264; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q78107",
+    "text": "Peter Adolf Thiessen — German chemist (1899-1990).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q78107, https://www.wikidata.org/wiki/Q78107; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q60847",
+    "text": "Ludwig Mond — British chemist and businessman.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q60847, https://www.wikidata.org/wiki/Q60847; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q10263918",
+    "text": "Daniel Bekoe — Ghanaian chemist and academic.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q10263918, https://www.wikidata.org/wiki/Q10263918; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q329183",
+    "text": "Anastasios Christomanos — Greek university professor and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q329183, https://www.wikidata.org/wiki/Q329183; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4191500",
+    "text": "Leonidas Zervas — Greek chemist and politician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4191500, https://www.wikidata.org/wiki/Q4191500; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q294169",
+    "text": "Jan Baptist Van Helmont — Chemist, physiologist, and physician from the Spanish Low Countries.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q294169, https://www.wikidata.org/wiki/Q294169; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q31161",
+    "text": "Andreas Libavius — 16th century German doctor and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q31161, https://www.wikidata.org/wiki/Q31161; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q18685",
+    "text": "Elemér Schulek — Hungarian chemist, pharmacist, professor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q18685, https://www.wikidata.org/wiki/Q18685; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q23656705",
+    "text": "Maks Shlezinger — Hungarian bio-chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q23656705, https://www.wikidata.org/wiki/Q23656705; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1102249",
+    "text": "Alexander Just — German-Hungarian chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1102249, https://www.wikidata.org/wiki/Q1102249; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7450",
+    "text": "Asima Chatterjee — Indian chemist (1917-2006).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q7450, https://www.wikidata.org/wiki/Q7450; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4663791",
+    "text": "Abbas Shafiee — Iranian pharmaceutical chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4663791, https://www.wikidata.org/wiki/Q4663791; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q901070",
+    "text": "Richard Kirwan — Irish geologist and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q901070, https://www.wikidata.org/wiki/Q901070; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q73156250",
+    "text": "Mordecai Rabinovitz — Israeli chemist and professor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q73156250, https://www.wikidata.org/wiki/Q73156250; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3765766",
+    "text": "Giorgio Squinzi — Italian entrepreneur and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3765766, https://www.wikidata.org/wiki/Q3765766; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q153670",
+    "text": "Primo Levi — Italian chemist, partisan, Holocaust survivor, and writer (1919–1987).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q153670, https://www.wikidata.org/wiki/Q153670; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q11356564",
+    "text": "Kin'ichirō Miura — Japanese chemist (1931-2009).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q11356564, https://www.wikidata.org/wiki/Q11356564; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q205345",
+    "text": "Osamu Shimomura — Japanese organic chemist and marine biologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q205345, https://www.wikidata.org/wiki/Q205345; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q18593247",
+    "text": "John Huniades — Hungarian-English chemist (1620/21–1696).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18593247, https://www.wikidata.org/wiki/Q18593247; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q29553352",
+    "text": "Jacques Borelly — French chemist and doctor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q29553352, https://www.wikidata.org/wiki/Q29553352; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q142187",
+    "text": "Thomas Britton — English charcoal merchant, chemist and concert promoter.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q142187, https://www.wikidata.org/wiki/Q142187; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q182915",
+    "text": "William Henry — British chemist who formulated the law on the solubility of gases into liquids.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q182915, https://www.wikidata.org/wiki/Q182915; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q18757089",
+    "text": "Robert Perceval — Irish physician and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18757089, https://www.wikidata.org/wiki/Q18757089; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q18681465",
+    "text": "David Macbride — Irish chemist and physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18681465, https://www.wikidata.org/wiki/Q18681465; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q128759",
+    "text": "Stanislao Cannizzaro — Italian chemist (1826-1910).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q128759, https://www.wikidata.org/wiki/Q128759; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q9619277",
+    "text": "António Joaquim Ferreira da Silva — Portuguese scientist, chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q9619277, https://www.wikidata.org/wiki/Q9619277; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q36560711",
+    "text": "Gabriela Chaborski — Romanian-Polish chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q36560711, https://www.wikidata.org/wiki/Q36560711; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q20733902",
+    "text": "Max Fischer — German agricultural chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q20733902, https://www.wikidata.org/wiki/Q20733902; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q11769185",
+    "text": "Marija Šimanska — Latvian chemist of Polish heritage.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q11769185, https://www.wikidata.org/wiki/Q11769185; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q556401",
+    "text": "Antanas Purėnas — Lithuanian chemist and politician (1881-1962).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q556401, https://www.wikidata.org/wiki/Q556401; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4285053",
+    "text": "Juozas Matulis — Soviet chemist (1899-1993).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4285053, https://www.wikidata.org/wiki/Q4285053; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q692634",
+    "text": "François Diederich — Luxembourgian chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q692634, https://www.wikidata.org/wiki/Q692634; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3128063",
+    "text": "Hasan al-Rammah — Syrian chemist and engineer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3128063, https://www.wikidata.org/wiki/Q3128063; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q63306",
+    "text": "Jorge Cuesta — Mexican chemist and writer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q63306, https://www.wikidata.org/wiki/Q63306; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q17493235",
+    "text": "Egbert von Heyden — chemist, author and researcher (1897-1945).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q17493235, https://www.wikidata.org/wiki/Q17493235; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q316996",
+    "text": "Franciscus Sylvius — physician and chemist of Leyden, Netherlands.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q316996, https://www.wikidata.org/wiki/Q316996; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q5498853",
+    "text": "Frederick Thomas Seelye — New Zealand analytical chemist, lecturer (1879–1955 or 1962).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q5498853, https://www.wikidata.org/wiki/Q5498853; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q495505",
+    "text": "Ri Sung Gi — North Korean chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q495505, https://www.wikidata.org/wiki/Q495505; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q157212",
+    "text": "Odd Hassel — Norwegian physical chemist and Nobel Laureate.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q157212, https://www.wikidata.org/wiki/Q157212; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q10953918",
+    "text": "Ovidio Rebaudi — Paraguayan chemist and writer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q10953918, https://www.wikidata.org/wiki/Q10953918; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7494130",
+    "text": "Shen Tianhui — Chinese female chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q7494130, https://www.wikidata.org/wiki/Q7494130; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6762344",
+    "text": "Mariano Eduardo de Rivero y Ustariz — Peruvian geologist, mineralogist, chemist, archaeologist, politician and diplomat.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6762344, https://www.wikidata.org/wiki/Q6762344; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q21062319",
+    "text": "Manuel A. Zamora — Filipino chemist and pharmacist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q21062319, https://www.wikidata.org/wiki/Q21062319; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q310594",
+    "text": "Ignacy Mościcki — Polish physical chemist, politician (1867-1946).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q310594, https://www.wikidata.org/wiki/Q310594; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q683558",
+    "text": "Ivan Horbachevsky — Ukrainian chemist (1854-1942).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q683558, https://www.wikidata.org/wiki/Q683558; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q11698599",
+    "text": "François Chapeville — French biochemist and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q11698599, https://www.wikidata.org/wiki/Q11698599; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q465759",
+    "text": "Jan Czochralski — Polish chemist and engineer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q465759, https://www.wikidata.org/wiki/Q465759; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q904968",
+    "text": "Bronisław Radziszewski — Polish chemist (1838-1914).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q904968, https://www.wikidata.org/wiki/Q904968; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q115490",
+    "text": "Tadeusz Reichstein — Polish chemist (1897-1996).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q115490, https://www.wikidata.org/wiki/Q115490; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q11730345",
+    "text": "Józef Herman Osiński — Polish chemist (1738-1802).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q11730345, https://www.wikidata.org/wiki/Q11730345; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q10396164",
+    "text": "Ângelo da Cunha Pinto — Brazilian-Portuguese chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q10396164, https://www.wikidata.org/wiki/Q10396164; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1033713",
+    "text": "Andras Hantz — Romanian-Hungarian chemist, fakverkisto.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1033713, https://www.wikidata.org/wiki/Q1033713; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4416854",
+    "text": "Varvara Sergeeva — Russian chemist (1902–1997) ♀; Order of the Red Banner of Labour, Order of the Badge of Honour, Medal \"For Labour Valour\", and Order of Friendship of Peoples.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4416854, https://www.wikidata.org/wiki/Q4416854; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7429",
+    "text": "Nina Andreyeva — Russian chemist, teacher, author, political activist, and social critic (1938-2020).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q7429, https://www.wikidata.org/wiki/Q7429; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q691234",
+    "text": "Carl Schmidt — Baltic German chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q691234, https://www.wikidata.org/wiki/Q691234; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2336700",
+    "text": "Jędrzej Śniadecki — writer, physician, chemist and biologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q2336700, https://www.wikidata.org/wiki/Q2336700; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q539172",
+    "text": "Margarete von Wrangell — Baltic German agricultural chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q539172, https://www.wikidata.org/wiki/Q539172; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4719670",
+    "text": "Alexander Kellas — Scottish mountain climber and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4719670, https://www.wikidata.org/wiki/Q4719670; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2294358",
+    "text": "Slobodan Ribnikar — Yugoslav/Serbian chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q2294358, https://www.wikidata.org/wiki/Q2294358; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q12958452",
+    "text": "Milenko Šušić — Serbian nuclear chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q12958452, https://www.wikidata.org/wiki/Q12958452; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q39040687",
+    "text": "Li Lienfung — Singaporean chemist and writer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q39040687, https://www.wikidata.org/wiki/Q39040687; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q24529792",
+    "text": "Peter Pelikán — Slovak chemist, university teacher and non-fiction writer (1939-2002).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q24529792, https://www.wikidata.org/wiki/Q24529792; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q18608716",
+    "text": "Lev Premru — Slovene chemist and manager.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18608716, https://www.wikidata.org/wiki/Q18608716; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1284327",
+    "text": "Tita Kovač Artemis — Slocenian writer and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1284327, https://www.wikidata.org/wiki/Q1284327; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q12784483",
+    "text": "Ana Kansky — Slovenian chemist /chemical engineer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q12784483, https://www.wikidata.org/wiki/Q12784483; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1681675",
+    "text": "Jan C. A. Boeyens — South African chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1681675, https://www.wikidata.org/wiki/Q1681675; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q377461",
+    "text": "Valery Legasov — Soviet nuclear chemist, chief of the commission investigating the Chernobyl disaster.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q377461, https://www.wikidata.org/wiki/Q377461; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q48990",
+    "text": "Nikolay Semyonov — Soviet physical chemist (1896-1986).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q48990, https://www.wikidata.org/wiki/Q48990; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q333638",
+    "text": "Alfredo Pérez Rubalcaba — Spanish politician and chemist (1951-2019).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q333638, https://www.wikidata.org/wiki/Q333638; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q19766181",
+    "text": "Gabriella Morreale de Castro — Italian scientist and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q19766181, https://www.wikidata.org/wiki/Q19766181; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  }
+]

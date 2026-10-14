@@ -1,0 +1,632 @@
+[
+  {
+    "id": "person-charles-darwin",
+    "text": "Charles Darwin — naturalist; developed evolution by natural selection, independently of Alfred Russel Wallace.",
+    "provenance": "Original concise factual description. Source: Natural History Museum, https://www.nhm.ac.uk/discover/what-is-natural-selection.html. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-alfred-russel-wallace",
+    "text": "Alfred Russel Wallace — naturalist; independently developed natural selection and studied geographical species boundaries.",
+    "provenance": "Original concise factual description. Source: Natural History Museum, https://www.nhm.ac.uk/our-science/services/library/collections/wallace.html. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-mary-anning",
+    "text": "Mary Anning — fossil collector; discoveries of Jurassic marine reptiles, including an articulated plesiosaur skeleton.",
+    "provenance": "Original concise factual description. Source: Natural History Museum, https://www.nhm.ac.uk/discover/mary-anning-fossils.html. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-maria-sibylla-merian",
+    "text": "Maria Sibylla Merian — naturalist and illustrator; observed and depicted insect life cycles and their host plants.",
+    "provenance": "Original concise factual description. Source: Natural History Museum, https://www.nhm.ac.uk/discover/maria-sibylla-merian-metamorphosis-art-and-science.html. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-carl-linnaeus",
+    "text": "Carl Linnaeus — naturalist; systematic classification of plants and animals.",
+    "provenance": "Original concise factual description. Source: Natural History Museum, https://www.nhm.ac.uk/our-science/services/library/collections/linnaean.html. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-george-washington-carver",
+    "text": "George Washington Carver — agricultural scientist; advocated crop rotation and developed uses for agricultural crops.",
+    "provenance": "Original concise factual description. Source: National Park Service, https://home.nps.gov/articles/george-washington-carver-national-monument-500391.htm. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "wikidata-q3054690",
+    "text": "Enrique Lynch Arribálzaga — Argentinian naturalist and writer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3054690, https://www.wikidata.org/wiki/Q3054690; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3898929",
+    "text": "Pellegrino Strobel — Italian ornithologist, zoologist and naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3898929, https://www.wikidata.org/wiki/Q3898929; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3378991",
+    "text": "Philip Crosbie Morrison — Naturalist and journalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3378991, https://www.wikidata.org/wiki/Q3378991; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q517936",
+    "text": "George Bennett — Australian naturalist (1804-1893).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q517936, https://www.wikidata.org/wiki/Q517936; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q87108",
+    "text": "Johann Zelebor — Austrian naturalist, zoologist and illustrator.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q87108, https://www.wikidata.org/wiki/Q87108; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q922595",
+    "text": "Ferdinand Josef Schmidt — Austro-Hungarian businessman and naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q922595, https://www.wikidata.org/wiki/Q922595; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q78681",
+    "text": "Georg Ritter von Frauenfeld — Austrian naturalist (1807-1873).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q78681, https://www.wikidata.org/wiki/Q78681; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2506568",
+    "text": "Ferdinand Seidl — Slovene naturalist (1856-1942).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q2506568, https://www.wikidata.org/wiki/Q2506568; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q93645",
+    "text": "Joy Adamson — naturalist (1910-1980).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q93645, https://www.wikidata.org/wiki/Q93645; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q379601",
+    "text": "Carl Borivoj Presl — Czech botanist, physician and naturalist (1794-1852).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q379601, https://www.wikidata.org/wiki/Q379601; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q114840",
+    "text": "Alphonse Joseph Charles Dubois — Belgian naturalist (1839-1920).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q114840, https://www.wikidata.org/wiki/Q114840; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q519196",
+    "text": "Alexander von Schrenk — Baltic German naturalist (1816-1876).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q519196, https://www.wikidata.org/wiki/Q519196; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q5399919",
+    "text": "Emilio Joaquim da Silva Maia — Brazilian naturalist and ornithologist (1808-1859).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q5399919, https://www.wikidata.org/wiki/Q5399919; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q66161",
+    "text": "Emilie Snethlage — Brazilian naturalist and ornithologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q66161, https://www.wikidata.org/wiki/Q66161; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q468149",
+    "text": "Robert Swinhoe — British diplomat and naturalist (1836-1877).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q468149, https://www.wikidata.org/wiki/Q468149; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2365586",
+    "text": "Marcelle Gauvreau — Canadian naturalist and teacher (1907-1968).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q2365586, https://www.wikidata.org/wiki/Q2365586; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7276261",
+    "text": "R. D. Lawrence — Canadian wildlife naturalist and author.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q7276261, https://www.wikidata.org/wiki/Q7276261; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q52585635",
+    "text": "Gonzalo Palomino Ortiz — Colombian naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q52585635, https://www.wikidata.org/wiki/Q52585635; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q682747",
+    "text": "Wiktor Godlewski — Polish naturalist (1833-1900).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q682747, https://www.wikidata.org/wiki/Q682747; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q21341074",
+    "text": "Carlos Guillermo Aguayo — Cuban naturalist and entomologist (1899-1982).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q21341074, https://www.wikidata.org/wiki/Q21341074; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q50374966",
+    "text": "Běla Tůmová — Czech naturalist and virologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q50374966, https://www.wikidata.org/wiki/Q50374966; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q589727",
+    "text": "Søren Abildgaard — Naturalist, writer and illustrator (1718-1791).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q589727, https://www.wikidata.org/wiki/Q589727; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q438869",
+    "text": "Pieter Boddaert — Dutch physician and naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q438869, https://www.wikidata.org/wiki/Q438869; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6018390",
+    "text": "Misael Acosta Solís — Ecuadorian naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6018390, https://www.wikidata.org/wiki/Q6018390; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1375875",
+    "text": "John Banister — English–American clergyman and naturalist (1650-1692).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1375875, https://www.wikidata.org/wiki/Q1375875; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4695",
+    "text": "Jean-Jacques Kieffer — French naturalist and entomologist (1857-1925).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q4695, https://www.wikidata.org/wiki/Q4695; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4257704",
+    "text": "Paul Le Cointe — French engineer, naturalist and cartographer (1870-1956).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4257704, https://www.wikidata.org/wiki/Q4257704; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1685332",
+    "text": "Jean-Baptiste Audebert — French artist and naturalist (1759-1800).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1685332, https://www.wikidata.org/wiki/Q1685332; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1063339",
+    "text": "Charles Alexandre Lesueur — French naturalist (1778-1846).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1063339, https://www.wikidata.org/wiki/Q1063339; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1739172",
+    "text": "Michel Sarrazin — French physician and naturalist (1659-1734).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1739172, https://www.wikidata.org/wiki/Q1739172; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q368330",
+    "text": "Antoine Risso — Niçard naturalist (1777-1845).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q368330, https://www.wikidata.org/wiki/Q368330; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q66077",
+    "text": "Ferdinand Deppe — German naturalist (1795-1861).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q66077, https://www.wikidata.org/wiki/Q66077; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q111780",
+    "text": "Eduard Pechuël-Loesche — German naturalist and geographer (1840-1913).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q111780, https://www.wikidata.org/wiki/Q111780; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q63426",
+    "text": "Carl August Bolle — German naturalist and collector (1821-1909).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q63426, https://www.wikidata.org/wiki/Q63426; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q31651",
+    "text": "Johann Jakob Kaup — German paleontologist and naturalist (ornithologist and ichthyologist).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q31651, https://www.wikidata.org/wiki/Q31651; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q68239",
+    "text": "Karl Kraepelin — German naturalist (1848-1915).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q68239, https://www.wikidata.org/wiki/Q68239; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q57230",
+    "text": "Johann Friedrich Gmelin — German naturalist (1748-1804).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q57230, https://www.wikidata.org/wiki/Q57230; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q77457",
+    "text": "Paul Möhring — German naturalist (1710-1792).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q77457, https://www.wikidata.org/wiki/Q77457; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1731499",
+    "text": "Karl Heinrich Mertens — German botanist and naturalist (1796-1830).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1731499, https://www.wikidata.org/wiki/Q1731499; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q91072",
+    "text": "John Herbinius — writer and naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q91072, https://www.wikidata.org/wiki/Q91072; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3193449",
+    "text": "Karl Renard — German naturalist (1809-1886).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3193449, https://www.wikidata.org/wiki/Q3193449; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2743346",
+    "text": "Henrik Johan Holmberg — Naturalist and Ethnographer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q2743346, https://www.wikidata.org/wiki/Q2743346; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q84181",
+    "text": "Giovanni Antonio Scopoli — Tyrolean physician and naturalist (1723-1788).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q84181, https://www.wikidata.org/wiki/Q84181; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q63324",
+    "text": "Moritz Balthasar Borkhausen — German naturalist and forester (1760-1806).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q63324, https://www.wikidata.org/wiki/Q63324; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1562433",
+    "text": "Franz von Hohenwart — Slovenian naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1562433, https://www.wikidata.org/wiki/Q1562433; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q75453",
+    "text": "Johann Wolf — German naturalist and ornithologist (1765–1824).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q75453, https://www.wikidata.org/wiki/Q75453; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2662931",
+    "text": "Bernhard Meyer — German physician and naturalist (1767-1836).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q2662931, https://www.wikidata.org/wiki/Q2662931; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q369737",
+    "text": "Anton Rochel — Austrian naturalist (1770–1847).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q369737, https://www.wikidata.org/wiki/Q369737; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q463269",
+    "text": "Sveinn Pálsson — Icelandic physician and naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q463269, https://www.wikidata.org/wiki/Q463269; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2760849",
+    "text": "Deepakbhai P. Mehta — A teacher and naturalist from Gujarat.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q2760849, https://www.wikidata.org/wiki/Q2760849; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q67413",
+    "text": "Eduard Joseph d'Alton — German engraver and naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q67413, https://www.wikidata.org/wiki/Q67413; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6242343",
+    "text": "John K'Eogh — Church of Ireland clergyman, naturalist, and author of scientific and medical tracts.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6242343, https://www.wikidata.org/wiki/Q6242343; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q16557165",
+    "text": "Francesco Corbetta — Italian naturalist and botanist (1932-2019).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q16557165, https://www.wikidata.org/wiki/Q16557165; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3211655",
+    "text": "Alessandro Ghigi — Italian zoologist, naturalist and writer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3211655, https://www.wikidata.org/wiki/Q3211655; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7681183",
+    "text": "Tamezo Mori — Japanese naturalist (1884-1962).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q7681183, https://www.wikidata.org/wiki/Q7681183; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q14837",
+    "text": "Louis Leakey — British archaeologist and naturalist whose work was important in establishing human evolutionary development in Africa.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q14837, https://www.wikidata.org/wiki/Q14837; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q68757",
+    "text": "Moritz Wagner — German naturalist (1813-1887).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q68757, https://www.wikidata.org/wiki/Q68757; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q18531124",
+    "text": "William Cole — English naturalist, born 1622.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18531124, https://www.wikidata.org/wiki/Q18531124; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q322794",
+    "text": "William Smellie — Scottish master printer, naturalist, antiquary, editor and encyclopedist (1740-1795).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q322794, https://www.wikidata.org/wiki/Q322794; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q334364",
+    "text": "John Latham — English physician, naturalist and author.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q334364, https://www.wikidata.org/wiki/Q334364; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q33693258",
+    "text": "Harriet Sheppard — Canadian botanist, entomologist and naturalist (1786-1858).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q33693258, https://www.wikidata.org/wiki/Q33693258; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q18672775",
+    "text": "William Hamilton — Irish, naturalist and political activist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18672775, https://www.wikidata.org/wiki/Q18672775; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q361037",
+    "text": "Odoardo Beccari — Italian botanist and naturalist (1843–1920).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q361037, https://www.wikidata.org/wiki/Q361037; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q18202812",
+    "text": "Giuseppe Francesco Baruffi — Italian presbyter, writer and naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18202812, https://www.wikidata.org/wiki/Q18202812; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4251474",
+    "text": "Antonie Augustus Bruijn — Dutch naturalist and navy officer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4251474, https://www.wikidata.org/wiki/Q4251474; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q61473760",
+    "text": "Emile Blondelot — Luxembourgian naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q61473760, https://www.wikidata.org/wiki/Q61473760; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q21393327",
+    "text": "Élizé Liénard — Mauritian naturalist (1808-1876).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q21393327, https://www.wikidata.org/wiki/Q21393327; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1385325",
+    "text": "Willem Piso — Dutch physician and naturalist (1611-1678).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1385325, https://www.wikidata.org/wiki/Q1385325; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q978054",
+    "text": "Thomas Potts — New Zealand naturalist, ornithologist, entomologist and botanist (1824-1888).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q978054, https://www.wikidata.org/wiki/Q978054; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q5080778",
+    "text": "Charles McCann — Indian born New Zealand botanist, biologist and naturalist (1899-1980).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q5080778, https://www.wikidata.org/wiki/Q5080778; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2624463",
+    "text": "William Colenso — New Zealand missionary, politician, naturalist (1811-1899).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q2624463, https://www.wikidata.org/wiki/Q2624463; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6098688",
+    "text": "Iver Heltzen — Norwegian priest and naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6098688, https://www.wikidata.org/wiki/Q6098688; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q321358",
+    "text": "Ulisse Aldrovandi — Italian naturalist (1522-1605).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q321358, https://www.wikidata.org/wiki/Q321358; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q5864227",
+    "text": "Fortunato Herrera — Peruvian university teacher, naturalist and botanist (1873-1945).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q5864227, https://www.wikidata.org/wiki/Q5864227; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q68550576",
+    "text": "Marie de Rusiecka — Polish physician and naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q68550576, https://www.wikidata.org/wiki/Q68550576; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2355765",
+    "text": "Aleksander Zawadzki — naturalist (1798-1868).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q2355765, https://www.wikidata.org/wiki/Q2355765; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1445443",
+    "text": "Domenico Vandelli — Italian botanist and naturalist (1735–1816).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1445443, https://www.wikidata.org/wiki/Q1445443; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q75326",
+    "text": "Ernst Johann Schmitz — German naturalist, ornithologist, entomologist and Roman Catholic priest.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q75326, https://www.wikidata.org/wiki/Q75326; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q120009",
+    "text": "François Étienne Delaroche — Genevan naturalist and physician (1781-1813).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q120009, https://www.wikidata.org/wiki/Q120009; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3762098",
+    "text": "Giacomo Filippo Durazzo — head of the wealthiest family in Genoa; naturalist and bibliophile.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3762098, https://www.wikidata.org/wiki/Q3762098; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1054400",
+    "text": "Francesco Griselini — Italian naturalist and botanist (1717-1787).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1054400, https://www.wikidata.org/wiki/Q1054400; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q213570",
+    "text": "Johann Reinhold Forster — German naturalist (1729-1798).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q213570, https://www.wikidata.org/wiki/Q213570; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q330212",
+    "text": "Viktor Grebennikov — Russian scientist, naturalist, entomologist and paranormal researcher (1927-2001).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q330212, https://www.wikidata.org/wiki/Q330212; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q258817",
+    "text": "Alexei Pavlovich Fedchenko — Russian naturalist and traveler (1844-1873).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q258817, https://www.wikidata.org/wiki/Q258817; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2337590",
+    "text": "Grigory Razumovsky — Russian naturalist (1759-1837).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q2337590, https://www.wikidata.org/wiki/Q2337590; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q121641",
+    "text": "Leonid Breitfuß — Russian naturalist (1864-1950).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q121641, https://www.wikidata.org/wiki/Q121641; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q57361",
+    "text": "Johann Friedrich von Brandt — German naturalist (1802–1879).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q57361, https://www.wikidata.org/wiki/Q57361; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q213583",
+    "text": "Johann Matthäus Bechstein — German naturalist, forester, ornithologist, entomologist, and herpetologist (1757-1822).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q213583, https://www.wikidata.org/wiki/Q213583; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q5236326",
+    "text": "David Landsborough — Scottish clergyman, naturalist (1779-1854).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q5236326, https://www.wikidata.org/wiki/Q5236326; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q371568",
+    "text": "Marjorie Courtenay-Latimer — South African naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q371568, https://www.wikidata.org/wiki/Q371568; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3569544",
+    "text": "Vladimir Wagner — Russian naturalist, psychologist, zoologist and arachnologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3569544, https://www.wikidata.org/wiki/Q3569544; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1221568",
+    "text": "Ignacio Bolívar — Spanish naturalist (1850-1944).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1221568, https://www.wikidata.org/wiki/Q1221568; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2613638",
+    "text": "Pablo de La Llave — Mexican scientist, priest, politician and naturalist (1773–1833).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q2613638, https://www.wikidata.org/wiki/Q2613638; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q724785",
+    "text": "José Arechavaleta — Spanish naturalist (1838-1912).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q724785, https://www.wikidata.org/wiki/Q724785; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q39658",
+    "text": "Carl Peter Thunberg — Swedish naturalist (1743-1828).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q39658, https://www.wikidata.org/wiki/Q39658; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q962778",
+    "text": "Edward Daniel Clarke — English naturalist, mineralogist and traveller (1769-1822).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q962778, https://www.wikidata.org/wiki/Q962778; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q60116",
+    "text": "Conrad Gessner — Swiss naturalist (1516-1565).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q60116, https://www.wikidata.org/wiki/Q60116; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q115643",
+    "text": "Emil Goeldi — Swiss-Brazilian naturalist and zoologist (1859-1917).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q115643, https://www.wikidata.org/wiki/Q115643; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q55069834",
+    "text": "Lorenz Oken — naturalist (1779-1851).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q55069834, https://www.wikidata.org/wiki/Q55069834; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q5728874",
+    "text": "Henry Suter — Swiss-born New Zealand zoologist, naturalist, palaeontologist, and malacologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q5728874, https://www.wikidata.org/wiki/Q5728874; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q116720",
+    "text": "Emil Hassler — Swiss physician, ethnographer, naturalist and botanist (1864-1937).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q116720, https://www.wikidata.org/wiki/Q116720; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q116878",
+    "text": "Louis Jurine — Swiss physician and naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q116878, https://www.wikidata.org/wiki/Q116878; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q310400",
+    "text": "Gerald Durrell — naturalist, zookeeper, conservationist, author and television presenter.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q310400, https://www.wikidata.org/wiki/Q310400; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q513593",
+    "text": "Martin Lister — English naturalist and physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q513593, https://www.wikidata.org/wiki/Q513593; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q45319168",
+    "text": "Bert Axell — British naturalist and ornithologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q45319168, https://www.wikidata.org/wiki/Q45319168; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q668763",
+    "text": "Thomas Muffet — English naturalist and physician (1553-1604).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q668763, https://www.wikidata.org/wiki/Q668763; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q220155",
+    "text": "John Berkenhout — British physician, naturalist and writer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q220155, https://www.wikidata.org/wiki/Q220155; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q221912",
+    "text": "Frank Ludlow — English army officer and naturalist (1885-1972).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q221912, https://www.wikidata.org/wiki/Q221912; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q14049",
+    "text": "Spencer Fullerton Baird — American naturalist, ornithologist, ichthyologist, museum curator, and the 2nd Secretary of the Smithsonian.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q14049, https://www.wikidata.org/wiki/Q14049; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1795552",
+    "text": "Catherine Stern — German educationist, naturalist and non-fiction writer (1894-1973).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1795552, https://www.wikidata.org/wiki/Q1795552; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1555418",
+    "text": "Gustav Eisen — Naturalist and zoologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1555418, https://www.wikidata.org/wiki/Q1555418; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q379580",
+    "text": "John Muir — Scottish-born American naturalist and author (1838-1914).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q379580, https://www.wikidata.org/wiki/Q379580; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3116627",
+    "text": "Griffith Hughes — Welsh cleric and naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3116627, https://www.wikidata.org/wiki/Q3116627; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q545123",
+    "text": "Thomas Pennant — Welsh naturalist (1726-1798).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q545123, https://www.wikidata.org/wiki/Q545123; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q20266669",
+    "text": "Moc Morgan — British television presenter and naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q20266669, https://www.wikidata.org/wiki/Q20266669; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q16737333",
+    "text": "John Williams — Welsh physician and naturalist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q16737333, https://www.wikidata.org/wiki/Q16737333; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q13130916",
+    "text": "Ronald Lockley — Welsh naturalist and author.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q13130916, https://www.wikidata.org/wiki/Q13130916; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q77894",
+    "text": "Theodor Wolf — German naturalist (1841-1924).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q77894, https://www.wikidata.org/wiki/Q77894; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q68096",
+    "text": "Johann Julius Walbaum — German physician, naturalist and taxonomist (1724-1799).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q68096, https://www.wikidata.org/wiki/Q68096; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3081867",
+    "text": "Francisco Javier Muñiz — Argentine physician, naturalist, and politician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3081867, https://www.wikidata.org/wiki/Q3081867; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  }
+]

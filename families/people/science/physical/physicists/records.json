@@ -1,0 +1,722 @@
+[
+  {
+    "id": "person-wilhelm-rontgen",
+    "text": "Wilhelm Röntgen — physicist; X-ray discovery.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-jj-thomson",
+    "text": "J. J. Thomson — physicist; electron discovery.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-max-planck",
+    "text": "Max Planck — physicist; energy quantization.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-albert-einstein",
+    "text": "Albert Einstein — physicist; photoelectric-effect theory.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-niels-bohr",
+    "text": "Niels Bohr — physicist; atomic structure.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-werner-heisenberg",
+    "text": "Werner Heisenberg — physicist; quantum mechanics.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-erwin-schrodinger",
+    "text": "Erwin Schrödinger — physicist; wave mechanics.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-paul-dirac",
+    "text": "Paul Dirac — physicist; relativistic quantum theory.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-louis-de-broglie",
+    "text": "Louis de Broglie — physicist; matter waves.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-wolfgang-pauli",
+    "text": "Wolfgang Pauli — physicist; exclusion principle.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-enrico-fermi",
+    "text": "Enrico Fermi — physicist; neutron-induced nuclear reactions.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-james-chadwick",
+    "text": "James Chadwick — physicist; neutron discovery.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-cv-raman",
+    "text": "C. V. Raman — physicist; light scattering.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-hideki-yukawa",
+    "text": "Hideki Yukawa — physicist; meson prediction.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-max-born",
+    "text": "Max Born — physicist; probabilistic quantum interpretation.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-john-bardeen",
+    "text": "John Bardeen — physicist; transistors and superconductivity.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-richard-feynman",
+    "text": "Richard Feynman — physicist; quantum electrodynamics.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-sin-itiro-tomonaga",
+    "text": "Sin-Itiro Tomonaga — physicist; quantum electrodynamics.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-chen-ning-yang",
+    "text": "Chen Ning Yang — physicist; parity violation.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-tsung-dao-lee",
+    "text": "Tsung-Dao Lee — physicist; parity violation.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-abdus-salam",
+    "text": "Abdus Salam — physicist; electroweak unification.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-subrahmanyan-chandrasekhar",
+    "text": "Subrahmanyan Chandrasekhar — astrophysicist; stellar evolution.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-donna-strickland",
+    "text": "Donna Strickland — physicist; chirped-pulse amplification.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, Nobel Prize-awarded women, https://www.nobelprize.org/prizes/peace/nobel-prize-awarded-women/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-andrea-ghez",
+    "text": "Andrea Ghez — astronomer; Galactic-centre compact object.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, Nobel Prize-awarded women, https://www.nobelprize.org/prizes/peace/nobel-prize-awarded-women/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "wikidata-q1679194",
+    "text": "Jakob Laub — Austria-Hungarian physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1679194, https://www.wikidata.org/wiki/Q1679194; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3326114",
+    "text": "Mourad Mouradian — Soviet physicist (1930-2015).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3326114, https://www.wikidata.org/wiki/Q3326114; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q354856",
+    "text": "Richard Dalitz — Australian physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q354856, https://www.wikidata.org/wiki/Q354856; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q77736",
+    "text": "Alexander Meissner — Austrian engineer and physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q77736, https://www.wikidata.org/wiki/Q77736; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4820816",
+    "text": "August Seydler — Czech astronomer, theoretical physicist, and professor at Charles University in Prague.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4820816, https://www.wikidata.org/wiki/Q4820816; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q252142",
+    "text": "Ányos Jedlik — Hungarian physicist and roman catholic priest.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q252142, https://www.wikidata.org/wiki/Q252142; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1537141",
+    "text": "Gustav Jäger — Austrian physicist (1865-1938).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1537141, https://www.wikidata.org/wiki/Q1537141; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q84227",
+    "text": "Paul Ehrenfest — Austrian and Dutch theoretical physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q84227, https://www.wikidata.org/wiki/Q84227; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q93479",
+    "text": "Otto Robert Frisch — Austrian-born British nuclear physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q93479, https://www.wikidata.org/wiki/Q93479; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q908288",
+    "text": "Josip Franjo Domin — Croatian-Hungarian physicist, priest, physician and pioneer of electrotherapy.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q908288, https://www.wikidata.org/wiki/Q908288; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q18529643",
+    "text": "Ivan Klodič — Slovene physicist and meteorologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18529643, https://www.wikidata.org/wiki/Q18529643; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q12845357",
+    "text": "Sabir Abdulmanaf oğlu Hacıyev — Azerbaijani physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q12845357, https://www.wikidata.org/wiki/Q12845357; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4054564",
+    "text": "Hasan Abdullayev — Azerbaijani physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4054564, https://www.wikidata.org/wiki/Q4054564; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2496057",
+    "text": "Alexander S. Potupa — Belarusian activist and physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q2496057, https://www.wikidata.org/wiki/Q2496057; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2471122",
+    "text": "Vassili Nesterenko — Belarussian physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q2471122, https://www.wikidata.org/wiki/Q2471122; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q726083",
+    "text": "Léon Van Hove — Belgian physicist, Director General of CERN.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q726083, https://www.wikidata.org/wiki/Q726083; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1797240",
+    "text": "Oscar Sala — Brazilian nuclear physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1797240, https://www.wikidata.org/wiki/Q1797240; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q5982733",
+    "text": "Ian Robert Young — British medical physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q5982733, https://www.wikidata.org/wiki/Q5982733; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q305975",
+    "text": "Abbas Ibn Firnas — Andalusi chemist and physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q305975, https://www.wikidata.org/wiki/Q305975; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q380171",
+    "text": "Louis Slotin — Canadian physicist and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q380171, https://www.wikidata.org/wiki/Q380171; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q76602",
+    "text": "Gerhard Herzberg — German-Canadian physicist and physical chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q76602, https://www.wikidata.org/wiki/Q76602; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3237140",
+    "text": "Lev Kofman — Canadian physicist and theoretical physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3237140, https://www.wikidata.org/wiki/Q3237140; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q73058",
+    "text": "Willard Boyle — Canadian physicist and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q73058, https://www.wikidata.org/wiki/Q73058; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q12642682",
+    "text": "Stanko Popović — Croatian physicist and academic.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q12642682, https://www.wikidata.org/wiki/Q12642682; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q765352",
+    "text": "August Žáček — Czech physicist and inventor.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q765352, https://www.wikidata.org/wiki/Q765352; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1935747",
+    "text": "Miloš Lokajícek — Czech physicist and university teacher.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1935747, https://www.wikidata.org/wiki/Q1935747; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q608235",
+    "text": "Antonín Baudyš — Czech politician, physicist and astrologer (1946-2010).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q608235, https://www.wikidata.org/wiki/Q608235; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q695848",
+    "text": "Arent Aasheim — Norwegian professor and physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q695848, https://www.wikidata.org/wiki/Q695848; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q680",
+    "text": "Alessandro Volta — Italian physicist, chemist, and pioneer of electricity and power.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q680, https://www.wikidata.org/wiki/Q680; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3571330",
+    "text": "Yahya El Mashad — Egyptian nuclear physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3571330, https://www.wikidata.org/wiki/Q3571330; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7925668",
+    "text": "Victor Albert Bailey — British-Australian physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q7925668, https://www.wikidata.org/wiki/Q7925668; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q55021430",
+    "text": "Jean Andreas Elias Büchner — physicist and university teacher (1701-1769).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q55021430, https://www.wikidata.org/wiki/Q55021430; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q11867441",
+    "text": "Juhan Ross — Estonian physicist and ecologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q11867441, https://www.wikidata.org/wiki/Q11867441; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q620849",
+    "text": "Karl Rebane — Estonian physicist (1926-2007).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q620849, https://www.wikidata.org/wiki/Q620849; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q320056",
+    "text": "Yrjö Väisälä — Finnish astronomer and physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q320056, https://www.wikidata.org/wiki/Q320056; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q133232",
+    "text": "Gabriel Lippmann — French physicist born in Luxembourg.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q133232, https://www.wikidata.org/wiki/Q133232; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2832957",
+    "text": "Alex Grossmann — Croatian-French physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q2832957, https://www.wikidata.org/wiki/Q2832957; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q368121",
+    "text": "Guillaume Amontons — French scientific instrument inventor and physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q368121, https://www.wikidata.org/wiki/Q368121; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1461221",
+    "text": "Friedrich Möglich — German politician and physicist (1902-1957).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1461221, https://www.wikidata.org/wiki/Q1461221; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q70523",
+    "text": "Hermann Knoblauch — German physicist (1820-1895).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q70523, https://www.wikidata.org/wiki/Q70523; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q30693",
+    "text": "Rudolf Clausius — German mathematical physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q30693, https://www.wikidata.org/wiki/Q30693; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q15774152",
+    "text": "Friedrich Karl Voelkel — chemist, physicist and high school teacher (1819-1880).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q15774152, https://www.wikidata.org/wiki/Q15774152; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7409",
+    "text": "Hertha Sponer — German physicist and chemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q7409, https://www.wikidata.org/wiki/Q7409; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q91811",
+    "text": "Alexander Nikuradse — Georgian–German physicist and political scientist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q91811, https://www.wikidata.org/wiki/Q91811; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q109422",
+    "text": "Ernst-Joachim Gießmann — German politician and physicist (1919-2004).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q109422, https://www.wikidata.org/wiki/Q109422; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1360512",
+    "text": "Ernst Walter Ruhmer — German physicist (1878–1913).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1360512, https://www.wikidata.org/wiki/Q1360512; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q57063",
+    "text": "Philipp Lenard — German physicist (1862-1947).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q57063, https://www.wikidata.org/wiki/Q57063; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q74345",
+    "text": "Daniel Gralath — 18th century physicist and mayor of Gdansk.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q74345, https://www.wikidata.org/wiki/Q74345; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q60579",
+    "text": "Moritz von Jacobi — German engineer and physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q60579, https://www.wikidata.org/wiki/Q60579; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q106971",
+    "text": "Črtomir Zupančič — Slovene-German physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q106971, https://www.wikidata.org/wiki/Q106971; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q16721311",
+    "text": "Verner Sjjuttse — German physicist (1911-2001).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q16721311, https://www.wikidata.org/wiki/Q16721311; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q70999",
+    "text": "Manfred von Ardenne — German researcher and applied physicist (1907-1997).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q70999, https://www.wikidata.org/wiki/Q70999; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q10890967",
+    "text": "Wolfgang Kroll — German-Chinese physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q10890967, https://www.wikidata.org/wiki/Q10890967; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6154532",
+    "text": "Adolf Moberg — Finnish chemist and physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6154532, https://www.wikidata.org/wiki/Q6154532; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3104737",
+    "text": "Geórgios Stravakákis — Greek politician and physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3104737, https://www.wikidata.org/wiki/Q3104737; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q43948",
+    "text": "Joseph von Fraunhofer — German optical physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q43948, https://www.wikidata.org/wiki/Q43948; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q323260",
+    "text": "Loránd Eötvös — Hungarian physicist (1848-1919).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q323260, https://www.wikidata.org/wiki/Q323260; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q47454095",
+    "text": "Mihály Jánossy — Hungarian and English physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q47454095, https://www.wikidata.org/wiki/Q47454095; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q155786",
+    "text": "Dennis Gabor — Nobel Prize-winning physicist and inventor of holography.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q155786, https://www.wikidata.org/wiki/Q155786; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q359248",
+    "text": "György Jendrassik — Hungarian physicist and mechanical engineer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q359248, https://www.wikidata.org/wiki/Q359248; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6733",
+    "text": "Edward Teller — Hungarian-American nuclear physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q6733, https://www.wikidata.org/wiki/Q6733; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q153238",
+    "text": "Leó Szilárd — physicist and biologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q153238, https://www.wikidata.org/wiki/Q153238; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7286621",
+    "text": "Rakesh Popli — Indian nuclear physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q7286621, https://www.wikidata.org/wiki/Q7286621; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q45789",
+    "text": "Satyendra Nath Bose — Indian physicist and polymath from Bengal (1894-1974).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q45789, https://www.wikidata.org/wiki/Q45789; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q17411693",
+    "text": "Hans Wospakrik — Indonesian physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q17411693, https://www.wikidata.org/wiki/Q17411693; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2895606",
+    "text": "Mohsen Fakhrizadeh — Iranian general and physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q2895606, https://www.wikidata.org/wiki/Q2895606; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q12222509",
+    "text": "Abdul Jabbar Abdullah — Iraqi physicist/meteorologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q12222509, https://www.wikidata.org/wiki/Q12222509; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q183631",
+    "text": "Ernest Walton — Irish physicist and Nobel laureate.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q183631, https://www.wikidata.org/wiki/Q183631; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q734412",
+    "text": "George Johnstone Stoney — Anglo-Irish physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q734412, https://www.wikidata.org/wiki/Q734412; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q368732",
+    "text": "Eliyahu M. Goldratt — Israeli physicist and management guru.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q368732, https://www.wikidata.org/wiki/Q368732; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q18644895",
+    "text": "Pavel Zlobec — Italian astronomer and physicist (1939-2019).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18644895, https://www.wikidata.org/wiki/Q18644895; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q498246",
+    "text": "Giuseppe Occhialini — Italian physicist, who contributed to the discovery of the pion or pi-meson decay.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q498246, https://www.wikidata.org/wiki/Q498246; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q279315",
+    "text": "Giovanni Giorgi — Italian physicist and engineer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q279315, https://www.wikidata.org/wiki/Q279315; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q453557",
+    "text": "Bruno Pontecorvo — Italian nuclear physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q453557, https://www.wikidata.org/wiki/Q453557; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q155773",
+    "text": "Masatoshi Koshiba — Japanese physicist and astronomer (1926-2020).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q155773, https://www.wikidata.org/wiki/Q155773; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2158935",
+    "text": "Robert Symmer — British physicist and author.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q2158935, https://www.wikidata.org/wiki/Q2158935; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q323294",
+    "text": "George Green — British mathematical physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q323294, https://www.wikidata.org/wiki/Q323294; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q280250",
+    "text": "Carlo Matteucci — Italian physicist (1811-1868).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q280250, https://www.wikidata.org/wiki/Q280250; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q45286948",
+    "text": "Gaetano Ferragni — Italian physicist, surgeon and patriot.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q45286948, https://www.wikidata.org/wiki/Q45286948; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q55227234",
+    "text": "Eliseo della Concezione — born Francesco Mango, Italian physicist and monk of the Discalced Carmelites Order.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q55227234, https://www.wikidata.org/wiki/Q55227234; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q695938",
+    "text": "Ewald Georg von Kleist — German physicist and bishop.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q695938, https://www.wikidata.org/wiki/Q695938; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q522467",
+    "text": "Carlo Luigi Giuseppe Bertero — Sardinian botanist and physicist (1789-1831).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q522467, https://www.wikidata.org/wiki/Q522467; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q62891",
+    "text": "Heike Kamerlingh Onnes — Dutch physicist, Nobel prize winner.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q62891, https://www.wikidata.org/wiki/Q62891; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q64511",
+    "text": "Adolfas Jucys — Lithuanian theoretical physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q64511, https://www.wikidata.org/wiki/Q64511; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q994738",
+    "text": "Jean-Antoine Nollet — French clergyman and physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q994738, https://www.wikidata.org/wiki/Q994738; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q504448",
+    "text": "Jacob Bekenstein — Mexican-Israeli physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q504448, https://www.wikidata.org/wiki/Q504448; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q19618266",
+    "text": "Brigitta Pinkusowna Kowarskaja — Soviet-Moldovan physicist and computer scientist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q19618266, https://www.wikidata.org/wiki/Q19618266; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q5556336",
+    "text": "Gheorghe Ghimpu — Moldovan physicist and politician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q5556336, https://www.wikidata.org/wiki/Q5556336; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q329498",
+    "text": "Cornelis Rudolphus Theodorus Krayenhoff — Dutch physicist (1759-1840).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q329498, https://www.wikidata.org/wiki/Q329498; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q184659",
+    "text": "Maurice Wilkins — New Zealand-born English physicist and biologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q184659, https://www.wikidata.org/wiki/Q184659; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q477729",
+    "text": "Ratko Janev — Macedonian atomic physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q477729, https://www.wikidata.org/wiki/Q477729; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q164389",
+    "text": "Vilhelm Bjerknes — Norwegian physicist and meteorologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q164389, https://www.wikidata.org/wiki/Q164389; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q909305",
+    "text": "John Tandberg — Norwegian chemist and physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q909305, https://www.wikidata.org/wiki/Q909305; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6712366",
+    "text": "M. A. Wazed Miah — Bangladeshi physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6712366, https://www.wikidata.org/wiki/Q6712366; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q709878",
+    "text": "Wang Ganchang — physicist (1907-1998).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q709878, https://www.wikidata.org/wiki/Q709878; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q198109",
+    "text": "Zhu Guangya — Chinese nuclear physicist (1924-2011).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q198109, https://www.wikidata.org/wiki/Q198109; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q67188289",
+    "text": "Zhou Changshou — Chinese physicist and scientific translator.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q67188289, https://www.wikidata.org/wiki/Q67188289; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q8059948",
+    "text": "Yu Min — Chinese nuclear physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q8059948, https://www.wikidata.org/wiki/Q8059948; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q208856",
+    "text": "August Chełkowski — Polish physicist and politician (1927-1999).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q208856, https://www.wikidata.org/wiki/Q208856; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q85945",
+    "text": "Alexander Weissberg-Cybulski — Polish-Austrian physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q85945, https://www.wikidata.org/wiki/Q85945; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q153178",
+    "text": "Georges Charpak — polish-born french physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q153178, https://www.wikidata.org/wiki/Q153178; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1644743",
+    "text": "Ludwik Je̜drzej Gorzkowski — Polish politician, physicist and activist (1811-1857).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1644743, https://www.wikidata.org/wiki/Q1644743; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q219982",
+    "text": "Joseph Rotblat — Polish-born British-naturalised physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q219982, https://www.wikidata.org/wiki/Q219982; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q57073",
+    "text": "Daniel Gabriel Fahrenheit — German-Polish physicist and engineer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q57073, https://www.wikidata.org/wiki/Q57073; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q623348",
+    "text": "Aquino de Bragança — Goan physicist, journalist, diplomat and Mozambican social scientist (1924-1986).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q623348, https://www.wikidata.org/wiki/Q623348; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q44318",
+    "text": "Heinrich Gustav Magnus — German chemist and physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q44318, https://www.wikidata.org/wiki/Q44318; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q67190420",
+    "text": "Ma Shijun — Chinese theoretical physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q67190420, https://www.wikidata.org/wiki/Q67190420; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q116201",
+    "text": "Georges-Louis Le Sage — Genevan physicist, most known for his theory of gravitation, for his invention of an electric telegraph and his anticipation of the kinetic theory of gases.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q116201, https://www.wikidata.org/wiki/Q116201; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q310757",
+    "text": "Ruđer Josip Bošković — Croat-Italian physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q310757, https://www.wikidata.org/wiki/Q310757; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4013403",
+    "text": "Vincenzo Miotti — Italian physicist and astronomer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4013403, https://www.wikidata.org/wiki/Q4013403; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q459269",
+    "text": "Giuseppe Zamboni — Italian Roman Catholic priest-physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q459269, https://www.wikidata.org/wiki/Q459269; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1030899",
+    "text": "Zoltán Gábos — theoretical physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1030899, https://www.wikidata.org/wiki/Q1030899; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1231113",
+    "text": "Yuri Svirezhev — Physicist and Ecologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1231113, https://www.wikidata.org/wiki/Q1231113; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q20430",
+    "text": "Sergey Kapitsa — Soviet and Russian physicist, TV host.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q20430, https://www.wikidata.org/wiki/Q20430; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q487983",
+    "text": "Anatoly Petrovich Alexandrov — Soviet physicist (1903-1994).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q487983, https://www.wikidata.org/wiki/Q487983; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q432606",
+    "text": "Evgenii Feinberg — Soviet and Russian theoretical physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q432606, https://www.wikidata.org/wiki/Q432606; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q83557",
+    "text": "Nikolay Basov — Soviet physicist (1922-2001).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q83557, https://www.wikidata.org/wiki/Q83557; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q63217",
+    "text": "Georg Wilhelm Richmann — Baltic-German physicist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q63217, https://www.wikidata.org/wiki/Q63217; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4142729",
+    "text": "Dmitry Goldhammer — Russian physicist (1860-1922).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4142729, https://www.wikidata.org/wiki/Q4142729; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q24055260",
+    "text": "Alan Kelly — Scottish physicist (1928-2015).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q24055260, https://www.wikidata.org/wiki/Q24055260; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  }
+]

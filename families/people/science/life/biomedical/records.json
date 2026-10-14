@@ -1,0 +1,722 @@
+[
+  {
+    "id": "person-alexander-fleming",
+    "text": "Alexander Fleming — bacteriologist; penicillin discovery.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-howard-florey",
+    "text": "Howard Florey — pathologist; penicillin development.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-ernst-chain",
+    "text": "Ernst Chain — biochemist; penicillin development.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-barbara-mcclintock",
+    "text": "Barbara McClintock — geneticist; mobile genetic elements.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-tu-youyou",
+    "text": "Tu Youyou — pharmaceutical researcher; artemisinin.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, Tu Youyou biography, https://www.nobelprize.org/prizes/medicine/2015/tu/biographical/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-satoshi-omura",
+    "text": "Satoshi Ōmura — microbiologist; avermectin research.",
+    "provenance": "Original concise factual description. Source: Nobel Assembly, 2015 scientific background, https://www.nobelprize.org/prizes/medicine/2015/advanced-information/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-william-campbell",
+    "text": "William Campbell — parasitologist; avermectin research.",
+    "provenance": "Original concise factual description. Source: Nobel Assembly, 2015 scientific background, https://www.nobelprize.org/prizes/medicine/2015/advanced-information/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-katalin-kariko",
+    "text": "Katalin Karikó — biochemist; modified mRNA.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, Katalin Karikó event biography, https://www.nobelprize.org/events/nobel-prize-dialogue/madrid-2024/panelists/katalin-kariko/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-drew-weissman",
+    "text": "Drew Weissman — immunologist; modified mRNA.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, Drew Weissman facts, https://www.nobelprize.org/laureate/1025. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-svante-paabo",
+    "text": "Svante Pääbo — geneticist; extinct hominin genomes.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-francoise-barre-sinoussi",
+    "text": "Françoise Barré-Sinoussi — virologist; HIV discovery.",
+    "provenance": "Original concise factual description. Source: Nobel Assembly, 2008 scientific background, https://www.nobelprize.org/prizes/medicine/2008/advanced-information/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-luc-montagnier",
+    "text": "Luc Montagnier — virologist; HIV discovery.",
+    "provenance": "Original concise factual description. Source: Nobel Assembly, 2008 scientific background, https://www.nobelprize.org/prizes/medicine/2008/advanced-information/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-rita-levi-montalcini",
+    "text": "Rita Levi-Montalcini — neurobiologist; nerve growth factor.",
+    "provenance": "Original concise factual description. Source: Nobel Assembly, 1986 press release, https://www.nobelprize.org/prizes/medicine/1986/press-release/1000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-stanley-cohen",
+    "text": "Stanley Cohen — biochemist; epidermal growth factor.",
+    "provenance": "Original concise factual description. Source: Nobel Assembly, 1986 press release, https://www.nobelprize.org/prizes/medicine/1986/press-release/1000/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-rosalyn-yalow",
+    "text": "Rosalyn Yalow — medical physicist; radioimmunoassays.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-roger-sperry",
+    "text": "Roger Sperry — neurobiologist; cerebral-hemisphere specialization.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-santiago-ramon-y-cajal",
+    "text": "Santiago Ramón y Cajal — neuroscientist; neuronal anatomy.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-camillo-golgi",
+    "text": "Camillo Golgi — physician; nervous-system staining.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-ivan-pavlov",
+    "text": "Ivan Pavlov — physiologist; digestion research.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-robert-koch",
+    "text": "Robert Koch — bacteriologist; tuberculosis research.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-emil-von-behring",
+    "text": "Emil von Behring — physician; diphtheria serum.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-har-gobind-khorana",
+    "text": "Har Gobind Khorana — biochemist; genetic code.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-severo-ochoa",
+    "text": "Severo Ochoa — biochemist; nucleic-acid synthesis.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "person-max-theiler",
+    "text": "Max Theiler — virologist; yellow-fever vaccine.",
+    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+  },
+  {
+    "id": "wikidata-q1393417",
+    "text": "Ali ibn Sahl Rabban al-Tabari — Persian scholar and physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1393417, https://www.wikidata.org/wiki/Q1393417; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3351842",
+    "text": "Omar Boudjellab — Algerian politician and physician (1930-2006).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3351842, https://www.wikidata.org/wiki/Q3351842; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q18912080",
+    "text": "Solomon Solis-Cohen — Jewish American physician, professor of medicine and prominent Zionist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q18912080, https://www.wikidata.org/wiki/Q18912080; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q155525",
+    "text": "César Milstein — Argentine biochemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q155525, https://www.wikidata.org/wiki/Q155525; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q5925836",
+    "text": "James Paroissien — Argentinian physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q5925836, https://www.wikidata.org/wiki/Q5925836; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3876134",
+    "text": "Nicola Boccuzzi — Italian physician and politician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3876134, https://www.wikidata.org/wiki/Q3876134; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q22665471",
+    "text": "Pavel Ananikyan — Armenian surgeon, lecturer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q22665471, https://www.wikidata.org/wiki/Q22665471; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4460918",
+    "text": "Mustafa Topchubashov — Azerbaijani physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4460918, https://www.wikidata.org/wiki/Q4460918; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q454195",
+    "text": "Charles Birch — Australian geneticist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q454195, https://www.wikidata.org/wiki/Q454195; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q443356",
+    "text": "Alexander Collie — Australian surgeon (1793-1835).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q443356, https://www.wikidata.org/wiki/Q443356; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q78612",
+    "text": "Wilhelm Stekel — Austrian physician and psychologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q78612, https://www.wikidata.org/wiki/Q78612; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q159542",
+    "text": "Jan Evangelista Purkyně — Czech biologist, physiologist, doctor, inventor and politician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q159542, https://www.wikidata.org/wiki/Q159542; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q24082606",
+    "text": "Samuel Benedikt Lucca — physician, non-fiction writer and cure doctor (1803-1891).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q24082606, https://www.wikidata.org/wiki/Q24082606; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q11781156",
+    "text": "Milan Jovanović Batut — Yugoslav Serbian physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q11781156, https://www.wikidata.org/wiki/Q11781156; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q560900",
+    "text": "Anna Honzáková — Czech feminist, surgeon and gynecologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q560900, https://www.wikidata.org/wiki/Q560900; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4937702",
+    "text": "Bogomir Magajna — Slovenian writer, physician, partizan.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4937702, https://www.wikidata.org/wiki/Q4937702; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q9147890",
+    "text": "Alfred Šerko — physician (1879-1938).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q9147890, https://www.wikidata.org/wiki/Q9147890; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q82280",
+    "text": "Julian Nowak — Polish microbiologist and politician (1865-1946).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q82280, https://www.wikidata.org/wiki/Q82280; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7424688",
+    "text": "Ivan Kurovets — Ukrainian physician, public and political leader.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q7424688, https://www.wikidata.org/wiki/Q7424688; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2607662",
+    "text": "Danilo Lokar — Slovene physician and writer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q2607662, https://www.wikidata.org/wiki/Q2607662; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q21922634",
+    "text": "Albin Seliškar — Slovene physiologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q21922634, https://www.wikidata.org/wiki/Q21922634; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q27969641",
+    "text": "Ernst Theodor von Brücke — Austrian-American physiologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q27969641, https://www.wikidata.org/wiki/Q27969641; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q154373",
+    "text": "Aribert Heim — Austrian SS member and physician in Mauthausen concentration camp (1914-1992).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q154373, https://www.wikidata.org/wiki/Q154373; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1379473",
+    "text": "Eva Schmidt-Kolmer — Austrian-German physician and politician (1913-1991).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1379473, https://www.wikidata.org/wiki/Q1379473; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q93385",
+    "text": "Erich von Tschermak — Austrian geneticist (1871-1962).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q93385, https://www.wikidata.org/wiki/Q93385; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q86362",
+    "text": "Jakob Rosenfeld — Austrian physician (1903-1952).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q86362, https://www.wikidata.org/wiki/Q86362; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q51880213",
+    "text": "Regina Kapeller-Adler — Austrian-British biochemist and pharmacologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q51880213, https://www.wikidata.org/wiki/Q51880213; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q89289",
+    "text": "Berthold Paul Wiesner — Austrian Jewish physiologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q89289, https://www.wikidata.org/wiki/Q89289; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q86460",
+    "text": "Johann Baptist Malfatti von Monteregio — Italian-Austrian physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q86460, https://www.wikidata.org/wiki/Q86460; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q12784816",
+    "text": "Anton Jeuniker — physician (1771-1837).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q12784816, https://www.wikidata.org/wiki/Q12784816; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q21980579",
+    "text": "Bala Nazarov — Soviet and Azerbaijani surgeon.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q21980579, https://www.wikidata.org/wiki/Q21980579; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q12249624",
+    "text": "Hashim Al-Witry — Doctor, Physician, Professor, Author.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q12249624, https://www.wikidata.org/wiki/Q12249624; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q156482",
+    "text": "Corneille Heymans — Belgian physiologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q156482, https://www.wikidata.org/wiki/Q156482; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q86863",
+    "text": "Alexander von Winiwarter — Austrian-Belgian surgeon.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q86863, https://www.wikidata.org/wiki/Q86863; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q55322190",
+    "text": "Marie Rennotte — Belgian-Brazilian teacher and physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q55322190, https://www.wikidata.org/wiki/Q55322190; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4350269",
+    "text": "Osvaldo Peredo — Bolivian communist and physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4350269, https://www.wikidata.org/wiki/Q4350269; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q187948",
+    "text": "Josué de Castro — Brazilian physician, writer and activist against world hunger (1908-1973).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q187948, https://www.wikidata.org/wiki/Q187948; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6096528",
+    "text": "Iván Izquierdo — Brazilian neuroscientist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6096528, https://www.wikidata.org/wiki/Q6096528; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7795363",
+    "text": "Thomas Wynne — Welsh-American physician and politician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q7795363, https://www.wikidata.org/wiki/Q7795363; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q7343713",
+    "text": "Robert Duthie — British orthoipaedic surgeon.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q7343713, https://www.wikidata.org/wiki/Q7343713; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q382140",
+    "text": "Stamen Grigorov — Bulgarian physician and microbiologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q382140, https://www.wikidata.org/wiki/Q382140; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q540679",
+    "text": "Paul of Aegina — 7th-century Byzantine physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q540679, https://www.wikidata.org/wiki/Q540679; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q162112",
+    "text": "Norman Bethune — Canadian physician, medical innovator and humanitarian.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q162112, https://www.wikidata.org/wiki/Q162112; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q469726",
+    "text": "Rudolf Vrba — Slovak-Jewish Auschwitz escapee, Canadian biochemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q469726, https://www.wikidata.org/wiki/Q469726; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q88532",
+    "text": "Karl Stern — Canadian neuroscientist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q88532, https://www.wikidata.org/wiki/Q88532; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q47015365",
+    "text": "Edward Dagge Worthington — Irish-Canadian physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q47015365, https://www.wikidata.org/wiki/Q47015365; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q4795008",
+    "text": "Sara Hestrin-Lerner — Israeli physiologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q4795008, https://www.wikidata.org/wiki/Q4795008; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q42320338",
+    "text": "Behnam R. Al-Saigh — Iraqi-Canadian physician, surgeon and academic.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q42320338, https://www.wikidata.org/wiki/Q42320338; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q57600366",
+    "text": "Barrie Frost — New Zealand-born Canadian neuroscientist and psychologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q57600366, https://www.wikidata.org/wiki/Q57600366; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q23681174",
+    "text": "John Louis Hubert Neilson — Canadian Surgeon General.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q23681174, https://www.wikidata.org/wiki/Q23681174; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q105494",
+    "text": "Ralph Steinman — Canadian immunologist and cell biologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q105494, https://www.wikidata.org/wiki/Q105494; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6761263",
+    "text": "Maria Hill, Daughter of the Regiment — Canadian surgeon assistant.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6761263, https://www.wikidata.org/wiki/Q6761263; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q17635529",
+    "text": "José Felipe Flores — Famous physician from the Spanish Colony in Guatemala.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q17635529, https://www.wikidata.org/wiki/Q17635529; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1969917",
+    "text": "Ramón Allende Padín — Chilean physician and political figure (1845-1884).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1969917, https://www.wikidata.org/wiki/Q1969917; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q317869",
+    "text": "Wong Fei-hung — Chinese martial artist and physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q317869, https://www.wikidata.org/wiki/Q317869; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q5477485",
+    "text": "Pablo García Medina — Colombian physician (1858-1935).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q5477485, https://www.wikidata.org/wiki/Q5477485; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q5867698",
+    "text": "Francisco Vargas Vargas — Costa Rican physician and politician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q5867698, https://www.wikidata.org/wiki/Q5867698; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1818116",
+    "text": "Anselmus de Boodt — Flemish mineralogist, botanical illustrator and physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1818116, https://www.wikidata.org/wiki/Q1818116; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3508970",
+    "text": "Zdenko Škrabalo — Croatian physician, politician and diplomat.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3508970, https://www.wikidata.org/wiki/Q3508970; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q12634902",
+    "text": "Krista Kostial-Šimonović — Croatian physician and academic.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q12634902, https://www.wikidata.org/wiki/Q12634902; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1227361",
+    "text": "John of Procida — Italian physician and diplomat (1210-1298).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1227361, https://www.wikidata.org/wiki/Q1227361; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6299944",
+    "text": "Juan Guiteras — Cuban physician and pathologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6299944, https://www.wikidata.org/wiki/Q6299944; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6048716",
+    "text": "Octavio de la Concepción de la Pedraja — Argentinian physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6048716, https://www.wikidata.org/wiki/Q6048716; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q215390",
+    "text": "Paul Kaznelson — Czech physician and university teacher (1892-1959).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q215390, https://www.wikidata.org/wiki/Q215390; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q21534262",
+    "text": "Dagmar Benešová — Czech physician (1906-1999).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q21534262, https://www.wikidata.org/wiki/Q21534262; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q21034083",
+    "text": "Zdeněk Placheta — physician, association football player and professor (1931-2014).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q21034083, https://www.wikidata.org/wiki/Q21034083; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1092384",
+    "text": "Milan Hašek — Czech biologist, physician and immunologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1092384, https://www.wikidata.org/wiki/Q1092384; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q182964",
+    "text": "Niels Ryberg Finsen — Faroese physician and scientist of Icelandic descent.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q182964, https://www.wikidata.org/wiki/Q182964; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q504352",
+    "text": "Rasmus Bartholin — Danish scientist, physician and grammarian (1625-1698).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q504352, https://www.wikidata.org/wiki/Q504352; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6300409",
+    "text": "Juan Manuel Taveras — Dominican physician and scientist, father of neuroradiology.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6300409, https://www.wikidata.org/wiki/Q6300409; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q19834953",
+    "text": "August Nicolaus Herrmannsen — German physician and malacologist (1807–1854).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q19834953, https://www.wikidata.org/wiki/Q19834953; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q630646",
+    "text": "Nicolaes Tulp — Surgeon, writer and mayor of Amsterdam (1593-1674).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q630646, https://www.wikidata.org/wiki/Q630646; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q434131",
+    "text": "Jan Ingenhousz — Dutch physiologist (1730-1799).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q434131, https://www.wikidata.org/wiki/Q434131; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q197350",
+    "text": "Zhang Zhongjing — Ancient Chinese physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q197350, https://www.wikidata.org/wiki/Q197350; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q187187",
+    "text": "Matilde Hidalgo — Ecuadorian physician and sufragist (1889-1974).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q187187, https://www.wikidata.org/wiki/Q187187; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q287492",
+    "text": "Ali ibn Ridwan — Egyptian Muslim physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q287492, https://www.wikidata.org/wiki/Q287492; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6009662",
+    "text": "Melitón Barba — Salvadoran writer and physician (1925-2001).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6009662, https://www.wikidata.org/wiki/Q6009662; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q281777",
+    "text": "William Stark — English physician and investigator of scurvy.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q281777, https://www.wikidata.org/wiki/Q281777; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q510778",
+    "text": "William John Adie — British physician and neurologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q510778, https://www.wikidata.org/wiki/Q510778; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q436039",
+    "text": "Thomas Addison — 19th-century English physician and scientist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q436039, https://www.wikidata.org/wiki/Q436039; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q710934",
+    "text": "Arthur Peacocke — British biochemist and theologian.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q710934, https://www.wikidata.org/wiki/Q710934; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q47452636",
+    "text": "Joseph Henry Wythe — British-American preacher-physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q47452636, https://www.wikidata.org/wiki/Q47452636; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q445024",
+    "text": "Werner Zoege von Manteuffel — Baltic German surgeon in Estonia.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q445024, https://www.wikidata.org/wiki/Q445024; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q768494",
+    "text": "Andrias Petersen — Faroese physician, politician (1947-2019).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q768494, https://www.wikidata.org/wiki/Q768494; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q553859",
+    "text": "Robert Tigerstedt — Finnish physician (1853-1923).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q553859, https://www.wikidata.org/wiki/Q553859; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q5484202",
+    "text": "Johan Haartman — Finnish physician and professor (1725–1787).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q5484202, https://www.wikidata.org/wiki/Q5484202; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q131987",
+    "text": "Gabriel Bertrand — Biochemist and bacteriologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q131987, https://www.wikidata.org/wiki/Q131987; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q233985",
+    "text": "Luis Federico Leloir — Argentine biochemist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q233985, https://www.wikidata.org/wiki/Q233985; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q10309445",
+    "text": "José Francisco Xavier Sigaud — French-Brazilian physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q10309445, https://www.wikidata.org/wiki/Q10309445; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q71250",
+    "text": "Ferdinand Hoefer — German-French physician and lexicographer.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q71250, https://www.wikidata.org/wiki/Q71250; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2823083",
+    "text": "Achille Naftalis — French military physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q2823083, https://www.wikidata.org/wiki/Q2823083; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q8078213",
+    "text": "Élie Bouhéreau — Irish French-born physician & librarian.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q8078213, https://www.wikidata.org/wiki/Q8078213; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3610279",
+    "text": "Alessandro Salimbeni — Italian microbiologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3610279, https://www.wikidata.org/wiki/Q3610279; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q3103671",
+    "text": "Georges de Bellio — French art collector and physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q3103671, https://www.wikidata.org/wiki/Q3103671; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q172254",
+    "text": "Ilya Mechnikov — immunologist, embryologist, biologist, Nobel laureat.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q172254, https://www.wikidata.org/wiki/Q172254; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q19866719",
+    "text": "Raissa L. Berg — Russian geneticist (1913-2006).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part4.csv, Wikidata Q19866719, https://www.wikidata.org/wiki/Q19866719; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part4.csv; SHA-256 ef1d65bd59ec3635602a887fad7be3b065227757149e50b5b4f98334836cc9b2; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q102107",
+    "text": "Johann Bernhard Wilbrand — Roman physiologist and university teacher.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q102107, https://www.wikidata.org/wiki/Q102107; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1359399",
+    "text": "Ernst Mangold — German physician, nutritionist and physiologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1359399, https://www.wikidata.org/wiki/Q1359399; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1200643",
+    "text": "Desiderius Beck — German medic and royal bavarian forensic physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1200643, https://www.wikidata.org/wiki/Q1200643; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q89179",
+    "text": "Hermann Welcker — German anatomist, author, physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q89179, https://www.wikidata.org/wiki/Q89179; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q118314",
+    "text": "Julius Dreschfeld — German-British physician and pathologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q118314, https://www.wikidata.org/wiki/Q118314; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1446586",
+    "text": "Franz Drinkwelder — physician (1796-1880).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1446586, https://www.wikidata.org/wiki/Q1446586; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q44597",
+    "text": "Feodor Felix Konrad Lynen — German biochemist, Nobel Laureate.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q44597, https://www.wikidata.org/wiki/Q44597; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q2585807",
+    "text": "Johannes Walaeus — Dutch physician and anatomist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part2.csv, Wikidata Q2585807, https://www.wikidata.org/wiki/Q2585807; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part2.csv; SHA-256 87e7336cae0a6f5b3560c12669fd95d607118d53fd8a2492daba55939871309c; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1022444",
+    "text": "Theodor Matthes — German surgeon and oncologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1022444, https://www.wikidata.org/wiki/Q1022444; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q5327",
+    "text": "Adolf Butenandt — German biochemist (1939 Nobel Prize).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q5327, https://www.wikidata.org/wiki/Q5327; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q52285473",
+    "text": "Otto Neubauer — German-Israeli physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part5.csv, Wikidata Q52285473, https://www.wikidata.org/wiki/Q52285473; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part5.csv; SHA-256 131e091e08360a7951e55a0d36a57a5990d2616f0b8e018d8b8ca2c1bb960780; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1694371",
+    "text": "Johann Heinrich Christoph Trefurt — German university professor and physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1694371, https://www.wikidata.org/wiki/Q1694371; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1913566",
+    "text": "Max Versé — German physician, pathologist and histologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1913566, https://www.wikidata.org/wiki/Q1913566; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q760982",
+    "text": "August Brande — German physician, brewer and politician (1820-1875).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q760982, https://www.wikidata.org/wiki/Q760982; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1467311",
+    "text": "Fritz Levisohn — German physician and entrepreneur.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1467311, https://www.wikidata.org/wiki/Q1467311; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q57592",
+    "text": "Magnus Hirschfeld — German physician and sexologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q57592, https://www.wikidata.org/wiki/Q57592; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q125488",
+    "text": "Hans Karl Oskar Stubbe — German geneticist and agronomist (1902-1989).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q125488, https://www.wikidata.org/wiki/Q125488; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q36843",
+    "text": "Walter Gross — German physician and nazi politician (1904-1945).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q36843, https://www.wikidata.org/wiki/Q36843; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q57109",
+    "text": "Josef Mengele — Nazi officer and physician (1911-1979).\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q57109, https://www.wikidata.org/wiki/Q57109; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q77128",
+    "text": "Ruth Pfau — German-Pakistani physician and nun.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q77128, https://www.wikidata.org/wiki/Q77128; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q6795666",
+    "text": "Maxime Hans Kuczynski — Jewish-German/Peruvian physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part3.csv, Wikidata Q6795666, https://www.wikidata.org/wiki/Q6795666; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part3.csv; SHA-256 b9dbceccaad332a1d07e8a386513e029d8df3fdba19a2ee7a09c51b2b6a39260; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q1290523",
+    "text": "Eduard Zwick — German physician and entrepreneur.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q1290523, https://www.wikidata.org/wiki/Q1290523; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q89566",
+    "text": "Max Eitingon — German psychoanalyst & physician.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q89566, https://www.wikidata.org/wiki/Q89566; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  },
+  {
+    "id": "wikidata-q63200",
+    "text": "Dietrich Starck — German physician and biologist.\nSource: Issa Annamoradnejad & Rahimberdi Annamoradnejad, AgeDataset V1 (2022), adapted metadata, https://github.com/Moradnejad/AgeDataset; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q63200, https://www.wikidata.org/wiki/Q63200; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. English description retained with whitespace/final punctuation normalization; inferred date/gender/death fields omitted. Role and citizenship-bucket selection: people/README.md."
+  }
+]

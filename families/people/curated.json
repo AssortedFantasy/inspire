@@ -1,0 +1,1398 @@
+[
+  {
+    "path": "arts/literature/poets",
+    "record": {
+      "id": "person-rabindranath-tagore",
+      "text": "Rabindranath Tagore — poet; Bengali verse.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q7241",
+    "identity_name": "Rabindranath Tagore",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-toni-morrison",
+      "text": "Toni Morrison — novelist; African American experience.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q72334",
+    "identity_name": "Toni Morrison",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-gabriel-garcia-marquez",
+      "text": "Gabriel García Márquez — novelist; fantastic-realistic narratives.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q5878",
+    "identity_name": "Gabriel García Márquez",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "arts/literature/poets",
+    "record": {
+      "id": "person-pablo-neruda",
+      "text": "Pablo Neruda — poet; Latin American verse.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q34189",
+    "identity_name": "Pablo Neruda",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "arts/literature/poets",
+    "record": {
+      "id": "person-gabriela-mistral",
+      "text": "Gabriela Mistral — poet; Latin American lyricism.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q80871",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q80871; checked 2026-10-13."
+  },
+  {
+    "path": "arts/literature/poets",
+    "record": {
+      "id": "person-octavio-paz",
+      "text": "Octavio Paz — poet; sensuous, humanistic writing.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q46739",
+    "identity_name": "Octavio Paz",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "arts/literature/dramatists",
+    "record": {
+      "id": "person-wole-soyinka",
+      "text": "Wole Soyinka — dramatist; African cultural perspectives.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q41488",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q41488; checked 2026-10-13."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-naguib-mahfouz",
+      "text": "Naguib Mahfouz — novelist; Arabic narrative.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q7176",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q7176; checked 2026-10-13."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-yasunari-kawabata",
+      "text": "Yasunari Kawabata — novelist; Japanese sensibility.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q43736",
+    "identity_name": "Yasunari Kawabata",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-kenzaburo-oe",
+      "text": "Kenzaburō Ōe — novelist; imaginative human predicaments.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q80095",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q80095; checked 2026-10-13."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-mo-yan",
+      "text": "Mo Yan — novelist; hallucinatory realism.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q8998",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q8998"
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-gao-xingjian",
+      "text": "Gao Xingjian — writer; linguistic experimentation.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q18143",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q18143; checked 2026-10-13."
+  },
+  {
+    "path": "arts/literature/poets",
+    "record": {
+      "id": "person-wislawa-szymborska",
+      "text": "Wisława Szymborska — poet; ironic precision.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q42552",
+    "identity_name": "Wisława Szymborska",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-jose-saramago",
+      "text": "José Saramago — novelist; imaginative parables.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q37060",
+    "identity_name": "José Saramago",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-orhan-pamuk",
+      "text": "Orhan Pamuk — novelist; intertwined cultures.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q241248",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q241248; checked 2026-10-13."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-doris-lessing",
+      "text": "Doris Lessing — novelist; female experience.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q40874",
+    "identity_name": "Doris Lessing",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-alice-munro",
+      "text": "Alice Munro — writer; contemporary short stories.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q234819",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q234819"
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-olga-tokarczuk",
+      "text": "Olga Tokarczuk — novelist; boundary-crossing narratives.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q254032",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q254032; checked 2026-10-13."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-abdulrazak-gurnah",
+      "text": "Abdulrazak Gurnah — novelist; colonialism and refugees.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q317877",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q317877; checked 2026-10-13."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-jm-coetzee",
+      "text": "J. M. Coetzee — novelist; outsider perspectives.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q43293",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q43293; checked 2026-10-13."
+  },
+  {
+    "path": "arts/literature/dramatists",
+    "record": {
+      "id": "person-samuel-beckett",
+      "text": "Samuel Beckett — dramatist; human destitution.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q37327",
+    "identity_name": "Samuel Beckett",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-albert-camus",
+      "text": "Albert Camus — writer; questions of conscience.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q34670",
+    "identity_name": "Albert Camus",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "arts/literature/fiction",
+    "record": {
+      "id": "person-ernest-hemingway",
+      "text": "Ernest Hemingway — novelist; narrative technique.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q23434",
+    "identity_name": "Ernest Hemingway",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "arts/literature/poets",
+    "record": {
+      "id": "person-ts-eliot",
+      "text": "T. S. Eliot — poet; modern verse.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q37767",
+    "identity_name": "T. S. Eliot",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-alexander-fleming",
+      "text": "Alexander Fleming — bacteriologist; penicillin discovery.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q37064",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q37064"
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-howard-florey",
+      "text": "Howard Florey — pathologist; penicillin development.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q137106",
+    "identity_name": "Howard Florey",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-ernst-chain",
+      "text": "Ernst Chain — biochemist; penicillin development.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q58054",
+    "identity_name": "Ernst Chain",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-barbara-mcclintock",
+      "text": "Barbara McClintock — geneticist; mobile genetic elements.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q199654",
+    "identity_name": "Barbara McClintock",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-tu-youyou",
+      "text": "Tu Youyou — pharmaceutical researcher; artemisinin.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, Tu Youyou biography, https://www.nobelprize.org/prizes/medicine/2015/tu/biographical/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q462843",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q462843; checked 2026-10-13."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-satoshi-omura",
+      "text": "Satoshi Ōmura — microbiologist; avermectin research.",
+      "provenance": "Original concise factual description. Source: Nobel Assembly, 2015 scientific background, https://www.nobelprize.org/prizes/medicine/2015/advanced-information/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q21061207",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q21061207; checked 2026-10-13."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-william-campbell",
+      "text": "William Campbell — parasitologist; avermectin research.",
+      "provenance": "Original concise factual description. Source: Nobel Assembly, 2015 scientific background, https://www.nobelprize.org/prizes/medicine/2015/advanced-information/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q21061212",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q21061212; checked 2026-10-13."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-katalin-kariko",
+      "text": "Katalin Karikó — biochemist; modified mRNA.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, Katalin Karikó event biography, https://www.nobelprize.org/events/nobel-prize-dialogue/madrid-2024/panelists/katalin-kariko/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q88608397",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q88608397; checked 2026-10-13."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-drew-weissman",
+      "text": "Drew Weissman — immunologist; modified mRNA.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, Drew Weissman facts, https://www.nobelprize.org/laureate/1025. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q88608402",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q88608402; checked 2026-10-13."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-svante-paabo",
+      "text": "Svante Pääbo — geneticist; extinct hominin genomes.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q170342",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q170342; checked 2026-10-13."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-francoise-barre-sinoussi",
+      "text": "Françoise Barré-Sinoussi — virologist; HIV discovery.",
+      "provenance": "Original concise factual description. Source: Nobel Assembly, 2008 scientific background, https://www.nobelprize.org/prizes/medicine/2008/advanced-information/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q103844",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q103844; checked 2026-10-13."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-luc-montagnier",
+      "text": "Luc Montagnier — virologist; HIV discovery.",
+      "provenance": "Original concise factual description. Source: Nobel Assembly, 2008 scientific background, https://www.nobelprize.org/prizes/medicine/2008/advanced-information/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q103598",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q103598; checked 2026-10-13."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-rita-levi-montalcini",
+      "text": "Rita Levi-Montalcini — neurobiologist; nerve growth factor.",
+      "provenance": "Original concise factual description. Source: Nobel Assembly, 1986 press release, https://www.nobelprize.org/prizes/medicine/1986/press-release/1000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q185007",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q185007; checked 2026-10-13."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-stanley-cohen",
+      "text": "Stanley Cohen — biochemist; epidermal growth factor.",
+      "provenance": "Original concise factual description. Source: Nobel Assembly, 1986 press release, https://www.nobelprize.org/prizes/medicine/1986/press-release/1000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q232299",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q232299"
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-rosalyn-yalow",
+      "text": "Rosalyn Yalow — medical physicist; radioimmunoassays.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q107402",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q107402; checked 2026-10-13."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-roger-sperry",
+      "text": "Roger Sperry — neurobiologist; cerebral-hemisphere specialization.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q232305",
+    "identity_name": "Roger Sperry",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-santiago-ramon-y-cajal",
+      "text": "Santiago Ramón y Cajal — neuroscientist; neuronal anatomy.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q150526",
+    "identity_name": "Santiago Ramón y Cajal",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-camillo-golgi",
+      "text": "Camillo Golgi — physician; nervous-system staining.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q150630",
+    "identity_name": "Camillo Golgi",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-ivan-pavlov",
+      "text": "Ivan Pavlov — physiologist; digestion research.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q42985",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q42985"
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-robert-koch",
+      "text": "Robert Koch — bacteriologist; tuberculosis research.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q37193",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q37193"
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-emil-von-behring",
+      "text": "Emil von Behring — physician; diphtheria serum.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q76425",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q76425; checked 2026-10-13."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-har-gobind-khorana",
+      "text": "Har Gobind Khorana — biochemist; genetic code.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q107462",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q107462; checked 2026-10-13."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-severo-ochoa",
+      "text": "Severo Ochoa — biochemist; nucleic-acid synthesis.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q233957",
+    "identity_name": "Severo Ochoa",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/life/biomedical",
+    "record": {
+      "id": "person-max-theiler",
+      "text": "Max Theiler — virologist; yellow-fever vaccine.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Physiology or Medicine, https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q46928",
+    "identity_name": "Max Theiler",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-marie-curie",
+      "text": "Marie Curie — chemist; radium and polonium.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q7186",
+    "identity_name": "Marie Curie",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-ernest-rutherford",
+      "text": "Ernest Rutherford — physicist; radioactive element transformations.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q9123",
+    "identity_name": "Ernest Rutherford",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-linus-pauling",
+      "text": "Linus Pauling — chemist; chemical bonding.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q48983",
+    "identity_name": "Linus Pauling",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-dorothy-hodgkin",
+      "text": "Dorothy Hodgkin — crystallographer; biochemical molecular structures.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q7487",
+    "identity_name": "Dorothy Hodgkin",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-frederick-sanger",
+      "text": "Frederick Sanger — biochemist; protein sequencing.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q151564",
+    "identity_name": "Frederick Sanger",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-melvin-calvin",
+      "text": "Melvin Calvin — chemist; photosynthetic carbon fixation.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q49347",
+    "identity_name": "Melvin Calvin",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-svante-arrhenius",
+      "text": "Svante Arrhenius — chemist; electrolytic dissociation.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q80956",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q80956; checked 2026-10-13."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-fritz-haber",
+      "text": "Fritz Haber — chemist; ammonia synthesis.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q57075",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q57075"
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-victor-grignard",
+      "text": "Victor Grignard — chemist; organomagnesium reagents.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q104582",
+    "identity_name": "Victor Grignard",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-paul-sabatier",
+      "text": "Paul Sabatier — chemist; catalytic hydrogenation.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q104575",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q104575"
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-jacobus-van-t-hoff",
+      "text": "Jacobus van 't Hoff — chemist; osmotic pressure.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q102822",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q102822; checked 2026-10-13."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-william-ramsay",
+      "text": "William Ramsay — chemist; noble gases.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q950726",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q950726"
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-alfred-werner",
+      "text": "Alfred Werner — chemist; coordination compounds.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q123014",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q123014"
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-eduard-buchner",
+      "text": "Eduard Buchner — biochemist; cell-free fermentation.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q43917",
+    "identity_name": "Eduard Buchner",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-walther-nernst",
+      "text": "Walther Nernst — chemist; chemical thermodynamics.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q57125",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q57125; checked 2026-10-13."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-george-de-hevesy",
+      "text": "George de Hevesy — chemist; radioactive tracers.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q76951",
+    "identity_name": "George de Hevesy",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-willard-libby",
+      "text": "Willard Libby — chemist; radiocarbon dating.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q190486",
+    "identity_name": "Willard Libby",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-jaroslav-heyrovsky",
+      "text": "Jaroslav Heyrovský — chemist; polarographic analysis.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q157701",
+    "identity_name": "Jaroslav Heyrovský",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-lars-onsager",
+      "text": "Lars Onsager — chemist; irreversible thermodynamics.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q107405",
+    "identity_name": "Lars Onsager",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-ahmed-zewail",
+      "text": "Ahmed Zewail — chemist; femtosecond reaction studies.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q106624",
+    "identity_name": "Ahmed Zewail",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-mario-molina",
+      "text": "Mario Molina — chemist; atmospheric ozone chemistry.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q19045",
+    "identity_name": "Mario Molina",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-f-sherwood-rowland",
+      "text": "F. Sherwood Rowland — chemist; ozone-depletion chemistry.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The development of modern chemistry, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q111190",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q111190; checked 2026-10-13."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-akira-suzuki",
+      "text": "Akira Suzuki — chemist; palladium-catalysed cross-coupling.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Chemistry, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-chemistry/all/?gallery_style=page. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q11648916",
+    "identity_name": "Akira Suzuki",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/chemists",
+    "record": {
+      "id": "person-ada-yonath",
+      "text": "Ada Yonath — crystallographer; ribosome structure.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, Nobel Prize-awarded women, https://www.nobelprize.org/prizes/peace/nobel-prize-awarded-women/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q7426",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q7426; checked 2026-10-13."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-emmy-noether",
+      "text": "Emmy Noether — mathematician; abstract algebra and the connection between symmetry and conservation laws.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q7099",
+    "identity_name": "Emmy Noether",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-carl-friedrich-gauss",
+      "text": "Carl Friedrich Gauss — mathematician; number theory, curved surfaces and least-squares methods.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q6722",
+    "identity_name": "Carl Friedrich Gauss",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-leonhard-euler",
+      "text": "Leonhard Euler — mathematician; analysis, number theory and graph theory.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Euler/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q7604",
+    "identity_name": "Leonhard Euler",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-srinivasa-ramanujan",
+      "text": "Srinivasa Ramanujan — mathematician; infinite series, partitions and number theory.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q83163",
+    "identity_name": "Srinivasa Ramanujan",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-al-khwarizmi",
+      "text": "Al-Khwarizmi — mathematician; systematic methods for solving linear and quadratic equations.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q9038",
+    "identity_provenance": "Primary Wikidata entity label and human classification verified against the original contribution; https://www.wikidata.org/wiki/Q9038; checked 2026-10-13."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-brahmagupta",
+      "text": "Brahmagupta — mathematician; arithmetic rules involving zero and negative numbers.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q202943",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q202943; checked 2026-10-13."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-aryabhata",
+      "text": "Aryabhata — mathematician and astronomer; trigonometric methods and astronomical computation.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q11359",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q11359; checked 2026-10-13."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-madhava",
+      "text": "Madhava — mathematician; infinite series for trigonometric functions.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Madhava/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q115590",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q115590; checked 2026-10-13."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-maryam-mirzakhani",
+      "text": "Maryam Mirzakhani — mathematician; geometry and dynamics of Riemann surfaces.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Mirzakhani/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q1771279",
+    "identity_name": "Maryam Mirzakhani",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-hypatia",
+      "text": "Hypatia — mathematician and philosopher; mathematical teaching in Alexandria.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Hypatia/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q11903",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q11903; checked 2026-10-13."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-alan-turing",
+      "text": "Alan Turing — mathematician; computability and the theoretical computing machine.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Turing/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q7251",
+    "identity_name": "Alan Turing",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-ada-lovelace",
+      "text": "Ada Lovelace — mathematical writer; extensive notes on Babbage's Analytical Engine.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Lovelace/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q7259",
+    "identity_name": "Ada Lovelace",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-euclid",
+      "text": "Euclid — mathematician; the systematic geometry of the Elements.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q8747",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q8747; checked 2026-10-13."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-archimedes",
+      "text": "Archimedes — mathematician; geometric measurement and hydrostatics.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q8739",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q8739; checked 2026-10-13."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-liu-hui",
+      "text": "Liu Hui — mathematician; commentary and algorithms for the Nine Chapters.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Liu_Hui/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q316304",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q316304"
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-zu-chongzhi",
+      "text": "Zu Chongzhi — mathematician; unusually accurate approximations to pi.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Zu_Chongzhi/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q227444",
+    "identity_name": "Zu Chongzhi",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-ibn-al-haytham",
+      "text": "Ibn al-Haytham — mathematician and physicist; geometrical optics.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Al-Haytham/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q11104",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q11104; checked 2026-10-13."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-omar-khayyam",
+      "text": "Omar Khayyam — mathematician; geometric solutions of cubic equations.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Khayyam/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q35900",
+    "identity_name": "Omar Khayyám",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-fibonacci",
+      "text": "Fibonacci — mathematician; Liber abaci and Hindu-Arabic arithmetic in Europe.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q8763",
+    "identity_name": "Fibonacci",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-sophie-germain",
+      "text": "Sophie Germain — mathematician; number theory and elastic surfaces.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Germain/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q7103",
+    "identity_name": "Sophie Germain",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-sofia-kovalevskaya",
+      "text": "Sofia Kovalevskaya — mathematician; differential equations and rigid-body rotation.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Kovalevskaya/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q184535",
+    "identity_name": "Sofia Kovalevskaya",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-stefan-banach",
+      "text": "Stefan Banach — mathematician; functional analysis and complete normed spaces.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Banach/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q180217",
+    "identity_name": "Stefan Banach",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-bernhard-riemann",
+      "text": "Bernhard Riemann — mathematician; manifold geometry and complex analysis.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q42299",
+    "identity_name": "Bernhard Riemann",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/formal/mathematicians",
+    "record": {
+      "id": "person-david-hilbert",
+      "text": "David Hilbert — mathematician; invariant theory and foundations of geometry.",
+      "provenance": "Original concise factual description. Source: https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q41585",
+    "identity_name": "David Hilbert",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/life/naturalists",
+    "record": {
+      "id": "person-charles-darwin",
+      "text": "Charles Darwin — naturalist; developed evolution by natural selection, independently of Alfred Russel Wallace.",
+      "provenance": "Original concise factual description. Source: Natural History Museum, https://www.nhm.ac.uk/discover/what-is-natural-selection.html. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q1035",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q1035"
+  },
+  {
+    "path": "science/life/naturalists",
+    "record": {
+      "id": "person-alfred-russel-wallace",
+      "text": "Alfred Russel Wallace — naturalist; independently developed natural selection and studied geographical species boundaries.",
+      "provenance": "Original concise factual description. Source: Natural History Museum, https://www.nhm.ac.uk/our-science/services/library/collections/wallace.html. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q160627",
+    "identity_name": "Alfred Russel Wallace",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/life/naturalists",
+    "record": {
+      "id": "person-mary-anning",
+      "text": "Mary Anning — fossil collector; discoveries of Jurassic marine reptiles, including an articulated plesiosaur skeleton.",
+      "provenance": "Original concise factual description. Source: Natural History Museum, https://www.nhm.ac.uk/discover/mary-anning-fossils.html. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q230491",
+    "identity_name": "Mary Anning",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/life/naturalists",
+    "record": {
+      "id": "person-maria-sibylla-merian",
+      "text": "Maria Sibylla Merian — naturalist and illustrator; observed and depicted insect life cycles and their host plants.",
+      "provenance": "Original concise factual description. Source: Natural History Museum, https://www.nhm.ac.uk/discover/maria-sibylla-merian-metamorphosis-art-and-science.html. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q62530",
+    "identity_name": "Maria Sibylla Merian",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/life/naturalists",
+    "record": {
+      "id": "person-carl-linnaeus",
+      "text": "Carl Linnaeus — naturalist; systematic classification of plants and animals.",
+      "provenance": "Original concise factual description. Source: Natural History Museum, https://www.nhm.ac.uk/our-science/services/library/collections/linnaean.html. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q1043",
+    "identity_name": "Carl Linnaeus",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/life/naturalists",
+    "record": {
+      "id": "person-george-washington-carver",
+      "text": "George Washington Carver — agricultural scientist; advocated crop rotation and developed uses for agricultural crops.",
+      "provenance": "Original concise factual description. Source: National Park Service, https://home.nps.gov/articles/george-washington-carver-national-monument-500391.htm. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q296898",
+    "identity_name": "George Washington Carver",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-wilhelm-rontgen",
+      "text": "Wilhelm Röntgen — physicist; X-ray discovery.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q35149",
+    "identity_name": "Wilhelm Röntgen",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-jj-thomson",
+      "text": "J. J. Thomson — physicist; electron discovery.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q47285",
+    "identity_name": "J. J. Thomson",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-max-planck",
+      "text": "Max Planck — physicist; energy quantization.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q9021",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q9021"
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-albert-einstein",
+      "text": "Albert Einstein — physicist; photoelectric-effect theory.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q937",
+    "identity_name": "Albert Einstein",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-niels-bohr",
+      "text": "Niels Bohr — physicist; atomic structure.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q7085",
+    "identity_name": "Niels Bohr",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-werner-heisenberg",
+      "text": "Werner Heisenberg — physicist; quantum mechanics.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q40904",
+    "identity_name": "Werner Heisenberg",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-erwin-schrodinger",
+      "text": "Erwin Schrödinger — physicist; wave mechanics.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q9130",
+    "identity_name": "Erwin Schrödinger",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-paul-dirac",
+      "text": "Paul Dirac — physicist; relativistic quantum theory.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q47480",
+    "identity_name": "Paul Dirac",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-louis-de-broglie",
+      "text": "Louis de Broglie — physicist; matter waves.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q83331",
+    "identity_name": "Louis de Broglie",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-wolfgang-pauli",
+      "text": "Wolfgang Pauli — physicist; exclusion principle.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q65989",
+    "identity_name": "Wolfgang Pauli",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-enrico-fermi",
+      "text": "Enrico Fermi — physicist; neutron-induced nuclear reactions.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q8753",
+    "identity_name": "Enrico Fermi",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-james-chadwick",
+      "text": "James Chadwick — physicist; neutron discovery.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q80884",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q80884"
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-cv-raman",
+      "text": "C. V. Raman — physicist; light scattering.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q60429",
+    "identity_name": "C. V. Raman",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-hideki-yukawa",
+      "text": "Hideki Yukawa — physicist; meson prediction.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q155777",
+    "identity_name": "Hideki Yukawa",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-max-born",
+      "text": "Max Born — physicist; probabilistic quantum interpretation.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q58978",
+    "identity_name": "Max Born",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-john-bardeen",
+      "text": "John Bardeen — physicist; transistors and superconductivity.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q949",
+    "identity_name": "John Bardeen",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-richard-feynman",
+      "text": "Richard Feynman — physicist; quantum electrodynamics.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q39246",
+    "identity_name": "Richard Feynman",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-sin-itiro-tomonaga",
+      "text": "Sin-Itiro Tomonaga — physicist; quantum electrodynamics.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q184563",
+    "identity_name": "Sin-Itiro Tomonaga",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-chen-ning-yang",
+      "text": "Chen Ning Yang — physicist; parity violation.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q181369",
+    "identity_provenance": "Primary Wikidata entity label and human classification verified against the original contribution; https://www.wikidata.org/wiki/Q181369; checked 2026-10-13."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-tsung-dao-lee",
+      "text": "Tsung-Dao Lee — physicist; parity violation.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q183679",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q183679; checked 2026-10-13."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-abdus-salam",
+      "text": "Abdus Salam — physicist; electroweak unification.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q28189",
+    "identity_name": "Abdus Salam",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-subrahmanyan-chandrasekhar",
+      "text": "Subrahmanyan Chandrasekhar — astrophysicist; stellar evolution.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, The Nobel Prizes in Physics 1901-2000, https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q148109",
+    "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q148109; checked 2026-10-13."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-donna-strickland",
+      "text": "Donna Strickland — physicist; chirped-pulse amplification.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, Nobel Prize-awarded women, https://www.nobelprize.org/prizes/peace/nobel-prize-awarded-women/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q56855591",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q56855591; checked 2026-10-13."
+  },
+  {
+    "path": "science/physical/physicists",
+    "record": {
+      "id": "person-andrea-ghez",
+      "text": "Andrea Ghez — astronomer; Galactic-centre compact object.",
+      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, Nobel Prize-awarded women, https://www.nobelprize.org/prizes/peace/nobel-prize-awarded-women/. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q493956",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q493956; checked 2026-10-13."
+  },
+  {
+    "path": "technology/engineering/inventors",
+    "record": {
+      "id": "person-hedy-lamarr",
+      "text": "Hedy Lamarr — actor and inventor; co-designed a frequency-hopping communications system with George Antheil.",
+      "provenance": "Original concise factual description. Source: National Inventors Hall of Fame, https://www.invent.org/inductees/hedy-lamarr. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q49034",
+    "identity_name": "Hedy Lamarr",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "technology/engineering/inventors",
+    "record": {
+      "id": "person-garrett-morgan",
+      "text": "Garrett Morgan — inventor; safety hood and an improved traffic signal.",
+      "provenance": "Original concise factual description. Source: National Inventors Hall of Fame, https://www.invent.org/inductees/garrett-morgan. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q1316686",
+    "identity_name": "Garrett Morgan",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "technology/engineering/inventors",
+    "record": {
+      "id": "person-mary-anderson",
+      "text": "Mary Anderson — inventor; vehicle windshield-cleaning device.",
+      "provenance": "Original concise factual description. Source: National Inventors Hall of Fame, https://www.invent.org/inductees/mary-anderson. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q17518",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q17518"
+  },
+  {
+    "path": "technology/engineering/inventors",
+    "record": {
+      "id": "person-nikola-tesla",
+      "text": "Nikola Tesla — inventor; alternating-current induction motor.",
+      "provenance": "Original concise factual description. Source: National Inventors Hall of Fame, https://www.invent.org/inductees/nikola-tesla. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q9036",
+    "identity_name": "Nikola Tesla",
+    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+  },
+  {
+    "path": "technology/engineering/inventors",
+    "record": {
+      "id": "person-thomas-edison",
+      "text": "Thomas Edison — inventor; phonograph and practical electric-lighting systems.",
+      "provenance": "Original concise factual description. Source: National Inventors Hall of Fame, https://www.invent.org/inductees/thomas-alva-edison. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q8743",
+    "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q8743"
+  },
+  {
+    "path": "technology/engineering/inventors",
+    "record": {
+      "id": "person-lewis-latimer",
+      "text": "Lewis Latimer — inventor; a method of making more durable carbon lamp filaments.",
+      "provenance": "Original concise factual description. Source: National Inventors Hall of Fame, https://www.invent.org/inductees/lewis-latimer. Consulted 2026-10-13; source prose and images are not reproduced."
+    },
+    "qid": "Q732229",
+    "identity_provenance": "Source full-name variant or primary Wikidata human lookup; occupation reviewed against existing contribution, resolving homonyms; https://www.wikidata.org/wiki/Q732229; checked 2026-10-13."
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "Q240596": {
+    "description": "British anatomist and anthropologist",
+    "reason": "The downloaded description incorrectly includes geologist. College archives identify Keith as anatomist and anthropologist; primary entity description agrees.",
+    "source": "https://rcseng.libguides.com/c.php?g=734560&p=5364024"
+  },
+  "Q16594458": {
+    "description": "Scottish physician specialising in radiotherapy",
+    "reason": "The downloaded physicist label confuses the clinician with his medical-physics collaborators. The British Institute of Radiology identifies Paterson as the doctor working with physicist Herbert Parker.",
+    "source": "https://bir.org.uk/useful-information/history-of-radiology/1930s/1930s-manchester-group.aspx"
+  },
+  "Q11540065": {
+    "description": "Japanese computer programmer and video game developer",
+    "reason": "Correct the source typo diveloper, verified against the primary English entity description.",
+    "source": "https://www.wikidata.org/wiki/Q11540065"
+  },
+  "Q7405662": {
+    "name": "Salomón Hakim",
+    "reason": "Correct malformed source surname hakier. University of the Andes identifies its physician and bioengineering researcher as Salomón Hakim.",
+    "source": "https://medicina.uniandes.edu.co/es/publicaciones/de-la-valvula-de-hakim-a-la-nueva-teoria-de-la-mecanica-craneana"
+  }
+}
