@@ -1,0 +1,110 @@
+{
+  "dataset": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+  "trait_source": "https://doi.org/10.6084/m9.figshare.3517361.v1",
+  "trait_license": "CC0",
+  "taxonomy_license": "CC BY 4.0",
+  "retrieved": "2026-10-13",
+  "per_family_cap": 3,
+  "record_count": 40,
+  "family_count": 21,
+  "retrievals": [
+    {
+      "taxon": "Elasmobranchii",
+      "key": 121,
+      "pages": 4,
+      "fetched": 3484,
+      "available": 3484
+    },
+    {
+      "taxon": "Holocephali",
+      "key": 120,
+      "pages": 1,
+      "fetched": 326,
+      "available": 326
+    }
+  ],
+  "join": "exact accepted canonical binomials; trait-matched species only",
+  "selection": "prefer more unambiguous traits, then stable SHA-256 ordering within family",
+  "preferred_common_names": {
+    "Leucoraja erinacea": "little skate",
+    "Dalatias licha": "kitefin shark",
+    "Trygonoptera mucosa": "Western Stingaree",
+    "Scyliorhinus canicula": "small-spotted catshark"
+  },
+  "review": "ICES CM 2001/J:11 Table 1 records female leafscale-gulper-shark maturity at 44 years; late maturity is biologically plausible. Figshare's separate compiled 46-year value is retained with source qualification.",
+  "rejected_traits_or_rows": {
+    "missing_or_conflicting_age at maturity": 19,
+    "missing_or_conflicting_interbirth interval": 3,
+    "missing_or_conflicting_maximum weight": 19,
+    "no_unambiguous_traits": 3,
+    "unnamed_or_unaccepted": 3
+  },
+  "inputs": [
+    {
+      "url": "https://api.figshare.com/v2/articles/3517361",
+      "cache_file": "lifehistory.json",
+      "sha256": "5f6662c872d0cccdd1fe3b2c9d86067ba1379e4384aa305e4cca38b774a5cf2b",
+      "bytes": 5192
+    },
+    {
+      "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "cache_file": "e3bd497349e008d417cf4373fed640bb5bc6564a088cb67934ad80cd7b8fa93d.json",
+      "sha256": "722fb98b98421c9fac31fefdbd35bc4fe642b7218958223d8039062c9c657484",
+      "bytes": 12987
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/120",
+      "cache_file": "d8a2c9b322fbc44f8863bee2d6dbab3cd7032fa56002e46e22409ecb1b77dc61.json",
+      "sha256": "832105700639ca8002659164beaef9f809513e81bb0dd3004596b047ce905186",
+      "bytes": 699
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/121",
+      "cache_file": "982f85e732832dd78ac323a51e7f066ef0f8d8f4aaadef8a8eaf2a1853d6b8ed.json",
+      "sha256": "83e7a942d3c58ede5684689d0e0c87aaac6bbbbe7e171b8d206a75e1424185be",
+      "bytes": 713
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=120&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0",
+      "cache_file": "570461a39be1f004ba2c128c589b41c5848552be000549d81797aebed77268b7.json",
+      "sha256": "44175b35ff95936c272eecf67604b2f44e79343569f4ac1c7a3fe2cbbf7e1567",
+      "bytes": 604565
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=121&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0",
+      "cache_file": "654aff91df5312faed4dc1bb9623768a884e9c3bf77528464d54329ead5a9b23.json",
+      "sha256": "1f25ca0bb91e7dc7ccd7f101c70bee07331f51a77113a12f7765386b6c71a833",
+      "bytes": 4694225
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=121&rank=SPECIES&status=ACCEPTED&limit=1000&offset=1000",
+      "cache_file": "4aa7a34f8a9eeb654889f63bc3c155f6bcc41f061c4e59981cb95c39a9b20c59.json",
+      "sha256": "9a0278654e8ec27fdd89839309e490cc95b5329073f779a0e1404609fa0f671e",
+      "bytes": 2605477
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=121&rank=SPECIES&status=ACCEPTED&limit=1000&offset=2000",
+      "cache_file": "953d7ac73340b2e4d0f4f6aacbbf38283e848104c98ec78088f7c68412622144.json",
+      "sha256": "4e304190bf280cac53926372201a1e3546d2f55460e16867b8028b98c9e2d9dc",
+      "bytes": 2240997
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=121&rank=SPECIES&status=ACCEPTED&limit=1000&offset=3000",
+      "cache_file": "436761e537af7bb7fb7c27b1f5d017f8186cc515b8a35c689d93f77546e9777c.json",
+      "sha256": "2c8159d18189ab6c688e77fb4c9403501d8c794a93460f74ce0fe881cd31713d",
+      "bytes": 663000
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/5585351",
+      "cache_file": "lifehistory.tsv",
+      "sha256": "8792a4f98b6fce690543d5c9232469e588736c6ef35bbe2579fb9e97ec18c59b",
+      "bytes": 46305
+    },
+    {
+      "url": "https://www.ices.dk/sites/pub/CM%20Doccuments/2001/J/J1101.pdf",
+      "cache_file": "ices-deepwater-lifehistory.pdf",
+      "sha256": "534e33d20c9f119b5e35f474a96d1bcca311441cc83d97ae214b4eb5ee5e26c5",
+      "bytes": 113308
+    }
+  ]
+}

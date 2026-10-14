@@ -1,0 +1,74 @@
+{
+  "dataset": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+  "dataset_url": "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+  "license": "CC BY 4.0",
+  "retrieved": "2026-10-13",
+  "taxa": [
+    "Amphibia"
+  ],
+  "queries": [],
+  "max_pages": 5,
+  "per_family_cap": 3,
+  "retained_seed_names": [
+    "boreal chorus frog",
+    "columbia spotted frog",
+    "plains spadefoot",
+    "western tiger salamander",
+    "western toad"
+  ],
+  "retrievals": [
+    {
+      "taxon": "Amphibia",
+      "key": 131,
+      "query": "",
+      "available": 9815,
+      "fetched": 5000
+    }
+  ],
+  "record_count": 212,
+  "inputs": [
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Amphibia&strict=true&kingdom=Animalia&rank=CLASS",
+      "sha256": "2bf08ccb7bb32a3b86834e7f3853a4f4480bde102ca600305c2e319151efb36a",
+      "bytes": 247,
+      "cache_file": "c6b4fd814816304f5c4258805eb8a4f384fc159b71f69cb21eeaf97b49b8449d.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Amphibia&strict=true&rank=CLASS&kingdom=Animalia",
+      "sha256": "2bf08ccb7bb32a3b86834e7f3853a4f4480bde102ca600305c2e319151efb36a",
+      "bytes": 247,
+      "cache_file": "6a9657df2527e39a373c64156c6a58bd96416ddf64a10f0a02dacddd68649316.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=131&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0",
+      "sha256": "063f4c60aa720112255fc5711f8fb97c7da0aa636bf120cfc5d64d379e148f09",
+      "bytes": 2687064,
+      "cache_file": "b04c03d27f5c09ee263ee0562a93d321391e7becc09354f325f5ca91618ee566.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=131&rank=SPECIES&status=ACCEPTED&limit=1000&offset=1000",
+      "sha256": "18a4021d099a33202d643c90715a896a71ca1d5bb21586614439f594297ce992",
+      "bytes": 2045752,
+      "cache_file": "2ac4a7d50f8578551cd2f5566ec18e8ffb08cb8d51a95d12b8ef57d933212b49.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=131&rank=SPECIES&status=ACCEPTED&limit=1000&offset=2000",
+      "sha256": "c553565a701dfe4787e390153bf5c79b7a7460da458a387c9fd55b57355feb96",
+      "bytes": 2662256,
+      "cache_file": "1b8df42d8eb356ebadf350aa3dd0cf0b5bee66aac301edd6f6f305c01a2bb22c.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=131&rank=SPECIES&status=ACCEPTED&limit=1000&offset=3000",
+      "sha256": "93aac53fd71ea704ca97ac88f4d7bd533e627e106752ece3399bc4a7cc74cb6d",
+      "bytes": 3018363,
+      "cache_file": "5530e38fd68bcd54a44532dfe497cab2cd35f2310b8e46dea2af71e1b5d134d8.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=131&rank=SPECIES&status=ACCEPTED&limit=1000&offset=4000",
+      "sha256": "f90895d6b2ba3096f94fa211b0c37101056f4b02f028d0614f2a8172649f8917",
+      "bytes": 2166634,
+      "cache_file": "68ad931f303cca12a862d1db67c656708c9b265e133ed721a9e4336ef187c49f.json"
+    }
+  ],
+  "taxon_rank": "CLASS"
+}

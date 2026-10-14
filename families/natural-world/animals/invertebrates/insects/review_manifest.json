@@ -1,0 +1,55 @@
+{
+  "node": "families/natural-world/animals/invertebrates/insects",
+  "manager": "/root/natural_world/animals/invertebrates/insects",
+  "reviewed": "2026-10-13",
+  "record_count": 125,
+  "weight": 125,
+  "leaves": [
+    {
+      "path": "families/natural-world/animals/invertebrates/insects/species",
+      "reviewer": "/root/natural_world/animals/invertebrates/insects/species",
+      "record_count": 66,
+      "weight": 66,
+      "records_sha256": "af11b37bc4fae552ecd16875b31c46562d9dbaf158e4f0e39178a810785b1c0d",
+      "source_manifest": "sources.json",
+      "checks": [
+        "All 66 outputs reviewed; all 25 original butterfly taxa represented once",
+        "Accepted Animalia/Insecta species, English source-name membership, source classification and named-group coverage checked",
+        "63 GBIF records across 19 orders and 45 families; 3 exact NPS records retained",
+        "Payload/config/manifest reproduced byte-identically offline",
+        "Corrupted pinned class response rejected before payload mutation"
+      ]
+    },
+    {
+      "path": "families/natural-world/animals/invertebrates/insects/observations",
+      "reviewer": "/root/natural_world/animals/invertebrates/insects/observations",
+      "record_count": 59,
+      "weight": 59,
+      "records_sha256": "4f2c628c8852347be8ac577f441dbecea928b7571810a8ff2c32fc4fec90df9d",
+      "source_manifest": "sources.json",
+      "checks": [
+        "All 59 outputs checked against pinned CSV rows and same-study selection",
+        "54 metabolic conversions independently recalculated; 5 brain observations and 2 mass ranges inspected",
+        "Original units, normalization, sex/sample/caste and available method context retained",
+        "Payload/config/manifest reproduced byte-identically offline",
+        "Corruption of each pinned input and missing-cache replay rejected before payload mutation"
+      ]
+    }
+  ],
+  "corrections": {
+    "Tettigonildae": "Requena primary study title: https://doi.org/10.1242/jeb.178.1.21",
+    "Aeschnidae": "Smithsonian Anax junius specimen taxonomy: https://www.si.edu/object/anax-junius%3Anmnhentomology_9301938",
+    "Reticlitermes flavipes": "Shelton & Appel primary study title: https://doi.org/10.1016/S0022-1910(00)00111-6",
+    "Orthoperta": "Hack primary study abstract: https://doi.org/10.1111/j.1365-3032.1997.tb01176.x"
+  },
+  "excluded_observation_species": {
+    "Lygus kalmii": "Unresolved source name/family combination (Lygaeidae); primary identity unverified",
+    "Multareoides bifuractus": "Unresolved source epithet; primary study identity unverified"
+  },
+  "manager_checks": [
+    "Exact two final leaf paths; actual canonical reviewers; no extra child directories",
+    "Strict schema, nonblank/NUL checks, globally unique IDs and per-leaf unique texts",
+    "Leaf manifest counts and leaf/branch incoming weights match payload counts; equal conditional per-record probability 1/125",
+    "Sources distinguish pinned historical nomenclature from study-linked measurements"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": "AVONET",
+  "version": 7,
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "citation": "Tobias et al. (2022), Ecology Letters, doi:10.1111/ele.13898",
+  "dataset_doi": "10.6084/m9.figshare.16586228.v7",
+  "sheet": "AVONET1_BirdLife",
+  "input": {
+    "url": "https://ndownloader.figshare.com/files/34480856",
+    "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e",
+    "bytes": 21524673
+  },
+  "metadata_input": {
+    "url": "https://api.figshare.com/v2/articles/16586228/versions/7",
+    "sha256": "0ddbea9e11d5058583eb40a5e29b0fe9d7cf85a922d4a49e30b175189db08a39"
+  },
+  "join": "Exact scientific binomial; Inference=NO; no synonyms or cross-species inference",
+  "record_count": 453,
+  "trait_profiles": 413,
+  "inference_rows_omitted": 11,
+  "unmatched_binomials": [
+    "Amaurospiza carrizalensis",
+    "Anthus longicaudatus",
+    "Buphagus erythrorhynchus",
+    "Coracina melaschistos",
+    "Egretta dimorpha",
+    "Grus canadensis",
+    "Grus vipio",
+    "Myrmeciza griseiceps",
+    "Notiochelidon cyanoleuca",
+    "Notiochelidon pileata",
+    "Oceanodroma hornbyi",
+    "Oceanodroma leucorhoa",
+    "Parus afer",
+    "Parus cinerascens",
+    "Phalacrocorax auritus",
+    "Phalacrocorax gaimardi",
+    "Phalacrocorax urile",
+    "Phyllastrephus leucolepis",
+    "Pipra cornuta",
+    "Pipra rubrocapilla",
+    "Pitta granatina",
+    "Pitta venusta",
+    "Pteroglossus beauharnaesii",
+    "Rhinoptilus africanus",
+    "Schizoeaca vilcabambae",
+    "Stercorarius antarcticus",
+    "Stercorarius chilensis",
+    "Terenura callinota",
+    "Trachyphonus purpuratus"
+  ],
+  "original_names_omitted": [],
+  "variable_definitions": {
+    "Mass": {
+      "description": "Body mass given as species average (incorporating both male and female body mass)",
+      "units": "gram"
+    },
+    "Beak.Length_Culmen": {
+      "description": "Length from the tip of the beak to the base of the skull",
+      "units": "mm"
+    },
+    "Wing.Length": {
+      "description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+      "units": "mm"
+    },
+    "Habitat": {
+      "description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+      "units": null
+    },
+    "Trophic.Niche": {
+      "description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+      "units": null
+    },
+    "Migration": {
+      "description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+      "units": null
+    },
+    "Inference": {
+      "description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+      "units": null
+    }
+  },
+  "retention_inputs": [
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=100&q=american+dipper&qField=VERNACULAR",
+      "sha256": "f957309981a52406bfc125d47c787f82135872ab3ac868c334a1f10d2599492b",
+      "bytes": 5278,
+      "cache_file": "beed82cfb389f5af7d9b8ac90cfc374317264a7c64d16d4becac283c433c018d.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=100&q=american+kestrel&qField=VERNACULAR",
+      "sha256": "215daea5f0490d397e464a7ad73e38f6097ac7258dc1393654e7121144ce3d7a",
+      "bytes": 13676,
+      "cache_file": "777ee9213cb03078596628bcab524d7baa4c03c0bed8c6876599c9984a274c70.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=100&q=american+robin&qField=VERNACULAR",
+      "sha256": "499727aeb5cf85a3a3e0a7289940f209ab89bdaad67c475fa05e92b0d2fa8b69",
+      "bytes": 8747,
+      "cache_file": "4f3955cdebc9d5e5f8e433814228b5aa34cb25cd3103bfa0978fa315f729caad.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=100&q=american+white+pelican&qField=VERNACULAR",
+      "sha256": "03c8bc1a065eaecbe980bd0afad649151d7916d0da70b52cacb66949ba70ac59",
+      "bytes": 6363,
+      "cache_file": "162733274479d6a2404882a15e62c7c68e4bbb7c1437eae6608ace7398aea024.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=100&q=black-billed+magpie&qField=VERNACULAR",
+      "sha256": "cc535872eee929b9ffabc1130a019e24ec2dd277a37edd4c2abb20c561f4c059",
+      "bytes": 23890,
+      "cache_file": "8c99b9310ade43afcb7da15bcc52ad9b767d76aecc90b79fa2548a1da2580317.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=100&q=canada+goose&qField=VERNACULAR",
+      "sha256": "23aa8e24863174d203acc69c2bb42a33e76a4b23ec47931304753ad4c0219750",
+      "bytes": 25007,
+      "cache_file": "9829cc01682747baaca93f1731bc8e538c5f0980be4dcb1cff555f9f2d783603.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=100&q=common+goldeneye&qField=VERNACULAR",
+      "sha256": "b24b448ad74511c5611e84eac53b1938647c91e623d1e7c8520d6c36fdd5cba5",
+      "bytes": 13525,
+      "cache_file": "8d830289353997e67a491f75e9e5b8fbf412249c170c5137a13304103d9d93fa.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=100&q=dusky+grouse&qField=VERNACULAR",
+      "sha256": "ddd5fcb206141c5c209ebfdd4d2bc005ff2f6f47b4f3bd7c7b2bad1b47777585",
+      "bytes": 4333,
+      "cache_file": "fb20c74ae8a74f28a6e5fe5a81cbe0b28618b4e4fec8fb7144191edab45aa22c.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=100&q=great+gray+owl&qField=VERNACULAR",
+      "sha256": "96cf4342588affd6defe2b711232758a46a7bafe84a4b5d1a70c0fbeb4602de8",
+      "bytes": 8267,
+      "cache_file": "53b3262d7d773bcc4a73a37f7dccf431afafde01b1d45a8f276c25303f4c5c0e.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=100&q=northern+saw-whet+owl&qField=VERNACULAR",
+      "sha256": "4e9e4a9edfbf576e16da9e1e106768faeeb4f0c957e03b2bd3e3bcb1b4ae153c",
+      "bytes": 5354,
+      "cache_file": "c5fa60db3da386f63b83d686c8c665030f247a7b1fc84df5e8a54b10177914b1.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=100&q=trumpeter+swan&qField=VERNACULAR",
+      "sha256": "018fe4f5a387417542195f71d4dafb88ccd6fa08b7b6fa64a95f3fc3e5849f33",
+      "bytes": 5550,
+      "cache_file": "e7695073bace438b99dd8a89e99ade9f378566c4a0dce5da03833636f388d009.json"
+    }
+  ]
+}

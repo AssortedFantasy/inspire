@@ -1,0 +1,63 @@
+{
+  "status": "DONE",
+  "node": "natural-world/animals/invertebrates/arachnids",
+  "reviewed": "2026-10-13",
+  "leaves": [
+    {
+      "status": "DONE",
+      "path": "natural-world/animals/invertebrates/arachnids",
+      "reviewer": "/root/natural_world/animals/invertebrates/arachnids",
+      "record_count": 44,
+      "weight": 44,
+      "records_sha256": "99484d959721d79fae2109070bb61d5dbb3b07c3e089a1f07b935b22468cbbbb",
+      "source_manifest": "sources.json",
+      "source_manifest_sha256": "43269f6dd3ec8bd1d33413de5ac88f4d0023f7bd4628eca8f5d598b02b7859fb",
+      "coverage": {
+        "eligible_species": 57,
+        "source_families": 29,
+        "source_orders": {
+          "Araneae": 33,
+          "Trombidiformes": 1,
+          "Mesostigmata": 4,
+          "Amblypygi": 1,
+          "Ixodida": 4,
+          "Sarcoptiformes": 1
+        },
+        "metabolic_observations": 40,
+        "cns_neuropil_volume_observations": 4
+      },
+      "checks": [
+        "All 44 outputs reviewed and checked against pinned CSV rows, source class/order/family and original study citations",
+        "Independent richest single-study selection, first-row ties and stable family cap reproduced: 57 eligible species, 29 families, maximum three records per source family",
+        "Strict exact-field schema; nonblank/NUL-free fields, unique IDs/texts, positive finite values, no child directories; incoming weight 44",
+        "All 44 body masses converted kg to g and source sex/sample/temperature/available method context verified",
+        "All 40 metabolic conversions independently recomputed to relative tolerance 1e-10 from original units, same-observation body mass, respiratory quotient, pinned R gas constants and Q10=2; emitted rounding verified",
+        "All four neural volumes independently matched primary supplementary Table 2 neuropil-only N values; original volume/multiplier retained and CNS structures identified",
+        "Three spelling repairs checked against primary study or verified institutional taxonomy; source temperature and sample-size discrepancies explicitly stated",
+        "Complete-cache offline replay with network blocked reproduces records/config/source manifest byte-identically",
+        "Corruption of each of two pinned inputs and missing-cache replay rejected before any payload/config/source-manifest mutation",
+        "Shared-helper replay leaves previously reviewed 59 insect observation payload and count unchanged"
+      ],
+      "corrections": {
+        "species_spelling": {
+          "Pholcus phalangioideus": "Pholcus phalangioides",
+          "Alaskozeres antarcticus": "Alaskozetes antarcticus",
+          "Misumenoidea formosipes": "Misumenoides formosipes"
+        },
+        "neural_measurement": "Quesada et al. 2011 CNS neuropil only, not entire brain or cortex-included CNS",
+        "temperature_discrepancy": "Damon annulatipes source measurement21 C versus metadata25 C; source values retained",
+        "sample_size_discrepancy": "Mysmenopsis tengellacompa dataset1 versus primary3 females; source field retained"
+      },
+      "conversion_review_sources": [
+        {
+          "url": "https://raw.githubusercontent.com/animaltraits/animaltraits.github.io/06c872793e83d448538a12f6f98dbad389a86703/R/standardisation/metabolic_rate.R",
+          "sha256": "933a5e3439ad5c8f877d82b58b08e901e7ba429889dd4beeeaeac83235c0a5c3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/animaltraits/animaltraits.github.io/06c872793e83d448538a12f6f98dbad389a86703/R/standardisation/traits-config.R",
+          "sha256": "eda7577a7f6830e9eead7ad4782b3d1d99f3a8dc40d639e0d44b596bc6e52efc"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "dataset": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+  "dataset_url": "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+  "license": "CC BY 4.0",
+  "retrieved": "2026-10-13",
+  "taxa": [
+    "Aves"
+  ],
+  "queries": [],
+  "max_pages": 5,
+  "per_family_cap": 3,
+  "retained_seed_names": [
+    "american dipper",
+    "american kestrel",
+    "american robin",
+    "american white pelican",
+    "bald eagle",
+    "belted kingfisher",
+    "black-billed magpie",
+    "bohemian waxwing",
+    "canada goose",
+    "canada jay",
+    "common goldeneye",
+    "common loon",
+    "common raven",
+    "double-crested cormorant",
+    "dusky grouse",
+    "golden eagle",
+    "great gray owl",
+    "kori bustard",
+    "mountain chickadee",
+    "northern harrier",
+    "northern saw-whet owl",
+    "osprey",
+    "peregrine falcon",
+    "red-breasted nuthatch",
+    "rough-legged hawk",
+    "sandhill crane",
+    "steller's jay",
+    "swainson's hawk",
+    "trumpeter swan"
+  ],
+  "retrievals": [
+    {
+      "taxon": "Aves",
+      "key": 212,
+      "query": "",
+      "available": 14641,
+      "fetched": 5000
+    }
+  ],
+  "record_count": 441,
+  "inputs": [
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Aves&strict=true",
+      "sha256": "21d269f7d1d320320aba40ab6c9890acdd187c3a991a5a62e6ebeeac50a08066",
+      "bytes": 235,
+      "cache_file": "51c440ac89517f8bdf84fdd7d86ba53e1d6aec99d2694a766be531db66f9f68e.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0",
+      "sha256": "33b5818380345da8f0313ff1a494268f792af1030822eff499309a2320e5402e",
+      "bytes": 4515541,
+      "cache_file": "0ec8163aef346dc2e45375342592e5423c76d26265f75b156890d12b6107ed23.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=1000&offset=1000",
+      "sha256": "4f96867a242b862c6340d01199aa057b935a9aff6fcded1f5481d7d9ae6864e4",
+      "bytes": 5410637,
+      "cache_file": "526902e3eaf26127d17bcb36edf405b6be4a059178c70581c705b9e89d28e9de.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=1000&offset=2000",
+      "sha256": "faeb93c014ae95a495b336d40ac6680cc2b626626f7c23b2216e34ac7c5fe3e1",
+      "bytes": 5136316,
+      "cache_file": "6cc9468edf02098e2cc4b1142365c597ad69217e154034da2e7b5fe224129f58.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=1000&offset=3000",
+      "sha256": "838adf9a79f46986ae3873845256c8d3f0f9731d959391eb4727205cbcdb5743",
+      "bytes": 4111477,
+      "cache_file": "e8de4e89913452cee42e5bfc9ecb9445874d46274da7b0eb8974de454f57e4cd.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=212&rank=SPECIES&status=ACCEPTED&limit=1000&offset=4000",
+      "sha256": "75bf979e5e9df3299feab029d20d7e26dea44425c833874a7732af21c5630ae8",
+      "bytes": 4662611,
+      "cache_file": "1d65d2bf4cb01beaecb4e8e8482e7537a2383074e48e835cbfc539ca03405e0d.json"
+    }
+  ]
+}

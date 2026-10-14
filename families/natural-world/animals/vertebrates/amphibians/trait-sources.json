@@ -1,0 +1,1048 @@
+{
+  "dataset": "AmphiBIO v1",
+  "version": 5,
+  "doi": "https://doi.org/10.6084/m9.figshare.4644424.v5",
+  "license": "CC BY 4.0",
+  "retrieved": "2026-10-13",
+  "source_rows": 6776,
+  "record_count": 212,
+  "exact_binomial_matches": 203,
+  "trait_profiles": 202,
+  "adult_size_profiles": 178,
+  "selection": "Shared GBIF hash ordering, cap 3 per family, plus original-name retention; exact binomial joins only.",
+  "excluded_fields": {
+    "Body_mass_g": "Omitted after sample QA found implausible maximum adult masses; values were not corrected."
+  },
+  "inputs": [
+    {
+      "url": "https://api.figshare.com/v2/articles/4644424/versions/5",
+      "cache_file": "figshare-v5.json",
+      "sha256": "11632539bec1f838bba221d25aff1825f971692f8eb828b6582f4b271d8fbe58",
+      "bytes": 4828
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/8828578",
+      "cache_file": "AmphiBIO_v1.zip",
+      "sha256": "15185ffec078423ff7b99d1f16d4daa351a5a8861dd27e5574d05f9a58bc4626",
+      "bytes": 1437220
+    }
+  ],
+  "archive_member_sha256": {
+    "AmphiBIO_v1.csv": "6ca9c3d0b2c35b58c9dd784c9a5b8debd38f03fcfa7b0f9e475de2806026c09d",
+    "AmphiBIO_v1_literature_cited.pdf": "d8e5340f9e004f53329cdb97ff98f3e34f518e20be120ebdc6cd1ebb442f02ef",
+    "AmphiBIO_v1_references.csv": "2b2d5c22807e5faf58f5211658310ae404ed95ab1b22fd018ac37e53434cf650",
+    "Metadata.pdf": "e735ff9695c55e447ada7e4b69abb5af4911321f9fe63e5e5f4e9c7e0bb8cbc0"
+  },
+  "joins": [
+    {
+      "gbif_id": "gbif-2421431",
+      "amphibio_id": "Anf4427",
+      "scientific_name": "Nasikabatrachus sahyadrensis"
+    },
+    {
+      "gbif_id": "gbif-2421492",
+      "amphibio_id": "Anf1115",
+      "scientific_name": "Platymantis naomii"
+    },
+    {
+      "gbif_id": "gbif-2421543",
+      "amphibio_id": "Anf1136",
+      "scientific_name": "Platymantis taylori"
+    },
+    {
+      "gbif_id": "gbif-2421973",
+      "amphibio_id": "Anf4007",
+      "scientific_name": "Copiula minor"
+    },
+    {
+      "gbif_id": "gbif-2422046",
+      "amphibio_id": "Anf4126",
+      "scientific_name": "Anodonthyla montana"
+    },
+    {
+      "gbif_id": "gbif-2422115",
+      "amphibio_id": "Anf4284",
+      "scientific_name": "Microhyla borneensis"
+    },
+    {
+      "gbif_id": "gbif-2422545",
+      "amphibio_id": "Anf0712",
+      "scientific_name": "Nectophrynoides tornieri"
+    },
+    {
+      "gbif_id": "gbif-2422924",
+      "amphibio_id": "Anf0396",
+      "scientific_name": "Anaxyrus boreas"
+    },
+    {
+      "gbif_id": "gbif-2423247",
+      "amphibio_id": "Anf3599",
+      "scientific_name": "Gephyromantis malagasius"
+    },
+    {
+      "gbif_id": "gbif-2423333",
+      "amphibio_id": "Anf3661",
+      "scientific_name": "Mantidactylus guttulatus"
+    },
+    {
+      "gbif_id": "gbif-2423400",
+      "amphibio_id": "Anf3542",
+      "scientific_name": "Boophis periegetes"
+    },
+    {
+      "gbif_id": "gbif-2423435",
+      "amphibio_id": "Anf0265",
+      "scientific_name": "Bombina variegata"
+    },
+    {
+      "gbif_id": "gbif-2423437",
+      "amphibio_id": "Anf0262",
+      "scientific_name": "Bombina maxima"
+    },
+    {
+      "gbif_id": "gbif-2423441",
+      "amphibio_id": "Anf0263",
+      "scientific_name": "Bombina orientalis"
+    },
+    {
+      "gbif_id": "gbif-2423445",
+      "amphibio_id": "Anf5392",
+      "scientific_name": "Sechellophryne pipilodryas"
+    },
+    {
+      "gbif_id": "gbif-2423447",
+      "amphibio_id": "Anf5391",
+      "scientific_name": "Sechellophryne gardineri"
+    },
+    {
+      "gbif_id": "gbif-2423451",
+      "amphibio_id": "Anf5394",
+      "scientific_name": "Sooglossus thomasseti"
+    },
+    {
+      "gbif_id": "gbif-2423515",
+      "amphibio_id": "Anf3348",
+      "scientific_name": "Pseudopaludicola pusilla"
+    },
+    {
+      "gbif_id": "gbif-2423543",
+      "amphibio_id": "Anf3286",
+      "scientific_name": "Physalaemus biligonigerus"
+    },
+    {
+      "gbif_id": "gbif-2423838",
+      "amphibio_id": "Anf5094",
+      "scientific_name": "Kurixalus bisacculus"
+    },
+    {
+      "gbif_id": "gbif-2423955",
+      "amphibio_id": "Anf2111",
+      "scientific_name": "Hemisus wittei"
+    },
+    {
+      "gbif_id": "gbif-2423956",
+      "amphibio_id": "Anf2108",
+      "scientific_name": "Hemisus microscaphus"
+    },
+    {
+      "gbif_id": "gbif-2423959",
+      "amphibio_id": "Anf2110",
+      "scientific_name": "Hemisus perreti"
+    },
+    {
+      "gbif_id": "gbif-2423964",
+      "amphibio_id": "Anf4562",
+      "scientific_name": "Pipa snethlageae"
+    },
+    {
+      "gbif_id": "gbif-2423967",
+      "amphibio_id": "Anf4559",
+      "scientific_name": "Pipa myersi"
+    },
+    {
+      "gbif_id": "gbif-2423975",
+      "amphibio_id": "Anf4553",
+      "scientific_name": "Hymenochirus boulengeri"
+    },
+    {
+      "gbif_id": "gbif-2424156",
+      "amphibio_id": "Anf1979",
+      "scientific_name": "Eleutherodactylus toa"
+    },
+    {
+      "gbif_id": "gbif-2424174",
+      "amphibio_id": "Anf1971",
+      "scientific_name": "Eleutherodactylus sommeri"
+    },
+    {
+      "gbif_id": "gbif-2424191",
+      "amphibio_id": "Anf1810",
+      "scientific_name": "Eleutherodactylus abbotti"
+    },
+    {
+      "gbif_id": "gbif-2424292",
+      "amphibio_id": "Anf4450",
+      "scientific_name": "Pelodytes ibericus"
+    },
+    {
+      "gbif_id": "gbif-2424293",
+      "amphibio_id": "Anf4451",
+      "scientific_name": "Pelodytes punctatus"
+    },
+    {
+      "gbif_id": "gbif-2424323",
+      "amphibio_id": "Anf1393",
+      "scientific_name": "Proceratophrys brauni"
+    },
+    {
+      "gbif_id": "gbif-2424328",
+      "amphibio_id": "Anf1389",
+      "scientific_name": "Proceratophrys appendiculata"
+    },
+    {
+      "gbif_id": "gbif-2424335",
+      "amphibio_id": "Anf1420",
+      "scientific_name": "Cycloramphus acangatan"
+    },
+    {
+      "gbif_id": "gbif-2424389",
+      "amphibio_id": "Anf1385",
+      "scientific_name": "Odontophrynus lavillai"
+    },
+    {
+      "gbif_id": "gbif-2424404",
+      "amphibio_id": "Anf1411",
+      "scientific_name": "Thoropa lutzi"
+    },
+    {
+      "gbif_id": "gbif-2424410",
+      "amphibio_id": "Anf1376",
+      "scientific_name": "Insuetophrynus acarpicus"
+    },
+    {
+      "gbif_id": "gbif-2424412",
+      "amphibio_id": "Anf1375",
+      "scientific_name": "Hylorina sylvatica"
+    },
+    {
+      "gbif_id": "gbif-2424424",
+      "amphibio_id": "Anf1353",
+      "scientific_name": "Alsodes kaweshkari"
+    },
+    {
+      "gbif_id": "gbif-2424428",
+      "amphibio_id": "Anf1350",
+      "scientific_name": "Alsodes gargola"
+    },
+    {
+      "gbif_id": "gbif-2424430",
+      "amphibio_id": "Anf1361",
+      "scientific_name": "Alsodes valdiviensis"
+    },
+    {
+      "gbif_id": "gbif-2424444",
+      "amphibio_id": "Anf1419",
+      "scientific_name": "Crossodactylodes pintoi"
+    },
+    {
+      "gbif_id": "gbif-2424451",
+      "amphibio_id": "Anf1155",
+      "scientific_name": "Ceratophrys aurita"
+    },
+    {
+      "gbif_id": "gbif-2424456",
+      "amphibio_id": "Anf1157",
+      "scientific_name": "Ceratophrys cornuta"
+    },
+    {
+      "gbif_id": "gbif-2424457",
+      "amphibio_id": "Anf1159",
+      "scientific_name": "Ceratophrys joazeirensis"
+    },
+    {
+      "gbif_id": "gbif-2424494",
+      "amphibio_id": "Anf1209",
+      "scientific_name": "Telmatobius platycephalus"
+    },
+    {
+      "gbif_id": "gbif-2424503",
+      "amphibio_id": "Anf1217",
+      "scientific_name": "Telmatobius simonsi"
+    },
+    {
+      "gbif_id": "gbif-2424518",
+      "amphibio_id": "Anf1184",
+      "scientific_name": "Telmatobius espadai"
+    },
+    {
+      "gbif_id": "gbif-2424525",
+      "amphibio_id": "Anf1153",
+      "scientific_name": "Batrachyla nibaldoi"
+    },
+    {
+      "gbif_id": "gbif-2424538",
+      "amphibio_id": "Anf1145",
+      "scientific_name": "Atelognathus patagonicus"
+    },
+    {
+      "gbif_id": "gbif-2424568",
+      "amphibio_id": "Anf4380",
+      "scientific_name": "Pseudophryne bibronii"
+    },
+    {
+      "gbif_id": "gbif-2424587",
+      "amphibio_id": "Anf4345",
+      "scientific_name": "Crinia bilingua"
+    },
+    {
+      "gbif_id": "gbif-2424594",
+      "amphibio_id": "Anf4355",
+      "scientific_name": "Crinia riparia"
+    },
+    {
+      "gbif_id": "gbif-2424655",
+      "amphibio_id": "Anf0907",
+      "scientific_name": "Telmatobufo australis"
+    },
+    {
+      "gbif_id": "gbif-2424656",
+      "amphibio_id": "Anf0908",
+      "scientific_name": "Telmatobufo bullocki"
+    },
+    {
+      "gbif_id": "gbif-2424658",
+      "amphibio_id": "Anf0906",
+      "scientific_name": "Calyptocephalella gayi"
+    },
+    {
+      "gbif_id": "gbif-2424661",
+      "amphibio_id": "Anf3695",
+      "scientific_name": "Leptobrachella mjobergi"
+    },
+    {
+      "gbif_id": "gbif-2424695",
+      "amphibio_id": "Anf3716",
+      "scientific_name": "Leptobrachium montanum"
+    },
+    {
+      "gbif_id": "gbif-2424842",
+      "amphibio_id": "Anf0288",
+      "scientific_name": "Ischnocnema gehrti"
+    },
+    {
+      "gbif_id": "gbif-2425463",
+      "amphibio_id": "Anf5661",
+      "scientific_name": "Pristimantis guaiquinimensis"
+    },
+    {
+      "gbif_id": "gbif-2425464",
+      "amphibio_id": "Anf5749",
+      "scientific_name": "Pristimantis myersi"
+    },
+    {
+      "gbif_id": "gbif-2425752",
+      "amphibio_id": "Anf5562",
+      "scientific_name": "Pristimantis cabrerai"
+    },
+    {
+      "gbif_id": "gbif-2426202",
+      "amphibio_id": "Anf0085",
+      "scientific_name": "Rheobates palmatus"
+    },
+    {
+      "gbif_id": "gbif-2426292",
+      "amphibio_id": "Anf0060",
+      "scientific_name": "Allobates zaparo"
+    },
+    {
+      "gbif_id": "gbif-2426314",
+      "amphibio_id": "Anf0051",
+      "scientific_name": "Allobates sanmartini"
+    },
+    {
+      "gbif_id": "gbif-2426369",
+      "amphibio_id": "Anf5383",
+      "scientific_name": "Rhinophrynus dorsalis"
+    },
+    {
+      "gbif_id": "gbif-2426510",
+      "amphibio_id": "Anf3094",
+      "scientific_name": "Cryptothylax minutus"
+    },
+    {
+      "gbif_id": "gbif-2426539",
+      "amphibio_id": "Anf3254",
+      "scientific_name": "Paracassina kounhiensis"
+    },
+    {
+      "gbif_id": "gbif-2426575",
+      "amphibio_id": "Anf3063",
+      "scientific_name": "Afrixalus equatorialis"
+    },
+    {
+      "gbif_id": "gbif-2426609",
+      "amphibio_id": "Anf0005",
+      "scientific_name": "Alytes muletensis"
+    },
+    {
+      "gbif_id": "gbif-2426611",
+      "amphibio_id": "Anf0004",
+      "scientific_name": "Alytes maurus"
+    },
+    {
+      "gbif_id": "gbif-2426617",
+      "amphibio_id": "Anf0011",
+      "scientific_name": "Discoglossus pictus"
+    },
+    {
+      "gbif_id": "gbif-2426767",
+      "amphibio_id": "Anf5036",
+      "scientific_name": "Rana sauteri"
+    },
+    {
+      "gbif_id": "gbif-2426785",
+      "amphibio_id": "Anf5024",
+      "scientific_name": "Rana luteiventris"
+    },
+    {
+      "gbif_id": "gbif-2427168",
+      "amphibio_id": "Anf4894",
+      "scientific_name": "Lithobates sevosus"
+    },
+    {
+      "gbif_id": "gbif-2427564",
+      "amphibio_id": "Anf2336",
+      "scientific_name": "Hyla zhaopingensis"
+    },
+    {
+      "gbif_id": "gbif-2427679",
+      "amphibio_id": "Anf2783",
+      "scientific_name": "Litoria capitula"
+    },
+    {
+      "gbif_id": "gbif-2427771",
+      "amphibio_id": "Anf2865",
+      "scientific_name": "Litoria meiriana"
+    },
+    {
+      "gbif_id": "gbif-2427950",
+      "amphibio_id": "Anf2297",
+      "scientific_name": "Exerodonta perkinsi"
+    },
+    {
+      "gbif_id": "gbif-2427978",
+      "amphibio_id": "Anf3005",
+      "scientific_name": "Phyllomedusa sauvagii"
+    },
+    {
+      "gbif_id": "gbif-2427991",
+      "amphibio_id": "Anf2997",
+      "scientific_name": "Phyllomedusa iheringii"
+    },
+    {
+      "gbif_id": "gbif-2428066",
+      "amphibio_id": "Anf2159",
+      "scientific_name": "Bokermannohyla lucianae"
+    },
+    {
+      "gbif_id": "gbif-2428169",
+      "amphibio_id": "Anf2575",
+      "scientific_name": "Pseudacris maculata"
+    },
+    {
+      "gbif_id": "gbif-2428602",
+      "amphibio_id": "Anf2979",
+      "scientific_name": "Phrynomedusa fimbriata"
+    },
+    {
+      "gbif_id": "gbif-2428898",
+      "amphibio_id": "Anf4626",
+      "scientific_name": "Ptychadena stenocephala"
+    },
+    {
+      "gbif_id": "gbif-2428902",
+      "amphibio_id": "Anf4620",
+      "scientific_name": "Ptychadena perreti"
+    },
+    {
+      "gbif_id": "gbif-2428935",
+      "amphibio_id": "Anf4588",
+      "scientific_name": "Lanzarana largeni"
+    },
+    {
+      "gbif_id": "gbif-2428937",
+      "amphibio_id": "Anf2002",
+      "scientific_name": "Hadromophryne natalensis"
+    },
+    {
+      "gbif_id": "gbif-2428940",
+      "amphibio_id": "Anf2007",
+      "scientific_name": "Heleophryne regis"
+    },
+    {
+      "gbif_id": "gbif-2428943",
+      "amphibio_id": "Anf2008",
+      "scientific_name": "Heleophryne rosei"
+    },
+    {
+      "gbif_id": "gbif-2428946",
+      "amphibio_id": "Anf4456",
+      "scientific_name": "Conraua goliath"
+    },
+    {
+      "gbif_id": "gbif-2428947",
+      "amphibio_id": "Anf4454",
+      "scientific_name": "Conraua crassipes"
+    },
+    {
+      "gbif_id": "gbif-2428951",
+      "amphibio_id": "Anf4452",
+      "scientific_name": "Conraua alleni"
+    },
+    {
+      "gbif_id": "gbif-2428958",
+      "amphibio_id": "Anf4467",
+      "scientific_name": "Petropedetes perreti"
+    },
+    {
+      "gbif_id": "gbif-2429020",
+      "amphibio_id": "Anf1462",
+      "scientific_name": "Ameerega flavopicta"
+    },
+    {
+      "gbif_id": "gbif-2429060",
+      "amphibio_id": "Anf1513",
+      "scientific_name": "Silverstoneia nubicola"
+    },
+    {
+      "gbif_id": "gbif-2429218",
+      "amphibio_id": "Anf1604",
+      "scientific_name": "Hyloxalus mittermeieri"
+    },
+    {
+      "gbif_id": "gbif-2429277",
+      "amphibio_id": "Anf4436",
+      "scientific_name": "Nyctibatrachus kempholeyensis"
+    },
+    {
+      "gbif_id": "gbif-2429288",
+      "amphibio_id": "Anf4444",
+      "scientific_name": "Nyctibatrachus vasanthi"
+    },
+    {
+      "gbif_id": "gbif-2429289",
+      "amphibio_id": "Anf4432",
+      "scientific_name": "Nyctibatrachus dattatreyaensis"
+    },
+    {
+      "gbif_id": "gbif-2429299",
+      "amphibio_id": "Anf1028",
+      "scientific_name": "Hyalinobatrachium aureoguttatum"
+    },
+    {
+      "gbif_id": "gbif-2429444",
+      "amphibio_id": "Anf0961",
+      "scientific_name": "Cochranella ramirezi"
+    },
+    {
+      "gbif_id": "gbif-2429485",
+      "amphibio_id": "Anf0915",
+      "scientific_name": "Centrolene azulae"
+    },
+    {
+      "gbif_id": "gbif-2429508",
+      "amphibio_id": "Anf0001",
+      "scientific_name": "Allophryne ruthveni"
+    },
+    {
+      "gbif_id": "gbif-2429513",
+      "amphibio_id": "Anf3845",
+      "scientific_name": "Micrixalus fuscus"
+    },
+    {
+      "gbif_id": "gbif-2429519",
+      "amphibio_id": "Anf3851",
+      "scientific_name": "Micrixalus saxicola"
+    },
+    {
+      "gbif_id": "gbif-2429522",
+      "amphibio_id": "Anf3850",
+      "scientific_name": "Micrixalus phyllophilus"
+    },
+    {
+      "gbif_id": "gbif-2429526",
+      "amphibio_id": "Anf0341",
+      "scientific_name": "Probreviceps durirostris"
+    },
+    {
+      "gbif_id": "gbif-2429527",
+      "amphibio_id": "Anf0346",
+      "scientific_name": "Probreviceps uluguruensis"
+    },
+    {
+      "gbif_id": "gbif-2429528",
+      "amphibio_id": "Anf0345",
+      "scientific_name": "Probreviceps rungwensis"
+    },
+    {
+      "gbif_id": "gbif-2429563",
+      "amphibio_id": "Anf3481",
+      "scientific_name": "Neobatrachus pictus"
+    },
+    {
+      "gbif_id": "gbif-2429590",
+      "amphibio_id": "Anf3459",
+      "scientific_name": "Heleioporus inornatus"
+    },
+    {
+      "gbif_id": "gbif-2429591",
+      "amphibio_id": "Anf3456",
+      "scientific_name": "Heleioporus australiacus"
+    },
+    {
+      "gbif_id": "gbif-2429627",
+      "amphibio_id": "Anf0164",
+      "scientific_name": "Astylosternus fallax"
+    },
+    {
+      "gbif_id": "gbif-2429672",
+      "amphibio_id": "Anf0228",
+      "scientific_name": "Leptopelis karissimbensis"
+    },
+    {
+      "gbif_id": "gbif-2429684",
+      "amphibio_id": "Anf0234",
+      "scientific_name": "Leptopelis millsoni"
+    },
+    {
+      "gbif_id": "gbif-2429789",
+      "amphibio_id": "Anf5387",
+      "scientific_name": "Spea bombifrons"
+    },
+    {
+      "gbif_id": "gbif-2429791",
+      "amphibio_id": "Anf5389",
+      "scientific_name": "Spea intermontana"
+    },
+    {
+      "gbif_id": "gbif-2429796",
+      "amphibio_id": "Anf5385",
+      "scientific_name": "Scaphiopus holbrookii"
+    },
+    {
+      "gbif_id": "gbif-2429804",
+      "amphibio_id": "Anf3263",
+      "scientific_name": "Ascaphus truei"
+    },
+    {
+      "gbif_id": "gbif-2429805",
+      "amphibio_id": "Anf3262",
+      "scientific_name": "Ascaphus montanus"
+    },
+    {
+      "gbif_id": "gbif-2429808",
+      "amphibio_id": "Anf3266",
+      "scientific_name": "Leiopelma hochstetteri"
+    },
+    {
+      "gbif_id": "gbif-2429809",
+      "amphibio_id": "Anf3264",
+      "scientific_name": "Leiopelma archeyi"
+    },
+    {
+      "gbif_id": "gbif-2429810",
+      "amphibio_id": "Anf3265",
+      "scientific_name": "Leiopelma hamiltoni"
+    },
+    {
+      "gbif_id": "gbif-2429828",
+      "amphibio_id": "Anf3050",
+      "scientific_name": "Megaelosia goeldii"
+    },
+    {
+      "gbif_id": "gbif-2429867",
+      "amphibio_id": "Anf3015",
+      "scientific_name": "Crossodactylus cyclospinus"
+    },
+    {
+      "gbif_id": "gbif-2429871",
+      "amphibio_id": "Anf3020",
+      "scientific_name": "Crossodactylus lutzorum"
+    },
+    {
+      "gbif_id": "gbif-2429879",
+      "amphibio_id": "Anf4685",
+      "scientific_name": "Strongylopus kitumbeine"
+    },
+    {
+      "gbif_id": "gbif-2429936",
+      "amphibio_id": "Anf4643",
+      "scientific_name": "Amietia inyangae"
+    },
+    {
+      "gbif_id": "gbif-2429951",
+      "amphibio_id": "Anf4652",
+      "scientific_name": "Amietia wittei"
+    },
+    {
+      "gbif_id": "gbif-2429968",
+      "amphibio_id": "Anf2082",
+      "scientific_name": "Hemiphractus proboscideus"
+    },
+    {
+      "gbif_id": "gbif-2429985",
+      "amphibio_id": "Anf2080",
+      "scientific_name": "Hemiphractus helioi"
+    },
+    {
+      "gbif_id": "gbif-2430118",
+      "amphibio_id": "Anf4540",
+      "scientific_name": "Phrynobatrachus sternfeldi"
+    },
+    {
+      "gbif_id": "gbif-2430137",
+      "amphibio_id": "Anf4523",
+      "scientific_name": "Phrynobatrachus ogoensis"
+    },
+    {
+      "gbif_id": "gbif-2430190",
+      "amphibio_id": "Anf4474",
+      "scientific_name": "Phrynobatrachus albomarginatus"
+    },
+    {
+      "gbif_id": "gbif-2430320",
+      "amphibio_id": "Anf1799",
+      "scientific_name": "Occidozyga sumatrana"
+    },
+    {
+      "gbif_id": "gbif-2430336",
+      "amphibio_id": "Anf1792",
+      "scientific_name": "Occidozyga diminutiva"
+    },
+    {
+      "gbif_id": "gbif-2430448",
+      "amphibio_id": "Anf1676",
+      "scientific_name": "Limnonectes asperatus"
+    },
+    {
+      "gbif_id": "gbif-2430564",
+      "amphibio_id": "Anf4448",
+      "scientific_name": "Pelobates varaldii"
+    },
+    {
+      "gbif_id": "gbif-2430565",
+      "amphibio_id": "Anf4445",
+      "scientific_name": "Pelobates cultripes"
+    },
+    {
+      "gbif_id": "gbif-2430566",
+      "amphibio_id": "Anf4447",
+      "scientific_name": "Pelobates syriacus"
+    },
+    {
+      "gbif_id": "gbif-2430881",
+      "amphibio_id": "Anf6769",
+      "scientific_name": "Epicrionops marmoratus"
+    },
+    {
+      "gbif_id": "gbif-2430885",
+      "amphibio_id": "Anf6768",
+      "scientific_name": "Epicrionops lativittatus"
+    },
+    {
+      "gbif_id": "gbif-2430886",
+      "amphibio_id": "Anf6772",
+      "scientific_name": "Epicrionops peruvianus"
+    },
+    {
+      "gbif_id": "gbif-2430894",
+      "amphibio_id": "Anf6676",
+      "scientific_name": "Mimosiphonops vermiculatus"
+    },
+    {
+      "gbif_id": "gbif-2430896",
+      "amphibio_id": "Anf6701",
+      "scientific_name": "Scolecomorphus uluguruensis"
+    },
+    {
+      "gbif_id": "gbif-2430898",
+      "amphibio_id": "Anf6702",
+      "scientific_name": "Scolecomorphus vittatus"
+    },
+    {
+      "gbif_id": "gbif-2430904",
+      "amphibio_id": "Anf6696",
+      "scientific_name": "Sylvacaecilia grandisonae"
+    },
+    {
+      "gbif_id": "gbif-2430907",
+      "amphibio_id": "Anf6639",
+      "scientific_name": "Dermophis occidentalis"
+    },
+    {
+      "gbif_id": "gbif-2430916",
+      "amphibio_id": "Anf6652",
+      "scientific_name": "Geotrypetes pseudoangeli"
+    },
+    {
+      "gbif_id": "gbif-2430923",
+      "amphibio_id": "Anf6673",
+      "scientific_name": "Microcaecilia taylori"
+    },
+    {
+      "gbif_id": "gbif-2430931",
+      "amphibio_id": "Anf6699",
+      "scientific_name": "Crotaphatrema tchabalmbaboensis"
+    },
+    {
+      "gbif_id": "gbif-2430938",
+      "amphibio_id": "Anf6704",
+      "scientific_name": "Chthonerpeton arii"
+    },
+    {
+      "gbif_id": "gbif-2430941",
+      "amphibio_id": "Anf6711",
+      "scientific_name": "Chthonerpeton viviparum"
+    },
+    {
+      "gbif_id": "gbif-2430949",
+      "amphibio_id": "Anf6692",
+      "scientific_name": "Siphonops hardyi"
+    },
+    {
+      "gbif_id": "gbif-2430960",
+      "amphibio_id": "Anf6595",
+      "scientific_name": "Boulengerula niedeni"
+    },
+    {
+      "gbif_id": "gbif-2430961",
+      "amphibio_id": "Anf6596",
+      "scientific_name": "Boulengerula taitana"
+    },
+    {
+      "gbif_id": "gbif-2430965",
+      "amphibio_id": "Anf6591",
+      "scientific_name": "Boulengerula boulengeri"
+    },
+    {
+      "gbif_id": "gbif-2430968",
+      "amphibio_id": "Anf6642",
+      "scientific_name": "Gegeneophis danieli"
+    },
+    {
+      "gbif_id": "gbif-2430987",
+      "amphibio_id": "Anf6677",
+      "scientific_name": "Oscaecilia bassleri"
+    },
+    {
+      "gbif_id": "gbif-2430990",
+      "amphibio_id": "Anf6679",
+      "scientific_name": "Oscaecilia equatorialis"
+    },
+    {
+      "gbif_id": "gbif-2430992",
+      "amphibio_id": "Anf6681",
+      "scientific_name": "Oscaecilia koepckeorum"
+    },
+    {
+      "gbif_id": "gbif-2430995",
+      "amphibio_id": "Anf6703",
+      "scientific_name": "Atretochoana eiselti"
+    },
+    {
+      "gbif_id": "gbif-2430998",
+      "amphibio_id": "Anf6689",
+      "scientific_name": "Schistometopum gregorii"
+    },
+    {
+      "gbif_id": "gbif-2431046",
+      "amphibio_id": "Anf6665",
+      "scientific_name": "Indotyphlus battersbyi"
+    },
+    {
+      "gbif_id": "gbif-2431054",
+      "amphibio_id": "Anf6759",
+      "scientific_name": "Uraeotyphlus gansi"
+    },
+    {
+      "gbif_id": "gbif-2431056",
+      "amphibio_id": "Anf6762",
+      "scientific_name": "Uraeotyphlus menoni"
+    },
+    {
+      "gbif_id": "gbif-2431060",
+      "amphibio_id": "Anf6761",
+      "scientific_name": "Uraeotyphlus malabaricus"
+    },
+    {
+      "gbif_id": "gbif-2431142",
+      "amphibio_id": "Anf6035",
+      "scientific_name": "Hynobius leechii"
+    },
+    {
+      "gbif_id": "gbif-2431164",
+      "amphibio_id": "Anf6036",
+      "scientific_name": "Hynobius lichenatus"
+    },
+    {
+      "gbif_id": "gbif-2431176",
+      "amphibio_id": "Anf6497",
+      "scientific_name": "Rhyacotriton variegatus"
+    },
+    {
+      "gbif_id": "gbif-2431178",
+      "amphibio_id": "Anf6494",
+      "scientific_name": "Rhyacotriton cascadae"
+    },
+    {
+      "gbif_id": "gbif-2431180",
+      "amphibio_id": "Anf6496",
+      "scientific_name": "Rhyacotriton olympicus"
+    },
+    {
+      "gbif_id": "gbif-2431233",
+      "amphibio_id": "Anf6374",
+      "scientific_name": "Desmognathus monticola"
+    },
+    {
+      "gbif_id": "gbif-2431688",
+      "amphibio_id": "Anf6332",
+      "scientific_name": "Thorius boreas"
+    },
+    {
+      "gbif_id": "gbif-2431701",
+      "amphibio_id": "Anf6345",
+      "scientific_name": "Thorius omiltemi"
+    },
+    {
+      "gbif_id": "gbif-2431879",
+      "amphibio_id": "Anf6561",
+      "scientific_name": "Tylototriton asperrimus"
+    },
+    {
+      "gbif_id": "gbif-2431889",
+      "amphibio_id": "Anf6560",
+      "scientific_name": "Triturus pygmaeus"
+    },
+    {
+      "gbif_id": "gbif-2431940",
+      "amphibio_id": "Anf6504",
+      "scientific_name": "Euproctus montanus"
+    },
+    {
+      "gbif_id": "gbif-2431965",
+      "amphibio_id": "Anf5990",
+      "scientific_name": "Ambystoma macrodactylum"
+    },
+    {
+      "gbif_id": "gbif-2431978",
+      "amphibio_id": "Anf5992",
+      "scientific_name": "Ambystoma mavortium"
+    },
+    {
+      "gbif_id": "gbif-2431992",
+      "amphibio_id": "Anf5997",
+      "scientific_name": "Ambystoma rosaceum"
+    },
+    {
+      "gbif_id": "gbif-2432000",
+      "amphibio_id": "Anf5999",
+      "scientific_name": "Ambystoma subsalsum"
+    },
+    {
+      "gbif_id": "gbif-2432031",
+      "amphibio_id": "Anf6014",
+      "scientific_name": "Cryptobranchus alleganiensis"
+    },
+    {
+      "gbif_id": "gbif-2432037",
+      "amphibio_id": "Anf6012",
+      "scientific_name": "Andrias davidianus"
+    },
+    {
+      "gbif_id": "gbif-2432039",
+      "amphibio_id": "Anf6013",
+      "scientific_name": "Andrias japonicus"
+    },
+    {
+      "gbif_id": "gbif-2432057",
+      "amphibio_id": "Anf6488",
+      "scientific_name": "Necturus alabamensis"
+    },
+    {
+      "gbif_id": "gbif-2432059",
+      "amphibio_id": "Anf6492",
+      "scientific_name": "Necturus punctatus"
+    },
+    {
+      "gbif_id": "gbif-2432063",
+      "amphibio_id": "Anf6589",
+      "scientific_name": "Siren intermedia"
+    },
+    {
+      "gbif_id": "gbif-2432068",
+      "amphibio_id": "Anf6590",
+      "scientific_name": "Siren lacertina"
+    },
+    {
+      "gbif_id": "gbif-2432075",
+      "amphibio_id": "Anf6588",
+      "scientific_name": "Pseudobranchus striatus"
+    },
+    {
+      "gbif_id": "gbif-2432081",
+      "amphibio_id": "Anf6011",
+      "scientific_name": "Amphiuma tridactylum"
+    },
+    {
+      "gbif_id": "gbif-2432083",
+      "amphibio_id": "Anf6010",
+      "scientific_name": "Amphiuma pholeter"
+    },
+    {
+      "gbif_id": "gbif-2432084",
+      "amphibio_id": "Anf6009",
+      "scientific_name": "Amphiuma means"
+    },
+    {
+      "gbif_id": "gbif-5216823",
+      "amphibio_id": "Anf0432",
+      "scientific_name": "Ansonia leptopus"
+    },
+    {
+      "gbif_id": "gbif-5217208",
+      "amphibio_id": "Anf5081",
+      "scientific_name": "Chiromantis xerampelina"
+    },
+    {
+      "gbif_id": "gbif-5217229",
+      "amphibio_id": "Anf5063",
+      "scientific_name": "Buergeria japonica"
+    },
+    {
+      "gbif_id": "gbif-5217374",
+      "amphibio_id": "Anf4449",
+      "scientific_name": "Pelodytes caucasicus"
+    },
+    {
+      "gbif_id": "gbif-5217387",
+      "amphibio_id": "Anf1448",
+      "scientific_name": "Rhinoderma rufum"
+    },
+    {
+      "gbif_id": "gbif-5217388",
+      "amphibio_id": "Anf1447",
+      "scientific_name": "Rhinoderma darwinii"
+    },
+    {
+      "gbif_id": "gbif-5217419",
+      "amphibio_id": "Anf0274",
+      "scientific_name": "Brachycephalus hermogenesi"
+    },
+    {
+      "gbif_id": "gbif-5217421",
+      "amphibio_id": "Anf0268",
+      "scientific_name": "Brachycephalus brunneus"
+    }
+  ]
+}

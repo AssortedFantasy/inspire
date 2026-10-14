@@ -1,0 +1,24 @@
+{
+  "dataset": "AnimalTraits v1.0.7",
+  "doi": "10.5281/zenodo.6468938",
+  "license": "CC0 1.0",
+  "publication": "https://doi.org/10.1038/s41597-022-01364-9",
+  "revision": "06c872793e83d448538a12f6f98dbad389a86703",
+  "observation_count": 3580,
+  "inputs": [
+    {
+      "url": "https://raw.githubusercontent.com/animaltraits/animaltraits.github.io/06c872793e83d448538a12f6f98dbad389a86703/docs/observations.csv",
+      "sha256": "151a77e6e9d6c27878e7c94321b3d686b81088d4845c0a510fcdb0d3a45fb44d",
+      "bytes": 1644415,
+      "cache_file": "observations.csv",
+      "encoding": "utf-8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/animaltraits/animaltraits.github.io/06c872793e83d448538a12f6f98dbad389a86703/docs/column-documentation.csv",
+      "sha256": "90053032e80fa5505fa7771b2eed3d777f0e6850bb4452654ad3823b0bae4bbd",
+      "bytes": 4082,
+      "cache_file": "column-documentation.csv",
+      "encoding": "latin-1"
+    }
+  ]
+}

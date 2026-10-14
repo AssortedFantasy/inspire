@@ -1,0 +1,332 @@
+[
+  {
+    "id": "brown-elfin",
+    "text": "Brown elfin (Callophrys augustinus)",
+    "provenance": "Animal name; factual nomenclature. Source: National Park Service, North Coast and Cascades butterfly inventory; nomenclature follows the cited inventory; https://www.nps.gov/articles/butterflies-of-the-north-coast-and-cascades.htm. Consulted 2026-10-13."
+  },
+  {
+    "id": "gbif-1031875",
+    "text": "Brown Spotted Hanging-fly (Bittacus punctiger). Class: Insecta; Order: Mecoptera; Family: Bittacidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1031875; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1037095",
+    "text": "Blue-margined Ground Beetle (Pasimachus marginatus). Class: Insecta; Order: Coleoptera; Family: Carabidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1037095; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-10442163",
+    "text": "Maungatua stonefly (Zelandoperla maungatuaensis). Class: Insecta; Order: Plecoptera; Family: Gripopterygidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/10442163; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1265431",
+    "text": "Cypress Aphid Wasp Parasitoid (Pauesia juniperorum). Class: Insecta; Order: Hymenoptera; Family: Braconidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1265431; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1317314",
+    "text": "Hairy Yellow Rover Ant (Brachymyrmex minutus). Class: Insecta; Order: Hymenoptera; Family: Formicidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1317314; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1341672",
+    "text": "Subalpine Cuckoo Nomad Bee (Triepeolus subalpinus). Class: Insecta; Order: Hymenoptera; Family: Apidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1341672; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1404864",
+    "text": "Giant African Mantis (Sphodromantis viridis). Class: Insecta; Order: Mantodea; Family: Mantidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1404864; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1406477",
+    "text": "Bird Poop Mantis (Ceratomantis saussurii). Class: Insecta; Order: Mantodea; Family: Hymenopodidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1406477; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1408287",
+    "text": "bicolor spiny crawler mayfly (Eurylophella bicolor). Class: Insecta; Order: Ephemeroptera; Family: Ephemerellidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1408287; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1408359",
+    "text": "Pecatonica River Mayfly (Acanthametropus pecatonica). Class: Insecta; Order: Ephemeroptera; Family: Acanthametropodidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1408359; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1415862",
+    "text": "Corsican Stick-insect (Bacillus rossius). Class: Insecta; Order: Phasmida; Family: Bacillidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1415862; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1417797",
+    "text": "a House Martin/cliff nest flea (Frontopsylla laeta). Class: Insecta; Order: Siphonaptera; Family: Leptopsyllidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1417797; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1419078",
+    "text": "a shrew flea (Palaeopsylla soricis). Class: Insecta; Order: Siphonaptera; Family: Ctenophthalmidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1419078; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1419902",
+    "text": "maritime earwig (Anisolabis maritima). Class: Insecta; Order: Dermaptera; Family: Anisolabididae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1419902; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1420626",
+    "text": "Thunder Fly (Limothrips cerealium). Class: Insecta; Order: Thysanoptera; Family: Thripidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1420626; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1421964",
+    "text": "Azure Damselfly (Coenagrion puella). Class: Insecta; Order: Odonata; Family: Coenagrionidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1421964; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1425240",
+    "text": "Southern Hawker (Aeshna cyanea). Class: Insecta; Order: Odonata; Family: Aeshnidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1425240; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1441971",
+    "text": "Kings Canyon cryptochian caddisfly (Cryptochia excella). Class: Insecta; Order: Trichoptera; Family: Limnephilidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1441971; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1496478",
+    "text": "Cape Needlenose Fly (Philoliche rostrata). Class: Insecta; Order: Diptera; Family: Tabanidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1496478; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1649285",
+    "text": "Pitcher-plant Mosquito (Wyeomyia smithii). Class: Insecta; Order: Diptera; Family: Culicidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1649285; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1711737",
+    "text": "Child's grasshopper (Sigaus childi). Class: Insecta; Order: Orthoptera; Family: Acrididae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1711737; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1721550",
+    "text": "Sporades Glandular Cricket (Ovaliptila wettsteini). Class: Insecta; Order: Orthoptera; Family: Gryllidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1721550; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1774243",
+    "text": "Poetry Moth (Neumoegenia poetica). Class: Insecta; Order: Lepidoptera; Family: Noctuidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1774243; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1894896",
+    "text": "Milbert's Tortoiseshell (Aglais milberti). Class: Insecta; Order: Lepidoptera; Family: Nymphalidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1894896; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1898286",
+    "text": "Red Admiral (Vanessa atalanta). Class: Insecta; Order: Lepidoptera; Family: Nymphalidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1898286; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1915492",
+    "text": "Common Wood Nymph (Cercyonis pegala). Class: Insecta; Order: Lepidoptera; Family: Nymphalidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1915492; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1920496",
+    "text": "Cabbage White (Pieris rapae). Class: Insecta; Order: Lepidoptera; Family: Pieridae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1920496; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1924106",
+    "text": "Silvery Blue (Glaucopsyche lygdamus). Class: Insecta; Order: Lepidoptera; Family: Lycaenidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1924106; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1925429",
+    "text": "Gray Hairstreak (Strymon melinus). Class: Insecta; Order: Lepidoptera; Family: Lycaenidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1925429; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1937484",
+    "text": "Butterfly of Paradise (Ornithoptera paradisea). Class: Insecta; Order: Lepidoptera; Family: Papilionidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1937484; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1937642",
+    "text": "Pale Swallowtail (Papilio eurymedon). Class: Insecta; Order: Lepidoptera; Family: Papilionidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1937642; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1937691",
+    "text": "Western Tiger Swallowtail (Papilio rutulus). Class: Insecta; Order: Lepidoptera; Family: Papilionidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1937691; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1937751",
+    "text": "Anise Swallowtail (Papilio zelicaon). Class: Insecta; Order: Lepidoptera; Family: Papilionidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1937751; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1937803",
+    "text": "Two-tailed Swallowtail (Papilio multicaudata). Class: Insecta; Order: Lepidoptera; Family: Papilionidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1937803; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1946865",
+    "text": "Woodland Skipper (Ochlodes sylvanoides). Class: Insecta; Order: Lepidoptera; Family: Hesperiidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1946865; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-1947335",
+    "text": "Arctic Skipper (Carterocephalus palaemon). Class: Insecta; Order: Lepidoptera; Family: Hesperiidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/1947335; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-2002826",
+    "text": "Intermountain Forestfly (Zapada haysi). Class: Insecta; Order: Plecoptera; Family: Nemouridae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/2002826; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-2007393",
+    "text": "Pacific coast dampwood termite (Zootermopsis angusticollis). Class: Insecta; Order: Blattodea; Family: Archotermopsidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/2007393; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-2097902",
+    "text": "Spotted-wing antlion (Euroleon nostras). Class: Insecta; Order: Neuroptera; Family: Myrmeleontidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/2097902; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-2107471",
+    "text": "Green Mantidfly (Zeugomantispa minuta). Class: Insecta; Order: Neuroptera; Family: Mantispidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/2107471; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-4299368",
+    "text": "Painted Lady (Vanessa cardui). Class: Insecta; Order: Lepidoptera; Family: Nymphalidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/4299368; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-4299370",
+    "text": "American Lady (Vanessa virginiensis). Class: Insecta; Order: Lepidoptera; Family: Nymphalidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/4299370; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-4386522",
+    "text": "Taiwanese bamboo aphid (Takecallis taiwana). Class: Insecta; Order: Hemiptera; Family: Aphididae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/4386522; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-4393040",
+    "text": "Aetolian Earwig (Forficula aetolica). Class: Insecta; Order: Dermaptera; Family: Forficulidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/4393040; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-4421212",
+    "text": "Snow Flea (Boreus hyemalis). Class: Insecta; Order: Mecoptera; Family: Boreidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/4421212; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-4449398",
+    "text": "Moccas Beetle (Hypebaeus flavipes). Class: Insecta; Order: Coleoptera; Family: Melyridae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/4449398; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-4485890",
+    "text": "Spectacular Cabbage Bug (Eurydema spectabilis). Class: Insecta; Order: Hemiptera; Family: Pentatomidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/4485890; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-5051901",
+    "text": "Yellow-legged Club-tailed Dragonfly (Stylurus flavipes). Class: Insecta; Order: Odonata; Family: Gomphidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/5051901; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-5052974",
+    "text": "Limpid Free-living Caddisfly (Rhyacophila perplana). Class: Insecta; Order: Trichoptera; Family: Rhyacophilidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/5052974; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-5130682",
+    "text": "Mourning Cloak (Nymphalis antiopa). Class: Insecta; Order: Lepidoptera; Family: Nymphalidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/5130682; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-5130696",
+    "text": "California Tortoiseshell (Nymphalis californica). Class: Insecta; Order: Lepidoptera; Family: Nymphalidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/5130696; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-5132246",
+    "text": "Lorquin's Admiral (Limenitis lorquini). Class: Insecta; Order: Lepidoptera; Family: Nymphalidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/5132246; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-5133088",
+    "text": "Monarch (Danaus plexippus). Class: Insecta; Order: Lepidoptera; Family: Nymphalidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/5133088; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-5133864",
+    "text": "Western Meadow Fritillary (Boloria epithore). Class: Insecta; Order: Lepidoptera; Family: Nymphalidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/5133864; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-5137694",
+    "text": "Orange Sulphur (Colias eurytheme). Class: Insecta; Order: Lepidoptera; Family: Pieridae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/5137694; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-5152433",
+    "text": "Conehead Termite (Nasutitermes corniger). Class: Insecta; Order: Blattodea; Family: Termitidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/5152433; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-5714356",
+    "text": "Satyr Comma (Polygonia satyrus). Class: Insecta; Order: Lepidoptera; Family: Nymphalidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/5714356; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-5977250",
+    "text": "Dreamy Duskywing (Erynnis icelus). Class: Insecta; Order: Lepidoptera; Family: Hesperiidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/5977250; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-7668274",
+    "text": "Pale-winged Desert Cicada (Okanagodes gracilis). Class: Insecta; Order: Hemiptera; Family: Cicadidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/7668274; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-7996583",
+    "text": "Marys Peak Ice Cricket (Grylloblatta chintimini). Class: Insecta; Order: Grylloblattodea; Family: Grylloblattidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/7996583; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-8101761",
+    "text": "St Helena Brown-spotted Bug (Neisopsallus lutosus). Class: Insecta; Order: Hemiptera; Family: Miridae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/8101761; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-8968974",
+    "text": "St Helenian Doli-fly (Campsicnemus sanctaehelenae). Class: Insecta; Order: Diptera; Family: Dolichopodidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/8968974; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "gbif-9947874",
+    "text": "Two-spotted Spider Wasp (Episyron biguttatus). Class: Insecta; Order: Hymenoptera; Family: Pompilidae.",
+    "provenance": "GBIF Secretariat: GBIF Backbone Taxonomy, dataset d7dddbf4-2cf0-4f39-9b2a-bb099caae36c; https://www.gbif.org/species/9947874; snapshot retrieved 2026-10-13. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Selected factual nomenclature and classification; formatted and filtered by Inspire. Taxonomy is the pinned backbone snapshot, not a claim of current consensus. Exact API inputs and SHA-256 hashes are in the adjacent sources.json."
+  },
+  {
+    "id": "purplish-copper",
+    "text": "Purplish copper (Lycaena helloides)",
+    "provenance": "Animal name; factual nomenclature. Source: National Park Service, North Coast and Cascades butterfly inventory; nomenclature follows the cited inventory; https://www.nps.gov/articles/butterflies-of-the-north-coast-and-cascades.htm. Consulted 2026-10-13."
+  },
+  {
+    "id": "western-pine-elfin",
+    "text": "Western pine elfin (Callophrys eryphon)",
+    "provenance": "Animal name; factual nomenclature. Source: National Park Service, North Coast and Cascades butterfly inventory; nomenclature follows the cited inventory; https://www.nps.gov/articles/butterflies-of-the-north-coast-and-cascades.htm. Consulted 2026-10-13."
+  }
+]

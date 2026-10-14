@@ -1,0 +1,297 @@
+{
+  "dataset": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+  "dataset_url": "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+  "license": "CC BY 4.0",
+  "retrieved": "2026-10-13",
+  "taxa": [
+    "Squamata",
+    "Testudines",
+    "Crocodylia",
+    "Sphenodontia"
+  ],
+  "queries": [
+    "",
+    "rubber boa",
+    "prairie rattlesnake",
+    "bullsnake"
+  ],
+  "max_pages": 5,
+  "per_family_cap": 3,
+  "retained_seed_names": [
+    "aldabra giant tortoise",
+    "bullsnake",
+    "common garter snake",
+    "prairie rattlesnake",
+    "rubber boa",
+    "sagebrush lizard",
+    "terrestrial garter snake"
+  ],
+  "retrievals": [
+    {
+      "taxon": "Squamata",
+      "key": 11592253,
+      "query": "",
+      "available": 12784,
+      "fetched": 5000
+    },
+    {
+      "taxon": "Squamata",
+      "key": 11592253,
+      "query": "rubber boa",
+      "available": 2,
+      "fetched": 2
+    },
+    {
+      "taxon": "Squamata",
+      "key": 11592253,
+      "query": "prairie rattlesnake",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "taxon": "Squamata",
+      "key": 11592253,
+      "query": "bullsnake",
+      "available": 2,
+      "fetched": 2
+    },
+    {
+      "taxon": "Testudines",
+      "key": 11418114,
+      "query": "",
+      "available": 1136,
+      "fetched": 1136
+    },
+    {
+      "taxon": "Testudines",
+      "key": 11418114,
+      "query": "rubber boa",
+      "available": 0,
+      "fetched": 0
+    },
+    {
+      "taxon": "Testudines",
+      "key": 11418114,
+      "query": "prairie rattlesnake",
+      "available": 0,
+      "fetched": 0
+    },
+    {
+      "taxon": "Testudines",
+      "key": 11418114,
+      "query": "bullsnake",
+      "available": 0,
+      "fetched": 0
+    },
+    {
+      "taxon": "Crocodylia",
+      "key": 11493978,
+      "query": "",
+      "available": 238,
+      "fetched": 238
+    },
+    {
+      "taxon": "Crocodylia",
+      "key": 11493978,
+      "query": "rubber boa",
+      "available": 0,
+      "fetched": 0
+    },
+    {
+      "taxon": "Crocodylia",
+      "key": 11493978,
+      "query": "prairie rattlesnake",
+      "available": 0,
+      "fetched": 0
+    },
+    {
+      "taxon": "Crocodylia",
+      "key": 11493978,
+      "query": "bullsnake",
+      "available": 0,
+      "fetched": 0
+    },
+    {
+      "taxon": "Sphenodontia",
+      "key": 11569602,
+      "query": "",
+      "available": 46,
+      "fetched": 46
+    },
+    {
+      "taxon": "Sphenodontia",
+      "key": 11569602,
+      "query": "rubber boa",
+      "available": 0,
+      "fetched": 0
+    },
+    {
+      "taxon": "Sphenodontia",
+      "key": 11569602,
+      "query": "prairie rattlesnake",
+      "available": 0,
+      "fetched": 0
+    },
+    {
+      "taxon": "Sphenodontia",
+      "key": 11569602,
+      "query": "bullsnake",
+      "available": 0,
+      "fetched": 0
+    }
+  ],
+  "record_count": 237,
+  "inputs": [
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Crocodylia&strict=true&rank=CLASS&kingdom=Animalia",
+      "sha256": "b2809816e23c8891f81faa370e5e98cc51b53dc039758e43bb7edaeb2ce081ef",
+      "bytes": 263,
+      "cache_file": "bc0acad4976d3c06fab0ec32d8c1eab8d6ce38a0b893eb4a437cb6087979b901.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Sphenodontia&strict=true&rank=CLASS&kingdom=Animalia",
+      "sha256": "07783a6f99536859bede93734726e02d1b3a9e5b4f4cc6fe3d37d7cd97521dd3",
+      "bytes": 269,
+      "cache_file": "679d2f8ec023d3be1c96ca288d2be72558bc7faf18031be1ae564a3343729423.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Squamata&strict=true&rank=CLASS&kingdom=Animalia",
+      "sha256": "ff4a868ce22ac0e169630dc7222fd5a5bc5b5c1d78c117664365a3609b5075be",
+      "bytes": 257,
+      "cache_file": "3735b9098a4cda1fbc4f03000a24c6e0ea87db9486c60ceec25e82f1cc036fa9.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Testudines&strict=true&rank=CLASS&kingdom=Animalia",
+      "sha256": "43f3a18d5de73f7347c3fbd73deff1423653f405a37067b1b1b58f5b0a1b9759",
+      "bytes": 263,
+      "cache_file": "574693cdfcdcbd0ed1445bf7c44f968ac4e50b723d773011a80d3ce918715e0e.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11418114&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0",
+      "sha256": "17227d8687bb2bc52b36b3cac023f3504b6ae897dbf0e3747d65cf00f533909d",
+      "bytes": 2138415,
+      "cache_file": "cf0e6381af44047d8f8fb4e57801837d259d55fce809f1803b5bf3846cd0f8df.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11418114&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=bullsnake&qField=VERNACULAR",
+      "sha256": "98ff26dabc85fb93bc5c29e2ea23af99cf3bfae402258be8c7c7094649b9bef5",
+      "bytes": 80,
+      "cache_file": "813e6a5b8365e26039c8197098a3dbcd5aff19b9d69bc01ef5b9ee8ef7a1c1ee.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11418114&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=prairie+rattlesnake&qField=VERNACULAR",
+      "sha256": "98ff26dabc85fb93bc5c29e2ea23af99cf3bfae402258be8c7c7094649b9bef5",
+      "bytes": 80,
+      "cache_file": "1bd878f308b643b9290d0c9e7efa69def5770b1326db430c690d89e53e8adab0.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11418114&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=rubber+boa&qField=VERNACULAR",
+      "sha256": "98ff26dabc85fb93bc5c29e2ea23af99cf3bfae402258be8c7c7094649b9bef5",
+      "bytes": 80,
+      "cache_file": "e519c532997b25090d437cc3327ec0aca61bb665175bbddd25efad39e6001f46.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11418114&rank=SPECIES&status=ACCEPTED&limit=1000&offset=1000",
+      "sha256": "42508e246ff31ab5a387d6f7e40ac25b6eeff0325d2e05181d5627fffe180e98",
+      "bytes": 279660,
+      "cache_file": "f89aef42668477f4de55bbeda6e8330762e97222a1141019659fc783b5a8393c.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11493978&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0",
+      "sha256": "c17f3646af46d9ef36e9b1672db3258bc916501facd73fcc6f383e3d3097c56e",
+      "bytes": 545865,
+      "cache_file": "0320d954b30128301c3c8814daa29a3d4686d0d1b8418ed062ded26200fbd782.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11493978&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=bullsnake&qField=VERNACULAR",
+      "sha256": "98ff26dabc85fb93bc5c29e2ea23af99cf3bfae402258be8c7c7094649b9bef5",
+      "bytes": 80,
+      "cache_file": "2fd2ae7eb94e95f177549fb9b0f7977ab76e6d29794d65a319df7fd7cd145cb0.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11493978&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=prairie+rattlesnake&qField=VERNACULAR",
+      "sha256": "98ff26dabc85fb93bc5c29e2ea23af99cf3bfae402258be8c7c7094649b9bef5",
+      "bytes": 80,
+      "cache_file": "16a89dc7b5d66df9c1d77826dc03ee96ca144041a08f714c59ea411c33ddb0ac.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11493978&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=rubber+boa&qField=VERNACULAR",
+      "sha256": "98ff26dabc85fb93bc5c29e2ea23af99cf3bfae402258be8c7c7094649b9bef5",
+      "bytes": 80,
+      "cache_file": "a6cad8209a794de004c6a5fb66a0d58dfbd2ce4c6b0c1c66c23635114bc134da.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11569602&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0",
+      "sha256": "f9e6650a3fbb1bce3c6292a19b6d6ed855689976d90c843c544d011c56ba7854",
+      "bytes": 107171,
+      "cache_file": "76e81ebb32a63ac47e1d57996dbaa9b851edaeb2d81849b651fa12f1ebcade42.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11569602&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=bullsnake&qField=VERNACULAR",
+      "sha256": "98ff26dabc85fb93bc5c29e2ea23af99cf3bfae402258be8c7c7094649b9bef5",
+      "bytes": 80,
+      "cache_file": "e5c3d045de2e9f66d8514eb02aaccb0344fe1bf587994032000d447384ff3639.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11569602&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=prairie+rattlesnake&qField=VERNACULAR",
+      "sha256": "98ff26dabc85fb93bc5c29e2ea23af99cf3bfae402258be8c7c7094649b9bef5",
+      "bytes": 80,
+      "cache_file": "b856ca400dbe5c0114e2625ab1bd91b974ec195c02efbcf8f07c3086750eac85.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11569602&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=rubber+boa&qField=VERNACULAR",
+      "sha256": "98ff26dabc85fb93bc5c29e2ea23af99cf3bfae402258be8c7c7094649b9bef5",
+      "bytes": 80,
+      "cache_file": "358b72d7d1c434fc7ce876aaa5a308d9da647bc6edb65e0cb02d6238a913ff45.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11592253&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0",
+      "sha256": "ded4b78287b97ae5102f7f4c7e00cf06b42078caf66b03b670d7d0f9fa6484d1",
+      "bytes": 2664689,
+      "cache_file": "6cfd19501c2e14b778bce60041937446f308339043d74ec2327cbcf9180b02cf.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11592253&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=bullsnake&qField=VERNACULAR",
+      "sha256": "305f6bdae21f31efe791a5634ba9e9e2d95bcf114780c37ce300fdf9eb55bcce",
+      "bytes": 7206,
+      "cache_file": "413c91656dcbcd05d7bbd2f67d39ea1157bba76bb058984af1667dcd81a8e10f.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11592253&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=prairie+rattlesnake&qField=VERNACULAR",
+      "sha256": "d8ed0cd4e92cad891a8af73f9bef2a150b6b26bcbb23e4b7b85f4931d3de9acb",
+      "bytes": 3219,
+      "cache_file": "368694764ec66cd1b1718fc6d1281c0811402d51fdf943e1a84f1edf1edea0df.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11592253&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=rubber+boa&qField=VERNACULAR",
+      "sha256": "ef10aa15baf6a19cfd48dbae3977ea0995f796b95bd41980d869882ab6c04d78",
+      "bytes": 4340,
+      "cache_file": "19156b361d2db70671c263e883f702f1f75d6ef734130c79a15f0067e8cbf542.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11592253&rank=SPECIES&status=ACCEPTED&limit=1000&offset=1000",
+      "sha256": "3b69b813f1fd674e7c02bd575dc09d219ebb61f9da7f670573023583b492daa5",
+      "bytes": 2292180,
+      "cache_file": "ddad91e541876e276eb8318ee8bcddfe014c0aaaca8511e5eaa9cb3ec881cc49.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11592253&rank=SPECIES&status=ACCEPTED&limit=1000&offset=2000",
+      "sha256": "c315b61dfbc6b0d305f1378225eb662d313835f9dae220064876dba9c2223c1f",
+      "bytes": 2817473,
+      "cache_file": "aae967521bda88e11bdf07a43c159e65e1f2b95fecd6d695c125e3c09cd31811.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11592253&rank=SPECIES&status=ACCEPTED&limit=1000&offset=3000",
+      "sha256": "1dae30ec733e259637fd8fd40a3666083b1db8d451980da4084d240ee3985f63",
+      "bytes": 2154426,
+      "cache_file": "8bb57ac33e0d52007c211e5dc08c2c76c176b7851a128284dd0ba6b1f9c4ec67.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=11592253&rank=SPECIES&status=ACCEPTED&limit=1000&offset=4000",
+      "sha256": "296ed2f69ef5c9635d2953c1666e3131f76842634e2a67470fb00047c0528c87",
+      "bytes": 2546378,
+      "cache_file": "d81e93e2939c1d84b58af1346878483cc018c90105acf58659ec6e1863c66ab2.json"
+    }
+  ],
+  "taxon_rank": "CLASS"
+}

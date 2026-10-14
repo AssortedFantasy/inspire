@@ -1,0 +1,25 @@
+Mammal taxonomy: GBIF Secretariat, GBIF Backbone Taxonomy,
+https://doi.org/10.15468/39omei, CC BY 4.0.
+The full CC BY 4.0 license is included in the animals ancestor LICENSE.txt.
+
+Mammal trait estimates: Jones et al. (2009), PanTHERIA: a species-level
+database of life history, ecology, and geography of extant and recently
+extinct mammals. Ecology 90:2648. https://doi.org/10.1890/08-1494.1
+PanTHERIA 1.0 WR05, August 2008:
+https://esapubs.org/archive/ecol/E090/184/PanTHERIA_1-0_WR05_Aug2008.txt
+
+The primary dataset metadata states:
+"Copyright restrictions: None."
+"Proprietary restrictions: None."
+https://esapubs.org/archive/ecol/E090/184/metadata.htm
+
+Ecological Archives' current default license is Creative Commons Attribution
+4.0 unless otherwise noted:
+https://esapubs.org/archive/copyright.htm
+https://creativecommons.org/licenses/by/4.0/
+
+Inspire joins exact scientific names, selects available species estimates,
+omits missing values and EXT columns, and rounds to three significant figures.
+No imputation or synonym mapping is performed. Values are from the 2008
+species concept and may include source model adjustments; maximum recorded
+longevity includes captive and wild observations, and is not life expectancy.

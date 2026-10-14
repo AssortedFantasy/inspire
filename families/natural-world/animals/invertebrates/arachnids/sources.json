@@ -1,0 +1,68 @@
+{
+  "dataset": "AnimalTraits v1.0.7",
+  "doi": "10.5281/zenodo.6468938",
+  "license": "CC0 1.0",
+  "publication": "https://doi.org/10.1038/s41597-022-01364-9",
+  "revision": "06c872793e83d448538a12f6f98dbad389a86703",
+  "observation_count": 3580,
+  "inputs": [
+    {
+      "url": "https://raw.githubusercontent.com/animaltraits/animaltraits.github.io/06c872793e83d448538a12f6f98dbad389a86703/docs/observations.csv",
+      "sha256": "151a77e6e9d6c27878e7c94321b3d686b81088d4845c0a510fcdb0d3a45fb44d",
+      "bytes": 1644415,
+      "cache_file": "observations.csv",
+      "encoding": "utf-8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/animaltraits/animaltraits.github.io/06c872793e83d448538a12f6f98dbad389a86703/docs/column-documentation.csv",
+      "sha256": "90053032e80fa5505fa7771b2eed3d777f0e6850bb4452654ad3823b0bae4bbd",
+      "bytes": 4082,
+      "cache_file": "column-documentation.csv",
+      "encoding": "latin-1"
+    }
+  ],
+  "group": "arachnids",
+  "class": "Arachnida",
+  "per_family_cap": 3,
+  "eligible_species": 57,
+  "families": 29,
+  "record_count": 44,
+  "selection": "One richest study observation per species (first source row breaks ties); stable ID-hash family caps",
+  "taxonomy_policy": "Source-recorded order/family labels, potentially historical; documented spelling corrections only",
+  "family_corrections": {
+    "Tettigonildae": "Tettigoniidae",
+    "Aeschnidae": "Aeshnidae"
+  },
+  "species_corrections": {
+    "Reticlitermes flavipes": "Reticulitermes flavipes",
+    "Pholcus phalangioideus": "Pholcus phalangioides",
+    "Alaskozeres antarcticus": "Alaskozetes antarcticus",
+    "Misumenoidea formosipes": "Misumenoides formosipes"
+  },
+  "order_corrections": {
+    "Orthoperta": "Orthoptera"
+  },
+  "correction_evidence": {
+    "Tettigonildae": "Requena primary study title: https://doi.org/10.1242/jeb.178.1.21",
+    "Aeschnidae": "Smithsonian Anax junius specimen taxonomy: https://www.si.edu/object/anax-junius%3Anmnhentomology_9301938",
+    "Reticlitermes flavipes": "Shelton & Appel primary study title: https://doi.org/10.1016/S0022-1910(00)00111-6",
+    "Orthoperta": "Hack primary study abstract: https://doi.org/10.1111/j.1365-3032.1997.tb01176.x",
+    "Pholcus phalangioideus": "Schmitz primary study title: https://pubmed.ncbi.nlm.nih.gov/26022251/",
+    "Alaskozeres antarcticus": "Young & Block primary study abstract in institutional repository: https://nora.nerc.ac.uk/id/eprint/525070/",
+    "Misumenoidea formosipes": "ITIS verified species TSN 883799: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=883799; primary study: https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/arac-39-01-41.pdf/?no_cache=1"
+  },
+  "excluded_species": {
+    "Lygus kalmii": "Unresolved source name/family combination (Lygaeidae); primary identity unverified",
+    "Multareoides bifuractus": "Unresolved source epithet; primary study identity unverified"
+  },
+  "neural_structure_clarifications": {
+    "Quesada et al., 2011": {
+      "measurement": "CNS neuropil-only volume, supra- and sub-oesophageal ganglia; cortex excluded",
+      "evidence": "https://stri-sites.si.edu/docs/publications/pdfs/STRI-W_Wcislo_2011_Quesada_et_al.pdf",
+      "sample_size_discrepancy": "Mysmenopsis tengellacompa source sample size 1; supplementary Table 2 reports 3 females; source field retained with explicit note"
+    }
+  },
+  "temperature_discrepancies": {
+    "Damon annulatipes": "Original temperature column 21 \u00b0C; metadata comment mentions 25 \u00b0C; source values retained with explicit note"
+  }
+}

@@ -1,0 +1,4625 @@
+{
+  "doi": "https://doi.org/10.6084/m9.figshare.24572683.v4",
+  "version": 4,
+  "file": "ReptTraits dataset v1-2.xlsx",
+  "license": "CC BY 4.0",
+  "inputs": [
+    {
+      "url": "https://api.figshare.com/v2/articles/24572683/versions/4",
+      "cache_file": "metadata.json",
+      "bytes": 5312,
+      "sha256": "70648abe5cc13ba8061a06e5f744e3d6801cfeb7fe4348292bcd8aacc7ec2c6b"
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/45408133",
+      "cache_file": "ReptTraits.xlsx",
+      "bytes": 18545434,
+      "sha256": "74eb6fd0e2626c75bdbeacb50a08b1762eee42e2b3cfda4a0f1134b84971718a"
+    }
+  ],
+  "join": "exact scientific binomial, no synonym or fuzzy matches",
+  "record_count": 237,
+  "enriched_records": 219,
+  "coverage": {
+    "activity": 139,
+    "diet": 122,
+    "maximum reported longevity (years)": 74,
+    "maximum straight carapace length (mm)": 21,
+    "maximum total length (mm)": 83,
+    "reproductive mode": 214
+  },
+  "used_definitions": {
+    "Diet ": "Species is herbivorous (consumes mostly plants), carnivorous (eats only animal matter), or omnivorous (eats animal and plant matter.",
+    "Active time": "Whether a species is diurnal, nocturnal, cathemeral, crepuscular or polyphasic.",
+    "Maximum Longevity (years)": "Longevity data are the maximum age (in years) reported for each species from the literature. ",
+    "Maximum total length (\"TL\", mm)": "Total length in millimetres",
+    "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)": "We collected \"Maximum length\" for Crocodylia, Rhynchocephalia, Squamata and Amphisbaenia. But Testudines included in the same colum but different measure \"straight carapace length for turtles\".",
+    "Reproductive mode": "Whether a species is oviparous or viviparous, or whether there are reports on both parity modes “mixed” (ovoviviparous)."
+  },
+  "excluded_fields": {
+    "Maximum body mass (g)": "Mixed measured and allometrically derived source entries; omitted rather than emitted as measured maxima.",
+    "Microhabitat": "Source inconsistency: Crocodylus porosus marked Arboreal/Saxicolous/Terrestrial. Entire column omitted.",
+    "SVL and sex-specific lengths": "Source inconsistency: Sphenodon punctatus maximum SVL 800 mm appears to be total length. All non-turtle SVL omitted; no inferred conversions."
+  },
+  "joins": [
+    {
+      "id": "gbif-12194921",
+      "species": "Elseya nabire",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2441360",
+      "species": "Gavialis gangeticus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Forsyth 1914"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 100,
+          "citation": "Khadka et al. 2008"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 6000,
+          "citation": "Erickson et al 2012"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2441368",
+      "species": "Alligator sinensis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Perry 2012"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 70,
+          "citation": "Thorbjarnarson et al. 2001"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 2460,
+          "citation": "Perry 2012"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2441370",
+      "species": "Alligator mississippiensis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "National Geographic 2023"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 85,
+          "citation": "Thorbjarnarson et al. 2001"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 4600,
+          "citation": "National Geographic 2023"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2441378",
+      "species": "Tomistoma schlegelii",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Harding 200"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 80,
+          "citation": "Meyers et al. 2009"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 5000,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2441441",
+      "species": "Indotestudo forstenii",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Crepuscular",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 32.1,
+          "citation": "De Magalhaes and Costa 2009"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2441819",
+      "species": "Gopherus flavomarginatus",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 15.8,
+          "citation": "Carey and Judge 2002"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 460,
+          "citation": "Feldman & Meiri 2013"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2441884",
+      "species": "Platysternon megacephalum",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 27,
+          "citation": "Meyers et al. 2009"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2441905",
+      "species": "Chelydra serpentina",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Bergeron et al. 2007"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 50,
+          "citation": "Carey and Judge 2002"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 500,
+          "citation": "Iverson et al. 1997"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442074",
+      "species": "Mesoclemmys zuliae",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442153",
+      "species": "Lepidochelys olivacea",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Ernst et al. 1994"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 41,
+          "citation": "Ernst et al. 1994"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 610,
+          "citation": "Ernst et al. 1994"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442173",
+      "species": "Natator depressus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Ernst & Lovich 2009"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Iverson 1989"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 100,
+          "citation": "Stark et al. 2020"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 960,
+          "citation": "Smith and Brodie 1982"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442225",
+      "species": "Chelonia mydas",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Bernard 2000"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 75,
+          "citation": "Tacutu et al. 2013"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 1500,
+          "citation": "Dorling 2005"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442283",
+      "species": "Pelusios gabonensis",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 15.6,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442326",
+      "species": "Pelusios broadleyi",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442332",
+      "species": "Pelusios marani",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442394",
+      "species": "Kinosternon baurii",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "van Dijk 2011"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 120,
+          "citation": " Rhodin 2010"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442412",
+      "species": "Kinosternon oaxacae",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "van Dijk et al. 2007"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "van Dijk et al. 2007"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 44.7,
+          "citation": "Stark et al. 2020"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 160,
+          "citation": "Berry and Iverson 1980"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442495",
+      "species": "Dermatemys mawii",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Herbivorous",
+          "citation": "Vogt et al. 2011"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 11.3,
+          "citation": "De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 600,
+          "citation": "Vogt et al. 2011"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442506",
+      "species": "Carettochelys insculpta",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Obst 1998"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 38.4,
+          "citation": "Ernst et al. 1994"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 750,
+          "citation": "Obst 1998"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442782",
+      "species": "Podocnemis unifilis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 23.5,
+          "citation": "Chinsamy and Valenzuela 2008"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 450,
+          "citation": "Feldman & Meiri 2013"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442800",
+      "species": "Erymnochelys madagascariensis",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2442992",
+      "species": "Trachemys callirostris",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 75,
+          "citation": "Meyers et al. 2009"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 350,
+          "citation": "Feldman & Meiri 2013"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2443079",
+      "species": "Graptemys ouachitensis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Smith and Brodie 1982"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 15,
+          "citation": "De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 250,
+          "citation": "Smith and Brodie 1982"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2443289",
+      "species": "Pangshura sylhetensis",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 140,
+          "citation": "Stark et al. 2020"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 205,
+          "citation": "Beolens et al. 2011"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2443497",
+      "species": "Cuora zhoui",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2443630",
+      "species": "Rhinoclemmys annulata",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Herbivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2444101",
+      "species": "Trimeresurus popeiorum",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 14,
+          "citation": "Meyers et al. 2009"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1050,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2444684",
+      "species": "Bothriechis supraciliaris",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 800,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2444879",
+      "species": "Bitis schneideri",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 6.5,
+          "citation": "Stark et al. 2020"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 280,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2445056",
+      "species": "Tarentola darwini",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2445087",
+      "species": "Tarentola americana",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2445097",
+      "species": "Tarentola caboverdiana",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2445203",
+      "species": "Sphaerodactylus scaber",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2445309",
+      "species": "Sphaerodactylus fantasticus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2445351",
+      "species": "Sphaerodactylus kirbyi",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2445909",
+      "species": "Carphodactylus laevis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2446214",
+      "species": "Gehyra dubia",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2446432",
+      "species": "Goniurosaurus yamashinae",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2446850",
+      "species": "Strophurus jeanae",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2446875",
+      "species": "Strophurus wellingtonae",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2446890",
+      "species": "Strophurus williamsi",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 10,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2447007",
+      "species": "Dixonius hangseesom",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 10.2,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2447010",
+      "species": "Dixonius siamensis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2447237",
+      "species": "Coleonyx mitratus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2447254",
+      "species": "Coleonyx reticulatus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 15,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2447733",
+      "species": "Nephrurus vertebralis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2447737",
+      "species": "Nephrurus stellatus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 8,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448226",
+      "species": "Xenosaurus platyceps",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448230",
+      "species": "Xenosaurus rectocollaris",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448231",
+      "species": "Xenosaurus grandis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 12.8,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448242",
+      "species": "Shinisaurus crocodilurus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 11.4,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448365",
+      "species": "Leptotyphlops pungwensis",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 900,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448472",
+      "species": "Leptotyphlops mbanjensis",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 134.5,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448526",
+      "species": "Leptotyphlops jacobseni",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 210,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448590",
+      "species": "Cylindrophis isolepis",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 430,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448592",
+      "species": "Cylindrophis yamdena",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 628,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448601",
+      "species": "Cylindrophis engkariensis",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 485,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448616",
+      "species": "Loxocemus bicolor",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 32.8,
+          "citation": "De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1530,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448651",
+      "species": "Laemanctus longipes",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 15.4,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448652",
+      "species": "Laemanctus serratus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 5.2,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448667",
+      "species": "Corytophanes cristatus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 7.1,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448724",
+      "species": "Melanophidium bilineatum",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 500,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448739",
+      "species": "Uropeltis rubromaculata",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 368,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448840",
+      "species": "Teretrurus rhodogaster",
+      "traits": [
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 210,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448919",
+      "species": "Calumma andringitraense",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2448931",
+      "species": "Calumma globifer",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2449326",
+      "species": "Brookesia minima",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2449635",
+      "species": "Acanthophis hawkei",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 15.5,
+          "citation": "Stark et al. 2020"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1200,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450369",
+      "species": "Trachyboa boulengeri",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 500,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450370",
+      "species": "Trachyboa gularis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 320,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450375",
+      "species": "Xenophidion acanthognathus",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 380,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450376",
+      "species": "Xenophidion schaeferi",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 300,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450381",
+      "species": "Anomochilus weberi",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 230,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450383",
+      "species": "Anomochilus leonardi",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 228,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450544",
+      "species": "Alopoglossus copii",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450825",
+      "species": "Alopoglossus festae",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450854",
+      "species": "Euspondylus guentheri",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450928",
+      "species": "Anadia vittata",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450968",
+      "species": "Rhineura floridana",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450972",
+      "species": "Bolyeria multocarinata",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1000,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450979",
+      "species": "Casarea dussumieri",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 17.8,
+          "citation": "De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1500,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2450987",
+      "species": "Diplometopon zarudnyi",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 21,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2451223",
+      "species": "Sceloporus graciosus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 8,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2451388",
+      "species": "Sceloporus formosus",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2451403",
+      "species": "Sceloporus poinsettii",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 8,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2451561",
+      "species": "Tracheloptychus madagascariensis",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2451639",
+      "species": "Zonosaurus haraldmeieri",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2451663",
+      "species": "Zonosaurus quadrilineatus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2451673",
+      "species": "Anilius scytale",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "ovoviviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1200,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2451703",
+      "species": "Dibamus bourreti",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2451707",
+      "species": "Dibamus nicobaricum",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Meiri 2018"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2451749",
+      "species": "Lepidophyma flavimaculatum",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 11,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2451768",
+      "species": "Lepidophyma mayae",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2451779",
+      "species": "Lepidophyma micropholis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2452412",
+      "species": "Oxyrhabdium leporinum",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 685,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2452599",
+      "species": "Dendrophidion clarkii",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1550,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2452649",
+      "species": "Phyllorhynchus decurtatus",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 510,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2452676",
+      "species": "Duberria lutrix",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 450,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2452957",
+      "species": "Pythonodipsas carinata",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 800,
+          "citation": "Feldman & Meiri 2013"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2453054",
+      "species": "Pareas komaii",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2453056",
+      "species": "Pareas boulengeri",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 650,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2453826",
+      "species": "Pituophis catenifer",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 33.8,
+          "citation": "Meyers et al. 2009"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 2790,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2454386",
+      "species": "Prosymna janii",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 310,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2454399",
+      "species": "Prosymna ambigua",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 453,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2454613",
+      "species": "Cerberus microlepis",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1046,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2455791",
+      "species": "Lycodryas guentheri",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 520,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2456070",
+      "species": "Hologerrhum dermali",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 420,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2456071",
+      "species": "Hologerrhum philippinum",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 500,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2456529",
+      "species": "Tantilla impensa",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 725,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2456538",
+      "species": "Fimbrios klossi",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 395,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2456960",
+      "species": "Psammophylax variabilis",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1400,
+          "citation": "Shine et al. 2006"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2456966",
+      "species": "Psammophylax tritaeniatus",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 930,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2456985",
+      "species": "Psammodynastes pulverulentus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 770,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2456994",
+      "species": "Psammodynastes pictus",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 650,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2457522",
+      "species": "Thamnophis sirtalis",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 20,
+          "citation": "Meyers et al. 2009"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1400,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2457545",
+      "species": "Thamnophis elegans",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Bartlett et al. 2001"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 17.8,
+          "citation": "Bartlett et al. 2001"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1090,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2457764",
+      "species": "Lycophidion hellmichi",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 470,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2457781",
+      "species": "Lycophidion taylori",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 510,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2457803",
+      "species": "Lycophidion nanum",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 300,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2458202",
+      "species": "Achalinus jinggangensis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 460,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2458205",
+      "species": "Achalinus niger",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 800,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2458359",
+      "species": "Buhoma procterae",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 520,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2458865",
+      "species": "Raclitia indica",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 470,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2458881",
+      "species": "Miralia alternans",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 610,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2459066",
+      "species": "Hemirhagerrhis nototaenia",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 490,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2459587",
+      "species": "Cachryx defensor",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Herbivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2459612",
+      "species": "Ctenosaura pectinata",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Herbivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 16,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2459655",
+      "species": "Iguana delicatissima",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Herbivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 20,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2459808",
+      "species": "Stenocercus angulifer",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2459851",
+      "species": "Stenocercus chlorostictus",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2460293",
+      "species": "Liolaemus eleodori",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2460294",
+      "species": "Liolaemus ornatus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2460439",
+      "species": "Liolaemus chiliensis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2460795",
+      "species": "Liotyphlops trefauti",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 389,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2460811",
+      "species": "Helminthophis flavoterminatus",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 300,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2460815",
+      "species": "Helminthophis praeocularis",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 214,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2460817",
+      "species": "Heloderma suspectum",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 48,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2460820",
+      "species": "Heloderma horridum",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 34.4,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2463946",
+      "species": "Anepischetosia maccoyi",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2464673",
+      "species": "Lerista separanda",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2465003",
+      "species": "Antaresia childreni",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "De Magalhaes and Costa 2009, Slavens and Slavens 1999"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 30,
+          "citation": "De Magalhaes and Costa 2009, Slavens and Slavens 1999"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1000,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2465017",
+      "species": "Antaresia maculosa",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1259,
+          "citation": "Trembath 2008"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2465136",
+      "species": "Acrantophis dumerili",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Scharf et al. 2015, O'Shea 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "ovoviviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 26,
+          "citation": "Rhodin et al. 2011"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 2000,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2465346",
+      "species": "Python sebae",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Gorzula et al. 1997, Bartlett and Bartlett 2000, Bartlett et al. 2001, Gorzula et al. 1997, De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 30,
+          "citation": "Meyers et al. 2009"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 5500,
+          "citation": "Gorzula et al. 1997, Aubert et al. 2005, Feldman & Meiri 2013"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2465999",
+      "species": "Amphibolurus muricatus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 4,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2466370",
+      "species": "Phrynocephalus arabicus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2467101",
+      "species": "Anolis extremus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2467218",
+      "species": "Anolis distichus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2467972",
+      "species": "Anolis vittigerus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2468027",
+      "species": "Pristidactylus fasciatus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2468032",
+      "species": "Pristidactylus araucanus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2468043",
+      "species": "Pristidactylus casuhatiensis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2468048",
+      "species": "Polychrus liogaster",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2468050",
+      "species": "Polychrus marmoratus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2468052",
+      "species": "Polychrus peruvianus",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2468228",
+      "species": "Diploglossus delasagra",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2468469",
+      "species": "Barisia jonesi",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2468474",
+      "species": "Barisia levicollis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2468499",
+      "species": "Chalarodon madagascariensis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2468624",
+      "species": "Takydromus dorsalis",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2468934",
+      "species": "Eremias quadrifrons",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2470365",
+      "species": "Naja sagittifera",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 13.15,
+          "citation": "De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1500,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2470614",
+      "species": "Crotaphytus insularis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2470619",
+      "species": "Crotaphytus grismeri",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2470620",
+      "species": "Crotaphytus antiquus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2470651",
+      "species": "Varanus flavescens",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 10.5,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2470696",
+      "species": "Varanus storri",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 9.1,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2470727",
+      "species": "Varanus salvadorii",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 15,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2470940",
+      "species": "Chamaesaura aenea",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 1.8,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2470946",
+      "species": "Chamaesaura miopropus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2471050",
+      "species": "Pseudocordylus spinosus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 1.8,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2471110",
+      "species": "Xenotyphlops grandidieri",
+      "traits": [
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 284,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2471164",
+      "species": "Letheobia lumbriciformis",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 445,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2471171",
+      "species": "Letheobia debilis",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 478,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2471865",
+      "species": "Ramphotyphlops lorenzi",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 337,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2471883",
+      "species": "Anniella geronimensis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2471891",
+      "species": "Hoplocercus spinosus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2471893",
+      "species": "Enyalioides laticeps",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2471909",
+      "species": "Enyalioides cofanorum",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2472403",
+      "species": "Aspidoscelis hyperythrus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2472478",
+      "species": "Aspidoscelis ceralbensis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2472481",
+      "species": "Aspidoscelis laredoensis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 3,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2472547",
+      "species": "Atractaspis leucomelas",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 575,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2472597",
+      "species": "Amblyodipsas microphthalma",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 354,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2472643",
+      "species": "Aparallactus jacksonii",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 280,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2472756",
+      "species": "Acrochordus arafurae",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Vincent 1999, De Magalhaes and Costa 2009, Slavens and Slavens 1999, Feldman et al. 2015"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 10,
+          "citation": "De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 2500,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2472757",
+      "species": "Acrochordus granulatus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Houston and Shine 1994, Lillywhite 1996, Mattison 1995"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "ovoviviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 5,
+          "citation": "Houston and Shine 1994, Lillywhite 1996, Mattison 1995"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1220,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2472764",
+      "species": "Acrochordus javanicus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Feldman et al. 2015"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "ovoviviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 20,
+          "citation": "Carey and Judge 2002"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 2900,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2472779",
+      "species": "Delma pax",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2472789",
+      "species": "Delma molleri",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2472790",
+      "species": "Delma tincta",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2472986",
+      "species": "Cadea blanoides",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2473089",
+      "species": "Chirindia ewerbecki",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2473222",
+      "species": "Blanus cinereus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 16,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2473226",
+      "species": "Blanus tingitanus",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2473229",
+      "species": "Blanus mettetali",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-4287471",
+      "species": "Lanthanotus borneensis",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Meiri 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 7.9,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-4819971",
+      "species": "Prosymna stuhlmanni",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 350,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-4820806",
+      "species": "Antaioserpens warro",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 400,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5220318",
+      "species": "Macrochelys temminckii",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Ernst et al. 1994"
+        },
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 80,
+          "citation": "De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 808,
+          "citation": "Telford et al. 2009"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5220345",
+      "species": "Elseya albagula",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Herbivorous",
+          "citation": "Thomson et al. 2006"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Thomson et al. 2006"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 21.8,
+          "citation": "De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 450,
+          "citation": "Thomson et al. 2006"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5220391",
+      "species": "Sternotherus depressus",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 40,
+          "citation": "De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 100,
+          "citation": "Conant 1975"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5220478",
+      "species": "Chitra vandijki",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 1000,
+          "citation": "Rhodin et al. 2010"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5220518",
+      "species": "Peltocephalus dumerilianus",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5225695",
+      "species": "Charina bottae",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Hoyer 2001, De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 50,
+          "citation": "Stark et al. 2020"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 840,
+          "citation": "Hoyer & Stewart 2000, Peabody et al. 1975"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5227650",
+      "species": "Sphenodon punctatus",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Harrington et al. 2018"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 100,
+          "citation": "Meyers et al. 2009"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5846511",
+      "species": "Caiman latirostris",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "Borteiro et al. 2009"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 22,
+          "citation": "Carey and Judge 2002"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 3500,
+          "citation": "Guillermo and Marcelo 2023"
+        }
+      ]
+    },
+    {
+      "id": "gbif-7434392",
+      "species": "Charina umbratica",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 11.4,
+          "citation": "De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 840,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-7696021",
+      "species": "Aldabrachelys gigantea",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Lambert 2021"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 187,
+          "citation": "Meyers et al. 2009"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 1220,
+          "citation": "Hughes et al. 1979"
+        }
+      ]
+    },
+    {
+      "id": "gbif-7826255",
+      "species": "Graptemys pearlensis",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 20,
+          "citation": "Stark et al. 2020"
+        }
+      ]
+    },
+    {
+      "id": "gbif-7852834",
+      "species": "Crocodylus suchus",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 80,
+          "citation": "Stark et al. 2020"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 4000,
+          "citation": "Trape et al. 2012"
+        }
+      ]
+    },
+    {
+      "id": "gbif-8336846",
+      "species": "Macrochelys suwanniensis",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-8539576",
+      "species": "Indotestudo elongata",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Omnivorous",
+          "citation": "Boulenger 1890"
+        },
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 14.1,
+          "citation": "Tacutu et al. 2013"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 300,
+          "citation": "Boulenger 1890"
+        }
+      ]
+    },
+    {
+      "id": "gbif-8945077",
+      "species": "Crotalus viridis",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Nocturnal",
+          "citation": "Fitch, 1949, De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "viviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 24.1,
+          "citation": "Fitch, 1949, De Magalhaes and Costa 2009"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 1650,
+          "citation": "Seymor 1987"
+        }
+      ]
+    },
+    {
+      "id": "gbif-9022612",
+      "species": "Lissemys ceylonensis",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-9187223",
+      "species": "Pituophis melanoleucus",
+      "traits": [
+        {
+          "field": "Active time",
+          "value": "Diurnal",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 22.4,
+          "citation": "Meyers et al. 2009"
+        },
+        {
+          "field": "Maximum total length (\"TL\", mm)",
+          "value": 2286,
+          "citation": "Feldman et al. 2016"
+        }
+      ]
+    },
+    {
+      "id": "gbif-9321256",
+      "species": "Amyda ornata",
+      "traits": [
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 420,
+          "citation": "Praschag and Gemel 2022"
+        }
+      ]
+    },
+    {
+      "id": "gbif-9789983",
+      "species": "Dermochelys coriacea",
+      "traits": [
+        {
+          "field": "Diet ",
+          "value": "Carnivorous",
+          "citation": "McClain et al. 2015"
+        },
+        {
+          "field": "Active time",
+          "value": "Cathemeral",
+          "citation": "Stark et al. 2018"
+        },
+        {
+          "field": "Reproductive mode",
+          "value": "oviparous",
+          "citation": "Zimin et al. 2022"
+        },
+        {
+          "field": "Maximum Longevity (years)",
+          "value": 30,
+          "citation": "Tacutu et al. 2013"
+        },
+        {
+          "field": "Maximum length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)",
+          "value": 2700,
+          "citation": "McClain et al. 2015"
+        }
+      ]
+    }
+  ]
+}

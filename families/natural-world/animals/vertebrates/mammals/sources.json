@@ -1,0 +1,149 @@
+{
+  "dataset": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+  "dataset_url": "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+  "license": "CC BY 4.0",
+  "retrieved": "2026-10-13",
+  "taxa": [
+    "Mammalia"
+  ],
+  "queries": [],
+  "max_pages": 13,
+  "per_family_cap": 3,
+  "retained_seed_names": [
+    "american badger",
+    "american bison",
+    "american black bear",
+    "american marten",
+    "american pika",
+    "american red squirrel",
+    "asian elephant",
+    "bighorn sheep",
+    "bobcat",
+    "bornean orangutan",
+    "canada lynx",
+    "cougar",
+    "coyote",
+    "elk",
+    "fennec fox",
+    "giant panda",
+    "golden-mantled ground squirrel",
+    "gray wolf",
+    "grizzly bear",
+    "least chipmunk",
+    "lion",
+    "long-tailed weasel",
+    "montane vole",
+    "moose",
+    "mountain goat",
+    "mule deer",
+    "north american beaver",
+    "north american river otter",
+    "pocket gopher",
+    "pronghorn",
+    "red fox",
+    "short-tailed weasel",
+    "snowshoe hare",
+    "sumatran orangutan",
+    "uinta ground squirrel",
+    "white-tailed deer",
+    "white-tailed jackrabbit",
+    "wolverine",
+    "yellow-bellied marmot"
+  ],
+  "retrievals": [
+    {
+      "taxon": "Mammalia",
+      "key": 359,
+      "query": "",
+      "available": 21100,
+      "fetched": 13000
+    }
+  ],
+  "record_count": 425,
+  "inputs": [
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Mammalia&strict=true",
+      "sha256": "6b108a7b47a4a8e04bd3d3b11b166b3e4df8e893b0aae2dafabe86504c241a8c",
+      "bytes": 247,
+      "cache_file": "5456700340fef55e39294c7511ff4d0f6d7b8570de220330611145edd3f99379.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=359&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0",
+      "sha256": "1239a3b131290d8dccc9e4f645fd872947a674d46af10adf849359ea96a08f45",
+      "bytes": 10068227,
+      "cache_file": "6a711d27a4698bbe5f05e02a74a012bf87fd4f68a01b33eef6570737c74293cc.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=359&rank=SPECIES&status=ACCEPTED&limit=1000&offset=1000",
+      "sha256": "9352a20036947e286823e249d48d66a958c830c4c098b21314edd4cf891ffe76",
+      "bytes": 8177899,
+      "cache_file": "ffd67c75d82f6865b0f89d2cfa37a91627b379a9003478c888fd083f5a1bd186.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=359&rank=SPECIES&status=ACCEPTED&limit=1000&offset=10000",
+      "sha256": "cc0d6523945057962b0e6501d7ba13b7d6aba8fea5f15960696242843aae7cef",
+      "bytes": 5171379,
+      "cache_file": "919f21a41c60c1e261365b0ca5384c69fbb5f26285945a3b0e24ce15f26f2668.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=359&rank=SPECIES&status=ACCEPTED&limit=1000&offset=11000",
+      "sha256": "59389daf34ea587cd1c3787c7e155c5d9306ac82069d9f8c95af90dea47cf182",
+      "bytes": 1393557,
+      "cache_file": "4beea03646165cbb98821608c426714fed5cb48445ed757d5651e6f4624a6b63.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=359&rank=SPECIES&status=ACCEPTED&limit=1000&offset=12000",
+      "sha256": "8a5a3a0401fbe665b588207df1c0502595baf1d3c404e79576d5a919eeca8952",
+      "bytes": 1309172,
+      "cache_file": "56778f1175ed39ec43e5e5f51054d4ff92f831f0fb9ba96c10477e4a413d200f.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=359&rank=SPECIES&status=ACCEPTED&limit=1000&offset=2000",
+      "sha256": "bf8f098c8a6cae6087a57b2cccaaa3c7bc95394a555779e8c83598f25523ed79",
+      "bytes": 7598096,
+      "cache_file": "9c0cd36ad53646c3186431c849932a26bdfdd93fed41cedea77380fa5681e33b.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=359&rank=SPECIES&status=ACCEPTED&limit=1000&offset=3000",
+      "sha256": "19f91ad2f35badf1de0c7c6de1d353a8ba48b8fc49b51d7fe6786927bf84ebcf",
+      "bytes": 8314483,
+      "cache_file": "bd4ceacac95176d8da06c7043296a509c612aa55c719391066787cdfe4c83247.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=359&rank=SPECIES&status=ACCEPTED&limit=1000&offset=4000",
+      "sha256": "c5e750c3285a27912bfc57df15787e1eea88ae7445b0ae9814fc778bb815fd1a",
+      "bytes": 2141652,
+      "cache_file": "630578251c68aafdd76cee050163d59caf8b651cf71216f8bc03a43974f65e39.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=359&rank=SPECIES&status=ACCEPTED&limit=1000&offset=5000",
+      "sha256": "3adbbd8ac107103b62f4bf02116ac39db92fda5a5bfacaf371a9e0d6d68f496d",
+      "bytes": 1145746,
+      "cache_file": "d65f5d81dfddbcdc694a4720d569668f31f8a9db414da70dfe7334caf975e0ee.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=359&rank=SPECIES&status=ACCEPTED&limit=1000&offset=6000",
+      "sha256": "5ecf86575164680ce7784376bcb157eac8526a4a1e08b9a1221db19dd0899fb4",
+      "bytes": 1230429,
+      "cache_file": "654fef84df33f34e59aa0c15d8a4fc5eeb7208e205099db4212142cc963949f1.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=359&rank=SPECIES&status=ACCEPTED&limit=1000&offset=7000",
+      "sha256": "0997ff8f8469b3e106f0fb9563726463c8ae4242e4fa998f3222f114a3dbdbc7",
+      "bytes": 1074859,
+      "cache_file": "8896fe983b542d0c58fc0bd6b361f623a43ed2aa5a6492f1eb95c795fea13544.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=359&rank=SPECIES&status=ACCEPTED&limit=1000&offset=8000",
+      "sha256": "2c4542f7442af916285e51caabb4f8f866f22ce49947f110b3261d878f9655c5",
+      "bytes": 5512378,
+      "cache_file": "c4b8590829e9db966c1e2ccebdd93c6b875ece5e5e52b8501a143c51197c94e6.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=359&rank=SPECIES&status=ACCEPTED&limit=1000&offset=9000",
+      "sha256": "de92917778267b69b1eddaa00e22506018babaf1b1d5e7dd4c1282c63ffea55d",
+      "bytes": 5738232,
+      "cache_file": "af6b8aee7f5a642e95e9771add61f2719574786cbdddaa9c5fbef762eb6278c8.json"
+    }
+  ]
+}

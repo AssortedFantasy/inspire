@@ -1,0 +1,87 @@
+{
+  "dataset": "FISHMORPH",
+  "version": "v1.1",
+  "license": "CC BY 4.0",
+  "source": "https://rodare.hzdr.de/record/1316",
+  "doi": "10.14278/rodare.1316",
+  "source_rows": 8342,
+  "joined_records": 291,
+  "record_count": 599,
+  "families": 229,
+  "length_profiles": 289,
+  "image_records": 287,
+  "image_ratio_counts": {
+    "BEl": 278,
+    "CPt": 9
+  },
+  "omitted_image_records": [
+    {
+      "species": "Cynoglossus puncticeps",
+      "BEl": "NA",
+      "CPt": "0",
+      "reason": "BEl missing; CPt missing or zero-coded rather than a positive physical ratio."
+    },
+    {
+      "species": "Cynoglossus microlepis",
+      "BEl": "NA",
+      "CPt": "0",
+      "reason": "BEl missing; CPt missing or zero-coded rather than a positive physical ratio."
+    },
+    {
+      "species": "Cynoglossus lingua",
+      "BEl": "NA",
+      "CPt": "0",
+      "reason": "BEl missing; CPt missing or zero-coded rather than a positive physical ratio."
+    },
+    {
+      "species": "Platichthys stellatus",
+      "BEl": "NA",
+      "CPt": "NA",
+      "reason": "BEl missing; CPt missing or zero-coded rather than a positive physical ratio."
+    }
+  ],
+  "measurement_method": {
+    "paper": "https://aureletoussaint.github.io/homepage/data/2021_Brosse_GEB.pdf",
+    "sections": "2.1.2, 2.2.2 and 4",
+    "scope": "One selected lateral-view depiction per species; no within-species variation or identified individual asserted.",
+    "reuse": "Paper consulted for methodology; PDF and figures not redistributed."
+  },
+  "extinction_correction": {
+    "excluded": "Psephurus gladius",
+    "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=31911255&retmode=xml",
+    "reason": "GBIF flag absent; primary extinction study identifies extinction by 2010.",
+    "reuse": "Abstract consulted solely for exclusion; no abstract content redistributed."
+  },
+  "inputs": [
+    {
+      "url": "https://aureletoussaint.github.io/homepage/data/2021_Brosse_GEB.pdf",
+      "sha256": "3b22b1ca7ed96ce7b480df7c853b523d56116384c312ac892a90987423806f9c",
+      "bytes": 877085,
+      "cache_file": "fishmorph-paper.pdf"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=31911255&retmode=xml",
+      "sha256": "308761691a42dd84da89514d476870ba041d83e9af0363383c3b72be09b6f1fe",
+      "bytes": 9538,
+      "cache_file": "paddlefish-abstract.xml"
+    },
+    {
+      "url": "https://rodare.hzdr.de/api/records/1316",
+      "sha256": "1bc9ce3a38d209526d5cc03f3455670bac3aea95ce0fed3853ad57f751e2f2ee",
+      "bytes": 4306,
+      "cache_file": "fishmorph.json"
+    },
+    {
+      "url": "https://rodare.hzdr.de/record/1316/files/FISHMORPH_Database.csv?download=1",
+      "sha256": "681811eca22f7774461831df4e257641491e25cb37a9d72a6af1d6c8888ee74e",
+      "bytes": 2329735,
+      "cache_file": "fishmorph.csv"
+    },
+    {
+      "url": "https://rodare.hzdr.de/record/1316/files/FISHMORPH_Readme.csv?download=1",
+      "sha256": "c2ef95d7fc0e127cc1b9f55982df1274d3b29b8726a5d8521e1fa15c977dfdcb",
+      "bytes": 3409,
+      "cache_file": "fishmorph-readme.csv"
+    }
+  ]
+}

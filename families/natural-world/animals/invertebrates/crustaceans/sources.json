@@ -1,0 +1,26 @@
+{
+  "source": "Cefas trait matrix V2",
+  "doi": "10.14466/CefasDataHub.123",
+  "license": "OGL v3.0",
+  "scope": "Marine benthos of Northwest Europe; genus-level trait synthesis",
+  "group": "crustaceans",
+  "per_family_cap": 3,
+  "source_genera": 204,
+  "families": 123,
+  "record_count": 181,
+  "confidence_filter": 3,
+  "inputs": [
+    {
+      "url": "https://data-api.cefas.co.uk/api/export/11935",
+      "sha256": "f03dcd43f7dcab4970a5c31dbf9816c859414891c686c0e4ae7e44af5a2102cc",
+      "cache_file": "cefas-traits.csv",
+      "bytes": 161649
+    },
+    {
+      "url": "https://data-api.cefas.co.uk/api/holdings/21362",
+      "sha256": "1005ba5a35c0fe94a57e831d0ed30a337cdd6c2cda4f9f22aa0396fb7012aa80",
+      "cache_file": "cefas-metadata.json",
+      "bytes": 59675
+    }
+  ]
+}

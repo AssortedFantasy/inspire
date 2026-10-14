@@ -1,0 +1,626 @@
+{
+  "dataset": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+  "dataset_url": "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+  "license": "CC BY 4.0",
+  "retrieved": "2026-10-13",
+  "taxa": [
+    "Insecta"
+  ],
+  "taxon_rank": "CLASS",
+  "taxon_keys": [
+    216
+  ],
+  "queries": [
+    "beetle",
+    "bee",
+    "wasp",
+    "ant",
+    "fly",
+    "dragonfly",
+    "damselfly",
+    "grasshopper",
+    "cricket",
+    "mantis",
+    "butterfly",
+    "moth",
+    "aphid",
+    "cicada",
+    "termite",
+    "mayfly",
+    "stonefly",
+    "caddisfly",
+    "earwig",
+    "flea",
+    "bug",
+    "mosquito",
+    "Arctic skipper",
+    "Woodland skipper",
+    "Dreamy duskywing",
+    "Purplish copper",
+    "Silvery blue",
+    "Brown elfin",
+    "Western pine elfin",
+    "Gray hairstreak",
+    "Monarch",
+    "Western meadow fritillary",
+    "Lorquin's admiral",
+    "Milbert's tortoiseshell",
+    "Mourning cloak",
+    "California tortoiseshell",
+    "Satyr comma",
+    "Red admiral",
+    "Painted lady",
+    "American lady",
+    "Common wood nymph",
+    "Pale swallowtail",
+    "Two-tailed swallowtail",
+    "Western tiger swallowtail",
+    "Anise swallowtail",
+    "Orange sulphur",
+    "Cabbage white"
+  ],
+  "max_pages": 1,
+  "additional_families_per_order": 2,
+  "record_count": 66,
+  "required_family_groups": {
+    "ants": [
+      "Formicidae"
+    ],
+    "bees": [
+      "Andrenidae",
+      "Apidae",
+      "Colletidae",
+      "Halictidae",
+      "Megachilidae",
+      "Melittidae"
+    ],
+    "aphids": [
+      "Aphididae"
+    ],
+    "cicadas": [
+      "Cicadidae"
+    ],
+    "damselflies": [
+      "Calopterygidae",
+      "Coenagrionidae",
+      "Lestidae",
+      "Platycnemididae"
+    ],
+    "mosquitoes": [
+      "Culicidae"
+    ]
+  },
+  "legacy_sha256": "d914ed86f6b2b74b4260a955b2ec9afa734eae93d1cf56cf3f680fbf4fc166c8",
+  "excluded_keys": [
+    1031743,
+    1420243
+  ],
+  "selection": "Specific English names; two additional distinct families per order by SHA-256 ID order; required ant/bee/aphid/cicada/damselfly/mosquito family coverage; matched legacy taxa enriched; unmatched legacy taxa retained; habitats omitted",
+  "retrievals": [
+    {
+      "query": "beetle",
+      "available": 3899,
+      "fetched": 1000
+    },
+    {
+      "query": "bee",
+      "available": 1842,
+      "fetched": 1000
+    },
+    {
+      "query": "wasp",
+      "available": 1304,
+      "fetched": 1000
+    },
+    {
+      "query": "ant",
+      "available": 863,
+      "fetched": 863
+    },
+    {
+      "query": "fly",
+      "available": 1154,
+      "fetched": 1000
+    },
+    {
+      "query": "dragonfly",
+      "available": 57,
+      "fetched": 57
+    },
+    {
+      "query": "damselfly",
+      "available": 70,
+      "fetched": 70
+    },
+    {
+      "query": "grasshopper",
+      "available": 1203,
+      "fetched": 1000
+    },
+    {
+      "query": "cricket",
+      "available": 1082,
+      "fetched": 1000
+    },
+    {
+      "query": "mantis",
+      "available": 202,
+      "fetched": 202
+    },
+    {
+      "query": "butterfly",
+      "available": 179,
+      "fetched": 179
+    },
+    {
+      "query": "moth",
+      "available": 4072,
+      "fetched": 1000
+    },
+    {
+      "query": "aphid",
+      "available": 464,
+      "fetched": 464
+    },
+    {
+      "query": "cicada",
+      "available": 282,
+      "fetched": 282
+    },
+    {
+      "query": "termite",
+      "available": 66,
+      "fetched": 66
+    },
+    {
+      "query": "mayfly",
+      "available": 93,
+      "fetched": 93
+    },
+    {
+      "query": "stonefly",
+      "available": 37,
+      "fetched": 37
+    },
+    {
+      "query": "caddisfly",
+      "available": 96,
+      "fetched": 96
+    },
+    {
+      "query": "earwig",
+      "available": 37,
+      "fetched": 37
+    },
+    {
+      "query": "flea",
+      "available": 210,
+      "fetched": 210
+    },
+    {
+      "query": "bug",
+      "available": 772,
+      "fetched": 772
+    },
+    {
+      "query": "mosquito",
+      "available": 76,
+      "fetched": 76
+    },
+    {
+      "query": "Arctic skipper",
+      "available": 2,
+      "fetched": 2
+    },
+    {
+      "query": "Woodland skipper",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "query": "Dreamy duskywing",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "query": "Purplish copper",
+      "available": 0,
+      "fetched": 0
+    },
+    {
+      "query": "Silvery blue",
+      "available": 2,
+      "fetched": 2
+    },
+    {
+      "query": "Brown elfin",
+      "available": 0,
+      "fetched": 0
+    },
+    {
+      "query": "Western pine elfin",
+      "available": 0,
+      "fetched": 0
+    },
+    {
+      "query": "Gray hairstreak",
+      "available": 2,
+      "fetched": 2
+    },
+    {
+      "query": "Monarch",
+      "available": 8,
+      "fetched": 8
+    },
+    {
+      "query": "Western meadow fritillary",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "query": "Lorquin's admiral",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "query": "Milbert's tortoiseshell",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "query": "Mourning cloak",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "query": "California tortoiseshell",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "query": "Satyr comma",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "query": "Red admiral",
+      "available": 4,
+      "fetched": 4
+    },
+    {
+      "query": "Painted lady",
+      "available": 5,
+      "fetched": 5
+    },
+    {
+      "query": "American lady",
+      "available": 2,
+      "fetched": 2
+    },
+    {
+      "query": "Common wood nymph",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "query": "Pale swallowtail",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "query": "Two-tailed swallowtail",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "query": "Western tiger swallowtail",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "query": "Anise swallowtail",
+      "available": 1,
+      "fetched": 1
+    },
+    {
+      "query": "Orange sulphur",
+      "available": 2,
+      "fetched": 2
+    },
+    {
+      "query": "Cabbage white",
+      "available": 6,
+      "fetched": 6
+    }
+  ],
+  "inputs": [
+    {
+      "url": "https://api.gbif.org/v1/species/216",
+      "sha256": "8d7c8f10d5f8dae016feea3c147f22db398b572ee757a94762f3a4861cf09941",
+      "bytes": 871,
+      "cache_file": "f07d6cf20332399c915687284371abfd9e377de1d3a89207108a4ffdf2f0838d.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=American+lady&qField=VERNACULAR",
+      "sha256": "44549b1ab77cbd742fc71a6364d5042054e836e857036e82a6cad68a779475be",
+      "bytes": 6485,
+      "cache_file": "e0e893968cc3db05702e2757ce6b155c1e23a048701671cbc3bdbd4d9ae9bf6f.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Anise+swallowtail&qField=VERNACULAR",
+      "sha256": "8c872eacc98b5062404cc62d3e184b61585d1acd9510669bb22b0845eb960a2b",
+      "bytes": 1746,
+      "cache_file": "3821d38552f96278cc98a99d20442880a83cbada6c829cc0715c730243f3b461.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Arctic+skipper&qField=VERNACULAR",
+      "sha256": "927c75ac2273a7ca63f32f4a727e198c9bce9b38fbb327caeb32edac565248c4",
+      "bytes": 9946,
+      "cache_file": "266220ab790ed4861dab4a217bdf8792752233ece04d2ce210fd33e992a14168.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Brown+elfin&qField=VERNACULAR",
+      "sha256": "98ff26dabc85fb93bc5c29e2ea23af99cf3bfae402258be8c7c7094649b9bef5",
+      "bytes": 80,
+      "cache_file": "80fe6eb919d19bddfb1f0c08fc9eab8326664f45411f3f8ce31982e7e5a16f21.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Cabbage+white&qField=VERNACULAR",
+      "sha256": "fd6117f8fe39ffd0a9a6f76edf75cd364ba59bbf5f447f6c85f1ad2ebceed39c",
+      "bytes": 41984,
+      "cache_file": "d9dcdfddeeabf8cc8c25bc859de52fc1930005de5fc2ec80edcc936b93eddbaf.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=California+tortoiseshell&qField=VERNACULAR",
+      "sha256": "0e05166d8bf9bfde57e638b1ffcaf4606bdf8fe7c9aaa3489bb9de5b70c30aee",
+      "bytes": 1614,
+      "cache_file": "ff98ccb0b22e72a55aea22bb01170ecd528e96961adefd4dd125b68d19a639d9.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Common+wood+nymph&qField=VERNACULAR",
+      "sha256": "e958c2b1e4741e5972cc4b1d470931dd7ff237cf68b668f7d50602e7a6e59eb4",
+      "bytes": 1675,
+      "cache_file": "a6b680a04b594b4b235b01fd46172ef1f236746366902ed2cb25cf2c690d9a82.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Dreamy+duskywing&qField=VERNACULAR",
+      "sha256": "b11723d0210df76a27e9290a00ee10162439dc30bc53d6546c901fa398a31c25",
+      "bytes": 1597,
+      "cache_file": "3c0e1f86c023985e825b4c30c767422e80382b68a9213acf244ac0fe762cee1d.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Gray+hairstreak&qField=VERNACULAR",
+      "sha256": "67fc5f4cb7b2125b032f20d9ddc1af501f76341e44b63b72b0df316fa6d69357",
+      "bytes": 3472,
+      "cache_file": "d9ad804cf82ee38a680781eed50c50a27473bae4d9e4fb5d5b424269b9f4e72f.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Lorquin%27s+admiral&qField=VERNACULAR",
+      "sha256": "6781fa2d04d1ff2d3501e27e52130e032d3887efbd7532150863bebc297d50f4",
+      "bytes": 1455,
+      "cache_file": "981d4d3c425339b406c61e48656659366df03463bf4c90b4db6c7ad32b5df38d.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Milbert%27s+tortoiseshell&qField=VERNACULAR",
+      "sha256": "f6caedac06a49273f9daac34a97c59aa5e66a66ed10753b6251d357e0704eade",
+      "bytes": 1496,
+      "cache_file": "326a540308311ca5ec1c944fc8615112aa9b4eb35e15da8dbee4af1f082bcd1e.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Monarch&qField=VERNACULAR",
+      "sha256": "0b7cae2bff655aaaf8ba774a3e2622a1cc8b603a71e6eeed7dc61e24eb1d73ca",
+      "bytes": 23929,
+      "cache_file": "b342f973562f9792fe633b213746f53a3d7ffe415ad1406211b1c38ba663f218.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Mourning+cloak&qField=VERNACULAR",
+      "sha256": "85f2ec8c9670fa074ed672568f51686575fac43a10dfb236e690d1dfcd903af0",
+      "bytes": 9033,
+      "cache_file": "6a0377cfa41e7708fc225b1bf82b2413b515c90a4c97a6291dc1e65d96a21664.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Orange+sulphur&qField=VERNACULAR",
+      "sha256": "483b06c3dffb066070564bec56b9e934ddaaf84f34e9af59a594f3d32f8dde38",
+      "bytes": 5383,
+      "cache_file": "07a07b91c781d27521baacb6bd61dd94beaaef2963fbd7adbaffd7cd4470008a.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Painted+lady&qField=VERNACULAR",
+      "sha256": "d5d62ae733e56fc3baccea050ba941da8e1829275a03be38097aff233a8f8f28",
+      "bytes": 24971,
+      "cache_file": "a93881854fa72c7d009040ae61f6a11704d920cf52561668df11a69b5662d489.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Pale+swallowtail&qField=VERNACULAR",
+      "sha256": "181f174fcf93d9c960cf6d5ab44ee6f7f15e91f715ece320c615e595d3420b8c",
+      "bytes": 1866,
+      "cache_file": "7952b496ff83d6e999a910f53a5b97852783a2e1eff40d8df51106785ea1bd6a.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Purplish+copper&qField=VERNACULAR",
+      "sha256": "98ff26dabc85fb93bc5c29e2ea23af99cf3bfae402258be8c7c7094649b9bef5",
+      "bytes": 80,
+      "cache_file": "db0b4ab9512bb0a7431ef074ed75ba6047ac31c519fe6d01c0044fa1d76b4b9e.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Red+admiral&qField=VERNACULAR",
+      "sha256": "bb148ebab04662f3e95477cb643ccb439e02d082033ee79ffb6eb793f8e04d90",
+      "bytes": 13795,
+      "cache_file": "1d026c17dc759ff95caef4af45b20a85173f3549aeba3707698ff9992e3b129d.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Satyr+comma&qField=VERNACULAR",
+      "sha256": "ab1a15caadd54bbcb1327514321a175a4b27afe701414d6e40c2be2bf1dbf452",
+      "bytes": 1661,
+      "cache_file": "e119ed0040194fb18520f78b3e234b19af869e1b21a1ffd710f08ad4156eca38.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Silvery+blue&qField=VERNACULAR",
+      "sha256": "4c5aeb7e39a17af179228ed1145bea79e3723003cd17e715d3f65eaed97fcdbf",
+      "bytes": 3023,
+      "cache_file": "14797ee114c8e6f19bc2e7c244b6c8609ce2eca7f404a69cfc8536fb4feb46ef.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Two-tailed+swallowtail&qField=VERNACULAR",
+      "sha256": "7cb0a2036cd795e4ff72ef111d486fee35dd27d92fde0ba22c7f83d3d553f521",
+      "bytes": 2044,
+      "cache_file": "ba5729c926f45408adb9ea6f3c0ac0a21ab25ecb6623ae4f1d940f642366c7fa.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Western+meadow+fritillary&qField=VERNACULAR",
+      "sha256": "7479761ee233cd3fe3997f39c6f3786d352fd7bfe1b4981c3478c1ee0435f9a6",
+      "bytes": 1432,
+      "cache_file": "46e8e14df1e15e2f444fbf987d9f25318ae6f64f7e8050a620e34487be0557d0.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Western+pine+elfin&qField=VERNACULAR",
+      "sha256": "98ff26dabc85fb93bc5c29e2ea23af99cf3bfae402258be8c7c7094649b9bef5",
+      "bytes": 80,
+      "cache_file": "97bb7adc61a17ac5e83eb9c85020c5d83f61aaf5fc3e71f3fa631adf6b1db9a5.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Western+tiger+swallowtail&qField=VERNACULAR",
+      "sha256": "f66a61dde7916e820c6f7238623932d4832e525afa37ee7cf194aa3d7ff33b67",
+      "bytes": 1670,
+      "cache_file": "9f76d8b326c5753b17f82f351da09138d1b1462593b6ac96bfd55dd29624f6e7.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=Woodland+skipper&qField=VERNACULAR",
+      "sha256": "f2687e1b8b9b190126cab10a1fcc432317c19742aca9234876987674757dc070",
+      "bytes": 5090,
+      "cache_file": "4de10413149a4df75e11bd5d62e6ca88f657cdd472e36077b880f61aa4b95211.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=ant&qField=VERNACULAR",
+      "sha256": "1c8963242aa12c4afe6cca5ae99670ea6bca28978d9466b542dc198537fc4765",
+      "bytes": 3858885,
+      "cache_file": "c02e750bb01e60cd829fcc52582250a1e6ece51759f885e76820afac05621308.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=aphid&qField=VERNACULAR",
+      "sha256": "3795bc4bd790be6d83713f842ee3d28f5c434ed37bb0b6f532e7bd6c87373c0a",
+      "bytes": 1067630,
+      "cache_file": "233e4d9c79f8b346387e47887eef4dacbd84083a4519550d80d6202a6569c297.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=bee&qField=VERNACULAR",
+      "sha256": "84056bfc7a01299f321bccc631ceade208ac12e6a99bd0a34035a6234c64ae92",
+      "bytes": 3029472,
+      "cache_file": "195d15d3bc7842056dc7baebd329537dac356d36a272139a9a8514722191ac0a.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=beetle&qField=VERNACULAR",
+      "sha256": "b35f85ffd3bdab5572917a8aeccac4d33af746578b38fce8415069d6c5cfd3fa",
+      "bytes": 2440428,
+      "cache_file": "fe598d5df35fadc65f1e2d5d8679c1d7cffdb0d0e6904c7efed7b1c331166a2b.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=bug&qField=VERNACULAR",
+      "sha256": "3774d37a410d6e1b48e395b1b94aa567d7469976b6f4dc8191be8ebadfc5cf76",
+      "bytes": 2397271,
+      "cache_file": "dc518e65b13e2829dfa4d646d9e93c84c1c40d0fec1bacd9e18b6842676aabfa.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=butterfly&qField=VERNACULAR",
+      "sha256": "275cbb98b009263f9a72d19ab8631d84b7ed393460a574b9f1b9d3dc3d2de8ee",
+      "bytes": 599344,
+      "cache_file": "7b616708403da1855802ade0e767e6f4c9bd89b3be50d307d9390dd5b892333a.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=caddisfly&qField=VERNACULAR",
+      "sha256": "4301dea25227fe082b452f82c61b85c23a13fab461da96431fc5e6965172e498",
+      "bytes": 160850,
+      "cache_file": "0010f3c22b0bd14c151bc802b3a2bb38dcf500226a88dbd5dc631c6b61d8c0f1.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=cicada&qField=VERNACULAR",
+      "sha256": "4736532590b711e366fb16265fe1df78e2d21378006f60ae7e92379d7bc45a7f",
+      "bytes": 801766,
+      "cache_file": "412f7cb43eba48a039c1bb527c9a4efcbc9968ea58887ad7e5d4d79174111e61.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=cricket&qField=VERNACULAR",
+      "sha256": "84ad1384b5c300d72fef20f20ad7e09ee2219ff08c3b95ccad16e2051c4b56f1",
+      "bytes": 2683328,
+      "cache_file": "33e50bb4b3c4c596332a8785d57b6bb378416a7bf34ed64e7da9b95725c3414b.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=damselfly&qField=VERNACULAR",
+      "sha256": "cc1e115f7565474cc654973bf2c2a404f7985c7e55aaedbe14597a47e4085d28",
+      "bytes": 308929,
+      "cache_file": "a04c69b18a60c863151a782ddefeca09ad21b7347c76306d68d746a8b468e4fa.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=dragonfly&qField=VERNACULAR",
+      "sha256": "557aa9f0bf901974d8cfd5566a26044e2556388ac7b2062ec599bc44c1c8c464",
+      "bytes": 254581,
+      "cache_file": "67b7465c7e17d5b9fca17b8665b4f2956152a3f13b17648e6b0f8c56dc97fed0.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=earwig&qField=VERNACULAR",
+      "sha256": "b5343fed4bb32634601301cbf7b045886eb3b06e9c523c9c83557578291e1a67",
+      "bytes": 105047,
+      "cache_file": "99862dc77bd1c7368bf4fa2b7d9299fef2a2c956031b1d28161911cdf5b4c7b6.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=flea&qField=VERNACULAR",
+      "sha256": "b9fe5102d90cc9d8a9dadcb845e0c9362e0e4d3199ab8ac3e575a3162ad62990",
+      "bytes": 436575,
+      "cache_file": "7be58b46f89c04b6045ceab80cc995ff7a14167c5349b148bfc2e8ee8a533906.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=fly&qField=VERNACULAR",
+      "sha256": "67ffed9dfce9219775623e9d7021877d5ec70227b87f607627632384da24d186",
+      "bytes": 2562003,
+      "cache_file": "1f6a4548b1b011056a33e8dc08f03a651151a5c346772ae486bfdf54b3c00283.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=grasshopper&qField=VERNACULAR",
+      "sha256": "2af68c4d61acbd6ec641dc14261971b85d55335c6be7fd4dda10c1a7995e8ed7",
+      "bytes": 1804751,
+      "cache_file": "126adec25e4eecd6d2b1b940efb84950814975fac986a9321fd3c5d07a64999f.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=mantis&qField=VERNACULAR",
+      "sha256": "27ae0450f7d7cd24e7bb28663682f79d307bdf099cf831d27bb0e655971bbb04",
+      "bytes": 497380,
+      "cache_file": "369b55299a91606d17d9738405ea4195f0a6330814a3b4490da388d94631fa67.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=mayfly&qField=VERNACULAR",
+      "sha256": "7dea3cf8093ddc1f502b8cf79e5d88f31eb59b766529fc6044244f466698e039",
+      "bytes": 159844,
+      "cache_file": "f965db93868ef74dd07aa9c51be38a5dfaffc7334a9f837baed6eac48bc2bea2.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=mosquito&qField=VERNACULAR",
+      "sha256": "5ccc4bedf89e12824d684e03263bb54b8768e97d2f630d5f1d44e69e8121f273",
+      "bytes": 257301,
+      "cache_file": "fb54af51e027f1ab493d177ed5333d95f1aa2805d0a81f90932563f9fa821e6d.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=moth&qField=VERNACULAR",
+      "sha256": "ad4016db35b516f611edd790c24ae5b17eefe546fda5cbf953fe9d26603ed8e5",
+      "bytes": 1466945,
+      "cache_file": "25640667c360822e59dd721ca5fb0722efdacccdd82a4b1f6465252953f02f35.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=stonefly&qField=VERNACULAR",
+      "sha256": "2a446402815f3eafe8cd029c8a560c33ccb77d44772e128b5225d97461c447f8",
+      "bytes": 143999,
+      "cache_file": "986300a7d233b9a1213207af533882ee9928095be48d3fb046ad39c67de044cb.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=termite&qField=VERNACULAR",
+      "sha256": "c9af693d3f96fed6cad1f2eff6328b06f2cb5aff77977836df7d5840651ef419",
+      "bytes": 114582,
+      "cache_file": "b06acc4cc008fb5668c4a2258434ff4cc3289609c11492a85fa1301288585fff.json"
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&highertaxonKey=216&rank=SPECIES&status=ACCEPTED&limit=1000&offset=0&q=wasp&qField=VERNACULAR",
+      "sha256": "565620750d86bf954f1ade3eaad306f81c0fae5975ffba2d9fa99a57493e5606",
+      "bytes": 2621889,
+      "cache_file": "d6b093b8299ecabbf9e44b7330687bf091a220630014362f906498e630043481.json"
+    }
+  ]
+}

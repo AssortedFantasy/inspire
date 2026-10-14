@@ -1,0 +1,67 @@
+{
+  "status": "DONE",
+  "node": "natural-world/animals/invertebrates/crustaceans",
+  "reviewed": "2026-10-13",
+  "leaves": [
+    {
+      "status": "DONE",
+      "path": "natural-world/animals/invertebrates/crustaceans",
+      "reviewer": "/root/natural_world/animals/invertebrates/crustaceans",
+      "record_count": 181,
+      "weight": 181,
+      "records_sha256": "08c4c1e6c28c39dff4f854cb04799d9e6ec8fa5bf430c84439ec7219988f2368",
+      "source_manifest": "sources.json",
+      "source_manifest_sha256": "ea01d886552da27819e84a2993eca9bca980abb74ee9f2cf6fe74057f94d675f",
+      "coverage": {
+        "source_genera": 204,
+        "source_family_groups": 123,
+        "resolved_families": 122,
+        "unresolved_source_groups": ["Paratanaoidea incertae sedis"],
+        "classes": {"Hexanauplia": 3, "Malacostraca": 166, "Ostracoda": 3, "Thecostraca": 9},
+        "orders": {
+          "Amphipoda": 75,
+          "Balanomorpha": 4,
+          "Cumacea": 14,
+          "Cyclopoida": 3,
+          "Decapoda": 48,
+          "Euphausiacea": 1,
+          "Isopoda": 14,
+          "Leptostraca": 2,
+          "Myodocopida": 2,
+          "Mysida": 3,
+          "Podocopida": 1,
+          "Pollicipedomorpha": 1,
+          "Scalpellomorpha": 1,
+          "Stomatopoda": 1,
+          "Tanaidacea": 8,
+          "Unassigned in source": 2,
+          "Verrucomorpha": 1
+        },
+        "emitted_trait_categories": 30,
+        "positive_no_bioturbation_records": 3,
+        "excluded_sea_spider_rows": 6
+      },
+      "checks": [
+        "All 181 outputs read and matched to pinned CSV source classifications, original Aphia IDs and exactly the positive confidence-3 retained categories",
+        "Strict exact-field schema; nonblank/NUL-free fields; unique IDs and texts; no child directories; incoming weight 181",
+        "Independent genus deduplication verifies equality of every source trait code; independent SHA-256 family-cap selection reproduces 181 genera, maximum three per source family group",
+        "Sea spiders excluded; source class membership and named genera verified; unresolved source family placement labeled honestly",
+        "Source confidence semantics, regional genus synthesis, professional judgement and possible relatives inference checked in primary paper and pinned Cefas metadata",
+        "Zero and missing confidence entries emit no absence claims; no-bioturbation appears only when explicitly coded b_None=3; unverified size and longevity bins omitted",
+        "Required Crown attribution included in every text; pinned source metadata confirms OGL v3.0 and attribution statement; full license present at parent",
+        "Both input hashes and byte counts verified against sources.json and importer constants",
+        "Complete-cache replay with urllib network access blocked reproduces every existing leaf output file byte-identically",
+        "Independent corruption and removal of each pinned input rejected before mutation of existing output files"
+      ],
+      "corrections": {
+        "inference_caveat": "Emitted text explicitly states the synthesis combines literature with professional judgement, including inference from relatives",
+        "unresolved_family": "Pseudoparatanais source group Paratanaoidea incertae sedis rendered as unresolved family placement, retaining original source cap group"
+      },
+      "review_sources": [
+        "https://www.nature.com/articles/s41597-022-01442-y",
+        "https://data-api.cefas.co.uk/api/holdings/21362",
+        "https://data-api.cefas.co.uk/api/export/11935"
+      ]
+    }
+  ]
+}
