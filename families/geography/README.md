@@ -1,94 +1,108 @@
 # Geography
 
-Factual place names, printed as `City — Country` or
-`City — State/Province, Country`. This branch has 1,280 records:
+Names and physical features with geographic context, imported from public-domain
+Natural Earth data. Runtime remains fully offline.
 
-| Leaf | Records |
-| --- | ---: |
-| `cities/africa` | 226 |
-| `cities/asia` | 399 |
-| `cities/europe` | 172 |
-| `cities/north-america` | 220 |
-| `cities/oceania` | 66 |
-| `cities/south-america` | 126 |
-| `subdivisions/us-states` | 50 |
-| `subdivisions/canada-provinces-and-territories` | 13 |
-| `subdivisions/australia-states-and-mainland-territories` | 8 |
+| Branch | Design | Records |
+| --- | --- | ---: |
+| `cities` | Six continents, then national centres, administrative centres, and other settlements | 7,289 |
+| `subdivisions` | Continental groups of mapped administrative units; country and type accompany every name | 4,550 |
+| `countries-and-territories` | Continental groups and ocean islands, with source subregions | 241 |
+| `physical` | Land and water, then distinct kinds of relief, landscape, coasts, islands, and inland/marine water | 3,765 |
 
-The city leaves include towns and other inhabited settlements; they do not
-assert legal city status. Natural Earth's selection emphasizes regional
-significance, rather than being a population ranking or exhaustive gazetteer.
-Normal sibling weights apply, so continent leaves receive equal shares when
-sampling `geography/cities`, regardless of their record counts.
-Sampling `geography` gives cities three-quarters of calls and subdivisions
-one-quarter. Within subdivisions, each name has the same share: the three
-country lists have weights 50, 13, and 8.
+This replaces 1,280 names across nine leaves. Mountains and ranges are separate;
+natural lakes and reservoirs are separate; islands and archipelagos are separate.
+Sibling weights balance topics. Settlements retain three times the incoming
+weight of each other immediate geography branch. Continents and centre classes
+receive equal shares within settlements. Within subdivisions, each name has the
+same conditional probability: each continental leaf's weight is its record count.
+Physical topics balance land/water and their concepts rather than making large
+river and mountain corpora dominate other kinds.
 
-## City sources and maintenance
+## Sources and reproducibility
 
-Imported from [Natural Earth 1:50m populated places v5.1.2](https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-populated-places/).
-Continental grouping starts with its matching admin-0 country dataset.
-Both files are pinned to repository commit
-`f1890d9f152c896d250a77557a5751a93d494776`; the importer verifies SHA-256
-checksums. Natural Earth declares its map data
-[public domain, with no permission or attribution required](https://www.naturalearthdata.com/about/terms-of-use/).
-Each record keeps the exact source URL and stable Natural Earth `NE_ID`.
-Only names are imported; descriptions, population estimates, and geometry
-are not stimuli.
+All source GeoJSON files are pinned to Natural Earth repository commit
+`f1890d9f152c896d250a77557a5751a93d494776`. [The source repository](https://github.com/nvkelso/natural-earth-vector/tree/f1890d9f152c896d250a77557a5751a93d494776/geojson)
+and individual exact URLs appear in every record's provenance. SHA-256 checksums
+are verified by [the importer](import_data.py); physical transformations live in
+[their separate importer](import_physical.py), with
+[source audits and detailed concept notes](physical/README.md). Records retain Natural Earth
+`NE_ID`; administrative provenance also preserves `adm1_code`. River records
+preserve the source `dissolve` identifier, which includes its map river number.
 
-The 1,251 source rows become 1,209 records after excluding 40 Antarctic
-scientific stations, the historic place Ambarchik, and a second Niamey row
-whose coordinates and region instead indicate Maradi. A small explicit list
-uses the source's alternate English labels to fix misspellings and ambiguous
-abbreviations. The importer deliberately does not use `NAME_EN` wholesale:
-some alternatives incorrectly name a different city (for example Cuttack,
-Oujda, and Mazatlán). U.S. and Canadian records carry states/provinces;
-two distinct Suzhous and two distinct Yulins carry Chinese provinces.
-Fort Smith's province is corrected to Northwest Territories against the
-[town's own address](https://www.fortsmith.ca/contact-us).
-
-Continents group physical locations, including French overseas settlements,
-Hawaii, Jayapura, the Canary Islands, Mauritius, Seychelles, and Maldives.
-Russia uses a coarse 60°E split, with Vorkuta in Europe and Nizhny Tagil in
-Asia. Istanbul and Magnitogorsk span the Europe/Asia boundary and are grouped
-in Europe. These categories are sampling aids, not precise continental
-boundary geometry. Country/territory labels mostly follow Natural Earth's
-conventions with readable aliases; Sevastopol uses the regional label
-`Crimea`. Labels do not express recognition of sovereignty or territorial
-claims. The dated source may retain older names or administrative conventions.
-
-Rebuild these corpora with Python's standard library:
+Settlements use 1:10m populated places v5.1.2, rather than the former 1:50m
+selection. Administrative units and physical features use 1:10m datasets;
+country/territory map units use the pinned 1:50m admin-0 dataset. These are
+cartographic selections, not exhaustive geographic catalogues.
+Natural Earth declares [all its map data public domain](https://www.naturalearthdata.com/about/terms-of-use/),
+with no permission or attribution required. No population figures, GDP estimates,
+or descriptive source prose are imported. [LICENSE.md](LICENSE.md) records the
+data reuse notice.
 
 ```sh
-python families/geography/import_data.py
+python -B families/geography/import_data.py
 ```
 
-This downloads the two pinned source files into memory. For an offline import,
-place `ne_50m_populated_places.geojson` and `ne_50m_admin_0_countries.geojson`
-outside the sampling tree and pass `--source-dir PATH`. The generated records
-remain embedded at build time; runtime never downloads data or runs Python.
+For an offline rebuild, download files listed in `SOURCES` to a directory outside
+`families/` and pass `--source-dir PATH`. Raw downloads, caches, and temporary
+scripts must stay outside the sampling tree.
+`-B` prevents Python from creating invalid cache nodes there.
 
-## Subdivision sources
+## Scope and quality
 
-The subdivision leaves are independently assembled factual name lists,
-checked against these official references on 2026-10-13:
+Settlement leaves contain towns and other inhabited places and do not assert
+legal city status. Their source-derived centre groups are dated classifications,
+including former capitals and erroneous capital flags; emitted names make no
+claim about current political roles. All 1,209 original settlement IDs remain in
+the expanded corpus; 123 outputs carry primary-source-backed corrections.
+Scientific, historic, and meteorological stations, two misclassified stations,
+and demonstrated mistaken identities are filtered. Explicit,
+primary-source-verified name and country corrections are recorded in
+`CITY_CORRECTIONS`; alternate English labels are not blindly substituted. See
+[the settlement design](cities/README.md).
 
-- [U.S. Census Bureau ANSI codes for states](https://www.census.gov/library/reference/code-lists/ansi/ansi-codes-for-states.html):
-  all 50 states, excluding the District of Columbia and territories.
-- [Government of Canada province and territory abbreviations](https://our-languages.canada.ca/en/writing-tips-plus/abbreviations-canadian-provinces-and-territories):
-  all ten provinces and three territories.
-- [Australian Bureau of Statistics ASGS state/territory structure](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026/main-structure-and-greater-capital-city-statistical-areas/australia-and-stateterritory):
-  six states and two mainland territories; external territories and the
-  statistical `Other Territories` aggregate are outside this leaf's scope.
+The administrative dataset contains mapped admin-1 units at mixed legal levels
+(for example French departments and British local authorities). It is not a
+definitive list of contemporary first-level subdivisions. Seven unnamed units,
+16 units absent from the country-map grouping (including military bases and
+small offshore map units), Antarctica's single unit, and all 22 rows with
+ambiguous repeated name/type/country combinations are excluded. Some repeated
+names revealed source errors; they are omitted rather than renamed from
+coordinates alone. Political labels and administrative boundaries remain those
+of the pinned source and may be dated. Common country/territory names normalize
+[North Macedonia](https://www.un.org/en/node/123222),
+[Czechia](https://mzv.gov.cz/jnp/en/czechia.html), and
+[Serbia](https://www.mfa.rs/en/republic-serbia), and
+[Macao](https://www.macaotourism.gov.mo/en/article/about-macao/location-and-time)
+against primary references.
 
-These records contain independently formatted geographic name facts, not
-copied prose, descriptions, or page layouts. No blanket public-domain claim
-is made for the reference websites. Canada's
-[website terms](https://www.canada.ca/en/transparency/terms.html) distinguish
-noncommercial reproduction from commercial redistribution; the Census
-Bureau's [public-access policy](https://www2.census.gov/foia/ds_policies/ds027.pdf)
-describes the U.S. copyright status of employee-created data and cautions
-that foreign copyright rules can differ. ABS's
-[website terms](https://www.abs.gov.au/website-privacy-copyright-and-disclaimer)
-generally license its material under CC BY 4.0, subject to listed exceptions.
-The factual name lists do not reproduce those sites' expressive material.
+Country and continent labels follow source mapping conventions, not statements
+of recognition or territorial claims. Ocean-island grouping comes from Natural
+Earth's `Seven seas (open ocean)` category. Settlement grouping separately uses
+physical-location overrides for overseas places and coarse transcontinental
+boundaries, including Russian settlements across the dateline and Turkey's
+East Thrace settlements; it is a sampling aid, not precise continent geometry.
+
+Physical imports keep named features in explicitly mapped classes, omit unnamed
+features, and suppress repeated source IDs. Generic marine areas, lake
+centerlines, historical/pluvial lakes, unnamed elevation marks, stations, and
+unclear mixed polygon classes are excluded. The mixed peninsula/cape class
+is accepted only when a source label explicitly identifies a peninsula. Eight
+ambiguous desert labels are omitted rather than mislabelling mountains,
+vegetation regions, salt pans, and broad geographic regions as deserts. This
+includes [Caatinga](https://www.gov.br/insa/pt-br/semiarido-brasileiro),
+[Soudah](https://www.visitsaudi.com/en/see-do/destinations/abha), and
+[Makgadikgadi](https://www.botswanatourism.co.bw/index.php/explore/makgadikgadi-and-nxai-pans).
+ Coordinates for point features are
+rounded to 0.1° and marked approximate. Inland-water locations are centers of
+mapped bounding boxes, labelled accordingly; they are not centroids, sources,
+mouths, navigational positions, or precise surveyed locations. Rivers with
+absent geometry or identifiers are excluded.
+
+## Path migrations
+
+- `cities/<continent>` became `cities/<continent>/{national-centres,administrative-centres,settlements}`.
+- The three manual subdivision leaves became continental source-imported leaves.
+  Scope includes mapped districts and territories rather than only U.S. states,
+  Canadian provinces/territories, and Australian mainland states/territories.
+- `countries-and-territories` and `physical` are new geography branches.

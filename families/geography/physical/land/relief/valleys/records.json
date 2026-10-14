@@ -1,0 +1,47 @@
+[
+  {
+    "id": "geography-physical-10m_geography_regions_polys-1159103751",
+    "text": "Central Valley (California) - valley; North America",
+    "provenance": "Natural Earth, source ID 1159103751; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://ca.water.usgs.gov/projects/central-valley/about-central-valley.html; geographic facts, no source prose copied."
+  },
+  {
+    "id": "geography-physical-10m_geography_regions_elevation_points-1159106291",
+    "text": "Death Valley - valley; mapped near 36.2°N, 116.8°W (North America)",
+    "provenance": "Natural Earth, source ID 1159106291; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_elevation_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name or landform classification corrected against https://www.nps.gov/deva/learn/nature/faults.htm; geographic facts, no source prose copied."
+  },
+  {
+    "id": "geography-physical-10m_geography_regions_polys-1159104237",
+    "text": "Fergana Valley - valley; Asia",
+    "provenance": "Natural Earth, source ID 1159104237; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_regions_polys-1159103741",
+    "text": "Grand Canyon - gorge; North America",
+    "provenance": "Natural Earth, source ID 1159103741; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_regions_polys-1159103991",
+    "text": "Great Rift Valley - valley; Africa",
+    "provenance": "Natural Earth, source ID 1159103991; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_regions_polys-1159103743",
+    "text": "Three Gorges (Yangtze) - gorges; Asia",
+    "provenance": "Natural Earth, source ID 1159103743; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://english.cq.gov.cn/aboutchongqing/travel/5ALevelTouristAttraction/202606/t20260611_15745310.html; geographic facts, no source prose copied."
+  },
+  {
+    "id": "geography-physical-10m_geography_regions_polys-1159103747",
+    "text": "Tsangpo Gorge - gorge; Asia",
+    "provenance": "Natural Earth, source ID 1159103747; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_regions_polys-1159103337",
+    "text": "Vale of Kashmir - valley; Asia",
+    "provenance": "Natural Earth, source ID 1159103337; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_regions_polys-1159103749",
+    "text": "Valle Longitudinal - valley; South America",
+    "provenance": "Natural Earth, source ID 1159103749; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "geography-physical-10m_geography_regions_polys-1730072195",
+    "text": "Aoukâr - depression; Africa",
+    "provenance": "Natural Earth, source ID 1730072195; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_regions_polys-1159103335",
+    "text": "Bodélé Depression - depression; Africa",
+    "provenance": "Natural Earth, source ID 1159103335; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_regions_elevation_points-1159105287",
+    "text": "Qattara Depression - depression; mapped near 30.0°N, 27.5°E (Africa)",
+    "provenance": "Natural Earth, source ID 1159105287; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_elevation_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_regions_elevation_points-1159105721",
+    "text": "Turpan Depression - depression; mapped near 42.8°N, 89.3°E (Asia)",
+    "provenance": "Natural Earth, source ID 1159105721; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_elevation_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  }
+]

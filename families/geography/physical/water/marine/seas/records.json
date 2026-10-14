@@ -1,0 +1,357 @@
+[
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116607",
+    "text": "Adriatic Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116607; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117123",
+    "text": "Aegean Sea - sea",
+    "provenance": "Natural Earth, source ID 1159117123; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118457",
+    "text": "Alboran Sea - sea",
+    "provenance": "Natural Earth, source ID 1159118457; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116181",
+    "text": "Amundsen Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116181; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115987",
+    "text": "Andaman Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115987; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115343",
+    "text": "Arabian Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115343; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116081",
+    "text": "Arafura Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116081; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117105",
+    "text": "Balearic Sea - sea",
+    "provenance": "Natural Earth, source ID 1159117105; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120073",
+    "text": "Bali Sea - sea",
+    "provenance": "Natural Earth, source ID 1159120073; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115831",
+    "text": "Baltic Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115831; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115717",
+    "text": "Banda Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115717; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115861",
+    "text": "Barents Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115861; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115359",
+    "text": "Beaufort Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115359; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116169",
+    "text": "Bellingshausen Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116169; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117319",
+    "text": "Bering Sea - sea",
+    "provenance": "Natural Earth, source ID 1159117319; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116735",
+    "text": "Bismarck Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116735; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115171",
+    "text": "Black Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115171; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117171",
+    "text": "Bo Hai - sea",
+    "provenance": "Natural Earth, source ID 1159117171; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120253",
+    "text": "Bohol Sea - sea",
+    "provenance": "Natural Earth, source ID 1159120253; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115379",
+    "text": "Caribbean Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115379; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115461",
+    "text": "Caspian Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115461; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115635",
+    "text": "Celebes Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115635; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116897",
+    "text": "Ceram Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116897; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116037",
+    "text": "Chukchi Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116037; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115219",
+    "text": "Coral Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115219; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118715",
+    "text": "Davis Sea - sea",
+    "provenance": "Natural Earth, source ID 1159118715; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116027",
+    "text": "East China Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116027; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117337",
+    "text": "East Siberian Sea - sea",
+    "provenance": "Natural Earth, source ID 1159117337; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120167",
+    "text": "Flores Sea - sea",
+    "provenance": "Natural Earth, source ID 1159120167; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115695",
+    "text": "Greenland Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115695; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120109",
+    "text": "Halmahera Sea - sea",
+    "provenance": "Natural Earth, source ID 1159120109; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116927",
+    "text": "Inner Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116927; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115921",
+    "text": "Inner Seas - sea",
+    "provenance": "Natural Earth, source ID 1159115921; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116697",
+    "text": "Ionian Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116697; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115935",
+    "text": "Irish Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115935; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115959",
+    "text": "Java Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115959; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116231",
+    "text": "Kara Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116231; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117819",
+    "text": "Kattegat - sea",
+    "provenance": "Natural Earth, source ID 1159117819; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115419",
+    "text": "Labrador Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115419; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116143",
+    "text": "Laccadive Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116143; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116253",
+    "text": "Laptev Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116253; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118439",
+    "text": "Ligurian Sea - sea",
+    "provenance": "Natural Earth, source ID 1159118439; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117355",
+    "text": "Lincoln Sea - sea",
+    "provenance": "Natural Earth, source ID 1159117355; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115321",
+    "text": "Mediterranean Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115321; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116731",
+    "text": "Molucca Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116731; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115879",
+    "text": "North Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115879; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115675",
+    "text": "Norwegian Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115675; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115197",
+    "text": "Philippine Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115197; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115521",
+    "text": "Red Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115521; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115615",
+    "text": "Ross Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115615; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120759",
+    "text": "Salish Sea - sea",
+    "provenance": "Natural Earth, source ID 1159120759; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120335",
+    "text": "Samar Sea - sea",
+    "provenance": "Natural Earth, source ID 1159120335; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120667",
+    "text": "Sargasso Sea - sea",
+    "provenance": "Natural Earth, source ID 1159120667; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120417",
+    "text": "Savu Sea - sea",
+    "provenance": "Natural Earth, source ID 1159120417; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115811",
+    "text": "Scotia Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115811; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116409",
+    "text": "Sea of Azov - sea",
+    "provenance": "Natural Earth, source ID 1159116409; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118425",
+    "text": "Sea of Crete - sea",
+    "provenance": "Natural Earth, source ID 1159118425; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115305",
+    "text": "Sea of Japan - sea",
+    "provenance": "Natural Earth, source ID 1159115305; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119181",
+    "text": "Sea of Marmara - sea",
+    "provenance": "Natural Earth, source ID 1159119181; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115541",
+    "text": "Sea of Okhotsk - sea",
+    "provenance": "Natural Earth, source ID 1159115541; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120183",
+    "text": "Sibuyan Sea - sea",
+    "provenance": "Natural Earth, source ID 1159120183; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116767",
+    "text": "Solomon Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116767; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115273",
+    "text": "South China Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115273; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115655",
+    "text": "Sulu Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115655; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115233",
+    "text": "Tasman Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115233; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116101",
+    "text": "Timor Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116101; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116377",
+    "text": "Tyrrhenian Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116377; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120401",
+    "text": "Visayan Sea - sea",
+    "provenance": "Natural Earth, source ID 1159120401; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115579",
+    "text": "Weddell Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115579; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116395",
+    "text": "White Sea - sea",
+    "provenance": "Natural Earth, source ID 1159116395; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115999",
+    "text": "Yellow Sea - sea",
+    "provenance": "Natural Earth, source ID 1159115999; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  }
+]

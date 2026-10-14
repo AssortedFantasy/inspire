@@ -1,0 +1,67 @@
+[
+  {
+    "id": "geography-country-ne-1159320331",
+    "text": "Argentina - South America",
+    "provenance": "Natural Earth, source ID 1159320331; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159320439",
+    "text": "Bolivia - South America",
+    "provenance": "Natural Earth, source ID 1159320439; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159320441",
+    "text": "Brazil - South America",
+    "provenance": "Natural Earth, source ID 1159320441; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159320493",
+    "text": "Chile - South America",
+    "provenance": "Natural Earth, source ID 1159320493; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159320517",
+    "text": "Colombia - South America",
+    "provenance": "Natural Earth, source ID 1159320517; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159320567",
+    "text": "Ecuador - South America",
+    "provenance": "Natural Earth, source ID 1159320567; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159320711",
+    "text": "Falkland Islands - South America",
+    "provenance": "Natural Earth, source ID 1159320711; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159320817",
+    "text": "Guyana - South America",
+    "provenance": "Natural Earth, source ID 1159320817; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159321195",
+    "text": "Paraguay - South America",
+    "provenance": "Natural Earth, source ID 1159321195; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159321163",
+    "text": "Peru - South America",
+    "provenance": "Natural Earth, source ID 1159321163; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159321281",
+    "text": "Suriname - South America",
+    "provenance": "Natural Earth, source ID 1159321281; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159321353",
+    "text": "Uruguay - South America",
+    "provenance": "Natural Earth, source ID 1159321353; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159321411",
+    "text": "Venezuela - South America",
+    "provenance": "Natural Earth, source ID 1159321411; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  }
+]

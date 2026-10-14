@@ -1,0 +1,42 @@
+[
+  {
+    "id": "geography-country-ne-1159320723",
+    "text": "British Indian Ocean Territory - ocean islands",
+    "provenance": "Natural Earth, source ID 1159320723; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159320631",
+    "text": "French Southern and Antarctic Lands - ocean islands",
+    "provenance": "Natural Earth, source ID 1159320631; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159320361",
+    "text": "Heard Island and McDonald Islands - ocean islands",
+    "provenance": "Natural Earth, source ID 1159320361; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159321053",
+    "text": "Maldives - Southern Asia",
+    "provenance": "Natural Earth, source ID 1159321053; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159321079",
+    "text": "Mauritius - Eastern Africa",
+    "provenance": "Natural Earth, source ID 1159321079; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159320733",
+    "text": "Saint Helena - Western Africa",
+    "provenance": "Natural Earth, source ID 1159320733; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159321291",
+    "text": "Seychelles - Eastern Africa",
+    "provenance": "Natural Earth, source ID 1159321291; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159320731",
+    "text": "South Georgia and South Sandwich Islands - ocean islands",
+    "provenance": "Natural Earth, source ID 1159320731; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  }
+]

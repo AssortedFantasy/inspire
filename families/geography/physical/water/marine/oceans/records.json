@@ -1,0 +1,37 @@
+[
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115017",
+    "text": "Arctic Ocean - ocean",
+    "provenance": "Natural Earth, source ID 1159115017; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115123",
+    "text": "Indian Ocean - ocean",
+    "provenance": "Natural Earth, source ID 1159115123; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115057",
+    "text": "North Atlantic Ocean - ocean",
+    "provenance": "Natural Earth, source ID 1159115057; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115079",
+    "text": "North Pacific Ocean - ocean",
+    "provenance": "Natural Earth, source ID 1159115079; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115149",
+    "text": "South Atlantic Ocean - ocean",
+    "provenance": "Natural Earth, source ID 1159115149; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115099",
+    "text": "South Pacific Ocean - ocean",
+    "provenance": "Natural Earth, source ID 1159115099; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115037",
+    "text": "Southern Ocean - ocean",
+    "provenance": "Natural Earth, source ID 1159115037; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  }
+]

@@ -1,0 +1,757 @@
+[
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119313",
+    "text": "Albemarle Sound - sound",
+    "provenance": "Natural Earth, source ID 1159119313; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117223",
+    "text": "Amundsen Gulf - gulf",
+    "provenance": "Natural Earth, source ID 1159117223; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118761",
+    "text": "Antongila Bay - bay",
+    "provenance": "Natural Earth, source ID 1159118761; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115483",
+    "text": "Baffin Bay - bay",
+    "provenance": "Natural Earth, source ID 1159115483; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118573",
+    "text": "Bahía Blanca - bay",
+    "provenance": "Natural Earth, source ID 1159118573; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116059",
+    "text": "Bahía de Campeche - bay",
+    "provenance": "Natural Earth, source ID 1159116059; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118629",
+    "text": "Bahía Grande - bay",
+    "provenance": "Natural Earth, source ID 1159118629; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118905",
+    "text": "Baia de Maputo - bay",
+    "provenance": "Natural Earth, source ID 1159118905; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119417",
+    "text": "Baird Inlet - inlet",
+    "provenance": "Natural Earth, source ID 1159119417; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119669",
+    "text": "Bathurst Inlet - bay",
+    "provenance": "Natural Earth, source ID 1159119669; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119925",
+    "text": "Bay Inútil - bay",
+    "provenance": "Natural Earth, source ID 1159119925; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115253",
+    "text": "Bay of Bengal - bay",
+    "provenance": "Natural Earth, source ID 1159115253; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115749",
+    "text": "Bay of Biscay - bay",
+    "provenance": "Natural Earth, source ID 1159115749; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116797",
+    "text": "Bay of Fundy - bay",
+    "provenance": "Natural Earth, source ID 1159116797; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116643",
+    "text": "Bay of Plenty - bay",
+    "provenance": "Natural Earth, source ID 1159116643; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117463",
+    "text": "Baía de Marajó - bay",
+    "provenance": "Natural Earth, source ID 1159117463; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117597",
+    "text": "Baía de São Marcos - bay",
+    "provenance": "Natural Earth, source ID 1159117597; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118475",
+    "text": "Bight of Benin - bay",
+    "provenance": "Natural Earth, source ID 1159118475; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118493",
+    "text": "Bight of Biafra - bay",
+    "provenance": "Natural Earth, source ID 1159118493; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117445",
+    "text": "Boca Grande - bay",
+    "provenance": "Natural Earth, source ID 1159117445; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118943",
+    "text": "Boknafjorden - fjord",
+    "provenance": "Natural Earth, source ID 1159118943; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116991",
+    "text": "Bristol Bay - bay",
+    "provenance": "Natural Earth, source ID 1159116991; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119047",
+    "text": "Chaun Bay - bay",
+    "provenance": "Natural Earth, source ID 1159119047; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117043",
+    "text": "Chesapeake Bay - bay",
+    "provenance": "Natural Earth, source ID 1159117043; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116967",
+    "text": "Cook Inlet - bay",
+    "provenance": "Natural Earth, source ID 1159116967; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120451",
+    "text": "Cordova Bay - bay",
+    "provenance": "Natural Earth, source ID 1159120451; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117615",
+    "text": "Cumberland Sound - sound",
+    "provenance": "Natural Earth, source ID 1159117615; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119511",
+    "text": "Darnley Bay - bay",
+    "provenance": "Natural Earth, source ID 1159119511; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120091",
+    "text": "Davao Gulf - gulf",
+    "provenance": "Natural Earth, source ID 1159120091; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119271",
+    "text": "Delaware Bay - bay",
+    "provenance": "Natural Earth, source ID 1159119271; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117651",
+    "text": "Disko Bay - bay",
+    "provenance": "Natural Earth, source ID 1159117651; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118247",
+    "text": "East Korea Bay - bay",
+    "provenance": "Natural Earth, source ID 1159118247; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119813",
+    "text": "Eclipse Sound - sound",
+    "provenance": "Natural Earth, source ID 1159119813; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118111",
+    "text": "Foxe Basin - bay",
+    "provenance": "Natural Earth, source ID 1159118111; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117391",
+    "text": "Franklin Bay - bay",
+    "provenance": "Natural Earth, source ID 1159117391; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117633",
+    "text": "Frobisher Bay - bay",
+    "provenance": "Natural Earth, source ID 1159117633; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119095",
+    "text": "Garabogaz Bay - bay",
+    "provenance": "Natural Earth, source ID 1159119095; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118321",
+    "text": "Geographe Bay - bay",
+    "provenance": "Natural Earth, source ID 1159118321; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119885",
+    "text": "George VI Sound - sound",
+    "provenance": "Natural Earth, source ID 1159119885; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116571",
+    "text": "Golfe du Lion - gulf",
+    "provenance": "Natural Earth, source ID 1159116571; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117489",
+    "text": "Golfo Corcovado - gulf",
+    "provenance": "Natural Earth, source ID 1159117489; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116479",
+    "text": "Golfo de California - gulf",
+    "provenance": "Natural Earth, source ID 1159116479; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118151",
+    "text": "Golfo de Guayaquil - gulf",
+    "provenance": "Natural Earth, source ID 1159118151; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117203",
+    "text": "Golfo de Panamá - gulf",
+    "provenance": "Natural Earth, source ID 1159117203; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118589",
+    "text": "Golfo de Penas - gulf",
+    "provenance": "Natural Earth, source ID 1159118589; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118133",
+    "text": "Golfo de Tehuantepec - gulf",
+    "provenance": "Natural Earth, source ID 1159118133; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118877",
+    "text": "Golfo de Urabá - gulf",
+    "provenance": "Natural Earth, source ID 1159118877; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117077",
+    "text": "Golfo San Jorge - gulf",
+    "provenance": "Natural Earth, source ID 1159117077; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117475",
+    "text": "Golfo San Matías - gulf",
+    "provenance": "Natural Earth, source ID 1159117475; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116315",
+    "text": "Great Australian Bight - gulf",
+    "provenance": "Natural Earth, source ID 1159116315; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120055",
+    "text": "Guba Gusinaya - bay",
+    "provenance": "Natural Earth, source ID 1159120055; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116333",
+    "text": "Gulf of Aden - gulf",
+    "provenance": "Natural Earth, source ID 1159116333; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115503",
+    "text": "Gulf of Alaska - gulf",
+    "provenance": "Natural Earth, source ID 1159115503; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120779",
+    "text": "Gulf of Anadyr' - gulf",
+    "provenance": "Natural Earth, source ID 1159120779; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119199",
+    "text": "Gulf of Aqaba - gulf",
+    "provenance": "Natural Earth, source ID 1159119199; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118085",
+    "text": "Gulf of Boothia - gulf",
+    "provenance": "Natural Earth, source ID 1159118085; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116589",
+    "text": "Gulf of Bothnia - gulf",
+    "provenance": "Natural Earth, source ID 1159116589; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120217",
+    "text": "Gulf of Buli - gulf",
+    "provenance": "Natural Earth, source ID 1159120217; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116451",
+    "text": "Gulf of Carpentaria - gulf",
+    "provenance": "Natural Earth, source ID 1159116451; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116517",
+    "text": "Gulf of Finland - gulf",
+    "provenance": "Natural Earth, source ID 1159116517; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117973",
+    "text": "Gulf of Gabès - gulf",
+    "provenance": "Natural Earth, source ID 1159117973; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115791",
+    "text": "Gulf of Guinea - gulf",
+    "provenance": "Natural Earth, source ID 1159115791; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116553",
+    "text": "Gulf of Honduras - gulf",
+    "provenance": "Natural Earth, source ID 1159116553; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118817",
+    "text": "Gulf of Kamchatka - gulf",
+    "provenance": "Natural Earth, source ID 1159118817; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120235",
+    "text": "Gulf of Kau - gulf",
+    "provenance": "Natural Earth, source ID 1159120235; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117827",
+    "text": "Gulf of Khambhät - gulf",
+    "provenance": "Natural Earth, source ID 1159117827; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117185",
+    "text": "Gulf of Kutch - gulf",
+    "provenance": "Natural Earth, source ID 1159117185; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117021",
+    "text": "Gulf of Maine - gulf",
+    "provenance": "Natural Earth, source ID 1159117021; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117135",
+    "text": "Gulf of Mannar - gulf",
+    "provenance": "Natural Earth, source ID 1159117135; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118975",
+    "text": "Gulf of Martaban - gulf",
+    "provenance": "Natural Earth, source ID 1159118975; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118175",
+    "text": "Gulf of Masira - gulf",
+    "provenance": "Natural Earth, source ID 1159118175; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115399",
+    "text": "Gulf of Mexico - gulf",
+    "provenance": "Natural Earth, source ID 1159115399; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119119",
+    "text": "Gulf of Ob - gulf",
+    "provenance": "Natural Earth, source ID 1159119119; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118351",
+    "text": "Gulf of Olen‘k - gulf",
+    "provenance": "Natural Earth, source ID 1159118351; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116359",
+    "text": "Gulf of Oman - gulf",
+    "provenance": "Natural Earth, source ID 1159116359; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118329",
+    "text": "Gulf of Papua - gulf",
+    "provenance": "Natural Earth, source ID 1159118329; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118365",
+    "text": "Gulf of Riga - gulf",
+    "provenance": "Natural Earth, source ID 1159118365; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116715",
+    "text": "Gulf of Saint Lawrence - gulf",
+    "provenance": "Natural Earth, source ID 1159116715; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118989",
+    "text": "Gulf of Sakhalin - gulf",
+    "provenance": "Natural Earth, source ID 1159118989; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118407",
+    "text": "Gulf of Sidra - gulf",
+    "provenance": "Natural Earth, source ID 1159118407; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119103",
+    "text": "Gulf of Suez - gulf",
+    "provenance": "Natural Earth, source ID 1159119103; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116123",
+    "text": "Gulf of Thailand - gulf",
+    "provenance": "Natural Earth, source ID 1159116123; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120147",
+    "text": "Gulf of Tomini - gulf",
+    "provenance": "Natural Earth, source ID 1159120147; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116787",
+    "text": "Gulf of Tonkin - gulf",
+    "provenance": "Natural Earth, source ID 1159116787; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118193",
+    "text": "Gulf of Yana - gulf",
+    "provenance": "Natural Earth, source ID 1159118193; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118871",
+    "text": "Gulf St. Vincent - gulf",
+    "provenance": "Natural Earth, source ID 1159118871; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119663",
+    "text": "Hadley Bay - bay",
+    "provenance": "Natural Earth, source ID 1159119663; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119831",
+    "text": "Hall Basin - gulf",
+    "provenance": "Natural Earth, source ID 1159119831; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117665",
+    "text": "Hamilton Inlet - bay",
+    "provenance": "Natural Earth, source ID 1159117665; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118783",
+    "text": "Hangzhou Bay - bay",
+    "provenance": "Natural Earth, source ID 1159118783; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115441",
+    "text": "Hudson Bay - bay",
+    "provenance": "Natural Earth, source ID 1159115441; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116431",
+    "text": "James Bay - bay",
+    "provenance": "Natural Earth, source ID 1159116431; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119795",
+    "text": "Jones Sound - sound",
+    "provenance": "Natural Earth, source ID 1159119795; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118959",
+    "text": "Joseph Bonaparte Gulf - gulf",
+    "provenance": "Natural Earth, source ID 1159118959; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118099",
+    "text": "Kane Basin - bay",
+    "provenance": "Natural Earth, source ID 1159118099; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119013",
+    "text": "Kangertittivaq - fjord",
+    "provenance": "Natural Earth, source ID 1159119013; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118803",
+    "text": "Karaginskiy Gulf - gulf",
+    "provenance": "Natural Earth, source ID 1159118803; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119075",
+    "text": "Khatanga Gulf - gulf",
+    "provenance": "Natural Earth, source ID 1159119075; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118029",
+    "text": "Kotzebue Sound - sound",
+    "provenance": "Natural Earth, source ID 1159118029; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117867",
+    "text": "Kronotskiy Gulf - gulf",
+    "provenance": "Natural Earth, source ID 1159117867; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120375",
+    "text": "Leyte Gulf - gulf",
+    "provenance": "Natural Earth, source ID 1159120375; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119625",
+    "text": "Liddon Gulf - gulf",
+    "provenance": "Natural Earth, source ID 1159119625; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119293",
+    "text": "Long Island Sound - sound",
+    "provenance": "Natural Earth, source ID 1159119293; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118743",
+    "text": "Lützow-Holm Bay - bay",
+    "provenance": "Natural Earth, source ID 1159118743; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117989",
+    "text": "Mackenzie Bay - bay",
+    "provenance": "Natural Earth, source ID 1159117989; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118651",
+    "text": "Marguerite Bay - bay",
+    "provenance": "Natural Earth, source ID 1159118651; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119247",
+    "text": "Massachusetts Bay - bay",
+    "provenance": "Natural Earth, source ID 1159119247; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117579",
+    "text": "McMurdo Sound - sound",
+    "provenance": "Natural Earth, source ID 1159117579; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120643",
+    "text": "Mecklenburger Bucht - bay",
+    "provenance": "Natural Earth, source ID 1159120643; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116999",
+    "text": "Melville Bay - bay",
+    "provenance": "Natural Earth, source ID 1159116999; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119565",
+    "text": "Minto Inlet - sound",
+    "provenance": "Natural Earth, source ID 1159119565; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120705",
+    "text": "Monterey Bay - bay",
+    "provenance": "Natural Earth, source ID 1159120705; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120493",
+    "text": "Murchison Sound - sound",
+    "provenance": "Natural Earth, source ID 1159120493; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118005",
+    "text": "Norton Sound - sound",
+    "provenance": "Natural Earth, source ID 1159118005; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119327",
+    "text": "Pamlico Sound - sound",
+    "provenance": "Natural Earth, source ID 1159119327; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119867",
+    "text": "Peacock Sound - sound",
+    "provenance": "Natural Earth, source ID 1159119867; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159115597",
+    "text": "Persian Gulf - gulf",
+    "provenance": "Natural Earth, source ID 1159115597; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118705",
+    "text": "Porpoise Bay - bay",
+    "provenance": "Natural Earth, source ID 1159118705; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119599",
+    "text": "Prince ALbert Sound - sound",
+    "provenance": "Natural Earth, source ID 1159119599; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118537",
+    "text": "Prince William Sound - sound",
+    "provenance": "Natural Earth, source ID 1159118537; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118669",
+    "text": "Prydz Bay - bay",
+    "provenance": "Natural Earth, source ID 1159118669; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116679",
+    "text": "Queen Charlotte Sound - sound",
+    "provenance": "Natural Earth, source ID 1159116679; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120315",
+    "text": "Ragay Gulf - gulf",
+    "provenance": "Natural Earth, source ID 1159120315; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119583",
+    "text": "Richard Collinson Inlet - bay",
+    "provenance": "Natural Earth, source ID 1159119583; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159116815",
+    "text": "Río de la Plata - gulf",
+    "provenance": "Natural Earth, source ID 1159116815; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120685",
+    "text": "San Francisco Bay - bay",
+    "provenance": "Natural Earth, source ID 1159120685; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119901",
+    "text": "Seno de Skyring - sound",
+    "provenance": "Natural Earth, source ID 1159119901; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119915",
+    "text": "Seno Otway - sound",
+    "provenance": "Natural Earth, source ID 1159119915; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117955",
+    "text": "Shark Bay - bay",
+    "provenance": "Natural Earth, source ID 1159117955; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117159",
+    "text": "Shelikhova Gulf - gulf",
+    "provenance": "Natural Earth, source ID 1159117159; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119727",
+    "text": "Sherman Basin - bay",
+    "provenance": "Natural Earth, source ID 1159119727; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117723",
+    "text": "Skagerrak - fjord",
+    "provenance": "Natural Earth, source ID 1159117723; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119367",
+    "text": "Smith Sound - sound",
+    "provenance": "Natural Earth, source ID 1159119367; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117781",
+    "text": "Sognefjorden - fjord",
+    "provenance": "Natural Earth, source ID 1159117781; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118925",
+    "text": "St. Helena Bay - bay",
+    "provenance": "Natural Earth, source ID 1159118925; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117683",
+    "text": "Storfjorden - fjord",
+    "provenance": "Natural Earth, source ID 1159117683; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117531",
+    "text": "Sulzberger Bay - bay",
+    "provenance": "Natural Earth, source ID 1159117531; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120353",
+    "text": "Tayabas Bay - bay",
+    "provenance": "Natural Earth, source ID 1159120353; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117797",
+    "text": "Trondheimsfjorden - fjord",
+    "provenance": "Natural Earth, source ID 1159117797; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117901",
+    "text": "Uchiura Bay - bay",
+    "provenance": "Natural Earth, source ID 1159117901; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117883",
+    "text": "Uda Bay - bay",
+    "provenance": "Natural Earth, source ID 1159117883; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117265",
+    "text": "Ungava Bay - bay",
+    "provenance": "Natural Earth, source ID 1159117265; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119849",
+    "text": "Uummannaq Fjord - fjord",
+    "provenance": "Natural Earth, source ID 1159119849; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117697",
+    "text": "Vestfjorden - fjord",
+    "provenance": "Natural Earth, source ID 1159117697; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159118683",
+    "text": "Vincennes Bay - bay",
+    "provenance": "Natural Earth, source ID 1159118683; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117247",
+    "text": "Viscount Melville Sound - sound",
+    "provenance": "Natural Earth, source ID 1159117247; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119745",
+    "text": "Wager Bay - bay",
+    "provenance": "Natural Earth, source ID 1159119745; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159117505",
+    "text": "Wrigley Gulf - gulf",
+    "provenance": "Natural Earth, source ID 1159117505; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119635",
+    "text": "Wynniatt Bay - bay",
+    "provenance": "Natural Earth, source ID 1159119635; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159119141",
+    "text": "Yenisey Gulf - gulf",
+    "provenance": "Natural Earth, source ID 1159119141; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-physical-10m_geography_marine_polys-1159120609",
+    "text": "Øresund - sound",
+    "provenance": "Natural Earth, source ID 1159120609; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_marine_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  }
+]
