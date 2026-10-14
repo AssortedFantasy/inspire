@@ -27,6 +27,9 @@ Keep this up to date; list only important files and directories.
 
 # Tips
 
+Run checks at integration points after a coherent batch, not after each leaf.
+Commit finished leaves promptly; avoid reopening completed reviews for wording edits.
+
 ```sh
 cargo fmt --all --check
 cargo test --locked

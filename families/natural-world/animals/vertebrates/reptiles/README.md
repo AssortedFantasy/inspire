@@ -2,7 +2,7 @@
 
 237 English-named, accepted, non-extinct-flagged GBIF species across 87 families;
 219 have exact scientific-binomial joins to the downloaded ReptTraits workbook.
-Every record attributes GBIF, and enriched records also attribute ReptTraits.
+Provenance and bundled notices credit GBIF and ReptTraits.
 Both sources use CC BY 4.0; the full notice is in `../../LICENSE.txt`.
 
 The traditional reptile group is represented by GBIF's accepted classes

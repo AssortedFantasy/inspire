@@ -108,13 +108,12 @@ each have twice UUID's share. `--list` shows the
 effective probabilities. Calls are independent, so repeats are possible.
 
 Source URLs and reuse notes live in each record's `provenance` field and in
-family READMEs. Record metadata is not printed or embedded; required attribution
-belongs in the emitted text. Factual explanations are original paraphrases;
-licensed glossary text is identified by source, and literary excerpts identify
-their authors and works. Coverage is curated rather than
+family READMEs. Sampled text focuses on the material; dataset credit and license
+notices are bundled with the executable through `--data-licenses`. Factual
+explanations are original paraphrases; literary excerpts identify their authors
+and works. Coverage is curated rather than
 exhaustive, and random constructions are not uniform over every possible object.
-Dataset license files are embedded and printed by `--data-licenses`; see
-[dataset redistribution notes](DATA_SOURCES.md).
+See [dataset redistribution notes](DATA_SOURCES.md).
 
 Seeds reproduce samples within a given build. Changing the tree, records,
 generators, or RNG version can change the output for an existing seed.

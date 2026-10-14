@@ -1,102 +1,67 @@
-# Content audit — 2026-10-13
+# Content maintenance - 2026-10-13
 
-Reviewed the directory tree, all generator implementations, emitted samples, and
-corpus wording for category fit, repetition, local probabilities, and instructions
-that could be confused with the consuming agent's task. This is an editorial
-audit, not a fresh verification of every factual record against its source.
+The current tree contains 74,979 records in 595 corpora and 141 generators across
+15 families. Earlier expansion work grew the tree from 2,134 records, 67 corpora,
+and 13 generators. Historical review manifests are snapshots rather than a
+requirement for routine maintenance.
 
-## Corrections
+## Human feedback applied
 
-- Seventeen mathematical construction records used commands such as "Construct",
-  "Set", or "Complete". They now describe the object and its relations. The tensor
-  construction states its commutative-ring assumption and explicit scalar
-  relations, consistent with [Stacks Project §10.12](https://stacks.math.columbia.edu/tag/00CV).
-- Four poetic-form descriptions gave composition instructions. They now describe
-  the form. Grammar examples, idiom examples, and proverbs are quoted and labeled.
-  Actual quotations retain their attribution; intrinsic procedure steps remain
-  inside named algorithms, kitchen/sewing procedures, or experiment protocols.
-- Outfits previously ended with "Use ... for the bag or hat accent". Each now
-  names an actual colored accessory. Sudoku states its intrinsic rule
-  descriptively; reaction outputs label consumption and production amounts.
-- Empirical formulas previously alphabetized elements, producing `H3N` for
-  ammonia. Reduction now preserves the catalog's conventional order (`NH3`).
-- General counterillumination and bioluminescence records moved from invertebrate
-  adaptations to ocean phenomena. The material spans marine taxa, including
-  fish; see [NOAA's bioluminescence explanation](https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/).
-- Chess was registered as a generator despite having just 21 fixed outputs. It
-  is now a corpus at the same CLI path. The dashboard stops after visiting each
-  opening once rather than offering an endless repeated stream. The existing
-  lines and labels are preserved; legal replay tests read the JSON itself.
+[Human feedback](../reviews/human-feedback.md) favors useful material with compact
+framing: recipes, examples, objects, poems, and concrete mathematical or technical
+artifacts. Repeated source and dataset descriptions obscured that material.
+
+- Instrument and person records omit repeated source URLs, license paragraphs,
+  transformation notes, and administrative identifiers.
+- Chemistry records focus on identity, formulas, mass, and structure. Reaction
+  extents state consumption and production directly, with relevant conditions.
+- WordNet retains senses and antonyms; copyright and permission notices are bundled.
+- Literary credits retain author, work, translator, and meaningful printed
+  locations. Invented poem ordinals, paragraph counters, and HTML anchors stay in
+  provenance. Authentic excerpt wording and punctuation are preserved.
+- Museum records retain object, date, culture, and material. Geographic labels
+  prefer ordinary hyphens. Biological data retain units, measurement method, and
+  species, genus, regional, or study context with shorter framing.
+- Circuit displays use six significant digits. Exact mathematical values,
+  combinatorial drafts, and intrinsic game/procedure rules retain their meaning.
+
+Producer formatting and stored records change together. Source provenance and
+full notices remain available; `inspire --data-licenses` includes dataset credit,
+modification notes, and complete license text without crowding ordinary samples.
+
+The corpus scan found no normalized exact duplicate texts and no printed source
+URL, snapshot-date, license-footer, or invented poem-ID remnants. Authentic
+quotations retain contrast and negation; mathematical negation and defining
+assumptions remain part of the content.
 
 ## Sampling policy
 
-Equal sibling weights were mathematically correct but made organizational
-folders determine exposure. For example, each inventor was twenty times as
-likely as each physicist because six inventors occupied one top-level people
-branch, while 24 physicists shared a five-child science branch.
+The feedback dashboard's sample frequencies do not measure default CLI exposure.
+This cleanup preserves topic weights. Broad top-level families have weight 2;
+raw random values have weight 1. `inspire --list` shows effective probabilities.
 
-| Collection | Previous accidental per-record advantage | Current policy |
-| --- | --- | --- |
-| People | Inventor vs physicist: 20× | Each of 132 people has equal share within `people` |
-| Cars | BMW vs Porsche: 4× | Each of 81 vehicles has equal share within `objects/cars` |
-| Animal names | Amphibian vs mammal: 7.8× | Each of 106 names has equal share within `animals` |
-| Subdivisions | Australian vs U.S. entry: 6.25× | Each of 71 names has equal share within `subdivisions` |
+Within `people`, `objects/cars`, `natural-world/animals`, and
+`geography/subdivisions`, child weights equal descendant record counts, giving
+records equal conditional shares across folder depths. Animal weights were
+synchronized to the current 2,604 records. Other branches balance subjects rather
+than corpus size; family notes describe additional local choices.
 
-These collections use descendant record counts as local weights at every split.
-The probability test checks actual conditional record probabilities, including
-extra folder levels. Counts must be maintained when records change.
+## Maintenance workflow
 
-Broad top-level families have weight 2. Music (one historical chart), objects
-(only cars), and random values have weight 1. Each broad family receives 7.4074%
-of default calls; each narrow family receives 3.7037%. Colors and dates have
-weight 2 against UUID's 1, reducing bare UUIDs from 2.2222% to 0.7407% of calls.
-Geography gives cities three times the share of subdivisions. City continents
-remain equally weighted to keep the larger Asian collection from dominating.
-Other branches retain equal topic shares.
+Leaf implementation uses GPT-6 Luna with high reasoning. Shared formatting fixes
+are applied in bulk, followed by a bounded pass over affected leaves. Completed
+leaves or coherent batches are committed promptly. Tests run at integration
+points, with substantive invariants covering behavior changes. Routine wording
+edits do not start another source audit or exhaustive review chain.
 
-These are transparent editorial choices, not measured optimal weights for agent
-creativity. Uniform records are appropriate for homogeneous name lists; uniform
-topics remain useful for different forms of material. Neither makes the source
-coverage representative of the world.
+Coverage remains curated and inherits source geographic, historical, and language
+biases. Generators cover bounded constructions. Cached inputs can be needed to
+reproduce mutable API snapshots; runtime remains offline.
 
-## Validation and remaining limitations
+The integrated tree passes all 279 Rust tests, Cargo and generator formatting,
+Clippy with warnings denied, and the standalone release build. Corpus scanning
+and cached importer checks, including all four literature replay tests, cover
+the updated output format without reopening historical review queues.
 
-The initial pass sampled seeds 0–99 from each of the 14 former generator leaves
-(1,400 outputs), inspected representative outputs, and scanned all 2,113 former
-corpus records for normalized exact duplicate texts; none were found. Chess
-produced exactly 21 distinct outputs, motivating its conversion. The collection
-now contains 2,134 records in 67 corpora and 13 generators.
-
-Generator invariants cover algebraic equalities, integral answers and domains,
-balanced chemical reactions, circuit connectivity, legal game histories, unique
-Sudoku solutions, valid dates, color syntax, and UUID version/variant bits.
-The existing dashboard test checks complete, terminating shuffled passes for
-every corpus, including the new chess corpus. Build-tree, CLI, and legal chess
-replay tests cover weighting, standalone operation, and corpus conversion.
-All 62 tests passed, as did Cargo and generator formatting checks, Clippy with
-warnings denied, and the locked release build. Windows fixture canonicalization
-required running the checks outside the restricted sandbox.
-
-Coverage is still narrow in several places:
-
-- Music contains only 30 entries from the 1959 year-end chart; objects only cars.
-- Literature is public-domain English material, and all ten verse records are
-  Shakespeare sonnet openings. A small dialogue corpus repeats six excerpts.
-- People favor Nobel-associated scientists and writers. Equal person weights
-  remove folder bias but retain that imbalance in the selection itself.
-- Animal names largely come from North American inventories; 25 of 26
-  invertebrate names are butterflies. Adaptations cluster around a few zoo
-  species, and equal topic shares intentionally give small leaves more exposure
-  per record. There is no plant branch or fish-name branch.
-- Chemistry favors small organic molecules and complete-combustion equations.
-  Circuit and integral generators have bounded templates; changing numbers is
-  not the same as adding new structures. Algebra can still yield simple
-  collection of terms alongside more interesting products.
-- Procedures contain real instructions as their subject matter. Labels clarify
-  their role but cannot guarantee that a consuming model treats tool output as
-  data. Independent CLI calls still repeat; this audit introduces no persistent
-  sampling history or claim of prompt-injection immunity.
-
-Future additions should address these coverage gaps with reusable source data
-or constrained generators, following [the family workflow](../families/AGENTS.md),
-rather than bulk-generating filler or silently claiming broad representation.
+See [family guidance](../families/AGENTS.md) for content preferences and the
+[architecture](architecture.md) for packing, sampling, and verification tools.

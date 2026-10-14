@@ -30,7 +30,7 @@ these four columns. `traits-sources.json` records coverage and unmatched names.
 Names with changed species concepts can remain unmatched even when a related
 older name exists; matching species names cannot eliminate every change in
 taxonomic circumscription since 2008. Traits do not describe all populations,
-sexes or individuals. The output explicitly identifies the vintage/source.
+sexes or individuals. Provenance identifies the source and vintage.
 
 GBIF and the current Ecological Archives default are CC BY 4.0. PanTHERIA's
 dataset-specific metadata additionally states no copyright or proprietary

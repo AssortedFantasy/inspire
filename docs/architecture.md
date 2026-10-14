@@ -110,7 +110,9 @@ human review remain necessary.
 its current leaves. It rejects missing or stale paths, repeated leaf reviewers,
 unfinished statuses, and entries without review notes. `--family PATH` can
 check a completed branch while other reviews are still underway. The ledger
-records editorial work; it does not replace source or invariant verification.
+records historical editorial work; it is optional for routine content maintenance.
+Focused edits use representative output inspection and checks at integration
+points rather than a separate reviewer and test run for every leaf.
 
 Chess opening integration tests use the `shakmaty` development dependency for
 complete legal, canonical SAN move histories. This dependency is confined to

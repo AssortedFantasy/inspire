@@ -31,8 +31,8 @@ family-diverse rather than a representative abundance survey.
   and original response SHA256. The API does not offer a versioned snapshot.
 - [PLANTS Help, Conditions of Image and Data Use, page 3](https://plants.usda.gov/assets/docs/PLANTS_Help_Document_2022.pdf)
   states that the plant information is not copyrighted and free for any use,
-  and requests citation. The full requested database citation accompanies each
-  emitted record. No images, plant guides, or externally authored prose are used.
+  and requests citation. The database citation is bundled in `--data-licenses`
+  and retained in provenance. No images, plant guides, or external prose are used.
 - [Federal dataset metadata](https://catalog.data.gov/dataset/plant-list-of-accepted-nomenclature-taxonomy-and-symbols-plants-database)
   identifies the database as CC0.
 

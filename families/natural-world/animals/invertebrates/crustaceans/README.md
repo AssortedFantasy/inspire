@@ -25,7 +25,7 @@ rendered as "hard skeletal structures". The unresolved placement is labeled
 honestly rather than presented as an established family. At most three genera
 per source family group are selected by SHA-256 order of stable genus IDs;
 repeated rows agree on every trait code before deduplication. Original Aphia IDs
-remain in provenance. Each output carries Crown attribution; full OGL v3.0 is
+remain in provenance. Crown attribution and full OGL v3.0 are
 embedded at the parent branch.
 
 Replay from the repository root uses the two pinned inputs in an external cache:
