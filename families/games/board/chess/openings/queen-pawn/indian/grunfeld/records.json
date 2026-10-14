@@ -1,0 +1,522 @@
+[
+  {
+    "id": "lichess-a08-f762015386e5fed6",
+    "text": "Zukertort Opening: Reversed Grünfeld (A08)\n1. Nf3 d5 2. g3 c5 3. Bg2 Nc6 4. d4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a08-c0924dcf94fccf21",
+    "text": "Zukertort Opening: Reversed Grünfeld (A08)\n1. Nf3 d5 2. g3 c5 3. Bg2 Nc6 4. d4 Nf6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a08-977b12a3d90f5d37",
+    "text": "Zukertort Opening: Reversed Grünfeld (A08)\n1. Nf3 d5 2. g3 c5 3. Bg2 Nc6 4. d4 Nf6 5. O-O",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a08-ebe62e02002a99f0",
+    "text": "Zukertort Opening: Reversed Grünfeld (A08)\n1. Nf3 d5 2. g3 c5 3. Bg2 Nc6 4. d4 e6 5. O-O",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a15-087cafabfb35fa07",
+    "text": "English Opening: Anglo-Indian Defense, Anti-Anti-Grünfeld (A15)\n1. c4 Nf6 2. Nc3 g6 3. Nf3 Bg7 4. e4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a15-bc88637e7aa43c63",
+    "text": "English Opening: Anglo-Indian Defense, Grünfeld Formation (A15)\n1. c4 Nf6 2. Nf3 g6 3. g3 d5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a16-4e2ed14c55edd48b",
+    "text": "English Opening: Anglo-Grünfeld Defense (A16)\n1. c4 Nf6 2. Nc3 d5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a16-db2eae51ed95cf44",
+    "text": "English Opening: Anglo-Grünfeld Defense, Korchnoi Variation (A16)\n1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. Nf3 g6 5. g3 Bg7 6. Bg2 e5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a16-ac64ec097084faa7",
+    "text": "English Opening: Anglo-Indian Defense, Anglo-Grünfeld Variation (A16)\n1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. Nf3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a16-b313449f99df60df",
+    "text": "English Opening: Anglo-Indian Defense, Anglo-Grünfeld Variation (A16)\n1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. Nf3 g6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a16-509fa8050103b997",
+    "text": "English Opening: Anglo-Indian Defense, Anglo-Grünfeld Variation (A16)\n1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. g3 g6 5. Bg2 Nb6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a16-53e202c93a6c5bfc",
+    "text": "English Opening: Anglo-Indian Defense, Anglo-Grünfeld Variation (A16)\n1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. g3 g6 5. Bg2 Nxc3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a48-246de80044e96616",
+    "text": "Queen's Pawn Game: Barry Attack, Grünfeld Variation (A48)\n1. d4 Nf6 2. Nf3 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Be2",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a48-4afda068d8b672f9",
+    "text": "Queen's Pawn Game: Torre Attack, Grünfeld Variation, Main Line (A48)\n1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nbd2 d5 5. e3 O-O",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a56-49ddefe9a74dedef",
+    "text": "Grünfeld Defense: Three Knights Variation, Burille Variation, Reversed Tarrasch (A56)\n1. d4 Nf6 2. c4 c5 3. e3 g6 4. Nc3 Bg7 5. Nf3 O-O 6. Be2 cxd4 7. exd4 d5 8. O-O Nc6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d70-f60a48c42a666e00",
+    "text": "Neo-Grünfeld Defense: Goglidze Attack (D70)\n1. d4 Nf6 2. c4 g6 3. f3 d5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d70-e82880de760b2012",
+    "text": "Neo-Grünfeld Defense: with Nf3 (D70)\n1. d4 Nf6 2. c4 g6 3. Nf3 d5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d70-16e3fec5ec7ed1d4",
+    "text": "Neo-Grünfeld Defense: with g3 (D70)\n1. d4 Nf6 2. c4 g6 3. g3 d5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d71-409db391335ad291",
+    "text": "Neo-Grünfeld Defense: Exchange Variation (D71)\n1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d71-b6fbf08b979f5006",
+    "text": "Neo-Grünfeld Defense: Exchange Variation (D71)\n1. c4 Nf6 2. g3 g6 3. Bg2 Bg7 4. d4 d5 5. cxd5 Nxd5 6. Nf3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d72-87d47f31b42baba1",
+    "text": "Neo-Grünfeld Defense: with g3 (D72)\n1. d4 Nf6 2. c4 g6 3. g3 d5 4. Bg2 Bg7 5. cxd5 Nxd5 6. e4 Nb6 7. Ne2",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d73-af67be06d7fbd780",
+    "text": "Neo-Grünfeld Defense: with g3 (D73)\n1. d4 Nf6 2. c4 g6 3. g3 d5 4. Bg2 Bg7 5. Nf3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d74-c4e0a37e42cc44b1",
+    "text": "Neo-Grünfeld Defense: Delayed Exchange Variation (D74)\n1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d5 6. cxd5 Nxd5 7. O-O",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d75-c4a302fcd3f85ba3",
+    "text": "Neo-Grünfeld Defense: Delayed Exchange Variation (D75)\n1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 O-O 5. g3 d5 6. cxd5 Nxd5 7. Bg2 c5 8. O-O",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d75-e083b047ddb25731",
+    "text": "Neo-Grünfeld Defense: Delayed Exchange Variation (D75)\n1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. g3 O-O 5. Bg2 d5 6. cxd5 Nxd5 7. O-O c5 8. dxc5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d76-3c84b2ec4fefc9fb",
+    "text": "Neo-Grünfeld Defense: Delayed Exchange Variation (D76)\n1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d5 6. cxd5 Nxd5 7. O-O Nb6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d77-871ee0d3b27a0fb9",
+    "text": "Neo-Grünfeld Defense: Classical Variation (D77)\n1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d5 6. c4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d77-62883132da8b4244",
+    "text": "Neo-Grünfeld Defense: Classical Variation, Modern Defense (D77)\n1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d5 6. c4 dxc4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d77-8f48da6ef23eacdc",
+    "text": "Neo-Grünfeld Defense: Classical Variation, Polgar Variation (D77)\n1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d5 6. c4 Nc6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d78-74d950beea70f996",
+    "text": "Neo-Grünfeld Defense: Classical Variation, Original Defense (D78)\n1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 c6 6. O-O d5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d79-2d539e57e5cc7e0f",
+    "text": "Neo-Grünfeld Defense: Ultra-Delayed Exchange Variation (D79)\n1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 c6 6. O-O d5 7. cxd5 cxd5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d79-f40a38988dae513a",
+    "text": "Neo-Grünfeld Defense: Ultra-Delayed Exchange Variation (D79)\n1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 c6 6. O-O d5 7. cxd5 cxd5 8. Nc3 Nc6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d79-1069a7c6127c7c48",
+    "text": "Neo-Grünfeld Defense: Ultra-Delayed Exchange Variation (D79)\n1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 c6 6. O-O d5 7. cxd5 cxd5 8. Nc3 Nc6 9. Bf4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d79-afcb210778d068ae",
+    "text": "Neo-Grünfeld Defense: Ultra-Delayed Exchange Variation (D79)\n1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 c6 6. O-O d5 7. cxd5 cxd5 8. Nc3 Ne4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d79-321c1e655a62bf8f",
+    "text": "Neo-Grünfeld Defense: Ultra-Delayed Exchange Variation (D79)\n1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 c6 6. O-O d5 7. cxd5 cxd5 8. Ne5 Nc6 9. Nc3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d79-6e23548a324c00f0",
+    "text": "Neo-Grünfeld Defense: Ultra-Delayed Exchange Variation (D79)\n1. d4 Nf6 2. c4 g6 3. g3 d5 4. Bg2 Bg7 5. Nf3 O-O 6. O-O c6 7. cxd5 cxd5 8. Ne5 e6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d79-c5a0c67984a56268",
+    "text": "Neo-Grünfeld Defense: Ultra-Delayed Exchange Variation (D79)\n1. d4 Nf6 2. c4 g6 3. g3 d5 4. Bg2 Bg7 5. Nf3 O-O 6. O-O c6 7. cxd5 cxd5 8. Ne5 e6 9. Nc3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d79-393629bceb64ce4f",
+    "text": "Neo-Grünfeld Defense: Ultra-Delayed Exchange Variation (D79)\n1. d4 Nf6 2. c4 g6 3. g3 d5 4. Bg2 Bg7 5. Nf3 O-O 6. O-O c6 7. cxd5 cxd5 8. Ne5 Bf5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d79-fd93eb8b84681280",
+    "text": "Neo-Grünfeld Defense: Ultra-Delayed Exchange Variation (D79)\n1. d4 Nf6 2. c4 g6 3. g3 d5 4. Bg2 Bg7 5. Nf3 O-O 6. O-O c6 7. cxd5 cxd5 8. Ne5 Bf5 9. Nc3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d79-0d61cd3ee1b84cd7",
+    "text": "Neo-Grünfeld Defense: Ultra-Delayed Exchange Variation (D79)\n1. d4 Nf6 2. c4 g6 3. g3 d5 4. Bg2 Bg7 5. Nf3 O-O 6. O-O c6 7. cxd5 cxd5 8. Ne5 Ng4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d80-b6ded000f25ce72c",
+    "text": "Grünfeld Defense (D80)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d80-105aa637822d2377",
+    "text": "Grünfeld Defense: Gibbon Gambit (D80)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. g4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d80-88d69f997869e240",
+    "text": "Grünfeld Defense: Lundin Variation (D80)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bg5 Ne4 5. Nxe4 dxe4 6. Qd2 c5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d80-2a4d9d659de6e47a",
+    "text": "Grünfeld Defense: Lutikov Variation (D80)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. f3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d80-fd13dddb98947b56",
+    "text": "Grünfeld Defense: Lutikov Variation, Murrey Attack (D80)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. f3 c5 5. cxd5 Nxd5 6. Na4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d80-21bb0ae3b8519768",
+    "text": "Grünfeld Defense: Stockholm Variation (D80)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bg5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d80-b038ae64311d4970",
+    "text": "Grünfeld Defense: Zaitsev Gambit (D80)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. h4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d81-00efe1f73f639491",
+    "text": "Grünfeld Defense: Russian Variation, Accelerated Variation (D81)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Qb3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d82-e7afa6534a7fe225",
+    "text": "Grünfeld Defense: Brinckmann Attack (D82)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d83-89a2db7a02b77a23",
+    "text": "Grünfeld Defense: Brinckmann Attack, Grünfeld Gambit (D83)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d83-701b1f0b0b8489bf",
+    "text": "Grünfeld Defense: Brinckmann Attack, Grünfeld Gambit, Botvinnik Variation (D83)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Rc1 c5 7. dxc5 Be6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d83-a4a1c7a29bfe255e",
+    "text": "Grünfeld Defense: Brinckmann Attack, Grünfeld Gambit, Capablanca Variation (D83)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Rc1",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d83-2ce788aebdfd76ad",
+    "text": "Grünfeld Defense: Brinckmann Attack, Reshevsky Gambit (D83)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. Rc1 O-O 6. e3 c5 7. dxc5 Qa5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d84-6f85bf7e6e8319b4",
+    "text": "Grünfeld Defense: Brinckmann Attack, Grünfeld Gambit Accepted (D84)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. cxd5 Nxd5 7. Nxd5 Qxd5 8. Bxc7",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d85-e919a38a926ac6ee",
+    "text": "Grünfeld Defense: Exchange Variation (D85)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d85-e5fa16b8d935b74d",
+    "text": "Grünfeld Defense: Exchange Variation, Modern Exchange Variation (D85)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d85-305228ab6f75a348",
+    "text": "Grünfeld Defense: Exchange Variation, Modern Exchange Variation (D85)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d85-4b70c610c8e7fd01",
+    "text": "Grünfeld Defense: Exchange Variation, Modern Exchange Variation (D85)\n1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 c5 8. Rb1",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d85-0ad622a90b558e1e",
+    "text": "Grünfeld Defense: Exchange Variation, Modern Exchange Variation, Kramnik's Line (D85)\n1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 c5 8. h3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d85-070c650a956d0a35",
+    "text": "Grünfeld Defense: Exchange Variation, Modern Exchange Variation, Pawn Grab Line (D85)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8. Rb1 O-O 9. Be2 Nc6 10. d5 Bxc3+",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d85-69e4adef8c2d6d9c",
+    "text": "Grünfeld Defense: Exchange Variation, Nadanian Attack (D85)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Na4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d86-049b9cd6ddaca03a",
+    "text": "Grünfeld Defense: Exchange Variation, Classical Variation (D86)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d86-96e3e398978739c3",
+    "text": "Grünfeld Defense: Exchange Variation, Larsen Variation (D86)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 O-O 8. Ne2 Qd7",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d86-9b204960a0d1ca58",
+    "text": "Grünfeld Defense: Exchange Variation, Larsen Variation (D86)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 O-O 8. Ne2 Qd7 9. O-O b6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d86-6ddaaf93f3cba531",
+    "text": "Grünfeld Defense: Exchange Variation, Simagin's Improved Variation (D86)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 O-O 8. Ne2 Nc6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d86-b00f499e12816611",
+    "text": "Grünfeld Defense: Exchange Variation, Simagin's Lesser Variation (D86)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 O-O 8. Ne2 b6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d87-85676e03866e4138",
+    "text": "Grünfeld Defense: Exchange Variation, Seville Variation (D87)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8. Ne2 Nc6 9. Be3 O-O 10. O-O Bg4 11. f3 Na5 12. Bxf7+",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d87-d5a22adc423b8cb5",
+    "text": "Grünfeld Defense: Exchange Variation, Spassky Variation (D87)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8. Ne2 O-O",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d88-c230a4d27b5a2740",
+    "text": "Grünfeld Defense: Exchange Variation, Spassky Variation (D88)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8. Ne2 Nc6 9. Be3 O-O 10. O-O cxd4 11. cxd4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d89-110e72a3e5eb42d6",
+    "text": "Grünfeld Defense: Exchange Variation, Sokolsky Variation (D89)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8. Ne2 O-O 9. O-O Nc6 10. Be3 Bg4 11. f3 Na5 12. Bd3 cxd4 13. cxd4 Be6 14. d5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d89-2127fb50ebac9abc",
+    "text": "Grünfeld Defense: Exchange Variation, Spassky Variation (D89)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8. Ne2 Nc6 9. Be3 O-O 10. O-O Bg4 11. f3 Na5 12. Bd3 cxd4 13. cxd4 Be6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d90-ad7fb06ab97399e9",
+    "text": "Grünfeld Defense: Flohr Variation (D90)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qa4+",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d90-0f4098a0f8d90448",
+    "text": "Grünfeld Defense: Three Knights Variation (D90)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d90-1690258b2352a2df",
+    "text": "Grünfeld Defense: Three Knights Variation (D90)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d91-a91beb77d30aa73a",
+    "text": "Grünfeld Defense: Three Knights Variation, Petrosian System (D91)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Bg5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d92-9633e6807f82c71a",
+    "text": "Grünfeld Defense: Three Knights Variation, Hungarian Attack (D92)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Bf4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d93-9bdbb2fa1c6738f4",
+    "text": "Grünfeld Defense: Three Knights Variation, Hungarian Variation (D93)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Bf4 O-O 6. e3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d94-32fc90853a6449df",
+    "text": "Grünfeld Defense: Flohr Defense (D94)\n1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 g6 5. Nf3 Bg7 6. Bd3 O-O 7. O-O Bf5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d94-445db32643b836aa",
+    "text": "Grünfeld Defense: Makogonov Variation (D94)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. e3 O-O 6. b4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d94-fdce99cd03e819e7",
+    "text": "Grünfeld Defense: Opocensky Variation (D94)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. e3 O-O 6. Bd2",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d94-d3da9695e04b9afa",
+    "text": "Grünfeld Defense: Smyslov Defense (D94)\n1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 g6 5. Nf3 Bg7 6. Bd3 O-O 7. O-O Bg4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d94-5f452db096e56aac",
+    "text": "Grünfeld Defense: Three Knights Variation, Burille Variation (D94)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. e3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d94-dd96893420cc966a",
+    "text": "Grünfeld Defense: Three Knights Variation, Paris Variation (D94)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. e3 O-O 6. Bd3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d95-48796d289bfdabc6",
+    "text": "Grünfeld Defense: Botvinnik Variation (D95)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. e3 O-O 6. Qb3 e6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d95-6075ed4b28841dcd",
+    "text": "Grünfeld Defense: Pachman Variation (D95)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. e3 Bg7 5. Qb3 dxc4 6. Bxc4 O-O 7. Nf3 Nbd7 8. Ng5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d95-2bfa76b2b2f2b649",
+    "text": "Grünfeld Defense: Three Knights Variation, Vienna Variation (D95)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. e3 O-O 6. Qb3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d96-4c4f53722425fb25",
+    "text": "Grünfeld Defense: Russian Variation (D96)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d97-813523b0a7715000",
+    "text": "Grünfeld Defense: Russian Variation (D97)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d97-1ca095b38f2a9937",
+    "text": "Grünfeld Defense: Russian Variation, Byrne Variation (D97)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Nc6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d97-50dcca26ac88db53",
+    "text": "Grünfeld Defense: Russian Variation, Hungarian Variation (D97)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 a6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d97-6c6734d4d8404454",
+    "text": "Grünfeld Defense: Russian Variation, Levenfish Variation (D97)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 b6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d97-5c7c64b09cb85af3",
+    "text": "Grünfeld Defense: Russian Variation, Prins Variation (D97)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Na6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d97-8cb25a5fe8f8d045",
+    "text": "Grünfeld Defense: Russian Variation, Szabo Variation (D97)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 c6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d98-a98ea5ae4399f4da",
+    "text": "Grünfeld Defense: Russian Variation, Keres Variation (D98)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Bg4 8. Be3 Nfd7 9. Be2 Nb6 10. Qd3 Nc6 11. O-O-O",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d98-67071b65823a063d",
+    "text": "Grünfeld Defense: Russian Variation, Smyslov Variation (D98)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Bg4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d99-5ca6bae6bb6c2818",
+    "text": "Grünfeld Defense: Russian Variation, Smyslov Variation (D99)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Bg4 8. Be3 Nfd7 9. Qb3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-d99-afed61b544799b88",
+    "text": "Grünfeld Defense: Russian Variation, Yugoslav Variation (D99)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Bg4 8. Be3 Nfd7 9. Qb3 c5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/d.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-e11-5fb08492a5075e00",
+    "text": "Bogo-Indian Defense: Grünfeld Variation (E11)\n1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/e.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-e60-73e4f92b4cb15775",
+    "text": "Grünfeld Defense: Counterthrust Variation (E60)\n1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/e.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-e60-f3f8098a55bed25e",
+    "text": "Indian Defense: Anti-Grünfeld, Adorjan Gambit (E60)\n1. d4 Nf6 2. c4 g6 3. d5 b5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/e.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-e60-729ffdab80034397",
+    "text": "Indian Defense: Anti-Grünfeld, Advance Variation (E60)\n1. d4 Nf6 2. c4 g6 3. d5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/e.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-e60-096154fc959a21d2",
+    "text": "Indian Defense: Anti-Grünfeld, Alekhine Variation (E60)\n1. d4 Nf6 2. c4 g6 3. f3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/e.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-e60-4432a36cdf1ec3c9",
+    "text": "Indian Defense: Anti-Grünfeld, Alekhine Variation, Leko Gambit (E60)\n1. d4 Nf6 2. c4 g6 3. f3 e5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/e.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-e60-7e32cb227962d0cc",
+    "text": "Indian Defense: Anti-Grünfeld, Basman-Williams Attack (E60)\n1. d4 Nf6 2. c4 g6 3. h4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/e.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  }
+]

@@ -1,0 +1,517 @@
+[
+  {
+    "id": "lichess-a00-b5cd2ecf132476d0",
+    "text": "Anderssen's Opening (A00)\n1. a3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-06062647e086270c",
+    "text": "Anderssen's Opening: Polish Gambit (A00)\n1. a3 a5 2. b4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-0d22216f5c594b6a",
+    "text": "Barnes Opening (A00)\n1. f3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-2f23e42d41ef4acd",
+    "text": "Barnes Opening: Fool's Mate (A00)\n1. f3 e5 2. g4 Qh4#",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-28f00a0360879db3",
+    "text": "Barnes Opening: Gedult Gambit (A00)\n1. f3 d5 2. e4 g6 3. d4 dxe4 4. c3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-65d072efa12cdde9",
+    "text": "Barnes Opening: Gedult Gambit (A00)\n1. f3 f5 2. e4 fxe4 3. Nc3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-f3159791831afe60",
+    "text": "Barnes Opening: Hammerschlag (A00)\n1. f3 e5 2. Kf2",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-5793b49ade07abd4",
+    "text": "Clemenz Opening (A00)\n1. h3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-0c94a2ecbb899110",
+    "text": "Clemenz Opening: Spike Lee Gambit (A00)\n1. h3 h5 2. g4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-d761b278b9d8163b",
+    "text": "Creepy Crawly Formation: Classical Defense (A00)\n1. h3 d5 2. a3 e5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-b0a741f6d79e259a",
+    "text": "Formation: Hippopotamus Attack (A00)\n1. a3 e5 2. b3 d5 3. c3 Nf6 4. d3 Nc6 5. e3 Bd6 6. f3 O-O 7. g3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-a5cc34e53a7778a0",
+    "text": "Formation: Shy Attack (A00)\n1. a3 e5 2. g3 d5 3. Bg2 Nf6 4. d3 Nc6 5. Nd2 Bd6 6. e3 O-O 7. h3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-ac148e49c32bc917",
+    "text": "Global Opening (A00)\n1. h3 e5 2. a3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-e74a09c16a2c8dc8",
+    "text": "Grob Opening (A00)\n1. g4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-383872840a8ac4b8",
+    "text": "Grob Opening: Alessi Gambit (A00)\n1. g4 f5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-47bd70a4fb297387",
+    "text": "Grob Opening: Double Grob (A00)\n1. g4 g5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-15fff45d9ecc21ae",
+    "text": "Grob Opening: Double Grob, Coca-Cola Gambit (A00)\n1. g4 g5 2. f4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-27c68974f85597fe",
+    "text": "Grob Opening: Grob Gambit (A00)\n1. g4 d5 2. Bg2",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-0a7451462105de02",
+    "text": "Grob Opening: Grob Gambit Declined (A00)\n1. g4 d5 2. Bg2 c6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-e89df30daa8a390d",
+    "text": "Grob Opening: Grob Gambit, Basman Gambit (A00)\n1. g4 d5 2. Bg2 h5 3. gxh5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-86265ac048c9352a",
+    "text": "Grob Opening: Grob Gambit, Fritz Gambit (A00)\n1. g4 d5 2. Bg2 Bxg4 3. c4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-b8903cd23bed6ffd",
+    "text": "Grob Opening: Grob Gambit, Fritz Gambit, Romford Countergambit (A00)\n1. g4 d5 2. Bg2 Bxg4 3. c4 d4 4. Bxb7 Nd7 5. Bxa8 Qxa8",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-57b1d504195b6013",
+    "text": "Grob Opening: Grob Gambit, Keres Gambit (A00)\n1. g4 d5 2. Bg2 e5 3. d4 exd4 4. c3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-1929c373c20c959a",
+    "text": "Grob Opening: Grob Gambit, Richter-Grob Gambit (A00)\n1. g4 d5 2. Bg2 c6 3. c4 dxc4 4. b3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-b492e14df4be1752",
+    "text": "Grob Opening: Keene Defense (A00)\n1. g4 d5 2. h3 e5 3. Bg2 c6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-75fa83fce83c06fe",
+    "text": "Grob Opening: Keene Defense, Main Line (A00)\n1. g4 d5 2. h3 e5 3. Bg2 c6 4. d4 e4 5. c4 Bd6 6. Nc3 Ne7",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-42e7ef47d434bd97",
+    "text": "Grob Opening: London Defense (A00)\n1. g4 e5 2. h3 Nc6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-d40a7cacd566e539",
+    "text": "Grob Opening: Romford Countergambit (A00)\n1. g4 d5 2. Bg2 Bxg4 3. c4 d4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-a02970681c1fa0c9",
+    "text": "Grob Opening: Spike Attack (A00)\n1. g4 d5 2. Bg2 c6 3. g5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-67659533aaa8e003",
+    "text": "Grob Opening: Spike, Hurst Attack (A00)\n1. g4 e5 2. Bg2 d5 3. c4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-b0d26f5de4d07cb2",
+    "text": "Grob Opening: Zilbermints Gambit (A00)\n1. g4 d5 2. e4 dxe4 3. Nc3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-8ba009136bb13de8",
+    "text": "Grob Opening: Zilbermints Gambit, Schiller Defense (A00)\n1. g4 d5 2. e4 dxe4 3. Nc3 h5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-33e129c6377f9902",
+    "text": "Grob Opening: Zilbermints Gambit, Zilbermints-Hartlaub Gambit (A00)\n1. g4 d5 2. e4 dxe4 3. Nc3 e5 4. d3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-00ad46ba03617037",
+    "text": "Kádas Opening (A00)\n1. h4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-80ed8f6e20eb3306",
+    "text": "Kádas Opening: Beginner's Trap (A00)\n1. h4 d5 2. Rh3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-9f3ad07e9f3adb36",
+    "text": "Kádas Opening: Koola-Koola Variation (A00)\n1. h4 a5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-0f1b5c8fded59806",
+    "text": "Kádas Opening: Kádas Gambit (A00)\n1. h4 c5 2. b4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-e03f0c2b668da765",
+    "text": "Kádas Opening: Kádas Gambit (A00)\n1. h4 d5 2. d4 c5 3. Nf3 cxd4 4. c3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-fcb4fbebd34bcf4b",
+    "text": "Kádas Opening: Kádas Gambit (A00)\n1. h4 e5 2. d4 exd4 3. c3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-3acaede1760ed86f",
+    "text": "Kádas Opening: Myers Variation (A00)\n1. h4 d5 2. d4 c5 3. e4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-c86a7df35248341e",
+    "text": "Kádas Opening: Schneider Gambit (A00)\n1. h4 g5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-69c27fdcf2f735a9",
+    "text": "Kádas Opening: Steinbok Gambit (A00)\n1. h4 f5 2. e4 fxe4 3. d3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-d9fbcc2a966bda2e",
+    "text": "Polish Opening (A00)\n1. b4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-8818773a262f5958",
+    "text": "Polish Opening, with d5 (A00)\n1. b4 d5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-9a484d8b6f3dac3f",
+    "text": "Polish Opening, with d5 (A00)\n1. b4 d5 2. Bb2 Nf6 3. Nf3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-7792461731ef842a",
+    "text": "Polish Opening: Baltic Defense (A00)\n1. b4 d5 2. Bb2 Bf5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-3c82579540200a69",
+    "text": "Polish Opening: Birmingham Gambit (A00)\n1. b4 c5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-6974ada6bd9c113f",
+    "text": "Polish Opening: Bugayev Advance Variation (A00)\n1. b4 e5 2. Bb2 f6 3. b5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-1a6d909220e299e5",
+    "text": "Polish Opening: Bugayev Attack (A00)\n1. b4 e5 2. a3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-e66fc0ae6ed1feeb",
+    "text": "Polish Opening: Czech Defense (A00)\n1. b4 e5 2. Bb2 d6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-7c940ec3bec6453b",
+    "text": "Polish Opening: Dutch Defense (A00)\n1. b4 f5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-f81deb86e5bcaa60",
+    "text": "Polish Opening: German Defense (A00)\n1. b4 d5 2. Bb2 Qd6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-8e0db0fc01b8b397",
+    "text": "Polish Opening: Grigorian Variation (A00)\n1. b4 Nc6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-a467176d534f5a8b",
+    "text": "Polish Opening: Karniewski Variation (A00)\n1. b4 Nh6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-5621293856a2a058",
+    "text": "Polish Opening: King's Indian Variation (A00)\n1. b4 Nf6 2. Bb2 g6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-490cf5d7afcd1bda",
+    "text": "Polish Opening: King's Indian Variation, Schiffler Attack (A00)\n1. b4 Nf6 2. Bb2 g6 3. e4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-181a24409613508b",
+    "text": "Polish Opening: King's Indian Variation, Sokolsky Attack (A00)\n1. b4 Nf6 2. Bb2 g6 3. c4 Bg7 4. e3 d6 5. Nf3 O-O 6. d4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-f08eb0d0cbdc8a9b",
+    "text": "Polish Opening: Myers Variation (A00)\n1. b4 d5 2. Bb2 c6 3. a4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-add72259ebd7db8f",
+    "text": "Polish Opening: Outflank Variation (A00)\n1. b4 c6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-ef8023cbcb921bb7",
+    "text": "Polish Opening: Outflank Variation, Schuehler Gambit (A00)\n1. b4 c6 2. Bb2 a5 3. b5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-7433aa48ed750fa3",
+    "text": "Polish Opening: Queen's Indian Variation (A00)\n1. b4 e6 2. Bb2 Nf6 3. b5 b6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-7d44334705fe2a90",
+    "text": "Polish Opening: Queenside Defense (A00)\n1. b4 e6 2. Bb2 Nf6 3. b5 a6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-c36c572635fcc1f1",
+    "text": "Polish Opening: Rooks Swap Line (A00)\n1. b4 e6 2. Bb2 Nf6 3. b5 a6 4. a4 axb5 5. axb5 Rxa1 6. Bxa1",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-4f251f6d4661ae8c",
+    "text": "Polish Opening: Schiffler-Sokolsky Variation (A00)\n1. b4 e6 2. Bb2 Nf6 3. b5 d5 4. e3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-9ac0b7f5f3ec3931",
+    "text": "Polish Opening: Schuehler Gambit (A00)\n1. b4 c6 2. Bb2 a5 3. b5 cxb5 4. e4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-b129b8caca3978cf",
+    "text": "Polish Opening: Symmetrical Variation (A00)\n1. b4 b5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-210f4eb774651e60",
+    "text": "Polish Opening: Tartakower Gambit (A00)\n1. b4 e5 2. Bb2 f6 3. e4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-68dfc8b1947bd349",
+    "text": "Polish Opening: Wolferts Gambit (A00)\n1. b4 e5 2. Bb2 c5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-21bf4ad94bb4e92c",
+    "text": "Ware Opening (A00)\n1. a4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-defbb479b3fd11c6",
+    "text": "Ware Opening: Cologne Gambit (A00)\n1. a4 b6 2. d4 d5 3. Nc3 Nd7",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-d69c4fb0673bc113",
+    "text": "Ware Opening: Crab Variation (A00)\n1. a4 e5 2. h4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-37f733031ff3ff53",
+    "text": "Ware Opening: Meadow Hay Trap (A00)\n1. a4 e5 2. Ra3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-55c95bcae047a6eb",
+    "text": "Ware Opening: Symmetric Variation (A00)\n1. a4 a5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-f7ebbaf8429070d6",
+    "text": "Ware Opening: Ware Gambit (A00)\n1. a4 e5 2. a5 d5 3. e3 f5 4. a6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-c278758650c68a19",
+    "text": "Ware Opening: Wing Gambit (A00)\n1. a4 b5 2. axb5 Bb7",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-6976ad794ff2db5c",
+    "text": "Bird Opening (A02)\n1. f4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-9c1c8187a11aa48d",
+    "text": "Bird Opening: Batavo-Polish Attack (A02)\n1. f4 Nf6 2. Nf3 g6 3. b4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-45cbde5b5786c8b7",
+    "text": "Bird Opening: Double Duck Formation (A02)\n1. f4 f5 2. d4 d5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-514be9b2c51a0648",
+    "text": "Bird Opening: From's Gambit (A02)\n1. f4 e5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-0c9ae1f3b525b019",
+    "text": "Bird Opening: From's Gambit, Bahr Gambit (A02)\n1. f4 e5 2. Nc3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-591b3eba0b0afb64",
+    "text": "Bird Opening: From's Gambit, Langheld Gambit (A02)\n1. f4 e5 2. fxe5 d6 3. exd6 Nf6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-f617b2a336817dbf",
+    "text": "Bird Opening: From's Gambit, Lasker Variation (A02)\n1. f4 e5 2. fxe5 d6 3. exd6 Bxd6 4. Nf3 g5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-0f3d2c3541dd1207",
+    "text": "Bird Opening: From's Gambit, Lipke Variation (A02)\n1. f4 e5 2. fxe5 d6 3. exd6 Bxd6 4. Nf3 Nh6 5. d4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-492c28037600bf2d",
+    "text": "Bird Opening: Hobbs Gambit (A02)\n1. f4 g5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-ea6938c8180a2729",
+    "text": "Bird Opening: Hobbs-Zilbermints Gambit (A02)\n1. f4 h6 2. Nf3 g5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-aead4cf9c2907fdc",
+    "text": "Bird Opening: Horsefly Defense (A02)\n1. f4 Nh6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-3e157c1a11f93d7f",
+    "text": "Bird Opening: Lasker Gambit (A02)\n1. f4 e5 2. fxe5 f6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-c2317fa2d64c4c86",
+    "text": "Bird Opening: Mujannah (A02)\n1. f4 Nf6 2. c4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-797fe83e2d2b8849",
+    "text": "Bird Opening: Myers Defense (A02)\n1. f4 b5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-16d0c2d0c2ed7004",
+    "text": "Bird Opening: Platz Gambit (A02)\n1. f4 e5 2. fxe5 Ne7",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-23e625e0e95394cb",
+    "text": "Bird Opening: Schlechter Gambit (A02)\n1. f4 e5 2. fxe5 Nc6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-91cb9af8c77ca1df",
+    "text": "Bird Opening: Siegener Gambit (A02)\n1. f4 e5 2. d4 exd4 3. Nf3 c5 4. c3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-b210aec4023a6e66",
+    "text": "Bird Opening: Swiss Gambit (A02)\n1. f4 f5 2. e4 fxe4 3. Nc3 Nf6 4. g4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a02-ecdeb6cda403fb98",
+    "text": "Bird Opening: Wagner-Zwitersch Gambit (A02)\n1. f4 f5 2. e4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a03-afb884f1cb8c5f94",
+    "text": "Bird Opening: Dutch Variation (A03)\n1. f4 d5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a03-9a75490a85692f1c",
+    "text": "Bird Opening: Dutch Variation, Dudweiler Gambit (A03)\n1. f4 d5 2. g4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a03-731ff4602d01b8e6",
+    "text": "Bird Opening: Lasker Variation (A03)\n1. f4 d5 2. Nf3 Nf6 3. e3 c5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a03-4f48f45929597084",
+    "text": "Bird Opening: Sturm Gambit (A03)\n1. f4 d5 2. c4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a03-b3da2bf67ee07bcc",
+    "text": "Bird Opening: Thomas Gambit (A03)\n1. f4 d5 2. b3 Nf6 3. Bb2 d4 4. Nf3 c5 5. e3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a03-413d39a0b7b546e8",
+    "text": "Bird Opening: Williams Gambit (A03)\n1. f4 d5 2. e4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a03-5c82e591b5c7f3bd",
+    "text": "Bird Opening: Williams Gambit (A03)\n1. f4 d5 2. e4 dxe4 3. Nc3 Nf6 4. Qe2",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a03-f96edf50e89b9267",
+    "text": "Bird Opening: Williams-Zilbermints Gambit (A03)\n1. f4 d5 2. e4 dxe4 3. Nc3 Nf6 4. Nge2",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a05-882915ef6b398c91",
+    "text": "Polish Opening: Zukertort System (A05)\n1. Nf3 Nf6 2. b4 g6 3. Bb2",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  }
+]

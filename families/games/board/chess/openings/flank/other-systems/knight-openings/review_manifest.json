@@ -1,0 +1,46 @@
+{
+  "leaves": [
+    {
+      "path": "games/board/chess/openings/flank/other-systems/knight-openings/van-geet",
+      "reviewer": "/root/games/board/chess/openings/flank/other_systems/knight_openings/van_geet",
+      "status": "completed",
+      "records": 33,
+      "checks": [
+        "Validated final 33-record schema, nonblank fields, absence of NUL, unique stable SHA-256 IDs and no duplicate full text.",
+        "All five pinned TSV SHA-256 checksums match revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; all 33 source rows match exact names, ECO, complete PGN and provenance.",
+        "All 30 original baseline objects preserved unchanged, in source order; three relocated B00/B01/C31 objects match their pinned b.tsv/c.tsv source rows exactly.",
+        "Importer category audited across all 3865 pinned source rows: precisely all 33 Van Geet-named rows route here, no other names route here; each final record occurs exactly once in the full opening tree.",
+        "Read every emitted line: coherent source-named Van Geet variations include Battambang 1. a3 and Berlin/Gruenfeld/Steiner 1. e4 transpositions; no unrelated material or prompt framing.",
+        "Existing compiled every_imported_opening_is_a_complete_legal_canonical_line passed for all 3865 current records, validating full legal canonical SAN and check/mate suffixes."
+      ]
+    },
+    {
+      "path": "games/board/chess/openings/flank/other-systems/knight-openings/amar",
+      "reviewer": "/root/games/board/chess/openings/flank/other_systems/knight_openings/amar",
+      "status": "completed",
+      "records": 3,
+      "checks": [
+        "All five pinned TSV SHA-256 hashes match openings-source.json revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a.",
+        "All three rows exactly preserve source name, ECO, full PGN, provenance, stable SHA-256 IDs, and knight-opening baseline records.",
+        "Schema fields are exact, nonblank, and NUL-free; IDs and complete emitted lines are unique.",
+        "All three Amar-named source rows are present here; none are routed elsewhere in the opening tree.",
+        "Read every emitted line: the Nh3 opening, Paris Gambit, and its Gent Gambit continuation form one coherent opening family.",
+        "Latest existing compiled chess_openings test passed every_imported_opening_is_a_complete_legal_canonical_line across all 3865 live records."
+      ]
+    },
+    {
+      "path": "games/board/chess/openings/flank/other-systems/knight-openings/sodium",
+      "reviewer": "/root/games/board/chess/openings/flank/other_systems/knight_openings/sodium",
+      "status": "completed",
+      "records": 4,
+      "checks": [
+        "All five pinned Lichess TSV SHA256 checks match revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a.",
+        "All four records match complete source names, ECO codes, PGN, provenance, and stable SHA256 IDs exactly.",
+        "Schema, nonblank fields, NUL exclusion, unique IDs and complete lines, and exact knight baseline preservation pass.",
+        "Every Sodium-named row in the pinned source occurs exactly once in this leaf; no routing omissions.",
+        "Existing compiled canonical legal SAN replay test passes across all 3865 opening records.",
+        "Read every emitted line: the initial Na3 and its Celadon, Chenoboskion, and Durkin continuations form a coherent named opening family, with concrete legal moves and no claims of optimal play."
+      ]
+    }
+  ]
+}

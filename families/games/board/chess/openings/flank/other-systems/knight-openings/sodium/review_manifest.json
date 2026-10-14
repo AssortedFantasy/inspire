@@ -1,0 +1,18 @@
+{
+  "leaves": [
+    {
+      "path": "games/board/chess/openings/flank/other-systems/knight-openings/sodium",
+      "reviewer": "/root/games/board/chess/openings/flank/other_systems/knight_openings/sodium",
+      "status": "completed",
+      "records": 4,
+      "checks": [
+        "All five pinned Lichess TSV SHA256 checks match revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a.",
+        "All four records match complete source names, ECO codes, PGN, provenance, and stable SHA256 IDs exactly.",
+        "Schema, nonblank fields, NUL exclusion, unique IDs and complete lines, and exact knight baseline preservation pass.",
+        "Every Sodium-named row in the pinned source occurs exactly once in this leaf; no routing omissions.",
+        "Existing compiled canonical legal SAN replay test passes across all 3865 opening records.",
+        "Read every emitted line: the initial Na3 and its Celadon, Chenoboskion, and Durkin continuations form a coherent named opening family, with concrete legal moves and no claims of optimal play."
+      ]
+    }
+  ]
+}

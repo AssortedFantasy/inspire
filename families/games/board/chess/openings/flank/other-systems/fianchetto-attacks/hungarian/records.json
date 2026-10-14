@@ -1,0 +1,107 @@
+[
+  {
+    "id": "lichess-a00-3db18074c2fb675f",
+    "text": "Hungarian Opening (A00)\n1. g3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-00f1e5cbfed7ca28",
+    "text": "Hungarian Opening: Asten Gambit (A00)\n1. g3 Nc6 2. Nc3 d5 3. d4 e5 4. dxe5 d4 5. Ne4 f5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-52397f8181ff8b8c",
+    "text": "Hungarian Opening: Burk Gambit (A00)\n1. g3 e5 2. a3 d5 3. Nf3 e4 4. Nh4 Be7 5. d3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-edbe18cb9c09b6ad",
+    "text": "Hungarian Opening: Bücker Gambit (A00)\n1. g3 d5 2. Bg2 e5 3. b4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-8a68c4edcd2c333d",
+    "text": "Hungarian Opening: Catalan Formation (A00)\n1. g3 d5 2. Bg2 e6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-3ae359e6f8c972a4",
+    "text": "Hungarian Opening: Dutch Defense (A00)\n1. g3 f5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-e316a2c84dabaf0a",
+    "text": "Hungarian Opening: Indian Defense (A00)\n1. g3 Nf6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-bdcc4d9b997ccfb6",
+    "text": "Hungarian Opening: Myers Defense (A00)\n1. g3 g5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-e86fc2cdcda9371a",
+    "text": "Hungarian Opening: Pachman Gambit (A00)\n1. g3 f5 2. e4 fxe4 3. Qh5+ g6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-279958aff60827c6",
+    "text": "Hungarian Opening: Paris Gambit (A00)\n1. g3 e5 2. Nh3 d5 3. f4 Bxh3 4. Bxh3 exf4 5. O-O",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-f47ae977e2c1463e",
+    "text": "Hungarian Opening: Reversed Alekhine (A00)\n1. g3 e5 2. Nf3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-a6edf533bb09e577",
+    "text": "Hungarian Opening: Reversed Brooklyn Defense, Brooklyn Benko Gambit (A00)\n1. g3 e5 2. Nf3 e4 3. Ng1 Nf6 4. b4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-c60bf6dc61f85844",
+    "text": "Hungarian Opening: Reversed Modern Defense (A00)\n1. g3 d5 2. Bg2 c5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-f37161f93f1b3177",
+    "text": "Hungarian Opening: Reversed Norwegian Defense (A00)\n1. g3 e5 2. Nf3 e4 3. Nh4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-a8ff4097083f2866",
+    "text": "Hungarian Opening: Sicilian Invitation (A00)\n1. g3 c5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-c45bfe56c8217d4a",
+    "text": "Hungarian Opening: Symmetrical Variation (A00)\n1. g3 g6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-f03661a027c67599",
+    "text": "Hungarian Opening: Van Kuijk Gambit (A00)\n1. g3 h5 2. Nf3 h4",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-9f7cd4a636602bfe",
+    "text": "Hungarian Opening: Winterberg Gambit (A00)\n1. g3 d5 2. Bg2 e5 3. c4 dxc4 4. b3",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-a9a6055dfe5ebece",
+    "text": "Lasker Simul Special (A00)\n1. g3 h5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a07-6f58336920cc397a",
+    "text": "Hungarian Opening: Wiedenhagen-Beta Gambit (A07)\n1. g3 d5 2. Nf3 g5",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  },
+  {
+    "id": "lichess-a00-4e1835b271545d55",
+    "text": "Hungarian Opening: Slav Formation (A00)\n1. g3 d5 2. Bg2 c6",
+    "provenance": "Lichess chess-openings, revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; https://raw.githubusercontent.com/lichess-org/chess-openings/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv; CC0 1.0. Exact source name, ECO, and PGN; no move truncation. Legal SAN replay is checked by tests/chess_openings.rs."
+  }
+]

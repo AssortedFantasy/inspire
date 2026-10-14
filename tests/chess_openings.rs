@@ -1,213 +1,153 @@
-struct Opening {
-    name: String,
-    eco: String,
-    moves: Vec<String>,
-}
+use shakmaty::{Chess, Position, san::San};
+use std::path::{Path, PathBuf};
 
-fn openings() -> Vec<Opening> {
-    let records: Vec<serde_json::Value> = serde_json::from_str(include_str!(
-        "../families/games/chess-openings/records.json"
-    ))
-    .unwrap();
-    records
+fn corpora(path: &Path, found: &mut Vec<PathBuf>) {
+    for entry in std::fs::read_dir(path).unwrap() {
+        let path = entry.unwrap().path();
+        if path.is_dir() {
+            corpora(&path, found);
+        } else if path.file_name().unwrap() == "records.json" {
+            found.push(path);
+        }
+    }
+}
+fn records() -> Vec<(PathBuf, serde_json::Value)> {
+    let root = Path::new(env!("CARGO_MANIFEST_DIR")).join("families/games/board/chess/openings");
+    let mut paths = Vec::new();
+    corpora(&root, &mut paths);
+    paths.sort();
+    paths
         .into_iter()
-        .map(|record| {
-            let (label, score) = record["text"].as_str().unwrap().split_once('\n').unwrap();
-            let (name, eco) = label.rsplit_once(" (").unwrap();
-            Opening {
-                name: name.to_owned(),
-                eco: eco.strip_suffix(')').unwrap().to_owned(),
-                moves: score
-                    .split_whitespace()
-                    .filter(|token| !token.ends_with('.'))
-                    .map(str::to_owned)
-                    .collect(),
-            }
+        .flat_map(|path| {
+            let rows: Vec<serde_json::Value> =
+                serde_json::from_str(&std::fs::read_to_string(&path).unwrap()).unwrap();
+            rows.into_iter().map(move |row| (path.clone(), row))
         })
         .collect()
 }
-
-#[derive(Clone, Copy, PartialEq, Eq)]
-struct Piece {
-    kind: char,
-    white: bool,
-}
-
-fn square(file: u8, rank: u8) -> usize {
-    rank as usize * 8 + file as usize
-}
-
-fn initial() -> [Option<Piece>; 64] {
-    let mut board = [None; 64];
-    let back = ['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'];
-    for file in 0..8 {
-        board[square(file, 0)] = Some(Piece {
-            kind: back[file as usize],
-            white: true,
-        });
-        board[square(file, 1)] = Some(Piece {
-            kind: 'P',
-            white: true,
-        });
-        board[square(file, 6)] = Some(Piece {
-            kind: 'P',
-            white: false,
-        });
-        board[square(file, 7)] = Some(Piece {
-            kind: back[file as usize],
-            white: false,
-        });
-    }
-    board
-}
-
-fn attacked(board: &[Option<Piece>; 64], target: usize, by_white: bool) -> bool {
-    for (from, piece) in board.iter().enumerate() {
-        let Some(piece) = piece.filter(|p| p.white == by_white) else {
-            continue;
-        };
-        let df = target as i8 % 8 - from as i8 % 8;
-        let dr = target as i8 / 8 - from as i8 / 8;
-        let (af, ar) = (df.abs(), dr.abs());
-        let attacks = match piece.kind {
-            'P' => af == 1 && dr == if by_white { 1 } else { -1 },
-            'N' => (af, ar) == (1, 2) || (af, ar) == (2, 1),
-            'K' => af <= 1 && ar <= 1,
-            'B' => af == ar && af != 0,
-            'R' => (df == 0) != (dr == 0),
-            'Q' => (af == ar && af != 0) || ((df == 0) != (dr == 0)),
-            _ => false,
-        };
-        let sliding = matches!(piece.kind, 'B' | 'R' | 'Q');
-        if attacks && (!sliding || clear_path(board, from, target)) {
-            return true;
-        }
-    }
-    false
-}
-
-fn clear_path(board: &[Option<Piece>; 64], from: usize, to: usize) -> bool {
-    let (ff, fr) = ((from % 8) as i8, (from / 8) as i8);
-    let (tf, tr) = ((to % 8) as i8, (to / 8) as i8);
-    let (sf, sr) = ((tf - ff).signum(), (tr - fr).signum());
-    let (mut f, mut r) = (ff + sf, fr + sr);
-    while (f, r) != (tf, tr) {
-        if board[square(f as u8, r as u8)].is_some() {
-            return false;
-        }
-        f += sf;
-        r += sr;
-    }
-    true
-}
-
-fn play(board: &mut [Option<Piece>; 64], san: &str, white: bool) {
-    let bytes = san.as_bytes();
-    assert!(!bytes.is_empty(), "SAN move must not be empty");
-    let offset = usize::from(bytes[0].is_ascii_uppercase());
+fn replay(text: &str) -> usize {
+    let (label, score) = text.split_once('\n').unwrap();
+    let (name, eco) = label.rsplit_once(" (").unwrap();
+    assert!(!name.is_empty());
+    let eco = eco.strip_suffix(')').unwrap();
     assert!(
-        (offset == 0 && bytes.len() == 2 && bytes[0].is_ascii_lowercase())
-            || (offset == 1
-                && bytes.len() == 3
-                && matches!(bytes[0], b'B' | b'K' | b'N' | b'Q' | b'R')),
-        "unsupported SAN syntax {san}"
+        eco.len() == 3
+            && matches!(eco.as_bytes()[0], b'A'..=b'E')
+            && eco.as_bytes()[1..].iter().all(u8::is_ascii_digit)
     );
-    let kind = if offset == 1 { bytes[0] as char } else { 'P' };
-    assert!(bytes[offset].is_ascii_lowercase() && (b'a'..=b'h').contains(&bytes[offset]));
-    assert!((b'1'..=b'8').contains(&bytes[offset + 1]));
-    let target = square(bytes[offset] - b'a', bytes[offset + 1] - b'1');
-    let mut candidates = Vec::new();
-    for (from, piece) in board.iter().enumerate() {
-        let Some(piece) = piece.filter(|p| p.white == white && p.kind == kind) else {
+    let mut position = Chess::default();
+    let mut ply = 0;
+    for token in score.split_whitespace() {
+        if token.ends_with('.') {
+            assert_eq!(token, format!("{}.", ply / 2 + 1));
             continue;
-        };
-        let (df, dr) = (
-            target as i8 % 8 - from as i8 % 8,
-            target as i8 / 8 - from as i8 / 8,
+        }
+        assert!(
+            !position.is_game_over(),
+            "move after terminal position: {label}, {token}"
         );
-        let (af, ar) = (df.abs(), dr.abs());
-        let shape = match kind {
-            'P' => {
-                df == 0
-                    && (dr == if white { 1 } else { -1 }
-                        || (dr == if white { 2 } else { -2 }
-                            && from / 8 == if white { 1 } else { 6 }))
-            }
-            'N' => (af, ar) == (1, 2) || (af, ar) == (2, 1),
-            'B' => af == ar && af != 0,
-            'R' => (df == 0) != (dr == 0),
-            'Q' => (af == ar && af != 0) || ((df == 0) != (dr == 0)),
-            'K' => af <= 1 && ar <= 1,
-            _ => false,
-        };
-        let start = square((from % 8) as u8, (from / 8) as u8);
-        let mut trial = *board;
-        trial[start] = None;
-        if shape && board[target].is_none() && (kind == 'N' || clear_path(board, from, target)) {
-            trial[target] = Some(piece);
-            let king = trial
-                .iter()
-                .position(|p| *p == Some(Piece { kind: 'K', white }))
-                .expect("king");
-            if !attacked(&trial, king, !white) {
-                candidates.push(from);
-            }
+        let san = San::from_ascii(token.as_bytes()).unwrap();
+        let chess_move = san
+            .to_move(&position)
+            .unwrap_or_else(|error| panic!("{label}, ply {ply}, {token}: {error}"));
+        assert_eq!(
+            San::from_move(&position, chess_move).to_string(),
+            token.trim_end_matches(['+', '#']),
+            "noncanonical SAN: {label}"
+        );
+        position.play_unchecked(chess_move);
+        if token.ends_with('#') {
+            assert!(position.is_checkmate(), "false mate suffix: {label}");
+        } else if token.ends_with('+') {
+            assert!(
+                position.is_check() && !position.is_checkmate(),
+                "false check suffix: {label}"
+            );
+        } else {
+            assert!(
+                !position.is_check(),
+                "missing check suffix: {label}, {token}"
+            );
+        }
+        ply += 1;
+    }
+    assert!(ply > 0);
+    ply
+}
+#[test]
+fn every_imported_opening_is_a_complete_legal_canonical_line() {
+    let rows = records();
+    assert_eq!(rows.len(), 3865);
+    let mut ids = std::collections::HashSet::new();
+    let mut long = 0;
+    for (_, row) in rows {
+        assert!(ids.insert(row["id"].as_str().unwrap().to_owned()));
+        if replay(row["text"].as_str().unwrap()) >= 20 {
+            long += 1;
         }
     }
-    assert_eq!(candidates.len(), 1, "illegal or ambiguous SAN move {san}");
-    board[target] = board[candidates[0]];
-    board[candidates[0]] = None;
+    assert!(long > 100, "book should include substantial variations");
 }
-
 #[test]
-fn every_named_line_is_legal_and_has_a_label_matching_its_endpoint() {
-    let openings = openings();
-    assert!(openings.len() >= 15);
-    for opening in openings {
-        let mut board = initial();
-        for (ply, san) in opening.moves.iter().enumerate() {
-            play(&mut board, san, ply % 2 == 0);
-        }
-        assert!(!opening.name.is_empty() && !opening.eco.is_empty());
+fn all_twenty_one_baseline_lines_are_preserved() {
+    let texts: std::collections::HashSet<_> = records()
+        .into_iter()
+        .map(|(_, row)| row["text"].as_str().unwrap().to_owned())
+        .collect();
+    let baseline = [
+        "Italian Game (C50)\n1. e4 e5 2. Nf3 Nc6 3. Bc4",
+        "Ruy Lopez (C60)\n1. e4 e5 2. Nf3 Nc6 3. Bb5",
+        "Nimzo-Larsen Attack: Modern Variation (A01)\n1. b3 e5 2. Bb2 Nc6",
+        "Four Knights Game (C47)\n1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6",
+        "Sicilian Defense: Staunton-Cochrane Variation (B20)\n1. e4 c5 2. c4",
+        "French Defense (C00)\n1. e4 e6",
+        "Caro-Kann Defense (B10)\n1. e4 c6",
+        "Pirc Defense: Austrian Attack (B09)\n1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4",
+        "King's Indian Defense: Normal Variation, Rare Defenses (E90)\n1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3",
+        "Queen's Gambit Declined (D30)\n1. d4 d5 2. c4 e6",
+        "Slav Defense (D10)\n1. d4 d5 2. c4 c6",
+        "Nimzo-Indian Defense: Rubinstein System (E40)\n1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3",
+        "Queen's Indian Defense: Fianchetto Variation, Traditional Line (E15)\n1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7",
+        "Grünfeld Defense (D80)\n1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+        "Dutch Defense (A80)\n1. d4 f5",
+        "English Opening: King's English Variation (A20)\n1. c4 e5",
+        "Réti Opening (A09)\n1. Nf3 d5 2. c4",
+        "Bird Opening: Dutch Variation (A03)\n1. f4 d5",
+        "Benoni Defense (A56)\n1. d4 Nf6 2. c4 c5",
+        "Benko Gambit (A57)\n1. d4 Nf6 2. c4 c5 3. d5 b5",
+        "Catalan Opening (E00)\n1. d4 Nf6 2. c4 e6 3. g3 d5",
+    ];
+    for text in baseline {
+        assert!(texts.contains(text), "missing baseline line: {text}");
     }
 }
-
 #[test]
-fn output_uses_numbered_algebraic_move_pairs() {
-    let openings = openings();
-    for seed in 0..128 {
-        let result = std::process::Command::new(env!("CARGO_BIN_EXE_inspire"))
-            .args([
-                "--family",
-                "games/chess-openings",
-                "--seed",
-                &seed.to_string(),
-            ])
-            .output()
-            .unwrap();
-        assert!(result.status.success());
-        let output = String::from_utf8(result.stdout).unwrap();
-        let output = output.trim_end();
-        assert!(output.contains('\n'));
-        let (label, moves) = output.split_once('\n').unwrap();
-        assert!(moves.starts_with("1. "));
-        assert!(!moves.ends_with('\n'));
-        let opening = openings
-            .iter()
-            .find(|opening| label == format!("{} ({})", opening.name, opening.eco))
-            .unwrap();
-        let mut expected = String::new();
-        for (ply, san) in opening.moves.iter().enumerate() {
-            if ply % 2 == 0 {
-                if !expected.is_empty() {
-                    expected.push(' ');
-                }
-                expected.push_str(&format!("{}. ", ply / 2 + 1));
-            } else {
-                expected.push(' ');
-            }
-            expected.push_str(san);
+fn sampled_labels_and_moves_match_the_stored_line() {
+    let rows = records();
+    let mut leaves = std::collections::BTreeMap::new();
+    for (path, row) in rows {
+        leaves
+            .entry(path)
+            .or_insert_with(std::collections::HashSet::new)
+            .insert(row["text"].as_str().unwrap().to_owned());
+    }
+    for (path, texts) in leaves {
+        let family = path
+            .parent()
+            .unwrap()
+            .strip_prefix(Path::new(env!("CARGO_MANIFEST_DIR")).join("families"))
+            .unwrap()
+            .to_string_lossy()
+            .replace('\\', "/");
+        for seed in 0..4 {
+            let output = std::process::Command::new(env!("CARGO_BIN_EXE_inspire"))
+                .args(["--family", &family, "--seed", &seed.to_string()])
+                .output()
+                .unwrap();
+            assert!(output.status.success());
+            let text = String::from_utf8(output.stdout).unwrap();
+            assert!(texts.contains(text.trim_end()));
+            replay(text.trim_end());
         }
-        assert_eq!(moves, expected, "label must describe the full sampled line");
     }
 }

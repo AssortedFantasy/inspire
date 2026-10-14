@@ -1,0 +1,18 @@
+{
+  "leaves": [
+    {
+      "path": "games/board/chess/openings/flank/other-systems/knight-openings/amar",
+      "reviewer": "/root/games/board/chess/openings/flank/other_systems/knight_openings/amar",
+      "status": "completed",
+      "records": 3,
+      "checks": [
+        "All five pinned TSV SHA-256 hashes match openings-source.json revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a.",
+        "All three rows exactly preserve source name, ECO, full PGN, provenance, stable SHA-256 IDs, and knight-opening baseline records.",
+        "Schema fields are exact, nonblank, and NUL-free; IDs and complete emitted lines are unique.",
+        "All three Amar-named source rows are present here; none are routed elsewhere in the opening tree.",
+        "Read every emitted line: the Nh3 opening, Paris Gambit, and its Gent Gambit continuation form one coherent opening family.",
+        "Latest existing compiled chess_openings test passed every_imported_opening_is_a_complete_legal_canonical_line across all 3865 live records."
+      ]
+    }
+  ]
+}

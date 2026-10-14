@@ -1,0 +1,18 @@
+{
+  "leaves": [
+    {
+      "path": "games/board/chess/openings/flank/other-systems/knight-openings/van-geet",
+      "reviewer": "/root/games/board/chess/openings/flank/other_systems/knight_openings/van_geet",
+      "status": "completed",
+      "records": 33,
+      "checks": [
+        "Validated final 33-record schema, nonblank fields, absence of NUL, unique stable SHA-256 IDs and no duplicate full text.",
+        "All five pinned TSV SHA-256 checksums match revision a6189a30dc273ccb21fc2536a9a2fefd5592a67a; all 33 source rows match exact names, ECO, complete PGN and provenance.",
+        "All 30 original baseline objects preserved unchanged, in source order; three relocated B00/B01/C31 objects match their pinned b.tsv/c.tsv source rows exactly.",
+        "Importer category audited across all 3865 pinned source rows: precisely all 33 Van Geet-named rows route here, no other names route here; each final record occurs exactly once in the full opening tree.",
+        "Read every emitted line: coherent source-named Van Geet variations include Battambang 1. a3 and Berlin/Gruenfeld/Steiner 1. e4 transpositions; no unrelated material or prompt framing.",
+        "Existing compiled every_imported_opening_is_a_complete_legal_canonical_line passed for all 3865 current records, validating full legal canonical SAN and check/mate suffixes."
+      ]
+    }
+  ]
+}
