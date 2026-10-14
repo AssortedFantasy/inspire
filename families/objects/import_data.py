@@ -212,7 +212,7 @@ def record(row):
     return {
         "id": "cma-" + row["id"],
         "text": text,
-        "provenance": f"Derived structured metadata from the Cleveland Museum of Art CC0 Open Access catalog, revision {REVISION}; {row['url']}; input {URL}, SHA-256 {SHA256}. Catalog title, date, culture, and technique retained; no image or interpretive description reproduced. Function grouping follows Inspire's editorial classification.",
+        "provenance": f"Derived structured metadata from the Cleveland Museum of Art CC0 Open Access catalog, revision {REVISION}; {row['url']}; input {URL}, SHA-256 {SHA256}. Catalog title, date, culture, and technique retained; no image or interpretive description reproduced. Function grouping is Inspire's editorial classification, not a new museum attribution.",
     }
 
 
