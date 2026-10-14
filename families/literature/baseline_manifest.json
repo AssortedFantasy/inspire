@@ -1,147 +1,147 @@
 [
   {
     "id": "austen-truth",
-    "sha256": "1651b872913f969399043befa44b9edb2106f72d7c7320efb6e7e552ea2376da"
+    "sha256": "eff8f6f51ca557e606965a6c3cfabe90043595b3e3bc0895163aae1ffd292abc"
   },
   {
     "id": "austen-good-opinion",
-    "sha256": "ef0b9a10c6fd51a0d520e1cb28e4d7fa4bda72aa61e1cbae97b83df8d2068f67"
+    "sha256": "c61e927c39c372036c2b6b5a1fb1332d27c52dff7eeb90e983c2f5e341ece531"
   },
   {
     "id": "holmes-observe",
-    "sha256": "6fad577b5407be08e62bce55cda464c57cedcdadabfa44a56b5230f905e6a013"
+    "sha256": "7b256c66838c333dca4128e456a63979ec5f20a8ad3d55a1cee2562ea9455e23"
   },
   {
     "id": "holmes-data",
-    "sha256": "bc66d2e93951feb4720a7002bd25eb64a56bf7c993575f9b47be8d4feabc4d1e"
+    "sha256": "2f37a630bb7a774b7e55a407d0cc6c56c9bd9b139f8392d90e24fa75a85d0562"
   },
   {
     "id": "wilde-art",
-    "sha256": "2428b203cb79c538477269575c955c862ee728f6bd91414f3720b5298e5f7f6e"
+    "sha256": "deaf8dc10e76a1b8cff6c2dbb73083aeb9fa6c38b6d68e5c314fa63f39bda6bf"
   },
   {
     "id": "wilde-books",
-    "sha256": "f8d582e6ba0eb2fedaa99b333d591c4b2e95d90f38540fbd90bea5737aae6c29"
+    "sha256": "91ce4df92ebb704969e5a5ae0fbeb3c5dfce2a2908c3a618a7b75a515714d9cc"
   },
   {
     "id": "wilde-temptation",
-    "sha256": "fa44a06cfd4b60b7049dcbf808f754d75965bef553f815f06221aa4507ed7e43"
+    "sha256": "fbfd65c55aa025a00cf4bd3a4216d1a2761e843364fecb39a6fa8813bd555601"
   },
   {
     "id": "alice-curiouser",
-    "sha256": "57efa5eaa82f4f6628ca3f668631c948e29e3ea01763248c911f1f033dd62b38"
+    "sha256": "b526320c57496ec8301cc58d9f9b12ac5169097d00034b4f466b87dcab6689b5"
   },
   {
     "id": "dickens-final",
-    "sha256": "9fce59c7945ccfa5eda028d535b9e9e4ce09507feb21c57b1eaae0a0ea3f74ae"
+    "sha256": "83b44911279c9876953e0aa0892939310442c26dc75060b3273908b9c34345ee"
   },
   {
     "id": "melville-ishmael",
-    "sha256": "a7cb88c79c57aeca3457c6d34f02fd005e1c65f00c6ab7ab300cefa38262ec24"
+    "sha256": "94f4a9cf7952a3779e36efd693f742f58a11104d1ab8224a997dc25b937a32d1"
   },
   {
     "id": "alice-opening",
-    "sha256": "2af2b385c8316799fce216aaf2199bf0b92ac692bab08071f20f630efb77ad21"
+    "sha256": "930b5cdec1138a140882e5dbe214a7b18f4644a33321648a470448a8d85700aa"
   },
   {
     "id": "alice-advice",
-    "sha256": "2ab3a9816dca5043503a50395423bd6363ae9d2713857cef2809c8d45ce1833b"
+    "sha256": "73ccaac8e762e1e7b3894ed63a10560405038013604f46041be8de4d0180e06d"
   },
   {
     "id": "austen-bennet",
-    "sha256": "549cfe8c033b32354555d7df8da73a8b86a87913deb9525cafdb3ada37913a35"
+    "sha256": "4a345e4b23fd13a1f30213a3ee4c980029b08c1bdd0e861c4c06a7d4d7b9b1c1"
   },
   {
     "id": "wilde-studio",
-    "sha256": "b0daf2878b5986fb70411952e3e498951d29e49b98f5550eac03e149d5d69161"
+    "sha256": "aa9fe19c0204c3c95ab39d66931c2509c36d4d4b1529881e88cbce86e7de6a06"
   },
   {
     "id": "wilde-night",
-    "sha256": "922903522d95b8c3da994e8b114c70b5354e3770f399b4793200d5a6a9d93275"
+    "sha256": "88a10f289a44e5834172b5176243a4e453a13f07313676ddd2452acc6858c149"
   },
   {
     "id": "holmes-feelings",
-    "sha256": "5863253462221260cdedaecb98307e8a01ca653210063cd94828819d950eebe9"
+    "sha256": "06b056b83e663f9a335e046ad12a963696f8957a79800b9b5b25ad8be857977c"
   },
   {
     "id": "dickens-bank",
-    "sha256": "e1c0e20977cda20ab524b9208b15639679a20efe0c88544333f9b9c8bddccc65"
+    "sha256": "2c6160e0aa372289f38e3a2e35aa1f12717f0f17106993d7ed75c7c8a480ba42"
   },
   {
     "id": "dickens-clerks",
-    "sha256": "484b29564539c6242693dcf745a8c2b6259af747a1cf6a894143dca3c653ee9f"
+    "sha256": "dbc2c8bb5665441406842141b97a70045a7bd52afe718d46eb64c87c0bac937d"
   },
   {
     "id": "melville-november",
-    "sha256": "96eaf033f1411ef14f57f01a9cc045bdad7c5aa2c2bf35269691b734de867a5a"
+    "sha256": "6ef38763d6c0018cd982a67d8c24262b0962221e6bce3e17ad8a5df74e48fa05"
   },
   {
     "id": "dickens-voice",
-    "sha256": "5d3b0956b713007880fee42320d6d7f4729bccd58f40d63ce8134d7e735b3790"
+    "sha256": "8f673c3ab7bda147a75ba498df6d6337168a6a3d4e3124dac03bbb80ac7da766"
   },
   {
     "id": "alice-direction",
-    "sha256": "4b2804da0a35a9aaa7997fbce2ce0e9b16c632466cb22ad8d332bacdc7a53131"
+    "sha256": "fe882771a1b14fbf960bcbf00af0c61e05202e641e4887e3832a1a867f8b889b"
   },
   {
     "id": "alice-identity",
-    "sha256": "607ff0a73676743af3a971d7ce39fd5551bf5ae03a06f39e277be16d080e3253"
+    "sha256": "b4b9054595ed035221f0842af6820b25539e9fb763d5acd9a2a9246bfbccf09e"
   },
   {
     "id": "alice-mad",
-    "sha256": "8cff5c380c232a34bdd7e6407edb8b2a3b9baa17db2b62f6e11a9480b0568c0b"
+    "sha256": "b565b78eaf3cc3552529fe2710ac78c929463796c2ac6205285f5f9ded87c7ec"
   },
   {
     "id": "holmes-steps",
-    "sha256": "1b1668698a0fdd9408bde8d3e459b7b8d947e0f78d1e1c4ff6d1f4f6ad20b1a8"
+    "sha256": "51e478811469b9efa3b7be58926496776c6dcc5d4c0a16d7df72029d52529b5b"
   },
   {
     "id": "austen-defects",
-    "sha256": "daaa3bbb51f9fe4f6da16dabde4c49a197646b531bd58bb748b46d2170377e09"
+    "sha256": "bd61e127b06c121290b1f344f18d287a6aa0344e800719a424112698fa599e24"
   },
   {
     "id": "dickens-pross",
-    "sha256": "5bf67f123ef45adcc0985d50ff032295d066f29d8871bf389ab75c7828ec2238"
+    "sha256": "0b782888351d7f944d2fd06badc0f3008d34075b3000b2ac50741a097859a1ee"
   },
   {
     "id": "shakespeare-sonnet-1",
-    "sha256": "27829b9010993696e5aa2f5780f5719c940d41698b6f29174f8753cd4ce24d89"
+    "sha256": "6647e9138b77f717b05af69e573bd019b02d857e1daa65e20a34a61d26ac50f7"
   },
   {
     "id": "shakespeare-sonnet-2",
-    "sha256": "6796316d0640c9a76ce6cad7d030ba209293c0329c745844c7dafdfb399d6165"
+    "sha256": "4815bfa5c0af9dece82a1aeb5905ec98703c11adcef38bbf199bb35446322c53"
   },
   {
     "id": "shakespeare-sonnet-5",
-    "sha256": "4f9c4ad43fcab42e69a92bbb311d87445518f1c525703b3d1cd36a7a7048f1bd"
+    "sha256": "36a08e4702afa65f0c78b50a31470a35eed748e8410ff254a3923dc6e94a3675"
   },
   {
     "id": "shakespeare-sonnet-12",
-    "sha256": "4329b24ec3b31d8bac72572f4f018b54c715f7ce3dcd568d5002d98146de56d4"
+    "sha256": "b3847709f604fa4607f2f554f883d04988a9ac00d823b4b76cc5ac5fdc745f32"
   },
   {
     "id": "shakespeare-sonnet-14",
-    "sha256": "08a85d3e6ba3ba25cee71b91c762006f982356e3b1dccc8d66b8ff465cfeab96"
+    "sha256": "0c69f1751e62d762f2282410d9f97a0f9916ef459ad830062c03a38ef79c3285"
   },
   {
     "id": "shakespeare-sonnet-15",
-    "sha256": "2a0052fdd91ae8bc454b607e829d051363cecb6414fea51c1c749cb453fcbc0c"
+    "sha256": "fe57ca8525876db89e0f8b09f7361536bf8f79495f48f15043127f5c0b57c1aa"
   },
   {
     "id": "shakespeare-sonnet-18",
-    "sha256": "3c6ebd6975fdec5a32a5cfdf4c4567ec23cf696caade60bc8e1d7c55282467c5"
+    "sha256": "9d25781eb279a6e86a4f65026d7b3cbbf6e3896f9b128c7a3eece3b1c169262a"
   },
   {
     "id": "shakespeare-sonnet-23",
-    "sha256": "bdaae40ae8e6a7e2d4c708cfecca3166bda4e1d09fa61b6c7656d8ab5fe6d8a7"
+    "sha256": "dc5074e3250263fc96acdf210b387179fdc0ca72161dd192950228095cb850eb"
   },
   {
     "id": "shakespeare-sonnet-29",
-    "sha256": "bc4b120ee9620988c8a792aefe6a9e9d4d62d2e2c6e682c205691a297b0a4386"
+    "sha256": "e957a35765f3b394a865f62bc5c377d80c09717519bb98b2c33c03b33c43a82d"
   },
   {
     "id": "shakespeare-sonnet-30",
-    "sha256": "df23a0518a1d6ed509c35e336b1cb1813d2bb40e2f88431238670dbde9fcbc1d"
+    "sha256": "6169a44c1ba6793f5219616e7db1831b504df5ee40d7e0d357f09b073a849f69"
   },
   {
     "id": "rhymed-couplet",

@@ -68,6 +68,12 @@ def record(source, locator, body, excerpt=False):
     }
 
 
+def body_text(text):
+    """Return the stimulus before its final generated author/work credit."""
+    body, delimiter, _credit = text.rpartition("\n- ")
+    return body if delimiter else text
+
+
 def between(head):
     for sibling in head.next_siblings:
         if getattr(sibling, "name", None) in ("h1", "h2", "h3", "h4", "h5", "footer"):
@@ -268,7 +274,7 @@ def build(cache):
         for node in soup.select("#pg-header,#pg-footer"):
             node.decompose()
         for path, row in PARSERS[source["parser"]](source, soup):
-            key = unicodedata.normalize("NFKC", row["text"].split("\n— ")[0]).casefold()
+            key = unicodedata.normalize("NFKC", body_text(row["text"])).casefold()
             key = re.sub(r"\s+", " ", key)
             if key in seen:
                 continue

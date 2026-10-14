@@ -26,11 +26,11 @@ class LiteratureTests(unittest.TestCase):
             self.assertEqual(rows, json.loads((importer.ROOT / path / 'records.json').read_text(encoding='utf-8')))
         quatrains = outputs['verse/translations/persian/khayyam/fitzgerald']
         self.assertEqual(len(quatrains), 75)
-        self.assertTrue(all(len(row['text'].split('\n— ')[0].splitlines()) == 4 for row in quatrains))
+        self.assertTrue(all(len(importer.body_text(row['text']).splitlines()) == 4 for row in quatrains))
         self.assertEqual(len(outputs['verse/translations/indic/tagore/gitanjali']), 103)
         for rows in outputs.values():
             for row in rows:
-                body = row['text'].split('\n— ')[0]
+                body = importer.body_text(row['text'])
                 self.assertNotIn('Project Gutenberg', body)
                 self.assertNotIn('\x00', body)
                 self.assertNotIn('Illustration:', body)
