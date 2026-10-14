@@ -1,0 +1,12 @@
+[
+  {
+    "id": "max-heap-insert",
+    "text": "Algorithm: Max heap insert\nInsert into a one-indexed binary max-heap by appending the new key at position k. While k>1 and its parent at floor(k/2) is smaller, swap with the parent and set k=floor(k/2). The pre-existing heap must satisfy parent≥child; only the new entry’s ancestor path can need repair.",
+    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 24pq; https://algs4.cs.princeton.edu/24pq/ . Algorithm paraphrase, not copied code."
+  },
+  {
+    "id": "max-heap-remove",
+    "text": "Algorithm: Max heap remove\nRemove a max-heap’s maximum by saving the root, replacing it with the last entry, and reducing the heap size. Repeatedly swap the replacement with its larger child while that child is larger; stop at a leaf or restored order. Reject removal from an empty heap and ignore the removed array tail.",
+    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 24pq; https://algs4.cs.princeton.edu/24pq/ . Algorithm paraphrase, not copied code."
+  }
+]

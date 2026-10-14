@@ -1,0 +1,12 @@
+[
+  {
+    "id": "randomized-quicksort",
+    "text": "Algorithm: Randomized quicksort\nRandomized quicksort: shuffle a finite array and choose a pivot. Partition so no left key exceeds the pivot and no right key is smaller, with the pivot in its final position; recursively sort both sides. Stop at ranges of length at most one. Shuffling guards against systematic input order but does not remove the quadratic worst case.",
+    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 23quicksort; https://algs4.cs.princeton.edu/23quicksort/ . Algorithm paraphrase, not copied code."
+  },
+  {
+    "id": "three-way-partition",
+    "text": "Algorithm: Three way partition\nThree-way partition: save pivot v; set lt=lo, i=lo, gt=hi. While i≤gt, if a[i]<v swap a[lt] and a[i], then increment lt and i; if a[i]>v swap a[i] and a[gt], then decrement gt without advancing i; otherwise increment i. The resulting ranges are below, equal to, and above v.",
+    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 23quicksort; https://algs4.cs.princeton.edu/23quicksort/ . Algorithm paraphrase, not copied code."
+  }
+]

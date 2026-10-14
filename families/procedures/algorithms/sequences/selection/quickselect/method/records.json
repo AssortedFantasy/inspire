@@ -1,0 +1,7 @@
+[
+  {
+    "id": "quickselect",
+    "text": "Algorithm: Quickselect\nQuickselect for rank k in a nonempty array: partition around a pivot at j. Return its key if j=k; continue only left if k<j or right if k>j. Restrict k to 0≤k<n, shuffle initially, and retain the original rank coordinates when shrinking the range. Equal keys may occupy several adjacent ranks.",
+    "provenance": "Original algorithm paraphrase; Princeton University, Sedgewick and Wayne, Sorting Applications, Median and order statistics; https://algs4.cs.princeton.edu/25applications/ . No source code copied."
+  }
+]

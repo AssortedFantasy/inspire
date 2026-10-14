@@ -1,13 +1,21 @@
 # Procedures
 
-Sixty short procedures: sorting and graph algorithms, hand sewing, classic
-kitchen methods, and small bench experiments. Each of the five leaves contains
-twelve records. Source URLs and adaptation notes remain in provenance.
-Each output begins with a named algorithm, procedure, or experiment protocol;
-the following steps belong to that specimen, not the consuming agent's task.
+156 procedure records and nine tested execution generators in 73 leaves.
+Algorithms separate sequence operations, graph traversal/connectivity/order,
+shortest paths, spanning trees, and dynamic programming. Individual methods and
+executions are separate children; closely related merge-sort, quicksort and
+heap operations share small method collections.
 
-Algorithms state their input constraints. Craft and cooking records paraphrase
-public-domain manuals; they omit hazardous historical treatments. Experiments
-use paper, ordinary room light, water, sealed packets, and small tabletop loads.
-Editorial dimensions and control trials are identified as adaptations rather
-than claims that the source gives those exact settings.
+Cooking separates measuring/mixing, original adaptations, and imported
+historical recipes by food and preparation. Needlework separates sewing joins,
+edges, gathering, and embroidery mechanisms. Bench experiments separate the
+physical property being observed. All 60 original records and IDs are retained.
+Steps belong to the sampled procedure itself, without an unrelated assignment.
+
+The four main topics have weights algorithms 3, cooking 3, craft 2, experiments
+2. Cooking weights methods 1, adaptations 2, historical recipes 4; algorithm
+weights graphs 3, sequences 3, optimization 2. Other sibling topics have equal
+weight. Record count does not determine these topic probabilities.
+
+See [sources and replay](SOURCES.md) for pinned primary texts, filtering,
+historical terminology, redistribution notices, and independent generator checks.

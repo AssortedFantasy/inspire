@@ -1,0 +1,7 @@
+[
+  {
+    "id": "depth-first-reachability",
+    "text": "Algorithm: Depth first reachability\nDepth-first reachability on a finite graph: mark the source, then visit each unmarked neighbor recursively, marking it before following its edges. Save each discovery edge if paths are needed. Marking before descent prevents cycles from causing endless recursion; an explicit stack of traversal frames can replace the call stack.",
+    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 41graph; https://algs4.cs.princeton.edu/41graph/ . Algorithm paraphrase, not copied code."
+  }
+]

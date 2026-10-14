@@ -1,0 +1,7 @@
+[
+  {
+    "id": "topological-order",
+    "text": "Algorithm: Topological order\nTopologically order a finite directed acyclic graph by depth-first search: append each vertex only after processing all its outgoing neighbors, then reverse the completed list. Search from every unvisited vertex so disconnected parts are included. First reject directed cycles; reverse completion order has the required predecessor-before-successor property only for a DAG.",
+    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 42digraph; https://algs4.cs.princeton.edu/42digraph/ . Algorithm paraphrase, not copied code."
+  }
+]

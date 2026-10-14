@@ -1,0 +1,7 @@
+[
+  {
+    "id": "stable-merge",
+    "text": "Algorithm: Stable merge\nMerge two sorted finite sequences by repeatedly taking the smaller front entry into an output sequence. On equal keys, take from the left sequence first. When one input is exhausted, append the other remainder. Both inputs must use the same comparison rule; the tie rule preserves their original relative order.",
+    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 22mergesort; https://algs4.cs.princeton.edu/22mergesort/ . Algorithm paraphrase, not copied code."
+  }
+]

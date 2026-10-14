@@ -1,0 +1,7 @@
+[
+  {
+    "id": "heapsort",
+    "text": "Algorithm: Heapsort\nHeapsort: build a binary max-heap by sinking internal nodes from floor(n/2) down to 1. Swap its maximum with the last active entry, shrink the active heap, and sink the new root; repeat until one active entry remains. The final array is ascending. This uses constant auxiliary storage and is generally unstable.",
+    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 24pq; https://algs4.cs.princeton.edu/24pq/ . Algorithm paraphrase, not copied code."
+  }
+]

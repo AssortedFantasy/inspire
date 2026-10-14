@@ -1,0 +1,7 @@
+[
+  {
+    "id": "insertion-sort",
+    "text": "Algorithm: Insertion sort\nInsertion sort: scan a finite array from left to right. Save the current entry, shift preceding entries with strictly larger keys one place right, then insert the saved entry in the opening. Stop shifting at the beginning or a key no larger than the saved key. Strict comparison preserves equal-key order.",
+    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 21elementary; https://algs4.cs.princeton.edu/21elementary/ . Algorithm paraphrase, not copied code."
+  }
+]

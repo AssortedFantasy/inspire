@@ -1,0 +1,7 @@
+[
+  {
+    "id": "prim-tree",
+    "text": "Algorithm: Prim tree\nPrim’s minimum spanning tree for a connected, weighted, undirected finite graph: start with one vertex. Repeatedly add a minimum-weight edge joining a tree vertex to a vertex outside the tree. Stop after V−1 edges. Negative weights are allowed; ties can yield different trees with the same minimum total weight.",
+    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 43mst; https://algs4.cs.princeton.edu/43mst/ . Algorithm paraphrase, not copied code."
+  }
+]

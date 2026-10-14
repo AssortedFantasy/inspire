@@ -1,0 +1,7 @@
+[
+  {
+    "id": "spanning-forest",
+    "text": "Algorithm: Spanning forest\nFor a disconnected, weighted, undirected finite graph, run Prim’s tree growth separately from each still-unvisited vertex. Each growth stops when no edge crosses from its current tree to an unvisited vertex. Keep the resulting trees together as a minimum spanning forest; an isolated vertex contributes a tree with no edges.",
+    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 43mst; https://algs4.cs.princeton.edu/43mst/ . Algorithm paraphrase, not copied code."
+  }
+]

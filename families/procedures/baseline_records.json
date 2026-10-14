@@ -1,0 +1,482 @@
+[
+  {
+    "path": "algorithms/graphs",
+    "record": {
+      "id": "depth-first-reachability",
+      "text": "Algorithm: Depth first reachability\nDepth-first reachability on a finite graph: mark the source, then visit each unmarked neighbor recursively, marking it before following its edges. Save each discovery edge if paths are needed. Marking before descent prevents cycles from causing endless recursion; an explicit stack of traversal frames can replace the call stack.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 41graph; https://algs4.cs.princeton.edu/41graph/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/graphs",
+    "record": {
+      "id": "breadth-first-distance",
+      "text": "Algorithm: Breadth first distance\nBreadth-first search on an unweighted finite graph: enqueue the source with distance 0 and mark it. Repeatedly dequeue v; for each unmarked neighbor w, mark w, record parent v and distance d[v]+1, then enqueue w. Mark on enqueue to avoid duplicates. Reversing parent links yields a path with the fewest edges.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 41graph; https://algs4.cs.princeton.edu/41graph/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/graphs",
+    "record": {
+      "id": "connected-components",
+      "text": "Algorithm: Connected components\nFind connected components of a finite undirected graph by scanning all vertices. Whenever an unmarked vertex appears, start a depth-first search and label every vertex it reaches with a new component number. Isolated vertices each form their own component; previous labels are retained across searches.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 41graph; https://algs4.cs.princeton.edu/41graph/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/graphs",
+    "record": {
+      "id": "directed-cycle",
+      "text": "Algorithm: Directed cycle\nDetect a cycle in a finite directed graph with depth-first search. Mark vertices as unvisited, active, or finished; change a vertex to active on entry and finished after all outgoing edges are processed. An edge to an active vertex closes a directed cycle. An edge to a finished vertex alone does not.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 42digraph; https://algs4.cs.princeton.edu/42digraph/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/graphs",
+    "record": {
+      "id": "topological-order",
+      "text": "Algorithm: Topological order\nTopologically order a finite directed acyclic graph by depth-first search: append each vertex only after processing all its outgoing neighbors, then reverse the completed list. Search from every unvisited vertex so disconnected parts are included. First reject directed cycles; reverse completion order has the required predecessor-before-successor property only for a DAG.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 42digraph; https://algs4.cs.princeton.edu/42digraph/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/graphs",
+    "record": {
+      "id": "strong-components",
+      "text": "Algorithm: Strong components\nKosaraju–Sharir strong components: reverse every edge of a finite digraph and compute that reversed graph’s reverse DFS postorder. In the original graph, start DFS from still-unmarked vertices in that order, assigning a fresh component label to each search. Two vertices share a label exactly when each is reachable from the other.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 42digraph; https://algs4.cs.princeton.edu/42digraph/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/graphs",
+    "record": {
+      "id": "prim-tree",
+      "text": "Algorithm: Prim tree\nPrim’s minimum spanning tree for a connected, weighted, undirected finite graph: start with one vertex. Repeatedly add a minimum-weight edge joining a tree vertex to a vertex outside the tree. Stop after V−1 edges. Negative weights are allowed; ties can yield different trees with the same minimum total weight.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 43mst; https://algs4.cs.princeton.edu/43mst/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/graphs",
+    "record": {
+      "id": "kruskal-tree",
+      "text": "Algorithm: Kruskal tree\nKruskal’s minimum spanning tree: sort an undirected graph’s edges by weight. Begin with each vertex in its own union-find set; accept an edge only when its endpoints belong to different sets, then unite those sets. A connected finite graph stops at V−1 accepted edges; self-loops and cycle-closing edges are discarded.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 43mst; https://algs4.cs.princeton.edu/43mst/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/graphs",
+    "record": {
+      "id": "spanning-forest",
+      "text": "Algorithm: Spanning forest\nFor a disconnected, weighted, undirected finite graph, run Prim’s tree growth separately from each still-unvisited vertex. Each growth stops when no edge crosses from its current tree to an unvisited vertex. Keep the resulting trees together as a minimum spanning forest; an isolated vertex contributes a tree with no edges.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 43mst; https://algs4.cs.princeton.edu/43mst/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/graphs",
+    "record": {
+      "id": "dijkstra-paths",
+      "text": "Algorithm: Dijkstra paths\nDijkstra’s shortest paths require nonnegative edge weights. Give the source distance 0 and other vertices infinity; extract the unsettled vertex with least tentative distance, then improve each outgoing neighbor with d[v]+weight when smaller. Record improving edges as predecessors. Stop when no finite unsettled distance remains; unreachable vertices retain infinity.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 44sp; https://algs4.cs.princeton.edu/44sp/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/graphs",
+    "record": {
+      "id": "dag-shortest-paths",
+      "text": "Algorithm: Dag shortest paths\nShortest paths in a finite weighted DAG: obtain a topological order, set source distance 0 and all others infinity, then scan vertices in that order. For each finite-distance vertex v, relax every edge v→w by comparing d[w] with d[v]+weight. Negative edges are allowed because no directed cycle can return to a processed vertex.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 44sp; https://algs4.cs.princeton.edu/44sp/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/graphs",
+    "record": {
+      "id": "bellman-ford-paths",
+      "text": "Algorithm: Bellman ford paths\nBellman–Ford on a finite weighted digraph: initialize source distance 0 and others infinity. Relax every edge from a finite-distance vertex for up to V−1 full passes, stopping early if no value changes. A further improvement on pass V indicates a negative cycle reachable from the source; distances affected by such a cycle are not finite shortest paths.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 44sp; https://algs4.cs.princeton.edu/44sp/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/sorting",
+    "record": {
+      "id": "selection-sort",
+      "text": "Algorithm: Selection sort\nSelection sort: for each position i in a finite array, find the smallest key in positions i through n−1 and swap it into i. The prefix becomes final one entry at a time. Require a consistent total ordering; the ordinary swapping version does not preserve the order of equal keys.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 21elementary; https://algs4.cs.princeton.edu/21elementary/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/sorting",
+    "record": {
+      "id": "insertion-sort",
+      "text": "Algorithm: Insertion sort\nInsertion sort: scan a finite array from left to right. Save the current entry, shift preceding entries with strictly larger keys one place right, then insert the saved entry in the opening. Stop shifting at the beginning or a key no larger than the saved key. Strict comparison preserves equal-key order.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 21elementary; https://algs4.cs.princeton.edu/21elementary/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/sorting",
+    "record": {
+      "id": "shell-sort",
+      "text": "Algorithm: Shell sort\nShellsort: choose descending positive gaps ending in 1. For each gap h, insertion-sort each interleaved subsequence i, i+h, i+2h, and so on. One option is to generate 1, 4, 13, 40, … with h=3h+1, then use the suitable values in reverse. The final gap-1 pass produces ordinary sorted order.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 21elementary; https://algs4.cs.princeton.edu/21elementary/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/sorting",
+    "record": {
+      "id": "stable-merge",
+      "text": "Algorithm: Stable merge\nMerge two sorted finite sequences by repeatedly taking the smaller front entry into an output sequence. On equal keys, take from the left sequence first. When one input is exhausted, append the other remainder. Both inputs must use the same comparison rule; the tie rule preserves their original relative order.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 22mergesort; https://algs4.cs.princeton.edu/22mergesort/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/sorting",
+    "record": {
+      "id": "top-down-mergesort",
+      "text": "Algorithm: Top down mergesort\nTop-down mergesort: return immediately for zero or one entry; otherwise split a finite array into two halves, recursively sort both, then merge them into an auxiliary array and copy back. Choose the left entry on ties to remain stable. The division stops because both recursive pieces are smaller.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 22mergesort; https://algs4.cs.princeton.edu/22mergesort/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/sorting",
+    "record": {
+      "id": "bottom-up-mergesort",
+      "text": "Algorithm: Bottom up mergesort\nBottom-up mergesort: regard each array entry as a sorted run of length 1. Merge adjacent runs in passes of widths 1, 2, 4, 8, and so on, clipping the final run at the array boundary. Stop when the run width reaches the array length. Use auxiliary storage for each merge.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 22mergesort; https://algs4.cs.princeton.edu/22mergesort/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/sorting",
+    "record": {
+      "id": "randomized-quicksort",
+      "text": "Algorithm: Randomized quicksort\nRandomized quicksort: shuffle a finite array and choose a pivot. Partition so no left key exceeds the pivot and no right key is smaller, with the pivot in its final position; recursively sort both sides. Stop at ranges of length at most one. Shuffling guards against systematic input order but does not remove the quadratic worst case.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 23quicksort; https://algs4.cs.princeton.edu/23quicksort/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/sorting",
+    "record": {
+      "id": "three-way-partition",
+      "text": "Algorithm: Three way partition\nThree-way partition: save pivot v; set lt=lo, i=lo, gt=hi. While i≤gt, if a[i]<v swap a[lt] and a[i], then increment lt and i; if a[i]>v swap a[i] and a[gt], then decrement gt without advancing i; otherwise increment i. The resulting ranges are below, equal to, and above v.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 23quicksort; https://algs4.cs.princeton.edu/23quicksort/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/sorting",
+    "record": {
+      "id": "quickselect",
+      "text": "Algorithm: Quickselect\nQuickselect for rank k in a nonempty array: partition around a pivot at j. Return its key if j=k; continue only left if k<j or right if k>j. Restrict k to 0≤k<n, shuffle initially, and retain the original rank coordinates when shrinking the range. Equal keys may occupy several adjacent ranks.",
+      "provenance": "Original algorithm paraphrase; Princeton University, Sedgewick and Wayne, Sorting Applications, Median and order statistics; https://algs4.cs.princeton.edu/25applications/ . No source code copied."
+    }
+  },
+  {
+    "path": "algorithms/sorting",
+    "record": {
+      "id": "max-heap-insert",
+      "text": "Algorithm: Max heap insert\nInsert into a one-indexed binary max-heap by appending the new key at position k. While k>1 and its parent at floor(k/2) is smaller, swap with the parent and set k=floor(k/2). The pre-existing heap must satisfy parent≥child; only the new entry’s ancestor path can need repair.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 24pq; https://algs4.cs.princeton.edu/24pq/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/sorting",
+    "record": {
+      "id": "max-heap-remove",
+      "text": "Algorithm: Max heap remove\nRemove a max-heap’s maximum by saving the root, replacing it with the last entry, and reducing the heap size. Repeatedly swap the replacement with its larger child while that child is larger; stop at a leaf or restored order. Reject removal from an empty heap and ignore the removed array tail.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 24pq; https://algs4.cs.princeton.edu/24pq/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "algorithms/sorting",
+    "record": {
+      "id": "heapsort",
+      "text": "Algorithm: Heapsort\nHeapsort: build a binary max-heap by sinking internal nodes from floor(n/2) down to 1. Swap its maximum with the last active entry, shrink the active heap, and sink the new root; repeat until one active entry remains. The final array is ascending. This uses constant auxiliary storage and is generally unstable.",
+      "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 24pq; https://algs4.cs.princeton.edu/24pq/ . Algorithm paraphrase, not copied code."
+    }
+  },
+  {
+    "path": "cooking/classic-kitchen",
+    "record": {
+      "id": "level-flour-measure",
+      "text": "Kitchen procedure: Level flour measure\nFor a volume-based recipe that specifies sifted flour, sift before measuring. Spoon flour into the cup without shaking or packing it, then sweep the excess level with a straight edge. Measure dry ingredients before liquid or fat if reusing one cup; the clean, dry cup keeps flour from sticking into unmeasured clumps.",
+      "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    }
+  },
+  {
+    "path": "cooking/classic-kitchen",
+    "record": {
+      "id": "folding-airy-mixture",
+      "text": "Kitchen procedure: Folding airy mixture\nTo combine an airy mixture without beating out its bubbles, cut a spoon down through the mixture, bring it along the bottom, and turn a portion over the top. Alternate cutting and turning until blended. Use this motion where the recipe calls for folding beaten egg whites or whipped cream into another mixture.",
+      "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    }
+  },
+  {
+    "path": "cooking/classic-kitchen",
+    "record": {
+      "id": "creaming-butter",
+      "text": "Kitchen procedure: Creaming butter\nCream butter for a recipe by working it in a bowl with a wooden spoon until it becomes soft and uniformly creamy. If the recipe next calls for sugar, add it gradually while continuing to work the mixture. This is a preparation step; it does not mean adding cream or melting the butter into liquid.",
+      "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    }
+  },
+  {
+    "path": "cooking/classic-kitchen",
+    "record": {
+      "id": "white-sauce",
+      "text": "Kitchen procedure: White sauce\nMake a medium white sauce with 2 tablespoons butter, 2 tablespoons flour, 1 cup milk, ¼ teaspoon salt, and a little pepper. Melt the butter, stir in flour and seasonings, then add the milk gradually while stirring until each addition blends smoothly. Heat and stir until the sauce thickens and becomes glossy.",
+      "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    }
+  },
+  {
+    "path": "cooking/classic-kitchen",
+    "record": {
+      "id": "parsley-lemon-butter",
+      "text": "Kitchen procedure: Parsley lemon butter\nWork ¼ cup butter until creamy; mix in ½ teaspoon salt, ⅛ teaspoon pepper, and ½ tablespoon finely chopped parsley. Add ¾ tablespoon lemon juice slowly while mixing. The resulting maître d’hôtel butter can melt over hot cooked vegetables; gradual juice addition helps it blend into the softened fat.",
+      "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    }
+  },
+  {
+    "path": "cooking/classic-kitchen",
+    "record": {
+      "id": "drained-rice",
+      "text": "Kitchen procedure: Drained rice\nFor rice cooked by the draining method, add 1 cup rice gradually to 2 quarts boiling water with salt to taste. Boil until a kernel is tender, drain in a coarse strainer, and rinse with hot water. Return briefly to the warm pot to dry off; use a fork for gentle separation instead of crushing the kernels.",
+      "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    }
+  },
+  {
+    "path": "cooking/classic-kitchen",
+    "record": {
+      "id": "baked-spiced-apples",
+      "text": "Kitchen procedure: Baked spiced apples\nCore eight tart apples and place them in a baking dish. Divide ½ cup sugar mixed with ¼ teaspoon cinnamon among the cavities. Add enough hot water to cover the dish’s bottom, then bake until the fruit is tender, occasionally spooning the syrup over it. Serve the apples with their cooking syrup.",
+      "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    }
+  },
+  {
+    "path": "cooking/classic-kitchen",
+    "record": {
+      "id": "buttered-croutons",
+      "text": "Kitchen procedure: Buttered croutons\nCut stale bread into slices about one-third inch thick, remove crusts if desired, and spread thinly with butter. Cut into cubes of the same size and bake in a single layer until lightly browned. Similar dimensions help the cubes dry and color evenly; remove them before the smallest edges scorch.",
+      "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    }
+  },
+  {
+    "path": "cooking/classic-kitchen",
+    "record": {
+      "id": "cheese-crackers",
+      "text": "Kitchen procedure: Cheese crackers\nArrange plain crackers in one layer on a baking sheet, sprinkle with grated cheese, and bake just until the cheese melts. Serve promptly. This is a small garnish or snack assembled from already cooked ingredients, so the endpoint is melting the topping rather than cooking an interior batter.",
+      "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    }
+  },
+  {
+    "path": "cooking/classic-kitchen",
+    "record": {
+      "id": "cauliflower-crumb-topping",
+      "text": "Kitchen procedure: Cauliflower crumb topping\nCook cauliflower until tender and drain well. Place it on an oven-safe serving dish, cover with buttered breadcrumbs, and heat in the oven until the crumbs brown. Pour prepared white sauce around the cauliflower after browning so that the crisp upper surface is not immediately soaked.",
+      "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    }
+  },
+  {
+    "path": "cooking/classic-kitchen",
+    "record": {
+      "id": "lemon-parsley-potatoes",
+      "text": "Kitchen procedure: Lemon parsley potatoes\nCut peeled potatoes into small equal cubes and simmer in salted water until tender. Drain, then toss the hot pieces with softened butter mixed with lemon juice, pepper, and finely chopped parsley. Heat briefly so the butter coats them, handling gently to keep the cooked cubes from disintegrating.",
+      "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    }
+  },
+  {
+    "path": "cooking/classic-kitchen",
+    "record": {
+      "id": "apple-bread-pudding",
+      "text": "Kitchen procedure: Apple bread pudding\nCover the bottom of a shallow baking dish with applesauce. Butter stale bread slices about one-third inch thick, trim and cut into triangles, then arrange them closely over the fruit. Sprinkle with sugar and a little vanilla; bake until the topping is golden and the fruit is hot. Serve with cream if desired.",
+      "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    }
+  },
+  {
+    "path": "craft/sewing",
+    "record": {
+      "id": "running-stitch",
+      "text": "Sewing procedure: Running stitch\nRunning stitch: align the cloth and pass a threaded needle alternately up and down through it at regular intervals along the seam line. On a stable woven fabric, pick up several small stitches before pulling the thread through. Keep the tension just taut enough to lie flat; pulling harder turns the seam into gathers.",
+      "provenance": "Original procedure paraphrase; Thérèse de Dillmont, Encyclopedia of Needlework, Plain Sewing, figures 4–22; public-domain primary craft manual, https://www.gutenberg.org/cache/epub/20776/pg20776-images.html . Wording and practical dimensions adapted, not copied."
+    }
+  },
+  {
+    "path": "craft/sewing",
+    "record": {
+      "id": "continuous-backstitch",
+      "text": "Sewing procedure: Continuous backstitch\nFor a continuous hand-sewn line, bring the needle up one stitch ahead of the starting point. Insert it back at the start and bring it up one stitch beyond its previous exit. Repeat, returning each insertion to the preceding exit point. Uniform stitch lengths make the visible line continuous while the reverse side overlaps.",
+      "provenance": "Original procedure paraphrase; Thérèse de Dillmont, Encyclopedia of Needlework, Plain Sewing, figures 4–22; public-domain primary craft manual, https://www.gutenberg.org/cache/epub/20776/pg20776-images.html . Wording and practical dimensions adapted, not copied."
+    }
+  },
+  {
+    "path": "craft/sewing",
+    "record": {
+      "id": "double-turned-hem",
+      "text": "Sewing procedure: Double turned hem\nTo enclose a raw fabric edge, fold it inward once, then fold again so the cut edge lies inside the fold. Secure with small slanting hemming stitches that catch the fold and only a little of the underlying cloth. Baste a wide hem first so its depth stays consistent while sewing.",
+      "provenance": "Original procedure paraphrase; Thérèse de Dillmont, Encyclopedia of Needlework, Plain Sewing, figures 4–22; public-domain primary craft manual, https://www.gutenberg.org/cache/epub/20776/pg20776-images.html . Wording and practical dimensions adapted, not copied."
+    }
+  },
+  {
+    "path": "craft/sewing",
+    "record": {
+      "id": "flat-felled-seam",
+      "text": "Sewing procedure: Flat felled seam\nFlat-fell a seam by joining two aligned edges, then trimming one seam allowance narrower than the other. Fold the wider allowance over the narrow one, turn its raw edge under, and hem it to the cloth. Smooth as you work so the enclosed allowances lie flat instead of forming a bulge.",
+      "provenance": "Original procedure paraphrase; Thérèse de Dillmont, Encyclopedia of Needlework, Plain Sewing, figures 4–22; public-domain primary craft manual, https://www.gutenberg.org/cache/epub/20776/pg20776-images.html . Wording and practical dimensions adapted, not copied."
+    }
+  },
+  {
+    "path": "craft/sewing",
+    "record": {
+      "id": "rolled-seam",
+      "text": "Sewing procedure: Rolled seam\nMake a fine rolled seam by backstitching two aligned fabric edges, trimming the inner allowance very narrow, and rolling the outer allowance around it. Secure the roll with hemming stitches as you advance. The raw edge stays enclosed and the reverse of the seam resembles a slender cord.",
+      "provenance": "Original procedure paraphrase; Thérèse de Dillmont, Encyclopedia of Needlework, Plain Sewing, figures 4–22; public-domain primary craft manual, https://www.gutenberg.org/cache/epub/20776/pg20776-images.html . Wording and practical dimensions adapted, not copied."
+    }
+  },
+  {
+    "path": "craft/sewing",
+    "record": {
+      "id": "selvedge-oversewing",
+      "text": "Sewing procedure: Selvedge oversewing\nTo join two finished selvedges by over-sewing, pin or baste them in alignment. Work small, closely spaced stitches through both edges, taking up only a little cloth. Do not tighten the thread enough to ridge the join: the two selvedges should lie side by side when the seam is opened flat.",
+      "provenance": "Original procedure paraphrase; Thérèse de Dillmont, Encyclopedia of Needlework, Plain Sewing, figures 4–22; public-domain primary craft manual, https://www.gutenberg.org/cache/epub/20776/pg20776-images.html . Wording and practical dimensions adapted, not copied."
+    }
+  },
+  {
+    "path": "craft/sewing",
+    "record": {
+      "id": "french-seam",
+      "text": "Sewing procedure: French seam\nA French seam encloses fraying edges in two passes. First sew with wrong sides together and trim the allowances narrow. Fold at that seam with right sides together, then sew a second seam wide enough to contain both trimmed edges. Check that loose threads are enclosed before finishing the second pass.",
+      "provenance": "Original procedure paraphrase; Thérèse de Dillmont, Encyclopedia of Needlework, Plain Sewing, figures 4–22; public-domain primary craft manual, https://www.gutenberg.org/cache/epub/20776/pg20776-images.html . Wording and practical dimensions adapted, not copied."
+    }
+  },
+  {
+    "path": "craft/sewing",
+    "record": {
+      "id": "gathering-and-band",
+      "text": "Sewing procedure: Gathering and band\nRun a gathering thread along the cloth, draw it up, and distribute the folds evenly. Divide both the gathered length and its receiving band into equal sections, then pin corresponding marks together. Sew the gathers to the band with their fullness evenly distributed; matching endpoints alone would allow bunching in the middle.",
+      "provenance": "Original procedure paraphrase; Thérèse de Dillmont, Encyclopedia of Needlework, Plain Sewing, figures 4–22; public-domain primary craft manual, https://www.gutenberg.org/cache/epub/20776/pg20776-images.html . Wording and practical dimensions adapted, not copied."
+    }
+  },
+  {
+    "path": "craft/sewing",
+    "record": {
+      "id": "second-gathering-row",
+      "text": "Sewing procedure: Second gathering row\nAfter arranging gathers along a first running thread, sew a second parallel gathering row below it. Pull both threads evenly and align the folds between the rows. The paired rows stabilize the fullness and help the gathered edge stay straight while it is attached to another piece.",
+      "provenance": "Original procedure paraphrase; Thérèse de Dillmont, Encyclopedia of Needlework, Plain Sewing, figures 4–22; public-domain primary craft manual, https://www.gutenberg.org/cache/epub/20776/pg20776-images.html . Wording and practical dimensions adapted, not copied."
+    }
+  },
+  {
+    "path": "craft/sewing",
+    "record": {
+      "id": "whipped-gathering",
+      "text": "Sewing procedure: Whipped gathering\nFor gathering a very fine fabric edge, roll the edge into a narrow tube between thumb and finger. Pass small stitches from the inside to the outside of the roll at regular intervals. Draw the thread up gently as you proceed; the roll encloses the edge while the thread forms the gathers.",
+      "provenance": "Original procedure paraphrase; Thérèse de Dillmont, Encyclopedia of Needlework, Plain Sewing, figures 4–22; public-domain primary craft manual, https://www.gutenberg.org/cache/epub/20776/pg20776-images.html . Wording and practical dimensions adapted, not copied."
+    }
+  },
+  {
+    "path": "craft/sewing",
+    "record": {
+      "id": "thread-splice-without-knot",
+      "text": "Sewing procedure: Thread splice without knot\nTo introduce a new thread into running stitch or backstitch without a bulky knot, make its first stitch, lay the old and new thread ends along the next part of the seam, and work the following stitches over both ends. The stitched overlap secures the join inside the work.",
+      "provenance": "Original procedure paraphrase; Thérèse de Dillmont, Encyclopedia of Needlework, Plain Sewing, figures 4–22; public-domain primary craft manual, https://www.gutenberg.org/cache/epub/20776/pg20776-images.html . Wording and practical dimensions adapted, not copied."
+    }
+  },
+  {
+    "path": "craft/sewing",
+    "record": {
+      "id": "tacked-stitching-guide",
+      "text": "Sewing procedure: Tacked stitching guide\nMark a straight stitching line by following the fabric’s woven threads when possible. For a diagonal line or material whose threads cannot be drawn, run a contrasting temporary basting thread as a guide. Sew consistently along it, then remove the guide after the permanent stitches are secure.",
+      "provenance": "Original procedure paraphrase; Thérèse de Dillmont, Encyclopedia of Needlework, Plain Sewing, figures 4–22; public-domain primary craft manual, https://www.gutenberg.org/cache/epub/20776/pg20776-images.html . Wording and practical dimensions adapted, not copied."
+    }
+  },
+  {
+    "path": "experiments/bench",
+    "record": {
+      "id": "paper-bridge-shapes",
+      "text": "Experiment protocol: Paper bridge shapes\nCompare flat and pleated paper bridges using equal sheets and the same 20-centimeter gap between low book stacks. Add identical coins one at a time at the middle until each bridge collapses. Record its folded cross-section and maximum supported load; repeat with fresh sheets so previous creases do not confound the comparison.",
+      "provenance": "Exploratorium, Paper Bridges; https://annex.exploratorium.edu/structures/paperbridges2.html and https://annex.exploratorium.edu/structures/paperbridges3.html . Original small-scale experimental adaptation."
+    }
+  },
+  {
+    "path": "experiments/bench",
+    "record": {
+      "id": "paper-bridge-span",
+      "text": "Experiment protocol: Paper bridge span\nMake several paper bridges with the same folded cross-section. Test one over a 15-centimeter gap and another over a 20-centimeter gap between low supports, adding identical coins at the center. Record load at collapse and repeat. Change the span while holding paper size, fold geometry, and loading position constant.",
+      "provenance": "Exploratorium, Paper Bridges; https://annex.exploratorium.edu/structures/paperbridges2.html and https://annex.exploratorium.edu/structures/paperbridges3.html . Original small-scale experimental adaptation."
+    }
+  },
+  {
+    "path": "experiments/bench",
+    "record": {
+      "id": "marker-chromatography",
+      "text": "Experiment protocol: Marker chromatography\nDraw a water-soluble black-marker line near the bottom of a coffee-filter strip. Stand the strip in a shallow cup of water with the line above the water level. As the water rises through the paper, observe which colored bands separate. Compare a second marker on fresh paper with fresh water; permanent ink may not travel.",
+      "provenance": "Exploratorium, Black Magic; https://annex.exploratorium.edu/science-explorer/black_magic.html . Original paraphrase of water-only chromatography activities."
+    }
+  },
+  {
+    "path": "experiments/bench",
+    "record": {
+      "id": "radial-ink-separation",
+      "text": "Experiment protocol: Radial ink separation\nPlace a dry coffee-filter circle on a saucer and draw a small water-soluble black spot at its center. Add a few water drops directly onto the spot and watch colored rings spread outward. Compare different marker brands on separate filters, using similar spots and water quantities so the ink mixture is the main changing variable.",
+      "provenance": "Exploratorium, Black Magic; https://annex.exploratorium.edu/science-explorer/black_magic.html . Original paraphrase of water-only chromatography activities."
+    }
+  },
+  {
+    "path": "experiments/bench",
+    "record": {
+      "id": "color-afterimage",
+      "text": "Experiment protocol: Color afterimage\nPlace a red paper shape beside a matching outline on white paper. Look steadily at a small central mark on the red shape for about twenty seconds, then shift to the outline. Note the transient complementary-color shape. Repeat with green paper under the same ordinary room lighting; no bright light source is needed.",
+      "provenance": "Exploratorium, ColorFest: Find Complementary Colors in Afterimages; https://annex.exploratorium.edu/colorfest/trythis.html . Original paraphrase of the colored-paper activity."
+    }
+  },
+  {
+    "path": "experiments/bench",
+    "record": {
+      "id": "paper-rotor",
+      "text": "Experiment protocol: Paper rotor\nMake a small paper rotor from a 3-by-12-centimeter strip: slit the top six centimeters down its center and bend the two resulting blades in opposite directions. Fold the lower end upward twice for stiffness. Drop from shoulder height over a clear floor and observe rotation. Adjust blade length on a second model while keeping paper and release height constant.",
+      "provenance": "NASA/JPL-Caltech Education, Make a Paper Mars Helicopter; https://www.jpl.nasa.gov/edu/resources/project/make-a-paper-mars-helicopter-2/ . Original small paper-model adaptation; dimensions and controlled-trial wording are editorial choices."
+    }
+  },
+  {
+    "path": "experiments/bench",
+    "record": {
+      "id": "rotor-direction",
+      "text": "Experiment protocol: Rotor direction\nMake two identical paper rotors with split upper blades bent in opposite directions and folded lower bodies. Reverse the blade folds on just one rotor. Drop each from the same shoulder height, filming if useful, and compare rotation direction. Keep the observer’s viewpoint fixed: clockwise from above is counterclockwise from below.",
+      "provenance": "NASA/JPL-Caltech Education, Make a Paper Mars Helicopter; https://www.jpl.nasa.gov/edu/resources/project/make-a-paper-mars-helicopter-2/ . Original small paper-model adaptation; dimensions and controlled-trial wording are editorial choices."
+    }
+  },
+  {
+    "path": "experiments/bench",
+    "record": {
+      "id": "paper-drag-comparison",
+      "text": "Experiment protocol: Paper drag comparison\nTake two equal sheets of paper and crumple one into a tight ball. Release both from the same shoulder height at the same time over a clear floor; repeat several times and swap hands. The material and mass remain approximately equal while the shape changes. Record which lands first rather than assuming every trial will match.",
+      "provenance": "NASA/JPL-Caltech Education, Make a Paper Mars Helicopter; https://www.jpl.nasa.gov/edu/resources/project/make-a-paper-mars-helicopter-2/ . Original small paper-model adaptation; dimensions and controlled-trial wording are editorial choices."
+    }
+  },
+  {
+    "path": "experiments/bench",
+    "record": {
+      "id": "condiment-diver",
+      "text": "Experiment protocol: Condiment diver\nFind an unopened condiment packet that barely floats in a cup of water. Put it into a clear flexible plastic bottle filled to the top with water and close the cap. Gently squeeze and release the bottle, observing sinking and rising. A packet that already sinks or floats too strongly may not respond as a useful diver.",
+      "provenance": "Exploratorium, Eric Muller, Condiment Diver; https://annex.exploratorium.edu/wsw/progress_snacks/condiment_diver/ . Original paraphrase of the sealed-packet activity."
+    }
+  },
+  {
+    "path": "experiments/bench",
+    "record": {
+      "id": "moon-phase-model",
+      "text": "Experiment protocol: Moon phase model\nIn a dim room, let a stationary LED lamp represent the Sun and hold a white ball at arm’s length as the Moon. Slowly turn in place, keeping the ball in front of you, and sketch how much of its lit half you can see at each quarter-turn. Raise the ball above your head’s shadow at the full-phase position.",
+      "provenance": "NASA/JPL-Caltech Education, Moon Phases; https://www.jpl.nasa.gov/edu/resources/lesson-plan/moon-phases/ . Original model adaptation using a cool LED source and no pointed holder."
+    }
+  },
+  {
+    "path": "experiments/bench",
+    "record": {
+      "id": "floating-clip-soap",
+      "text": "Experiment protocol: Floating clip soap\nGently lower a small clean paper clip onto still water using a second bent clip as a cradle. Withdraw the cradle without breaking the surface. Once the clip remains at the surface, add a drop of diluted dish soap nearby and observe whether it sinks. Compare with a plain-water drop on a fresh undisturbed setup.",
+      "provenance": "Iowa State University Physics and Astronomy, Floating Paper Clips, FL: ST-005; https://learning.physics.iastate.edu/floating-paper-clips . Original adaptation with a plain-water control."
+    }
+  },
+  {
+    "path": "experiments/bench",
+    "record": {
+      "id": "blind-spot-card",
+      "text": "Experiment protocol: Blind spot card\nDraw a dot on the left and a cross on the right of a card. Close your right eye and fix your left eye on the cross while slowly moving the card toward your face. Find where the dot disappears and reappears. Repeat with a line connecting both marks and observe whether the line seems continuous across the missing dot.",
+      "provenance": "Exploratorium, Blind Spot Science Snack; https://www.exploratorium.edu/snacks/blind-spot . Original paraphrase of the paper-card activity."
+    }
+  }
+]

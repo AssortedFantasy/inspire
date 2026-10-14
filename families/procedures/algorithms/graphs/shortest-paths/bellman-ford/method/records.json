@@ -1,0 +1,7 @@
+[
+  {
+    "id": "bellman-ford-paths",
+    "text": "Algorithm: Bellman ford paths\nBellman–Ford on a finite weighted digraph: initialize source distance 0 and others infinity. Relax every edge from a finite-distance vertex for up to V−1 full passes, stopping early if no value changes. A further improvement on pass V indicates a negative cycle reachable from the source; distances affected by such a cycle are not finite shortest paths.",
+    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 44sp; https://algs4.cs.princeton.edu/44sp/ . Algorithm paraphrase, not copied code."
+  }
+]

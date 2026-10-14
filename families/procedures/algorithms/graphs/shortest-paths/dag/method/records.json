@@ -1,0 +1,7 @@
+[
+  {
+    "id": "dag-shortest-paths",
+    "text": "Algorithm: Dag shortest paths\nShortest paths in a finite weighted DAG: obtain a topological order, set source distance 0 and all others infinity, then scan vertices in that order. For each finite-distance vertex v, relax every edge v→w by comparing d[w] with d[v]+weight. Negative edges are allowed because no directed cycle can return to a processed vertex.",
+    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 44sp; https://algs4.cs.princeton.edu/44sp/ . Algorithm paraphrase, not copied code."
+  }
+]
