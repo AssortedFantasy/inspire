@@ -1,0 +1,194 @@
+[
+  {
+    "id": "austen-truth",
+    "sha256": "1651b872913f969399043befa44b9edb2106f72d7c7320efb6e7e552ea2376da"
+  },
+  {
+    "id": "austen-good-opinion",
+    "sha256": "ef0b9a10c6fd51a0d520e1cb28e4d7fa4bda72aa61e1cbae97b83df8d2068f67"
+  },
+  {
+    "id": "holmes-observe",
+    "sha256": "6fad577b5407be08e62bce55cda464c57cedcdadabfa44a56b5230f905e6a013"
+  },
+  {
+    "id": "holmes-data",
+    "sha256": "bc66d2e93951feb4720a7002bd25eb64a56bf7c993575f9b47be8d4feabc4d1e"
+  },
+  {
+    "id": "wilde-art",
+    "sha256": "2428b203cb79c538477269575c955c862ee728f6bd91414f3720b5298e5f7f6e"
+  },
+  {
+    "id": "wilde-books",
+    "sha256": "f8d582e6ba0eb2fedaa99b333d591c4b2e95d90f38540fbd90bea5737aae6c29"
+  },
+  {
+    "id": "wilde-temptation",
+    "sha256": "fa44a06cfd4b60b7049dcbf808f754d75965bef553f815f06221aa4507ed7e43"
+  },
+  {
+    "id": "alice-curiouser",
+    "sha256": "57efa5eaa82f4f6628ca3f668631c948e29e3ea01763248c911f1f033dd62b38"
+  },
+  {
+    "id": "dickens-final",
+    "sha256": "9fce59c7945ccfa5eda028d535b9e9e4ce09507feb21c57b1eaae0a0ea3f74ae"
+  },
+  {
+    "id": "melville-ishmael",
+    "sha256": "a7cb88c79c57aeca3457c6d34f02fd005e1c65f00c6ab7ab300cefa38262ec24"
+  },
+  {
+    "id": "alice-opening",
+    "sha256": "2af2b385c8316799fce216aaf2199bf0b92ac692bab08071f20f630efb77ad21"
+  },
+  {
+    "id": "alice-advice",
+    "sha256": "2ab3a9816dca5043503a50395423bd6363ae9d2713857cef2809c8d45ce1833b"
+  },
+  {
+    "id": "austen-bennet",
+    "sha256": "549cfe8c033b32354555d7df8da73a8b86a87913deb9525cafdb3ada37913a35"
+  },
+  {
+    "id": "wilde-studio",
+    "sha256": "b0daf2878b5986fb70411952e3e498951d29e49b98f5550eac03e149d5d69161"
+  },
+  {
+    "id": "wilde-night",
+    "sha256": "922903522d95b8c3da994e8b114c70b5354e3770f399b4793200d5a6a9d93275"
+  },
+  {
+    "id": "holmes-feelings",
+    "sha256": "5863253462221260cdedaecb98307e8a01ca653210063cd94828819d950eebe9"
+  },
+  {
+    "id": "dickens-bank",
+    "sha256": "e1c0e20977cda20ab524b9208b15639679a20efe0c88544333f9b9c8bddccc65"
+  },
+  {
+    "id": "dickens-clerks",
+    "sha256": "484b29564539c6242693dcf745a8c2b6259af747a1cf6a894143dca3c653ee9f"
+  },
+  {
+    "id": "melville-november",
+    "sha256": "96eaf033f1411ef14f57f01a9cc045bdad7c5aa2c2bf35269691b734de867a5a"
+  },
+  {
+    "id": "dickens-voice",
+    "sha256": "5d3b0956b713007880fee42320d6d7f4729bccd58f40d63ce8134d7e735b3790"
+  },
+  {
+    "id": "alice-direction",
+    "sha256": "4b2804da0a35a9aaa7997fbce2ce0e9b16c632466cb22ad8d332bacdc7a53131"
+  },
+  {
+    "id": "alice-identity",
+    "sha256": "607ff0a73676743af3a971d7ce39fd5551bf5ae03a06f39e277be16d080e3253"
+  },
+  {
+    "id": "alice-mad",
+    "sha256": "8cff5c380c232a34bdd7e6407edb8b2a3b9baa17db2b62f6e11a9480b0568c0b"
+  },
+  {
+    "id": "holmes-steps",
+    "sha256": "1b1668698a0fdd9408bde8d3e459b7b8d947e0f78d1e1c4ff6d1f4f6ad20b1a8"
+  },
+  {
+    "id": "austen-defects",
+    "sha256": "daaa3bbb51f9fe4f6da16dabde4c49a197646b531bd58bb748b46d2170377e09"
+  },
+  {
+    "id": "dickens-pross",
+    "sha256": "5bf67f123ef45adcc0985d50ff032295d066f29d8871bf389ab75c7828ec2238"
+  },
+  {
+    "id": "shakespeare-sonnet-1",
+    "sha256": "27829b9010993696e5aa2f5780f5719c940d41698b6f29174f8753cd4ce24d89"
+  },
+  {
+    "id": "shakespeare-sonnet-2",
+    "sha256": "6796316d0640c9a76ce6cad7d030ba209293c0329c745844c7dafdfb399d6165"
+  },
+  {
+    "id": "shakespeare-sonnet-5",
+    "sha256": "4f9c4ad43fcab42e69a92bbb311d87445518f1c525703b3d1cd36a7a7048f1bd"
+  },
+  {
+    "id": "shakespeare-sonnet-12",
+    "sha256": "4329b24ec3b31d8bac72572f4f018b54c715f7ce3dcd568d5002d98146de56d4"
+  },
+  {
+    "id": "shakespeare-sonnet-14",
+    "sha256": "08a85d3e6ba3ba25cee71b91c762006f982356e3b1dccc8d66b8ff465cfeab96"
+  },
+  {
+    "id": "shakespeare-sonnet-15",
+    "sha256": "2a0052fdd91ae8bc454b607e829d051363cecb6414fea51c1c749cb453fcbc0c"
+  },
+  {
+    "id": "shakespeare-sonnet-18",
+    "sha256": "3c6ebd6975fdec5a32a5cfdf4c4567ec23cf696caade60bc8e1d7c55282467c5"
+  },
+  {
+    "id": "shakespeare-sonnet-23",
+    "sha256": "bdaae40ae8e6a7e2d4c708cfecca3166bda4e1d09fa61b6c7656d8ab5fe6d8a7"
+  },
+  {
+    "id": "shakespeare-sonnet-29",
+    "sha256": "bc4b120ee9620988c8a792aefe6a9e9d4d62d2e2c6e682c205691a297b0a4386"
+  },
+  {
+    "id": "shakespeare-sonnet-30",
+    "sha256": "df23a0518a1d6ed509c35e336b1cb1813d2bb40e2f88431238670dbde9fcbc1d"
+  },
+  {
+    "id": "rhymed-couplet",
+    "sha256": "8f5150903a6d13cddc874d9e78a76a527c828c6472490d59af089c4ed1c2c988"
+  },
+  {
+    "id": "tercet",
+    "sha256": "53723f6f12575163272ad84f6bbf4f0e36780f1612ecf6f5668f9f452cdd49e2"
+  },
+  {
+    "id": "quatrain",
+    "sha256": "55adfd431397d2449aed463ffcc31eb55667fef4d7eddb49600c39c40c5400a8"
+  },
+  {
+    "id": "blank-verse",
+    "sha256": "1187b118fa9da591a44bcbe63a8a799cccae0de4a0d06b907b4e4c754075bdca"
+  },
+  {
+    "id": "free-verse",
+    "sha256": "4d85e3817d7969b11871e7fc6577a0e34f1fd667345ca352174262c5c2339fa7"
+  },
+  {
+    "id": "shakespearean-sonnet",
+    "sha256": "27ecc0f216c3c58e109ebdf345901ae025ca8fddc6e9a4addf6b4c85ae0a3b39"
+  },
+  {
+    "id": "petrarchan-sonnet",
+    "sha256": "cf7657dab83588b00fce7c7f64c2610424e4a04d916b367c1fd73d1c1ce5098e"
+  },
+  {
+    "id": "villanelle",
+    "sha256": "be2b025d89e8f686d0fe0a8e095311d8d005cfec6fd27ca20f47f21a410953d1"
+  },
+  {
+    "id": "sestina",
+    "sha256": "f9cd6bba351b26d1a996b2cf452875534ed866569c0487e522054ddeba20e330"
+  },
+  {
+    "id": "terza-rima",
+    "sha256": "b5e7037d8d44ff2397fb51db66330f7ca2b4dd87840ed65103323cc045f0f64c"
+  },
+  {
+    "id": "acrostic",
+    "sha256": "455bb9a6094dadcc5a25b242597b872037083ba9df58f9bff92c2a6991444cda"
+  },
+  {
+    "id": "ballad-stanza",
+    "sha256": "d3ef0eba98b8863a44b9b3ac6c789b9d0a704d7f03247c33730b5ec94fa5497a"
+  }
+]

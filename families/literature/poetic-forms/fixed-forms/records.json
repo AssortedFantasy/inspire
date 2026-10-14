@@ -1,0 +1,27 @@
+[
+  {
+    "id": "shakespearean-sonnet",
+    "text": "Poetic form: Shakespearean sonnet\nFourteen lines, conventionally in iambic pentameter: three quatrains followed by a couplet.\nRhyme arrangement: ABAB CDCD EFEF GG.",
+    "provenance": "Original concise explanatory note for Inspire, 2026; conventional form facts checked 2026-10-13 against https://poets.org/glossary/sonnet . Reference definitions paraphrased; no example poems copied. Poetry Foundation pages consulted through indexed search excerpts; Academy of American Poets pages consulted in full. Form descriptions are typical patterns, not claims that every poem uses them without variation."
+  },
+  {
+    "id": "petrarchan-sonnet",
+    "text": "Poetic form: Petrarchan sonnet\nFourteen lines divided into an octave and a sestet. The octave commonly uses ABBAABBA; sestet rhymes vary. A turn in the argument often occurs between them.",
+    "provenance": "Original concise explanatory note for Inspire, 2026; conventional form facts checked 2026-10-13 against https://poets.org/glossary/sonnet . Reference definitions paraphrased; no example poems copied. Poetry Foundation pages consulted through indexed search excerpts; Academy of American Poets pages consulted in full. Form descriptions are typical patterns, not claims that every poem uses them without variation."
+  },
+  {
+    "id": "villanelle",
+    "text": "Poetic form: Villanelle\nNineteen lines: five tercets, then a quatrain. The opening stanza's first and third lines recur as refrains, becoming the final two lines.\nPattern: A1 b A2 / a b A1 / a b A2 / a b A1 / a b A2 / a b A1 A2.",
+    "provenance": "Original concise explanatory note for Inspire, 2026; conventional form facts checked 2026-10-13 against https://poets.org/glossary/villanelle . Reference definitions paraphrased; no example poems copied. Poetry Foundation pages consulted through indexed search excerpts; Academy of American Poets pages consulted in full. Form descriptions are typical patterns, not claims that every poem uses them without variation."
+  },
+  {
+    "id": "sestina",
+    "text": "Poetic form: Sestina\nSix stanzas of six lines recycle six end words, followed by a three-line envoi using all six.\nEnd-word order: ABCDEF / FAEBDC / CFDABE / ECBFAD / DEACFB / BDFECA.",
+    "provenance": "Original concise explanatory note for Inspire, 2026; conventional form facts checked 2026-10-13 against https://poets.org/glossary/sestina . Reference definitions paraphrased; no example poems copied. Poetry Foundation pages consulted through indexed search excerpts; Academy of American Poets pages consulted in full. Form descriptions are typical patterns, not claims that every poem uses them without variation."
+  },
+  {
+    "id": "terza-rima",
+    "text": "Poetic form: Terza rima\nThree-line stanzas are linked: the middle rhyme of one becomes the outer rhyme of the next.\nPattern: ABA BCB CDC DED ...",
+    "provenance": "Original concise explanatory note for Inspire, 2026; conventional form facts checked 2026-10-13 against https://poets.org/glossary/terza-rima . Reference definitions paraphrased; no example poems copied. Poetry Foundation pages consulted through indexed search excerpts; Academy of American Poets pages consulted in full. Form descriptions are typical patterns, not claims that every poem uses them without variation."
+  }
+]
