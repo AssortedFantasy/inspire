@@ -1,0 +1,44 @@
+[
+  {
+    "path": "artifacts/adornment/amulets",
+    "agent": "/root/objects/artifacts/adornment/amulets",
+    "checks": [
+      "Historical 71-record audit completed; regenerated 68-record leaf requires final revalidation by the same reviewer.",
+      "All 71 records checked against 101 pinned source rows; checksum, projection, schema, required fields, unique IDs and text verified.",
+      "Five actual CLI outputs matched corpus records; classification, existing duplicate and fragment exclusions, source uncertainty and hierarchy reviewed."
+    ],
+    "corrections": [
+      "Importer owner notified: exclude inlays 94182 and 94423; move Ear Stud 94361 to jewelry.",
+      "Importer owner notified: exclude generic aggregate parents 94167 and 94437, retaining named children; exclude redundant components 94394, 94417 and 94420.",
+      "Recommended final amulets count is 63; reproducible importer corrections pending. Detailed audit: target/imports/objects-review/artifacts-adornment-amulets.json.",
+      "Owner applied reviewed source filters, four jewelry-to-amulet routes, and eligible-parent dedup; current count 68."
+    ]
+  },
+  {
+    "path": "artifacts/adornment/masks",
+    "agent": "/root/objects/artifacts/adornment/masks",
+    "checks": [
+      "Historical 66-record audit completed; regenerated 64-record leaf requires final revalidation by the same reviewer.",
+      "All 66 selected records and 67 pinned source Mask rows reviewed; exact metadata projections, schema, unique IDs/text, missing fields and source descriptions verified.",
+      "279 actual CLI calls covered all 66 texts exactly; masking forms, ambiguous Head title, attribution uncertainty and source limitations reviewed."
+    ],
+    "corrections": [
+      "Importer owner notified: exclude numeric components 148171 and 148172 of retained Pair of Masks 148170; recommended final count 64.",
+      "Detailed audit: target/imports/objects-review/artifacts-adornment-masks.json. Reproducible reviewer: target/imports/objects-review/audit_masks.py.",
+      "Owner applied numeric component exclusions 148171 and 148172; current count 64."
+    ]
+  },
+  {
+    "path": "artifacts/adornment/netsuke",
+    "agent": "/root/objects/artifacts/adornment/netsuke",
+    "checks": [
+      "Existing and final leaf audit approved; no importer corrections required.",
+      "All 14 selected and source records reviewed; exact pinned metadata projection, schema, provenance, unique IDs/signatures/text and cross-leaf IDs verified.",
+      "64 actual CLI calls covered all 14 emitted texts exactly; official museum pages confirmed the intact Inro/Ojime/Netsuke ensemble and Daiitoku title."
+    ],
+    "corrections": [
+      "No source filters required. Literal metadata retained; 13 standalone carvings and one related intact accessory ensemble form a coherent netsuke leaf.",
+      "Source descriptions are empty and all objects Japanese; no unsupported iconography or representative-world claims. Detailed audit: target/imports/objects-review/artifacts-adornment-netsuke.json."
+    ]
+  }
+]

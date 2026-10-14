@@ -1,0 +1,138 @@
+[
+  {
+    "path": "cars/germany/bmw",
+    "reviewer": "/root/objects/cars/germany/bmw",
+    "records": 3,
+    "status": "complete",
+    "checks": [
+      "Read all three emitted labels and checked actual manufacturer primary sources: BMW Classic Isetta archive, BMW 2009 Mille Miglia production history and BMW 02 history.",
+      "Distinguished 1955 Isetta production start, 1956-1959 507 production period, 1957 individual museum car, 1955 unveiling and early-1968 2002 launch.",
+      "Verified exact schema, nonblank/NUL-free strings, unique IDs/texts, corpus leaf structure and weight 3; retained all IDs/texts."
+    ],
+    "corrections": [
+      "Replaced generic production-or-introduction provenance with precise record-specific date meanings."
+    ]
+  },
+  {
+    "path": "cars/germany/porsche",
+    "reviewer": "/root/objects/cars/germany/porsche",
+    "records": 12,
+    "status": "complete",
+    "checks": [
+      "Read all twelve outputs against Porsche Newsroom's official North American Historical Background chronology; cross-checked 928 and 964 global histories for conflicting launch dates.",
+      "Reviewed production start, chronology date, explicit model year and U.S. arrival distinctions; confirmed no prototype-only or racing-only records.",
+      "Verified exact schema, nonblank/NUL-free fields, unique IDs/texts and weight 12; preserved all stable IDs, model facts and years."
+    ],
+    "corrections": [
+      "Clarified date meanings in every label and provenance; 1964 911 identifies production start, 2001 Turbo identifies explicit model year and 2004 Carrera GT identifies U.S. arrival.",
+      "Other chronology dates explicitly identify the North American chronology rather than asserting global launches or sales dates."
+    ]
+  },
+  {
+    "path": "cars/japan/mazda",
+    "reviewer": "/root/objects/cars/japan/mazda",
+    "records": 14,
+    "status": "complete",
+    "checks": [
+      "Read all fourteen outputs against official Mazda 1920-1979 and 1980-1989 histories; directly corroborated Familia sedan using Mazda's Great Cars account.",
+      "Checked each dated introduction entry, market aliases and the 1989 Eunos Roadster September introduction versus February auto-show appearance.",
+      "Verified exact schema, nonblank/NUL-free strings, unique IDs/texts, cohesive manufacturer grouping and count weight 14; scoped diff check passed."
+    ],
+    "corrections": [
+      "All fourteen provenances now identify exact timeline entries and introduction-year semantics; Familia sedan has direct supporting source.",
+      "Stable IDs, text, order and count preserved."
+    ]
+  },
+  {
+    "path": "cars/japan/nissan/bluebird",
+    "reviewer": "/root/objects/cars/japan/nissan/bluebird",
+    "records": 11,
+    "status": "complete",
+    "checks": [
+      "Read all thirteen original outputs and opened the official Nissan Bluebird index plus every individual vehicle page.",
+      "Compared catalog numbers, vehicle years, make/model/trim, chassis headers and road/competition classifications; documented detail-versus-index discrepancies.",
+      "Validated all eleven retained records for exact schema, nonblank/NUL-free values, unique IDs/texts and count weight 11; retained stable IDs."
+    ],
+    "corrections": [
+      "Removed two explicitly catalogued competition vehicles: 1970 P510 and 1973 P610.",
+      "Corrected P410 and P411 chassis labels to detail-page DP410 and DP411; documented index disagreement.",
+      "Replaced generic evidence with individual vehicle provenance and catalog-year meaning."
+    ]
+  },
+  {
+    "path": "cars/japan/nissan/compacts",
+    "reviewer": "/root/objects/cars/japan/nissan/compacts",
+    "records": 13,
+    "status": "complete",
+    "checks": [
+      "Read all sixteen original outputs; opened official Sunny/Pulsar indexes and every individual manufacturer vehicle detail page.",
+      "Checked headings, catalog numbers, production body/grade descriptions and source narratives, including three ambiguous competition contexts.",
+      "Leaf reviewed and corrected fifteen retained rows; Nissan manager separately re-opened ambiguous sources and finalized thirteen rows. Cars manager validated final exact schema, nonblank/NUL-free values, unique IDs/texts and weight 13."
+    ],
+    "corrections": [
+      "Removed the explicit 1996 JTCC Xanavi Sunny competition vehicle.",
+      "Nissan manager subsequently excluded the 1975 PB210/no.456 and 1992 GTI-R/no.519 catalog identities because contradictory competition notes left their vehicle status uncertain; independently supported 1990 road GTI-R retained.",
+      "Corrected B110 year 1971 to detail-page 1970 while preserving stable ID; added SV 60th Anniversary and Canopy Type B trims.",
+      "Provenance distinguishes the August 1972 road GX-5 introduction from its catalogued competition exhibit, with no racing specifications asserted."
+    ]
+  },
+  {
+    "path": "cars/japan/nissan/sports",
+    "reviewer": "/root/objects/cars/japan/nissan/sports",
+    "records": 4,
+    "status": "complete",
+    "checks": [
+      "Read all seven original outputs and opened official Fairlady Z index plus each individual manufacturer vehicle detail page.",
+      "Checked year, chassis, catalog category and production-versus-competition narrative; distinguished 1992 convertible release from 1991 exhibition.",
+      "Reviewed four final production sports-car labels for cohesive lineage, supported trims/body forms, exact schema, nonblank/NUL-free fields, unique IDs/texts and count weight 4."
+    ],
+    "corrections": [
+      "Removed three catalogued competition Datsun 240Z vehicles from 1971, 1972 and 1973.",
+      "Corrected three provenance links to direct vehicle pages; preserved all surviving IDs/texts."
+    ]
+  },
+  {
+    "path": "cars/japan/toyota",
+    "reviewer": "/root/objects/cars/japan/toyota",
+    "records": 5,
+    "status": "complete",
+    "checks": [
+      "Read all five outputs and opened Toyota's 1997 Prius release and 2005 Worldwide Hybrid Sales report.",
+      "Verified every introduction against the report's Start of sales in Japan table, including exact months; distinguished Prius prospective launch announcement from retrospective sales evidence.",
+      "Verified exact schema, nonblank/NUL-free fields, unique IDs/texts and count weight 5; confirmed concise production-car factual labels and cohesive early hybrid collection."
+    ],
+    "corrections": [
+      "Replaced generic provenance with exact report titles, publication dates and sales-start months; preserved IDs/texts.",
+      "Explicitly distinguished Japan calendar sales introduction from model-year or unveiling claims."
+    ]
+  },
+  {
+    "path": "cars/united-states/chevrolet",
+    "reviewer": "/root/objects/cars/united_states/chevrolet",
+    "records": 8,
+    "status": "complete",
+    "checks": [
+      "Read all eight Corvette generation-entry labels against Chevrolet's accessible official Corvette history and corroborating official New Roads timeline extraction.",
+      "Checked C1-C8 generation years and Sting Ray/Stingray naming; distinguished C4 1984 model year from calendar-1983 street introduction.",
+      "Verified exact schema, nonblank/NUL-free strings, eight unique IDs/texts and count weight 8; acknowledged full PDF extraction size limit rather than asserting inspection."
+    ],
+    "corrections": [
+      "Added accessible official Corvette-history corroboration to every provenance; preserved all IDs/texts and counts."
+    ]
+  },
+  {
+    "path": "cars/united-states/ford",
+    "reviewer": "/root/objects/cars/united_states/ford",
+    "records": 3,
+    "status": "complete",
+    "checks": [
+      "Read all three emitted labels against Ford's direct Model T history, Thunderbird history and Mustang history with the fastback caption.",
+      "Checked calendar-1908 introduction/customer shipment, Thunderbird 1955 model year versus September-1954 production, and 1965 Mustang Fastback.",
+      "Verified exact schema, nonblank/NUL-free strings, unique IDs/texts, corpus-only structure and count weight 3."
+    ],
+    "corrections": [
+      "Replaced indirect Model T evidence with direct history and removed reliance on the old Mustang milestone PDF URL that redirects to unrelated content.",
+      "Clarified record-specific calendar/model-year meanings; preserved IDs/texts."
+    ]
+  }
+]
