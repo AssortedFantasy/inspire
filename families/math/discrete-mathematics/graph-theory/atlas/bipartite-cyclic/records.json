@@ -1,0 +1,352 @@
+[
+  {
+    "id": "networkx-3.4.2-G16",
+    "text": "Simple undirected graph with vertices 0..3.\nEdges: 0-1, 0-3, 1-2, 2-3.\nVertices: 4; edges: 4; degrees (descending): [2, 2, 2, 2].\nConnected components: [[0, 1, 2, 3]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 2], [1, 3]].\nTriangles: 0; independence number: 2, with maximum independent set [0, 2]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G16; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G28",
+    "text": "Simple undirected graph with vertices 0..4.\nEdges: 0-1, 0-3, 1-2, 2-3.\nVertices: 5; edges: 4; degrees (descending): [2, 2, 2, 2, 0].\nConnected components: [[0, 1, 2, 3], [4]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 4], [1, 3]].\nTriangles: 0; independence number: 3, with maximum independent set [0, 2, 4]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G28; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G37",
+    "text": "Simple undirected graph with vertices 0..4.\nEdges: 0-1, 1-3, 1-4, 2-3, 2-4.\nVertices: 5; edges: 5; degrees (descending): [3, 2, 2, 2, 1].\nConnected components: [[0, 1, 2, 3, 4]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[1, 2], [0, 3, 4]].\nTriangles: 0; independence number: 3, with maximum independent set [0, 3, 4]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G37; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G44",
+    "text": "Simple undirected graph with vertices 0..4.\nEdges: 0-2, 0-3, 0-4, 1-2, 1-3, 1-4.\nVertices: 5; edges: 6; degrees (descending): [3, 3, 2, 2, 2].\nConnected components: [[0, 1, 2, 3, 4]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[0, 1], [2, 3, 4]].\nTriangles: 0; independence number: 3, with maximum independent set [2, 3, 4]; spanning trees: 12.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G44; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G63",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-3, 0-4, 3-5, 4-5.\nVertices: 6; edges: 4; degrees (descending): [2, 2, 2, 2, 0, 0].\nConnected components: [[0, 3, 4, 5], [1], [2]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 2, 5], [3, 4]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 2, 5]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G63; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G75",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-4, 1-2, 1-4, 2-3, 3-4.\nVertices: 6; edges: 5; degrees (descending): [3, 2, 2, 2, 1, 0].\nConnected components: [[0, 1, 2, 3, 4], [5]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[2, 4, 5], [0, 1, 3]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 3, 5]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G75; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G85",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-3, 0-4, 1-2, 3-5, 4-5.\nVertices: 6; edges: 5; degrees (descending): [2, 2, 2, 2, 1, 1].\nConnected components: [[0, 3, 4, 5], [1, 2]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 5], [2, 3, 4]].\nTriangles: 0; independence number: 3, with maximum independent set [0, 1, 5]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G85; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G91",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-1, 0-2, 1-3, 1-4, 2-3, 2-4.\nVertices: 6; edges: 6; degrees (descending): [3, 3, 2, 2, 2, 0].\nConnected components: [[0, 1, 2, 3, 4], [5]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[1, 2, 5], [0, 3, 4]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 3, 4, 5]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G91; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G96",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-2, 0-3, 0-4, 0-5, 1-2, 1-3.\nVertices: 6; edges: 6; degrees (descending): [4, 2, 2, 2, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1], [2, 3, 4, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [2, 3, 4, 5]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G96; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G98",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-2, 0-3, 0-4, 1-2, 1-3, 3-5.\nVertices: 6; edges: 6; degrees (descending): [3, 3, 2, 2, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 5], [2, 3, 4]].\nTriangles: 0; independence number: 3, with maximum independent set [0, 1, 5]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G98; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G99",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-2, 1-3, 2-4, 2-5, 3-4, 3-5.\nVertices: 6; edges: 6; degrees (descending): [3, 3, 2, 2, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[2, 3], [0, 1, 4, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 4, 5]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G99; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G103",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-4, 0-5, 1-3, 1-4, 2-3, 2-4.\nVertices: 6; edges: 6; degrees (descending): [3, 2, 2, 2, 2, 1].\nConnected components: [[0, 1, 2, 3, 4, 5]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[3, 4, 5], [0, 1, 2]].\nTriangles: 0; independence number: 3, with maximum independent set [0, 1, 2]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G103; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G105",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-1, 0-5, 1-2, 2-3, 3-4, 4-5.\nVertices: 6; edges: 6; degrees (descending): [2, 2, 2, 2, 2, 2].\nConnected components: [[0, 1, 2, 3, 4, 5]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 4], [1, 3, 5]].\nTriangles: 0; independence number: 3, with maximum independent set [0, 2, 4]; spanning trees: 6.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G105; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G121",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-2, 1-2, 1-4, 2-3, 2-5, 3-4, 4-5.\nVertices: 6; edges: 7; degrees (descending): [4, 3, 2, 2, 2, 1].\nConnected components: [[0, 1, 2, 3, 4, 5]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[2, 4], [0, 1, 3, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 3, 5]; spanning trees: 12.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G121; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G125",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-2, 1-2, 1-3, 1-4, 2-5, 3-5, 4-5.\nVertices: 6; edges: 7; degrees (descending): [3, 3, 3, 2, 2, 1].\nConnected components: [[0, 1, 2, 3, 4, 5]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 5], [2, 3, 4]].\nTriangles: 0; independence number: 3, with maximum independent set [0, 1, 5]; spanning trees: 12.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G125; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G128",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-1, 0-3, 0-5, 1-2, 2-3, 3-4, 4-5.\nVertices: 6; edges: 7; degrees (descending): [3, 3, 2, 2, 2, 2].\nConnected components: [[0, 1, 2, 3, 4, 5]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 4], [1, 3, 5]].\nTriangles: 0; independence number: 3, with maximum independent set [0, 2, 4]; spanning trees: 15.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G128; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G146",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-4, 0-5, 1-4, 1-5, 2-4, 2-5, 3-4, 3-5.\nVertices: 6; edges: 8; degrees (descending): [4, 4, 2, 2, 2, 2].\nConnected components: [[0, 1, 2, 3, 4, 5]]; cycle-space dimension over F_2: 3.\nChromatic number: 2; a minimum coloring has color classes [[4, 5], [0, 1, 2, 3]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 2, 3]; spanning trees: 32.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G146; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G154",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-1, 0-5, 1-2, 1-4, 2-3, 2-5, 3-4, 4-5.\nVertices: 6; edges: 8; degrees (descending): [3, 3, 3, 3, 2, 2].\nConnected components: [[0, 1, 2, 3, 4, 5]]; cycle-space dimension over F_2: 3.\nChromatic number: 2; a minimum coloring has color classes [[1, 3, 5], [0, 2, 4]].\nTriangles: 0; independence number: 3, with maximum independent set [0, 2, 4]; spanning trees: 36.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G154; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G175",
+    "text": "Simple undirected graph with vertices 0..5.\nEdges: 0-1, 0-3, 0-5, 1-2, 1-4, 2-3, 2-5, 3-4, 4-5.\nVertices: 6; edges: 9; degrees (descending): [3, 3, 3, 3, 3, 3].\nConnected components: [[0, 1, 2, 3, 4, 5]]; cycle-space dimension over F_2: 4.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 4], [1, 3, 5]].\nTriangles: 0; independence number: 3, with maximum independent set [0, 2, 4]; spanning trees: 81.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G175; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G219",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 1-2, 1-4, 2-5, 4-5.\nVertices: 7; edges: 4; degrees (descending): [2, 2, 2, 2, 0, 0, 0].\nConnected components: [[0], [1, 2, 4, 5], [3], [6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 3, 5, 6], [2, 4]].\nTriangles: 0; independence number: 5, with maximum independent set [0, 1, 3, 5, 6]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G219; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G232",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-2, 1-3, 1-4.\nVertices: 7; edges: 5; degrees (descending): [3, 2, 2, 2, 1, 0, 0].\nConnected components: [[0, 1, 2, 3, 4], [5], [6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 5, 6], [2, 3, 4]].\nTriangles: 0; independence number: 5, with maximum independent set [2, 3, 4, 5, 6]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G232; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G242",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 1-4, 2-3, 2-5, 3-6, 5-6.\nVertices: 7; edges: 5; degrees (descending): [2, 2, 2, 2, 1, 1, 0].\nConnected components: [[0], [1, 4], [2, 3, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 2, 6], [3, 4, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 2, 6]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G242; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G254",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-2, 0-5, 1-2, 1-5, 2-4, 4-5.\nVertices: 7; edges: 6; degrees (descending): [3, 3, 2, 2, 2, 0, 0].\nConnected components: [[0, 1, 2, 4, 5], [3], [6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[2, 3, 5, 6], [0, 1, 4]].\nTriangles: 0; independence number: 5, with maximum independent set [0, 1, 3, 4, 6]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G254; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G259",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 2-3, 2-4, 2-5, 2-6.\nVertices: 7; edges: 6; degrees (descending): [4, 2, 2, 2, 1, 1, 0].\nConnected components: [[0, 2, 3, 4, 5, 6], [1]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 2], [3, 4, 5, 6]].\nTriangles: 0; independence number: 5, with maximum independent set [1, 3, 4, 5, 6]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G259; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G261",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 1-2, 2-3, 2-5, 3-6, 4-5, 5-6.\nVertices: 7; edges: 6; degrees (descending): [3, 3, 2, 2, 1, 1, 0].\nConnected components: [[0], [1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 4, 6], [1, 3, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 3, 4]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G261; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G263",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 2-3, 2-4, 3-6, 4-5.\nVertices: 7; edges: 6; degrees (descending): [3, 3, 2, 2, 1, 1, 0].\nConnected components: [[0, 2, 3, 4, 5, 6], [1]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[1, 3, 4], [0, 2, 5, 6]].\nTriangles: 0; independence number: 5, with maximum independent set [0, 1, 2, 5, 6]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G263; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G266",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 1-2, 1-4, 2-5, 3-6, 4-5, 5-6.\nVertices: 7; edges: 6; degrees (descending): [3, 2, 2, 2, 2, 1, 0].\nConnected components: [[0], [1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 3, 5], [2, 4, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 3, 5]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G266; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G268",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-5, 1-2, 2-3, 3-4, 4-5.\nVertices: 7; edges: 6; degrees (descending): [2, 2, 2, 2, 2, 2, 0].\nConnected components: [[0, 1, 2, 3, 4, 5], [6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 4, 6], [1, 3, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 2, 4, 6]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G268; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G281",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-2, 2-3, 2-4, 5-6.\nVertices: 7; edges: 6; degrees (descending): [3, 2, 2, 2, 1, 1, 1].\nConnected components: [[0, 1, 2, 3, 4], [5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 5], [1, 3, 4, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [1, 3, 4, 5]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G281; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G288",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-4, 2-3, 2-5, 3-6, 5-6.\nVertices: 7; edges: 6; degrees (descending): [2, 2, 2, 2, 2, 1, 1].\nConnected components: [[0, 1, 4], [2, 3, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 6], [1, 3, 4, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [1, 2, 4, 6]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G288; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G304",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-2, 0-5, 1-2, 1-5, 2-4, 3-5, 4-5.\nVertices: 7; edges: 7; degrees (descending): [4, 3, 2, 2, 2, 1, 0].\nConnected components: [[0, 1, 2, 3, 4, 5], [6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[2, 5, 6], [0, 1, 3, 4]].\nTriangles: 0; independence number: 5, with maximum independent set [0, 1, 3, 4, 6]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G304; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G308",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-2, 0-3, 0-5, 1-2, 1-5, 2-4, 4-5.\nVertices: 7; edges: 7; degrees (descending): [3, 3, 3, 2, 2, 1, 0].\nConnected components: [[0, 1, 2, 3, 4, 5], [6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 4, 6], [2, 3, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 4, 6]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G308; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G312",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 1-2, 1-4, 2-3, 2-5, 3-6, 4-5, 5-6.\nVertices: 7; edges: 7; degrees (descending): [3, 3, 2, 2, 2, 2, 0].\nConnected components: [[0], [1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 4, 6], [1, 3, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 3, 5]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G312; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G319",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-2, 1-3, 1-4, 1-5, 1-6.\nVertices: 7; edges: 7; degrees (descending): [5, 2, 2, 2, 1, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1], [2, 3, 4, 5, 6]].\nTriangles: 0; independence number: 5, with maximum independent set [2, 3, 4, 5, 6]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G319; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G322",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-5, 1-2, 2-3, 2-5, 3-6, 4-5, 5-6.\nVertices: 7; edges: 7; degrees (descending): [4, 3, 2, 2, 1, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[1, 3, 5], [0, 2, 4, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 3, 4]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G322; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G325",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 1-3, 1-4, 2-3, 2-4, 2-5, 2-6.\nVertices: 7; edges: 7; degrees (descending): [4, 3, 2, 2, 1, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[1, 2], [0, 3, 4, 5, 6]].\nTriangles: 0; independence number: 5, with maximum independent set [0, 3, 4, 5, 6]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G325; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G327",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-2, 1-3, 1-4, 3-6, 4-5.\nVertices: 7; edges: 7; degrees (descending): [3, 3, 3, 2, 1, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 5, 6], [2, 3, 4]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 5, 6]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G327; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G332",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-2, 1-3, 1-4, 1-6, 2-5.\nVertices: 7; edges: 7; degrees (descending): [4, 2, 2, 2, 2, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 5], [2, 3, 4, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [2, 3, 4, 6]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G332; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G337",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 1-2, 1-5, 2-3, 2-6, 3-4, 5-6.\nVertices: 7; edges: 7; degrees (descending): [3, 3, 2, 2, 2, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[1, 3, 6], [0, 2, 4, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 2, 4, 5]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G337; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G341",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-2, 0-5, 1-4, 2-3, 3-5, 3-6.\nVertices: 7; edges: 7; degrees (descending): [3, 3, 2, 2, 2, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 3, 4], [1, 2, 5, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [1, 2, 5, 6]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G341; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G344",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-2, 1-3, 1-4, 2-5, 2-6.\nVertices: 7; edges: 7; degrees (descending): [3, 3, 2, 2, 2, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 5, 6], [2, 3, 4]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 5, 6]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G344; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G347",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-3, 1-4, 2-3, 2-4, 5-6.\nVertices: 7; edges: 7; degrees (descending): [3, 3, 2, 2, 2, 1, 1].\nConnected components: [[0, 1, 2, 3, 4], [5, 6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[3, 4, 5], [0, 1, 2, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 2, 5]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G347; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G348",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-2, 2-5, 2-6, 3-6, 4-5.\nVertices: 7; edges: 7; degrees (descending): [3, 2, 2, 2, 2, 2, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[2, 3, 4], [0, 1, 5, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 5, 6]; spanning trees: 6.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G348; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G350",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-2, 1-3, 1-4, 2-6, 5-6.\nVertices: 7; edges: 7; degrees (descending): [3, 2, 2, 2, 2, 2, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 1.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 6], [2, 3, 4, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [2, 3, 4, 5]; spanning trees: 4.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G350; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G370",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-4, 0-5, 1-4, 1-5, 2-4, 2-5, 3-4, 3-5.\nVertices: 7; edges: 8; degrees (descending): [4, 4, 2, 2, 2, 2, 0].\nConnected components: [[0, 1, 2, 3, 4, 5], [6]]; cycle-space dimension over F_2: 3.\nChromatic number: 2; a minimum coloring has color classes [[4, 5, 6], [0, 1, 2, 3]].\nTriangles: 0; independence number: 5, with maximum independent set [0, 1, 2, 3, 6]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G370; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G378",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-5, 0-6, 1-2, 2-5, 2-6, 4-5, 4-6.\nVertices: 7; edges: 8; degrees (descending): [3, 3, 3, 3, 2, 2, 0].\nConnected components: [[0, 1, 2, 4, 5, 6], [3]]; cycle-space dimension over F_2: 3.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 3, 4], [1, 5, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 2, 3, 4]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G378; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G392",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-3, 0-4, 1-2, 2-3, 2-4, 2-5, 2-6.\nVertices: 7; edges: 8; degrees (descending): [5, 3, 2, 2, 2, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[0, 2], [1, 3, 4, 5, 6]].\nTriangles: 0; independence number: 5, with maximum independent set [1, 3, 4, 5, 6]; spanning trees: 12.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G392; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G396",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-3, 1-4, 2-3, 2-4, 3-6, 4-5.\nVertices: 7; edges: 8; degrees (descending): [4, 4, 2, 2, 2, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[3, 4], [0, 1, 2, 5, 6]].\nTriangles: 0; independence number: 5, with maximum independent set [0, 1, 2, 5, 6]; spanning trees: 12.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G396; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G405",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-3, 1-4, 2-3, 2-4, 2-6, 4-5.\nVertices: 7; edges: 8; degrees (descending): [4, 3, 3, 2, 2, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[3, 4, 6], [0, 1, 2, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 2, 5]; spanning trees: 12.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G405; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G411",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-3, 1-4, 2-3, 2-4, 2-5, 2-6.\nVertices: 7; edges: 8; degrees (descending): [4, 3, 3, 2, 2, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 2], [3, 4, 5, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 5, 6]; spanning trees: 12.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G411; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G416",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 0-6, 1-3, 1-4, 2-3, 2-4, 2-5.\nVertices: 7; edges: 8; degrees (descending): [3, 3, 3, 3, 2, 1, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 2], [3, 4, 5, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [3, 4, 5, 6]; spanning trees: 12.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G416; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G427",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 1-2, 1-4, 1-5, 2-3, 2-6, 3-4, 5-6.\nVertices: 7; edges: 8; degrees (descending): [4, 3, 2, 2, 2, 2, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[1, 3, 6], [0, 2, 4, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 2, 4, 5]; spanning trees: 15.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G427; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G431",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-3, 1-4, 2-3, 2-4, 4-5, 5-6.\nVertices: 7; edges: 8; degrees (descending): [4, 3, 2, 2, 2, 2, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[3, 4, 6], [0, 1, 2, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 2, 5]; spanning trees: 12.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G431; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G434",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-4, 1-2, 1-4, 1-5, 2-3, 2-6, 3-4, 5-6.\nVertices: 7; edges: 8; degrees (descending): [3, 3, 3, 2, 2, 2, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 3, 6], [2, 4, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 3, 6]; spanning trees: 15.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G434; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G442",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-3, 1-4, 2-3, 2-4, 2-5, 5-6.\nVertices: 7; edges: 8; degrees (descending): [3, 3, 3, 2, 2, 2, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 2, 6], [3, 4, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 2, 6]; spanning trees: 12.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G442; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G444",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-5, 1-6, 2-3, 2-6, 3-4, 4-6, 5-6.\nVertices: 7; edges: 8; degrees (descending): [4, 2, 2, 2, 2, 2, 2].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[0, 3, 6], [1, 2, 4, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [1, 2, 4, 5]; spanning trees: 16.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G444; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G448",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-5, 1-2, 1-6, 2-3, 3-4, 4-5, 5-6.\nVertices: 7; edges: 8; degrees (descending): [3, 3, 2, 2, 2, 2, 2].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 2.\nChromatic number: 2; a minimum coloring has color classes [[1, 3, 5], [0, 2, 4, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 2, 4, 6]; spanning trees: 20.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G448; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G472",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-3, 0-5, 1-2, 1-4, 2-3, 2-5, 3-4, 4-5.\nVertices: 7; edges: 9; degrees (descending): [3, 3, 3, 3, 3, 3, 0].\nConnected components: [[0, 1, 2, 3, 4, 5], [6]]; cycle-space dimension over F_2: 4.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 4, 6], [1, 3, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 2, 4, 6]; spanning trees: 0.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G472; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G507",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-4, 0-5, 1-4, 1-5, 2-4, 2-5, 3-4, 3-5, 4-6.\nVertices: 7; edges: 9; degrees (descending): [5, 4, 2, 2, 2, 2, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 3.\nChromatic number: 2; a minimum coloring has color classes [[4, 5], [0, 1, 2, 3, 6]].\nTriangles: 0; independence number: 5, with maximum independent set [0, 1, 2, 3, 6]; spanning trees: 32.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G507; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G525",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-4, 0-5, 1-4, 1-5, 1-6, 2-4, 2-5, 3-4, 3-5.\nVertices: 7; edges: 9; degrees (descending): [4, 4, 3, 2, 2, 2, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 3.\nChromatic number: 2; a minimum coloring has color classes [[4, 5, 6], [0, 1, 2, 3]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 2, 3]; spanning trees: 32.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G525; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G542",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-5, 1-2, 1-4, 2-3, 2-5, 3-4, 4-5, 5-6.\nVertices: 7; edges: 9; degrees (descending): [4, 3, 3, 3, 2, 2, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 3.\nChromatic number: 2; a minimum coloring has color classes [[1, 3, 5], [0, 2, 4, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 2, 4, 6]; spanning trees: 36.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G542; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G550",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-5, 0-6, 1-2, 1-4, 2-3, 2-5, 3-4, 4-5.\nVertices: 7; edges: 9; degrees (descending): [3, 3, 3, 3, 3, 2, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 3.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 4], [1, 3, 5, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [1, 3, 5, 6]; spanning trees: 36.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G550; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G565",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-2, 0-4, 1-5, 2-3, 2-5, 3-6, 4-5, 5-6.\nVertices: 7; edges: 9; degrees (descending): [4, 3, 3, 2, 2, 2, 2].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 3.\nChromatic number: 2; a minimum coloring has color classes [[0, 3, 5], [1, 2, 4, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [1, 2, 4, 6]; spanning trees: 44.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G565; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G581",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-5, 0-6, 1-2, 2-3, 2-6, 3-4, 4-5, 4-6.\nVertices: 7; edges: 9; degrees (descending): [3, 3, 3, 3, 2, 2, 2].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 3.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 4], [1, 3, 5, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [1, 3, 5, 6]; spanning trees: 50.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G581; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G667",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-3, 0-5, 0-6, 1-2, 1-4, 2-3, 2-5, 3-4, 4-5.\nVertices: 7; edges: 10; degrees (descending): [4, 3, 3, 3, 3, 3, 1].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 4.\nChromatic number: 2; a minimum coloring has color classes [[0, 2, 4], [1, 3, 5, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [1, 3, 5, 6]; spanning trees: 81.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G667; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G670",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-2, 0-3, 0-4, 0-5, 0-6, 1-2, 1-3, 1-4, 1-5, 1-6.\nVertices: 7; edges: 10; degrees (descending): [5, 5, 2, 2, 2, 2, 2].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 4.\nChromatic number: 2; a minimum coloring has color classes [[0, 1], [2, 3, 4, 5, 6]].\nTriangles: 0; independence number: 5, with maximum independent set [2, 3, 4, 5, 6]; spanning trees: 80.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G670; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G708",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-3, 0-4, 1-2, 1-3, 1-4, 2-5, 3-5, 3-6, 4-5, 4-6.\nVertices: 7; edges: 10; degrees (descending): [4, 4, 3, 3, 2, 2, 2].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 4.\nChromatic number: 2; a minimum coloring has color classes [[2, 3, 4], [0, 1, 5, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 1, 5, 6]; spanning trees: 96.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G708; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G723",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-2, 0-3, 0-5, 1-2, 1-3, 1-6, 2-4, 3-4, 4-5, 4-6.\nVertices: 7; edges: 10; degrees (descending): [4, 3, 3, 3, 3, 2, 2].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 4.\nChromatic number: 2; a minimum coloring has color classes [[0, 1, 4], [2, 3, 5, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [2, 3, 5, 6]; spanning trees: 105.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G723; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G874",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-3, 0-4, 1-2, 1-5, 2-3, 2-4, 3-5, 3-6, 4-5, 4-6.\nVertices: 7; edges: 11; degrees (descending): [4, 4, 3, 3, 3, 3, 2].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 5.\nChromatic number: 2; a minimum coloring has color classes [[1, 3, 4], [0, 2, 5, 6]].\nTriangles: 0; independence number: 4, with maximum independent set [0, 2, 5, 6]; spanning trees: 216.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G874; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  },
+  {
+    "id": "networkx-3.4.2-G1007",
+    "text": "Simple undirected graph with vertices 0..6.\nEdges: 0-1, 0-2, 0-4, 0-5, 1-3, 1-6, 2-3, 2-6, 3-4, 3-5, 4-6, 5-6.\nVertices: 7; edges: 12; degrees (descending): [4, 4, 4, 3, 3, 3, 3].\nConnected components: [[0, 1, 2, 3, 4, 5, 6]]; cycle-space dimension over F_2: 6.\nChromatic number: 2; a minimum coloring has color classes [[0, 3, 6], [1, 2, 4, 5]].\nTriangles: 0; independence number: 4, with maximum independent set [1, 2, 4, 5]; spanning trees: 432.",
+    "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G1007; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
+  }
+]
