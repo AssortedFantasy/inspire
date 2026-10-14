@@ -17,6 +17,7 @@ import webbrowser
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "review-dashboard"
+FEEDBACK_HEADER = "# Inspire human feedback\n\nSamples use the CLI's weighted tree and embedded payloads.\n"
 
 
 def fenced(text):
@@ -31,40 +32,39 @@ class Review:
         self.root = root
         self.binary = binary
         self.feedback = feedback
-        self.leaves = sorted(
-            path for name in ("records.json", "generator.rs")
-            for path in (root / "families").rglob(name)
-        )
-        if not self.leaves:
-            raise ValueError("No dataset leaves found")
-        self.families = sorted({self.path(path).split("/")[0] for path in self.leaves})
+        listing = self.invoke(["--list"])
+        self.families = sorted({line.split()[0].split("/")[0] for line in listing.splitlines()})
         self.binary_hash = hashlib.sha256(binary.read_bytes()).hexdigest()
         self.pending = OrderedDict()
         self.saved = {}
         self.lock = threading.Lock()
 
-    def path(self, source):
-        return source.parent.relative_to(self.root / "families").as_posix()
+    def invoke(self, args):
+        result = subprocess.run(
+            [str(self.binary), *args], capture_output=True, encoding="utf-8", timeout=30,
+        )
+        if result.returncode:
+            raise ValueError(result.stderr.strip() or "Inspire failed to sample")
+        return result.stdout
 
     def sample(self, family=""):
         if family and family not in self.families:
             raise ValueError("Unknown family")
-        candidates = [p for p in self.leaves if not family or self.path(p).split("/")[0] == family]
-        source = random.choice(candidates)
-        sample = {"id": uuid.uuid4().hex, "path": self.path(source),
-                  "source": source.relative_to(self.root).as_posix()}
-        if source.name == "records.json":
-            record = random.choice(json.loads(source.read_text(encoding="utf-8")))
-            sample.update(text=record["text"], record_id=record["id"],
-                          provenance=record.get("provenance", ""), kind="record")
-        else:
-            seed = random.getrandbits(64)
-            result = subprocess.run(
-                [str(self.binary), "--family", sample["path"], "--seed", str(seed)],
-                capture_output=True, encoding="utf-8", timeout=30, check=True,
-            )
-            sample.update(text=result.stdout.rstrip("\r\n"), seed=str(seed), kind="generator",
-                          binary_sha256=self.binary_hash)
+        seed = random.getrandbits(64)
+        args = ["--seed", str(seed)] + (["--family", family] if family else [])
+        sample = json.loads(self.invoke([*args, "--json"]))
+        source = f"families/{sample['path']}/" + (
+            "records.json" if sample["kind"] == "record" else "generator.rs")
+        sample.update(id=uuid.uuid4().hex, source=source, seed=str(seed),
+                      binary_sha256=self.binary_hash, command="inspire " + " ".join(args))
+        # Source metadata must match the embedded record; never substitute source text.
+        if sample["kind"] == "record":
+            try:
+                record = json.loads((self.root / source).read_text(encoding="utf-8"))[sample["record_index"]]
+                if record["text"] == sample["text"]:
+                    sample.update(record_id=record["id"], provenance=record.get("provenance", ""))
+            except (OSError, ValueError, IndexError, KeyError, TypeError):
+                pass
         if not sample["text"].strip():
             raise ValueError(f"Empty sample from {sample['path']}")
         with self.lock:
@@ -91,12 +91,13 @@ class Review:
             stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
             entry = f"\n## {rating} — {stamp}\n\n"
             entry += f"- Review ID: {sample_id}\n- Source: {sample['source']}\n"
-            if sample["kind"] == "record":
+            if "record_id" in sample:
                 entry += "- Record ID: " + json.dumps(sample["record_id"], ensure_ascii=False) + "\n"
-            else:
-                entry += (f"- Seed: {sample['seed']}\n"
-                          f"- Binary SHA-256: {sample['binary_sha256']}\n"
-                          f"- Reproduce: `inspire --family {sample['path']} --seed {sample['seed']}`\n")
+            if sample.get("record_index") is not None:
+                entry += f"- Record index (zero-based): {sample['record_index']}\n"
+            entry += (f"- Seed: {sample['seed']}\n"
+                      f"- Binary SHA-256: {sample['binary_sha256']}\n"
+                      f"- Reproduce: `{sample['command']}`\n")
             entry += "\n### Sample\n\n" + fenced(sample["text"])
             if sample.get("provenance"):
                 provenance = sample["provenance"]
@@ -111,7 +112,7 @@ class Review:
                 start = output.tell()
                 try:
                     if start == 0:
-                        output.write("# Inspire human feedback\n\nSamples are chosen uniformly by leaf, then randomly within each leaf.\n")
+                        output.write(FEEDBACK_HEADER)
                     output.write(entry)
                     output.flush()
                     os.fsync(output.fileno())

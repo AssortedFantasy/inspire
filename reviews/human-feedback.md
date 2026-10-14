@@ -1,3 +1,3 @@
 # Inspire human feedback
 
-Samples are chosen uniformly by leaf, then randomly within each leaf.
+Samples use the CLI's weighted tree and embedded payloads.

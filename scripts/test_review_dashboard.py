@@ -7,6 +7,7 @@ from pathlib import Path
 import tempfile
 import threading
 import unittest
+import subprocess
 from unittest.mock import patch
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
@@ -26,7 +27,17 @@ class ReviewTests(unittest.TestCase):
         binary = self.root / "inspire"
         binary.write_bytes(b"test binary")
         self.feedback = self.root / "reviews" / "feedback.md"
+        self.sample_data = {"path": "demo/leaf", "kind": "record", "record_index": 0,
+                            "text": "Unicode α\n```\n# sample"}
+        self.invoke_patch = patch.object(Review, "invoke", side_effect=self.invoke_fixture)
+        self.invoke = self.invoke_patch.start()
+        self.addCleanup(self.invoke_patch.stop)
         self.review = Review(self.root, binary, self.feedback)
+
+    def invoke_fixture(self, args):
+        if args == ["--list"]:
+            return "demo/leaf [corpus]\tweight=2\teffective=90%\ngenerated [generator]\tweight=1\teffective=10%\n"
+        return json.dumps(self.sample_data)
 
     def test_both_ratings_append_exact_source_and_notes(self):
         for rating in ("LGTM", "JANK"):
@@ -73,15 +84,44 @@ class ReviewTests(unittest.TestCase):
         source.parent.mkdir()
         source.write_text("", encoding="utf-8")
         review = Review(self.root, self.review.binary, self.feedback)
-        with patch("review_dashboard.subprocess.run") as run:
-            run.return_value.stdout = "Generated α\r\n"
-            sample = review.sample("generated")
+        self.sample_data = {"path": "generated", "kind": "generator", "record_index": None,
+                            "text": "Generated α"}
+        sample = review.sample("generated")
         self.assertEqual(sample["text"], "Generated α")
-        self.assertEqual(run.call_args.args[0][-1], sample["seed"])
+        self.assertEqual(self.invoke.call_args.args[0],
+                         ["--seed", sample["seed"], "--family", "generated", "--json"])
         review.save(sample["id"], "JANK", "")
         text = self.feedback.read_text(encoding="utf-8")
         self.assertIn(f"--seed {sample['seed']}", text)
         self.assertIn(review.binary_hash, text)
+
+    def test_cli_invocation_passes_scope_and_seed(self):
+        self.invoke_patch.stop()
+
+        def run(args, **kwargs):
+            stdout = self.invoke_fixture(args[1:])
+            return subprocess.CompletedProcess(args, 0, stdout, "")
+
+        with patch("review_dashboard.subprocess.run", side_effect=run) as cli:
+            review = Review(self.root, self.review.binary, self.feedback)
+            with patch("review_dashboard.random.getrandbits", return_value=42):
+                review.sample()
+                self.assertEqual(cli.call_args.args[0], [str(review.binary), "--seed", "42", "--json"])
+                sample = review.sample("demo")
+                self.assertEqual(cli.call_args.args[0],
+                                 [str(review.binary), "--seed", "42", "--family", "demo", "--json"])
+        self.assertEqual(sample["command"], "inspire --seed 42 --family demo")
+
+    def test_stale_source_cannot_replace_embedded_sample_or_metadata(self):
+        self.sample_data["text"] = "Text embedded in an older binary"
+        sample = self.review.sample()
+        self.assertEqual(sample["text"], "Text embedded in an older binary")
+        self.assertNotIn("record_id", sample)
+        self.assertNotIn("provenance", sample)
+        self.review.save(sample["id"], "LGTM", "")
+        text = self.feedback.read_text(encoding="utf-8")
+        self.assertIn(sample["command"], text)
+        self.assertIn(sample["binary_sha256"], text)
 
     def test_http_save_validation_and_origin(self):
         server = ThreadingHTTPServer(("127.0.0.1", 0), handler_for(self.review))

@@ -67,6 +67,29 @@ impl Tree<'_> {
         index
     }
 
+    pub fn path(&self, mut index: usize) -> String {
+        let mut segments = Vec::new();
+        while index != 0 {
+            segments.push(self.name(index));
+            index = self
+                .nodes
+                .iter()
+                .position(|node| match node.source {
+                    Source::Branch {
+                        first_child,
+                        child_count,
+                        ..
+                    } => self
+                        .child_range(first_child, child_count)
+                        .contains(&(index as u32)),
+                    _ => false,
+                })
+                .expect("every non-root node has a parent");
+        }
+        segments.reverse();
+        segments.join("/")
+    }
+
     pub fn listing(&self) -> String {
         let mut output = String::new();
         self.visit(0, 0, 1.0, &mut String::new(), &mut output);
@@ -220,6 +243,7 @@ mod tests {
             ("disabled/leaf", 2),
         ] {
             assert_eq!(FIXTURE.resolve(path), Some(index));
+            assert_eq!(FIXTURE.path(index), path);
         }
         for path in [
             "",

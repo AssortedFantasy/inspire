@@ -42,6 +42,61 @@ fn default_sampling_supports_seeded_and_os_random_runs() {
 }
 
 #[test]
+fn json_sampling_matches_plain_cli_for_identical_seeds_and_scopes() {
+    let listing = String::from_utf8(invoke(&["--list"]).stdout).unwrap();
+    let mut scopes = vec![""];
+    scopes.extend(listing.lines().filter_map(|line| {
+        let path = line.split_whitespace().next().unwrap();
+        (!path.contains('/')).then_some(path)
+    }));
+    // Include explicit leaves to check record indexes and generator metadata.
+    for kind in ["[corpus]", "[generator]"] {
+        scopes.push(
+            listing
+                .lines()
+                .find(|line| line.contains(kind))
+                .unwrap()
+                .split_whitespace()
+                .next()
+                .unwrap(),
+        );
+    }
+    for scope in scopes {
+        for seed in ["0", "42", "18446744073709551615"] {
+            let mut args = vec!["--seed", seed];
+            if !scope.is_empty() {
+                args.extend(["--family", scope]);
+            }
+            let plain = invoke(&args);
+            args.push("--json");
+            let encoded = invoke(&args);
+            assert!(plain.status.success(), "{:?}", plain.stderr);
+            assert!(encoded.status.success(), "{:?}", encoded.stderr);
+            let sample: serde_json::Value = serde_json::from_slice(&encoded.stdout).unwrap();
+            assert_eq!(
+                plain.stdout,
+                format!("{}\n", sample["text"].as_str().unwrap()).as_bytes()
+            );
+            let path = sample["path"].as_str().unwrap();
+            assert!(scope.is_empty() || path == scope || path.starts_with(&format!("{scope}/")));
+            if sample["kind"] == "record" {
+                let source = std::path::Path::new(env!("CARGO_MANIFEST_DIR"))
+                    .join("families")
+                    .join(path)
+                    .join("records.json");
+                let records: serde_json::Value =
+                    serde_json::from_slice(&std::fs::read(source).unwrap()).unwrap();
+                let index = sample["record_index"].as_u64().unwrap() as usize;
+                assert_eq!(records[index]["text"], sample["text"]);
+            } else {
+                assert_eq!(sample["kind"], "generator");
+                assert!(sample["record_index"].is_null());
+            }
+        }
+    }
+}
+
+#[test]
 fn listing_and_help_respect_the_cli_contract() {
     let list = invoke(&["--list"]);
     assert!(list.status.success());

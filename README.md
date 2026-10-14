@@ -50,15 +50,18 @@ tool rebuilds the current dataset and opens `http://127.0.0.1:8766/`. It require
 Python 3 and Cargo, with no additional Python or frontend dependencies.
 
 Read the sample, optionally write notes, and click **LGTM** or **JANK** to save
-and load another random sample. The family selector narrows the review. Sampling
-gives each leaf an equal chance, then picks a random record or generator seed;
-this exposes small leaves as well as large corpora, independently of CLI weights.
+and load another random sample. The family selector narrows the review. Every
+sample invokes the CLI with a random seed and uses its weighted tree and embedded
+payloads, exactly as ordinary CLI sampling does. Selecting a family passes that
+branch to `--family`.
 
 Feedback appends to `reviews/human-feedback.md`, including the full text, source
-path, record ID and provenance, or generator seed and binary hash. Notes stay
+path, seed, reproduction command, and binary hash. Matching source records also
+include their ID and provenance. Notes stay
 literal Markdown code blocks for later AI review. Feedback survives restarts;
-the on-screen count covers the current session. The tool reads source records
-and invokes the CLI only for generated samples; it is not embedded in Inspire.
+the on-screen count covers the current session. The review UI is not embedded
+in Inspire; it uses the CLI's `--json` output to identify the selected leaf and
+record without changing sampling or embedding source metadata.
 
 Use `--feedback PATH` for a different file, `--port 0` for an available port,
 `--no-open` to skip opening the browser, or `--binary target/release/inspire.exe`

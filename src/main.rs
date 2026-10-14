@@ -55,7 +55,18 @@ fn run() -> Result<String, String> {
         None => StdRng::try_from_os_rng().map_err(|e| format!("cannot obtain randomness: {e}"))?,
     };
     let leaf = TREE.sample_leaf(start, &mut rng);
-    PAYLOADS.render(NODES[leaf].source, &mut rng)
+    if options.json {
+        let (text, record_index) = PAYLOADS.render_sample(NODES[leaf].source, &mut rng)?;
+        Ok(serde_json::json!({
+            "text": text,
+            "path": TREE.path(leaf),
+            "kind": if record_index.is_some() { "record" } else { "generator" },
+            "record_index": record_index,
+        })
+        .to_string())
+    } else {
+        PAYLOADS.render(NODES[leaf].source, &mut rng)
+    }
 }
 
 fn main() {

@@ -15,13 +15,23 @@ pub struct Payloads<'a> {
 
 impl Payloads<'_> {
     pub fn render(&self, source: Source, rng: &mut StdRng) -> Result<String, String> {
+        self.render_sample(source, rng).map(|(text, _)| text)
+    }
+
+    /// The optional index is zero-based within the selected corpus.
+    pub fn render_sample(
+        &self,
+        source: Source,
+        rng: &mut StdRng,
+    ) -> Result<(String, Option<u32>), String> {
         match source {
             Source::Branch { .. } => unreachable!("sample a leaf before rendering"),
-            Source::Generator(index) => Ok(self.generators[index as usize](rng)),
+            Source::Generator(index) => Ok((self.generators[index as usize](rng), None)),
             Source::Corpus(index) => {
                 let corpus = &self.corpuses[index as usize];
                 let selected = rng.random_range(0..u64::from(corpus.record_count)) as usize;
                 self.record_text(corpus.first_record as usize + selected)
+                    .map(|text| (text, Some(selected as u32)))
             }
         }
     }

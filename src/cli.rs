@@ -15,12 +15,13 @@ pub struct Options {
     pub family: Option<String>,
     pub seed: Option<u64>,
     pub port: Option<u16>,
+    pub json: bool,
 }
 
 pub const HELP: &str = "Generates a bit of inspiration";
 
 pub const FULL_HELP: &str = "
-Usage: inspire [--family PATH] [--seed INTEGER]
+Usage: inspire [--family PATH] [--seed INTEGER] [--json]
        inspire --list
        inspire --dashboard [--port INTEGER]
        inspire --data-licenses
@@ -28,6 +29,7 @@ Usage: inspire [--family PATH] [--seed INTEGER]
 Options:
   --family PATH   Sample a branch or leaf, e.g. games/chance/dice (use / on all platforms)
   --seed INTEGER  Reproduce a sample with an unsigned 64-bit seed
+  --json          Emit sample text, selected leaf, and record index as JSON
   --list          Show the tree, local weights, and effective probabilities
   --data-licenses Show source attribution and bundled dataset licenses
   --dashboard     Serve the output dashboard locally (Ctrl+C to stop)
@@ -45,9 +47,16 @@ pub fn parse(args: impl IntoIterator<Item = String>) -> Result<Options, String> 
         family: None,
         seed: None,
         port: None,
+        json: false,
     };
     while let Some(arg) = args.next() {
         match arg.as_str() {
+            "--json" => {
+                if options.json {
+                    return Err("--json specified twice".into());
+                }
+                options.json = true;
+            }
             "--family" => {
                 if options.family.is_some() {
                     return Err("--family specified twice".into());
@@ -103,6 +112,9 @@ pub fn parse(args: impl IntoIterator<Item = String>) -> Result<Options, String> 
     if options.port.is_some() && options.action != Action::Dashboard {
         return Err("--port applies only with --dashboard".into());
     }
+    if options.json && options.action != Action::Sample {
+        return Err("--json applies only when sampling".into());
+    }
     Ok(options)
 }
 
@@ -125,6 +137,8 @@ mod tests {
             vec!["--dashboard", "--list"],
             vec!["--dashboard", "--port", "65536"],
             vec!["--dashboard", "--port"],
+            vec!["--json", "--list"],
+            vec!["--json", "--json"],
         ] {
             assert!(parse(args.into_iter().map(str::to_owned)).is_err());
         }

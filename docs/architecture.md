@@ -50,7 +50,8 @@ and byte offsets are checked at build time to fit `u32`; weight totals use `u64`
 
 Full paths are not embedded. Explicit family lookup walks path segments using
 binary search among sorted child names. Listing constructs paths with one reusable
-buffer. Sampling only reads nodes and child indexes, without accessing names.
+buffer. Plain-text sampling only reads nodes and child indexes, without accessing
+names. JSON output reconstructs the selected leaf path from its ancestors.
 
 ## Runtime and probabilities
 
@@ -64,6 +65,13 @@ buffer. Sampling only reads nodes and child indexes, without accessing names.
    reuses the decompression buffer for the output string. The decoded-length bound
    limits decompression. For a generator, call its function with the same RNG.
 6. Write the stimulus plus a newline and exit.
+
+`--json` uses the same RNG draws and emits `text`, `path`, `kind`, and
+`record_index` (zero-based within a corpus, or null for a generator). The external
+human review dashboard invokes this mode with a random seed and optional family,
+so its distribution and text match ordinary CLI sampling. Source record IDs and
+provenance are attached by Python only when the source text matches the embedded
+record; they are not embedded in the executable.
 
 For a node c under parent p:
 
