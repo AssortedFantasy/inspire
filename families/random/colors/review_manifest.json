@@ -1,0 +1,101 @@
+[
+  {
+    "path": "random/colors/palettes/cartographic/diverging",
+    "agent": "/root/random/colors/palettes/cartographic/diverging",
+    "checks": [
+      "81 records across nine schemes exactly match pinned source, RGB conversion and order.",
+      "Strict schema, unique IDs, class/category mapping, provenance and attribution pass.",
+      "Both arms strictly brighten toward center; all nine maximum-class schemes visually reviewed; no corrections needed."
+    ]
+  },
+  {
+    "path": "random/colors/palettes/cartographic/qualitative",
+    "agent": "/root/random/colors/palettes/cartographic/qualitative",
+    "checks": [
+      "58 records across eight schemes exactly match pinned source and RGB conversion/order.",
+      "Strict schema, unique IDs/text/colors, category/class coverage, provenance and attribution pass.",
+      "All eight largest palettes visually inspected; categorical labels correct; no corrections needed."
+    ]
+  },
+  {
+    "path": "random/colors/palettes/cartographic/sequential",
+    "agent": "/root/random/colors/palettes/cartographic/sequential",
+    "checks": [
+      "125 records across 18 schemes exactly match pinned source and importer.",
+      "Strict schema, unique IDs/text, class sizes/colors, provenance and attribution pass.",
+      "All scales strictly decrease relative luminance; all 18 maximum-class schemes visually reviewed; no corrections needed."
+    ]
+  },
+  {
+    "path": "random/colors/palettes/contrast/wcag-pairs",
+    "agent": "/root/random/colors/palettes/contrast/wcag_pairs",
+    "checks": [
+      "Verified exact quantized sRGB WCAG luminance and >=4.5 threshold against W3C; bounded 48-candidate search and black/white fallback sound.",
+      "Added RGB coefficient references and bytes 10/11 transfer-boundary tests; four isolated tests pass including 10,000 pairs and 500 parsed reported ratios.",
+      "Actual seeded outputs varied and coherent; README updated; formatting passes."
+    ]
+  },
+  {
+    "path": "random/colors/palettes/harmony/analogous",
+    "agent": "/root/random/colors/palettes/harmony/analogous",
+    "checks": [
+      "Four isolated tests pass: 10,000 seeded palettes and exhaustive 360 hues x 11 spacings x lightness boundaries; five distinct RGB8 swatches and adjacent RGB distance >=7.",
+      "Twelve rendered palettes visually reviewed; added invariant tests and leaf README; formatting passes."
+    ]
+  },
+  {
+    "path": "random/colors/palettes/harmony/complementary",
+    "agent": "/root/random/colors/palettes/harmony/complementary",
+    "checks": [
+      "Varied tint lightness 80-90% and shade 18-28% with exact opposite hues and matched tint roles.",
+      "Two isolated tests pass over 10,000 seeded palettes: reproducibility, coverage, RGB uniqueness, hue/saturation relations, luminance ordering.",
+      "Six actual seeded outputs visually reviewed; added leaf README; formatting passes."
+    ]
+  },
+  {
+    "path": "random/colors/palettes/scales/diverging",
+    "agent": "/root/random/colors/palettes/scales/diverging",
+    "checks": [
+      "Replaced six RGB-axis pairings with continuous OKLCH hue pairs 120-240 degrees apart, mirrored lightness/chroma wings, neutral midpoint and shared bounded gamut fit.",
+      "Three isolated tests passed with -D warnings: reference conversions/byte roundtrips, 2,592 boundary palettes, 2,000 seeded palettes; checked balanced wings, uniqueness, luminance rise/fall and reproducibility.",
+      "Sixteen rendered seeded palettes visually inspected; leaf README updated; formatting passes."
+    ]
+  },
+  {
+    "path": "random/colors/palettes/scales/sequential",
+    "agent": "/root/random/colors/palettes/scales/sequential",
+    "checks": [
+      "Replaced uneven linear-sRGB ramp with same-hue OKLCH, equally spaced lightness, sine chroma envelope and bounded hue-preserving gamut fitting.",
+      "Three isolated tests passed: reference conversions/byte roundtrips, 14,400 boundary ramps, 2,000 seeded emitted palettes; checked gamut, lightness/hue fidelity, monotonic luminance, lightness gap, distinctness and reproducibility.",
+      "Twelve rendered seeded swatch rows visually inspected; leaf README updated; formatting passes."
+    ]
+  },
+  {
+    "path": "random/colors/representations/hex",
+    "agent": "/root/random/colors/representations/hex",
+    "checks": [
+      "Reviewed 12 actual samples; two isolated generator tests verify exhaustive byte hex round-trip, deterministic supplied RNG draws, valid opaque CSS syntax and broad full-byte diversity. No corrections needed."
+    ]
+  },
+  {
+    "path": "random/colors/representations/hsl",
+    "agent": "/root/random/colors/representations/hsl",
+    "checks": [
+      "Reviewed 16 actual samples and W3C HSL semantics; 10,000-output test verifies legal HSL domains, positive chroma and coverage of hue, saturation and lightness. No corrections needed."
+    ]
+  },
+  {
+    "path": "random/colors/representations/oklch",
+    "agent": "/root/random/colors/representations/oklch",
+    "checks": [
+      "Reviewed 32 actual samples converted to sRGB; compared conversion matrices to primary public-domain Oklab source; three rebuilt isolated tests verify known red/neutral coordinates, grid gamut boundary search and 10,000 emitted decimal coordinates remaining in gamut. No corrections needed."
+    ]
+  },
+  {
+    "path": "random/colors/representations/rgb",
+    "agent": "/root/random/colors/representations/rgb",
+    "checks": [
+      "Reviewed 32 actual samples and checked W3C CSS syntax; two isolated tests verify exhaustive decimal byte encoding and preservation of independent uniform RNG channel draws. No corrections needed."
+    ]
+  }
+]

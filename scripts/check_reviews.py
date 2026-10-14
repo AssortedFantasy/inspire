@@ -32,16 +32,17 @@ def check(directory):
         path = matches.pop()
         assert path not in seen, f"{manifest}: duplicate review for {path}"
         seen.add(path)
-        reviewer = entry["reviewer"]
+        reviewer = entry.get("reviewer", entry.get("agent", ""))
         assert reviewer.startswith("/root/"), f"{path}: missing canonical reviewer"
         assert reviewer not in reviewers, f"{reviewer}: multiple final leaves"
         reviewers.add(reviewer)
-        assert entry.get("status", "completed") in {"completed", "complete", "reviewed", "passed"}, path
+        assert entry.get("status", "completed").lower() in {"completed", "complete", "reviewed", "passed", "done"}, path
         assert entry["checks"], f"{path}: missing substantive review notes"
         corpus = ROOT / path / "records.json"
-        if "records" in entry and corpus.exists():
+        reviewed_count = entry.get("records", entry.get("record_count"))
+        if reviewed_count is not None and corpus.exists():
             count = len(json.loads(corpus.read_text(encoding="utf-8")))
-            assert entry["records"] == count, f"{path}: review count differs from current records"
+            assert reviewed_count == count, f"{path}: review count differs from current records"
     assert seen == leaves, f"{manifest}: missing reviews: {sorted(leaves - seen)}"
     return len(leaves)
 

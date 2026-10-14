@@ -1,7 +1,18 @@
 # Colors
 
-One bare CSS color value, with randomly selected notation: six/eight-digit hex,
-integer/percentage RGB, legacy RGBA, or modern HSL with optional alpha. Channels
-stay within CSS ranges; alpha is at least 25%. No contrast or palette constraint.
+Separate CSS color representations and structured palettes. The incoming weight
+remains 2. `palettes` has weight 3 and `representations` weight 1, so three
+quarters of color samples are useful multi-color objects.
 
-Syntax reference: [CSS Color 4](https://www.w3.org/TR/css-color-4/).
+- `representations/{hex,rgb,hsl,oklch}`: one opaque color per precise notation.
+- `palettes/harmony/{analogous,complementary}`: constrained HSL hue relationships.
+- `palettes/scales/{sequential,diverging}`: ordered OKLCH scales with
+  hue-preserving gamut fitting into sRGB.
+- `palettes/contrast/wcag-pairs`: measured opaque text/background pairs ≥4.5:1.
+- `palettes/cartographic/{sequential,diverging,qualitative}`: 264 pinned official
+  ColorBrewer palettes, separated by data semantics, with source/license notes
+  and a reproducible importer.
+
+Runtime remains offline; notation, palettes, source data and validation details
+are documented within each branch. Palettes do not imply accessibility unless
+an explicit contrast calculation supports it.
