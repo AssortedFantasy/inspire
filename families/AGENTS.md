@@ -2,6 +2,48 @@
 
 Add or move directories and rebuild to change the sampling tree.
 
+## Output preferences
+
+Prioritize the content printed by Inspire: variety, clarity, and interest.
+See [human feedback](../reviews/human-feedback.md) for concrete examples. Its
+sample frequencies reflect the review dashboard's selection method; do not infer
+runtime weights or rebalance the tree from those frequencies.
+
+- Lead with the material. Avoid introductions, repeated explanations, and generic
+  boilerplate. A compact recipe, object, or construction is better than a
+  description of the dataset that supplied it.
+- Keep download URLs, repository links, checksums, retrieval dates, snapshot
+  labels, license boilerplate, and internal record/paragraph/poem IDs in
+  `provenance`, source notes, or bundled notices. Keep meaningful author/work
+  credit for quotations and historical context where it helps understand them.
+- Do not add editorial "this is X, not Y" or "these are X, not a claim of Y"
+  framing. State the fact or assumption directly. Preserve mathematical negation,
+  intrinsic rules, and wording inside authentic quotations.
+- Include units, defining relations, and conditions needed to interpret the
+  output. Integrate qualifications briefly instead of appending disclaimers.
+- Use practical precision for approximate quantities; keep exact integers and
+  fractions exact. Avoid long decimal dumps.
+- Prefer ordinary `-` separators to repeated em dashes in generated framing.
+  Preserve the wording and punctuation of literary quotations.
+
+## Efficient work
+
+- Use `gpt-6-luna` with high reasoning for delegated leaf implementation. Assign
+  bounded tasks; one agent may apply a shared formatting fix to several leaves.
+- Fix shared boilerplate in its common formatter, then pass over affected leaves
+  for content-specific problems. Update records and their producer together so
+  regeneration preserves the change.
+- Commit completed leaves or small coherent batches promptly. Do not wait for
+  an entire family or a separate chain of reviewers.
+- Test at integration points after a coherent batch. Avoid separate Cargo builds,
+  exhaustive seed sweeps, and repeated source audits for each leaf. Add or adapt
+  substantive invariant tests when behavior changes, not for wording alone.
+- Inspect representative outputs and feedback examples, fix concrete defects,
+  and finish. Review manifests and a dedicated reviewer per leaf are not required
+  for routine maintenance. Do not restart historical review queues unless asked.
+- Preserve provenance and bundled notices. Output cleanup does not require new
+  downloads or reopening settled sourcing decisions.
+
 ## Content rules
 
 Emit self-contained material: a fact, name, quotation, mathematical object,
@@ -49,8 +91,9 @@ an LLM-authored record was downloaded from, or checked against, that source.
 
 Store required full dataset notices in a file named `LICENSE`, `LICENSE.txt`, or
 `LICENSE.md` within the associated branch. The build embeds those files for
-`--data-licenses`. Attribution required with each sampled record belongs in its
-emitted `text` as well. See [dataset redistribution notes](../DATA_SOURCES.md).
+`--data-licenses`. Keep source credit and modification notes there and in
+provenance rather than repeating long notices in sampled text.
+See [dataset redistribution notes](../DATA_SOURCES.md).
 
 ## Node rules
 
@@ -83,8 +126,8 @@ Create a leaf directory anywhere under a branch and add `records.json`:
 The array must be nonempty. IDs must be nonblank and unique within this dataset.
 Text must be nonblank and cannot contain NUL (`\u0000`).
 Provenance must be nonblank. All three fields are required; unknown fields fail
-the build. Metadata stays in source; place any attribution that must accompany
-the stimulus in `text`. Label invented material honestly.
+the build. Metadata stays in source; sampled text focuses on the material.
+Label invented material honestly in its provenance.
 
 See the corpora under `geography/` for examples. Records are sampled uniformly.
 Rebuild and try `inspire --family geography --seed 42`.
@@ -109,8 +152,8 @@ pub fn generate(rng: &mut StdRng) -> String {
 }
 ```
 
-The build compiles and registers it automatically. Put invariant tests in a
-`#[cfg(test)] mod tests` in this file; they run under `cargo test`.
+The build compiles and registers it automatically. Substantive invariant tests
+belong in `#[cfg(test)] mod tests`; run them at integration points under `cargo test`.
 See `math/algebra/polynomials/identities/generator.rs` for equality checks.
 
 Return a nonblank stimulus without a trailing newline. Use only the supplied RNG

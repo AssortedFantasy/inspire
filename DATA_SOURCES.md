@@ -3,7 +3,8 @@
 Inspire embeds transformed source records and procedural generators. Source
 versions, download URLs, checksums, filters, and reuse terms are recorded in the
 family READMEs and development-time importers. Record provenance remains in the
-source JSON; attribution required with a sampled record appears in its text.
+source JSON. Dataset credit, modification notes and full notices travel with the
+executable through `--data-licenses`; ordinary sampled text focuses on the material.
 
 Public-domain geographic names, historical texts, and government data coexist
 with datasets carrying their own licenses. These licenses apply to the associated
