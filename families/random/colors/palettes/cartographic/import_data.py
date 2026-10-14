@@ -13,7 +13,6 @@ import urllib.request
 REVISION = "7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f"
 URL = f"https://raw.githubusercontent.com/axismaps/colorbrewer/{REVISION}/export/colorbrewer.json"
 SHA256 = "729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9"
-ATTRIBUTION = "This product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/)."
 KINDS = {"seq": "sequential", "div": "diverging", "qual": "qualitative"}
 
 
@@ -39,8 +38,8 @@ def transform(raw):
             label = "Ordered light-to-dark scale" if kind == "sequential" else "Ordered two-sided scale" if kind == "diverging" else "Categorical colors (no numeric order)"
             result[kind].append({
                 "id": f"colorbrewer-{name.lower()}-{count}",
-                "text": f"ColorBrewer {name}, {count} classes ({kind}).\n{label}: {', '.join(colors)}\n{ATTRIBUTION}",
-                "provenance": f"Official ColorBrewer export, revision {REVISION}; {URL}; SHA-256 {SHA256}; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal.",
+                "text": f"ColorBrewer {name}, {count} classes ({kind}).\n{label}: {', '.join(colors)}",
+                "provenance": f"ColorBrewer export by Cynthia Brewer, revision {REVISION}; {URL}; SHA-256 {SHA256}; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal.",
             })
     if len(data) != 35 or {kind: len(rows) for kind, rows in result.items()} != {"sequential": 125, "diverging": 81, "qualitative": 58}:
         raise ValueError("Unexpected source coverage")

@@ -117,7 +117,7 @@ def imported(cache):
             if title == "Iced Tea":
                 foundation = " ".join(available["How to Make Tea"][0][1][2:]).split(" Avoid second steeping")[0]
                 body += "\nFoundation method (tea infusion, using quantities above): " + foundation
-            text = f"Historical recipe: {title}\nFannie Merritt Farmer, revised 1910 edition; {chapter}. Original period measures and oven terms.\n{body}"
+            text = f"Historical recipe: {title}\nFannie Merritt Farmer, revised 1910 edition; {chapter}.\n{body}"
             row = {"id": "farmer-1910-" + slug(chapter.split()[1]) + "-" + slug(title), "text": text,
                    "provenance": f"Downloaded public-domain primary text, Fannie Merritt Farmer, The Boston Cooking-School Cook Book (1910), {chapter}, heading {title!r}. {SOURCES['farmer.html'][0]}; SHA256 {SOURCES['farmer.html'][1]}. HTML stripped, whitespace normalized, page numbers and image captions omitted; selected foundation methods appended verbatim. Tea's concluding medical claim and lemonade's storage sentence omitted."}
             output.setdefault("cooking/historical-recipes/" + category, []).append(row)

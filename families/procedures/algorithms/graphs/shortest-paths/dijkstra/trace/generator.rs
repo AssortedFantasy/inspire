@@ -49,7 +49,7 @@ pub fn generate(rng: &mut StdRng) -> String {
     let (n, edges, source) = instance(rng);
     let (distances, predecessors, order) = execute(n, &edges, source);
     let mut text = format!(
-        "Dijkstra execution\nDirected graph; vertices 0..{}; edges (from, to, nonnegative weight): {edges:?}\nSource: {source}; distance ties settle the smaller vertex; equal-length alternatives do not change predecessors.\nSettlement order: {order:?}",
+        "Dijkstra execution\nDirected graph; vertices 0..{}; edges (from, to, nonnegative weight): {edges:?}\nStart vertex: {source}; distance ties settle the smaller vertex; equal-length alternatives do not change predecessors.\nSettlement order: {order:?}",
         n - 1
     );
     for (v, distance) in distances.iter().enumerate() {

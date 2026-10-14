@@ -40,7 +40,7 @@ pub fn generate(rng: &mut StdRng) -> String {
     let source = candidates[rng.random_range(0..candidates.len())];
     let (distances, order) = bfs(&graph, source);
     let mut text = format!(
-        "Breadth-first search execution\nUndirected unweighted graph; vertices 0..{}; neighbors visited in ascending order.\nSource: {source}",
+        "Breadth-first search execution\nUndirected unweighted graph; vertices 0..{}; neighbors visited in ascending order.\nStart vertex: {source}",
         graph.len() - 1
     );
     for (v, neighbors) in graph.iter().enumerate() {

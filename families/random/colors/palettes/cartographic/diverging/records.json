@@ -1,407 +1,407 @@
 [
   {
     "id": "colorbrewer-brbg-3",
-    "text": "ColorBrewer BrBG, 3 classes (diverging).\nOrdered two-sided scale: #d8b365, #f5f5f5, #5ab4ac\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer BrBG, 3 classes (diverging).\nOrdered two-sided scale: #d8b365, #f5f5f5, #5ab4ac",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-brbg-4",
-    "text": "ColorBrewer BrBG, 4 classes (diverging).\nOrdered two-sided scale: #a6611a, #dfc27d, #80cdc1, #018571\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer BrBG, 4 classes (diverging).\nOrdered two-sided scale: #a6611a, #dfc27d, #80cdc1, #018571",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-brbg-5",
-    "text": "ColorBrewer BrBG, 5 classes (diverging).\nOrdered two-sided scale: #a6611a, #dfc27d, #f5f5f5, #80cdc1, #018571\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer BrBG, 5 classes (diverging).\nOrdered two-sided scale: #a6611a, #dfc27d, #f5f5f5, #80cdc1, #018571",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-brbg-6",
-    "text": "ColorBrewer BrBG, 6 classes (diverging).\nOrdered two-sided scale: #8c510a, #d8b365, #f6e8c3, #c7eae5, #5ab4ac, #01665e\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer BrBG, 6 classes (diverging).\nOrdered two-sided scale: #8c510a, #d8b365, #f6e8c3, #c7eae5, #5ab4ac, #01665e",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-brbg-7",
-    "text": "ColorBrewer BrBG, 7 classes (diverging).\nOrdered two-sided scale: #8c510a, #d8b365, #f6e8c3, #f5f5f5, #c7eae5, #5ab4ac, #01665e\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer BrBG, 7 classes (diverging).\nOrdered two-sided scale: #8c510a, #d8b365, #f6e8c3, #f5f5f5, #c7eae5, #5ab4ac, #01665e",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-brbg-8",
-    "text": "ColorBrewer BrBG, 8 classes (diverging).\nOrdered two-sided scale: #8c510a, #bf812d, #dfc27d, #f6e8c3, #c7eae5, #80cdc1, #35978f, #01665e\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer BrBG, 8 classes (diverging).\nOrdered two-sided scale: #8c510a, #bf812d, #dfc27d, #f6e8c3, #c7eae5, #80cdc1, #35978f, #01665e",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-brbg-9",
-    "text": "ColorBrewer BrBG, 9 classes (diverging).\nOrdered two-sided scale: #8c510a, #bf812d, #dfc27d, #f6e8c3, #f5f5f5, #c7eae5, #80cdc1, #35978f, #01665e\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer BrBG, 9 classes (diverging).\nOrdered two-sided scale: #8c510a, #bf812d, #dfc27d, #f6e8c3, #f5f5f5, #c7eae5, #80cdc1, #35978f, #01665e",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-brbg-10",
-    "text": "ColorBrewer BrBG, 10 classes (diverging).\nOrdered two-sided scale: #543005, #8c510a, #bf812d, #dfc27d, #f6e8c3, #c7eae5, #80cdc1, #35978f, #01665e, #003c30\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer BrBG, 10 classes (diverging).\nOrdered two-sided scale: #543005, #8c510a, #bf812d, #dfc27d, #f6e8c3, #c7eae5, #80cdc1, #35978f, #01665e, #003c30",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-brbg-11",
-    "text": "ColorBrewer BrBG, 11 classes (diverging).\nOrdered two-sided scale: #543005, #8c510a, #bf812d, #dfc27d, #f6e8c3, #f5f5f5, #c7eae5, #80cdc1, #35978f, #01665e, #003c30\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer BrBG, 11 classes (diverging).\nOrdered two-sided scale: #543005, #8c510a, #bf812d, #dfc27d, #f6e8c3, #f5f5f5, #c7eae5, #80cdc1, #35978f, #01665e, #003c30",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-prgn-3",
-    "text": "ColorBrewer PRGn, 3 classes (diverging).\nOrdered two-sided scale: #af8dc3, #f7f7f7, #7fbf7b\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PRGn, 3 classes (diverging).\nOrdered two-sided scale: #af8dc3, #f7f7f7, #7fbf7b",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-prgn-4",
-    "text": "ColorBrewer PRGn, 4 classes (diverging).\nOrdered two-sided scale: #7b3294, #c2a5cf, #a6dba0, #008837\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PRGn, 4 classes (diverging).\nOrdered two-sided scale: #7b3294, #c2a5cf, #a6dba0, #008837",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-prgn-5",
-    "text": "ColorBrewer PRGn, 5 classes (diverging).\nOrdered two-sided scale: #7b3294, #c2a5cf, #f7f7f7, #a6dba0, #008837\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PRGn, 5 classes (diverging).\nOrdered two-sided scale: #7b3294, #c2a5cf, #f7f7f7, #a6dba0, #008837",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-prgn-6",
-    "text": "ColorBrewer PRGn, 6 classes (diverging).\nOrdered two-sided scale: #762a83, #af8dc3, #e7d4e8, #d9f0d3, #7fbf7b, #1b7837\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PRGn, 6 classes (diverging).\nOrdered two-sided scale: #762a83, #af8dc3, #e7d4e8, #d9f0d3, #7fbf7b, #1b7837",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-prgn-7",
-    "text": "ColorBrewer PRGn, 7 classes (diverging).\nOrdered two-sided scale: #762a83, #af8dc3, #e7d4e8, #f7f7f7, #d9f0d3, #7fbf7b, #1b7837\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PRGn, 7 classes (diverging).\nOrdered two-sided scale: #762a83, #af8dc3, #e7d4e8, #f7f7f7, #d9f0d3, #7fbf7b, #1b7837",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-prgn-8",
-    "text": "ColorBrewer PRGn, 8 classes (diverging).\nOrdered two-sided scale: #762a83, #9970ab, #c2a5cf, #e7d4e8, #d9f0d3, #a6dba0, #5aae61, #1b7837\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PRGn, 8 classes (diverging).\nOrdered two-sided scale: #762a83, #9970ab, #c2a5cf, #e7d4e8, #d9f0d3, #a6dba0, #5aae61, #1b7837",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-prgn-9",
-    "text": "ColorBrewer PRGn, 9 classes (diverging).\nOrdered two-sided scale: #762a83, #9970ab, #c2a5cf, #e7d4e8, #f7f7f7, #d9f0d3, #a6dba0, #5aae61, #1b7837\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PRGn, 9 classes (diverging).\nOrdered two-sided scale: #762a83, #9970ab, #c2a5cf, #e7d4e8, #f7f7f7, #d9f0d3, #a6dba0, #5aae61, #1b7837",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-prgn-10",
-    "text": "ColorBrewer PRGn, 10 classes (diverging).\nOrdered two-sided scale: #40004b, #762a83, #9970ab, #c2a5cf, #e7d4e8, #d9f0d3, #a6dba0, #5aae61, #1b7837, #00441b\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PRGn, 10 classes (diverging).\nOrdered two-sided scale: #40004b, #762a83, #9970ab, #c2a5cf, #e7d4e8, #d9f0d3, #a6dba0, #5aae61, #1b7837, #00441b",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-prgn-11",
-    "text": "ColorBrewer PRGn, 11 classes (diverging).\nOrdered two-sided scale: #40004b, #762a83, #9970ab, #c2a5cf, #e7d4e8, #f7f7f7, #d9f0d3, #a6dba0, #5aae61, #1b7837, #00441b\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PRGn, 11 classes (diverging).\nOrdered two-sided scale: #40004b, #762a83, #9970ab, #c2a5cf, #e7d4e8, #f7f7f7, #d9f0d3, #a6dba0, #5aae61, #1b7837, #00441b",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-piyg-3",
-    "text": "ColorBrewer PiYG, 3 classes (diverging).\nOrdered two-sided scale: #e9a3c9, #f7f7f7, #a1d76a\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PiYG, 3 classes (diverging).\nOrdered two-sided scale: #e9a3c9, #f7f7f7, #a1d76a",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-piyg-4",
-    "text": "ColorBrewer PiYG, 4 classes (diverging).\nOrdered two-sided scale: #d01c8b, #f1b6da, #b8e186, #4dac26\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PiYG, 4 classes (diverging).\nOrdered two-sided scale: #d01c8b, #f1b6da, #b8e186, #4dac26",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-piyg-5",
-    "text": "ColorBrewer PiYG, 5 classes (diverging).\nOrdered two-sided scale: #d01c8b, #f1b6da, #f7f7f7, #b8e186, #4dac26\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PiYG, 5 classes (diverging).\nOrdered two-sided scale: #d01c8b, #f1b6da, #f7f7f7, #b8e186, #4dac26",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-piyg-6",
-    "text": "ColorBrewer PiYG, 6 classes (diverging).\nOrdered two-sided scale: #c51b7d, #e9a3c9, #fde0ef, #e6f5d0, #a1d76a, #4d9221\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PiYG, 6 classes (diverging).\nOrdered two-sided scale: #c51b7d, #e9a3c9, #fde0ef, #e6f5d0, #a1d76a, #4d9221",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-piyg-7",
-    "text": "ColorBrewer PiYG, 7 classes (diverging).\nOrdered two-sided scale: #c51b7d, #e9a3c9, #fde0ef, #f7f7f7, #e6f5d0, #a1d76a, #4d9221\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PiYG, 7 classes (diverging).\nOrdered two-sided scale: #c51b7d, #e9a3c9, #fde0ef, #f7f7f7, #e6f5d0, #a1d76a, #4d9221",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-piyg-8",
-    "text": "ColorBrewer PiYG, 8 classes (diverging).\nOrdered two-sided scale: #c51b7d, #de77ae, #f1b6da, #fde0ef, #e6f5d0, #b8e186, #7fbc41, #4d9221\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PiYG, 8 classes (diverging).\nOrdered two-sided scale: #c51b7d, #de77ae, #f1b6da, #fde0ef, #e6f5d0, #b8e186, #7fbc41, #4d9221",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-piyg-9",
-    "text": "ColorBrewer PiYG, 9 classes (diverging).\nOrdered two-sided scale: #c51b7d, #de77ae, #f1b6da, #fde0ef, #f7f7f7, #e6f5d0, #b8e186, #7fbc41, #4d9221\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PiYG, 9 classes (diverging).\nOrdered two-sided scale: #c51b7d, #de77ae, #f1b6da, #fde0ef, #f7f7f7, #e6f5d0, #b8e186, #7fbc41, #4d9221",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-piyg-10",
-    "text": "ColorBrewer PiYG, 10 classes (diverging).\nOrdered two-sided scale: #8e0152, #c51b7d, #de77ae, #f1b6da, #fde0ef, #e6f5d0, #b8e186, #7fbc41, #4d9221, #276419\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PiYG, 10 classes (diverging).\nOrdered two-sided scale: #8e0152, #c51b7d, #de77ae, #f1b6da, #fde0ef, #e6f5d0, #b8e186, #7fbc41, #4d9221, #276419",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-piyg-11",
-    "text": "ColorBrewer PiYG, 11 classes (diverging).\nOrdered two-sided scale: #8e0152, #c51b7d, #de77ae, #f1b6da, #fde0ef, #f7f7f7, #e6f5d0, #b8e186, #7fbc41, #4d9221, #276419\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PiYG, 11 classes (diverging).\nOrdered two-sided scale: #8e0152, #c51b7d, #de77ae, #f1b6da, #fde0ef, #f7f7f7, #e6f5d0, #b8e186, #7fbc41, #4d9221, #276419",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-puor-3",
-    "text": "ColorBrewer PuOr, 3 classes (diverging).\nOrdered two-sided scale: #f1a340, #f7f7f7, #998ec3\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PuOr, 3 classes (diverging).\nOrdered two-sided scale: #f1a340, #f7f7f7, #998ec3",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-puor-4",
-    "text": "ColorBrewer PuOr, 4 classes (diverging).\nOrdered two-sided scale: #e66101, #fdb863, #b2abd2, #5e3c99\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PuOr, 4 classes (diverging).\nOrdered two-sided scale: #e66101, #fdb863, #b2abd2, #5e3c99",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-puor-5",
-    "text": "ColorBrewer PuOr, 5 classes (diverging).\nOrdered two-sided scale: #e66101, #fdb863, #f7f7f7, #b2abd2, #5e3c99\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PuOr, 5 classes (diverging).\nOrdered two-sided scale: #e66101, #fdb863, #f7f7f7, #b2abd2, #5e3c99",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-puor-6",
-    "text": "ColorBrewer PuOr, 6 classes (diverging).\nOrdered two-sided scale: #b35806, #f1a340, #fee0b6, #d8daeb, #998ec3, #542788\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PuOr, 6 classes (diverging).\nOrdered two-sided scale: #b35806, #f1a340, #fee0b6, #d8daeb, #998ec3, #542788",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-puor-7",
-    "text": "ColorBrewer PuOr, 7 classes (diverging).\nOrdered two-sided scale: #b35806, #f1a340, #fee0b6, #f7f7f7, #d8daeb, #998ec3, #542788\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PuOr, 7 classes (diverging).\nOrdered two-sided scale: #b35806, #f1a340, #fee0b6, #f7f7f7, #d8daeb, #998ec3, #542788",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-puor-8",
-    "text": "ColorBrewer PuOr, 8 classes (diverging).\nOrdered two-sided scale: #b35806, #e08214, #fdb863, #fee0b6, #d8daeb, #b2abd2, #8073ac, #542788\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PuOr, 8 classes (diverging).\nOrdered two-sided scale: #b35806, #e08214, #fdb863, #fee0b6, #d8daeb, #b2abd2, #8073ac, #542788",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-puor-9",
-    "text": "ColorBrewer PuOr, 9 classes (diverging).\nOrdered two-sided scale: #b35806, #e08214, #fdb863, #fee0b6, #f7f7f7, #d8daeb, #b2abd2, #8073ac, #542788\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PuOr, 9 classes (diverging).\nOrdered two-sided scale: #b35806, #e08214, #fdb863, #fee0b6, #f7f7f7, #d8daeb, #b2abd2, #8073ac, #542788",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-puor-10",
-    "text": "ColorBrewer PuOr, 10 classes (diverging).\nOrdered two-sided scale: #7f3b08, #b35806, #e08214, #fdb863, #fee0b6, #d8daeb, #b2abd2, #8073ac, #542788, #2d004b\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PuOr, 10 classes (diverging).\nOrdered two-sided scale: #7f3b08, #b35806, #e08214, #fdb863, #fee0b6, #d8daeb, #b2abd2, #8073ac, #542788, #2d004b",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-puor-11",
-    "text": "ColorBrewer PuOr, 11 classes (diverging).\nOrdered two-sided scale: #7f3b08, #b35806, #e08214, #fdb863, #fee0b6, #f7f7f7, #d8daeb, #b2abd2, #8073ac, #542788, #2d004b\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer PuOr, 11 classes (diverging).\nOrdered two-sided scale: #7f3b08, #b35806, #e08214, #fdb863, #fee0b6, #f7f7f7, #d8daeb, #b2abd2, #8073ac, #542788, #2d004b",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdbu-3",
-    "text": "ColorBrewer RdBu, 3 classes (diverging).\nOrdered two-sided scale: #ef8a62, #f7f7f7, #67a9cf\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdBu, 3 classes (diverging).\nOrdered two-sided scale: #ef8a62, #f7f7f7, #67a9cf",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdbu-4",
-    "text": "ColorBrewer RdBu, 4 classes (diverging).\nOrdered two-sided scale: #ca0020, #f4a582, #92c5de, #0571b0\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdBu, 4 classes (diverging).\nOrdered two-sided scale: #ca0020, #f4a582, #92c5de, #0571b0",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdbu-5",
-    "text": "ColorBrewer RdBu, 5 classes (diverging).\nOrdered two-sided scale: #ca0020, #f4a582, #f7f7f7, #92c5de, #0571b0\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdBu, 5 classes (diverging).\nOrdered two-sided scale: #ca0020, #f4a582, #f7f7f7, #92c5de, #0571b0",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdbu-6",
-    "text": "ColorBrewer RdBu, 6 classes (diverging).\nOrdered two-sided scale: #b2182b, #ef8a62, #fddbc7, #d1e5f0, #67a9cf, #2166ac\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdBu, 6 classes (diverging).\nOrdered two-sided scale: #b2182b, #ef8a62, #fddbc7, #d1e5f0, #67a9cf, #2166ac",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdbu-7",
-    "text": "ColorBrewer RdBu, 7 classes (diverging).\nOrdered two-sided scale: #b2182b, #ef8a62, #fddbc7, #f7f7f7, #d1e5f0, #67a9cf, #2166ac\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdBu, 7 classes (diverging).\nOrdered two-sided scale: #b2182b, #ef8a62, #fddbc7, #f7f7f7, #d1e5f0, #67a9cf, #2166ac",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdbu-8",
-    "text": "ColorBrewer RdBu, 8 classes (diverging).\nOrdered two-sided scale: #b2182b, #d6604d, #f4a582, #fddbc7, #d1e5f0, #92c5de, #4393c3, #2166ac\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdBu, 8 classes (diverging).\nOrdered two-sided scale: #b2182b, #d6604d, #f4a582, #fddbc7, #d1e5f0, #92c5de, #4393c3, #2166ac",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdbu-9",
-    "text": "ColorBrewer RdBu, 9 classes (diverging).\nOrdered two-sided scale: #b2182b, #d6604d, #f4a582, #fddbc7, #f7f7f7, #d1e5f0, #92c5de, #4393c3, #2166ac\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdBu, 9 classes (diverging).\nOrdered two-sided scale: #b2182b, #d6604d, #f4a582, #fddbc7, #f7f7f7, #d1e5f0, #92c5de, #4393c3, #2166ac",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdbu-10",
-    "text": "ColorBrewer RdBu, 10 classes (diverging).\nOrdered two-sided scale: #67001f, #b2182b, #d6604d, #f4a582, #fddbc7, #d1e5f0, #92c5de, #4393c3, #2166ac, #053061\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdBu, 10 classes (diverging).\nOrdered two-sided scale: #67001f, #b2182b, #d6604d, #f4a582, #fddbc7, #d1e5f0, #92c5de, #4393c3, #2166ac, #053061",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdbu-11",
-    "text": "ColorBrewer RdBu, 11 classes (diverging).\nOrdered two-sided scale: #67001f, #b2182b, #d6604d, #f4a582, #fddbc7, #f7f7f7, #d1e5f0, #92c5de, #4393c3, #2166ac, #053061\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdBu, 11 classes (diverging).\nOrdered two-sided scale: #67001f, #b2182b, #d6604d, #f4a582, #fddbc7, #f7f7f7, #d1e5f0, #92c5de, #4393c3, #2166ac, #053061",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdgy-3",
-    "text": "ColorBrewer RdGy, 3 classes (diverging).\nOrdered two-sided scale: #ef8a62, #ffffff, #999999\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdGy, 3 classes (diverging).\nOrdered two-sided scale: #ef8a62, #ffffff, #999999",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdgy-4",
-    "text": "ColorBrewer RdGy, 4 classes (diverging).\nOrdered two-sided scale: #ca0020, #f4a582, #bababa, #404040\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdGy, 4 classes (diverging).\nOrdered two-sided scale: #ca0020, #f4a582, #bababa, #404040",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdgy-5",
-    "text": "ColorBrewer RdGy, 5 classes (diverging).\nOrdered two-sided scale: #ca0020, #f4a582, #ffffff, #bababa, #404040\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdGy, 5 classes (diverging).\nOrdered two-sided scale: #ca0020, #f4a582, #ffffff, #bababa, #404040",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdgy-6",
-    "text": "ColorBrewer RdGy, 6 classes (diverging).\nOrdered two-sided scale: #b2182b, #ef8a62, #fddbc7, #e0e0e0, #999999, #4d4d4d\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdGy, 6 classes (diverging).\nOrdered two-sided scale: #b2182b, #ef8a62, #fddbc7, #e0e0e0, #999999, #4d4d4d",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdgy-7",
-    "text": "ColorBrewer RdGy, 7 classes (diverging).\nOrdered two-sided scale: #b2182b, #ef8a62, #fddbc7, #ffffff, #e0e0e0, #999999, #4d4d4d\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdGy, 7 classes (diverging).\nOrdered two-sided scale: #b2182b, #ef8a62, #fddbc7, #ffffff, #e0e0e0, #999999, #4d4d4d",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdgy-8",
-    "text": "ColorBrewer RdGy, 8 classes (diverging).\nOrdered two-sided scale: #b2182b, #d6604d, #f4a582, #fddbc7, #e0e0e0, #bababa, #878787, #4d4d4d\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdGy, 8 classes (diverging).\nOrdered two-sided scale: #b2182b, #d6604d, #f4a582, #fddbc7, #e0e0e0, #bababa, #878787, #4d4d4d",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdgy-9",
-    "text": "ColorBrewer RdGy, 9 classes (diverging).\nOrdered two-sided scale: #b2182b, #d6604d, #f4a582, #fddbc7, #ffffff, #e0e0e0, #bababa, #878787, #4d4d4d\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdGy, 9 classes (diverging).\nOrdered two-sided scale: #b2182b, #d6604d, #f4a582, #fddbc7, #ffffff, #e0e0e0, #bababa, #878787, #4d4d4d",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdgy-10",
-    "text": "ColorBrewer RdGy, 10 classes (diverging).\nOrdered two-sided scale: #67001f, #b2182b, #d6604d, #f4a582, #fddbc7, #e0e0e0, #bababa, #878787, #4d4d4d, #1a1a1a\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdGy, 10 classes (diverging).\nOrdered two-sided scale: #67001f, #b2182b, #d6604d, #f4a582, #fddbc7, #e0e0e0, #bababa, #878787, #4d4d4d, #1a1a1a",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdgy-11",
-    "text": "ColorBrewer RdGy, 11 classes (diverging).\nOrdered two-sided scale: #67001f, #b2182b, #d6604d, #f4a582, #fddbc7, #ffffff, #e0e0e0, #bababa, #878787, #4d4d4d, #1a1a1a\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdGy, 11 classes (diverging).\nOrdered two-sided scale: #67001f, #b2182b, #d6604d, #f4a582, #fddbc7, #ffffff, #e0e0e0, #bababa, #878787, #4d4d4d, #1a1a1a",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylbu-3",
-    "text": "ColorBrewer RdYlBu, 3 classes (diverging).\nOrdered two-sided scale: #fc8d59, #ffffbf, #91bfdb\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlBu, 3 classes (diverging).\nOrdered two-sided scale: #fc8d59, #ffffbf, #91bfdb",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylbu-4",
-    "text": "ColorBrewer RdYlBu, 4 classes (diverging).\nOrdered two-sided scale: #d7191c, #fdae61, #abd9e9, #2c7bb6\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlBu, 4 classes (diverging).\nOrdered two-sided scale: #d7191c, #fdae61, #abd9e9, #2c7bb6",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylbu-5",
-    "text": "ColorBrewer RdYlBu, 5 classes (diverging).\nOrdered two-sided scale: #d7191c, #fdae61, #ffffbf, #abd9e9, #2c7bb6\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlBu, 5 classes (diverging).\nOrdered two-sided scale: #d7191c, #fdae61, #ffffbf, #abd9e9, #2c7bb6",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylbu-6",
-    "text": "ColorBrewer RdYlBu, 6 classes (diverging).\nOrdered two-sided scale: #d73027, #fc8d59, #fee090, #e0f3f8, #91bfdb, #4575b4\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlBu, 6 classes (diverging).\nOrdered two-sided scale: #d73027, #fc8d59, #fee090, #e0f3f8, #91bfdb, #4575b4",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylbu-7",
-    "text": "ColorBrewer RdYlBu, 7 classes (diverging).\nOrdered two-sided scale: #d73027, #fc8d59, #fee090, #ffffbf, #e0f3f8, #91bfdb, #4575b4\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlBu, 7 classes (diverging).\nOrdered two-sided scale: #d73027, #fc8d59, #fee090, #ffffbf, #e0f3f8, #91bfdb, #4575b4",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylbu-8",
-    "text": "ColorBrewer RdYlBu, 8 classes (diverging).\nOrdered two-sided scale: #d73027, #f46d43, #fdae61, #fee090, #e0f3f8, #abd9e9, #74add1, #4575b4\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlBu, 8 classes (diverging).\nOrdered two-sided scale: #d73027, #f46d43, #fdae61, #fee090, #e0f3f8, #abd9e9, #74add1, #4575b4",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylbu-9",
-    "text": "ColorBrewer RdYlBu, 9 classes (diverging).\nOrdered two-sided scale: #d73027, #f46d43, #fdae61, #fee090, #ffffbf, #e0f3f8, #abd9e9, #74add1, #4575b4\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlBu, 9 classes (diverging).\nOrdered two-sided scale: #d73027, #f46d43, #fdae61, #fee090, #ffffbf, #e0f3f8, #abd9e9, #74add1, #4575b4",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylbu-10",
-    "text": "ColorBrewer RdYlBu, 10 classes (diverging).\nOrdered two-sided scale: #a50026, #d73027, #f46d43, #fdae61, #fee090, #e0f3f8, #abd9e9, #74add1, #4575b4, #313695\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlBu, 10 classes (diverging).\nOrdered two-sided scale: #a50026, #d73027, #f46d43, #fdae61, #fee090, #e0f3f8, #abd9e9, #74add1, #4575b4, #313695",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylbu-11",
-    "text": "ColorBrewer RdYlBu, 11 classes (diverging).\nOrdered two-sided scale: #a50026, #d73027, #f46d43, #fdae61, #fee090, #ffffbf, #e0f3f8, #abd9e9, #74add1, #4575b4, #313695\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlBu, 11 classes (diverging).\nOrdered two-sided scale: #a50026, #d73027, #f46d43, #fdae61, #fee090, #ffffbf, #e0f3f8, #abd9e9, #74add1, #4575b4, #313695",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylgn-3",
-    "text": "ColorBrewer RdYlGn, 3 classes (diverging).\nOrdered two-sided scale: #fc8d59, #ffffbf, #91cf60\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlGn, 3 classes (diverging).\nOrdered two-sided scale: #fc8d59, #ffffbf, #91cf60",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylgn-4",
-    "text": "ColorBrewer RdYlGn, 4 classes (diverging).\nOrdered two-sided scale: #d7191c, #fdae61, #a6d96a, #1a9641\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlGn, 4 classes (diverging).\nOrdered two-sided scale: #d7191c, #fdae61, #a6d96a, #1a9641",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylgn-5",
-    "text": "ColorBrewer RdYlGn, 5 classes (diverging).\nOrdered two-sided scale: #d7191c, #fdae61, #ffffbf, #a6d96a, #1a9641\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlGn, 5 classes (diverging).\nOrdered two-sided scale: #d7191c, #fdae61, #ffffbf, #a6d96a, #1a9641",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylgn-6",
-    "text": "ColorBrewer RdYlGn, 6 classes (diverging).\nOrdered two-sided scale: #d73027, #fc8d59, #fee08b, #d9ef8b, #91cf60, #1a9850\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlGn, 6 classes (diverging).\nOrdered two-sided scale: #d73027, #fc8d59, #fee08b, #d9ef8b, #91cf60, #1a9850",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylgn-7",
-    "text": "ColorBrewer RdYlGn, 7 classes (diverging).\nOrdered two-sided scale: #d73027, #fc8d59, #fee08b, #ffffbf, #d9ef8b, #91cf60, #1a9850\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlGn, 7 classes (diverging).\nOrdered two-sided scale: #d73027, #fc8d59, #fee08b, #ffffbf, #d9ef8b, #91cf60, #1a9850",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylgn-8",
-    "text": "ColorBrewer RdYlGn, 8 classes (diverging).\nOrdered two-sided scale: #d73027, #f46d43, #fdae61, #fee08b, #d9ef8b, #a6d96a, #66bd63, #1a9850\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlGn, 8 classes (diverging).\nOrdered two-sided scale: #d73027, #f46d43, #fdae61, #fee08b, #d9ef8b, #a6d96a, #66bd63, #1a9850",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylgn-9",
-    "text": "ColorBrewer RdYlGn, 9 classes (diverging).\nOrdered two-sided scale: #d73027, #f46d43, #fdae61, #fee08b, #ffffbf, #d9ef8b, #a6d96a, #66bd63, #1a9850\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlGn, 9 classes (diverging).\nOrdered two-sided scale: #d73027, #f46d43, #fdae61, #fee08b, #ffffbf, #d9ef8b, #a6d96a, #66bd63, #1a9850",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylgn-10",
-    "text": "ColorBrewer RdYlGn, 10 classes (diverging).\nOrdered two-sided scale: #a50026, #d73027, #f46d43, #fdae61, #fee08b, #d9ef8b, #a6d96a, #66bd63, #1a9850, #006837\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlGn, 10 classes (diverging).\nOrdered two-sided scale: #a50026, #d73027, #f46d43, #fdae61, #fee08b, #d9ef8b, #a6d96a, #66bd63, #1a9850, #006837",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdylgn-11",
-    "text": "ColorBrewer RdYlGn, 11 classes (diverging).\nOrdered two-sided scale: #a50026, #d73027, #f46d43, #fdae61, #fee08b, #ffffbf, #d9ef8b, #a6d96a, #66bd63, #1a9850, #006837\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer RdYlGn, 11 classes (diverging).\nOrdered two-sided scale: #a50026, #d73027, #f46d43, #fdae61, #fee08b, #ffffbf, #d9ef8b, #a6d96a, #66bd63, #1a9850, #006837",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-spectral-3",
-    "text": "ColorBrewer Spectral, 3 classes (diverging).\nOrdered two-sided scale: #fc8d59, #ffffbf, #99d594\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer Spectral, 3 classes (diverging).\nOrdered two-sided scale: #fc8d59, #ffffbf, #99d594",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-spectral-4",
-    "text": "ColorBrewer Spectral, 4 classes (diverging).\nOrdered two-sided scale: #d7191c, #fdae61, #abdda4, #2b83ba\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer Spectral, 4 classes (diverging).\nOrdered two-sided scale: #d7191c, #fdae61, #abdda4, #2b83ba",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-spectral-5",
-    "text": "ColorBrewer Spectral, 5 classes (diverging).\nOrdered two-sided scale: #d7191c, #fdae61, #ffffbf, #abdda4, #2b83ba\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer Spectral, 5 classes (diverging).\nOrdered two-sided scale: #d7191c, #fdae61, #ffffbf, #abdda4, #2b83ba",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-spectral-6",
-    "text": "ColorBrewer Spectral, 6 classes (diverging).\nOrdered two-sided scale: #d53e4f, #fc8d59, #fee08b, #e6f598, #99d594, #3288bd\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer Spectral, 6 classes (diverging).\nOrdered two-sided scale: #d53e4f, #fc8d59, #fee08b, #e6f598, #99d594, #3288bd",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-spectral-7",
-    "text": "ColorBrewer Spectral, 7 classes (diverging).\nOrdered two-sided scale: #d53e4f, #fc8d59, #fee08b, #ffffbf, #e6f598, #99d594, #3288bd\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer Spectral, 7 classes (diverging).\nOrdered two-sided scale: #d53e4f, #fc8d59, #fee08b, #ffffbf, #e6f598, #99d594, #3288bd",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-spectral-8",
-    "text": "ColorBrewer Spectral, 8 classes (diverging).\nOrdered two-sided scale: #d53e4f, #f46d43, #fdae61, #fee08b, #e6f598, #abdda4, #66c2a5, #3288bd\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer Spectral, 8 classes (diverging).\nOrdered two-sided scale: #d53e4f, #f46d43, #fdae61, #fee08b, #e6f598, #abdda4, #66c2a5, #3288bd",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-spectral-9",
-    "text": "ColorBrewer Spectral, 9 classes (diverging).\nOrdered two-sided scale: #d53e4f, #f46d43, #fdae61, #fee08b, #ffffbf, #e6f598, #abdda4, #66c2a5, #3288bd\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer Spectral, 9 classes (diverging).\nOrdered two-sided scale: #d53e4f, #f46d43, #fdae61, #fee08b, #ffffbf, #e6f598, #abdda4, #66c2a5, #3288bd",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-spectral-10",
-    "text": "ColorBrewer Spectral, 10 classes (diverging).\nOrdered two-sided scale: #9e0142, #d53e4f, #f46d43, #fdae61, #fee08b, #e6f598, #abdda4, #66c2a5, #3288bd, #5e4fa2\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer Spectral, 10 classes (diverging).\nOrdered two-sided scale: #9e0142, #d53e4f, #f46d43, #fdae61, #fee08b, #e6f598, #abdda4, #66c2a5, #3288bd, #5e4fa2",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-spectral-11",
-    "text": "ColorBrewer Spectral, 11 classes (diverging).\nOrdered two-sided scale: #9e0142, #d53e4f, #f46d43, #fdae61, #fee08b, #ffffbf, #e6f598, #abdda4, #66c2a5, #3288bd, #5e4fa2\nThis product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).",
-    "provenance": "Official ColorBrewer export, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
+    "text": "ColorBrewer Spectral, 11 classes (diverging).\nOrdered two-sided scale: #9e0142, #d53e4f, #f46d43, #fdae61, #fee08b, #ffffbf, #e6f598, #abdda4, #66c2a5, #3288bd, #5e4fa2",
+    "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   }
 ]
