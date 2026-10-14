@@ -10,11 +10,6 @@
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
-    "id": "wn30-n-14487184",
-    "text": "Noun sense: impurity\nDefinition: the condition of being impure",
-    "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
-  },
-  {
     "id": "wn30-n-14375576",
     "text": "Noun sense: nerves\nDefinition: an uneasy psychological state",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
@@ -792,11 +787,6 @@
   {
     "id": "wn30-n-14298815",
     "text": "Noun sense: wound\nDefinition: an injury to living tissue (especially an injury involving a cut or break in the skin)",
-    "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
-  },
-  {
-    "id": "wn30-n-14052046",
-    "text": "Noun sense: health problem / ill health\nDefinition: a state in which you are unable to function normally and without pain",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   }
 ]

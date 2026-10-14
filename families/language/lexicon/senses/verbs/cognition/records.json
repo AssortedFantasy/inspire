@@ -40,18 +40,8 @@
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
-    "id": "wn30-v-00644066",
-    "text": "Verb sense: synthesize / synthesise\nDefinition: combine so as to form a more complex, product",
-    "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
-  },
-  {
     "id": "wn30-v-00708128",
     "text": "Verb sense: plot\nDefinition: plan secretly, usually something illegal",
-    "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
-  },
-  {
-    "id": "wn30-v-00642098",
-    "text": "Verb sense: divide\nDefinition: perform a division",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
@@ -717,11 +707,6 @@
   {
     "id": "wn30-v-00668805",
     "text": "Verb sense: accept\nDefinition: tolerate or accommodate oneself to",
-    "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
-  },
-  {
-    "id": "wn30-v-00641252",
-    "text": "Verb sense: deduct / subtract\nDefinition: make a subtraction",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {

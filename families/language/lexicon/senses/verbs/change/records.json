@@ -415,11 +415,6 @@
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
-    "id": "wn30-v-00358431",
-    "text": "Verb sense: die / perish / pass away / drop dead / expire / go\nDefinition: pass from physical life and lose all bodily attributes and functions necessary to sustain life",
-    "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
-  },
-  {
     "id": "wn30-v-00264386",
     "text": "Verb sense: expand / inflate\nDefinition: exaggerate or make bigger",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
