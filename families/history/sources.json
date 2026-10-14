@@ -1,0 +1,52 @@
+[
+  {
+    "book": 17150,
+    "url": "https://www.gutenberg.org/cache/epub/17150/pg17150-images.html",
+    "sha256": "df6a22d6d18c8feb1839b69fa89220e70cd918734471aae7fdf6033e26144d03",
+    "credit": "Babylonian law collection associated with Hammurabi (18th century BCE), C. H. W. Johns’s 1903 translation",
+    "citation": "Hammurabi, The Oldest Code of Laws in the World, translated by C. H. W. Johns (1903)"
+  },
+  {
+    "book": 2124,
+    "url": "https://www.gutenberg.org/files/2124/2124-h/2124-h.htm",
+    "sha256": "b6f4b82ddade93667df2588aafe7324544a69744041255fbba0b1d43573551a7",
+    "credit": "Faxian’s account of his pilgrimage of 399–414 CE, James Legge’s 1886 translation",
+    "citation": "Faxian, A Record of Buddhistic Kingdoms, translated by James Legge (1886)"
+  },
+  {
+    "book": 52868,
+    "url": "https://www.gutenberg.org/cache/epub/52868/pg52868-images.html",
+    "sha256": "a2f1ffd80ccccca5e52dcdde7f67fd8da7ed45227094b1b9f5507de2f22aecab",
+    "credit": "Edward S. Morse’s observations of Japanese domestic architecture (1889 edition)",
+    "citation": "Edward Sylvester Morse, Japanese Homes and Their Surroundings (first published 1886; downloaded edition 1889)"
+  },
+  {
+    "book": 15399,
+    "url": "https://www.gutenberg.org/files/15399/15399-h/15399-h.htm",
+    "sha256": "2db816800dd2398de0582aec3c4d50b1f974bed0fdd61cccb2e7418bd513a7e6",
+    "credit": "Olaudah Equiano’s retrospective memoir (1789)",
+    "citation": "Olaudah Equiano, The Interesting Narrative of the Life of Olaudah Equiano (1789)"
+  },
+  {
+    "book": 17520,
+    "url": "https://www.gutenberg.org/cache/epub/17520/pg17520-images.html",
+    "sha256": "fbd3fc7367c075f2459cd1d89a2bd5c55981d9ce4b9f0e601632c5cbab6291cb",
+    "credit": "Mary Wortley Montagu’s embassy-travel correspondence (1716–1718; 1790 edition)",
+    "citation": "Lady Mary Wortley Montagu, Letters of the Right Honourable Lady Mary Wortley Montagu, London edition (1790), letters of 1716–1718"
+  },
+  {
+    "book": 32474,
+    "url": "https://www.gutenberg.org/files/32474/32474-h/32474-h.htm",
+    "sha256": "8e3ead2909d198bc443061ae2aa4d55408c0999490bce52bf819b7d31f9c0542",
+    "credit": "Bernal Díaz del Castillo’s retrospective account of Mexico in 1519 (written 1568), John Ingram Lockhart’s 1844 translation",
+    "citation": "Bernal Díaz del Castillo, The Memoirs of the Conquistador Bernal Diaz del Castillo, volume I, translated by John Ingram Lockhart (1844)",
+    "encoding": "latin-1"
+  },
+  {
+    "book": 10636,
+    "url": "https://www.gutenberg.org/files/10636/10636-h/10636-h.htm",
+    "sha256": "5eecea2b8f26ce86efe6b343a71e4fe87f0769b5c46299ceb9574948633ed147",
+    "credit": "Marco Polo’s late-13th-century travel account, Henry Yule’s translation revised by Henri Cordier (1903 edition)",
+    "citation": "Marco Polo and Rustichello da Pisa, The Travels of Marco Polo, volume I, Henry Yule’s translation revised by Henri Cordier (1903)"
+  }
+]

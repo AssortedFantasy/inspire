@@ -70,7 +70,7 @@ Select any branch or leaf with `--family`. Omit it to sample the whole tree.
 | `math` | Exact algebra, analysis, geometry, graph objects, topology, and probability |
 | `mechanisms` | Mechanical, fluid, and control mechanisms |
 | `music` | Classical works, instruments, scales, harmony, rhythms, and melodic phrases |
-| `natural-world` | Species and biological traits, adaptations, plants, and natural processes |
+| `natural-world` | Species and biological traits, adaptations, plants, astronomical bodies, and natural processes |
 | `objects` | Historical museum artifacts and actual car make, model, and year combinations |
 | `people` | Notable people grouped by field |
 | `procedures` | Algorithms, crafts, cooking, and experimental methods |

@@ -38,6 +38,10 @@ def check(directory):
         reviewers.add(reviewer)
         assert entry.get("status", "completed") in {"completed", "complete", "reviewed", "passed"}, path
         assert entry["checks"], f"{path}: missing substantive review notes"
+        corpus = ROOT / path / "records.json"
+        if "records" in entry and corpus.exists():
+            count = len(json.loads(corpus.read_text(encoding="utf-8")))
+            assert entry["records"] == count, f"{path}: review count differs from current records"
     assert seen == leaves, f"{manifest}: missing reviews: {sorted(leaves - seen)}"
     return len(leaves)
 
