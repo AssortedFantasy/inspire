@@ -1,0 +1,22 @@
+Astronomical numerical-data acknowledgements
+
+These datasets format factual astronomical parameters from NASA Exoplanet Archive
+and NASA/JPL Solar System Dynamics. No article prose, images, or logos are copied.
+The numerical facts retain their source identities and bibliographic references;
+no blanket CC0 or public-domain dedication is asserted for third-party research.
+
+The NASA Exoplanet Archive is operated by the California Institute of Technology
+under contract with the National Aeronautics and Space Administration's Exoplanet
+Exploration Program. Inspire acknowledges its services and the individual default
+literature references attached to the Planetary Systems parameters.
+Acknowledgement guidance:
+https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html
+Archive publication: Christiansen et al. (2025), doi:10.3847/PSJ/ade3c2.
+
+NASA/JPL Solar System Dynamics physical parameter tables:
+https://ssd.jpl.nasa.gov/planets/phys_par.html
+https://ssd.jpl.nasa.gov/sats/phys_par/
+
+Original author/reference markers and quoted satellite-radius uncertainties are
+retained in the pinned source inputs. Each record identifies its object and source
+snapshot; formatted outputs are Inspire's curated numerical summaries.

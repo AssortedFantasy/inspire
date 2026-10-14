@@ -1,0 +1,14 @@
+{
+  "nasa-exoplanets-with-references.json": {
+    "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cpl_refname%2Cpl_orbper%2Cpl_orbperlim%2Cpl_rade%2Cpl_radelim%2Cpl_masse%2Cpl_masselim%2Cpl_msinie%2Cpl_msinielim%2Cpl_orbsmax%2Cpl_orbsmaxlim%2Cpl_orbeccen%2Cpl_orbeccenlim%2Cdisc_year%2Cdiscoverymethod+from+ps+where+default_flag%3D1&format=json",
+    "sha256": "b0d2c1dacba02ce86d9d3acee8b8f0aa672dd78e98505b79e5064533f4e83417"
+  },
+  "jpl-moon-parameters.html": {
+    "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+    "sha256": "0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10"
+  },
+  "jpl-planet-parameters.html": {
+    "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+    "sha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b"
+  }
+}

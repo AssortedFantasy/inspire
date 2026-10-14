@@ -1,0 +1,22 @@
+[
+  {
+    "id": "tide-versus-current",
+    "text": "A tide describes a recurring rise and fall in water level. A current describes water moving from place to place, and tides can drive currents.",
+    "provenance": "Original factual paraphrase. Source: NOAA National Ocean Service, Tides and Currents; https://oceanservice.noaa.gov/facts/tidescurrents.html. Consulted 2026-10-13."
+  },
+  {
+    "id": "wind-driven-currents",
+    "text": "Wind transfers motion to the ocean's surface, creating currents near coasts and across ocean basins.",
+    "provenance": "Original factual paraphrase. Source: NOAA National Ocean Service, Tides and Currents; https://oceanservice.noaa.gov/facts/tidescurrents.html. Consulted 2026-10-13."
+  },
+  {
+    "id": "thermohaline-circulation",
+    "text": "Temperature and salinity change seawater's density. Density contrasts help drive circulation that reaches from the surface to deep water.",
+    "provenance": "Original factual paraphrase. Source: NOAA National Ocean Service, Tides and Currents; https://oceanservice.noaa.gov/facts/tidescurrents.html. Consulted 2026-10-13."
+  },
+  {
+    "id": "coastal-upwelling",
+    "text": "Wind can push surface water away from a coast; water from below rises to replace it.",
+    "provenance": "Original factual paraphrase. Source: NOAA National Ocean Service, Upwelling; https://oceanservice.noaa.gov/facts/upwelling.html. Consulted 2026-10-13."
+  }
+]

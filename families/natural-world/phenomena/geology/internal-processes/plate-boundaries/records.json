@@ -1,0 +1,22 @@
+[
+  {
+    "id": "divergent-boundary",
+    "text": "At a divergent plate boundary, plates move apart. New crust can form as molten material rises into the opening.",
+    "provenance": "Original factual paraphrase. Source: US Geological Survey, Volcanoes and Plate-Tectonics Theory; https://pubs.usgs.gov/gip/volc/tectonics.html. Consulted 2026-10-13."
+  },
+  {
+    "id": "subduction",
+    "text": "At a subduction boundary, one plate descends beneath another. Many chains of volcanoes lie above these converging margins.",
+    "provenance": "Original factual paraphrase. Source: US Geological Survey, Volcanoes and Plate-Tectonics Theory; https://pubs.usgs.gov/gip/volc/tectonics.html. Consulted 2026-10-13."
+  },
+  {
+    "id": "hotspot-chain",
+    "text": "A moving plate can carry older volcanoes away from a volcanic hot spot while new ones form above it, leaving an island chain.",
+    "provenance": "Original factual paraphrase. Source: US Geological Survey, Volcanoes and Plate-Tectonics Theory; https://pubs.usgs.gov/gip/volc/tectonics.html. Consulted 2026-10-13."
+  },
+  {
+    "id": "strike-slip",
+    "text": "At a strike-slip boundary, plates move horizontally past one another.",
+    "provenance": "Original factual paraphrase. Source: US Geological Survey, Volcanoes and Plate-Tectonics Theory; https://pubs.usgs.gov/gip/volc/tectonics.html. Consulted 2026-10-13."
+  }
+]

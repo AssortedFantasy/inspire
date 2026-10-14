@@ -1,0 +1,62 @@
+[
+  {
+    "id": "noaa-glossary-anthelion",
+    "text": "Anthelion — A luminous white spot that appears on the parhelic circle at the same altitude as the sun and 180 degrees from it in azimuth.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=a; term Anthelion; downloaded 2026-10-13; input SHA256 7cdbaa30a7310ac82200624ca4a2eb31b5c3038d8cbcdbdf0e78f5b3318c9864. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-crepuscular-rays",
+    "text": "Crepuscular Rays — The alternating bands of light and dark (rays and shadows) seen at the earth's surface when the sun shines through clouds.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=c; term Crepuscular Rays; downloaded 2026-10-13; input SHA256 52b9c55ec47b208bc5e7c62af894752d068d93e2dd2c08d90e1e3aedb54abc70. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-fogbow",
+    "text": "Fogbow — A rainbow that has a white band that appears in fog, and is fringed with red on the outside and blue on the inside.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=f; term Fogbow; downloaded 2026-10-13; input SHA256 5f7ab7cfc6fbdfaf221dc35df98f6b7cebd7817a6f3fc26deddd346b599e2140. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-glory",
+    "text": "Glory — An optical effect characterized by concentric rings of color (red outermost and violet innermost) surrounding the shadow of an observer's head when the shadow is cast onto a cloud deck below the observer's elevation (see Brocken specter).",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=g; term Glory; downloaded 2026-10-13; input SHA256 de90adf98fb239c82459bdb1081837ce86150dd0f2c846535a52b59560d688d3. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-halo",
+    "text": "Halo — Any of a variety of bright circles or arcs centered on the sun or moon, caused by the refraction or reflection of light by ice crystals suspended in the earth's atmosphere and exhibiting prismatic coloration ranging from red inside to blue outside.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=h; term Halo; downloaded 2026-10-13; input SHA256 601f8372e98d8de10eb3668cf3f75a65d2f4a35474178597a0de8a4bf1b4af53. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-iridescence",
+    "text": "Iridescence — Brilliant spots or borders of colors in clouds, usually red and green, caused by diffraction of light by small cloud particles. The phenomenon is usually observed in thin cirrus clouds within about 30° of the sun and is characterized by bands of color in the cloud that contour the cloud edges.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=i; term Iridescence; downloaded 2026-10-13; input SHA256 248012b6324bab790aa947328a2d10ce8be5c21fc72eef1e1122959b1060eaeb. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-parhelion",
+    "text": "Parhelion — A sun dog: either of two colored luminous spots appearing roughly 22 degrees to either side of the Sun at the same elevation. Refraction of sunlight through ice crystals produces these spots.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=p; term Parhelion; downloaded 2026-10-13; input SHA256 389e9d00569ae88921e18ebc2bf11d83af45c0abdd906e7ecce9f1b5d4af6c24. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Original factual paraphrase of the downloaded definition. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-rainbow",
+    "text": "Rainbow — A luminous arc featuring all colors of the visible light spectrum (red, orange, yellow, green, blue, indigo, and violet). It is created by refraction, total reflection, and the dispersion of light. It is visible when the sun is shining through air containing water spray or raindrops, which occurs during or immediately after a rain shower. The bow is always observed in the opposite side of the sky from the sun.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=r; term Rainbow; downloaded 2026-10-13; input SHA256 4162f8f13f65c72b704dd552a5a68cdc34ed68d0d2aae77d015cd9a730d4ce1a. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-rayleigh-scattering",
+    "text": "Rayleigh Scattering — Changes in directions of electromagnetic energy by particles whose diameters are 1/16 wavelength or less. This type of scattering is responsible for the sky being blue.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=r; term Rayleigh Scattering; downloaded 2026-10-13; input SHA256 4162f8f13f65c72b704dd552a5a68cdc34ed68d0d2aae77d015cd9a730d4ce1a. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-refraction",
+    "text": "Refraction — A change in the direction of energy propagation as conditions change within the medium through which it travels. In the atmosphere, refraction changes the path of light and radar beams.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=r; term Refraction; downloaded 2026-10-13; input SHA256 4162f8f13f65c72b704dd552a5a68cdc34ed68d0d2aae77d015cd9a730d4ce1a. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Original factual paraphrase of the downloaded definition. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-sun-pillar",
+    "text": "Sun Pillar — A bright column above or below the sun produced by the reflection of sunlight from ice crystals.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=s; term Sun Pillar; downloaded 2026-10-13; input SHA256 fc10498908fab91e198cd9482922c1e71a2649f113127720a12594b1d7d2880b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-undersun",
+    "text": "Undersun — An optical effect seen by an observer above a cloud deck when looking toward the sun, as sunlight is reflected upwards off the faces of ice crystals in the cloud deck. [Also known as subsun.]",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=u; term Undersun; downloaded 2026-10-13; input SHA256 f5b5ad2ddb055d6a8f2caaab1c56880e4d74041d24ddee3ea6ff72c96a608491. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  }
+]

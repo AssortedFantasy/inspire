@@ -1,0 +1,3583 @@
+{
+  "source": "USDA NRCS PLANTS",
+  "downloaded": "2026-10-13",
+  "checklist": {
+    "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/Txt/plantlst.txt",
+    "sha256": "2a08310dfc2fd33dd441e935ed169ab680bcea367e7bb5fb6c11d450d0c0d0bf"
+  },
+  "terms": "https://plants.usda.gov/assets/docs/PLANTS_Help_Document_2022.pdf",
+  "excluded_profile_counts": {
+    "Lichen": 159,
+    "Monocot: no mapped growth form": 16,
+    "Dicot: no mapped growth form": 56,
+    "Green Algae": 2,
+    "Red Algae": 2
+  },
+  "profiles": [
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ABAB70",
+      "sha256": "cb6413c77b029392c7bbc0b12f9796ed4e78289c8af1cbf3b840799444d6af70",
+      "symbol": "ABAB70"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ABMA3",
+      "sha256": "ed7bb573c6b94383623bed90fb07e10a5aa7c5cffe772c59ca61b9a81b28e221",
+      "symbol": "ABMA3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ACAR10",
+      "sha256": "4d626e36814d9db672c5fb840e8329ecf8bd9625dd32a8f18bc0afba439ec426",
+      "symbol": "ACAR10"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ACGI",
+      "sha256": "21565979213382e4c382dbcc24766ced5f7cdc8cbf512136a7c6c70010f1302e",
+      "symbol": "ACGI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ACHY",
+      "sha256": "782334e0527daaa4b2c3720431cb7b2ffbdaa52e1a60e58c78b57fb54dd9bb13",
+      "symbol": "ACHY"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ACTR2",
+      "sha256": "fc6a1d96cfafaa4b5c75309e7e29110a18e0d0e4ef5581927bdfca90c16ea53a",
+      "symbol": "ACTR2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ADDI3",
+      "sha256": "9b59bf62cb3ff4b5d338ea9c0d8801aa38752c021645d3844132d904cd727b52",
+      "symbol": "ADDI3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ADHI",
+      "sha256": "c8135020319fd75e02c8925d2b6dd70b4265dfce9e3a9c1bec0f8a0bcd774af9",
+      "symbol": "ADHI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ADMO",
+      "sha256": "0e49e6f5a582a99c9187e759503c6522ae2c9ca0e89f3d0660c18e19ca933009",
+      "symbol": "ADMO"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AELA2",
+      "sha256": "ddc2bbb8130d9da292e15c38be0bdf0b0f8378b9f0f1624e6585a976cf00a7e3",
+      "symbol": "AELA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AEPA",
+      "sha256": "a3744a98af33116f74dbebc492087c15e7e599c6c952ab9be4775661d14d0ef5",
+      "symbol": "AEPA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AGPO2",
+      "sha256": "04c87d6753521d8dadb4b2937f8b0cc93fe479d14f450aa28c10f7980b109be8",
+      "symbol": "AGPO2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AGRO6",
+      "sha256": "a0b4350601af2a32d55c89c5403b40ef601bb93e9dbf676c0e1664a476634c69",
+      "symbol": "AGRO6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AKQU",
+      "sha256": "81332766037d9d7be9229f6352374b83def6bf245f7861408e52f3ef679531c1",
+      "symbol": "AKQU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ALAM3",
+      "sha256": "0c24e775d990dc663f090d1d255b99e93d603b3478bcb3920f791fccce47f6c5",
+      "symbol": "ALAM3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ALBR4",
+      "sha256": "7aa94a431817d288d697e5438bddc6fb2999c2dc8cce60f7ebf0bbe69956a547",
+      "symbol": "ALBR4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ALCH",
+      "sha256": "d10e25f518c19c99ce591938ba3d91c61c03ee7feecfa6cd03bf40e125c3481d",
+      "symbol": "ALCH"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ALGL3",
+      "sha256": "69e9dea0c89bf3d31089c19dfe5eb717002ab62bcbdf6179e2afb46ea3e75f56",
+      "symbol": "ALGL3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ALMO4",
+      "sha256": "deea776b6927691094148a12396e40c5738fcfb96be0733c8d05c7f74b7c1424",
+      "symbol": "ALMO4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ALMY",
+      "sha256": "88cd64d0db60f638681a9493d569ae4661b2bbb4c01f4ea3c318f3142b32aa85",
+      "symbol": "ALMY"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ALTI3",
+      "sha256": "efa94381a708c7272b18bfc06170d2f8658c316530c5a25c00a765bb442530d6",
+      "symbol": "ALTI3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ALVE3",
+      "sha256": "30b9e177e9478283ed9e6ca0df8a38a9ec4b9bd93d91a183299f7a9c3a069a17",
+      "symbol": "ALVE3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ALVI5",
+      "sha256": "7c20406acf0762392c80708c4eb4d81d6a45adeea465ffe4d9400a2a36585445",
+      "symbol": "ALVI5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AMDE70",
+      "sha256": "82dae8ec12414b761e9e4e25425565e7c4b429fa773185aeb1bcab0ce3558970",
+      "symbol": "AMDE70"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AMGO",
+      "sha256": "a10570e97277ab8efc13d0b33c4967154bead0297a26662d542e207d46e258a6",
+      "symbol": "AMGO"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AMMU2",
+      "sha256": "0158f361869761980b7fb72ffd4e9b4abee48041e86b2fb229203f7cb94f3377",
+      "symbol": "AMMU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANAD3",
+      "sha256": "ad505209bdf9e61676231428c4a0c79b1fa17ea5fde0be13eaf1fb9e37caa1cc",
+      "symbol": "ANAD3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANAG",
+      "sha256": "2e73f954bd6a2cfbfd9b6c1de2a9e9f30a5ad71bea160975b067ea2e149b37ca",
+      "symbol": "ANAG"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANAR2",
+      "sha256": "effa376f7182934fdcad38cbec3c788b03e558766b20cab1993952251817cbf9",
+      "symbol": "ANAR2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANEV",
+      "sha256": "753fe1aab38647440da41f9cb36d57f7a9fb43f668f1bea883ed204d970b47bd",
+      "symbol": "ANEV"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANFU6",
+      "sha256": "fd336551cf82a9c0128d7da7ca1210bf4bce70caa9fab5aef1c6a15eeea5fb74",
+      "symbol": "ANFU6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANGL5",
+      "sha256": "7402f890c7b13f7f32ddc85a86ef6709c1ca4afe1443468204a503651c5c3350",
+      "symbol": "ANGL5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANHI2",
+      "sha256": "a6c0fc72f748237018eaf6e1185341b67333aa3883a5c837839bf99dbc717b6e",
+      "symbol": "ANHI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANLA14",
+      "sha256": "c27783755790ba1bfcbc5da658c6dbd79c923fe21cdef40dbc6b3db5b1c1a4a1",
+      "symbol": "ANLA14"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANLA16",
+      "sha256": "c2fabdaecf87772eb00a6aa740bdca2f1da6c9552230f541298f90e789fee7d8",
+      "symbol": "ANLA16"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANMA15",
+      "sha256": "60937ed180664ab7db9620be9bc07a5ba5cda7f850541ce800ec6e0b3da1d4af",
+      "symbol": "ANMA15"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANMA18",
+      "sha256": "a8ce429e8e1d09d361a3d27bd249fcf42a737c0b79ccbf142953f5e73c36f1bf",
+      "symbol": "ANMA18"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANME8",
+      "sha256": "ebe2beb89bd050e049022b1821c1302dc07761908b6333f0f430ef4baf82d6a2",
+      "symbol": "ANME8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANMI9",
+      "sha256": "1e1b20ca0b7d52f55fac6452f14f4e099f82a3bf1a79682594343b695bfd28dd",
+      "symbol": "ANMI9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANPU12",
+      "sha256": "782da7314174e976fc67b9fd33ac605c2a28e8bc06d608857fa3e3e2d9c55d2c",
+      "symbol": "ANPU12"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANSC13",
+      "sha256": "8a5d5ad505a5ad0d2de32b16161aab6dbc1d3afa9c237c8f0c6e59edee15ce31",
+      "symbol": "ANSC13"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANSP11",
+      "sha256": "fd51b4daf499ed17f29a5a94ecc7ee6d3ab12b8d79a61c847c4772e2a126fab0",
+      "symbol": "ANSP11"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANUR",
+      "sha256": "60fa39fd261aead4b747ffdf58d7e1bd8450a705c07bb69e613e3b798937e435",
+      "symbol": "ANUR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ANWR6",
+      "sha256": "33ad18e9fdaa7cc70c6e7917ccaf3de06ceebc90838935734bf5dba31c06f48e",
+      "symbol": "ANWR6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=APWO70",
+      "sha256": "960fa4c5a262908b89cc6d2feab5349c52447e07bd88b45695f521ea3c4e70ce",
+      "symbol": "APWO70"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ARAR6",
+      "sha256": "8fb2acda0e0a9d4fae1a351892bfb6bfe7c00b28d6d928447e00e77040951870",
+      "symbol": "ARAR6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ARCU7",
+      "sha256": "d2f6158c5052ac8753dbf331649076a03d124ffcfd0232e71033d445f54b7f41",
+      "symbol": "ARCU7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ARCY2",
+      "sha256": "f51b3e6fdde5db3a4c00f8626121831e9ce11fd2a5a5304889d37de9932b020a",
+      "symbol": "ARCY2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ARHO7",
+      "sha256": "568e8e54db0384a4d3cb406c3539d8903c37795bd142506b5224093e9f795cf0",
+      "symbol": "ARHO7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ARLU2",
+      "sha256": "7067be34666195f97653dc4b5e5310df7dfe9058258286512bb4e39e3b441c1a",
+      "symbol": "ARLU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ARLU3",
+      "sha256": "5c6e1601c781d007a65726070503626ed58ffbe792c7855d81de08eed6d4aa93",
+      "symbol": "ARLU3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ARMA6",
+      "sha256": "e210b3b27ea3c34f544e2d6e535d91f999849e1a869e1bcd0e7bfd58325367c0",
+      "symbol": "ARMA6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AROH",
+      "sha256": "a2c48a56d748a8faa0830fd920fd90f128c8b4f8ee6ce29348e0d0e0fddcf52c",
+      "symbol": "AROH"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AROP",
+      "sha256": "27be4f00b082b8b4294903df452b478d94e5af9ecf674d008db66d83eea59f2e",
+      "symbol": "AROP"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ARPO15",
+      "sha256": "993b7ddef16611701e454e6a75af828e78864796ccf61683e8fecff3193a4e45",
+      "symbol": "ARPO15"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ARWR2",
+      "sha256": "5abd0c462c4ef27026dfaa0c659f4864b16afbd4e94363672e68fe68b7cb2449",
+      "symbol": "ARWR2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ARXA2",
+      "sha256": "8aaec3647606175ef9874201ffc2fb036bce3d179ddc166d93a5d072b0392477",
+      "symbol": "ARXA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ASBL6",
+      "sha256": "5055ec3fdcb878dc81bc5789980c734a8519a4d837232b1f935b452c195ccf20",
+      "symbol": "ASBL6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ASNU",
+      "sha256": "777c96680e2d9160885dcf8e3d6884daa8effaac7ad6dee94b9d0215deafa658",
+      "symbol": "ASNU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ASPS2",
+      "sha256": "012ab9bb9f78595b8a4055ac01212e1fad2fa0eb30edc328484d482cb98d02c8",
+      "symbol": "ASPS2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ASPY2",
+      "sha256": "cfdc89b89fda2a25499908bb833b8b6db4b6c90a9147de74c5db76de87b5781c",
+      "symbol": "ASPY2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ATCY",
+      "sha256": "9299c55504086d084dc04c201a826e7e2dc49ad361fc3b3b75fdf933546f9be8",
+      "symbol": "ATCY"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ATDR",
+      "sha256": "d5316c9239892a6cd0029ca9b5fea025081d4a19af23135bba487238d02a85c2",
+      "symbol": "ATDR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ATRA2",
+      "sha256": "7044fea465f57a60f3ddbab869ddb17e491da9174330a789e1d578ca56103d23",
+      "symbol": "ATRA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AUAC70",
+      "sha256": "7b43f6ff1581b772efc8bed2c373df781768a0d656ab903c7449f84cd624501d",
+      "symbol": "AUAC70"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AYFI",
+      "sha256": "2460cfac27a1b91f531c1536e5c684cde75ac1a561e82d52d0cfb5c5404b429b",
+      "symbol": "AYFI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AZCA",
+      "sha256": "7b28c28faeadb9a344566eb8444cf8935fb171906e43908217dfc0364fa5263d",
+      "symbol": "AZCA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BAAL2",
+      "sha256": "10758d2420bc9fd96a72a7576ffb03fd24514d4a8c25697efbdbf0063d3caeab",
+      "symbol": "BAAL2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BAAS3",
+      "sha256": "ee3a3872fd54db3c75f1347618cc01b450e9f73a5911af9d88dd18309147443f",
+      "symbol": "BAAS3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BABI5",
+      "sha256": "2645286fe1068f7ca28d18a8785c438efd23c5171116d2abbaf8f7669f989f26",
+      "symbol": "BABI5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BAHY",
+      "sha256": "23c987421f43aadaf293349616c72c32bcfb44164e6685417818aa81fbdb5509",
+      "symbol": "BAHY"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BAMA5",
+      "sha256": "ab098fb8b76fbc088330dc1acabba6922a230df6be3d27c590a2a96698956328",
+      "symbol": "BAMA5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BAPE6",
+      "sha256": "9dcaa10a3b51aab5eb731463ce843fc5e0b5a697c292f646a4ea59d30664278a",
+      "symbol": "BAPE6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BATU",
+      "sha256": "af8a7aa80d42c8f186cac9d8426b96f01248f45b782458d4700707e12639eeb8",
+      "symbol": "BATU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BECU",
+      "sha256": "e20477c61084c11e701f9c16f5f2423c83f2622bec9242026cdd33013c668ba6",
+      "symbol": "BECU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BETE",
+      "sha256": "1022de215acb0543f5c6aca2e176c62c8a6a8964273480940225d5857ce0d171",
+      "symbol": "BETE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BLRU",
+      "sha256": "d711da856afdf3f1d9496ef602a70b88fad4436fea0fb4e32ea4cfef4c1895cf",
+      "symbol": "BLRU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BOCA4",
+      "sha256": "63c4aec17846ee3ee48e5c5da73a5f7bd87726c33dfadddbd21f2203e0d9a7fe",
+      "symbol": "BOCA4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BOMA7",
+      "sha256": "483303e77ae76768c0cfee89637183aff10cf0fda2653c22562b909e0c6d0b77",
+      "symbol": "BOMA7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BOSI",
+      "sha256": "1e1855d7f6795bd2a68f6baf65e8d9652a4e844942adc3803456928d6282f8ed",
+      "symbol": "BOSI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BOST2",
+      "sha256": "be2e7ff5d4c893913eef56447777731a182f9249e6e79cbe2e355edd540d90a2",
+      "symbol": "BOST2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRCA20",
+      "sha256": "3226ae612f3267e5e7d0c5d0895f7907562f032791c1a3483a9268bcb9eef480",
+      "symbol": "BRCA20"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRCO6",
+      "sha256": "01a349d3dce59a67edee0d43719c24f2c9eda128b8cbcffd997fc960619623ce",
+      "symbol": "BRCO6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRDI2",
+      "sha256": "b6cf40af7f24e1f470be20d8188be9debda800eb77d871adfada74c344a0c8e5",
+      "symbol": "BRDI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRIN4",
+      "sha256": "6f4b173dd0d3657b93ea4b8a8ad9076054b1fedbf95d95815fae5f93a5e7892d",
+      "symbol": "BRIN4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRLO3",
+      "sha256": "919e050052466bd82a49abc5cf1662f74c25b0be824e49768e8ffbe5d977418d",
+      "symbol": "BRLO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRNI5",
+      "sha256": "aa4acba19ab22496a32b686e76c33a12ea2c3ef79d099cc2ccfd4b8d6120e867",
+      "symbol": "BRNI5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRNO4",
+      "sha256": "de530396b6a8cfb07ac03f33de9dbcd2d6830d59587fd0d684a54711cb90582d",
+      "symbol": "BRNO4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRNO6",
+      "sha256": "73dbef9a310fd0e163d17204c6989720a0ea9616872048d6b5e0cf5abf379e1d",
+      "symbol": "BRNO6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BROL2",
+      "sha256": "955224a48646326268501133c4c24784c540cf11f2e9372a013fb1f4a7efac36",
+      "symbol": "BROL2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRRA3",
+      "sha256": "8b1f1ce0b626d43957e8b01bdda5fb5e0524936c892760cf402d13d9cff3c273",
+      "symbol": "BRRA3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRRE7",
+      "sha256": "9d9c11773fbd348bb078ba418956f0ddffeab59b30ba46421d62bc299e4a98f2",
+      "symbol": "BRRE7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRRO6",
+      "sha256": "9fe6eb74a1487cc83a2cd523e03334423dac954e30023a9632239a3dc0a39756",
+      "symbol": "BRRO6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRSC",
+      "sha256": "93c1af5b8b7e7f42192b0998a7b804422599bbb8d7db46a7901468e306edc14b",
+      "symbol": "BRSC"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRSE11",
+      "sha256": "e91e41bcbafac2f2c8a2ac13d312422be15b2c3a8feeacc39dd07356ad82b9b4",
+      "symbol": "BRSE11"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRSE6",
+      "sha256": "209d1a85761a1b19680f7499eeba83ba12b24548f5054f129b1edf8bf07bfdfc",
+      "symbol": "BRSE6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BRTE7",
+      "sha256": "739a59b94f9582203b4b62a5b72717d0f617c007ea9b7303dc151d5752b1c0d4",
+      "symbol": "BRTE7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BUFL2",
+      "sha256": "5a0b052f17a4073f583f8ce793981f13115e2d1bccc1772142cf8e39d807fe90",
+      "symbol": "BUFL2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BUGL",
+      "sha256": "9bb98c73ff6de031fb3eeed1d6afe4cf93dca80bee8a1aebd412adf4bb3b8be2",
+      "symbol": "BUGL"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BUJU",
+      "sha256": "5147bb3e34f841033b5c0fe445ec58a951873eeea0235e0b4e57b336c366f132",
+      "symbol": "BUJU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BUPI",
+      "sha256": "249121ba7dd77cf98bfc51621ddbd4839dbaed3ab6059ae4cc76bfd295c5449d",
+      "symbol": "BUPI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BURO2",
+      "sha256": "c750fb584885c98a0443d40a3628e6f52f687eb5f3d4030bb8fc17bd9798ed9e",
+      "symbol": "BURO2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BUSE",
+      "sha256": "3716ee760b92ad64e43094db3b99cd86d66530a59f73a3bbc0785974f7824968",
+      "symbol": "BUSE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BUSE2",
+      "sha256": "55c3e728fa72841183b3b3c62825ea4e44030ed915aa066f505645c44beeb1c4",
+      "symbol": "BUSE2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BUTE4",
+      "sha256": "f2ba7c8ee582e80232a44ee281c4e2a56ce1eae36b279e54cb87422e19b4ff42",
+      "symbol": "BUTE4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BUUM",
+      "sha256": "ec62e8578bf3007cee898540f3693c76c005bf1703b26a3eb85d50fdb0b72b4d",
+      "symbol": "BUUM"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=BYCR",
+      "sha256": "000d70951aa196ca298f79d3984ad6849a4f02af6d6de7c9c09ab5c314428b7b",
+      "symbol": "BYCR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAAG",
+      "sha256": "52ea2f5d8ad00d0fb3f3ecab9e70a448e96daf9fcbde849e6115e13b1b08e56f",
+      "symbol": "CAAG"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CABA22",
+      "sha256": "1d079096613a180c428216258f7a596045ed46d6fd1acf9a10c8b9c6de0fb30d",
+      "symbol": "CABA22"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CACA77",
+      "sha256": "c835eee7a3e0dfb4bcfa65a9e695d1ab13da1dfce9e20232b23baa0055f41790",
+      "symbol": "CACA77"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CACH38",
+      "sha256": "c56e1c217fee143fea34db6afa390190a4adde00940586ab6e85b74feb82d2d8",
+      "symbol": "CACH38"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CACO19",
+      "sha256": "6dfadc6cd90a584fb63e33ad78052eca79f159f794084df40bec3e0dbabe7b27",
+      "symbol": "CACO19"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CACO71",
+      "sha256": "8241357622f457257f38ecc3c052711eef78af5ea9c397243d830cf0125f897d",
+      "symbol": "CACO71"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CADI",
+      "sha256": "3cf98103255db932f09572f49aa998714c2c313f182bb9a6c2ffbeaa85845b78",
+      "symbol": "CADI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAEM4",
+      "sha256": "99eb50fb4d810cd95e987d1a2312987e2b2f8cacb30ab884c5b0ffbb043dc28e",
+      "symbol": "CAEM4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAER7",
+      "sha256": "9cc4556d3d4abff609684bd2e45622ef8edf8357a74efda40f8ad38e264d1252",
+      "symbol": "CAER7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAFL11",
+      "sha256": "dbb32f7c5c087a13520278dc5364683a580571c85270cd2f7ac01c32dbe377ad",
+      "symbol": "CAFL11"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAFL22",
+      "sha256": "b2e7eb7f66e153c8014c1287e60a4422d1fa0d7f349f62243076f1b0bb6c5c37",
+      "symbol": "CAFL22"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAGL11",
+      "sha256": "451a8420351996d8b2f47d3315b9dbf61e22ae36961b12aa733ddf42445f2b7c",
+      "symbol": "CAGL11"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAHA26",
+      "sha256": "f0b6549187d660d5f83ee5a01dca7eea30d7dc4d0848990ac99edd9b2c0e2add",
+      "symbol": "CAHA26"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAHA9",
+      "sha256": "e3d731c429e5c38d1468a0df29643a6b26979fd68e2a703abd326d4e5bdad29f",
+      "symbol": "CAHA9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CALY2",
+      "sha256": "2538322b813237d61030454dca6161745a5d2ba95b352ef8789540bcd2ea84d2",
+      "symbol": "CALY2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CANI15",
+      "sha256": "7d9554be73e89882a798f78b2ec7b40614ba12755d8373f9777c0c6c19f0583c",
+      "symbol": "CANI15"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAOV2",
+      "sha256": "e4aece67d4f71b02210ed14c97169a6bc8f15b892c03e25cfa8316d9fd54121c",
+      "symbol": "CAOV2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAPA65",
+      "sha256": "0be5b598cea0d1f32d896c6094e3d424df50102d00c7e8fa0975807495b9e0a6",
+      "symbol": "CAPA65"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAPA67",
+      "sha256": "c01dc9e4293aba56969f6b066abee25c2c2032c9e2ed4c2d84d40f04d543dd96",
+      "symbol": "CAPA67"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAPO17",
+      "sha256": "2d70b05d9bc0159d747f46593fc8be2c6dc915e72aced47f1f405d0de7cf00a9",
+      "symbol": "CAPO17"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CARA2",
+      "sha256": "907f774d9dc632ab08d70258f107332641f56529da05a911b5e35b20ad3fb39f",
+      "symbol": "CARA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CASA3",
+      "sha256": "712d26f650f1f0228c7dd6d1f82e9debfe02dabace15b187a190ebfe95d8ccde",
+      "symbol": "CASA3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CASA30",
+      "sha256": "128de8aa382e83f45a6cbf17f9febd906ae8b2008905230885abb8f8bb0cd16e",
+      "symbol": "CASA30"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAST11",
+      "sha256": "2873aa53f3ccc6446dac88b0137cfebe4bfc4075a75b0249c155476db6f36c61",
+      "symbol": "CAST11"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CAWI",
+      "sha256": "955c2930f1a6d3f5ca4a1959324a6864fe155b87512a64e4910e43fba53b1db3",
+      "symbol": "CAWI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CEEC2",
+      "sha256": "91684c2e9e7f2a53c47e9451dbaa3b4bd641ea67c7c862f1d49a9ea7436700af",
+      "symbol": "CEEC2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CEER3",
+      "sha256": "e774ac00ba745b043d3358248978abce7739d00dfc0e2bc204a4da6993d3fb73",
+      "symbol": "CEER3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CEFA3",
+      "sha256": "8f12239a800b36750db8633dfffc0a9cb82b036ae81158fa2869d0818e29d324",
+      "symbol": "CEFA3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CEHA2",
+      "sha256": "da2b2e1ed5f96ad1d522860d82b0fdf7ffe8619707e6e05305e3ee3439e39861",
+      "symbol": "CEHA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CEHE2",
+      "sha256": "3fca70f08c58588b118e1fd029165e2efba7b711bc20c5918ad0faff0e8f6776",
+      "symbol": "CEHE2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CEJA2",
+      "sha256": "382456c89ce06fe6b1a1e90611717f293345a14dbacee04985e3a7c7e4901f02",
+      "symbol": "CEJA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CEOD",
+      "sha256": "0b649eecfdbf1c8a54325c967d8dc8ff8f316526c43f09465a4eaa7c8e17735e",
+      "symbol": "CEOD"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CEPA22",
+      "sha256": "d8dfe0436a5e2cd533cb397b329614690a43dade68409854aa579ab1f2ea39cb",
+      "symbol": "CEPA22"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CEPU10",
+      "sha256": "deb5e0a643853e71530059ef6767a5c3c9ded040aa87a32865134d01a116df71",
+      "symbol": "CEPU10"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CERI2",
+      "sha256": "6a9af03553b1c92545686eb357ba66bb3d1a4ab30df3dc6be831b4b2b3f87c7a",
+      "symbol": "CERI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CESC",
+      "sha256": "c822094d552d6f3ab0d05cfaad033cce2a8f189e3e7d7ee8e5fb51b877445968",
+      "symbol": "CESC"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CESC9",
+      "sha256": "b96611305089c984d27c14c9e65f1a2af5dc0eb8fc52c302516f4a6e57030045",
+      "symbol": "CESC9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CESY",
+      "sha256": "24f4a65dc620311bc8a172a67a8895ac31a4564ef419ab3c6b3cd870690af3a6",
+      "symbol": "CESY"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CHCA10",
+      "sha256": "3fc9f0cf446ddabd9d7e3c898a5edb6463b58b006244f9626153688accb22021",
+      "symbol": "CHCA10"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CHCH7",
+      "sha256": "90e66399eeb5a1e99d79a93a8efe51405f5757529d25ebdb19a697431aeaab61",
+      "symbol": "CHCH7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CHCU2",
+      "sha256": "947ac45552cce8b5d4da4b63c119356fb73d3115b2e0bc2f73030b427cf64f98",
+      "symbol": "CHCU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CHIN22",
+      "sha256": "7d1765f5de88105cb72649293b159c1603424e08c5affc2a59965c7cbf57aa6d",
+      "symbol": "CHIN22"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CHLI6",
+      "sha256": "51837ed51c5d90f6a4a6676bec11af3e9986558b6ac6d9fa2f49e4f56246279a",
+      "symbol": "CHLI6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CHME",
+      "sha256": "29711012a477216c42eb42e3820d5ce94f7f728b4ae2bfcef69eb02d853c5e01",
+      "symbol": "CHME"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CHME2",
+      "sha256": "cc00dc84999638349c474fd70f42c8d4645f20745a7994c8e3cf645df7d0a465",
+      "symbol": "CHME2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CHOB2",
+      "sha256": "d0339963c936168110f5a00ba95dbb19c21f234a82240c8ad17bb51b44d523d0",
+      "symbol": "CHOB2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CILA10",
+      "sha256": "afb49a80097ed573554e672134cd10e011314c2d4b005ca052dca6aef9bda166",
+      "symbol": "CILA10"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CIME8",
+      "sha256": "103537f4b309d679fdb1b43cbb34191f50a2001bdb2958727c9df9bb7b1357f0",
+      "symbol": "CIME8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CIMO3",
+      "sha256": "b735d9b2914a1b177a09f1d65d20b770e6a4dafceb79a6adcb5b6de23cf002d4",
+      "symbol": "CIMO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CITU2",
+      "sha256": "2cc110e8e0cf00fafd322cfc43ca5593dbcc946683cd2a6aeb2bde1ea5191e11",
+      "symbol": "CITU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CLAC3",
+      "sha256": "39d041d5e7b40096e9383fddc9fb5792596e0b1d4cf26281b906ba5252850d4a",
+      "symbol": "CLAC3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CLAM",
+      "sha256": "5bda44a497a426964ca12c3d41e4e7794c38742639a1b6109c98f6c10df27640",
+      "symbol": "CLAM"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CLCO2",
+      "sha256": "a74fd1ae8f5f325b5668ffd1eaf4262a9453524bc0d76b36254c9d5c42467c5d",
+      "symbol": "CLCO2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CLDE70",
+      "sha256": "5a9f6e41600d64e4dd5592935ec339597bf37df9d20d30f6ef0bb32633b3fb8e",
+      "symbol": "CLDE70"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CLEX2",
+      "sha256": "b94327e4c513685df93784d59895fb075fdacf0844d63cd24eb55a4b4e854e89",
+      "symbol": "CLEX2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CLGU",
+      "sha256": "edfebb1af115720add2b1be21ca22175b8a045cfeabc51c22f72d5aa4d4309d8",
+      "symbol": "CLGU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CLHA4",
+      "sha256": "bd96b2616aeca4f61415bdd842b8c2873df3e7165a3330202663970f2d86f3f4",
+      "symbol": "CLHA4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CLJA6",
+      "sha256": "73b3825185b3cb334d1455cce0c17b15b345a3398812c8359fcc888c7d32e2dd",
+      "symbol": "CLJA6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CLMO2",
+      "sha256": "d87b53e9df88e1fbbd7884b4e4480425c8ab019041a6abb31d5c73debca286fa",
+      "symbol": "CLMO2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=COAR4",
+      "sha256": "c886a9893382925caf65028e6d649a3482282b5fff7c840d1e371e4950a5c6d1",
+      "symbol": "COAR4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=COCA",
+      "sha256": "ff23dec01856ce4c24147cee3ad8034ec0bf662ac4b9361114cfde2901e700e6",
+      "symbol": "COCA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=COFL3",
+      "sha256": "3a75ffcb6e49ccd79d4077e543b417c7c0fe3dbe8bf8aa5e6c7c2d4cc92ea610",
+      "symbol": "COFL3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=COLA6",
+      "sha256": "167ce5a1fc1e661d273b18b2fb3e87f99085947b3d8c74bb4f553059810edd05",
+      "symbol": "COLA6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=COMA21",
+      "sha256": "1fd6aee3cb46b9bb134a8e294b9ffc29353c95dafeeba2b2cbeef2009775cbd1",
+      "symbol": "COMA21"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=COMA26",
+      "sha256": "50686fa4c9832395d82cb9877d6b289843e6315830a61c5cd8d6ace9535263af",
+      "symbol": "COMA26"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=COPU18",
+      "sha256": "e9eb9b62430b45c188f608c50f353cce6612c9e2d7cb8b4b1eb1d1b7fafd0948",
+      "symbol": "COPU18"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CRBI2",
+      "sha256": "e3e1db7b71767e439bffa16335b4ea3ebe30f32f0fcf750509f021cdc9f80d57",
+      "symbol": "CRBI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CRCI",
+      "sha256": "a02ad75b073a5492fcf33140b6895b51f97989e9f26907a912c5f6d92523b409",
+      "symbol": "CRCI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CRNE8",
+      "sha256": "a411259633192c4c5e94f201701af92b5d05b7971770efddc049234d23346c70",
+      "symbol": "CRNE8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CRPA9",
+      "sha256": "14d3e2e8bba623cb963f0755b89047b28f3774495f1a35ab82df43b751d9b1a1",
+      "symbol": "CRPA9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CRVI4",
+      "sha256": "298c82a56ba57ed7111216857a2f841557bdeaca733e0b2c292db638c3e7e90e",
+      "symbol": "CRVI4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CUGL",
+      "sha256": "3eb62c7bc1eaecb8ae57b19a653e1d227bb95a5ad16abb06d3c40ebe812eb748",
+      "symbol": "CUGL"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CUSA",
+      "sha256": "a852aa9241cd4fbee8c19a78403b4763602a5203be47f543a6b621273ef849a5",
+      "symbol": "CUSA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CUTR2",
+      "sha256": "0f27d0764d2b922ced58946b84a8a9f4be02fe138687c4ccac535e68315c5913",
+      "symbol": "CUTR2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CYCO3",
+      "sha256": "d7ac251421f3e1164ebbf3d5e235372062061cd1c7eea6ba8651153b302a4dbd",
+      "symbol": "CYCO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CYCR",
+      "sha256": "7fbd3f80b7f9713e7c169875088e27d39fe54ffd8344fabdd22f504d8da38913",
+      "symbol": "CYCR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CYFU",
+      "sha256": "f9857eac43cfb18b495960e1aea59e06a8cc3b0313fb3b53e61e4faed8c279e5",
+      "symbol": "CYFU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CYLY",
+      "sha256": "acaabdc88db5a05730bbe0af5b56e292c4ef3a180d4d38be4a553068c023c0e1",
+      "symbol": "CYLY"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CYMI8",
+      "sha256": "7682783489951d8ef2d3b19627776786949180626b311dffeea42cf78e5d5c0b",
+      "symbol": "CYMI8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CYPA6",
+      "sha256": "3e562504645123c0a35337d60db5ad1a39c5de15b9bb724fcc9cfb7c6150c200",
+      "symbol": "CYPA6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CYRE12",
+      "sha256": "fe24009ce38d9d753e769fce140576009023a7fc6d6acd634c5993c82ad3fcd9",
+      "symbol": "CYRE12"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CYVA4",
+      "sha256": "5460c138adfd720fe987d7bd58bea6103b4caa14cd22cad6135d9213ed1ca5ed",
+      "symbol": "CYVA4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CYVE3",
+      "sha256": "971a279c57f500f065f574272c570497ed2cec03d5d1113b625e4b4de34037f4",
+      "symbol": "CYVE3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DAAN2",
+      "sha256": "7fecf01e76672ead8a012e6e7791c501b1c4cb1c696a72c8a44adb344871d5a1",
+      "symbol": "DAAN2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DACA5",
+      "sha256": "ecf810457824cf8299a9613f2eb0e25d1b211f05d9673b90810728a870303ade",
+      "symbol": "DACA5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DACA6",
+      "sha256": "c2b14ff8f4b68fb8592c9a643a49a2fa48ee6e450a19aa537164fc2586f29ab2",
+      "symbol": "DACA6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DACU2",
+      "sha256": "6df1af50cb35efdff70b3408e99794453d2df08355b5f13f9c58f664a60d25e5",
+      "symbol": "DACU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DASP4",
+      "sha256": "70ab77eb77d73b9d7286b1c91eb46ebfff3d50c838445504437e09f05cc1ed92",
+      "symbol": "DASP4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DEAB",
+      "sha256": "0ea44f4b3711243c1aab5643e42c70687ef94153b3081eb36db836d5fa164188",
+      "symbol": "DEAB"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DEBR2",
+      "sha256": "d2a41dd3cef40324a7385ab2ee423f9e8802318d23ed0e1fda22d522c4357da4",
+      "symbol": "DEBR2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DEFL2",
+      "sha256": "488f5814beadd6d0fe455a6159f97333f352fad0ad22c16875ab92dcbbfbedc5",
+      "symbol": "DEFL2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DESI2",
+      "sha256": "6ceb29c413d0cab5451a8a02868ea0b882be99e5faa9e706964fde700305daeb",
+      "symbol": "DESI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DIAN8",
+      "sha256": "0029d3fda51d4a0db3860572dddc72c5cce5f9b267123832bae9c889badfec81",
+      "symbol": "DIAN8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DIAR5",
+      "sha256": "f21dbaa8470632a902dc1c7fe7a06d7142b74a6d5859359385aad6ea14bdd448",
+      "symbol": "DIAR5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DIBA",
+      "sha256": "1b99b3ee16d13558d1383c13e9321d657510a207d16203a2b03c1b366ae3faa1",
+      "symbol": "DIBA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DIBI",
+      "sha256": "8fa4d3afccd384da9aa2fa9def1530d2e252b7d1b20ac1b9025e25a8e685950b",
+      "symbol": "DIBI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DIDI",
+      "sha256": "0f97024dc53620c25f567444b7c9a49a03a1b3b079d217120e4107e10021b92c",
+      "symbol": "DIDI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DIEM",
+      "sha256": "71b25f6a01d09c07aac385619c2888313780845511456cfb6b491c41093b0ff5",
+      "symbol": "DIEM"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DIFL4",
+      "sha256": "e95fbffb5cd4bdeae360ce5d88ce02a3020abdad37dd75eeb3988c3585e33b19",
+      "symbol": "DIFL4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DIFO3",
+      "sha256": "46b424a17f960283b74d790f83e1545dcb931ac0c3f9b637c58d8a6d130fe361",
+      "symbol": "DIFO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DIMA3",
+      "sha256": "055b4adc7b0ed8c369e180890ea16caa9ed953627b5d61b6ee221a34dca87460",
+      "symbol": "DIMA3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DINU5",
+      "sha256": "48433cf665ca5af1ba384aa42017f42543be3618fb1a743af40fbf22b030c459",
+      "symbol": "DINU5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DIPA18",
+      "sha256": "88d40132202ea15daf04c006247d47600b09174b0a7f998c9c8a36d6a2314282",
+      "symbol": "DIPA18"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DIPA9",
+      "sha256": "d7c730d5f429ee9a942875d2a7e643b99b8e7b8b12ec5fd5a6e6b6d7fb1a764d",
+      "symbol": "DIPA9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DISE",
+      "sha256": "fa744f0ef018586828cfdab4d9eacdeb8201748057888780df7ab8a8df7d16fa",
+      "symbol": "DISE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DIWR3",
+      "sha256": "68e0451d83403f1b90117d80425851a8bc00f1c1538bc191716b9b443c393187",
+      "symbol": "DIWR3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DOOL",
+      "sha256": "6486286fd5b8526ca552a553ab91972bb50cb6b05907c8047e8bdb5139d696e1",
+      "symbol": "DOOL"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DRIN3",
+      "sha256": "4bc222f434acfbf06fca629eaa5ff97ff5bc54a767ea606cd5f8d14fdb995ecd",
+      "symbol": "DRIN3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DRMA4",
+      "sha256": "3de3416bfe76f5775495c7ae9d2d34019bb623a0f76481dd804d2c62b73e16df",
+      "symbol": "DRMA4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DUHI4",
+      "sha256": "99965123ce1d120dc95f931e80c646ed496a7836dcab9f0be1c145ec8bccab56",
+      "symbol": "DUHI4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DUMO3",
+      "sha256": "20b788d28798839d72782f6267e3c4926607a4f9ae7caed16dc8808b77e43028",
+      "symbol": "DUMO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DUPA2",
+      "sha256": "1d000535a0e75292779199f818af48b9aaa2c8d417bae1e43d4dde3523339108",
+      "symbol": "DUPA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ECBO4",
+      "sha256": "1fac1598c80a34d9242112261f737cc5b9d0ef518e43552d71ea540bb97523de",
+      "symbol": "ECBO4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ECPH",
+      "sha256": "9fff0cac261acedfde17f73777d9a3fb9d5897426e7b6e3157471a786c03157f",
+      "symbol": "ECPH"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EIAZ2",
+      "sha256": "95f566d8cdd6b7f42b051d6bb8604c657f9a39414b5675016c19d15faa274247",
+      "symbol": "EIAZ2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ELCH",
+      "sha256": "252f37b545dc08a54ce2eb88e17ff7d026b6049c0980432f87b2e683a299cee5",
+      "symbol": "ELCH"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ELMU",
+      "sha256": "6d4ba0de92c149aef48ca5c3f83aa12138a1d973454e2e2dc296092b6c628845",
+      "symbol": "ELMU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ELRU3",
+      "sha256": "9a5d3c73b56267a79df14938afd726f5320e5aa2393f773a8edfbab9050356ae",
+      "symbol": "ELRU3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ELSU2",
+      "sha256": "4bcf4e7f9734b38047a70f89391bfb06384971951f40b83ddbce38dbed9a1f64",
+      "symbol": "ELSU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ELVU",
+      "sha256": "f02966de86885a500988b4979958b8cce29ced6b2d3b236301ad1bbf7ed60c56",
+      "symbol": "ELVU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EMNI",
+      "sha256": "5966b3cfccecda88584f3cfb5e9147e909a4a5f3da94b4ce82b100fad64f6fd2",
+      "symbol": "EMNI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ENAT2",
+      "sha256": "a3de5ed26aa7778bf6c5889c758977b3a452a3f7a4cc5e8ae86fb94508fc250e",
+      "symbol": "ENAT2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ENBR3",
+      "sha256": "4b9c099b9c8c1e54f595ebde1739ea7c7bd1897444a9a9a34e87436ef30182bd",
+      "symbol": "ENBR3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ENLE2",
+      "sha256": "63cf915bad0387403cf0a3043865437c7cc1848039dbaffd2bc733d576b7bdd6",
+      "symbol": "ENLE2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ENVI2",
+      "sha256": "b007bbed93187317557b9adc944e681bef4fbf6b41e01e7f552a672c693440f7",
+      "symbol": "ENVI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EPPE",
+      "sha256": "5101cd8c6ec16691ff832e04104db7688fc37b9662ecf6b0d917e95f64c70cd9",
+      "symbol": "EPPE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EPSP",
+      "sha256": "3c130b60b894a33a97bf121f4a24d1c771ee528e4fe4fcc15583d47236c41afa",
+      "symbol": "EPSP"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EQAR",
+      "sha256": "e451528507dbab286fb7853b01c12f967ebe6db4cea7fbd0e3858244e211ca9f",
+      "symbol": "EQAR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EQFL",
+      "sha256": "a9ceb5be57520bde49550abfc06dc7a69e4cfc9ae09b22e9d38718c16c72f62a",
+      "symbol": "EQFL"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EQGI",
+      "sha256": "8a73746a43eb0df1c460dc27014b356aaeb864136be07f110a6a0b7420b8dc86",
+      "symbol": "EQGI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EQHY",
+      "sha256": "4c7f28d52f8dc607ad8b98ef908659913b6c39db1375484cb3816905cc7da52f",
+      "symbol": "EQHY"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EQLA",
+      "sha256": "a8b3ef7f6726f9729c6d19bd1ef63b2f52e6442ffff0dd5f4bff4f73a149326c",
+      "symbol": "EQLA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EQPA",
+      "sha256": "3e5bb3149200fa6aff56a328d67c0377e4d594a279fdda84a8fb6a2022489169",
+      "symbol": "EQPA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EQPR",
+      "sha256": "32bba47a6b5cdfa318e25526bb7ffe1c02eeaf0d52172a14646272e3a550f44b",
+      "symbol": "EQPR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EQRA",
+      "sha256": "98645e23b363211a5b993a1ee487e5c764c88cf7cc799c7130cc7f383e128b82",
+      "symbol": "EQRA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EQSC",
+      "sha256": "5793515a6f4a66b26e94af7df452acd2c9be9c8789d2223471fc653c602f57c7",
+      "symbol": "EQSC"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EQSY",
+      "sha256": "a0903e23d400887bf6681e05bb370c30a846d6a4294e77570218b6d92a56bf3c",
+      "symbol": "EQSY"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EQTE",
+      "sha256": "30a031e3dcb04127b4b675fb23789d9485c24a1266cee50b7a1a2db06b8c88d9",
+      "symbol": "EQTE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EQVA",
+      "sha256": "65f835b9567e0e4bd89b0bb8c78aa4b2b00dbaad12ba1cc8156b18eb3efb29b5",
+      "symbol": "EQVA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ERAC8",
+      "sha256": "f61bb4ef17d80f708b115287647c7c7d39a115d096241d8832277dbbf041aeee",
+      "symbol": "ERAC8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ERBA2",
+      "sha256": "00d1b004a133d069007c34ba029ee28b5c8c66b253c87f5be7477a73484f1a54",
+      "symbol": "ERBA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ERCY2",
+      "sha256": "85319691ff656acc4cb1c8724bbfc05ab1d944dc3c98736d80c7ba512b9c8c67",
+      "symbol": "ERCY2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ERNI2",
+      "sha256": "3c0c07696eb4702ca969d0e383ea4fd16f08ce3a4ad86f73b3b817f67738a301",
+      "symbol": "ERNI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ERNI7",
+      "sha256": "164e01eb13426df03954e5fcb90b87c5639c5fe1179f5608a74aeb37e8295e03",
+      "symbol": "ERNI7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ERRO3",
+      "sha256": "d827e5cd1f27e63b9e61173ee73aef2c43e2a1b1c4ff89023bc796d9b0262158",
+      "symbol": "ERRO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ERVI9",
+      "sha256": "82613f8ae3d67fcde7fbea8b69cc461b2bb3cfb56b06a6cac6a12d6e5c47f6cd",
+      "symbol": "ERVI9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ESMI",
+      "sha256": "61d9088dd62eb12129b207756a7e26dbb16bbbbd26426c7f471b325b9bd1a883",
+      "symbol": "ESMI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ESRU4",
+      "sha256": "eb7283bc3305968580a924ef27c49c0f8d9bd4d0851173971cc802466f907815",
+      "symbol": "ESRU4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EUAM3",
+      "sha256": "c8ed6f19784f8a5442f72c532c3e64c586f20380605e351791d5b97546990099",
+      "symbol": "EUAM3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EUIN12",
+      "sha256": "8f8b08a38cbe7fff336e261d2d28f8a5e58dd587ff8c66a3c9c17616b2253d2e",
+      "symbol": "EUIN12"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EULA20",
+      "sha256": "beb277cb09c4ba753d164db5e1aaefad424143f25f0d257fcafd75c4ca21ca8c",
+      "symbol": "EULA20"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EXME",
+      "sha256": "f7cca8b965638ce9218f8cf39e8cae9af5e9f942d4f956885deaf1c1e4dbbb22",
+      "symbol": "EXME"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=FACI2",
+      "sha256": "ab69c6b4dcfc043960bfa3ac55b91709d3054923502164d4e35a319bd042baa5",
+      "symbol": "FACI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=FICU2",
+      "sha256": "9cc7ed5c59eed85a1ff06327534f6ed53cde2d495de7aeacc5f70f72ab57fad8",
+      "symbol": "FICU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=FIFO70",
+      "sha256": "eb98881992e17006459960a9ff31e49ad47feb349c9d1824c446649fc97b6935",
+      "symbol": "FIFO70"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=FISC",
+      "sha256": "c86cc813f9abbd62d7748851552eb08a7c5619571592cf3d1a952f168ab8a27e",
+      "symbol": "FISC"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=FLIN3",
+      "sha256": "e53d476b68735a699b93b7fd0ac9ea2713b1276f76590b9e4c2b5c37f1c2754b",
+      "symbol": "FLIN3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=FLPR",
+      "sha256": "6eaebcbe0ad5f2eb0bfab1637b14ef7bab7c058c52ea4a8e234628ee8b836e5b",
+      "symbol": "FLPR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=FOHY2",
+      "sha256": "d83a4d3f52a228d17a66158e5add59dd647d9df63ae9dd1027d76dbbf5acac35",
+      "symbol": "FOHY2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=FOMA",
+      "sha256": "a8f3ab8e4d38cbaa469b0eeacbd5870174a925074c89552a8027aeeecdfea455",
+      "symbol": "FOMA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=FOTR",
+      "sha256": "399e8f1f8709a1f5d656e227f98b3f76db631f835210990cee93c58638624856",
+      "symbol": "FOTR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=FRCA13",
+      "sha256": "28702a972907eb202643f65207bfa32969dba0303c8702376127ed7a4202d0f5",
+      "symbol": "FRCA13"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=FRSA",
+      "sha256": "7d9d1824a54eacda1e7c9737ae7cdb74693bda0c9321174bda7ce81e191bb6a3",
+      "symbol": "FRSA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=FUSQ",
+      "sha256": "210ed81dc08904b2abd1296bb7404034e7e81d1260de7219d79cff51591b515b",
+      "symbol": "FUSQ"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GABE",
+      "sha256": "ec0ed2fdce1499d718636780fe79e9e0b301796d81cfd300f1ef1cdb9fefa7c8",
+      "symbol": "GABE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GAFR",
+      "sha256": "d525b8d8762fee6d4cd4c71fada13efff58b85357cb3b157e694e173a9e6ec45",
+      "symbol": "GAFR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GAHE5",
+      "sha256": "c4f5710c0c83cbea24020a266a13cf80bebd2277c6891c1e853061f3f13e0c59",
+      "symbol": "GAHE5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GATR3",
+      "sha256": "c4a333148f72c9b84807733242969ca9285a33ac617fa46521a2792e63291011",
+      "symbol": "GATR3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GAUR2",
+      "sha256": "7fe8dfd3e42176b970fee04ae43521f2f400c50c6214f52d6d94579784687354",
+      "symbol": "GAUR2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GECU2",
+      "sha256": "b4b21b52e361c2948ca5aa35448def6b36384b36d334a991cae62d3418087509",
+      "symbol": "GECU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GERI",
+      "sha256": "ac920f9d3fc573a24b4f035ff92217d4c1cf495c1ea6c07ade2c0bf7d62f5115",
+      "symbol": "GERI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GETO",
+      "sha256": "f104344abe04e47fe9ca3e36d91dab1ed4679d49ead86e5194f5b34aa3df8028",
+      "symbol": "GETO"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GIBI2",
+      "sha256": "947bcc13c2a5c373b0c34e7931f254b503e8e6afae27bad23a4b5d5554cd7034",
+      "symbol": "GIBI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GIOP",
+      "sha256": "99f5b491bd96e88aa22eaf7bf09b8a423491c89e7855eff0bebaf81592af7d4a",
+      "symbol": "GIOP"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GLMA3",
+      "sha256": "60925de5eba3829497eb5053fc101b1f71daa3ed0e2b77d3fbb953c5f5828213",
+      "symbol": "GLMA3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GLRA",
+      "sha256": "86e51cead110bfb39f1bf0bd0df397105ea4680da057139af20c948b5a56d963",
+      "symbol": "GLRA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GLSP",
+      "sha256": "914f84f197b3cebabe7ccc64b0cf8a00b624a70b79727406da463bd6e24f5e3c",
+      "symbol": "GLSP"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GNAF",
+      "sha256": "b0e140b5b333cc00fe7c39ebb939f4607f58bde3c68077eed14228ed4b254d5e",
+      "symbol": "GNAF"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GRHE2",
+      "sha256": "2549ce50bb1fb88a4639a17aa7a7ea6eab195a743503f2cd927088861ee8bcea",
+      "symbol": "GRHE2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GRPO2",
+      "sha256": "a70120a9cd27ea171bc60b9e2a48c6e82e5e76b96600945b0465c062300bdda4",
+      "symbol": "GRPO2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GYLA",
+      "sha256": "812f02f2ae71f427e55bcbdddde98128cac7d204fa5c755df9efde2bb246778c",
+      "symbol": "GYLA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HADI3",
+      "sha256": "4f24a8a6d83963a53f8d54f35b8ddf10c0218e7541408bebbc2bbe9478647dea",
+      "symbol": "HADI3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HAER2",
+      "sha256": "d2495ae8b809e475b60b868c0667c600f3f3e6c064fc390736bc5028207631f5",
+      "symbol": "HAER2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HAWR",
+      "sha256": "41d92b45957939d53a13c7e4fecc038fa9aad2d144910a6e77aeb5518335e93e",
+      "symbol": "HAWR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HEAR",
+      "sha256": "5570e1e10f78753ced6c2e4e73e9fc8f0af67abc23ed3d8e30def44940c96a6b",
+      "symbol": "HEAR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HEBI3",
+      "sha256": "0b620f92e26f33684ef2012a736ded9cb4f119b2df7f8d8ece73fe45f3ed290d",
+      "symbol": "HEBI3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HEBI4",
+      "sha256": "f103ce0744293ff67f386f32dd1cf8273dc531f52c5c4bdf46d84c2e19b95c84",
+      "symbol": "HEBI4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HEBL2",
+      "sha256": "6b85731ec291aa4bbb5936e1c365350fb0c074141fec298475ba870a4e9bd80d",
+      "symbol": "HEBL2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HECI5",
+      "sha256": "b831c70864188b62ea534ad61fe6b97ef8b91a5e98027fe5897d480b3a4d6f42",
+      "symbol": "HECI5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HEDI8",
+      "sha256": "3d37452eebab2dbafebeca37340b96c70f91113b6fb31a91740525991897c6c3",
+      "symbol": "HEDI8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HEFL5",
+      "sha256": "fb07064739dcb7379ddfc04c4ffb1bb9f0291fdb36da5096de0c70903cc0d480",
+      "symbol": "HEFL5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HEGE3",
+      "sha256": "6cfbb52d76f6a0af5c43f0b2a3bc6f299d22d3d7f31d4483caf4911e3caa43d4",
+      "symbol": "HEGE3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HEGU4",
+      "sha256": "0be12036a03720660a600eea94d4bdddfe1c8c8302eaceef5aae3802d7a62014",
+      "symbol": "HEGU4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HEMU5",
+      "sha256": "8106ca79cbf7d7b24cd5b0af0538106332de3b41391eb2d0ca558a34c8c068af",
+      "symbol": "HEMU5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HENA3",
+      "sha256": "e0369f37cfa1300327e4f5fdcbf19e53801fd0344d2ebce0b913f06e58ddbf0c",
+      "symbol": "HENA3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HEPU8",
+      "sha256": "45b8f90a64ee00ba3a0e930844a6343b11ec84f327ae35048d80958d1805f17c",
+      "symbol": "HEPU8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HESO",
+      "sha256": "a2ff5cf361099c0f00bcd6992bfae6075dcd3ddf9c7104651ea64a15d4872128",
+      "symbol": "HESO"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HESU4",
+      "sha256": "117b025d7aeb4e26d6381e57514852fa54791cf3d2d692cf17b77482e02ca4e5",
+      "symbol": "HESU4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HETO6",
+      "sha256": "bdfedd5fad97dba1741c7f81ee676fad92ca0210adbc2fda0ba0242664f35bb1",
+      "symbol": "HETO6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HIMO2",
+      "sha256": "a22ab10f3570d7eb005a7aede99ca163664c858140a16ca792fc02d1dccdc59c",
+      "symbol": "HIMO2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HISA",
+      "sha256": "c4f2fb282e25b5fcdce9b511929aec539e5218d2f92b5f16a31ab69b68cadbe5",
+      "symbol": "HISA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HIVO",
+      "sha256": "08670fae329afda3ef271b1dbf9e23f3ec941063af6daa909e5aeca4e135c3a9",
+      "symbol": "HIVO"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HOCO3",
+      "sha256": "3b618c10008d4c78dc0bd67696bdcb463b5da8469c261302d479cc217c060690",
+      "symbol": "HOCO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HOIR2",
+      "sha256": "1b161b9186871ed9b8ddd0a8778064b7aa3a520a11c218eb51e8e92aa669a2f7",
+      "symbol": "HOIR2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HOLU",
+      "sha256": "995a68cb0ba2f24c1b1221778bfed7916286d4b7e938d9a395be52399308a375",
+      "symbol": "HOLU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HOSP",
+      "sha256": "5013124367a3fc171147a4d08c13e9ac915b13f27938df267febf5023c86fdc2",
+      "symbol": "HOSP"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HOTR4",
+      "sha256": "823acfc99b7ec4273124a2a520507e30085a3d10c21247a3c87d16e37082325c",
+      "symbol": "HOTR4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HUDI",
+      "sha256": "bee28811a0066a82a5bb856df7b3c07251f7f23276e1bcdad27c51778f955f1f",
+      "symbol": "HUDI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HUER4",
+      "sha256": "01495ebe9c29e24eec098e09311a42bc369883dd44de2d5f63eb5a7ee0a85b59",
+      "symbol": "HUER4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HUJA",
+      "sha256": "58465a8ca3fd2d0967dd7fb00ca62e9438aef73fd6ef8c2952b3d19139554e77",
+      "symbol": "HUJA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HULI",
+      "sha256": "ab3536de6a4865fc3808f507b279f1eb87f43fa38ad6033b030cc8fcceaca382",
+      "symbol": "HULI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HUMI",
+      "sha256": "9c4dfed869af42e32e931a333c966115912ae0a3a7039356c50fb435c80303b9",
+      "symbol": "HUMI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HUPO",
+      "sha256": "7d69bf8fa1f6da78c5a4b4074c6d13c5149a7cd234d310429354e87898ee77f6",
+      "symbol": "HUPO"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HUSE",
+      "sha256": "0e4e5c377f7e1902a7731fe59a548482f1262877f5d84a551ffe6294913d6634",
+      "symbol": "HUSE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HUTE",
+      "sha256": "490297f2b6642012de42f836c4df74a9c9992b53225a5459d737ecb0f938c087",
+      "symbol": "HUTE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HYAT",
+      "sha256": "93adb6992d8ca903dda05a1a0b337297a747a6fa9bb3a77ae7929c66dac3ae12",
+      "symbol": "HYAT"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HYCI3",
+      "sha256": "8efa98f7b5dbd049cef6e9ba4a95eb23a94752d936c0cd0e790b4767cc267c0e",
+      "symbol": "HYCI3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HYCU2",
+      "sha256": "a4844254602bbe9d19072f677528810d62c073ead28e0a2eb222115efbe9ca14",
+      "symbol": "HYCU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HYFA4",
+      "sha256": "c3ae058e28c0e7f807a3f6fb68cbc8c97aee5064cc1d69520e428464af163f45",
+      "symbol": "HYFA4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HYFL2",
+      "sha256": "3d9027b9b30e1f3f5d5dd4cc11ca05389ab8b596be24785196b6b60208c83d06",
+      "symbol": "HYFL2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HYMO6",
+      "sha256": "76cd0eb982cb38b7f871c3f7abab7bacbe65231c6d85e8e91e6ed56ad3b18937",
+      "symbol": "HYMO6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HYNY",
+      "sha256": "2e3b492c7767431ab86e69e6e4a5efddada3002484af93b6ce29ccba1091415f",
+      "symbol": "HYNY"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HYPO",
+      "sha256": "146ce9306cd7f26fcad184e1d5a550f7e5b38855e212bf7a76c6d397b2372ce5",
+      "symbol": "HYPO"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HYUM2",
+      "sha256": "5a1959db07fa1ede0d996910c8a46e31574a20e7f4ce508ad0d9b4d70ffd10bd",
+      "symbol": "HYUM2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=IBTE2",
+      "sha256": "3eecb6cad436a3202c2b15336921bb61c4b85022ccb06d2f06111e50d2863e01",
+      "symbol": "IBTE2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ILFL",
+      "sha256": "73764e6323aaeb96a81074356a5742c019e1367e148a1a2f7c2b980ef1b049d4",
+      "symbol": "ILFL"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ILGU",
+      "sha256": "47c384509748ecc426524450236b3ca21822a063ab72a87b2b444ed4db9c9a7d",
+      "symbol": "ILGU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=IMEC2",
+      "sha256": "3dd1e0def71c25add9e6d64760b06b8c4eafbf53e204ec9cf4c6fdd167b862ca",
+      "symbol": "IMEC2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=IRFU",
+      "sha256": "a43366e30d15920ccc57e3bb162687190cbf5ac45d5fae6a2b40048550346d68",
+      "symbol": "IRFU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISAC",
+      "sha256": "05eb8d3a5ff5a139f38bbbc8dcc3d4c753af3b42ae220e431e92d2c1ffb201ae",
+      "symbol": "ISAC"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISBO",
+      "sha256": "56889283dc6f021d6a2c8acf7abbc33923ec7a96fc292c50f3908fbd68ee3629",
+      "symbol": "ISBO"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISLI2",
+      "sha256": "71fcdbb66b1a24ae9268cf1363596c09ef41c97cf3d2665a584a4de5a6f141d3",
+      "symbol": "ISLI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISLO",
+      "sha256": "74236ae015018f52baabc7fd5633f8f7594c93d355f6e7745505dfb955eb419a",
+      "symbol": "ISLO"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISMA",
+      "sha256": "fd4cc148b4bc17b131833b748701cfc0101cd13520eaf4e148aefe4210ddb0f6",
+      "symbol": "ISMA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISME",
+      "sha256": "7c7409f7855f3334a90fbd924dde5b1cf2903d298440db92daa866e5e59eb86d",
+      "symbol": "ISME"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISMI3",
+      "sha256": "2d3e251caa10837275e3c54ebae4ce4504d6ea7ffb873680f7b7e2ea0a2323b2",
+      "symbol": "ISMI3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISMI4",
+      "sha256": "10c4c0a0a637bc8c41505925d1aae101768d1921be292315d34127065be3799b",
+      "symbol": "ISMI4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISNU",
+      "sha256": "8b9b7a52d9cd703112a0781542ca716c3f084f2279bf7d9ba07a3b9e55358a18",
+      "symbol": "ISNU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISPI",
+      "sha256": "13c492492ecffc74d28e8237f19d1069d021a2f18f4e7a9057f19ad7087610b0",
+      "symbol": "ISPI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISRI",
+      "sha256": "a59b59c217900af63a7f11ddc97fd9462f33423f909299adef01c1edfa9739d3",
+      "symbol": "ISRI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISSE2",
+      "sha256": "1a386adc089c002b151e4e0d2d80415d70c4808f58658d01127c9df98a2e2e16",
+      "symbol": "ISSE2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISTU",
+      "sha256": "bb67b4a90bb9939cfa7a7229e4a07d8b850618a7d5914f49146eb6b79b6e33b3",
+      "symbol": "ISTU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ISVA2",
+      "sha256": "917d7ed817c5e08e3416d107332fd76c3bc91b72a3ef9f86052b6985ab633c62",
+      "symbol": "ISVA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=JAAU",
+      "sha256": "17a8012cd8b396123eb0d1bda8fd19e3295c91b0a686c0ee2acd1178788b9e05",
+      "symbol": "JAAU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=JAPR",
+      "sha256": "b9c3686cf1c8892b053601333542ee311a4243765d978162a536ced9e352c535",
+      "symbol": "JAPR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=JASC",
+      "sha256": "7215df92f0d8afda4661c79f4a7657170c290597da4e16436dcd3ca6ce95a816",
+      "symbol": "JASC"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=JAUM",
+      "sha256": "36b5591e262cc1e51d289e20571c54fd62b47ef69c73f9bf30523ff1b7426b83",
+      "symbol": "JAUM"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=JEPA",
+      "sha256": "c754046ceb913990a0005fbeece081423949c2a76065f35efd3d181a5d77baef",
+      "symbol": "JEPA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=JOAS",
+      "sha256": "e67afe2c32329b8a1e77fb689caf77145884f34bc3ae3ebc4c41ab14a0f40bb1",
+      "symbol": "JOAS"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=JUEX3",
+      "sha256": "6ae9a9a2844ce2bcf341b97d74c71209b828b2fba53b9ed62f79d3cf5ac43645",
+      "symbol": "JUEX3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=JUGE",
+      "sha256": "bb80c1cbf7eb9da58fe31d0d3711f5bef8ae38cd493588bfb79552444a72ea2a",
+      "symbol": "JUGE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=JUGR6",
+      "sha256": "aa9e1dcca7399aff22edacfec752ce1d771b3241ae5d851c102e07ccceb47c8e",
+      "symbol": "JUGR6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=JUMI3",
+      "sha256": "8196a009bdc8cdc1057549a1a5e563f28c29cc7f5965453875c524aecee641a4",
+      "symbol": "JUMI3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=JUPU2",
+      "sha256": "2edd8b3e37fe68e5c052b576c19627274f8c0bb04aaac84dca8697cd0a317b02",
+      "symbol": "JUPU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=JURE80",
+      "sha256": "c77f50e605e9c0c88cb4115a740fe9387a594b23bbd09420ca43e561cafbcb11",
+      "symbol": "JURE80"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=KACA",
+      "sha256": "444f4a3a67a72aaf75cd51fb8f5ad757f65c62548aee35b717cfaaf09638cab8",
+      "symbol": "KACA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=KOPL",
+      "sha256": "e35179ec150678439e205516fb3ae2daee9c5314848a4830eba6d501ae54098d",
+      "symbol": "KOPL"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=KRIX",
+      "sha256": "bbfe0607931b8772d1f15e52260480b8b18b07d37153f491167a3175f07adbc4",
+      "symbol": "KRIX"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LACA5",
+      "sha256": "edac15f74deca8380b567f92e6b7f3227511a8c22225023998880d5d21dafa75",
+      "symbol": "LACA5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LADI5",
+      "sha256": "4061b39a576dbbfd6da88bf41ebdf22d9f9a61eb520e3f1058aeacdf329b405d",
+      "symbol": "LADI5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LAPR2",
+      "sha256": "8aefa6f45cdc7a5eec0661f927a804cd27b7c626ad9bb887be6b365d36b02e9b",
+      "symbol": "LAPR2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LASP8",
+      "sha256": "0bbb699d3712583bc3ad733e3cdd985b8ba4d32537d5672e96f5421dce615aec",
+      "symbol": "LASP8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LEAL35",
+      "sha256": "3282e5088ce53fe0b3a913de863a9ac20b7fcfa82e2b4ca6ba19194bc2a77ac0",
+      "symbol": "LEAL35"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LEGI",
+      "sha256": "365a7ac443a55a182aed70a575d22c818f43bf6a4b3aaba46d4357afed92c717",
+      "symbol": "LEGI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LEGU2",
+      "sha256": "3a1e2f293494b2f180e64eca0708d53acc8c554ebec9389034549498a9669110",
+      "symbol": "LEGU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LEJU4",
+      "sha256": "1edbeca84a2f34cd51e0618cab24d53054a93e122c20767948884498166658a1",
+      "symbol": "LEJU4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LEMU3",
+      "sha256": "f9d050ac22234b92cc4341c1633ae2cb0ef150cf195bda869c9b2652b6d7f9d5",
+      "symbol": "LEMU3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LEMY6",
+      "sha256": "0f9ad0636afda0d9854161d1e170d7521665fa10a16bf0f7cc4ded52ca27c5d5",
+      "symbol": "LEMY6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LEPI16",
+      "sha256": "90b3e2429143f5a3130ef3a2ad5e879f75d6e63efa20f8284b4aa3b32a5b40ba",
+      "symbol": "LEPI16"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LESM2",
+      "sha256": "8b1b4f451e0efa199e2c173bab467b04133bf4decbdf47cc494537463ba202fc",
+      "symbol": "LESM2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LETR2",
+      "sha256": "b3ed8e04ef1fa32bca0a09e2e71555f8ed30c90e527c21e03ba3f6c998d3282d",
+      "symbol": "LETR2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LIBR9",
+      "sha256": "a52c51d98058681d7c6c330ec9aeec92b24dcdadc84ed91826b22e1ad1d2b50f",
+      "symbol": "LIBR9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LICA5",
+      "sha256": "7c64255e1717f792ac36e5d5a358da0dd539df615dae72122da816508866c36f",
+      "symbol": "LICA5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LILA3",
+      "sha256": "d62c2abc6ae5e9a1ea48840b1aea5e275d8d39c3c220ede67d245de9e07206c0",
+      "symbol": "LILA3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LIPA18",
+      "sha256": "74a831dc8926debd86143eafe8fc487267ac125301572d75a664be7dd2b57189",
+      "symbol": "LIPA18"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LIPR",
+      "sha256": "8ab4eabc97b9d7a1a5a3871b48a3728db2d8395643eaff7a5b05a23fa411a06d",
+      "symbol": "LIPR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LISC4",
+      "sha256": "2a8d0064cf4c1551194fb7b6d4a18c926648851c5c5cd127b31b2a510af9e98c",
+      "symbol": "LISC4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LIUN",
+      "sha256": "b346f06343fc08bc3d315e7c150826d0a9618a0053422660daa27bc528dabe19",
+      "symbol": "LIUN"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LIVI3",
+      "sha256": "50cf9450800b72ea5ff7e2a8f46e2b4aab207971478a3c199c98723630c0922e",
+      "symbol": "LIVI3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LOAS3",
+      "sha256": "705de3fe6b3a6d649fdc33e70015a2631da22c00de0d9a4cfabb1b1aa44dff0e",
+      "symbol": "LOAS3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LOCO19",
+      "sha256": "e417ad31994bbe7132776ef8d3c17b7b7f626025758ec7db4287ee15d6cb5f4c",
+      "symbol": "LOCO19"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LOHO4",
+      "sha256": "7e0e8920b98d24e23270682cf6090120d31d1b8626e458bd8434d01f7f3b9705",
+      "symbol": "LOHO4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LOIM",
+      "sha256": "9e22e1a6cf853a4b3d482681c4291eb34048d7af5b40205f43f7ba507b2cfdf8",
+      "symbol": "LOIM"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LOMA2",
+      "sha256": "8c928f94ce6456be103468e5a76ce4eceed54d2b66c0f208bd8e5db83082ab07",
+      "symbol": "LOMA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LOPE11",
+      "sha256": "20e3df024c72f37b93ee7b9c6f4f6d5e94471414fb9509e5dfd623023decd71d",
+      "symbol": "LOPE11"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LOQU",
+      "sha256": "ec073c87a6e5e72943387afb77cdf0beb16dac44c7317b3f8a0fdb63840f2fd4",
+      "symbol": "LOQU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LORU4",
+      "sha256": "7329ccdc90cc653f02464c7913ae43de1643fd7f46b1f5f9c78e855347cc2081",
+      "symbol": "LORU4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LOVE4",
+      "sha256": "0e211f23c0d8cfedb954eb9a534252c9d301327a1485ae8989c3c392dee1b451",
+      "symbol": "LOVE4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LUCO6",
+      "sha256": "69aa2b14947e1d6b0acc9f69dc014b0fe239c638c1e88ad3b900e969e6c5bc5c",
+      "symbol": "LUCO6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LYAP4",
+      "sha256": "0ab9f7dfd20c74a170569b7498c2342a37e18f1911af9c2d9d79ca0e785f422e",
+      "symbol": "LYAP4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LYCU2",
+      "sha256": "131ab934b3eeed4ecce3ece11b226829257a51f1e5ec2a9ff0a262b355202aa4",
+      "symbol": "LYCU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LYDI3",
+      "sha256": "6d5272e43d837e87bfbd6cff5b27b020cc970a8516335bd2c7b99abe9333425e",
+      "symbol": "LYDI3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LYNU",
+      "sha256": "6168bf16fcf024c34f6ecb0dddcfa2813d3567c9b6bbb9b7e2928c9897cf7e22",
+      "symbol": "LYNU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LYPR3",
+      "sha256": "2ec7deeebc34e54116336e4021bef1598ebc6a3075e0a70df9ec343a9657d740",
+      "symbol": "LYPR3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LYSA6",
+      "sha256": "15cd157b20f6cfee340a96d90dff4ec58ef968c8fc499658be2754dd99f0b4e1",
+      "symbol": "LYSA6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LYSI",
+      "sha256": "4e3359cf7ee95d939b0eedca1b6b499b3b843fbd88b1abe116885ea7ac517108",
+      "symbol": "LYSI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=LYSU2",
+      "sha256": "f624b823b6ff18d1857dddcca7c9b46fe63e2bea856b8e1c04b35721e645a53d",
+      "symbol": "LYSU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MACO33",
+      "sha256": "bf4cde2b751b9e3d871c6a1939cb9438608eddf5a6db91e47fd0659e0fe04cd5",
+      "symbol": "MACO33"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MAFL2",
+      "sha256": "e7e492fbc3c2161d0abe8168fa6eb2e4892270cf794eecead2b952ef3421347c",
+      "symbol": "MAFL2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MAFR",
+      "sha256": "3a31af1c09016c633c31c0c4378c8af960459df35c3a1828c501ad13b83917e5",
+      "symbol": "MAFR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MAIN18",
+      "sha256": "2329b321b0207be1a0afb0983900d0bf76913f21f35d2259b94718175bb4c78c",
+      "symbol": "MAIN18"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MAMA9",
+      "sha256": "6c91d2321162b718a9cb1ca7df29ca6f948a89457583a8899710286b2aabbe62",
+      "symbol": "MAMA9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MAPA25",
+      "sha256": "51140e34979c2a05af07cf56920df17f1b8a1179cfbc0d9db5742e641563e143",
+      "symbol": "MAPA25"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MAPO16",
+      "sha256": "64f77047563f1d73fff99019ac97624a9fbc7d3ed2ad1b23e23db094c918a766",
+      "symbol": "MAPO16"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MASI2",
+      "sha256": "ac7d6b6fc6e45465f7c2d952c5f074348c450ee6faffc4b29a65d86ca8010121",
+      "symbol": "MASI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MECO4",
+      "sha256": "2f2a3af935e80a585601f281d3013fe34f8b2b59dc092841ba2e47e8ddcfe661",
+      "symbol": "MECO4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MEDI",
+      "sha256": "38f45be9a70453515382a7ad94fef24815cb26b4f65dc7e65e93665b5a68de4d",
+      "symbol": "MEDI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MEHA4",
+      "sha256": "b7bc2e34f1fb3c563c615011f077988914c5a08253eb21bb261589836f13b304",
+      "symbol": "MEHA4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MEHE",
+      "sha256": "0e2bc549bbe922c0f1084d82f1701b70221d9ab712d92af75ab711fab61edce6",
+      "symbol": "MEHE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MEIM",
+      "sha256": "00975fcf0c2ee2bd5737356ca80279bd09d6b5ac5a4dde4e631f31ff6f8156eb",
+      "symbol": "MEIM"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MELO70",
+      "sha256": "03d569b77fc35ffe6820d188849edfb7c1f0ff33b3441327e04b535c3c60fa91",
+      "symbol": "MELO70"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MEMA21",
+      "sha256": "582b7d3e451d60f9cffad7b21b8558fa63481d0b68834785fde9d3f7ed80a2b0",
+      "symbol": "MEMA21"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=METO3",
+      "sha256": "2ad6e7f13163a3a7173394899fdaf0433f210bc6f40c5564121ae2aeb09fea09",
+      "symbol": "METO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=METR3",
+      "sha256": "a5b91918028429024ab7b274620b8c3fd089c53f173b9f8abe5deff68f09e8cb",
+      "symbol": "METR3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MIAU6",
+      "sha256": "b83d7c6121457bb5c80cac53ca9bb9b15e642165c913741bf10d6a345cef1b60",
+      "symbol": "MIAU6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MIPO2",
+      "sha256": "d40b51afa3b7dc27f200fe2b076f9f3ac9139a994ada69e95bcfc2fbc83f962c",
+      "symbol": "MIPO2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MISA",
+      "sha256": "d5de15ab323fe9e21bc76dceefd90e32f79c2530efd5184800c0645538d872bc",
+      "symbol": "MISA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MOBA",
+      "sha256": "4433f5fb4639bd4c328b17cdc11ef64e1e7cc96b447aa87c369158887ae94e6c",
+      "symbol": "MOBA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MOGR3",
+      "sha256": "312272e1ec0a65761076dc30e98224180370a22e18629c12c77855e45d7a9355",
+      "symbol": "MOGR3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MOHO3",
+      "sha256": "1c0e792cbe2b9d0b204bd2ddc58cc175b66373f5419385a7e5767f1b650c7e32",
+      "symbol": "MOHO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MOOL",
+      "sha256": "281633d5554f5d4096a01382f577693690d67cb20ee69fdf101f9db6f0f0d7c1",
+      "symbol": "MOOL"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MORE",
+      "sha256": "dbcc13f270783205de1f41e7da629143700559c4ce32e2b4394f5d505862f6e7",
+      "symbol": "MORE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MOSE2",
+      "sha256": "d8f4eab77b04cab7467aa232c195249afe7f45bc2ec731b1e0389285b1900b71",
+      "symbol": "MOSE2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MOUN3",
+      "sha256": "30e6f5c72d00539247864365a6736a55305977a83a01ad2d9845355dd2eefb36",
+      "symbol": "MOUN3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MUPA5",
+      "sha256": "8279f9c19ec86f558871853e0522962b9073a86066d49cfb4d1c73ca2773b928",
+      "symbol": "MUPA5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MYFL",
+      "sha256": "5d8dafad397e5d6c55f7d257b8f8a156498a454e5696f25a7548c11ea0550caa",
+      "symbol": "MYFL"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MYGA",
+      "sha256": "3593131f164ae27a8053ac446d83aa7b991b17cf129987c285ea072ec6a9b051",
+      "symbol": "MYGA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MYPU5",
+      "sha256": "deac34dd971ff4425a44b63e6488c5c1bad96fd4d8eb84f4e749d88aaaca0d66",
+      "symbol": "MYPU5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MYSE2",
+      "sha256": "12c3e2b59e66067632ab2ce57111a76b852d1dec5486062503e127cd010ff4a3",
+      "symbol": "MYSE2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MYSI",
+      "sha256": "db49e67b9676f7c6f8f58ea518f52454c196d5c8a63f0dcee08da51d2f88c09c",
+      "symbol": "MYSI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MYTE3",
+      "sha256": "341fc9b3fca170ee2afd382b28818e778ee053d90dd056b1fe89c10367cd00c9",
+      "symbol": "MYTE3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=NACO5",
+      "sha256": "46e625cc63b030cc07a129bcc12d6e9992d1052d9a7bd5d527561010a5f0f0f5",
+      "symbol": "NACO5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=NAMI",
+      "sha256": "242aa5466fa963d6f231058ef65be67b98cb8c0852d170a9505cf4a2ec37796c",
+      "symbol": "NAMI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=NECO5",
+      "sha256": "85207d7aed38af0c13b7ed1637053851a2237a686023b6da2120d59d8abd10cb",
+      "symbol": "NECO5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=NENU2",
+      "sha256": "6ff6afc6db77a0e2e2e0313a27c700ede74565fe9215a957ca27bb7a5b3e4b55",
+      "symbol": "NENU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=NESP",
+      "sha256": "3cfce7f2d36f7abb553e0a18ab0ce6d5141e93dac727f8c3716e79247e929b12",
+      "symbol": "NESP"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=NEUN2",
+      "sha256": "08888cb8967e194b67fba30e6d614837dc952ffdb47a51f96ddda8af9bced320",
+      "symbol": "NEUN2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=NOBR3",
+      "sha256": "95a42c2bcb4e58978277ab0adea3f64e20b929380b148bea61a13e11bb850fb0",
+      "symbol": "NOBR3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=NOOR",
+      "sha256": "7f51865e79d3249d352836444501f5c9624fc42e275e9819bc56627ceebf9710",
+      "symbol": "NOOR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=NYPE",
+      "sha256": "d2218e8d4f7e806b7db90bc86c111d109607b251d749fbbd639b27f67fe43184",
+      "symbol": "NYPE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=NYTE",
+      "sha256": "02abbd7832dd3a7afc60dc36df170b739aba249c83ff86713762fab242cfbc95",
+      "symbol": "NYTE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=NYUR2",
+      "sha256": "718d73f55e461878e9e43656e201ab4eea1914f49f71b3355205085167aaf862",
+      "symbol": "NYUR2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OCAL2",
+      "sha256": "9275624c9cc5443839e2a6890c18909f1043210238733c7df948746d1ad9f6b1",
+      "symbol": "OCAL2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OCSE2",
+      "sha256": "0766ac5940a429dea09e86e0ee6c60c97a046fa2205dc0e5579c974679d6eb6b",
+      "symbol": "OCSE2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OEGR7",
+      "sha256": "dfa908a2a0c64ac81a79cf73cb38e09a325eaf8c87d777c2772658c04a6501da",
+      "symbol": "OEGR7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OEHA2",
+      "sha256": "3a3923eba535479de75dc2d60bb25a23dc76b73129f878230161b23a87f77b4f",
+      "symbol": "OEHA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OKHY",
+      "sha256": "4f3bb87a918e8325b65e497261c626dda4f1d4661b42e169bb5aa2c8ff8d0cf9",
+      "symbol": "OKHY"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OLEU",
+      "sha256": "32e0339254034cd3e1cee60b158f370608aa4a02e3492f928bd96f0389d067cd",
+      "symbol": "OLEU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OLLI",
+      "sha256": "0ce7f64d635324d8063518d2247baf550f5793510de3d158de5d05b9afba261e",
+      "symbol": "OLLI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OPPE2",
+      "sha256": "73a3f9ef784f1fff8e9a7dec47fd603c97934a57e8b04a2fcacb3c2e2d9bea97",
+      "symbol": "OPPE2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OPSP4",
+      "sha256": "e192c15159fe624e4c5dd909087a32b006958aece9f1d09b6f80d733f1469fa9",
+      "symbol": "OPSP4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ORCA2",
+      "sha256": "2f6f2c484595fb24f16c3b06650249666acf8ab5a4f3e33c82e86d9c40ab9ad8",
+      "symbol": "ORCA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ORGL2",
+      "sha256": "0d12c87d5ec5a9cd5762c719409b7ce06cb3d452e4d2d7b7cf5d2e9b40936a8a",
+      "symbol": "ORGL2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ORNU",
+      "sha256": "ca3923150deabd71bebacbbb08a6dc976e43b44aa8cf93274dd6c0d6e3a3a2dc",
+      "symbol": "ORNU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ORPU8",
+      "sha256": "b3ec235efdb3123e0ec1bf0a7550949ca5b76473572dbce6b7ad51118820148b",
+      "symbol": "ORPU8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OSCL2",
+      "sha256": "4e2b8e6b315c52861ba174bd2ccec6095bf14be94af85ddf7909d77fd934ed5e",
+      "symbol": "OSCL2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OSVI",
+      "sha256": "23d004a350ad57057aedb435d6a39e75cac1437869da903e3a2f018a139b0bc6",
+      "symbol": "OSVI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OTRH",
+      "sha256": "ee06b81ec17ee25417576e5d3935cad39b72c6833104df105d5b42a9b6bb45c8",
+      "symbol": "OTRH"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OULI",
+      "sha256": "43654828181a02d41cb43c60850f6b610a89e52e8ea288f9a11ca19fea15f510",
+      "symbol": "OULI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=OXEG",
+      "sha256": "a2927a7980876b4fc618a04768c5dc3cf84cb91e73f7cf9b5d7c2a364a5e08c0",
+      "symbol": "OXEG"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PAAL5",
+      "sha256": "98bb55b1e253c01df8c21b3a8b738eab0b5964c999d3ab4af375e040c2d04f41",
+      "symbol": "PAAL5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PABE8",
+      "sha256": "d4b9cf1b8ee2a4df5d301d5872b4a0aaebb2196f2e02d8fd7517fa5d8a679796",
+      "symbol": "PABE8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PAPR6",
+      "sha256": "28f88255220727941aede6b04db3bd3c337e6f365f8f5d0bbdc81212edd783b9",
+      "symbol": "PAPR6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PAPR7",
+      "sha256": "b0d9757180fe09f9a67e4e7c1900ff0f8ad7369a51bdcf4eaca3ffac35cf1345",
+      "symbol": "PAPR7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PARI4",
+      "sha256": "c4098cf72c71091fccc84d5f2feb4f75432ac8bc206a0e5703c101a7ded2f38e",
+      "symbol": "PARI4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PASE3",
+      "sha256": "73beb8b5f3808c9af01f958f4119686e29260c9b5bf4b440f0186e0dc71e5063",
+      "symbol": "PASE3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PEAM3",
+      "sha256": "4ba865cf787528dc9573b582c9e0616a5608c0ca4bff3aea3937c1bd255ac6f1",
+      "symbol": "PEAM3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PEBI2",
+      "sha256": "5dfc73b67a2ce063367da12cd23248dcc76d4afaada2abecba01557a245845c5",
+      "symbol": "PEBI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PEGL",
+      "sha256": "c9e74c8ff9b3a465682f356354100c0a6ed3be035f21452acdf82b6cf820c83c",
+      "symbol": "PEGL"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PEGR9",
+      "sha256": "c24d8c7f87e06e11695001730666284560a41031de316d42c421c703ed06b732",
+      "symbol": "PEGR9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PEHA",
+      "sha256": "698d41e04c0d5f2e35a65437f4d723fa43f1c7fd6245245819586bba030ec106",
+      "symbol": "PEHA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PELI5",
+      "sha256": "34b0d563533df17d8870781cec1702011456c6381255e90e28205ca20a0985dd",
+      "symbol": "PELI5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PEUR",
+      "sha256": "2381a9576cc9e15b5693975d002d327af05e98a3769f0716b999c71c553e1cbd",
+      "symbol": "PEUR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHAR5",
+      "sha256": "8fa8b022214f71634459242c427dfbe30e1737ac50c381871585837b6c070eb9",
+      "symbol": "PHAR5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHAU2",
+      "sha256": "02a7f07a80a9abfbcd440355500b9221ad405cf9da75c8f5c391111d62f5c359",
+      "symbol": "PHAU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHCA38",
+      "sha256": "f536001f496d4304710645646bce42b5b892564b135bb8bb5809da39dc6b8fbc",
+      "symbol": "PHCA38"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHCA49",
+      "sha256": "660a1d9e194af94541a493238d6063641ac1a08f577fac190faf9ca19023a80f",
+      "symbol": "PHCA49"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHCO24",
+      "sha256": "0f055774a139484a1fe4f7a9e284d64276ddf6f769773cb9315b7d7ea8e4c47d",
+      "symbol": "PHCO24"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHGL15",
+      "sha256": "e90fba7d0a44b9be3c5799b0a8b1dfae61758340e9bb49a3ee7256744d265101",
+      "symbol": "PHGL15"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHHA8",
+      "sha256": "762bd35c7ff77f4b4d0ef59571e1080489adaff962001a61cea702b252c2fb5f",
+      "symbol": "PHHA8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHHE20",
+      "sha256": "5a4ef7f3f438f93341debf32c50a4c2af05537408f91dce4b4cc917a0b8b56a1",
+      "symbol": "PHHE20"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHHE21",
+      "sha256": "4a66e8b1a6f87e06608b0fdae513f36fbda42b9f7dbfafec981b6a8aa5c73c92",
+      "symbol": "PHHE21"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHHO3",
+      "sha256": "418e99bc25b1de92ebffc2df85c9ce9213f2cd1e5470f1ef047c132d5e659e78",
+      "symbol": "PHHO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHIN12",
+      "sha256": "bcd96da22e2a49ea1c1a4c7b67a5e35e3607f4bbac99d7ca3beca0e8dc234e50",
+      "symbol": "PHIN12"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHLA24",
+      "sha256": "c4a472b6b9de1c1c33b88f4cfd8c051beb9fd27d13155828da0447e1af1c6df3",
+      "symbol": "PHLA24"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHLE4",
+      "sha256": "ae6ea4beb33e9962143b0414234c976aaae01ce0a07e966401b1ca81e9a69632",
+      "symbol": "PHLE4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHMO14",
+      "sha256": "aedf19927bd61e6444c75256008dac58dd3f039e4714cae7f60164cf41af7fb8",
+      "symbol": "PHMO14"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHMO7",
+      "sha256": "68a2aa28ee35e308cb8b7907ec6200e41d667cf5ee9ca1cddf37db8e4aff871c",
+      "symbol": "PHMO7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHPE12",
+      "sha256": "a672c201706d72318d1170aa44303b0d4669e1917fd7f143e19333e365020d2a",
+      "symbol": "PHPE12"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHSP2",
+      "sha256": "698e91a583d0c857dce9406e3319abdc23f350bffdcae7ec3721991980c7af12",
+      "symbol": "PHSP2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHTO",
+      "sha256": "4e43b82f8d2b6e0fc42721d537cbf165c7504db6ea1fe7671787ebcf0cef6663",
+      "symbol": "PHTO"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PHVL",
+      "sha256": "21cd6d6e79a0a5794eacb7bf15022ec76dc07f42d2c6806a01dba8679a4785fc",
+      "symbol": "PHVL"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PIAM",
+      "sha256": "6c928c540baa29fc7bc34255bb35c796369a7cb1b1e820699d33a0249b726f3c",
+      "symbol": "PIAM"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PIAV",
+      "sha256": "1be375a481f032860cee4d52df11683c377926826eeb16443643c12acf0d7e24",
+      "symbol": "PIAV"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PICI",
+      "sha256": "42c80e940474ca6b124f5848db7b6128ef0ebce1d5296eedc83b5267e91b8ae5",
+      "symbol": "PICI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PICO4",
+      "sha256": "19cc821b13a89855763a8a357e12e8ff9fa0543ca0073edd860f6577d1b0d6b3",
+      "symbol": "PICO4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PILU2",
+      "sha256": "c55566a881f8520370b9be8bf6ee613d5c1c5a029f143772ef9bda089cd0b827",
+      "symbol": "PILU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PIMA11",
+      "sha256": "127f42617185ff4bd9f2205b02f1a13b29c6b00afe13245a9a283e0f975b8247",
+      "symbol": "PIMA11"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PIPU",
+      "sha256": "76ed62c4aeca92a836e24635b84ccd123306b683b7123ef15499988389469750",
+      "symbol": "PIPU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PISH2",
+      "sha256": "d5d3228e086b8eaed9fc78a619ef6ebc41f0c9b7224dad3f3184aa9614db998e",
+      "symbol": "PISH2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PITH",
+      "sha256": "6f6b663d41c318e420deee64d10a2022d08c67f440674de795b47dac0500b8aa",
+      "symbol": "PITH"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PLAC4",
+      "sha256": "bf167800f10d940779866568fef8ff09149a9a5db580256028132b4c75ce3060",
+      "symbol": "PLAC4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PLCO3",
+      "sha256": "d6a31d99298a319bc9b999543cb762698ef20d9c2cc7f90728b3aeba9be1dd4b",
+      "symbol": "PLCO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PLIN11",
+      "sha256": "64d5557699c4cc309ae6f03f4708cd4e96b1159ec2c9fc9b842181f4e08747bb",
+      "symbol": "PLIN11"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PLLA8",
+      "sha256": "c96bd303bbb7173fc6e3b9cde66129e590ecfe884fee1ce558a1df37109c6d9d",
+      "symbol": "PLLA8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PLMA6",
+      "sha256": "c299d62d9b8da3da3684c616f1e53a328c233eadc35426a1859b596847896d34",
+      "symbol": "PLMA6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PLPO",
+      "sha256": "2a0a65a6c5355e6a497f056ffea1274ea3627e53af8c40a6d000ff206bd061d0",
+      "symbol": "PLPO"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PLRU4",
+      "sha256": "3f2d083631ee92753261cb7e8ed335eedd37b6cade7357bd0b99f9c65bd93213",
+      "symbol": "PLRU4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PLSA2",
+      "sha256": "ff06d41e083f164b9c427c82db21cc216f68b925666d01614e4a3dd87af174ae",
+      "symbol": "PLSA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POAM7",
+      "sha256": "0c00156615088b77bd6c04f109538be18d6dad957af003df6ddf29ef0fa98644",
+      "symbol": "POAM7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POAN3",
+      "sha256": "90752b7518b55b15b9e3835420f18ba395bed3bca09d7631b00d2cd4e9599c6e",
+      "symbol": "POAN3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POBI15",
+      "sha256": "1de1b6b273634b11bd5898e125a78f3e85fa25e64d6f784359835b041d06b618",
+      "symbol": "POBI15"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POBO9",
+      "sha256": "3de6728a0912816bbb26651d5da6e03cc732b9f3a71ef6d4415cd53beff17620",
+      "symbol": "POBO9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POCA45",
+      "sha256": "4f0a28815c455855f06a9d8094a2b6d450bd9ad8f1a074e3b3ce673b370c054c",
+      "symbol": "POCA45"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POCE3",
+      "sha256": "0dc2b91b7beda6bd5c41a9fb842e9971e32d355be694b151e5af26976de42049",
+      "symbol": "POCE3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POCO3",
+      "sha256": "6e225fba3c3770512b631228b0623ce089d167a4d5c8b0ef6ce8f2ec9d654615",
+      "symbol": "POCO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POCO41",
+      "sha256": "af25dde436fb672b829cf207f026b7488c9bf2e3afe90ed66f80cc0e8ecce049",
+      "symbol": "POCO41"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POCO5",
+      "sha256": "345e5637bf29dfeb4e9a5dd1d0f8565248b298f8748f6d562dce0e04d26e7015",
+      "symbol": "POCO5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PODE10",
+      "sha256": "e0ba5f3a51197093d5f6a67b51bdcb363b8678bd5bb7820a832e1e12e67ef2b5",
+      "symbol": "PODE10"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POIN9",
+      "sha256": "88234375f65f32c58105ef64105d547b5f5fa8860b00d8092556074fc28968d5",
+      "symbol": "POIN9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POJA4",
+      "sha256": "120e0386b73692b111e3dce544c380d641c9419f3f657b4852f9017c8748fb34",
+      "symbol": "POJA4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POMA2",
+      "sha256": "b32289387af35248681651f35403c46c6d58c908c1bb382cc4c70f47d9b14be0",
+      "symbol": "POMA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PONA7",
+      "sha256": "8b8c93f1a915c41f197f284910866ae1b7976a2758a57958f8885e4e11462bbc",
+      "symbol": "PONA7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POOC8",
+      "sha256": "e1aae692787770b66062fe6b1b75f332de1e2090558d2f37423f83e49acc0cc4",
+      "symbol": "POOC8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POPI14",
+      "sha256": "9efd4a6819bb2690a78e292c4ebf3e2ed2f8f7d8effc35e3f7a40872e8502fbb",
+      "symbol": "POPI14"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POPL11",
+      "sha256": "d58cc9abe893c1b72058e331426be86315acb639bcca4cfc7c5a16f3c562c5e7",
+      "symbol": "POPL11"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POPR4",
+      "sha256": "843b9c9cb65e705138ca83e00f3f962550d43695fead23851da12487e0e0c5b8",
+      "symbol": "POPR4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PORO14",
+      "sha256": "5b3e1ca598f08df94d56de59c3f615a37b6432e2cb6650f2b06ba48db5c6904e",
+      "symbol": "PORO14"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POSW2",
+      "sha256": "6456598d30e334cc4ef1048be68f9e9d74e29d3bd2d1f36a668821f3dc8502b7",
+      "symbol": "POSW2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POVE8",
+      "sha256": "52ee34d636f0095f0922ad87f4a0445d5857587b9a87d32acba7acd7273a41df",
+      "symbol": "POVE8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POWA4",
+      "sha256": "f4f2238a0620c7ee4b9ff283ae790ad20abdea7646fa083e0ea8d410acc16a7e",
+      "symbol": "POWA4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PRNU",
+      "sha256": "ec4a461b3900c86637c06465074cd8cefe173659d848822a395b5d277e21500c",
+      "symbol": "PRNU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PRQU2",
+      "sha256": "779caba4a27b66773f8d0bd8ce742494322002cc42a6b5d982499886d508df37",
+      "symbol": "PRQU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PRSP3",
+      "sha256": "4fbfb7b0be720f2899dd9a288789df0318671e1273bc4e8ca036951e91245537",
+      "symbol": "PRSP3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PSCO3",
+      "sha256": "abaa7863357b9b520ca851330e45ee751bf5227758a48896f61a7c635a9ec8c4",
+      "symbol": "PSCO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PSMI3",
+      "sha256": "87937a21f6c182e11cab045d9ba964b254ce95e6911616d4e797f393eacd23d0",
+      "symbol": "PSMI3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PSNU",
+      "sha256": "050a9617e95920bd6562d2b4915ff5ce27971e6bbe92b8c1927c958bbf18060d",
+      "symbol": "PSNU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PSRA4",
+      "sha256": "7c88d7643618f933e7d3e5a6d5f41fb78ac148e52c6a83d9eea9d7f7973f9a16",
+      "symbol": "PSRA4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PTGA",
+      "sha256": "7bd5251e2a189b5583ba16fc2ee9083a437f3e39d4d68280efebe5309ea68087",
+      "symbol": "PTGA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PTME",
+      "sha256": "52c63c581de4d4a1cbedde5baae77111da012708b858e80d5c8114ea7a16f30e",
+      "symbol": "PTME"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PUGR2",
+      "sha256": "c9116957706607e0797569fe791708e991f71171f87168ce4d336eac76664f3e",
+      "symbol": "PUGR2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PYAM",
+      "sha256": "a4eb91e5cd5f17ddd5e32fe15e027527fd91ed5804ed79ef120a93274f6fc12d",
+      "symbol": "PYAM"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PYSP4",
+      "sha256": "a2a6a46f8b63d300fbee23580e8d65e60e1f191122d169669261d8c5f3b704e7",
+      "symbol": "PYSP4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=QUSA2",
+      "sha256": "e30ade5f76512a9a8915063a5c3960652364bcad4fbffe7e3c382a7588d92e24",
+      "symbol": "QUSA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RACO4",
+      "sha256": "a548ddd3fd942da08fbf20f977d36639ec970257a17d4dda4a0bdb1934ae3ad4",
+      "symbol": "RACO4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RAMA7",
+      "sha256": "f9f32ca12b1d75319dc563e005426cdde95c016436bddf70d2a7a740ff6effec",
+      "symbol": "RAMA7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RAOB4",
+      "sha256": "f5f5eb55bc1e0bb267ae931079050e97b99f49dfcd914af5d6b1a937159dc29e",
+      "symbol": "RAOB4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RATO",
+      "sha256": "364f4feaac7a49869da74e38e8f65aeac7bd91735fd08cfa9cf127a6192c6f54",
+      "symbol": "RATO"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=REMA3",
+      "sha256": "a82450deb37871d6004c7d8df1507399f2c171c0f516951dd39d76b8532a6974",
+      "symbol": "REMA3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=REPH",
+      "sha256": "4baac0994204f5f1d6f4aee80b38753fd85a531d752980ce413ecfee7fdd2356",
+      "symbol": "REPH"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RHCR6",
+      "sha256": "20231c39f28b00a9bff528422cec03e465a3a819cd1aa789e775a48e20002b52",
+      "symbol": "RHCR6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RHLO70",
+      "sha256": "732dd319ff2872b339ab2d81c328011a778169a6140462c4ff400cb2c5d32afd",
+      "symbol": "RHLO70"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RHMI9",
+      "sha256": "82bd0dd7952f902b3970df4cb9e686eb42afee7176bdc8a974669a900700611c",
+      "symbol": "RHMI9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RHMU",
+      "sha256": "29df4b2514ced27b37516c3fbb5d30f099af7169825c543d0cf009b6c9750236",
+      "symbol": "RHMU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RHPE10",
+      "sha256": "ae4b5d8820dedfa7d7bd34fc88d7b0157f70a1cc8580db958999450b7f86e401",
+      "symbol": "RHPE10"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RHPS70",
+      "sha256": "443a508a7e5165ea966a1391e5de711d4880b39055315e35e8b2fcedcc1d2cd4",
+      "symbol": "RHPS70"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RHRU70",
+      "sha256": "0ae852fa870d7b38c9979b745daa46995483110e214530065b03db0220a99a14",
+      "symbol": "RHRU70"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RIAL4",
+      "sha256": "3396b844101aa0a39711e2677b5f8b433c8e05fff228465c3d4fc545e178e4e6",
+      "symbol": "RIAL4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RIAL5",
+      "sha256": "0fe2292b560655f94ab6bc8e9a7190c10791229fea0aa0fcef6027b6095ad0da",
+      "symbol": "RIAL5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RICA13",
+      "sha256": "6a54bad9fc74a49af26a392c0256b9e2c00698bb61f85f57782fa4ec10d7b4bd",
+      "symbol": "RICA13"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RICA14",
+      "sha256": "cf6a0a5662ce46bb3e80d7203f13e891d77138cf0106818a9bd9d4b7e40aa87a",
+      "symbol": "RICA14"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RICA15",
+      "sha256": "a3508995c855bd0d6536576242165042d0e0e7dd0d81f84a62a133a71b37a0f1",
+      "symbol": "RICA15"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RIDI7",
+      "sha256": "340974d871e4b8cc1a1515cc55e1d70eab28553f25cddeae220dffebe6da80d4",
+      "symbol": "RIDI7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RIGO2",
+      "sha256": "702c1025f13e9ec87422650c6e6ff656511c7cc31de09c1c4eb3b33896004827",
+      "symbol": "RIGO2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RIHI4",
+      "sha256": "566aaedb8414d61804eacac138db0837de3251e11fcef2a6c1c6ecb11015d7b1",
+      "symbol": "RIHI4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RIHO3",
+      "sha256": "a924c78cb66e1f5698b010ca03ba268c262b83cfd3e6f788c26a315361a68ed4",
+      "symbol": "RIHO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RINI",
+      "sha256": "8a1da3ff0ca9ac737b55c9e0a071697ff3a3d9ccc644cac6305930645f0a389e",
+      "symbol": "RINI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RINI6",
+      "sha256": "cdc9284d3ada2b5fdcf8315f117f16abc1177f2ce3be4b6112f8b4327eb3fd3d",
+      "symbol": "RINI6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RISO2",
+      "sha256": "3cf4c98faabc1f15236a22464cbd349d34ab7d4c9c6d23ef46d3b1a5a83f8267",
+      "symbol": "RISO2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RIWA3",
+      "sha256": "bdc1311a51b6fe0078df683bfd91d2239e408389b8661c86ab11727c22126fe1",
+      "symbol": "RIWA3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ROSU4",
+      "sha256": "b282f78c9c6358f44a21788f36fd7c6cbf0ff86b57fa23a2e2102308ee323a7d",
+      "symbol": "ROSU4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RUCI2",
+      "sha256": "c56dcac6a003ac681b0e65e7f0be5da3e083ee29989b4ecc7152536d8469d552",
+      "symbol": "RUCI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=RUPA14",
+      "sha256": "60295619f2e86948bfe8faad55a60a99cbfecbcce4edf8a40e9665acfad30fc6",
+      "symbol": "RUPA14"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SAAL4",
+      "sha256": "5e08614dc5417fbb43c5fd960b3152e00ed14a11a94222f68dcad20ed826baa6",
+      "symbol": "SAAL4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SACE",
+      "sha256": "9e399322d9c678c5786ea8b37e311ec530de908df61e45e66cd8edf665955eba",
+      "symbol": "SACE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SACI",
+      "sha256": "ed831c5df9fd99d2752fdf8dc19ed19a70b944b45b74d1c07b3147e8a0d80299",
+      "symbol": "SACI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SAHY2",
+      "sha256": "4a81a6659ccc7e10272d8a593f04976d3b1c957967712e8a46695f12c3f84fc5",
+      "symbol": "SAHY2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SAMA8",
+      "sha256": "0d5ab2663db29be1df6085eccf210e62e57c1fbbba8c8030fb13f7e8f32f4dab",
+      "symbol": "SAMA8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SAMI7",
+      "sha256": "d10860d7615e5c436aec34fd938cf906e959222cce444b748a744dacd0df90e7",
+      "symbol": "SAMI7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SAOR2",
+      "sha256": "c14985274d046c57d101dd8bcf8173d1d6260e007968b3977e354c66e09d1b29",
+      "symbol": "SAOR2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SAPA7",
+      "sha256": "0cb69fab2073553814c30e8f4ce86e7bf7345cd135ccaa3b09dccd678df0ad58",
+      "symbol": "SAPA7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SARI",
+      "sha256": "5ac479650e541681d897fabc0380edf95d646d9751669e245921f909ea80a96e",
+      "symbol": "SARI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SARO11",
+      "sha256": "a4d59e1ebf08d8aeb1d825e86237253da49401e64808d3d2bf457d308aaf1f69",
+      "symbol": "SARO11"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SASC8",
+      "sha256": "e6dfa1dde11c29e41bf6d30a9563352a90cf23e35abb57d4eb3566ce7d987d62",
+      "symbol": "SASC8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SASO2",
+      "sha256": "61b1eed9c706be97bee297c13ec247f848d51186d4b6bb0e8b5c36d5aa0bb0b6",
+      "symbol": "SASO2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCAL4",
+      "sha256": "5e8c1ffd9652ad6a15006a8a7eba92f6ef6337a05fa42b1091483a3899b51d5a",
+      "symbol": "SCAL4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCAP3",
+      "sha256": "0d4d3172b763711cce74f6333eef006456248ea5cbbf75653614c566edb7f186",
+      "symbol": "SCAP3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCAR7",
+      "sha256": "96262ef57eb806e5d36f8d4319c2e83929e8388a55ed2188ef1be9c84c377139",
+      "symbol": "SCAR7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCAT",
+      "sha256": "93d68f31f4baed08f4bef446a6b7d9659a31fbcb0374d1bcfd4ccab9744f8412",
+      "symbol": "SCAT"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCCH3",
+      "sha256": "c47da290fdd61a0220280f9860d684fa440d788498a3c50961a80919421e8ab2",
+      "symbol": "SCCH3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCFA3",
+      "sha256": "813776a2c914049d658d2753acb79c847caa38f8483c6848c4fb4e6e8d72370f",
+      "symbol": "SCFA3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCGL7",
+      "sha256": "11fbedc91efb807e467dc1ea3a76f1d52adb306f6ecf93c8d35b2656d45793aa",
+      "symbol": "SCGL7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCJA",
+      "sha256": "0376376e6556c7decedc07ddc68fd8cea03d1fac795cced7be9f6e862f580e31",
+      "symbol": "SCJA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCLI5",
+      "sha256": "b3a9661e03916e203f2eecb6de3fa5626686d8cbd0878b4f3c16e2dee54922f9",
+      "symbol": "SCLI5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCMU16",
+      "sha256": "73737e5b363135510d61b6d3caae0b9d88fd36d62ae48d1a859dd1f3ac9c5f86",
+      "symbol": "SCMU16"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCPA2",
+      "sha256": "9d4d2dcfe0c1c0453a9ff479698cc2a699f9d2ae3fd2bc7d528d2348d4219919",
+      "symbol": "SCPA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCPE9",
+      "sha256": "f8cb605f09c75a60df3e11038325534df1f4a8757a502e2319b4592b135912d2",
+      "symbol": "SCPE9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCPT",
+      "sha256": "6a05988a59e41ab3f7a32ed95e7205076f2a8c8ebcd312e7bfc837f3edb9b774",
+      "symbol": "SCPT"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCPU2",
+      "sha256": "23674e74e14b0abd4873c059072d235519f1efd138e6f1a672c52c1bd1a74020",
+      "symbol": "SCPU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCSI8",
+      "sha256": "d130a16e341bdaf36fd5ff5467912002826397c31201b2ea4b05f8ee51c0159a",
+      "symbol": "SCSI8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCSM3",
+      "sha256": "148b361414e50b6fdfb0999928884d3d81c18955aed1702a5023e412989e9f33",
+      "symbol": "SCSM3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SCTO3",
+      "sha256": "7db77dd329605fd2184f687b288c097e149a7efc0edf2d93d4f9ae87e2cce8b1",
+      "symbol": "SCTO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SEAR",
+      "sha256": "c10c7c63d1463f0285c7c1b46ffe1c3482c5f9860e8291fa953553a347d2932c",
+      "symbol": "SEAR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SEBI",
+      "sha256": "02266ff32cae5627062186bb54d2f5d06b1e39ccfa51a2771559a1a7a1caa0df",
+      "symbol": "SEBI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SEHA2",
+      "sha256": "2a02b8d8740853e970213487447fc1b6a527cdf4920fc00de28357025b634861",
+      "symbol": "SEHA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SEIN7",
+      "sha256": "af75a3caf78cd3e421b7fe9ef350428908a13fda6c993c523fc646b9395b80d5",
+      "symbol": "SEIN7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SELE7",
+      "sha256": "6ca1a27afbb10c088b55bbfe5f21059547c4eb03b47d685738240ab0d7502b00",
+      "symbol": "SELE7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SEMA13",
+      "sha256": "3b097aa7e99828edaff86ff27569cde77ae86b750eb4cdeba1dedf0fe14ccfb4",
+      "symbol": "SEMA13"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SEME6",
+      "sha256": "d7393bf27b952dbf702672b4e385dc0de0d9c0783a367a83c3b8ec50173a67d0",
+      "symbol": "SEME6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SEPE",
+      "sha256": "6dc6b0b3cc360db6745aec78be48a313a28d11422d6d0d82de518fba39f7ec42",
+      "symbol": "SEPE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SEPL3",
+      "sha256": "e3db16d78206ddadc349cdc45e6c59d126f231e826224f500a74aceb8b5e8428",
+      "symbol": "SEPL3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SERU2",
+      "sha256": "a69aa31ecfdc6f5da2d2ab53f224338a188c22db6f5f5ff2d0056b2469561de2",
+      "symbol": "SERU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SESI",
+      "sha256": "d3a15c2eab999a6642c8c324dcd977a6ff766829f3e7b9f52767b62fbb93ac25",
+      "symbol": "SESI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SESI3",
+      "sha256": "61aa148523a00a69d01da891d8b4c1200adbf64ae90f326ab570ef4dca819834",
+      "symbol": "SESI3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SETR7",
+      "sha256": "ad5e633228ad334cd18a1511ec75a02dc62eeffd8ac9fc43fc07adff2edb767c",
+      "symbol": "SETR7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SEUM",
+      "sha256": "723992997316d121a7079e2e2706b91fc90a76e033849501267515d456e1d656",
+      "symbol": "SEUM"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SEVI",
+      "sha256": "e78101efde2dd687867e6fd39dc1bec82c57f3692cc6e8b4281cc50901656803",
+      "symbol": "SEVI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SEVI5",
+      "sha256": "703e1e688c3ac53b2c4ef3d04ab555227e4061f2ce2384857682f3be0b05f894",
+      "symbol": "SEVI5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SEWA",
+      "sha256": "1a72ef4d4c0ddc1b19b8a3fa0eb24a0e108d261b05d372eda185bfaf23779aef",
+      "symbol": "SEWA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SEWI",
+      "sha256": "7d52c1a51e9857a8ca8c85a1a378e5f237fee9fcccb0e8fc64834e0d22c7bbba",
+      "symbol": "SEWI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SHAR",
+      "sha256": "2e78e517e5e8e97706d28602cc827519c4a54631dcf81e2a7673d8181740d3cd",
+      "symbol": "SHAR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SIBR2",
+      "sha256": "721b72ae94bf348ee2bbfde7c92c6b153869dece50c936330a4e45dedfa524e2",
+      "symbol": "SIBR2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SICA9",
+      "sha256": "2c455a1406438688c9a463b57cc7dbb6970a426e8850d41d15aea3c78cb4f243",
+      "symbol": "SICA9"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SICH",
+      "sha256": "9e163560343c3ca7c072fe79318f530173a38ab1d14e8ed1ab7b749ccd163e1d",
+      "symbol": "SICH"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SILA23",
+      "sha256": "71d08b86012f0cfb2939750e844da2a0932dabc226054e515e24c5a1c1fd4fee",
+      "symbol": "SILA23"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SLAM",
+      "sha256": "096a2655c3ad000fb38bc58008d23ec3c3945bccb1888d68146a76601f9528e4",
+      "symbol": "SLAM"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SMPU2",
+      "sha256": "061f6eeb71abbb51ae3062d9411e74c84f6645aa55ec84bd548ddbd358b64fbb",
+      "symbol": "SMPU2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SOAV",
+      "sha256": "db0b69a0a1268c6254114578732788748dfb5dde3d814ce686231c996e106b9b",
+      "symbol": "SOAV"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SOHE2",
+      "sha256": "9ba16dabba9d27875234016cf0c117b5995a86a964623ce71776f5f7d21151c2",
+      "symbol": "SOHE2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SPFA2",
+      "sha256": "a50a34f9f181d405740f7f2999b52c0c85c1477cbe69108ac766c39a9c1ce51f",
+      "symbol": "SPFA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SPFL",
+      "sha256": "a4721ed825c441c9b64256409ebf8945e397bc1ca4946c99a964baf585243978",
+      "symbol": "SPFL"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SPLO3",
+      "sha256": "d47e473158b15dc3e3e324a93322f03b0c796e2d2ed6fe08632eb7e7c0436559",
+      "symbol": "SPLO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SPOB2",
+      "sha256": "f841d695066baf75955195ab29f0d26c7ff62d43642b4853e19dc1c3f7cdab03",
+      "symbol": "SPOB2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SPZE",
+      "sha256": "6d7fa91aa3370f3e95206dc1fcbb49ef108450bf7f9e2ba0d8c7248b86149db0",
+      "symbol": "SPZE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=STBI5",
+      "sha256": "ff5a9958fa537f7b3f11381ea2cbca18bd4e07393d931ec90bd364b89a096bb5",
+      "symbol": "STBI5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=STCO2",
+      "sha256": "9b3a89d47abd9862a9a3e91da666fee5e0fc8461d9448934136c0aba6c63d1e1",
+      "symbol": "STCO2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=STCU6",
+      "sha256": "13f580d2d7c25f88109cc81341369ede47e1b927fc09a1ec257329c3c0d67db2",
+      "symbol": "STCU6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=STMA6",
+      "sha256": "3ea2532680020b1d23c6fc81202aab71eecc9a250fdd9c20113e22a0d845ebda",
+      "symbol": "STMA6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=STRA3",
+      "sha256": "bf944a15ebfa2792802249a99445cf9b07e2d1ac200e0bee5e3c79778171ed9d",
+      "symbol": "STRA3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=STST20",
+      "sha256": "c9556c79b5dda6ee69f4e4cce9fe9ad8bd77ab8d6561557c8891bbbd5dd3e181",
+      "symbol": "STST20"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=STTA",
+      "sha256": "5e1dfe02f7cabd74eac4c71cf37b042cd6f8897707ccb8e9cfc907641d372712",
+      "symbol": "STTA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=STTR",
+      "sha256": "30877eb3c31103833d8308a82451539e1afff80a130e5b401cedba3b0c12858c",
+      "symbol": "STTR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SUMA2",
+      "sha256": "ad5a78c5493da6b05395e12530dfdbd74cd4c819ada3d5aefa547b851bea6246",
+      "symbol": "SUMA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=SYPA8",
+      "sha256": "145044be616b7435740a3ae9fda202662b725f14cc3ec4dcefb4f0f0ab33e4a0",
+      "symbol": "SYPA8"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TAAC",
+      "sha256": "eb420485dc9e2637c4d7d0daec8d586784064ac439a9f69e622a1444dc44d73a",
+      "symbol": "TAAC"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TAAL3",
+      "sha256": "9b0893240fb08957333844e3f48caeebfacdb7a23778000cc8e2217f884c9c18",
+      "symbol": "TAAL3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TAAM",
+      "sha256": "5bb88763692d67839b0582f6d336eb4c6c1d6769690f097db6bfd09e18cddd00",
+      "symbol": "TAAM"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TAAU3",
+      "sha256": "698019c1723acdcc7cb1a51211b23b861ffafc99fba537f1f44e5cc2ca78f52f",
+      "symbol": "TAAU3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TABA80",
+      "sha256": "27e1719dbae48b4b6e0e4a5e4042901945d9dfde869c07eedbcdcdf36c2100dc",
+      "symbol": "TABA80"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TALE3",
+      "sha256": "2c5269b030403b16b3f4adefd78154062543246b79c99fd99db8a4961bdceea4",
+      "symbol": "TALE3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TAPA15",
+      "sha256": "91639be7425430c2211e586d720967d6110096989763bb226341e72b0c11e3c8",
+      "symbol": "TAPA15"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TEHA2",
+      "sha256": "d549798c2910ab3b0cdb1b95194057b4bc5c380de34ed34b3ae4e6554f983c2c",
+      "symbol": "TEHA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TEOV",
+      "sha256": "04fd3f6bde1f2292e37dab8ca5554041886a8bd19508e761ae9761992b834eec",
+      "symbol": "TEOV"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TEPE70",
+      "sha256": "f543e9ace718fe2866cbe2b97ed0b5152ae2646e503d1b094e02730391c01424",
+      "symbol": "TEPE70"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=THAL7",
+      "sha256": "4021a71c15e17afbed0d83d304adb2a528fe178f5b18703ded613a04ec52a42e",
+      "symbol": "THAL7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=THAS2",
+      "sha256": "653a8eadaac9e10a5f1365f68093a475f8bbefcb72016069efbb209f9b785d7f",
+      "symbol": "THAS2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=THOP2",
+      "sha256": "cdabcd58e727f67c5ebc6cc405d4df5cb544b4ad4571dcd385baa2291ea1578b",
+      "symbol": "THOP2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=THTA2",
+      "sha256": "44d5ca2224dc2c817e5900554c61fd6bd5c5b3a22ebc1157357a5e77cb001efd",
+      "symbol": "THTA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TIAM",
+      "sha256": "b94ef1b2f4d69deb40167b97c8e3397d9d8bf8562b1db2ab615328ec582cf5cd",
+      "symbol": "TIAM"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TIAU70",
+      "sha256": "2bbe32e468617addd06950ff0dcffad0d19d4d1a7d98bf9c047c9ef8a276b4fc",
+      "symbol": "TIAU70"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TIOB",
+      "sha256": "a0421b291000e6fb1191f769bfce52cc13e7046cc76fe3e8cc3c1ce2519bfb6c",
+      "symbol": "TIOB"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TIPO2",
+      "sha256": "722dadb5de4157fdf400780f49a88c2c005953e9c4587cef24ea53bd3933cee0",
+      "symbol": "TIPO2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TOTA",
+      "sha256": "51a68ded55f9a1ab2c543eae27957c769363f1396586a48426c8f2a293458d25",
+      "symbol": "TOTA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TRBR18",
+      "sha256": "5c214a086003c4486555ee9f56f34e15bd134f3e93aa0bf86b813f54fe1eaa12",
+      "symbol": "TRBR18"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TRCH2",
+      "sha256": "b6382c84f48e7a0a654167eb6c9cb1db9dc6e8293e31e662c8d409cbe544e406",
+      "symbol": "TRCH2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TRCO19",
+      "sha256": "ac167b6dabbe688891e5ea65e7a9da68ac56a914045a5108e8ded9c79c83600b",
+      "symbol": "TRCO19"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TRCY6",
+      "sha256": "51c7d6a7875f78d2572a0f80d2af4afc03cfa8431204d39c399eeb93cdf3c00f",
+      "symbol": "TRCY6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TREX3",
+      "sha256": "ac8fb2d07067f6750b089f3d442f60787935248fa9502d59aa59c8f1382af42e",
+      "symbol": "TREX3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TRHI3",
+      "sha256": "21a9766c2cb8faa29017a3a2fc1277f8c626f82951279554b73bd0cf26cccd6e",
+      "symbol": "TRHI3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TRHI5",
+      "sha256": "af9ad3c82dcc299eccbd3d88cef7f0186a92845b6c7344357e4b6e44cd3f4c95",
+      "symbol": "TRHI5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TRLO7",
+      "sha256": "76e310ce5d6347f578da20517663f7d61c466f55a57aaddc9cd0002a30add365",
+      "symbol": "TRLO7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TRPL6",
+      "sha256": "2d6c15a16ef9cf04929728144a69c18bfd28f6447af724cbfcc7cf3abcdca90a",
+      "symbol": "TRPL6"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TRSE4",
+      "sha256": "7234bf79905c7754d4310bc8f5f5f2c2e5b1bc51ccf9459271aa88a0592fa1f5",
+      "symbol": "TRSE4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TUOC",
+      "sha256": "d14758ec24b2d66f030b90824422fc790046abc4d8ac1c8490aa57ec30aa5e32",
+      "symbol": "TUOC"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TUUL",
+      "sha256": "dfa110a8ef91370b5f587132f2c86b46453a59d2ed99cd01ddc33fc21f07f5c3",
+      "symbol": "TUUL"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TYDO",
+      "sha256": "0778351771ea1c7acdab05f42d612580f32eb64412b62e949a8e0e0cf9ba5496",
+      "symbol": "TYDO"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ULPA",
+      "sha256": "dd6b4c0e02822984d7d03c909af661f86a0d56301a79224f5211e452c3d5fae8",
+      "symbol": "ULPA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=URKA",
+      "sha256": "731ddff8448243804cf97e246f52dbeedd05bccccd56d81e0d383afcbf6200fc",
+      "symbol": "URKA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=URMO80",
+      "sha256": "91ba55e7b5f69d20209617b9b6ff2329231d92d192e45f42d4d96091d5461165",
+      "symbol": "URMO80"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=UTRE",
+      "sha256": "8c0c1293163b107424419a8a225e24da578594133af5026676450316dc192aae",
+      "symbol": "UTRE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=VAAM2",
+      "sha256": "9e77b22ee62441ee95d7c4002fa8d4c765eb9071eb8cd9242504386cd39cfe7a",
+      "symbol": "VAAM2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=VAHE",
+      "sha256": "4e8f6a0f8b514f36b9871f559280f77472e4153a0fef521c8211cebc74a3f110",
+      "symbol": "VAHE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=VASC3",
+      "sha256": "4d2a7f1d6d37027cb22fb86351e3460635c624d679d8e2b946d9d6761291b50d",
+      "symbol": "VASC3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=VEMO3",
+      "sha256": "45f7732c7e455eb04af408862a91a5fd5f408475cc287d0f541cce23e4133fc7",
+      "symbol": "VEMO3"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=VESI5",
+      "sha256": "6cb0699e973a9b73b1e8d6fad7b49fa877920b5276f346288619028791e586cd",
+      "symbol": "VESI5"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=VICI2",
+      "sha256": "6c2799509e44618116b6f2f07bf846fd73332fd7e6e6c274a1803ec55bf226dd",
+      "symbol": "VICI2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=VIPU4",
+      "sha256": "890940b60b0227bd307797401c1818ce5d08df0f6d352fac87ce5b98292e9143",
+      "symbol": "VIPU4"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=VIRE7",
+      "sha256": "7e125e46847e3b940e4ba689be7e03af15bfc8bd91a10e3712dd99accd2025d0",
+      "symbol": "VIRE7"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=VIVE",
+      "sha256": "2f613e7a7e2609b567c935c595d91a63b69ab0934917321ee895806e1b650e2c",
+      "symbol": "VIVE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=VRMA",
+      "sha256": "8bfccd2ded38e975a9b8ca26e3f637275f58b035b6ef092e053c0adc5da12c20",
+      "symbol": "VRMA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=WAEX",
+      "sha256": "fbe30699562c9c184558fdb905ead89fc75c95bb7abd6658f7da21cde1ec390a",
+      "symbol": "WAEX"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=WAYU",
+      "sha256": "5eaac254a28bf3e0bbd582c1d0246925bbc22c26aed61afe91a0c7edab094856",
+      "symbol": "WAYU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=WIPU",
+      "sha256": "c6b3dccbd572887d640fd464ddcf55cfe193643001dccdd2bee2d0608b8d9a5f",
+      "symbol": "WIPU"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=WIRE",
+      "sha256": "b01cea08af461dedafc681fcbb6e606fc278c1afddf4d0e9e4b60d4750ae3c9e",
+      "symbol": "WIRE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=WOAR",
+      "sha256": "be2cbd1bd9fa7879b2cbdeab96c79d60c0bed7f100d6f4ae0f21cca653e70f6c",
+      "symbol": "WOAR"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=XAUN",
+      "sha256": "539798a8b33b797e6b865ced02dd806f6bb8b52c98a34643e1958566c08b7dbc",
+      "symbol": "XAUN"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=XICA2",
+      "sha256": "69c55c7c1752fb8f08df28dc09fc48bc7b99042bab196dd7a0c8971b6cc8ad11",
+      "symbol": "XICA2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=XYSC",
+      "sha256": "bb05d79fc4b6a0e73e36500911dbc84df8b7aebed6de4918aa9a270a13948ec8",
+      "symbol": "XYSC"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ZAAM2",
+      "sha256": "0516e5429d23c18f56764214095061aae7e6d314daf820b391f48acf88d51d92",
+      "symbol": "ZAAM2"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ZAPA",
+      "sha256": "f99c97a04e76ffa2740c9be81d0334c93eed01d4f01fad79988cc0d13b9d93a4",
+      "symbol": "ZAPA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ZEME",
+      "sha256": "0cc749c901a46f84905b88939e5efb5e38fec7da7803c0ca2e3630baa5634c00",
+      "symbol": "ZEME"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ZEPA",
+      "sha256": "ee9299efa434c30c07bf3de59d83900b76a8b34553941eaf2d1fe537f48306e3",
+      "symbol": "ZEPA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ZIMI",
+      "sha256": "9fcf3bca065decefdf10a0c095743236c6af688fca6941fe52f1fb993f37760b",
+      "symbol": "ZIMI"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ZIZE",
+      "sha256": "091f5beeea4c60f5e60cb1b2528c001631912dff589cdda66252332b5a43146d",
+      "symbol": "ZIZE"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ZOMA",
+      "sha256": "94742751f2107d3776e269507845d434832ab8f298b7f6e0fb4641341a11977c",
+      "symbol": "ZOMA"
+    },
+    {
+      "url": "https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ZYRE",
+      "sha256": "082561e32e6100a7f89d36092f2f6b008ae5669a7f15804a6c467a8627ffc7d1",
+      "symbol": "ZYRE"
+    }
+  ]
+}

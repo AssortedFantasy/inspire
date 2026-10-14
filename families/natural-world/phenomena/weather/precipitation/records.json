@@ -1,0 +1,112 @@
+[
+  {
+    "id": "hail-accretion",
+    "text": "A hailstone grows as supercooled liquid droplets collide with it and freeze onto its surface inside a thunderstorm.",
+    "provenance": "Original factual paraphrase. Source: NOAA National Severe Storms Laboratory, Hail Basics; https://www.nssl.noaa.gov/education/svrwx101/hail/. Consulted 2026-10-13."
+  },
+  {
+    "id": "hail-layering",
+    "text": "Rapid freezing traps air bubbles and makes cloudy ice; slower freezing lets bubbles escape and makes clearer ice. A layered hailstone records changing conditions.",
+    "provenance": "Original factual paraphrase. Source: NOAA National Severe Storms Laboratory, Hail Basics; https://www.nssl.noaa.gov/education/svrwx101/hail/. Consulted 2026-10-13."
+  },
+  {
+    "id": "hail-release",
+    "text": "Hail falls when an updraft can no longer support it, either because the stone has grown or because the updraft has weakened.",
+    "provenance": "Original factual paraphrase. Source: NOAA National Severe Storms Laboratory, Hail Basics; https://www.nssl.noaa.gov/education/svrwx101/hail/. Consulted 2026-10-13."
+  },
+  {
+    "id": "hail-sideways",
+    "text": "Strong winds can drive falling hail at an angle, even nearly sideways.",
+    "provenance": "Original factual paraphrase. Source: NOAA National Severe Storms Laboratory, Hail Basics; https://www.nssl.noaa.gov/education/svrwx101/hail/. Consulted 2026-10-13."
+  },
+  {
+    "id": "hail-not-a-loop-counter",
+    "text": "Alternating clear and cloudy layers in hail do not simply count trips up and down through a storm. Temperature, liquid-water content, and horizontal motion matter.",
+    "provenance": "Original factual paraphrase. Source: NOAA National Severe Storms Laboratory, Hail Basics; https://www.nssl.noaa.gov/education/svrwx101/hail/. Consulted 2026-10-13."
+  },
+  {
+    "id": "hidden-hail",
+    "text": "Hail can form high in a thunderstorm and then melt before it reaches the ground.",
+    "provenance": "Original factual paraphrase. Source: NOAA National Severe Storms Laboratory, Thunderstorm FAQ; https://www.nssl.noaa.gov/education/svrwx101/thunderstorms/faq/. Consulted 2026-10-13."
+  },
+  {
+    "id": "noaa-glossary-dew",
+    "text": "Dew — Moisture that has condensed on objects near the ground, whose temperatures have fallen below the dewpoint temperature.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=d; term Dew; downloaded 2026-10-13; input SHA256 b921b93417e3a76b7cb5163cb3b543da8775c7cc59ce819ece5b4ed93807f237. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-diamond-dust",
+    "text": "Diamond Dust — A fall of non-branched (snow crystals are branched) ice crystals in the form of needles, columns, or plates.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=d; term Diamond Dust; downloaded 2026-10-13; input SHA256 b921b93417e3a76b7cb5163cb3b543da8775c7cc59ce819ece5b4ed93807f237. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-freezing-rain",
+    "text": "Freezing Rain — Rain that falls as a liquid but freezes into glaze upon contact with the ground.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=f; term Freezing Rain; downloaded 2026-10-13; input SHA256 5f7ab7cfc6fbdfaf221dc35df98f6b7cebd7817a6f3fc26deddd346b599e2140. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-frozen-dew",
+    "text": "Frozen Dew — When liquid dew changes into tiny beads of ice. This occurs when dew forms and temperatures later drop below freezing.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=f; term Frozen Dew; downloaded 2026-10-13; input SHA256 5f7ab7cfc6fbdfaf221dc35df98f6b7cebd7817a6f3fc26deddd346b599e2140. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-glaze",
+    "text": "Glaze — Ice formed by freezing precipitation covering the ground or exposed objects.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=g; term Glaze; downloaded 2026-10-13; input SHA256 de90adf98fb239c82459bdb1081837ce86150dd0f2c846535a52b59560d688d3. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-hoar-frost",
+    "text": "Hoar Frost — A deposit of interlocking ice crystals on objects whose surfaces are below freezing. Water vapor deposits directly as ice on exposed surfaces such as branches, leaves, wires, and poles.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=h; term Hoar Frost; downloaded 2026-10-13; input SHA256 601f8372e98d8de10eb3668cf3f75a65d2f4a35474178597a0de8a4bf1b4af53. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Original factual paraphrase of the downloaded definition. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-ice-crystals",
+    "text": "Ice Crystals — A barely visible crystalline form of ice that has the shape of needles, columns or plates. Ice crystals are so small that they seem to be suspended in air. Ice crystals occur at very low temperatures in a stable atmosphere.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=i; term Ice Crystals; downloaded 2026-10-13; input SHA256 248012b6324bab790aa947328a2d10ce8be5c21fc72eef1e1122959b1060eaeb. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-ice-pellets",
+    "text": "Ice Pellets — Sleet: pellets of ice composed of frozen or mostly frozen raindrops, or refrozen partially melted snowflakes. The pellets usually bounce after hitting the ground or another hard surface.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=i; term Ice Pellets; downloaded 2026-10-13; input SHA256 248012b6324bab790aa947328a2d10ce8be5c21fc72eef1e1122959b1060eaeb. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Original factual paraphrase of the downloaded definition. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-lake-effect-snow",
+    "text": "Lake Effect Snow — Snow showers that are created when cold, dry air passes over a large warmer lake, such as one of the Great Lakes, and picks up moisture and heat.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=l; term Lake Effect Snow; downloaded 2026-10-13; input SHA256 6d24db07cfc93d48813d3708609c92ce3b0c526da8348cd60cc5494bc81d5f5b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-orographic-precipitation",
+    "text": "Orographic Precipitation — Precipitation which is caused by hills or mountain ranges deflecting the moisture-laden air masses upward, causing them to cool and precipitate their moisture.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=o; term Orographic Precipitation; downloaded 2026-10-13; input SHA256 ba52fa775afcfdfc42664e7bc1a9540154bb933cbc6d69b1845657d5feb20af6. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-rain-shadow",
+    "text": "Rain Shadow — An area of reduced precipitation on the lee side of a mountain barrier caused by warming of air and dissipation of cloudiness as air descends the barrier.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=r; term Rain Shadow; downloaded 2026-10-13; input SHA256 4162f8f13f65c72b704dd552a5a68cdc34ed68d0d2aae77d015cd9a730d4ce1a. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-rime-ice",
+    "text": "Rime Ice — An opaque coating of tiny, white, granular ice particles caused by the rapid freezing of supercooled water droplets on impact with an object.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=r; term Rime Ice; downloaded 2026-10-13; input SHA256 4162f8f13f65c72b704dd552a5a68cdc34ed68d0d2aae77d015cd9a730d4ce1a. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-snow-grains",
+    "text": "Snow Grains — Precipitation consisting of white, opaque ice particles usually less than 1 mm in diameter.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=s; term Snow Grains; downloaded 2026-10-13; input SHA256 fc10498908fab91e198cd9482922c1e71a2649f113127720a12594b1d7d2880b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-snow-pellets",
+    "text": "Snow Pellets — Precipitation, usually of brief duration, consisting of crisp, white, opaque ice particles, round or conical in shape and about 2 to 5 mm in diameter. Same as graupel or small hail.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=s; term Snow Pellets; downloaded 2026-10-13; input SHA256 fc10498908fab91e198cd9482922c1e71a2649f113127720a12594b1d7d2880b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-snowflake",
+    "text": "Snowflake — An agglomeration of snow crystals falling as a unit.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=s; term Snowflake; downloaded 2026-10-13; input SHA256 fc10498908fab91e198cd9482922c1e71a2649f113127720a12594b1d7d2880b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-virga",
+    "text": "Virga — Streaks or wisps of precipitation falling from a cloud but evaporating before reaching the ground. In certain cases, shafts of virga may precede a microburst.",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=v; term Virga; downloaded 2026-10-13; input SHA256 22e1b37971cc6151ba57f38e8689abbf8312950cf3f49b36bdd8548fb7750a2f. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  }
+]
