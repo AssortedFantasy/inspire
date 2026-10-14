@@ -1,0 +1,14 @@
+[
+  {
+    "path": "design/wardrobe/dinner/rain",
+    "reviewer": "/root/design/wardrobe/dinner/rain",
+    "checks": [
+      "Read family content rules and reviewed the actual 13 C navy-trousers/burgundy-blazer sample in target/design-check/samples.txt; coordinated palette and dinner formality were coherent.",
+      "Changed steady-rain footwear from weather-resistant to waterproof leather Chelsea boots with grippy rubber soles, retained the hooded waterproof raincoat, umbrella, and water-resistant bag.",
+      "Restricted 15–17 C tops to cotton shirts or blouses to avoid stacking warm knit tops beneath a wool middle layer; cooler samples retain knit-top choices.",
+      "Added fine wool socks to trouser outfits while skirt outfits already specify opaque tights.",
+      "Ran rustfmt and the isolated design-check dinner/rain test: 500 samples passed rain protection, leg coverage, warmer-weather top choice, palette, output hygiene, and diversity assertions.",
+      "Inspected a newly generated 16 C outfit: light-gray cotton poplin shirt, black pleated wool-blend trousers, cobalt cardigan, black waterproof raincoat and boots, fine wool socks and umbrella; coherent practical layering."
+    ]
+  }
+]

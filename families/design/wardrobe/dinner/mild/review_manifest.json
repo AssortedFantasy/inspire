@@ -1,0 +1,18 @@
+[
+  {
+    "path": "design/wardrobe/dinner/mild",
+    "reviewer": "/root/design/wardrobe/dinner/mild",
+    "checks": [
+      "Read families/AGENTS.md and reviewed the actual 17 C outfit in target/design-check/samples.txt; its ankle-strap shoes were paired with generic plain socks.",
+      "Reviewed eight fresh outputs at seeds 0 through 7 in target/dinner-mild-review for smart-casual formality, seasonal fabric weight, coherent layering, hosiery, and coordinated colors.",
+      "Offline cargo test in the design-check harness passed this leaf's 500-output invariants covering palette placement, knit layering, footwear and hosiery compatibility, temperature-dependent skirt tights, and more than 150 distinct outfits.",
+      "rustfmt edition 2024 formatting and check passed. No new external dataset or licensing claims were introduced."
+    ],
+    "corrections": [
+      "Replaced cold-weather merino and wool tops with fine cotton knitwear; added unlined linen-cotton blazers and lightweight cotton cardigans, with knit tops restricted to the blazer.",
+      "Used lightweight wool trousers, cotton twill trousers, and a cotton twill midi skirt instead of uniformly winter-weight bottoms.",
+      "Added ballet flats and explicit hosiery: cool-weather skirts get palette-matched opaque tights; trousers with loafers or derbies get fine cotton socks; ankle-strap shoes and ballet flats never get socks.",
+      "Replaced the unspecified bag with a small leather bag matching the selected leather color."
+    ]
+  }
+]

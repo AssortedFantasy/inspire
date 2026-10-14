@@ -1,0 +1,53 @@
+[
+  {
+    "path": "design/wardrobe/everyday/cold",
+    "reviewer": "/root/design/wardrobe/everyday/cold",
+    "status": "completed",
+    "checks": [
+      "Read families/AGENTS.md and wardrobe README/importer; occasion then weather hierarchy keeps cold everyday outfits separate from office, dinner, trail, and other weather regimes. Original constrained combinations are appropriate; the pinned downloaded fabric vocabulary does not establish thermal performance.",
+      "Reviewed actual target/design-check/samples.txt cold everyday outfit at 1 C: chambray shirt, jeans, wool sweater, insulated coat, walking boots, scarf, gloves, socks. Identified omitted head coverage and insufficiently specified cold skirt coverage.",
+      "Inspected eight fresh isolated seed 0 through 7 outputs spanning 0 to 8 C, trousers and skirt, both middle layers and footwear variants, and coordinated ten-palette item roles.",
+      "Isolated offline locked cargo test passed the final 500-output invariant test, including temperature-dependent base layers, no leggings over skirt tights, hat and wool socks, realized palette, no shorts, no trailing newline, and more than 150 distinct outputs. Formatted generator with rustfmt edition 2024."
+    ],
+    "corrections": [
+      "Cold chinos are lined; skirt option is wool with thermal tights instead of cotton with unspecified opaque tights.",
+      "Added knit hat and wool socks. At 0 to 2 C, added thermal undershirt and leggings under trousers; skirts keep their thermal tights without redundant leggings.",
+      "Extended invariant checks to validate cold leg and head coverage and the conditional base layer."
+    ],
+    "upstream_followup": "Mirror these everyday-cold changes in wardrobe/import_fabrics.py before regenerating; the leaf source alone is fixed."
+  },
+  {
+    "path": "design/wardrobe/everyday/mild",
+    "reviewer": "/root/design/wardrobe/everyday/mild",
+    "status": "completed",
+    "checks": [
+      "Read families/AGENTS.md, wardrobe README, and pinned fabrics importer. Occasion then weather hierarchy separates mild everyday outfits from formal occasions and other weather regimes; a constrained procedural leaf is appropriate for original garment combinations.",
+      "Reviewed actual target/design-check/samples.txt mild everyday sample: 13 C, flannel shirt, corduroy trousers, cotton overshirt, leather sneakers. That sample was coherent, but the unrestricted arrays also permitted the same heavy combination at 20 C and redundant socks alongside skirt tights.",
+      "Inspected twelve fresh isolated seed 0 through 11 samples spanning 13 through 20 C, cool covered skirts and lighter warm skirts, all three middle layers and footwear types; palettes remain realized on actual garments.",
+      "Isolated offline locked cargo test passed the 500-output invariant test: temperature range, lighter selection and open layers at 17 through 20 C, skirt tights at 13 through 16 C, no redundant plain socks for skirts, coordinated palettes, no trailing newline, and more than 150 distinct outputs. rustfmt edition 2024 check passed."
+    ],
+    "corrections": [
+      "Restricted flannel and corduroy to 13 through 16 C; flannel is explicitly lightweight. Warmer mild skirts use lightweight cotton without opaque tights; cooler skirts retain lined cotton and opaque tights.",
+      "Sized middle layers over the top and specified closed styling in the cooler range, open styling in the warmer range.",
+      "Removed blanket plain-socks text from skirt outfits and added substantive temperature and coverage invariants."
+    ],
+    "upstream_followup": "Mirror the everyday/mild-specific COOL_BOTTOMS versus BOTTOMS arrays, lightweight flannel and warmer TOPS slice, temperature-based layer styling, roomier middle-layer descriptions, skirt-aware accessories, and tests in wardrobe/import_fabrics.py before regeneration. Leaf changes are complete; importer remains owned by wardrobe manager."
+  },
+  {
+    "path": "design/wardrobe/everyday/rain",
+    "reviewer": "/root/design/wardrobe/everyday/rain",
+    "status": "completed",
+    "checks": [
+      "Read families/AGENTS.md and wardrobe README/importer. Occasion then weather provides a coherent leaf for wet-weather errands; the pinned Corpora input contributes vocabulary only, while performance descriptors and combinations are original.",
+      "Reviewed the actual target/design-check/samples.txt rain everyday outfit at 16 C. Its raincoat referred to an absent middle layer; current source already removed that phrase. Also identified water-resistant rather than waterproof footwear, absent cool-weather layering at 10 C, and a separately repeated accent bag.",
+      "Inspected twelve fresh isolated seed 0 through 11 outputs spanning 10 to 17 C, trousers and skirts, both footwear and middle-layer options, and coordinated palette roles. Corrected the initial a ochre bag grammar found in those samples.",
+      "Final isolated cargo test --offline --locked passed the 500-output invariant test for temperature-dependent middle layers, matching coat fit wording, waterproof footwear, crew socks only with trousers, realized palette and accent bag, no trailing newline, and more than 150 distinct outputs. Formatted generator with rustfmt edition 2024."
+    ],
+    "corrections": [
+      "Added a fine-gauge wool cardigan or lightweight wool crew-neck sweater at 10 to 13 C; the coat explicitly fits over that layer only when present.",
+      "Specified knee-length hooded waterproof coats and waterproof walking or rubber Chelsea boots for steady rain.",
+      "Combined the accent color with the actual water-resistant bag in one accessories line. Added crew socks to trouser outfits without adding redundant socks to skirts with tights."
+    ],
+    "upstream_followup": "Mirror the everyday/rain source changes and tests in wardrobe/import_fabrics.py before regeneration: conditional middle layer at temperature <= 13 using the light palette color, knee-length coat with fit phrase only when middle exists, waterproof walking/rubber Chelsea boots, conditional crew socks, and a single water-resistant accent-colored bag. Do not globally change everyday wet_shoes because cold uses that list too."
+  }
+]

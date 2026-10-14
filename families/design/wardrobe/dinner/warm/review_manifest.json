@@ -1,0 +1,12 @@
+[
+  {
+    "path": "design/wardrobe/dinner/warm",
+    "reviewer": "/root/design/wardrobe/dinner/warm",
+    "checks": [
+      "Read the leaf generator and inspected its actual 27 C sample in target/design-check/samples.txt: cotton poplin blouse, lightweight linen trousers, and leather loafers were coherent for a warm smart-casual dinner.",
+      "Removed the blanket sunglasses requirement for dinner and merged duplicate lightweight-bag and accent-bag lines into one concretely colored accessory.",
+      "Added three dinner-appropriate accessory choices: small structured bag, linen clutch, and compact woven bag; reviewed their combinations with the existing seasonal garments and coordinated palettes.",
+      "Formatted generator.rs with Rust 2024 rustfmt and passed the isolated 500-output test for dinner formality, omission of warm-weather layers, applied palette colors, nonblank formatting, and diversity."
+    ]
+  }
+]

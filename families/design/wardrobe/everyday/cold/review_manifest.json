@@ -1,0 +1,19 @@
+[
+  {
+    "path": "design/wardrobe/everyday/cold",
+    "reviewer": "/root/design/wardrobe/everyday/cold",
+    "status": "completed",
+    "checks": [
+      "Read families/AGENTS.md and wardrobe README/importer; occasion then weather hierarchy keeps cold everyday outfits separate from office, dinner, trail, and other weather regimes. Original constrained combinations are appropriate; the pinned downloaded fabric vocabulary does not establish thermal performance.",
+      "Reviewed actual target/design-check/samples.txt cold everyday outfit at 1 C: chambray shirt, jeans, wool sweater, insulated coat, walking boots, scarf, gloves, socks. Identified omitted head coverage and insufficiently specified cold skirt coverage.",
+      "Inspected eight fresh isolated seed 0 through 7 outputs spanning 0 to 8 C, trousers and skirt, both middle layers and footwear variants, and coordinated ten-palette item roles.",
+      "Isolated offline locked cargo test passed the final 500-output invariant test, including temperature-dependent base layers, no leggings over skirt tights, hat and wool socks, realized palette, no shorts, no trailing newline, and more than 150 distinct outputs. Formatted generator with rustfmt edition 2024."
+    ],
+    "corrections": [
+      "Cold chinos are lined; skirt option is wool with thermal tights instead of cotton with unspecified opaque tights.",
+      "Added knit hat and wool socks. At 0 to 2 C, added thermal undershirt and leggings under trousers; skirts keep their thermal tights without redundant leggings.",
+      "Extended invariant checks to validate cold leg and head coverage and the conditional base layer."
+    ],
+    "upstream_followup": "Mirror these everyday-cold changes in wardrobe/import_fabrics.py before regenerating; the leaf source alone is fixed."
+  }
+]

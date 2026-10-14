@@ -1,0 +1,19 @@
+[
+  {
+    "path": "design/wardrobe/everyday/mild",
+    "reviewer": "/root/design/wardrobe/everyday/mild",
+    "status": "completed",
+    "checks": [
+      "Read families/AGENTS.md, wardrobe README, and pinned fabrics importer. Occasion then weather hierarchy separates mild everyday outfits from formal occasions and other weather regimes; a constrained procedural leaf is appropriate for original garment combinations.",
+      "Reviewed actual target/design-check/samples.txt mild everyday sample: 13 C, flannel shirt, corduroy trousers, cotton overshirt, leather sneakers. That sample was coherent, but the unrestricted arrays also permitted the same heavy combination at 20 C and redundant socks alongside skirt tights.",
+      "Inspected twelve fresh isolated seed 0 through 11 samples spanning 13 through 20 C, cool covered skirts and lighter warm skirts, all three middle layers and footwear types; palettes remain realized on actual garments.",
+      "Isolated offline locked cargo test passed the 500-output invariant test: temperature range, lighter selection and open layers at 17 through 20 C, skirt tights at 13 through 16 C, no redundant plain socks for skirts, coordinated palettes, no trailing newline, and more than 150 distinct outputs. rustfmt edition 2024 check passed."
+    ],
+    "corrections": [
+      "Restricted flannel and corduroy to 13 through 16 C; flannel is explicitly lightweight. Warmer mild skirts use lightweight cotton without opaque tights; cooler skirts retain lined cotton and opaque tights.",
+      "Sized middle layers over the top and specified closed styling in the cooler range, open styling in the warmer range.",
+      "Removed blanket plain-socks text from skirt outfits and added substantive temperature and coverage invariants."
+    ],
+    "upstream_followup": "Mirror the everyday/mild-specific COOL_BOTTOMS versus BOTTOMS arrays, lightweight flannel and warmer TOPS slice, temperature-based layer styling, roomier middle-layer descriptions, skirt-aware accessories, and tests in wardrobe/import_fabrics.py before regeneration. Leaf changes are complete; importer remains owned by wardrobe manager."
+  }
+]

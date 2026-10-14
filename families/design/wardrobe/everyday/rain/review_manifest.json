@@ -1,0 +1,19 @@
+[
+  {
+    "path": "design/wardrobe/everyday/rain",
+    "reviewer": "/root/design/wardrobe/everyday/rain",
+    "status": "completed",
+    "checks": [
+      "Read families/AGENTS.md and wardrobe README/importer. Occasion then weather provides a coherent leaf for wet-weather errands; the pinned Corpora input contributes vocabulary only, while performance descriptors and combinations are original.",
+      "Reviewed the actual target/design-check/samples.txt rain everyday outfit at 16 C. Its raincoat referred to an absent middle layer; current source already removed that phrase. Also identified water-resistant rather than waterproof footwear, absent cool-weather layering at 10 C, and a separately repeated accent bag.",
+      "Inspected twelve fresh isolated seed 0 through 11 outputs spanning 10 to 17 C, trousers and skirts, both footwear and middle-layer options, and coordinated palette roles. Corrected the initial a ochre bag grammar found in those samples.",
+      "Final isolated cargo test --offline --locked passed the 500-output invariant test for temperature-dependent middle layers, matching coat fit wording, waterproof footwear, crew socks only with trousers, realized palette and accent bag, no trailing newline, and more than 150 distinct outputs. Formatted generator with rustfmt edition 2024."
+    ],
+    "corrections": [
+      "Added a fine-gauge wool cardigan or lightweight wool crew-neck sweater at 10 to 13 C; the coat explicitly fits over that layer only when present.",
+      "Specified knee-length hooded waterproof coats and waterproof walking or rubber Chelsea boots for steady rain.",
+      "Combined the accent color with the actual water-resistant bag in one accessories line. Added crew socks to trouser outfits without adding redundant socks to skirts with tights."
+    ],
+    "upstream_followup": "Mirror the everyday/rain source changes and tests in wardrobe/import_fabrics.py before regeneration: conditional middle layer at temperature <= 13 using the light palette color, knee-length coat with fit phrase only when middle exists, waterproof walking/rubber Chelsea boots, conditional crew socks, and a single water-resistant accent-colored bag. Do not globally change everyday wet_shoes because cold uses that list too."
+  }
+]

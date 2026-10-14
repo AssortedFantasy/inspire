@@ -1,0 +1,55 @@
+[
+  {
+    "path": "design/wardrobe/dinner/cold",
+    "reviewer": "/root/design/wardrobe/dinner/cold",
+    "checks": [
+      "Read families/AGENTS.md and reviewed the emitted 3 C outfit in target/design-check/samples.txt: white poplin shirt, indigo wool skirt and tights, ochre cardigan, insulated coat, tan Chelsea boots.",
+      "Reviewed 12 fresh outputs from seed 31415 in an isolated target/review-dinner-cold harness for cold-weather layers, smart-casual formality, coordinated palette, and self-contained outfit text.",
+      "Isolated offline cargo test passed the generator's 500-output checks for palette item placement, insulation, gloves, leather footwear, coordinated knit layering, indoor outerwear removal, and more than 150 distinct outputs.",
+      "Formatted the leaf generator with rustfmt edition 2024; no external dataset or license assertions were added."
+    ],
+    "corrections": [
+      "Knit turtlenecks and crew-neck sweaters now pair with an unstructured wool blazer; shirts and blouses retain either cardigan or blazer.",
+      "Expanded footwear to leather Chelsea boots or plain lace-up ankle boots with rubber soles; replaced the unnecessary weather-resistance claim for dry conditions.",
+      "Added tailored and knee-length insulated coat variants and explicit removal of coat, scarf, and gloves indoors."
+    ]
+  },
+  {
+    "path": "design/wardrobe/dinner/mild",
+    "reviewer": "/root/design/wardrobe/dinner/mild",
+    "checks": [
+      "Read families/AGENTS.md and reviewed the actual 17 C outfit in target/design-check/samples.txt; its ankle-strap shoes were paired with generic plain socks.",
+      "Reviewed eight fresh outputs at seeds 0 through 7 in target/dinner-mild-review for smart-casual formality, seasonal fabric weight, coherent layering, hosiery, and coordinated colors.",
+      "Offline cargo test in the design-check harness passed this leaf's 500-output invariants covering palette placement, knit layering, footwear and hosiery compatibility, temperature-dependent skirt tights, and more than 150 distinct outfits.",
+      "rustfmt edition 2024 formatting and check passed. No new external dataset or licensing claims were introduced."
+    ],
+    "corrections": [
+      "Replaced cold-weather merino and wool tops with fine cotton knitwear; added unlined linen-cotton blazers and lightweight cotton cardigans, with knit tops restricted to the blazer.",
+      "Used lightweight wool trousers, cotton twill trousers, and a cotton twill midi skirt instead of uniformly winter-weight bottoms.",
+      "Added ballet flats and explicit hosiery: cool-weather skirts get palette-matched opaque tights; trousers with loafers or derbies get fine cotton socks; ankle-strap shoes and ballet flats never get socks.",
+      "Replaced the unspecified bag with a small leather bag matching the selected leather color."
+    ]
+  },
+  {
+    "path": "design/wardrobe/dinner/rain",
+    "reviewer": "/root/design/wardrobe/dinner/rain",
+    "checks": [
+      "Read family content rules and reviewed the actual 13 C navy-trousers/burgundy-blazer sample in target/design-check/samples.txt; coordinated palette and dinner formality were coherent.",
+      "Changed steady-rain footwear from weather-resistant to waterproof leather Chelsea boots with grippy rubber soles, retained the hooded waterproof raincoat, umbrella, and water-resistant bag.",
+      "Restricted 15–17 C tops to cotton shirts or blouses to avoid stacking warm knit tops beneath a wool middle layer; cooler samples retain knit-top choices.",
+      "Added fine wool socks to trouser outfits while skirt outfits already specify opaque tights.",
+      "Ran rustfmt and the isolated design-check dinner/rain test: 500 samples passed rain protection, leg coverage, warmer-weather top choice, palette, output hygiene, and diversity assertions.",
+      "Inspected a newly generated 16 C outfit: light-gray cotton poplin shirt, black pleated wool-blend trousers, cobalt cardigan, black waterproof raincoat and boots, fine wool socks and umbrella; coherent practical layering."
+    ]
+  },
+  {
+    "path": "design/wardrobe/dinner/warm",
+    "reviewer": "/root/design/wardrobe/dinner/warm",
+    "checks": [
+      "Read the leaf generator and inspected its actual 27 C sample in target/design-check/samples.txt: cotton poplin blouse, lightweight linen trousers, and leather loafers were coherent for a warm smart-casual dinner.",
+      "Removed the blanket sunglasses requirement for dinner and merged duplicate lightweight-bag and accent-bag lines into one concretely colored accessory.",
+      "Added three dinner-appropriate accessory choices: small structured bag, linen clutch, and compact woven bag; reviewed their combinations with the existing seasonal garments and coordinated palettes.",
+      "Formatted generator.rs with Rust 2024 rustfmt and passed the isolated 500-output test for dinner formality, omission of warm-weather layers, applied palette colors, nonblank formatting, and diversity."
+    ]
+  }
+]

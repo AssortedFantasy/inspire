@@ -1,0 +1,17 @@
+[
+  {
+    "path": "design/wardrobe/dinner/cold",
+    "reviewer": "/root/design/wardrobe/dinner/cold",
+    "checks": [
+      "Read families/AGENTS.md and reviewed the emitted 3 C outfit in target/design-check/samples.txt: white poplin shirt, indigo wool skirt and tights, ochre cardigan, insulated coat, tan Chelsea boots.",
+      "Reviewed 12 fresh outputs from seed 31415 in an isolated target/review-dinner-cold harness for cold-weather layers, smart-casual formality, coordinated palette, and self-contained outfit text.",
+      "Isolated offline cargo test passed the generator's 500-output checks for palette item placement, insulation, gloves, leather footwear, coordinated knit layering, indoor outerwear removal, and more than 150 distinct outputs.",
+      "Formatted the leaf generator with rustfmt edition 2024; no external dataset or license assertions were added."
+    ],
+    "corrections": [
+      "Knit turtlenecks and crew-neck sweaters now pair with an unstructured wool blazer; shirts and blouses retain either cardigan or blazer.",
+      "Expanded footwear to leather Chelsea boots or plain lace-up ankle boots with rubber soles; replaced the unnecessary weather-resistance claim for dry conditions.",
+      "Added tailored and knee-length insulated coat variants and explicit removal of coat, scarf, and gloves indoors."
+    ]
+  }
+]
