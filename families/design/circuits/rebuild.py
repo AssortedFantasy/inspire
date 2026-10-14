@@ -102,14 +102,14 @@ CASES["active/amplifiers/inverting"] = '''
     let rf = r1 * pick(rng, &[0.5, 1.0, 2.0, 5.0, 10.0]);
     let a = 100000.0;
     let gain = -a * rf / (rf + r1 * (a + 1.0));
-    format!("Inverting finite-gain idealized amplifier\\n* E1 is a linear VCVS: gain 1e5, infinite input impedance, zero output impedance.\\n* No supplies, clipping, bandwidth, noise, or device model; all values SI.\\n* Closed-loop DC and AC gain {gain:.5e}; unloaded output.\\nV1 in 0 DC 0.1 AC 1\\nR1 in inv {r1:.5e}\\nRf inv out {rf:.5e}\\nE1 out 0 0 inv {a:.5e}\\n.op\\n.dc V1 -0.1 0.1 0.005\\n.ac dec 20 1 1e6\\n.print dc v(out)\\n.print ac vm(out) vp(out)\\n.end")
+    format!("Inverting finite-gain idealized amplifier\\n* Linear VCVS; gain 1e5, infinite input impedance, zero output impedance; values in SI.\\n* Closed-loop DC and AC gain {gain:.5e}; output unloaded.\\nV1 in 0 DC 0.1 AC 1\\nR1 in inv {r1:.5e}\\nRf inv out {rf:.5e}\\nE1 out 0 0 inv {a:.5e}\\n.op\\n.dc V1 -0.1 0.1 0.005\\n.ac dec 20 1 1e6\\n.print dc v(out)\\n.print ac vm(out) vp(out)\\n.end")
 '''
 CASES["active/amplifiers/noninverting"] = '''
     let rg = pick(rng, &[1000.0, 2200.0, 4700.0, 10000.0]);
     let rf = rg * pick(rng, &[0.5, 1.0, 2.0, 5.0, 10.0]);
     let a = 100000.0;
     let gain = a / (1.0 + a * rg / (rg + rf));
-    format!("Noninverting finite-gain idealized amplifier\\n* E1 is a linear VCVS: gain 1e5, infinite input impedance, zero output impedance.\\n* No supplies, clipping, bandwidth, noise, or device model; all values SI.\\n* Closed-loop DC and AC gain {gain:.5e}; unloaded output.\\nV1 in 0 DC 0.1 AC 1\\nRg inv 0 {rg:.5e}\\nRf out inv {rf:.5e}\\nE1 out 0 in inv {a:.5e}\\n.op\\n.dc V1 -0.1 0.1 0.005\\n.ac dec 20 1 1e6\\n.print dc v(out)\\n.print ac vm(out) vp(out)\\n.end")
+    format!("Noninverting finite-gain idealized amplifier\\n* Linear VCVS; gain 1e5, infinite input impedance, zero output impedance; values in SI.\\n* Closed-loop DC and AC gain {gain:.5e}; output unloaded.\\nV1 in 0 DC 0.1 AC 1\\nRg inv 0 {rg:.5e}\\nRf out inv {rf:.5e}\\nE1 out 0 in inv {a:.5e}\\n.op\\n.dc V1 -0.1 0.1 0.005\\n.ac dec 20 1 1e6\\n.print dc v(out)\\n.print ac vm(out) vp(out)\\n.end")
 '''
 
 def main():
