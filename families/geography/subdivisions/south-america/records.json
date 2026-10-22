@@ -600,14 +600,14 @@
     "provenance": "Natural Earth, source ID CHL-2703; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313639; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159307965",
-    "text": "Lima Province - captial district, Peru",
-    "provenance": "Natural Earth, source ID PER-587; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307965; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159307971",
     "text": "Lima - department, Peru",
     "provenance": "Natural Earth, source ID PER-591; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307971; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159307965",
+    "text": "Lima Province - captial district, Peru",
+    "provenance": "Natural Earth, source ID PER-587; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307965; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159309975",
@@ -675,14 +675,14 @@
     "provenance": "Natural Earth, source ID SUR-67; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307989; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159307905",
-    "text": "Mato Grosso do Sul - state, Brazil",
-    "provenance": "Natural Earth, source ID BRA-600; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307905; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159307909",
     "text": "Mato Grosso - state, Brazil",
     "provenance": "Natural Earth, source ID BRA-602; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307909; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159307905",
+    "text": "Mato Grosso do Sul - state, Brazil",
+    "provenance": "Natural Earth, source ID BRA-600; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307905; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159313641",

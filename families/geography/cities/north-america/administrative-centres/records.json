@@ -1100,11 +1100,6 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159117637; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md. Geographic name/location corrected against https://www.asamblea.gob.sv/sites/default/files/documents/decretos/171117_073502281_archivo_documento_legislativo.pdf (2026-10-13); no source prose copied."
   },
   {
-    "id": "geography-city-ne-1159149835",
-    "text": "Santiago de Cuba - Cuba",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159149835; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159149837",
     "text": "Santiago - Dominican Republic",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159149837; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
@@ -1113,6 +1108,11 @@
     "id": "geography-city-ne-1159136879",
     "text": "Santiago - Panama",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159136879; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159149835",
+    "text": "Santiago de Cuba - Cuba",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159149835; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159117825",

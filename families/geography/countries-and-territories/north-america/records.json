@@ -180,13 +180,13 @@
     "provenance": "Natural Earth, source ID 1159320737; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
-    "id": "geography-country-ne-1159321371",
-    "text": "United States Virgin Islands - Caribbean",
-    "provenance": "Natural Earth, source ID 1159321371; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
-  },
-  {
     "id": "geography-country-ne-1159321369",
     "text": "United States - Northern America",
     "provenance": "Natural Earth, source ID 1159321369; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
+  },
+  {
+    "id": "geography-country-ne-1159321371",
+    "text": "United States Virgin Islands - Caribbean",
+    "provenance": "Natural Earth, source ID 1159321371; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_50m_admin_0_countries.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   }
 ]

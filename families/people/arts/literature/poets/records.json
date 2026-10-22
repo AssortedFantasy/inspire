@@ -1,33 +1,33 @@
 [
   {
     "id": "person-rabindranath-tagore",
-    "text": "Rabindranath Tagore - poet; Bengali verse.",
-    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    "text": "Rabindranath Tagore - Bengali poet and philosopher.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q7241, https://www.wikidata.org/wiki/Q7241; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization. Incorrect parenthetical lifespan omitted; birth year is 1861 per https://www.nobelprize.org/prizes/literature/1913/tagore/biographical/."
   },
   {
     "id": "person-pablo-neruda",
-    "text": "Pablo Neruda - poet; Latin American verse.",
-    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    "text": "Pablo Neruda - Chilean poet, diplomat, politician (1904-1973).",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q34189, https://www.wikidata.org/wiki/Q34189; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
   },
   {
     "id": "person-gabriela-mistral",
-    "text": "Gabriela Mistral - poet; Latin American lyricism.",
-    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    "text": "Gabriela Mistral - poet.",
+    "provenance": "Compact occupation label; interpretive contribution blurb omitted. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
   },
   {
     "id": "person-octavio-paz",
-    "text": "Octavio Paz - poet; sensuous, humanistic writing.",
-    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    "text": "Octavio Paz - Mexican writer laureated with the 1990 Nobel Prize for Literature.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q46739, https://www.wikidata.org/wiki/Q46739; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
   },
   {
     "id": "person-wislawa-szymborska",
-    "text": "Wisława Szymborska - poet; ironic precision.",
-    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    "text": "Wisława Szymborska - Polish poet, Nobel Prize winner.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q42552, https://www.wikidata.org/wiki/Q42552; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
   },
   {
     "id": "person-ts-eliot",
-    "text": "T. S. Eliot - poet; modern verse.",
-    "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+    "text": "T. S. Eliot - English author.",
+    "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q37767, https://www.wikidata.org/wiki/Q37767; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
   },
   {
     "id": "wikidata-q253568",

@@ -1900,14 +1900,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159136977; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159118993",
-    "text": "Mansa Konko - The Gambia",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159118993; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159147555",
     "text": "Mansa - Zambia",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159147555; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159118993",
+    "text": "Mansa Konko - The Gambia",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159118993; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159115543",

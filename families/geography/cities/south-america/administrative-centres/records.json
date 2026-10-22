@@ -840,14 +840,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159121993; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159146251",
-    "text": "San Fernando de Apure - Venezuela",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159146251; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159130651",
     "text": "San Fernando - Chile",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159130651; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159146251",
+    "text": "San Fernando de Apure - Venezuela",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159146251; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159146181",
@@ -860,6 +860,11 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159129965; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
+    "id": "geography-city-ne-1159150281",
+    "text": "San Juan - Argentina",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159150281; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
     "id": "geography-city-ne-1159128085",
     "text": "San Juan Bautista - Paraguay",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159128085; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
@@ -868,11 +873,6 @@
     "id": "geography-city-ne-1159122009",
     "text": "San Juan de los Morros - Venezuela",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159122009; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md. Geographic name/location corrected against https://loeu.opsu.gob.ve/detalle-localidad/1078/ (2026-10-13); no source prose copied."
-  },
-  {
-    "id": "geography-city-ne-1159150281",
-    "text": "San Juan - Argentina",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159150281; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159147691",

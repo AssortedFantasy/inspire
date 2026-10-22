@@ -25,11 +25,11 @@ EXCLUDED_IDS = {
     "126793": "modern replacement necklace beads",
     "95239": "creation date contains an internal editorial note",
     "96606": "watchcase alone is neither a complete timepiece nor jewelry",
-    "96718": "inkstand misclassified as jewelry; outside current object forms",
     "96685": "ear-cleaner misclassified as jewelry; outside current object forms",
     "95890": "stone vessel misclassified as jewelry; outside current materials",
     "95892": "stone plate misclassified as jewelry; outside current materials",
     "152319": "bracelet terminal is a component, not a complete arm ornament",
+    "156796": "writing-box base catalogued apart from its complete box",
 }
 AMBIGUOUS_JEWELRY_IDS = {
     "113907", "128181", "113886", "123779", "124743", "126800", "111696",
@@ -82,6 +82,14 @@ def classify(row):
         return None
     if row["id"] in SOURCE_ROUTES:
         return "artifacts/" + SOURCE_ROUTES[row["id"]]
+    if kind == "Coins":
+        if matches(title, r"electrotype|replica"):
+            return None
+        return "artifacts/currency/coins"
+    if kind == "Basketry" and matches(title, r"basket|baskets|bowl|bowls|tray|trays|olla|jar"):
+        return "artifacts/vessels/fiber/baskets"
+    if kind in {"Ceramic", "Glass", "Jade", "Jewelry", "Lacquer", "Metalwork", "Miscellaneous", "Sculpture", "Stone", "Wood"} and matches(title, r"inkwell|inkstand|inkstone|pen and ink box|brush holder|brush rest|writing box"):
+        return "artifacts/equipment/writing"
     if kind == "Amulets" and matches(title, r"inlay|inlays"):
         return None
     if kind == "Jewelry":
@@ -206,14 +214,29 @@ def record(row):
     text = (
         f"{row['title']} - {row['creation_date'].rstrip('.')}\n"
         f"Culture - {row['culture'].rstrip('.')}\n"
-        f"Materials - {row['technique'].rstrip('.')}\n"
-        "Cleveland Museum of Art."
+        f"Materials - {row['technique'].rstrip('.')}"
     )
     return {
         "id": "cma-" + row["id"],
         "text": text,
         "provenance": f"Derived structured metadata from the Cleveland Museum of Art CC0 Open Access catalog, revision {REVISION}; {row['url']}; input {URL}, SHA-256 {SHA256}. Catalog title, date, culture, and technique retained; no image or interpretive description reproduced. Function grouping is Inspire's editorial classification, not a new museum attribution.",
     }
+
+
+def count_weights(node, check=False):
+    """Keep museum objects equally likely despite their browsing depth."""
+    corpus = node / "records.json"
+    count = (len(json.loads(corpus.read_text(encoding="utf-8"))) if corpus.exists()
+             else sum(count_weights(child, check) for child in node.iterdir() if child.is_dir()))
+    if node != ROOT / "artifacts":
+        path = node / "node.toml"
+        expected = f"weight = {count}\n"
+        if check:
+            if not path.exists() or path.read_text(encoding="utf-8") != expected:
+                raise SystemExit(f"Stale object weight: {path}")
+        else:
+            path.write_text(expected, encoding="utf-8")
+    return count
 
 
 def main():
@@ -247,6 +270,7 @@ def main():
             destination.parent.mkdir(parents=True, exist_ok=True)
             destination.write_text(rendered, encoding="utf-8")
         print(f"{leaf}: {len(items)}")
+    count_weights(ROOT / "artifacts", args.check)
     if not args.check:
         license_path = args.cache / "LICENSE"
         if not license_path.exists():

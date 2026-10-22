@@ -232,12 +232,12 @@ def clean_name(name, kind):
 
 
 def coordinate_label(latitude, longitude):
-    return (f"{abs(latitude):.1f}°{'N' if latitude >= 0 else 'S'}, "
-            f"{abs(longitude):.1f}°{'E' if longitude >= 0 else 'W'}")
+    return (f"{round(abs(latitude), 1):g}°{'N' if latitude >= 0 else 'S'}, "
+            f"{round(abs(longitude), 1):g}°{'E' if longitude >= 0 else 'W'}")
 
 
 def point_location(latitude, longitude, region):
-    location = f"mapped near {coordinate_label(latitude, longitude)}"
+    location = coordinate_label(latitude, longitude)
     if region and region != "Seven seas (open ocean)":
         location += f" ({region})"
     return location
@@ -281,7 +281,7 @@ def import_physical(source_dir=None):
             return
         seen.add(key)
         name = clean_name(name, kind)
-        text = f"{name} - {kind}" + (f"; {location}" if location else "")
+        text = f"{name} - {kind}" + (f"\n{location}" if location else "")
         if (path, text) in seen_text:
             return
         seen_text.add((path, text))
@@ -351,11 +351,11 @@ def import_physical(source_dir=None):
                              if x and x != "Seven seas (open ocean)"
                              and x.casefold() != name.casefold())
         if not location:
-            location = f"mapped extent center: {coordinate_label(*extent_center(feature['geometry']))}"
+            location = f"Map extent center {coordinate_label(*extent_center(feature['geometry']))}"
         repeated_range_id = p["NE_ID"] in {1159103969, 1159103971}
         if kind == "Range/mtn" and p["NE_ID"] != 1159104505 and (
                 repeated_range_id or labels[(p["NAME"], kind, p["REGION"], p["SUBREGION"])] > 1):
-            location += f"; mapped extent center: {coordinate_label(*extent_center(feature['geometry']))}"
+            location += f"\nMap extent center {coordinate_label(*extent_center(feature['geometry']))}"
         identifier = p["NE_ID"]
         if repeated_range_id:
             latitude, _ = extent_center(feature["geometry"])
@@ -411,7 +411,7 @@ def import_physical(source_dir=None):
                 "Alkaline Lake": "water/inland/alkaline-lakes"}[p["featurecla"]]
         location = coordinate_label(*extent_center(feature["geometry"]))
         add(path, filename, p["ne_id"], p["name"], p["featurecla"].lower(),
-            f"mapped extent center: {location}")
+            f"Map extent center {location}")
 
     filename = "ne_10m_rivers_lake_centerlines.geojson"
     rivers = defaultdict(list)
@@ -430,7 +430,7 @@ def import_physical(source_dir=None):
         geometry = {"coordinates": [feature["geometry"]["coordinates"] for feature in parts]}
         location = coordinate_label(*extent_center(geometry))
         add("water/inland/rivers", filename, identifier, names.pop(), "river",
-            f"mapped extent center: {location}")
+            f"Map extent center {location}")
 
     for path, records in sorted(grouped.items()):
         shared["write"](f"physical/{path}", records)
@@ -440,6 +440,7 @@ def import_physical(source_dir=None):
         (legacy / "records.json").unlink(missing_ok=True)
         if legacy.exists() and not any(legacy.iterdir()):
             legacy.rmdir()
+    shared["count_weights"]("physical")
 
 
 if __name__ == "__main__":

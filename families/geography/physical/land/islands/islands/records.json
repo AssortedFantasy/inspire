@@ -1,1577 +1,1577 @@
 [
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102337",
-    "text": "Adak - island; North America",
+    "text": "Adak - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159102337; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730074499",
-    "text": "Adelaide Island - island; Antarctica",
+    "text": "Adelaide Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1730074499; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102463",
-    "text": "Aitutaki - island; Polynesia, Oceania",
+    "text": "Aitutaki - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102463; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102411",
-    "text": "Akimiski Island - island; North America",
+    "text": "Akimiski Island - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159102411; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730070601",
-    "text": "Aldabra - atoll; Seychelles",
+    "text": "Aldabra - atoll\nSeychelles",
     "provenance": "Natural Earth, source ID 1730070601; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://whc.unesco.org/en/list/185; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730074507",
-    "text": "Alexander Island - island; Antarctica",
+    "text": "Alexander Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1730074507; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102751",
-    "text": "Alor - island; Malay Archipelago, Asia",
+    "text": "Alor - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102751; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103485",
-    "text": "Amami Ōshima - island; Asia",
+    "text": "Amami Ōshima - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103485; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.japan.travel/en/world-heritage/amami-oshima-island-tokunoshima-island-northern-part-of-okinawa-island-and-iriomote-island/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102511",
-    "text": "Ambrym - island; Melanesia, Oceania",
+    "text": "Ambrym - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102511; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730070451",
-    "text": "Anaa - island; Polynesia, Oceania",
+    "text": "Anaa - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1730070451; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730070465",
-    "text": "Anatahan - island; Micronesia, Oceania",
+    "text": "Anatahan - island\nMicronesia, Oceania",
     "provenance": "Natural Earth, source ID 1730070465; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102329",
-    "text": "Anatom - island; Melanesia, Oceania",
+    "text": "Anatom - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102329; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102417",
-    "text": "Andros - island; West Indies, North America",
+    "text": "Andros - island\nWest Indies, North America",
     "provenance": "Natural Earth, source ID 1159102417; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102353",
-    "text": "Anjouan - island; Indian Ocean, Africa",
+    "text": "Anjouan - island\nIndian Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102353; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104461",
-    "text": "Anvers Island - island; Antarctica",
+    "text": "Anvers Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104461; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103381",
-    "text": "Arctic Institute Island - island; Asia",
+    "text": "Arctic Institute Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103381; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730070385",
-    "text": "Atafu - island; Polynesia, Oceania",
+    "text": "Atafu - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1730070385; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102389",
-    "text": "Atka - island; North America",
+    "text": "Atka - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159102389; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102873",
-    "text": "Axel Heiberg Island - island; Arctic Archipelago, North America",
+    "text": "Axel Heiberg Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102873; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102721",
-    "text": "Ayon Island - island; Asia",
+    "text": "Ayon Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102721; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103779",
-    "text": "Baffin Island - island; Arctic Archipelago, North America",
+    "text": "Baffin Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159103779; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102451",
-    "text": "Baker Island - island; Polynesia, Oceania",
+    "text": "Baker Island - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102451; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102765",
-    "text": "Bali - island; Malay Archipelago, Asia",
+    "text": "Bali - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102765; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102435",
-    "text": "Banaba - island; Micronesia, Oceania",
+    "text": "Banaba - island\nMicronesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102435; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102771",
-    "text": "Bangka - island; Malay Archipelago, Asia",
+    "text": "Bangka - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102771; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103413",
-    "text": "Banks Island - island; Arctic Archipelago, North America",
+    "text": "Banks Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159103413; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102397",
-    "text": "Bathurst Island - island; Arctic Archipelago, North America",
+    "text": "Bathurst Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102397; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102769",
-    "text": "Belitung - island; Malay Archipelago, Asia",
+    "text": "Belitung - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102769; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102703",
-    "text": "Belyy Island - island; Asia",
+    "text": "Belyy Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102703; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102533",
-    "text": "Bering Island - island; Asia",
+    "text": "Bering Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102533; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730074433",
-    "text": "Berkner Island - island; Antarctica",
+    "text": "Berkner Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1730074433; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102741",
-    "text": "Biak - island; Melanesia, Oceania",
+    "text": "Biak - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102741; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102851",
-    "text": "Bioko - island; Africa",
+    "text": "Bioko - island\nAfrica",
     "provenance": "Natural Earth, source ID 1159102851; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102823",
-    "text": "Bjørnøya - island; Europe",
+    "text": "Bjørnøya - island\nEurope",
     "provenance": "Natural Earth, source ID 1159102823; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102375",
-    "text": "Boa Vista - island; North Atlantic Ocean, Africa",
+    "text": "Boa Vista - island\nNorth Atlantic Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102375; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103397",
-    "text": "Bohol - island; Malay Archipelago, Asia",
+    "text": "Bohol - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159103397; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103377",
-    "text": "Bol’shevik Island - island; Asia",
+    "text": "Bol’shevik Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103377; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103755",
-    "text": "Bol’shoy Begichev Island - island; Asia",
+    "text": "Bol’shoy Begichev Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103755; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102673",
-    "text": "Bora Bora - island; Polynesia, Oceania",
+    "text": "Bora Bora - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102673; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104125",
-    "text": "Borneo - island; Malay Archipelago, Asia",
+    "text": "Borneo - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159104125; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103825",
-    "text": "Bougainville - island; Melanesia, Oceania",
+    "text": "Bougainville - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103825; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://papuanewguinea.travel/autonomous-region-of-bougainville/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104459",
-    "text": "Brabant Island - island; Antarctica",
+    "text": "Brabant Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104459; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104547",
-    "text": "Burke Island - island; Antarctica",
+    "text": "Burke Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104547; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102745",
-    "text": "Buru - island; Melanesia, Oceania",
+    "text": "Buru - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102745; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102489",
-    "text": "Butaritari - island; Micronesia, Oceania",
+    "text": "Butaritari - island\nMicronesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102489; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102409",
-    "text": "Bylot Island - island; Arctic Archipelago, North America",
+    "text": "Bylot Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102409; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103425",
-    "text": "Cape Breton Island - island; North America",
+    "text": "Cape Breton Island - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159103425; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104481",
-    "text": "Carney Island - island; Antarctica",
+    "text": "Carney Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104481; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103389",
-    "text": "Ceram - island; Melanesia, Oceania",
+    "text": "Ceram - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103389; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104463",
-    "text": "Charcot Island - island; Antarctica",
+    "text": "Charcot Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104463; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102705",
-    "text": "Cheju Island - island; Asia",
+    "text": "Cheju Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102705; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102655",
-    "text": "Choiseul - island; Melanesia, Oceania",
+    "text": "Choiseul - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102655; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102401",
-    "text": "Coats Island - island; Arctic Archipelago, North America",
+    "text": "Coats Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102401; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102405",
-    "text": "Cornwallis Island - island; Arctic Archipelago, North America",
+    "text": "Cornwallis Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102405; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103807",
-    "text": "Corse - island; Mediterranean Sea, Europe",
+    "text": "Corse - island\nMediterranean Sea, Europe",
     "provenance": "Natural Earth, source ID 1159103807; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102805",
-    "text": "Crete - island; Mediterranean Sea, Europe",
+    "text": "Crete - island\nMediterranean Sea, Europe",
     "provenance": "Natural Earth, source ID 1159102805; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103429",
-    "text": "Cuba - island; West Indies, North America",
+    "text": "Cuba - island\nWest Indies, North America",
     "provenance": "Natural Earth, source ID 1159103429; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103411",
-    "text": "Cyprus - island; Mediterranean Sea, Asia",
+    "text": "Cyprus - island\nMediterranean Sea, Asia",
     "provenance": "Natural Earth, source ID 1159103411; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102875",
-    "text": "Devon Island - island; Arctic Archipelago, North America",
+    "text": "Devon Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102875; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102709",
-    "text": "East Falkland - island; Falkland Islands, South America",
+    "text": "East Falkland - island\nFalkland Islands, South America",
     "provenance": "Natural Earth, source ID 1159102709; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102829",
-    "text": "Edgeøya - island; Arctic Ocean, Europe",
+    "text": "Edgeøya - island\nArctic Ocean, Europe",
     "provenance": "Natural Earth, source ID 1159102829; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102525",
-    "text": "Eiao - island; Polynesia, Oceania",
+    "text": "Eiao - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102525; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104453",
-    "text": "Elephant Island - island; Antarctica",
+    "text": "Elephant Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104453; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103777",
-    "text": "Ellesmere Island - island; Arctic Archipelago, North America",
+    "text": "Ellesmere Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159103777; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102777",
-    "text": "Enggano - island; Asia",
+    "text": "Enggano - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102777; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730070497",
-    "text": "Eniwetok - island; Micronesia, Oceania",
+    "text": "Eniwetok - island\nMicronesia, Oceania",
     "provenance": "Natural Earth, source ID 1730070497; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102513",
-    "text": "Erromango - island; Melanesia, Oceania",
+    "text": "Erromango - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102513; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103811",
-    "text": "Espiritu Santo - island; Melanesia, Oceania",
+    "text": "Espiritu Santo - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103811; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.vanuatu.travel/en/about-vanuatu/provinces/sanma/santo; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104569",
-    "text": "Farwell Island - island; Antarctica",
+    "text": "Farwell Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104569; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102523",
-    "text": "Fatu Hiva - island; Polynesia, Oceania",
+    "text": "Fatu Hiva - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102523; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102731",
-    "text": "Flinders Island - island; Australasia, Oceania",
+    "text": "Flinders Island - island\nAustralasia, Oceania",
     "provenance": "Natural Earth, source ID 1159102731; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102757-indonesia",
-    "text": "Flores - island; Malay Archipelago, Asia",
+    "text": "Flores - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102757; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. The source reuses this NE_ID for Flores in the Azores and Indonesia; a geographic suffix distinguishes the record; identity verified against https://www.indonesia.travel/id/en/destination/bali-nusa-tenggara/east-nusa-tenggara/flores."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102757-azores",
-    "text": "Flores - island; North Atlantic Ocean",
+    "text": "Flores - island\nNorth Atlantic Ocean",
     "provenance": "Natural Earth, source ID 1159102757; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. The source reuses this NE_ID for Flores in the Azores and Indonesia; a geographic suffix distinguishes the record; identity verified against https://surf.visitazores.com/pt-pt/ilhas/flores."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102367",
-    "text": "Fogo - island; North Atlantic Ocean, Africa",
+    "text": "Fogo - island\nNorth Atlantic Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102367; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102379",
-    "text": "Fuerteventura - island; North Atlantic Ocean, Africa",
+    "text": "Fuerteventura - island\nNorth Atlantic Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102379; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102419",
-    "text": "Gardner Pinnacles - island; Oceania",
+    "text": "Gardner Pinnacles - island\nOceania",
     "provenance": "Natural Earth, source ID 1159102419; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102331",
-    "text": "Gaua - island; Melanesia, Oceania",
+    "text": "Gaua - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102331; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102793",
-    "text": "Gotland - island; Europe",
+    "text": "Gotland - island\nEurope",
     "provenance": "Natural Earth, source ID 1159102793; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102855",
-    "text": "Gran Canaria - island; North Atlantic Ocean, Africa",
+    "text": "Gran Canaria - island\nNorth Atlantic Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102855; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102861",
-    "text": "Grand Bahama - island; West Indies, North America",
+    "text": "Grand Bahama - island\nWest Indies, North America",
     "provenance": "Natural Earth, source ID 1159102861; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102547",
-    "text": "Grande Comore - island; Comores, Africa",
+    "text": "Grande Comore - island\nComores, Africa",
     "provenance": "Natural Earth, source ID 1159102547; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104133",
-    "text": "Great Britain - island; British Isles, Europe",
+    "text": "Great Britain - island\nBritish Isles, Europe",
     "provenance": "Natural Earth, source ID 1159104133; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103757",
-    "text": "Great Nicobar - island; Bay of Bengal",
+    "text": "Great Nicobar - island\nBay of Bengal",
     "provenance": "Natural Earth, source ID 1159103757; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102807",
-    "text": "Greem Bell Island - island; Arctic Ocean, Europe",
+    "text": "Greem Bell Island - island\nArctic Ocean, Europe",
     "provenance": "Natural Earth, source ID 1159102807; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104263",
-    "text": "Greenland - island; North America",
+    "text": "Greenland - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159104263; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102711",
-    "text": "Groote Eylandt - island; Australasia, Oceania",
+    "text": "Groote Eylandt - island\nAustralasia, Oceania",
     "provenance": "Natural Earth, source ID 1159102711; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103827",
-    "text": "Guadalcanal - island; Melanesia, Oceania",
+    "text": "Guadalcanal - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103827; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://solomons.gov.sb/about-solomon-islands/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103479",
-    "text": "Guam - island; Micronesia, Oceania",
+    "text": "Guam - island\nMicronesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103479; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.visitguam.com/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103373",
-    "text": "Hainan - island; Asia",
+    "text": "Hainan - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103373; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103391",
-    "text": "Halmahera - island; Melanesia, Oceania",
+    "text": "Halmahera - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103391; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104283",
-    "text": "Hawai‘i - island; Polynesia, Oceania",
+    "text": "Hawai‘i - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159104283; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.gohawaii.com/islands; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104527",
-    "text": "Heard Island - island; Southern Indian Ocean",
+    "text": "Heard Island - island\nSouthern Indian Ocean",
     "provenance": "Natural Earth, source ID 1159104527; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104445",
-    "text": "Hearst Island - island; Antarctica",
+    "text": "Hearst Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104445; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102383",
-    "text": "Hierro - island; North Atlantic Ocean, Africa",
+    "text": "Hierro - island\nNorth Atlantic Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102383; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103427",
-    "text": "Hispaniola - island; West Indies, North America",
+    "text": "Hispaniola - island\nWest Indies, North America",
     "provenance": "Natural Earth, source ID 1159103427; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103465",
-    "text": "Hiva Oa - island; Polynesia, Oceania",
+    "text": "Hiva Oa - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103465; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://tahititourisme.pf/en-pf/islands-and-archipelagos/marquesas-islands/hiva-oa/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103801",
-    "text": "Hokkaidö - island; Asia",
+    "text": "Hokkaidö - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103801; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104129",
-    "text": "Honshü - island; Asia",
+    "text": "Honshü - island\nAsia",
     "provenance": "Natural Earth, source ID 1159104129; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102519",
-    "text": "Huahine - island; Polynesia, Oceania",
+    "text": "Huahine - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102519; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102821",
-    "text": "Ibiza - island; Europe",
+    "text": "Ibiza - island\nEurope",
     "provenance": "Natural Earth, source ID 1159102821; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104135",
-    "text": "Iceland - island; Europe",
+    "text": "Iceland - island\nEurope",
     "provenance": "Natural Earth, source ID 1159104135; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102695",
-    "text": "Ilha de Marajó - island; South America",
+    "text": "Ilha de Marajó - island\nSouth America",
     "provenance": "Natural Earth, source ID 1159102695; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104131",
-    "text": "Ireland - island; British Isles, Europe",
+    "text": "Ireland - island\nBritish Isles, Europe",
     "provenance": "Natural Earth, source ID 1159104131; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103829",
-    "text": "Isabela - island; Galapagos Islands, South America",
+    "text": "Isabela - island\nGalapagos Islands, South America",
     "provenance": "Natural Earth, source ID 1159103829; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://galapagos.gob.ec/parque-nacional-galapagos/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103387",
-    "text": "Isla de Chiloé - island; South America",
+    "text": "Isla de Chiloé - island\nSouth America",
     "provenance": "Natural Earth, source ID 1159103387; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102537",
-    "text": "Isla Wellington - island; South America",
+    "text": "Isla Wellington - island\nSouth America",
     "provenance": "Natural Earth, source ID 1159102537; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102429",
-    "text": "Island Clarión - island; Is. Revillagigedo",
+    "text": "Island Clarión - island\nIs. Revillagigedo",
     "provenance": "Natural Earth, source ID 1159102429; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102517",
-    "text": "Island Guadalupe - island; North America",
+    "text": "Island Guadalupe - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159102517; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103783",
-    "text": "Island Of Newfoundland - island; North America",
+    "text": "Island Of Newfoundland - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159103783; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102471",
-    "text": "Island Sala y Gómez - island; Oceania",
+    "text": "Island Sala y Gómez - island\nOceania",
     "provenance": "Natural Earth, source ID 1159102471; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102473",
-    "text": "Island San Félix - island; mapped extent center: 26.3°S, 80.1°W",
+    "text": "Island San Félix - island\nMap extent center 26.3°S, 80.1°W",
     "provenance": "Natural Earth, source ID 1159102473; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102913",
-    "text": "Iturup - island; Asia",
+    "text": "Iturup - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102913; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://pubs.usgs.gov/of/2005/1308/of2005-1308.pdf; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102483",
-    "text": "Iwo Jima - island; Asia",
+    "text": "Iwo Jima - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102483; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103415",
-    "text": "Jamaica - island; West Indies, North America",
+    "text": "Jamaica - island\nWest Indies, North America",
     "provenance": "Natural Earth, source ID 1159103415; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104449",
-    "text": "James Ross Island - island; Antarctica",
+    "text": "James Ross Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104449; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102839",
-    "text": "Jan Mayen - island; Arctic Ocean, Europe",
+    "text": "Jan Mayen - island\nArctic Ocean, Europe",
     "provenance": "Natural Earth, source ID 1159102839; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103787",
-    "text": "Java - island; Malay Archipelago, Asia",
+    "text": "Java - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159103787; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730070381",
-    "text": "Johnston Atoll - island; Polynesia, Oceania",
+    "text": "Johnston Atoll - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1730070381; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104451",
-    "text": "Joinville Island - island; Antarctica",
+    "text": "Joinville Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104451; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102735",
-    "text": "K'gari - island; Australasia, Oceania",
+    "text": "K'gari - island\nAustralasia, Oceania",
     "provenance": "Natural Earth, source ID 1159102735; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.nrmmrrd.qld.gov.au/land-property/initiatives/kgari/about; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102663",
-    "text": "Kadavu - island; Melanesia, Oceania",
+    "text": "Kadavu - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102663; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102733",
-    "text": "Kangaroo Island - island; Australasia, Oceania",
+    "text": "Kangaroo Island - island\nAustralasia, Oceania",
     "provenance": "Natural Earth, source ID 1159102733; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102715",
-    "text": "Karaginskiy Island - island; Asia",
+    "text": "Karaginskiy Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102715; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730070503",
-    "text": "Karkar - island; Melanesia, Oceania",
+    "text": "Karkar - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1730070503; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103473",
-    "text": "Kaua‘i - island; Polynesia, Oceania",
+    "text": "Kaua‘i - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103473; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.gohawaii.com/islands; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104455",
-    "text": "King George Island - island; Antarctica",
+    "text": "King George Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104455; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102729",
-    "text": "King Island - island; Australasia, Oceania",
+    "text": "King Island - island\nAustralasia, Oceania",
     "provenance": "Natural Earth, source ID 1159102729; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102403",
-    "text": "King William Island - island; Arctic Archipelago, North America",
+    "text": "King William Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102403; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103469",
-    "text": "Kiritimati - island; Polynesia, Oceania",
+    "text": "Kiritimati - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103469; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://visitkiribati.travel/wp-content/uploads/2019/05/Kiribati-Travel-Information-2019.pdf; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102877",
-    "text": "Kodiak Island - island; North America",
+    "text": "Kodiak Island - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159102877; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102837",
-    "text": "Kolguyev Island - island; Europe",
+    "text": "Kolguyev Island - island\nEurope",
     "provenance": "Natural Earth, source ID 1159102837; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103375",
-    "text": "Komsomolets Island - island; Asia",
+    "text": "Komsomolets Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103375; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102725",
-    "text": "Kotel’nyy Island - island; Asia",
+    "text": "Kotel’nyy Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102725; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102529",
-    "text": "Kunashir - island; Asia",
+    "text": "Kunashir - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102529; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102813",
-    "text": "Kvitøya - island; Arctic Ocean, Europe",
+    "text": "Kvitøya - island\nArctic Ocean, Europe",
     "provenance": "Natural Earth, source ID 1159102813; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103795",
-    "text": "Kyüshü - island; Asia",
+    "text": "Kyüshü - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103795; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102385",
-    "text": "La Palma - island; North Atlantic Ocean, Africa",
+    "text": "La Palma - island\nNorth Atlantic Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102385; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102343",
-    "text": "Lanzarote - island; North Atlantic Ocean, Africa",
+    "text": "Lanzarote - island\nNorth Atlantic Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102343; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104467",
-    "text": "Latady Island - island; Antarctica",
+    "text": "Latady Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104467; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102825",
-    "text": "Lesbos - island; Mediterranean Sea, Europe",
+    "text": "Lesbos - island\nMediterranean Sea, Europe",
     "provenance": "Natural Earth, source ID 1159102825; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103401",
-    "text": "Leyte - island; Malay Archipelago, Asia",
+    "text": "Leyte - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159103401; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102439",
-    "text": "Lisianski - island; Oceania",
+    "text": "Lisianski - island\nOceania",
     "provenance": "Natural Earth, source ID 1159102439; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104457",
-    "text": "Livingston Island - island; Antarctica",
+    "text": "Livingston Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104457; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102763",
-    "text": "Lombok - island; Malay Archipelago, Asia",
+    "text": "Lombok - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102763; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102859",
-    "text": "Long Island - island; North America",
+    "text": "Long Island - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159102859; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103791",
-    "text": "Luzon - island; Malay Archipelago, Asia",
+    "text": "Luzon - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159103791; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102679",
-    "text": "Läna‘i - island; Polynesia, Oceania",
+    "text": "Läna‘i - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102679; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104265",
-    "text": "Madagascar - island; Indian Ocean, Africa",
+    "text": "Madagascar - island\nIndian Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159104265; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102857",
-    "text": "Madeira - island; North Atlantic Ocean, Africa",
+    "text": "Madeira - island\nNorth Atlantic Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102857; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102767",
-    "text": "Madura Island - island; Malay Archipelago, Asia",
+    "text": "Madura Island - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102767; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102355",
-    "text": "Mafia Island - island; Africa",
+    "text": "Mafia Island - island\nAfrica",
     "provenance": "Natural Earth, source ID 1159102355; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102347",
-    "text": "Mahé Island - island; Seychelles",
+    "text": "Mahé Island - island\nSeychelles",
     "provenance": "Natural Earth, source ID 1159102347; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103451",
-    "text": "Makira (San Cristobal) - island; Melanesia, Oceania",
+    "text": "Makira (San Cristobal) - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103451; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://solomons.gov.sb/about-solomon-islands/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102653",
-    "text": "Malaita - island; Melanesia, Oceania",
+    "text": "Malaita - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102653; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103455",
-    "text": "Malakula - island; Melanesia, Oceania",
+    "text": "Malakula - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103455; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.vanuatu.travel/en/?catid=2&id=259%3Amalekula-island&option=com_content&view=article; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102819",
-    "text": "Mallorca - island; Mediterranean Sea, Europe",
+    "text": "Mallorca - island\nMediterranean Sea, Europe",
     "provenance": "Natural Earth, source ID 1159102819; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102815",
-    "text": "Malta - island; Mediterranean Sea, Europe",
+    "text": "Malta - island\nMediterranean Sea, Europe",
     "provenance": "Natural Earth, source ID 1159102815; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102461",
-    "text": "Mangaia - island; Polynesia, Oceania",
+    "text": "Mangaia - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102461; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102421",
-    "text": "Manihiki - island; Polynesia, Oceania",
+    "text": "Manihiki - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102421; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102399",
-    "text": "Mansel Island - island; Arctic Archipelago, North America",
+    "text": "Mansel Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102399; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102651",
-    "text": "Manus - island; Melanesia, Oceania",
+    "text": "Manus - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102651; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103833",
-    "text": "Maui - island; Polynesia, Oceania",
+    "text": "Maui - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103833; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.gohawaii.com/islands; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102551",
-    "text": "Mauritius - island; Mascarene Islands",
+    "text": "Mauritius - island\nMascarene Islands",
     "provenance": "Natural Earth, source ID 1159102551; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102351",
-    "text": "Mayotte - island; Comores, Africa",
+    "text": "Mayotte - island\nComores, Africa",
     "provenance": "Natural Earth, source ID 1159102351; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102867",
-    "text": "Melville Island - island; Arctic Archipelago, North America",
+    "text": "Melville Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102867; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102739",
-    "text": "Melville Island - island; Australasia, Oceania",
+    "text": "Melville Island - island\nAustralasia, Oceania",
     "provenance": "Natural Earth, source ID 1159102739; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102817",
-    "text": "Menorca - island; Europe",
+    "text": "Menorca - island\nEurope",
     "provenance": "Natural Earth, source ID 1159102817; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103761",
-    "text": "Middle Andaman - island; Bay of Bengal",
+    "text": "Middle Andaman - island\nBay of Bengal",
     "provenance": "Natural Earth, source ID 1159103761; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104391",
-    "text": "Mill Island - island; Antarctica",
+    "text": "Mill Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104391; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103789",
-    "text": "Mindanao - island; Malay Archipelago, Asia",
+    "text": "Mindanao - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159103789; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103409",
-    "text": "Mindoro - island; Malay Archipelago, Asia",
+    "text": "Mindoro - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159103409; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102349",
-    "text": "Mohéli - island; Comores, Africa",
+    "text": "Mohéli - island\nComores, Africa",
     "provenance": "Natural Earth, source ID 1159102349; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102671",
-    "text": "Moloka‘i - island; Polynesia, Oceania",
+    "text": "Moloka‘i - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102671; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102675",
-    "text": "Moorea - island; Polynesia, Oceania",
+    "text": "Moorea - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102675; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102713",
-    "text": "Mornington Island - island; Australasia, Oceania",
+    "text": "Mornington Island - island\nAustralasia, Oceania",
     "provenance": "Natural Earth, source ID 1159102713; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102749",
-    "text": "Morotai - island; Melanesia, Oceania",
+    "text": "Morotai - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102749; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102499",
-    "text": "Mussau - island; Melanesia, Oceania",
+    "text": "Mussau - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102499; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103765",
-    "text": "N. Andaman - island; Bay of Bengal",
+    "text": "N. Andaman - island\nBay of Bengal",
     "provenance": "Natural Earth, source ID 1159103765; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102775",
-    "text": "Natuna Besar - island; Malay Archipelago, Asia",
+    "text": "Natuna Besar - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102775; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.indonesia.travel/us/en/destination/sumatra/riau-islands/the-natuna-islands; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103399",
-    "text": "Negros - island; Malay Archipelago, Asia",
+    "text": "Negros - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159103399; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102505",
-    "text": "Nendö - island; Melanesia, Oceania",
+    "text": "Nendö - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102505; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104281",
-    "text": "New Britain - island; Melanesia, Oceania",
+    "text": "New Britain - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159104281; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://papuanewguinea.travel/west-new-britain-province/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104121",
-    "text": "New Guinea - island; Melanesia, Oceania",
+    "text": "New Guinea - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159104121; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103449",
-    "text": "New Ireland - island; Melanesia, Oceania",
+    "text": "New Ireland - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103449; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://papuanewguinea.travel/new-ireland-province/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102783",
-    "text": "Nias - island; Malay Archipelago, Asia",
+    "text": "Nias - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102783; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102425",
-    "text": "Niau - island; Polynesia, Oceania",
+    "text": "Niau - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102425; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102437",
-    "text": "Nihoa - island; Polynesia, Oceania",
+    "text": "Nihoa - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102437; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102447",
-    "text": "Niuafo‘ou - island; Polynesia, Oceania",
+    "text": "Niuafo‘ou - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102447; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730070893",
-    "text": "Niue - island; Polynesia, Oceania",
+    "text": "Niue - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1730070893; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102681",
-    "text": "Ni‘ihau - island; Polynesia, Oceania",
+    "text": "Ni‘ihau - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102681; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102833",
-    "text": "Nordaustlandet - island; Arctic Ocean, Europe",
+    "text": "Nordaustlandet - island\nArctic Ocean, Europe",
     "provenance": "Natural Earth, source ID 1159102833; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104629",
-    "text": "North Island - island; New Zealand, Oceania",
+    "text": "North Island - island\nNew Zealand, Oceania",
     "provenance": "Natural Earth, source ID 1159104629; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102723",
-    "text": "Novaya Sibir’ Island - island; Asia",
+    "text": "Novaya Sibir’ Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102723; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103467",
-    "text": "Nuku Hiva - island; Polynesia, Oceania",
+    "text": "Nuku Hiva - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103467; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.tahititourisme.nz/islands/nuku-hiva/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730070475",
-    "text": "Nukufetau - island; Polynesia, Oceania",
+    "text": "Nukufetau - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1730070475; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102491",
-    "text": "Nukuoro Atoll - atoll; Micronesia, Oceania",
+    "text": "Nukuoro Atoll - atoll\nMicronesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102491; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.nasa.gov/image-article/nukuoro-atoll/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102553",
-    "text": "Nunivak Island - island; North America",
+    "text": "Nunivak Island - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159102553; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103379",
-    "text": "October Revolution Island - island; Asia",
+    "text": "October Revolution Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103379; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730072495",
-    "text": "Okinawa Island - island; Asia",
+    "text": "Okinawa Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1730072495; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.japan.travel/en/world-heritage/amami-oshima-island-tokunoshima-island-northern-part-of-okinawa-island-and-iriomote-island/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102531",
-    "text": "Onekotan - island; Asia",
+    "text": "Onekotan - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102531; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102493",
-    "text": "Oroluk - island; Micronesia, Oceania",
+    "text": "Oroluk - island\nMicronesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102493; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103471",
-    "text": "O‘ahu - island; Polynesia, Oceania",
+    "text": "O‘ahu - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103471; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.gohawaii.com/islands; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103395",
-    "text": "Palawan - island; Malay Archipelago, Asia",
+    "text": "Palawan - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159103395; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102465",
-    "text": "Palmerston - island; Polynesia, Oceania",
+    "text": "Palmerston - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102465; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103407",
-    "text": "Panay - island; Malay Archipelago, Asia",
+    "text": "Panay - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159103407; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103481",
-    "text": "Paramushir - island; Asia",
+    "text": "Paramushir - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103481; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://pubs.usgs.gov/of/2005/1308/of2005-1308.pdf; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102345",
-    "text": "Pemba Island - island; Africa",
+    "text": "Pemba Island - island\nAfrica",
     "provenance": "Natural Earth, source ID 1159102345; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102459",
-    "text": "Penrhyn - island; Polynesia, Oceania",
+    "text": "Penrhyn - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102459; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102327",
-    "text": "Pentecost - island; Melanesia, Oceania",
+    "text": "Pentecost - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102327; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102535",
-    "text": "Phuket Island - island; Asia",
+    "text": "Phuket Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102535; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102361",
-    "text": "Pico - island; North Atlantic Ocean",
+    "text": "Pico - island\nNorth Atlantic Ocean",
     "provenance": "Natural Earth, source ID 1159102361; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102427",
-    "text": "Pitcairn Island - island; Polynesia, Oceania",
+    "text": "Pitcairn Island - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102427; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102661",
-    "text": "Pohnpei - island; Micronesia, Oceania",
+    "text": "Pohnpei - island\nMicronesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102661; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102559",
-    "text": "Prince Charles Island - island; Arctic Archipelago, North America",
+    "text": "Prince Charles Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102559; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730072375",
-    "text": "Prince Edward Island - island; North America",
+    "text": "Prince Edward Island - island\nNorth America",
     "provenance": "Natural Earth, source ID 1730072375; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102871",
-    "text": "Prince of Wales Island - island; Arctic Archipelago, North America",
+    "text": "Prince of Wales Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102871; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102393",
-    "text": "Prince Patrick Island - island; Arctic Archipelago, North America",
+    "text": "Prince Patrick Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102393; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102843",
-    "text": "Príncipe - island; Africa",
+    "text": "Príncipe - island\nAfrica",
     "provenance": "Natural Earth, source ID 1159102843; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103417",
-    "text": "Puerto Rico - island; West Indies, North America",
+    "text": "Puerto Rico - island\nWest Indies, North America",
     "provenance": "Natural Earth, source ID 1159103417; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102457",
-    "text": "Pukapuka - island; Polynesia, Oceania",
+    "text": "Pukapuka - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102457; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102865",
-    "text": "Qeqertarsuaq - island; Greenland, North America",
+    "text": "Qeqertarsuaq - island\nGreenland, North America",
     "provenance": "Natural Earth, source ID 1159102865; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103463",
-    "text": "Raiatea - island; Polynesia, Oceania",
+    "text": "Raiatea - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103463; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://tahititourisme.pf/en-pf/islands-and-archipelagos/the-society-islands/raiatea/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102507",
-    "text": "Rennell - island; Melanesia, Oceania",
+    "text": "Rennell - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102507; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102381",
-    "text": "Reunion - island; Mascarene Islands",
+    "text": "Reunion - island\nMascarene Islands",
     "provenance": "Natural Earth, source ID 1159102381; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102803",
-    "text": "Rhodes - island; Mediterranean Sea, Europe",
+    "text": "Rhodes - island\nMediterranean Sea, Europe",
     "provenance": "Natural Earth, source ID 1159102803; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730074565",
-    "text": "Roosevelt Island - island; Antarctica",
+    "text": "Roosevelt Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1730074565; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730074339",
-    "text": "Ross Island - island; Antarctica",
+    "text": "Ross Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1730074339; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102669",
-    "text": "Rota - island; Micronesia, Oceania",
+    "text": "Rota - island\nMicronesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102669; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103759",
-    "text": "S. Andaman - island; Bay of Bengal",
+    "text": "S. Andaman - island\nBay of Bengal",
     "provenance": "Natural Earth, source ID 1159103759; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102787",
-    "text": "Saaremaa - island; Europe",
+    "text": "Saaremaa - island\nEurope",
     "provenance": "Natural Earth, source ID 1159102787; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102667",
-    "text": "Saipan - island; Micronesia, Oceania",
+    "text": "Saipan - island\nMicronesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102667; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103803",
-    "text": "Sakhalin - island; Asia",
+    "text": "Sakhalin - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103803; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102373",
-    "text": "Sal - island; North Atlantic Ocean, Africa",
+    "text": "Sal - island\nNorth Atlantic Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102373; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103405",
-    "text": "Samar - island; Malay Archipelago, Asia",
+    "text": "Samar - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159103405; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103459",
-    "text": "Santa Cruz - island; Galapagos Islands, South America",
+    "text": "Santa Cruz - island\nGalapagos Islands, South America",
     "provenance": "Natural Earth, source ID 1159103459; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://galapagos.gob.ec/parque-nacional-galapagos/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103453",
-    "text": "Santa Isabel - island; Melanesia, Oceania",
+    "text": "Santa Isabel - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103453; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://solomons.gov.sb/about-solomon-islands/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102365",
-    "text": "Santa Maria - island; North Atlantic Ocean",
+    "text": "Santa Maria - island\nNorth Atlantic Ocean",
     "provenance": "Natural Earth, source ID 1159102365; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102543",
-    "text": "Santiago - island; North Atlantic Ocean, Africa",
+    "text": "Santiago - island\nNorth Atlantic Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102543; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102371",
-    "text": "Santo Antão - island; North Atlantic Ocean, Africa",
+    "text": "Santo Antão - island\nNorth Atlantic Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102371; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103805",
-    "text": "Sardegna - island; Mediterranean Sea, Europe",
+    "text": "Sardegna - island\nMediterranean Sea, Europe",
     "provenance": "Natural Earth, source ID 1159103805; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103461",
-    "text": "Savai‘i - island; Polynesia, Oceania",
+    "text": "Savai‘i - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103461; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.samoa.travel/discover/the-islands-of-samoa/savaii-island/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103797",
-    "text": "Shikoku - island; Asia",
+    "text": "Shikoku - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103797; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103383",
-    "text": "Shmidta Island - island; Asia",
+    "text": "Shmidta Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103383; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102781",
-    "text": "Siberut - island; Malay Archipelago, Asia",
+    "text": "Siberut - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102781; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103809",
-    "text": "Sicilia - island; Mediterranean Sea, Europe",
+    "text": "Sicilia - island\nMediterranean Sea, Europe",
     "provenance": "Natural Earth, source ID 1159103809; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102785",
-    "text": "Simeulue - island; Malay Archipelago, Asia",
+    "text": "Simeulue - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102785; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102527",
-    "text": "Simushir - island; Asia",
+    "text": "Simushir - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102527; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104479",
-    "text": "Siple Island - island; Antarctica",
+    "text": "Siple Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104479; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102849",
-    "text": "Socotra - island; Arabian Sea, Asia",
+    "text": "Socotra - island\nArabian Sea, Asia",
     "provenance": "Natural Earth, source ID 1159102849; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102407",
-    "text": "Somerset Island - island; Arctic Archipelago, North America",
+    "text": "Somerset Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102407; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104543",
-    "text": "South Georgia - island; Southern Atlantic Ocean",
+    "text": "South Georgia - island\nSouthern Atlantic Ocean",
     "provenance": "Natural Earth, source ID 1159104543; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104625",
-    "text": "South Island - island; New Zealand, Oceania",
+    "text": "South Island - island\nNew Zealand, Oceania",
     "provenance": "Natural Earth, source ID 1159104625; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102779",
-    "text": "South Pagai - island; Malay Archipelago, Asia",
+    "text": "South Pagai - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102779; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102869",
-    "text": "Southampton Island - island; Arctic Archipelago, North America",
+    "text": "Southampton Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159102869; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104469",
-    "text": "Spaatz Island - island; Antarctica",
+    "text": "Spaatz Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104469; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102831",
-    "text": "Spitsbergen - island; Arctic Ocean, Europe",
+    "text": "Spitsbergen - island\nArctic Ocean, Europe",
     "provenance": "Natural Earth, source ID 1159102831; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104117",
-    "text": "Sri Lanka - island; Asia",
+    "text": "Sri Lanka - island\nAsia",
     "provenance": "Natural Earth, source ID 1159104117; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102555",
-    "text": "St. Lawrence Island - island; North America",
+    "text": "St. Lawrence Island - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159102555; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102387",
-    "text": "St. Matthew Island - island; North America",
+    "text": "St. Matthew Island - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159102387; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730070409",
-    "text": "Starbuck - island; Polynesia, Oceania",
+    "text": "Starbuck - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1730070409; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104617",
-    "text": "Stewart Island - island; New Zealand, Oceania",
+    "text": "Stewart Island - island\nNew Zealand, Oceania",
     "provenance": "Natural Earth, source ID 1159104617; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103785",
-    "text": "Sulawesi - island; Malay Archipelago, Asia",
+    "text": "Sulawesi - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159103785; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104127",
-    "text": "Sumatra - island; Malay Archipelago, Asia",
+    "text": "Sumatra - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159104127; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102759",
-    "text": "Sumba - island; Malay Archipelago, Asia",
+    "text": "Sumba - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102759; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102761",
-    "text": "Sumbawa - island; Malay Archipelago, Asia",
+    "text": "Sumbawa - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102761; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730070413",
-    "text": "Suwarrow - island; Polynesia, Oceania",
+    "text": "Suwarrow - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1730070413; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102545",
-    "text": "São Miguel - island; North Atlantic Ocean",
+    "text": "São Miguel - island\nNorth Atlantic Ocean",
     "provenance": "Natural Earth, source ID 1159102545; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102369",
-    "text": "São Nicolau - island; North Atlantic Ocean, Africa",
+    "text": "São Nicolau - island\nNorth Atlantic Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102369; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102841",
-    "text": "São Tomé - island; Africa",
+    "text": "São Tomé - island\nAfrica",
     "provenance": "Natural Earth, source ID 1159102841; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103831",
-    "text": "Tahiti - island; Polynesia, Oceania",
+    "text": "Tahiti - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103831; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.tahititourisme.nz/islands/tahiti/; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103793",
-    "text": "Taiwan - island; Asia",
+    "text": "Taiwan - island\nAsia",
     "provenance": "Natural Earth, source ID 1159103793; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102747",
-    "text": "Taliabu - island; Malay Archipelago, Asia",
+    "text": "Taliabu - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102747; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102659",
-    "text": "Tanna - island; Melanesia, Oceania",
+    "text": "Tanna - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102659; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102433",
-    "text": "Tarawa - island; Micronesia, Oceania",
+    "text": "Tarawa - island\nMicronesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102433; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104119",
-    "text": "Tasmania - island; Australasia, Oceania",
+    "text": "Tasmania - island\nAustralasia, Oceania",
     "provenance": "Natural Earth, source ID 1159104119; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102477",
-    "text": "Tatakoto - island; Polynesia, Oceania",
+    "text": "Tatakoto - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102477; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730070885",
-    "text": "Taveuni - island; Fiji, Oceania",
+    "text": "Taveuni - island\nFiji, Oceania",
     "provenance": "Natural Earth, source ID 1730070885; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.fiji.travel/places-to-go/taveuni-island/locations/ultimate-guide-to-taveuni; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102469",
-    "text": "Tematangi Atoll - atoll; Polynesia, Oceania",
+    "text": "Tematangi Atoll - atoll\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102469; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.service-public.pf/wp-content/uploads/2020/01/TEMATANGI-maj-01082018.pdf; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102853",
-    "text": "Tenerife - island; North Atlantic Ocean, Africa",
+    "text": "Tenerife - island\nNorth Atlantic Ocean, Africa",
     "provenance": "Natural Earth, source ID 1159102853; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102363",
-    "text": "Terceira - island; North Atlantic Ocean",
+    "text": "Terceira - island\nNorth Atlantic Ocean",
     "provenance": "Natural Earth, source ID 1159102363; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104473",
-    "text": "Thurston Island - island; Antarctica",
+    "text": "Thurston Island - island\nAntarctica",
     "provenance": "Natural Earth, source ID 1159104473; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103767",
-    "text": "Tierra Del Fuego - island; South America",
+    "text": "Tierra Del Fuego - island\nSouth America",
     "provenance": "Natural Earth, source ID 1159103767; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103393",
-    "text": "Timor - island; Malay Archipelago, Asia",
+    "text": "Timor - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159103393; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102691",
-    "text": "Tongatapu - island; Polynesia, Oceania",
+    "text": "Tongatapu - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102691; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103419",
-    "text": "Trinidad - island; West Indies, North America",
+    "text": "Trinidad - island\nWest Indies, North America",
     "provenance": "Natural Earth, source ID 1159103419; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102423",
-    "text": "Tubuaï - island; Polynesia, Oceania",
+    "text": "Tubuaï - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102423; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102687",
-    "text": "Tutuila - island; Polynesia, Oceania",
+    "text": "Tutuila - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102687; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102677",
-    "text": "Ua Pou - island; Polynesia, Oceania",
+    "text": "Ua Pou - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102677; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102339",
-    "text": "Unimak Island - island; North America",
+    "text": "Unimak Island - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159102339; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102685",
-    "text": "Upolu - island; Polynesia, Oceania",
+    "text": "Upolu - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102685; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102911",
-    "text": "Urup - island; Asia",
+    "text": "Urup - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102911; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://pubs.usgs.gov/of/2005/1308/of2005-1308.pdf; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102699",
-    "text": "Ushakova Island - island; Asia",
+    "text": "Ushakova Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102699; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730070491",
-    "text": "Utirik - island; Micronesia, Oceania",
+    "text": "Utirik - island\nMicronesia, Oceania",
     "provenance": "Natural Earth, source ID 1730070491; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102333",
-    "text": "Utupua - island; Melanesia, Oceania",
+    "text": "Utupua - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102333; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103771",
-    "text": "Vancouver Island - island; North America",
+    "text": "Vancouver Island - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159103771; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102335",
-    "text": "Vanikolo - island; Melanesia, Oceania",
+    "text": "Vanikolo - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102335; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102515",
-    "text": "Vanua Lava - island; Melanesia, Oceania",
+    "text": "Vanua Lava - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102515; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103477",
-    "text": "Vanua Levu - island; Melanesia, Oceania",
+    "text": "Vanua Levu - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103477; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.fiji.travel/things-to-know/destination-guide/discover-fiji; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102835",
-    "text": "Vaygach Island - island; Europe",
+    "text": "Vaygach Island - island\nEurope",
     "provenance": "Natural Earth, source ID 1159102835; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103773",
-    "text": "Victoria Island - island; Arctic Archipelago, North America",
+    "text": "Victoria Island - island\nArctic Archipelago, North America",
     "provenance": "Natural Earth, source ID 1159103773; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103837",
-    "text": "Viti Levu - island; Melanesia, Oceania",
+    "text": "Viti Levu - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159103837; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name, landform type or region corrected against https://www.fiji.travel/things-to-know/destination-guide/discover-fiji; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102697",
-    "text": "Vize Island - island; Asia",
+    "text": "Vize Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102697; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102479",
-    "text": "Vostok - island; Polynesia, Oceania",
+    "text": "Vostok - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102479; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102707",
-    "text": "West Falkland - island; Falkland Islands, South America",
+    "text": "West Falkland - island\nFalkland Islands, South America",
     "provenance": "Natural Earth, source ID 1159102707; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102753",
-    "text": "Wetar - island; Malay Archipelago, Asia",
+    "text": "Wetar - island\nMalay Archipelago, Asia",
     "provenance": "Natural Earth, source ID 1159102753; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102717",
-    "text": "Wrangel Island - island; Asia",
+    "text": "Wrangel Island - island\nAsia",
     "provenance": "Natural Earth, source ID 1159102717; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102743",
-    "text": "Yos Sudarso Island - island; Melanesia, Oceania",
+    "text": "Yos Sudarso Island - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102743; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102847",
-    "text": "Zanzibar Island - island; Africa",
+    "text": "Zanzibar Island - island\nAfrica",
     "provenance": "Natural Earth, source ID 1159102847; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102795",
-    "text": "Zealand - island; Europe",
+    "text": "Zealand - island\nEurope",
     "provenance": "Natural Earth, source ID 1159102795; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102811",
-    "text": "Zemlya Georga Island - island; Arctic Ocean, Europe",
+    "text": "Zemlya Georga Island - island\nArctic Ocean, Europe",
     "provenance": "Natural Earth, source ID 1159102811; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102789",
-    "text": "Åland - island; Europe",
+    "text": "Åland - island\nEurope",
     "provenance": "Natural Earth, source ID 1159102789; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102657",
-    "text": "Éfaté - island; Melanesia, Oceania",
+    "text": "Éfaté - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102657; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102561",
-    "text": "î. d’Anticosti - island; North America",
+    "text": "î. d’Anticosti - island\nNorth America",
     "provenance": "Natural Earth, source ID 1159102561; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102509",
-    "text": "Île de Pins - island; Melanesia, Oceania",
+    "text": "Île de Pins - island\nMelanesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102509; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102445",
-    "text": "Île Futuna - island; Polynesia, Oceania",
+    "text": "Île Futuna - island\nPolynesia, Oceania",
     "provenance": "Natural Earth, source ID 1159102445; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   }
 ]

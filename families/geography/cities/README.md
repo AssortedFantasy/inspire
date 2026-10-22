@@ -17,8 +17,8 @@ The source includes former capitals, alternate seats, and classification errors
 political-role claim. Source significance determines inclusion; this is not a
 population ranking or an exhaustive gazetteer.
 
-Normal sibling weights balance continents, then the three groups, independently
-of corpus sizes. Record IDs retain Natural Earth's `NE_ID`, including all 1,209
+Child weights match descendant record counts, so every settlement has the same
+share across continents and source groups. Record IDs retain Natural Earth's `NE_ID`, including all 1,209
 IDs from the previous 1:50m corpus. The importer excludes
 scientific and meteorological stations, historic places, a mislocated Niamey row,
 and repeated Bandar Lampung, Kasserine, and Aktau source identities. Nord and

@@ -80,14 +80,14 @@
     "provenance": "Natural Earth, source ID WSM-4987; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316191; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159317113",
-    "text": "Auckland Islands - administrative unit, New Zealand",
-    "provenance": "Natural Earth, source ID NZL-5479; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317113; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159314923",
     "text": "Auckland - unitary authority, New Zealand",
     "provenance": "Natural Earth, source ID NZL-3398; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314923; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159317113",
+    "text": "Auckland Islands - administrative unit, New Zealand",
+    "provenance": "Natural Earth, source ID NZL-5479; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317113; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159316153",
@@ -185,11 +185,6 @@
     "provenance": "Natural Earth, source ID PNG-1239; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309893; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159309911",
-    "text": "Eastern Highlands - province, Papua New Guinea",
-    "provenance": "Natural Earth, source ID PNG-1243; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309911; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159316219",
     "text": "Eastern - administrative unit, American Samoa",
     "provenance": "Natural Earth, source ID ASM-4998; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316219; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -198,6 +193,11 @@
     "id": "geography-subdivision-ne-1159313273",
     "text": "Eastern - division, Fiji",
     "provenance": "Natural Earth, source ID FJI-2618; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313273; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159309911",
+    "text": "Eastern Highlands - province, Papua New Guinea",
+    "provenance": "Natural Earth, source ID PNG-1243; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309911; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159309905",
@@ -490,16 +490,6 @@
     "provenance": "Natural Earth, source ID PNG-1245; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309695; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159316107",
-    "text": "Northern Islands - administrative unit, Northern Mariana Islands",
-    "provenance": "Natural Earth, source ID MNP-4940; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316107; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159315809",
-    "text": "Northern Territory - territory, Australia",
-    "provenance": "Natural Earth, source ID AUS-2650; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315809; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159313293",
     "text": "Northern - division, Fiji",
     "provenance": "Natural Earth, source ID FJI-2619; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313293; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -508,6 +498,16 @@
     "id": "geography-subdivision-ne-1159308859",
     "text": "Northern - province, Papua New Guinea",
     "provenance": "Natural Earth, source ID PNG-1256; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308859; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159316107",
+    "text": "Northern Islands - administrative unit, Northern Mariana Islands",
+    "provenance": "Natural Earth, source ID MNP-4940; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316107; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159315809",
+    "text": "Northern Territory - territory, Australia",
+    "provenance": "Natural Earth, source ID AUS-2650; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315809; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159314933",
@@ -780,16 +780,6 @@
     "provenance": "Natural Earth, source ID PNG-1257; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308781; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159315805",
-    "text": "Western Australia - state, Australia",
-    "provenance": "Natural Earth, source ID AUS-2651; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315805; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159309919",
-    "text": "Western Highlands - province, Papua New Guinea",
-    "provenance": "Natural Earth, source ID PNG-1247; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309919; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159316215",
     "text": "Western - administrative unit, American Samoa",
     "provenance": "Natural Earth, source ID ASM-5002; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316215; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -808,6 +798,16 @@
     "id": "geography-subdivision-ne-1159314977",
     "text": "Western - province, Solomon Islands",
     "provenance": "Natural Earth, source ID SLB-3507; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314977; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159315805",
+    "text": "Western Australia - state, Australia",
+    "provenance": "Natural Earth, source ID AUS-2651; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315805; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159309919",
+    "text": "Western Highlands - province, Papua New Guinea",
+    "provenance": "Natural Earth, source ID PNG-1247; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309919; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159307839",

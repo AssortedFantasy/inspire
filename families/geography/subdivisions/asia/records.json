@@ -300,14 +300,14 @@
     "provenance": "Natural Earth, source ID SYR-137; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308431; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159315881",
-    "text": "Almaty City - city, Kazakhstan",
-    "provenance": "Natural Earth, source ID KAZ-4829; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315881; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159314735",
     "text": "Almaty - region, Kazakhstan",
     "provenance": "Natural Earth, source ID KAZ-3207; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314735; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159315881",
+    "text": "Almaty City - city, Kazakhstan",
+    "provenance": "Natural Earth, source ID KAZ-4829; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315881; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159315165",
@@ -510,6 +510,11 @@
     "provenance": "Natural Earth, source ID BHR-4927; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316083; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
+    "id": "geography-subdivision-ne-1159310437",
+    "text": "Ash Sharqiyah - region, Saudi Arabia",
+    "provenance": "Natural Earth, source ID SAU-1098; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310437; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
     "id": "geography-subdivision-ne-1159317139",
     "text": "Ash Sharqiyah North - region, Oman",
     "provenance": "Natural Earth, source ID OMN-5496; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317139; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -518,11 +523,6 @@
     "id": "geography-subdivision-ne-1159311781",
     "text": "Ash Sharqiyah South - region, Oman",
     "provenance": "Natural Earth, source ID OMN-2406; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311781; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159310437",
-    "text": "Ash Sharqiyah - region, Saudi Arabia",
-    "provenance": "Natural Earth, source ID SAU-1098; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310437; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159311865",
@@ -1005,14 +1005,14 @@
     "provenance": "Natural Earth, source ID VNM-504; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308023; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159317217",
-    "text": "Cagayan de Oro - highly urbanized city, Philippines",
-    "provenance": "Natural Earth, source ID PHL-5531; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317217; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159313469",
     "text": "Cagayan - province, Philippines",
     "provenance": "Natural Earth, source ID PHL-2545; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313469; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159317217",
+    "text": "Cagayan de Oro - highly urbanized city, Philippines",
+    "provenance": "Natural Earth, source ID PHL-5531; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317217; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159317235",
@@ -1150,14 +1150,14 @@
     "provenance": "Natural Earth, source ID THA-389; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309169; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159310413",
-    "text": "Chiayi City - provincial city, Taiwan",
-    "provenance": "Natural Earth, source ID TWN-1171; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310413; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159308289",
     "text": "Chiayi - county, Taiwan",
     "provenance": "Natural Earth, source ID TWN-1170; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308289; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159310413",
+    "text": "Chiayi City - provincial city, Taiwan",
+    "provenance": "Natural Earth, source ID TWN-1171; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310413; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159309421",
@@ -1290,6 +1290,11 @@
     "provenance": "Natural Earth, source ID MNG-3328; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315427; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
+    "id": "geography-subdivision-ne-1159317211",
+    "text": "Davao - highly urbanized city, Philippines",
+    "provenance": "Natural Earth, source ID PHL-5528; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317211; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
     "id": "geography-subdivision-ne-1159313363",
     "text": "Davao del Norte - province, Philippines",
     "provenance": "Natural Earth, source ID PHL-2591; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313363; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -1303,11 +1308,6 @@
     "id": "geography-subdivision-ne-1159313411",
     "text": "Davao Oriental - province, Philippines",
     "provenance": "Natural Earth, source ID PHL-2597; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313411; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159317211",
-    "text": "Davao - highly urbanized city, Philippines",
-    "provenance": "Natural Earth, source ID PHL-5528; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317211; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159308443",
@@ -1425,14 +1425,14 @@
     "provenance": "Natural Earth, source ID KAZ-3206; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314733; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159313423",
-    "text": "Eastern Samar - province, Philippines",
-    "provenance": "Natural Earth, source ID PHL-2582; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313423; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159316517",
     "text": "Eastern - administrative unit, Hong Kong",
     "provenance": "Natural Earth, source ID HKG-5155; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316517; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159313423",
+    "text": "Eastern Samar - province, Philippines",
+    "provenance": "Natural Earth, source ID PHL-2582; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313423; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159312317",
@@ -1730,6 +1730,11 @@
     "provenance": "Natural Earth, source ID AZE-1679; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159312223; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
+    "id": "geography-subdivision-ne-1159311829",
+    "text": "Ha - district, Bhutan",
+    "provenance": "Natural Earth, source ID BTN-2435; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311829; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
     "id": "geography-subdivision-ne-1159308347",
     "text": "Ha Noi - province, Vietnam",
     "provenance": "Natural Earth, source ID VNM-462; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308347; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -1738,11 +1743,6 @@
     "id": "geography-subdivision-ne-1159308367",
     "text": "Ha Tinh - region, Vietnam",
     "provenance": "Natural Earth, source ID VNM-474; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308367; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159311829",
-    "text": "Ha - district, Bhutan",
-    "provenance": "Natural Earth, source ID BTN-2435; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311829; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159309299",
@@ -1910,14 +1910,14 @@
     "provenance": "Natural Earth, source ID MNG-3320; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315409; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159310393",
-    "text": "Hsinchu City - provincial city, Taiwan",
-    "provenance": "Natural Earth, source ID TWN-1161; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310393; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159310395",
     "text": "Hsinchu - county, Taiwan",
     "provenance": "Natural Earth, source ID TWN-1162; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310395; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159310393",
+    "text": "Hsinchu City - provincial city, Taiwan",
+    "provenance": "Natural Earth, source ID TWN-1161; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310393; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159310415",
@@ -2945,14 +2945,14 @@
     "provenance": "Natural Earth, source ID TUR-2284; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159312399; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159307939",
-    "text": "Maluku Utara - province, Indonesia",
-    "provenance": "Natural Earth, source ID IDN-538; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307939; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159307875",
     "text": "Maluku - province, Indonesia",
     "provenance": "Natural Earth, source ID IDN-554; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307875; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159307939",
+    "text": "Maluku Utara - province, Indonesia",
+    "provenance": "Natural Earth, source ID IDN-538; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307939; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159307867",
@@ -3420,6 +3420,11 @@
     "provenance": "Natural Earth, source ID THA-417; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308199; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
+    "id": "geography-subdivision-ne-1159316547",
+    "text": "North - administrative unit, Hong Kong",
+    "provenance": "Natural Earth, source ID HKG-5168; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316547; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
     "id": "geography-subdivision-ne-1159312109",
     "text": "North Chungcheong - province, South Korea",
     "provenance": "Natural Earth, source ID KOR-2494; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159312109; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -3458,11 +3463,6 @@
     "id": "geography-subdivision-ne-1159315971",
     "text": "North West - administrative unit, Singapore",
     "provenance": "Natural Earth, source ID SGP-4873; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315971; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159316547",
-    "text": "North - administrative unit, Hong Kong",
-    "provenance": "Natural Earth, source ID HKG-5168; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316547; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159310545",
@@ -3625,14 +3625,14 @@
     "provenance": "Natural Earth, source ID CYP-3465; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315249; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159311287",
-    "text": "Papua Barat - province, Indonesia",
-    "provenance": "Natural Earth, source ID IDN-1933; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311287; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159308857",
     "text": "Papua - province, Indonesia",
     "provenance": "Natural Earth, source ID IDN-558; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308857; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159311287",
+    "text": "Papua Barat - province, Indonesia",
+    "provenance": "Natural Earth, source ID IDN-1933; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311287; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159315645",
@@ -3895,14 +3895,14 @@
     "provenance": "Natural Earth, source ID AZE-1736; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309401; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159317241",
-    "text": "Quezon City - highly urbanized city, Philippines",
-    "provenance": "Natural Earth, source ID PHL-5549; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317241; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159313459",
     "text": "Quezon - province, Philippines",
     "provenance": "Natural Earth, source ID PHL-2572; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313459; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159317241",
+    "text": "Quezon City - highly urbanized city, Philippines",
+    "provenance": "Natural Earth, source ID PHL-5549; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317241; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159313489",
@@ -4490,14 +4490,14 @@
     "provenance": "Natural Earth, source ID SGP-4872; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315969; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159313417",
-    "text": "Southern Leyte - province, Philippines",
-    "provenance": "Natural Earth, source ID PHL-2585; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313417; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159316519",
     "text": "Southern - administrative unit, Hong Kong",
     "provenance": "Natural Earth, source ID HKG-5156; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316519; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159313417",
+    "text": "Southern Leyte - province, Philippines",
+    "provenance": "Natural Earth, source ID PHL-2585; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313417; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159315903",
@@ -5025,14 +5025,14 @@
     "provenance": "Natural Earth, source ID ARM-1733; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309407; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159315181",
-    "text": "Vientiane [prefecture] - municipality|prefecture, Laos",
-    "provenance": "Natural Earth, source ID LAO-3283; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315181; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159315183",
     "text": "Vientiane - province, Laos",
     "provenance": "Natural Earth, source ID LAO-3284; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315183; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159315181",
+    "text": "Vientiane [prefecture] - municipality|prefecture, Laos",
+    "provenance": "Natural Earth, source ID LAO-3283; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315181; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159307871",
@@ -5200,14 +5200,14 @@
     "provenance": "Natural Earth, source ID IRN-3217; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314281; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159312241",
-    "text": "Yevlakh Rayon - district, Azerbaijan",
-    "provenance": "Natural Earth, source ID AZE-1688; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159312241; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159316489",
     "text": "Yevlakh - municipality, Azerbaijan",
     "provenance": "Natural Earth, source ID AZE-5566; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316489; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159312241",
+    "text": "Yevlakh Rayon - district, Azerbaijan",
+    "provenance": "Natural Earth, source ID AZE-1688; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159312241; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159310397",
@@ -5265,6 +5265,11 @@
     "provenance": "Natural Earth, source ID PHL-2560; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313503; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
+    "id": "geography-subdivision-ne-1159316095",
+    "text": "Zamboanga - highly urbanized city, Philippines",
+    "provenance": "Natural Earth, source ID PHL-4932; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316095; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
     "id": "geography-subdivision-ne-1159313379",
     "text": "Zamboanga del Norte - province, Philippines",
     "provenance": "Natural Earth, source ID PHL-2520; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313379; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -5278,11 +5283,6 @@
     "id": "geography-subdivision-ne-1159313365",
     "text": "Zamboanga Sibugay - province, Philippines",
     "provenance": "Natural Earth, source ID PHL-2521; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313365; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159316095",
-    "text": "Zamboanga - highly urbanized city, Philippines",
-    "provenance": "Natural Earth, source ID PHL-4932; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316095; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159314301",

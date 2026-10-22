@@ -875,21 +875,6 @@
     "provenance": "Natural Earth, source ID CIV-3459; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315131; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159317839",
-    "text": "Central Darfur - state, Sudan",
-    "provenance": "Natural Earth, source ID SDN-5859; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317839; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159308995",
-    "text": "Central Equatoria - state, S. Sudan",
-    "provenance": "Natural Earth, source ID SDS-865; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308995; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159311541",
-    "text": "Central River - division, Gambia",
-    "provenance": "Natural Earth, source ID GMB-2151; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311541; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159313281",
     "text": "Central - district, Botswana",
     "provenance": "Natural Earth, source ID BWA-2630; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313281; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -908,6 +893,21 @@
     "id": "geography-subdivision-ne-1159311461",
     "text": "Central - region, Ghana",
     "provenance": "Natural Earth, source ID GHA-2160; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311461; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159317839",
+    "text": "Central Darfur - state, Sudan",
+    "provenance": "Natural Earth, source ID SDN-5859; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317839; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159308995",
+    "text": "Central Equatoria - state, S. Sudan",
+    "provenance": "Natural Earth, source ID SDS-865; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308995; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159311541",
+    "text": "Central River - division, Gambia",
+    "provenance": "Natural Earth, source ID GMB-2151; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311541; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159310215",
@@ -1160,21 +1160,6 @@
     "provenance": "Natural Earth, source ID EGY-1539; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310465; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159311157",
-    "text": "Eastern Cape - province, South Africa",
-    "provenance": "Natural Earth, source ID ZAF-1926; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311157; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159317841",
-    "text": "Eastern Darfur - state, Sudan",
-    "provenance": "Natural Earth, source ID SDN-5857; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317841; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159309009",
-    "text": "Eastern Equatoria - state, S. Sudan",
-    "provenance": "Natural Earth, source ID SDS-892; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309009; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159308875",
     "text": "Eastern - national capital area, Kenya",
     "provenance": "Natural Earth, source ID KEN-889; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308875; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -1198,6 +1183,21 @@
     "id": "geography-subdivision-ne-1159311463",
     "text": "Eastern - region, Ghana",
     "provenance": "Natural Earth, source ID GHA-2161; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311463; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159311157",
+    "text": "Eastern Cape - province, South Africa",
+    "provenance": "Natural Earth, source ID ZAF-1926; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311157; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159317841",
+    "text": "Eastern Darfur - state, Sudan",
+    "provenance": "Natural Earth, source ID SDN-5857; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317841; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159309009",
+    "text": "Eastern Equatoria - state, S. Sudan",
+    "provenance": "Natural Earth, source ID SDS-892; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309009; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159313817",
@@ -3055,16 +3055,6 @@
     "provenance": "Natural Earth, source ID ZMB-521; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307891; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159308125",
-    "text": "Northern Bahr el Ghazal - state, S. Sudan",
-    "provenance": "Natural Earth, source ID SDS-147; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308125; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159309731",
-    "text": "Northern Cape - province, South Africa",
-    "provenance": "Natural Earth, source ID ZAF-1188; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309731; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159314999",
     "text": "Northern - province, Rwanda",
     "provenance": "Natural Earth, source ID RWA-3494; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314999; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -3088,6 +3078,16 @@
     "id": "geography-subdivision-ne-1159309209",
     "text": "Northern - state, Sudan",
     "provenance": "Natural Earth, source ID SDN-878; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309209; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159308125",
+    "text": "Northern Bahr el Ghazal - state, S. Sudan",
+    "provenance": "Natural Earth, source ID SDS-147; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308125; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159309731",
+    "text": "Northern Cape - province, South Africa",
+    "provenance": "Natural Earth, source ID ZAF-1188; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309731; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159314019",
@@ -3445,14 +3445,14 @@
     "provenance": "Natural Earth, source ID CPV-5057; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316337; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159316327",
-    "text": "Ribeira Grande de Santiago - administrative unit, Cabo Verde",
-    "provenance": "Natural Earth, source ID CPV-5052; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316327; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159316347",
     "text": "Ribeira Grande - administrative unit, Cabo Verde",
     "provenance": "Natural Earth, source ID CPV-5061; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316347; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159316327",
+    "text": "Ribeira Grande de Santiago - administrative unit, Cabo Verde",
+    "provenance": "Natural Earth, source ID CPV-5052; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316327; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159308877",
@@ -3560,14 +3560,14 @@
     "provenance": "Natural Earth, source ID BFA-2825; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313925; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159316309",
-    "text": "Santa Catarina do Fogo - administrative unit, Cabo Verde",
-    "provenance": "Natural Earth, source ID CPV-5044; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316309; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159316313",
     "text": "Santa Catarina - administrative unit, Cabo Verde",
     "provenance": "Natural Earth, source ID CPV-5046; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316313; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159316309",
+    "text": "Santa Catarina do Fogo - administrative unit, Cabo Verde",
+    "provenance": "Natural Earth, source ID CPV-5044; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316309; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159316317",
@@ -3780,16 +3780,6 @@
     "provenance": "Natural Earth, source ID BWA-2648; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313289; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159309199",
-    "text": "Southern Darfur - state, Sudan",
-    "provenance": "Natural Earth, source ID SDN-5856; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309199; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159313853",
-    "text": "Southern Nations, Nationalities and Peoples - administrative state, Ethiopia",
-    "provenance": "Natural Earth, source ID ETH-3129; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313853; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159313291",
     "text": "Southern - district, Botswana",
     "provenance": "Natural Earth, source ID BWA-2649; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313291; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -3808,6 +3798,16 @@
     "id": "geography-subdivision-ne-1159307893",
     "text": "Southern - province, Zambia",
     "provenance": "Natural Earth, source ID ZMB-522; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307893; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159309199",
+    "text": "Southern Darfur - state, Sudan",
+    "provenance": "Natural Earth, source ID SDN-5856; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309199; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159313853",
+    "text": "Southern Nations, Nationalities and Peoples - administrative state, Ethiopia",
+    "provenance": "Natural Earth, source ID ETH-3129; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313853; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159317159",
@@ -3970,14 +3970,14 @@
     "provenance": "Natural Earth, source ID NGA-2848; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313779; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159316339",
-    "text": "Tarrafal de São Nicolau - administrative unit, Cabo Verde",
-    "provenance": "Natural Earth, source ID CPV-5058; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316339; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159316311",
     "text": "Tarrafal - administrative unit, Cabo Verde",
     "provenance": "Natural Earth, source ID CPV-5045; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316311; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159316339",
+    "text": "Tarrafal de São Nicolau - administrative unit, Cabo Verde",
+    "provenance": "Natural Earth, source ID CPV-5058; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316339; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159309361",
@@ -4200,31 +4200,6 @@
     "provenance": "Natural Earth, source ID GMB-5512; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317175; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159309007",
-    "text": "Western Bahr el Ghazal - state, S. Sudan",
-    "provenance": "Natural Earth, source ID SDS-873; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309007; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159309733",
-    "text": "Western Cape - province, South Africa",
-    "provenance": "Natural Earth, source ID ZAF-1189; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309733; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159309195",
-    "text": "Western Darfur - state, Sudan",
-    "provenance": "Natural Earth, source ID SDN-5858; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309195; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159308993",
-    "text": "Western Equatoria - state, S. Sudan",
-    "provenance": "Natural Earth, source ID SDS-864; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308993; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159315575",
-    "text": "Western Sahara - administrative unit, Western Sahara",
-    "provenance": "Natural Earth, source ID SAH+00?; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315575; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159308879",
     "text": "Western - province, Kenya",
     "provenance": "Natural Earth, source ID KEN-891; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308879; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -4248,6 +4223,31 @@
     "id": "geography-subdivision-ne-1159311467",
     "text": "Western - region, Ghana",
     "provenance": "Natural Earth, source ID GHA-2162; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311467; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159309007",
+    "text": "Western Bahr el Ghazal - state, S. Sudan",
+    "provenance": "Natural Earth, source ID SDS-873; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309007; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159309733",
+    "text": "Western Cape - province, South Africa",
+    "provenance": "Natural Earth, source ID ZAF-1189; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309733; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159309195",
+    "text": "Western Darfur - state, Sudan",
+    "provenance": "Natural Earth, source ID SDN-5858; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309195; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159308993",
+    "text": "Western Equatoria - state, S. Sudan",
+    "provenance": "Natural Earth, source ID SDS-864; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308993; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159315575",
+    "text": "Western Sahara - administrative unit, Western Sahara",
+    "provenance": "Natural Earth, source ID SAH+00?; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315575; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159309211",

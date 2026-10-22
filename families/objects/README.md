@@ -1,17 +1,22 @@
 # Objects
 
-`artifacts/` contains 4,132 physical objects from the Cleveland Museum of Art's
-CC0 Open Access catalog. Function, form, and material define 51 separate leaves:
+`artifacts/` contains 4,427 physical objects from the Cleveland Museum of Art's
+CC0 Open Access catalog. Function, form, and material define 54 separate leaves:
 vessels subdivide into ceramic, glass, and metal, then into drinking vessels,
 pouring vessels, storage vessels, vases, bowls, plates, or serving vessels.
 Furnishings, adornment, textiles, equipment, arms, and ritual objects have their
 own children. Jewelry separates body ornaments, clothing fasteners, head ornaments,
 necklaces, pendants, beads, and complete sets; those branches separate individual
 forms such as finger rings, earrings, brooches, buckles, and fibulae.
+The catalog also supplies 183 coins, 80 fiber baskets and related vessels, and
+32 pieces of writing equipment, including inkstones, brush holders and writing
+boxes. Coin face records yield to complete parent accessions, and electrotype
+replicas are excluded.
 A cup does not acquire a random material, culture, or date: every
 record describes one actual catalog object, retaining its stable museum ID.
 
 Emitted text preserves the catalog's title, date, culture, and technique.
+Museum credit remains in provenance and the bundled source notice.
 Uncertainty, alternative origins, historical place names, and date ranges remain
 as catalogued. Records contain catalog metadata only.
 The catalog's `culture` field can include place, period, dynasty, or attribution;
@@ -31,7 +36,8 @@ fields, unclassified object forms, catalogued forgeries, fragments, covers, and
 separately catalogued numeric or letter components when an eligible parent
 accession is present. Excluded generic amulet aggregates yield to their more
 informative named children. Reviewed catalog-type mistakes route complete watches
-to timepieces, protective ornaments to amulets, and an ear stud to ear ornaments.
+to timepieces, protective ornaments to amulets, an inkstand to writing equipment,
+and an ear stud to ear ornaments.
 Objects lacking evidence for their jewelry form, modern replacement beads, and
 records containing internal editorial notes are excluded. Exact
 title/culture/date/technique duplicates collapse to the smallest stable museum ID.
@@ -49,8 +55,10 @@ Input SHA-256: `137ddfab3264555d52c0211f804544cab1c62170ce3d753d924c9d464d74e449
 Metadata reuse terms are CC0 1.0, retained in `artifacts/LICENSE` for
 `--data-licenses`. Object URLs remain in record provenance.
 
-Artifact branches balance topics with equal sibling weights. Cars retain their
-existing count weights and equal per-record probability within that branch.
+Within artifacts, child weights match descendant record counts. Every catalog
+object has the same share, so a singleton jewelry form cannot dominate a large
+collection through a short browsing path. Cars likewise retain equal per-record
+probability within their branch. The incoming artifacts/cars shares remain equal.
 
 `cars/` contains 73 documented historical make, model and year combinations, grouped
 by manufacturer origin. Nissan's branch further separates the Bluebird family,
@@ -65,6 +73,7 @@ model year. They are not interchangeable across markets. A generation's unveilin
 date is not treated as its sales date. Model, trim and chassis codes are retained
 when they identify the catalogued vehicle. Prototypes and competition-only
 variants are excluded. No record independently combines a model with a random year.
+Sampled labels contain the year, make, and model without repeating year caveats.
 The source review removed six competition-only Nissan entries and two entries
 whose model or trim could not be established reliably from their catalog records.
 

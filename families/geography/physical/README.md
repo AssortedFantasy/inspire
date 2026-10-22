@@ -5,6 +5,9 @@ Twenty topic leaves contain 3,765 named features from the pinned Natural Earth
 at development time; the executable embeds the records and runs offline.
 Natural Earth data is [public domain](https://www.naturalearthdata.com/about/terms-of-use/).
 Each record retains its source filename and stable NE_ID, or a river dissolve ID.
+Child weights match descendant record counts, giving every feature an equal
+share within physical geography. Small waterfalls and depressions collections
+therefore receive proportionate sampling rather than repeating a handful of names.
 
 Rebuild with `python -B families/geography/import_physical.py --source-dir target/imports/geography`.
 The shared importer verifies every input's SHA-256 before parsing it.
@@ -30,7 +33,8 @@ except for proven source ID collisions: the distinct Flores islands and Peruvian
 versus northern Andean Cordillera Central/Occidental retain geographic suffixes
 in their record IDs and the original source NE_ID in provenance.
 
-Coordinates are approximate map positions rounded to 0.1 degrees, never precise
+Coordinates are approximate map positions rounded to 0.1 degrees, with trailing
+zeroes omitted. They are never precise
 summits, surveyed coordinates or geographic centroids. Capes and waterfalls use
 GeoJSON point geometry: stale latitude/longitude attributes put several Antarctic
 capes near New Zealand and place Victoria Falls incorrectly. Mountains' coordinate

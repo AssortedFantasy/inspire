@@ -1180,14 +1180,14 @@
     "provenance": "Natural Earth, source ID SVN-941; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310671; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159314519",
-    "text": "Centar župa - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2951; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314519; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159317879",
     "text": "Centar - municipality, North Macedonia",
     "provenance": "Natural Earth, source ID MKD-2923; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317879; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159314519",
+    "text": "Centar župa - statistical region, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2951; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314519; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159312875",
@@ -1345,6 +1345,11 @@
     "provenance": "Natural Earth, source ID MDA-1633; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159312601; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
+    "id": "geography-subdivision-ne-1159315835",
+    "text": "City - city corporation, United Kingdom",
+    "provenance": "Natural Earth, source ID GBR-4809; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315835; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
     "id": "geography-subdivision-ne-1159315869",
     "text": "City of Minsk - region, Belarus",
     "provenance": "Natural Earth, source ID BLR-4825; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315869; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -1353,11 +1358,6 @@
     "id": "geography-subdivision-ne-1159313099",
     "text": "City of St. Petersburg - federal city, Russia",
     "provenance": "Natural Earth, source ID RUS-2337; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159313099; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159315835",
-    "text": "City - city corporation, United Kingdom",
-    "provenance": "Natural Earth, source ID GBR-4809; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315835; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159308493",
@@ -2370,6 +2370,11 @@
     "provenance": "Natural Earth, source ID SWE-193; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308725; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
+    "id": "geography-subdivision-ne-1159308553",
+    "text": "Grad - commune|municipality, Slovenia",
+    "provenance": "Natural Earth, source ID SVN-202; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308553; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
     "id": "geography-subdivision-ne-1159309515",
     "text": "Grad Beograd - city, Serbia",
     "provenance": "Natural Earth, source ID SRB-836; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309515; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -2383,11 +2388,6 @@
     "id": "geography-subdivision-ne-1159312533",
     "text": "Grad Zagreb - city, Croatia",
     "provenance": "Natural Earth, source ID HRV-1589; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159312533; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159308553",
-    "text": "Grad - commune|municipality, Slovenia",
-    "provenance": "Natural Earth, source ID SVN-202; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308553; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159314475",
@@ -3305,14 +3305,14 @@
     "provenance": "Natural Earth, source ID SVN-956; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310705; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159315871",
-    "text": "Kiev City - municipality, Ukraine",
-    "provenance": "Natural Earth, source ID UKR-4826; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315871; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159309615",
     "text": "Kiev - region, Ukraine",
     "provenance": "Natural Earth, source ID UKR-321; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309615; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159315871",
+    "text": "Kiev City - municipality, Ukraine",
+    "provenance": "Natural Earth, source ID UKR-4826; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315871; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159311005",
@@ -5815,14 +5815,14 @@
     "provenance": "Natural Earth, source ID FRA-5338; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316837; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159308673",
-    "text": "Ribnica na Pohorju - commune|municipality, Slovenia",
-    "provenance": "Natural Earth, source ID SVN-257; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308673; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159308589",
     "text": "Ribnica - commune|municipality, Slovenia",
     "provenance": "Natural Earth, source ID SVN-218; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308589; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159308673",
+    "text": "Ribnica na Pohorju - commune|municipality, Slovenia",
+    "provenance": "Natural Earth, source ID SVN-257; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308673; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159312969",

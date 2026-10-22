@@ -1,552 +1,552 @@
 [
   {
     "id": "geography-physical-10m_geography_regions_points-1159104881",
-    "text": "Cabo Bojador - cape; mapped near 26.2°N, 14.5°W (Africa)",
+    "text": "Cabo Bojador - cape\n26.2°N, 14.5°W (Africa)",
     "provenance": "Natural Earth, source ID 1159104881; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104991",
-    "text": "Cabo Corrientes - cape; mapped near 20.4°N, 105.7°W (North America)",
+    "text": "Cabo Corrientes - cape\n20.4°N, 105.7°W (North America)",
     "provenance": "Natural Earth, source ID 1159104991; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105037",
-    "text": "Cabo Corrientes - cape; mapped near 38.1°S, 57.6°W (South America)",
+    "text": "Cabo Corrientes - cape\n38.1°S, 57.6°W (South America)",
     "provenance": "Natural Earth, source ID 1159105037; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105049",
-    "text": "Cabo de Hornos - cape; mapped near 56.0°S, 67.3°W (South America)",
+    "text": "Cabo de Hornos - cape\n56°S, 67.3°W (South America)",
     "provenance": "Natural Earth, source ID 1159105049; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name or position corrected against https://msi.nga.mil/api/publications/download?key=16694491%2FSFH00000%2FPub124bk.pdf; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105031",
-    "text": "Cabo de Santa Marta Grande - cape; mapped near 28.6°S, 48.8°W (South America)",
+    "text": "Cabo de Santa Marta Grande - cape\n28.6°S, 48.8°W (South America)",
     "provenance": "Natural Earth, source ID 1159105031; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105125",
-    "text": "Cabo de São Roque - cape; mapped near 5.5°S, 35.3°W (South America)",
+    "text": "Cabo de São Roque - cape\n5.5°S, 35.3°W (South America)",
     "provenance": "Natural Earth, source ID 1159105125; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name or position corrected against https://msi.nga.mil/api/publications/download?key=16694491%2FSFH00000%2FPub124bk.pdf; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105129",
-    "text": "Cabo de São Tomé - cape; mapped near 22.0°S, 41.0°W (South America)",
+    "text": "Cabo de São Tomé - cape\n22°S, 41°W (South America)",
     "provenance": "Natural Earth, source ID 1159105129; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104973",
-    "text": "Cabo de São Vicente - cape; mapped near 37.0°N, 9.0°W (Europe)",
+    "text": "Cabo de São Vicente - cape\n37°N, 9°W (Europe)",
     "provenance": "Natural Earth, source ID 1159104973; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105111",
-    "text": "Cabo Delgado - cape; mapped near 10.7°S, 40.6°E (Africa)",
+    "text": "Cabo Delgado - cape\n10.7°S, 40.6°E (Africa)",
     "provenance": "Natural Earth, source ID 1159105111; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105043",
-    "text": "Cabo Dos Bahías - cape; mapped near 44.9°S, 65.5°W (South America)",
+    "text": "Cabo Dos Bahías - cape\n44.9°S, 65.5°W (South America)",
     "provenance": "Natural Earth, source ID 1159105043; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104975",
-    "text": "Cabo Fisterra - cape; mapped near 42.9°N, 9.3°W (Europe)",
+    "text": "Cabo Fisterra - cape\n42.9°N, 9.3°W (Europe)",
     "provenance": "Natural Earth, source ID 1159104975; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105133",
-    "text": "Cabo Frio - cape; mapped near 23.0°S, 42.0°W (South America)",
+    "text": "Cabo Frio - cape\n23°S, 42°W (South America)",
     "provenance": "Natural Earth, source ID 1159105133; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name or position corrected against https://msi.nga.mil/api/publications/download?key=16694491%2FSFH00000%2FPub124bk.pdf; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104691",
-    "text": "Cabo Gracias a Dios - cape; mapped near 15.0°N, 83.2°W (North America)",
+    "text": "Cabo Gracias a Dios - cape\n15°N, 83.2°W (North America)",
     "provenance": "Natural Earth, source ID 1159104691; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105029",
-    "text": "Cabo Orange - cape; mapped near 4.1°N, 51.3°W (South America)",
+    "text": "Cabo Orange - cape\n4.1°N, 51.3°W (South America)",
     "provenance": "Natural Earth, source ID 1159105029; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105035",
-    "text": "Cabo San Antonio - cape; mapped near 36.4°S, 56.7°W (South America)",
+    "text": "Cabo San Antonio - cape\n36.4°S, 56.7°W (South America)",
     "provenance": "Natural Earth, source ID 1159105035; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105135",
-    "text": "Cabo San Diego - cape; mapped near 54.6°S, 65.2°W (South America)",
+    "text": "Cabo San Diego - cape\n54.6°S, 65.2°W (South America)",
     "provenance": "Natural Earth, source ID 1159105135; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105011",
-    "text": "Cabo San Lucas - cape; mapped near 22.9°N, 110.0°W (North America)",
+    "text": "Cabo San Lucas - cape\n22.9°N, 110°W (North America)",
     "provenance": "Natural Earth, source ID 1159105011; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105137",
-    "text": "Cabo Tres Puntas - cape; mapped near 47.3°S, 65.7°W (South America)",
+    "text": "Cabo Tres Puntas - cape\n47.3°S, 65.7°W (South America)",
     "provenance": "Natural Earth, source ID 1159105137; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105163",
-    "text": "Cap Blanc - cape; mapped near 20.8°N, 17.1°W (Africa)",
+    "text": "Cap Blanc - cape\n20.8°N, 17.1°W (Africa)",
     "provenance": "Natural Earth, source ID 1159105163; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105173",
-    "text": "Cap Bon - cape; mapped near 37.1°N, 11.0°E (Africa)",
+    "text": "Cap Bon - cape\n37.1°N, 11°E (Africa)",
     "provenance": "Natural Earth, source ID 1159105173; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104709",
-    "text": "Cap Est - cape; mapped near 15.3°S, 50.5°E (Africa)",
+    "text": "Cap Est - cape\n15.3°S, 50.5°E (Africa)",
     "provenance": "Natural Earth, source ID 1159104709; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105159",
-    "text": "Cap Lopez - cape; mapped near 0.6°S, 8.7°E (Africa)",
+    "text": "Cap Lopez - cape\n0.6°S, 8.7°E (Africa)",
     "provenance": "Natural Earth, source ID 1159105159; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105139",
-    "text": "Cap Saint André - cape; mapped near 16.2°S, 44.5°E (Africa)",
+    "text": "Cap Saint André - cape\n16.2°S, 44.5°E (Africa)",
     "provenance": "Natural Earth, source ID 1159105139; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104909",
-    "text": "Cape Adare - cape; mapped near 71.3°S, 170.3°E (Antarctica)",
+    "text": "Cape Adare - cape\n71.3°S, 170.3°E (Antarctica)",
     "provenance": "Natural Earth, source ID 1159104909; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104925",
-    "text": "Cape Agassiz - cape; mapped near 68.5°S, 62.9°W (Antarctica)",
+    "text": "Cape Agassiz - cape\n68.5°S, 62.9°W (Antarctica)",
     "provenance": "Natural Earth, source ID 1159104925; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104883",
-    "text": "Cape Agulhas - cape; mapped near 34.8°S, 20.0°E (Africa)",
+    "text": "Cape Agulhas - cape\n34.8°S, 20°E (Africa)",
     "provenance": "Natural Earth, source ID 1159104883; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104941",
-    "text": "Cape Aniva - cape; mapped near 46.1°N, 143.4°E (Asia)",
+    "text": "Cape Aniva - cape\n46.1°N, 143.4°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104941; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105091",
-    "text": "Cape Ann - cape; mapped near 66.2°S, 51.4°E (Antarctica)",
+    "text": "Cape Ann - cape\n66.2°S, 51.4°E (Antarctica)",
     "provenance": "Natural Earth, source ID 1159105091; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104673",
-    "text": "Cape Arnhem - cape; mapped near 12.3°S, 136.9°E (Oceania)",
+    "text": "Cape Arnhem - cape\n12.3°S, 136.9°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104673; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104981",
-    "text": "Cape Bauld - cape; mapped near 51.6°N, 55.4°W (North America)",
+    "text": "Cape Bauld - cape\n51.6°N, 55.4°W (North America)",
     "provenance": "Natural Earth, source ID 1159104981; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105161",
-    "text": "Cape Bobaomby - cape; mapped near 12.0°S, 49.3°E (Africa)",
+    "text": "Cape Bobaomby - cape\n12°S, 49.3°E (Africa)",
     "provenance": "Natural Earth, source ID 1159105161; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104693",
-    "text": "Cape Brewster - cape; mapped near 70.2°N, 22.1°W (North America)",
+    "text": "Cape Brewster - cape\n70.2°N, 22.1°W (North America)",
     "provenance": "Natural Earth, source ID 1159104693; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104665",
-    "text": "Cape Byron - cape; mapped near 28.7°S, 153.6°E (Oceania)",
+    "text": "Cape Byron - cape\n28.7°S, 153.6°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104665; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105007",
-    "text": "Cape Canaveral - cape; mapped near 28.5°N, 80.5°W (North America)",
+    "text": "Cape Canaveral - cape\n28.5°N, 80.5°W (North America)",
     "provenance": "Natural Earth, source ID 1159105007; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104661",
-    "text": "Cape Carnot - cape; mapped near 34.9°S, 135.7°E (Oceania)",
+    "text": "Cape Carnot - cape\n34.9°S, 135.7°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104661; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105013",
-    "text": "Cape Churchill - cape; mapped near 58.8°N, 93.2°W (North America)",
+    "text": "Cape Churchill - cape\n58.8°N, 93.2°W (North America)",
     "provenance": "Natural Earth, source ID 1159105013; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105015",
-    "text": "Cape Cod - cape; mapped near 42.0°N, 70.0°W (North America)",
+    "text": "Cape Cod - cape\n42°N, 70°W (North America)",
     "provenance": "Natural Earth, source ID 1159105015; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105075",
-    "text": "Cape Colbeck - cape; mapped near 77.1°S, 158.3°W (Antarctica)",
+    "text": "Cape Colbeck - cape\n77.1°S, 158.3°W (Antarctica)",
     "provenance": "Natural Earth, source ID 1159105075; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104929",
-    "text": "Cape Comorin - cape; mapped near 8.1°N, 77.5°E (Asia)",
+    "text": "Cape Comorin - cape\n8.1°N, 77.5°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104929; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104727",
-    "text": "Cape Cretin - cape; mapped near 6.6°S, 147.9°E (Oceania)",
+    "text": "Cape Cretin - cape\n6.6°S, 147.9°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104727; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105089",
-    "text": "Cape Darnley - cape; mapped near 67.8°S, 69.6°E (Antarctica)",
+    "text": "Cape Darnley - cape\n67.8°S, 69.6°E (Antarctica)",
     "provenance": "Natural Earth, source ID 1159105089; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104983",
-    "text": "Cape Fear - cape; mapped near 33.9°N, 78.0°W (North America)",
+    "text": "Cape Fear - cape\n33.9°N, 78°W (North America)",
     "provenance": "Natural Earth, source ID 1159104983; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104923",
-    "text": "Cape Framnes - cape; mapped near 66.0°S, 60.6°W (Antarctica)",
+    "text": "Cape Framnes - cape\n66°S, 60.6°W (Antarctica)",
     "provenance": "Natural Earth, source ID 1159104923; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104997",
-    "text": "Cape Hatteras - cape; mapped near 35.2°N, 75.5°W (North America)",
+    "text": "Cape Hatteras - cape\n35.2°N, 75.5°W (North America)",
     "provenance": "Natural Earth, source ID 1159104997; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104655",
-    "text": "Cape Howe - cape; mapped near 37.5°S, 150.0°E (Oceania)",
+    "text": "Cape Howe - cape\n37.5°S, 150°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104655; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104957",
-    "text": "Cape Ince - cape; mapped near 42.1°N, 35.0°E (Asia)",
+    "text": "Cape Ince - cape\n42.1°N, 35°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104957; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104659",
-    "text": "Cape Jaffa - cape; mapped near 37.0°S, 139.7°E (Oceania)",
+    "text": "Cape Jaffa - cape\n37°S, 139.7°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104659; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104927",
-    "text": "Cape Jeremy - cape; mapped near 69.4°S, 68.8°W (Antarctica)",
+    "text": "Cape Jeremy - cape\n69.4°S, 68.8°W (Antarctica)",
     "provenance": "Natural Earth, source ID 1159104927; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104677",
-    "text": "Cape Leeuwin - cape; mapped near 34.3°S, 115.1°E (Oceania)",
+    "text": "Cape Leeuwin - cape\n34.3°S, 115.1°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104677; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104683",
-    "text": "Cape Londonderry - cape; mapped near 13.7°S, 126.9°E (Oceania)",
+    "text": "Cape Londonderry - cape\n13.7°S, 126.9°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104683; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104945",
-    "text": "Cape Lopatka - cape; mapped near 50.9°N, 156.7°E (Asia)",
+    "text": "Cape Lopatka - cape\n50.9°N, 156.7°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104945; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104667",
-    "text": "Cape Manifold - cape; mapped near 22.7°S, 150.8°E (Oceania)",
+    "text": "Cape Manifold - cape\n22.7°S, 150.8°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104667; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105017",
-    "text": "Cape May - cape; mapped near 38.9°N, 75.0°W (North America)",
+    "text": "Cape May - cape\n38.9°N, 75°W (North America)",
     "provenance": "Natural Earth, source ID 1159105017; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104671",
-    "text": "Cape Melville - cape; mapped near 14.2°S, 144.5°E (Oceania)",
+    "text": "Cape Melville - cape\n14.2°S, 144.5°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104671; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105009",
-    "text": "Cape Mendocino - cape; mapped near 40.4°N, 124.4°W (North America)",
+    "text": "Cape Mendocino - cape\n40.4°N, 124.4°W (North America)",
     "provenance": "Natural Earth, source ID 1159105009; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104695",
-    "text": "Cape Morris Jesup - cape; mapped near 83.6°N, 32.5°W (North America)",
+    "text": "Cape Morris Jesup - cape\n83.6°N, 32.5°W (North America)",
     "provenance": "Natural Earth, source ID 1159104695; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104953",
-    "text": "Cape Navarin - cape; mapped near 62.3°N, 179.1°E (Asia)",
+    "text": "Cape Navarin - cape\n62.3°N, 179.1°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104953; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104919",
-    "text": "Cape Norvegia - cape; mapped near 71.4°S, 12.3°W (Antarctica)",
+    "text": "Cape Norvegia - cape\n71.4°S, 12.3°W (Antarctica)",
     "provenance": "Natural Earth, source ID 1159104919; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105165",
-    "text": "Cape of Good Hope - cape; mapped near 34.3°S, 18.4°E (Africa)",
+    "text": "Cape of Good Hope - cape\n34.3°S, 18.4°E (Africa)",
     "provenance": "Natural Earth, source ID 1159105165; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104949",
-    "text": "Cape Olyutorskiy - cape; mapped near 60.0°N, 170.3°E (Asia)",
+    "text": "Cape Olyutorskiy - cape\n60°N, 170.3°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104949; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104657",
-    "text": "Cape Otway - cape; mapped near 38.9°S, 143.5°E (Oceania)",
+    "text": "Cape Otway - cape\n38.9°S, 143.5°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104657; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104947",
-    "text": "Cape Ozernoy - cape; mapped near 57.8°N, 163.2°E (Asia)",
+    "text": "Cape Ozernoy - cape\n57.8°N, 163.2°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104947; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105169",
-    "text": "Cape Palmas - cape; mapped near 4.4°N, 7.5°W (Africa)",
+    "text": "Cape Palmas - cape\n4.4°N, 7.5°W (Africa)",
     "provenance": "Natural Earth, source ID 1159105169; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104679",
-    "text": "Cape Pasley - cape; mapped near 33.9°S, 123.5°E (Oceania)",
+    "text": "Cape Pasley - cape\n33.9°S, 123.5°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104679; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104911",
-    "text": "Cape Poinsett - cape; mapped near 65.8°S, 113.2°E (Antarctica)",
+    "text": "Cape Poinsett - cape\n65.8°S, 113.2°E (Antarctica)",
     "provenance": "Natural Earth, source ID 1159104911; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104781",
-    "text": "Cape Reinga - cape; mapped near 34.4°S, 172.7°E (Oceania)",
+    "text": "Cape Reinga - cape\n34.4°S, 172.7°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104781; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104999",
-    "text": "Cape Sable - cape; mapped near 25.1°N, 81.1°W (North America)",
+    "text": "Cape Sable - cape\n25.1°N, 81.1°W (North America)",
     "provenance": "Natural Earth, source ID 1159104999; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104979",
-    "text": "Cape Sable - cape; mapped near 43.5°N, 65.6°W (North America)",
+    "text": "Cape Sable - cape\n43.5°N, 65.6°W (North America)",
     "provenance": "Natural Earth, source ID 1159104979; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104977",
-    "text": "Cape San Blas - cape; mapped near 29.7°N, 85.3°W (North America)",
+    "text": "Cape San Blas - cape\n29.7°N, 85.3°W (North America)",
     "provenance": "Natural Earth, source ID 1159104977; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104939",
-    "text": "Cape Sata - cape; mapped near 31.0°N, 130.7°E (Asia)",
+    "text": "Cape Sata - cape\n31°N, 130.7°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104939; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105143",
-    "text": "Cape St. Francis - cape; mapped near 34.2°S, 24.8°E (Africa)",
+    "text": "Cape St. Francis - cape\n34.2°S, 24.8°E (Africa)",
     "provenance": "Natural Earth, source ID 1159105143; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105141",
-    "text": "Cape St. Lucia - cape; mapped near 28.6°S, 32.4°E (Africa)",
+    "text": "Cape St. Lucia - cape\n28.6°S, 32.4°E (Africa)",
     "provenance": "Natural Earth, source ID 1159105141; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104943",
-    "text": "Cape Terpeniya - cape; mapped near 48.7°N, 144.7°E (Asia)",
+    "text": "Cape Terpeniya - cape\n48.7°N, 144.7°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104943; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105171",
-    "text": "Cape Verde - cape; mapped near 14.7°N, 17.5°W (Africa)",
+    "text": "Cape Verde - cape\n14.7°N, 17.5°W (Africa)",
     "provenance": "Natural Earth, source ID 1159105171; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104711",
-    "text": "Cape Vohimena - cape; mapped near 25.5°S, 45.2°E (Africa)",
+    "text": "Cape Vohimena - cape\n25.5°S, 45.2°E (Africa)",
     "provenance": "Natural Earth, source ID 1159104711; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104935",
-    "text": "Cape Yelizavety - cape; mapped near 54.4°N, 142.7°E (Asia)",
+    "text": "Cape Yelizavety - cape\n54.4°N, 142.7°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104935; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104669",
-    "text": "Cape York - cape; mapped near 10.7°S, 142.5°E (Oceania)",
+    "text": "Cape York - cape\n10.7°S, 142.5°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104669; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104697",
-    "text": "Cape York - cape; mapped near 76.2°N, 68.2°W (North America)",
+    "text": "Cape York - cape\n76.2°N, 68.2°W (North America)",
     "provenance": "Natural Earth, source ID 1159104697; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104931",
-    "text": "Dondra Head - cape; mapped near 5.9°N, 80.6°E (Asia)",
+    "text": "Dondra Head - cape\n5.9°N, 80.6°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104931; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104885",
-    "text": "Gees Gwardafuy - cape; mapped near 11.8°N, 51.3°E (Africa)",
+    "text": "Gees Gwardafuy - cape\n11.8°N, 51.3°E (Africa)",
     "provenance": "Natural Earth, source ID 1159104885; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104689",
-    "text": "Land's End - cape; mapped near 50.1°N, 5.7°W (Europe)",
+    "text": "Land's End - cape\n50.1°N, 5.7°W (Europe)",
     "provenance": "Natural Earth, source ID 1159104689; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name or position corrected against https://www.visitcornwall.com/destinations/land-s-end; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104899",
-    "text": "Minna Hook - cape; mapped near 78.6°S, 167.3°E (Antarctica)",
+    "text": "Minna Hook - cape\n78.6°S, 167.3°E (Antarctica)",
     "provenance": "Natural Earth, source ID 1159104899; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104937",
-    "text": "Mys Yuzhnyy - cape; mapped near 57.7°N, 156.8°E (Asia)",
+    "text": "Mys Yuzhnyy - cape\n57.7°N, 156.8°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104937; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name or position corrected against https://msi.nga.mil/api/publications/download?key=16694491%2FSFH00000%2FPub155bk.pdf; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104971",
-    "text": "Nordkapp - cape; mapped near 71.2°N, 25.7°E (Europe)",
+    "text": "Nordkapp - cape\n71.2°N, 25.7°E (Europe)",
     "provenance": "Natural Earth, source ID 1159104971; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104687",
-    "text": "North West Cape - cape; mapped near 21.8°S, 114.2°E (Oceania)",
+    "text": "North West Cape - cape\n21.8°S, 114.2°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104687; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104701",
-    "text": "Nunap Isua - cape; mapped near 59.9°N, 43.9°W (North America)",
+    "text": "Nunap Isua - cape\n59.9°N, 43.9°W (North America)",
     "provenance": "Natural Earth, source ID 1159104701; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105003",
-    "text": "Point Barrow - cape; mapped near 71.4°N, 156.5°W (North America)",
+    "text": "Point Barrow - cape\n71.4°N, 156.5°W (North America)",
     "provenance": "Natural Earth, source ID 1159105003; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104995",
-    "text": "Point Conception - cape; mapped near 34.5°N, 120.5°W (North America)",
+    "text": "Point Conception - cape\n34.5°N, 120.5°W (North America)",
     "provenance": "Natural Earth, source ID 1159104995; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105001",
-    "text": "Point Hope - cape; mapped near 68.4°N, 166.8°W (North America)",
+    "text": "Point Hope - cape\n68.4°N, 166.8°W (North America)",
     "provenance": "Natural Earth, source ID 1159105001; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name or position corrected against https://repository.library.noaa.gov/view/noaa/12975/noaa_12975_DS1.pdf; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105127",
-    "text": "Ponta da Baleia - cape; mapped near 17.7°S, 39.1°W (South America)",
+    "text": "Ponta da Baleia - cape\n17.7°S, 39.1°W (South America)",
     "provenance": "Natural Earth, source ID 1159105127; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105115",
-    "text": "Ponta da Barra - cape; mapped near 23.8°S, 35.5°E (Africa)",
+    "text": "Ponta da Barra - cape\n23.8°S, 35.5°E (Africa)",
     "provenance": "Natural Earth, source ID 1159105115; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104877",
-    "text": "Ponta das Palmeirinhas - cape; mapped near 9.1°S, 13.0°E (Africa)",
+    "text": "Ponta das Palmeirinhas - cape\n9.1°S, 13°E (Africa)",
     "provenance": "Natural Earth, source ID 1159104877; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104875",
-    "text": "Ponta das Salinas - cape; mapped near 12.9°S, 13.0°E (Africa)",
+    "text": "Ponta das Salinas - cape\n12.9°S, 13°E (Africa)",
     "provenance": "Natural Earth, source ID 1159104875; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105123",
-    "text": "Ponta de Jericoacoara - cape; mapped near 2.9°S, 40.0°W (South America)",
+    "text": "Ponta de Jericoacoara - cape\n2.9°S, 40°W (South America)",
     "provenance": "Natural Earth, source ID 1159105123; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105117",
-    "text": "Ponta de São Sebastião - cape; mapped near 22.1°S, 35.5°E (Africa)",
+    "text": "Ponta de São Sebastião - cape\n22.1°S, 35.5°E (Africa)",
     "provenance": "Natural Earth, source ID 1159105117; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name or position corrected against https://www.visitmozambique.gov.mz/wp-content/uploads/2025/04/MAPA-FRENTE-Portugues.pdf; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105033",
-    "text": "Punta del Este - cape; mapped near 35.0°S, 54.9°W (South America)",
+    "text": "Punta del Este - cape\n35°S, 54.9°W (South America)",
     "provenance": "Natural Earth, source ID 1159105033; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104993",
-    "text": "Punta Eugenia - cape; mapped near 27.8°N, 115.0°W (North America)",
+    "text": "Punta Eugenia - cape\n27.8°N, 115°W (North America)",
     "provenance": "Natural Earth, source ID 1159104993; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Name or position corrected against https://diredimoat.semar.gob.mx/derrotero/derrotero%20pacifico%20completo.pdf; geographic facts, no source prose copied."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105157",
-    "text": "Punta Galera - cape; mapped near 0.7°N, 80.1°W (South America)",
+    "text": "Punta Galera - cape\n0.7°N, 80.1°W (South America)",
     "provenance": "Natural Earth, source ID 1159105157; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105047",
-    "text": "Punta Lavapié - cape; mapped near 37.2°S, 73.6°W (South America)",
+    "text": "Punta Lavapié - cape\n37.2°S, 73.6°W (South America)",
     "provenance": "Natural Earth, source ID 1159105047; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105045",
-    "text": "Punta Negra - cape; mapped near 5.9°S, 81.1°W (South America)",
+    "text": "Punta Negra - cape\n5.9°S, 81.1°W (South America)",
     "provenance": "Natural Earth, source ID 1159105045; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105039",
-    "text": "Punta Rasa - cape; mapped near 40.7°S, 62.3°W (South America)",
+    "text": "Punta Rasa - cape\n40.7°S, 62.3°W (South America)",
     "provenance": "Natural Earth, source ID 1159105039; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104963",
-    "text": "Ra's al Had - cape; mapped near 22.5°N, 59.8°E (Asia)",
+    "text": "Ra's al Had - cape\n22.5°N, 59.8°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104963; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105119",
-    "text": "Ras Cantin - cape; mapped near 32.6°N, 9.3°W (Africa)",
+    "text": "Ras Cantin - cape\n32.6°N, 9.3°W (Africa)",
     "provenance": "Natural Earth, source ID 1159105119; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104961",
-    "text": "Ras Sharbatat - cape; mapped near 18.2°N, 56.6°E (Asia)",
+    "text": "Ras Sharbatat - cape\n18.2°N, 56.6°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104961; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104873",
-    "text": "Ra’s Banäs - cape; mapped near 24.0°N, 35.8°E (Africa)",
+    "text": "Ra’s Banäs - cape\n24°N, 35.8°E (Africa)",
     "provenance": "Natural Earth, source ID 1159104873; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104959",
-    "text": "Ra’s Fartak - cape; mapped near 15.7°N, 52.2°E (Asia)",
+    "text": "Ra’s Fartak - cape\n15.7°N, 52.2°E (Asia)",
     "provenance": "Natural Earth, source ID 1159104959; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105121",
-    "text": "Ra’s Kasr - cape; mapped near 18.1°N, 38.6°E (Africa)",
+    "text": "Ra’s Kasr - cape\n18.1°N, 38.6°E (Africa)",
     "provenance": "Natural Earth, source ID 1159105121; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104653",
-    "text": "South West Cape - cape; mapped near 43.5°S, 146.0°E (Oceania)",
+    "text": "South West Cape - cape\n43.5°S, 146°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104653; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104685",
-    "text": "Steep Point - cape; mapped near 26.2°S, 113.1°E (Oceania)",
+    "text": "Steep Point - cape\n26.2°S, 113.1°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104685; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104675",
-    "text": "West Cape Howe - cape; mapped near 35.1°S, 117.6°E (Oceania)",
+    "text": "West Cape Howe - cape\n35.1°S, 117.6°E (Oceania)",
     "provenance": "Natural Earth, source ID 1159104675; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   }
 ]

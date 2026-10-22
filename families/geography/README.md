@@ -12,12 +12,12 @@ Natural Earth data. Runtime remains fully offline.
 
 This replaces 1,280 names across nine leaves. Mountains and ranges are separate;
 natural lakes and reservoirs are separate; islands and archipelagos are separate.
-Sibling weights balance topics. Settlements retain three times the incoming
-weight of each other immediate geography branch. Continents and centre classes
-receive equal shares within settlements. Within subdivisions, each name has the
-same conditional probability: each continental leaf's weight is its record count.
-Physical topics balance land/water and their concepts rather than making large
-river and mountain corpora dominate other kinds.
+Settlements retain three times the incoming weight of each other immediate
+geography branch. Within each of those four branches, child weights match
+descendant record counts. Each settlement, subdivision, country/territory, or
+physical feature has the same conditional share as its peers, regardless of its
+browsing depth. Small capital, island, or landform collections cannot make a few
+names recur disproportionately.
 
 ## Sources and reproducibility
 
@@ -93,8 +93,8 @@ vegetation regions, salt pans, and broad geographic regions as deserts. This
 includes [Caatinga](https://www.gov.br/insa/pt-br/semiarido-brasileiro),
 [Soudah](https://www.visitsaudi.com/en/see-do/destinations/abha), and
 [Makgadikgadi](https://www.botswanatourism.co.bw/index.php/explore/makgadikgadi-and-nxai-pans).
- Coordinates for point features are
-rounded to 0.1° and marked approximate. Inland-water locations are centers of
+Coordinates for point features are
+rounded to 0.1°; trailing zeroes are omitted. Inland-water locations are centers of
 mapped bounding boxes, labelled accordingly; they are not centroids, sources,
 mouths, navigational positions, or precise surveyed locations. Rivers with
 absent geometry or identifiers are excluded.

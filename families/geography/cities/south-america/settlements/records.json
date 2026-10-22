@@ -465,14 +465,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159144411; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159132011",
-    "text": "Bragança Paulista - Brazil",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159132011; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159147585",
     "text": "Bragança - Brazil",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159147585; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159132011",
+    "text": "Bragança Paulista - Brazil",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159132011; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159148753",
@@ -770,14 +770,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159130679; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159150209",
-    "text": "Caxias do Sul - Brazil",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159150209; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159151007",
     "text": "Caxias - Brazil",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159151007; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159150209",
+    "text": "Caxias do Sul - Brazil",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159150209; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159139963",
@@ -1075,6 +1075,11 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159144815; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
+    "id": "geography-city-ne-1159130625",
+    "text": "Coronel - Chile",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159130625; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
     "id": "geography-city-ne-1159128131",
     "text": "Coronel Bogado - Paraguay",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159128131; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
@@ -1083,11 +1088,6 @@
     "id": "geography-city-ne-1159131809",
     "text": "Coronel Suárez - Argentina",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159131809; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
-    "id": "geography-city-ne-1159130625",
-    "text": "Coronel - Chile",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159130625; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159127175",
@@ -1875,14 +1875,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159135955; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159147613",
-    "text": "Juazeiro do Norte - Brazil",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159147613; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159147619",
     "text": "Juazeiro - Brazil",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159147619; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159147613",
+    "text": "Juazeiro do Norte - Brazil",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159147613; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159147601",
@@ -3035,14 +3035,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159136069; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159131081",
-    "text": "Rosário do Sul - Brazil",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159131081; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159130899",
     "text": "Rosário - Brazil",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159130899; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159131081",
+    "text": "Rosário do Sul - Brazil",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159131081; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159130415",
@@ -3130,6 +3130,11 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159132251; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
+    "id": "geography-city-ne-1159142125",
+    "text": "San Antonio - Chile",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159142125; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
     "id": "geography-city-ne-1159144319",
     "text": "San Antonio de los Cobres - Argentina",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159144319; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
@@ -3138,11 +3143,6 @@
     "id": "geography-city-ne-1159144257",
     "text": "San Antonio Oeste - Argentina",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159144257; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
-    "id": "geography-city-ne-1159142125",
-    "text": "San Antonio - Chile",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159142125; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159130563",
@@ -3155,14 +3155,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159144133; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159133185",
-    "text": "San Carlos del Zulia - Venezuela",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159133185; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159132261",
     "text": "San Carlos - Bolivia",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159132261; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159133185",
+    "text": "San Carlos del Zulia - Venezuela",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159133185; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159130569",
@@ -3260,14 +3260,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159136017; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159147697",
-    "text": "San Ramón de la Nueva Orán - Argentina",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159147697; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159144145",
     "text": "San Ramón - Bolivia",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159144145; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159147697",
+    "text": "San Ramón de la Nueva Orán - Argentina",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159147697; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159140127",
@@ -3290,16 +3290,6 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159130643; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159131263",
-    "text": "Santa Cruz Cabrália - Brazil",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159131263; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
-    "id": "geography-city-ne-1159131095",
-    "text": "Santa Cruz do Sul - Brazil",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159131095; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159131333",
     "text": "Santa Cruz - Brazil",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159131333; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
@@ -3308,6 +3298,16 @@
     "id": "geography-city-ne-1159149831",
     "text": "Santa Cruz - Ecuador",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159149831; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159131263",
+    "text": "Santa Cruz Cabrália - Brazil",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159131263; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159131095",
+    "text": "Santa Cruz do Sul - Brazil",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159131095; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159130895",
@@ -3320,14 +3320,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159122991; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159148813",
-    "text": "Santa Maria da Vitória - Brazil",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159148813; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159147603",
     "text": "Santa Maria - Brazil",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159147603; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159148813",
+    "text": "Santa Maria da Vitória - Brazil",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159148813; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159133177",
@@ -3515,14 +3515,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159143463; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159148735",
-    "text": "São Gabriel da Cachoeira - Brazil",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159148735; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159131077",
     "text": "São Gabriel - Brazil",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159131077; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159148735",
+    "text": "São Gabriel da Cachoeira - Brazil",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159148735; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159130891",

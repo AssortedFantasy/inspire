@@ -580,14 +580,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159133419; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159132753",
-    "text": "Boulder City - Nevada, United States",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159132753; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159132749",
     "text": "Boulder - Colorado, United States",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159132749; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159132753",
+    "text": "Boulder City - Nevada, United States",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159132753; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159133433",
@@ -960,14 +960,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159146021; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159143983",
-    "text": "Churchill Falls - Newfoundland and Labrador, Canada",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159143983; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159151027",
     "text": "Churchill - Manitoba, Canada",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159151027; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159143983",
+    "text": "Churchill Falls - Newfoundland and Labrador, Canada",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159143983; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159150517",
@@ -1465,14 +1465,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159131443; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md. Geographic name/location corrected against https://www.ece.gov.nt.ca/en/services/geographical-names/official-nwt-community-names (2026-10-13); no source prose copied."
   },
   {
-    "id": "geography-city-ne-1159133075",
-    "text": "Eagle Pass - Texas, United States",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159133075; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159126601",
     "text": "Eagle - Alaska, United States",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159126601; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159133075",
+    "text": "Eagle Pass - Texas, United States",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159133075; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159131543",
@@ -3235,14 +3235,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159129295; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159124765",
-    "text": "Miami Beach - Florida, United States",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159124765; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159151487",
     "text": "Miami - Florida, United States",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159151487; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159124765",
+    "text": "Miami Beach - Florida, United States",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159124765; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159133161",
@@ -3505,14 +3505,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159132679; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159143635",
-    "text": "Nelson House - Manitoba, Canada",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159143635; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159143735",
     "text": "Nelson - British Columbia, Canada",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159143735; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159143635",
+    "text": "Nelson House - Manitoba, Canada",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159143635; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159126613",
@@ -3630,14 +3630,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159150523; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159143771",
-    "text": "Norman Wells - Northwest Territories, Canada",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159143771; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159133005",
     "text": "Norman - Oklahoma, United States",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159133005; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159143771",
+    "text": "Norman Wells - Northwest Territories, Canada",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159143771; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159147637",
@@ -4115,14 +4115,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159125701; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159143745",
-    "text": "Powell River - British Columbia, Canada",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159143745; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159123783",
     "text": "Powell - Wyoming, United States",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159123783; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159143745",
+    "text": "Powell River - British Columbia, Canada",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159143745; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159138595",
@@ -4455,14 +4455,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159124619; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159138499",
-    "text": "Salina Cruz - Mexico",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159138499; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159132937",
     "text": "Salina - Kansas, United States",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159132937; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159138499",
+    "text": "Salina Cruz - Mexico",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159138499; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159147371",
@@ -4490,14 +4490,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159133111; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159129975",
-    "text": "San Antonio de los Baños - Cuba",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159129975; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159150503",
     "text": "San Antonio - Texas, United States",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159150503; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159129975",
+    "text": "San Antonio de los Baños - Cuba",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159129975; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159149113",
@@ -4560,14 +4560,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159127765; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159132637",
-    "text": "San Luis Obispo - California, United States",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159132637; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159130383",
     "text": "San Luis - Guatemala",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159130383; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159132637",
+    "text": "San Luis Obispo - California, United States",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159132637; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159124203",
@@ -5510,14 +5510,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159129201; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159146281",
-    "text": "Virginia Beach - Virginia, United States",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159146281; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159132441",
     "text": "Virginia - Minnesota, United States",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159132441; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159146281",
+    "text": "Virginia Beach - Virginia, United States",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159146281; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159132627",
@@ -5650,14 +5650,14 @@
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159143859; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
-    "id": "geography-city-ne-1159146245",
-    "text": "Wichita Falls - Texas, United States",
-    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159146245; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
-  },
-  {
     "id": "geography-city-ne-1159146227",
     "text": "Wichita - Kansas, United States",
     "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159146227; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
+  },
+  {
+    "id": "geography-city-ne-1159146245",
+    "text": "Wichita Falls - Texas, United States",
+    "provenance": "Natural Earth 1:10m populated places v5.1.2, NE_ID 1159146245; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Geographic names; curated formatting, continental grouping and dated source centre classifications; see geography/README.md."
   },
   {
     "id": "geography-city-ne-1159133637",

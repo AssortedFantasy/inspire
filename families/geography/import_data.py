@@ -256,6 +256,21 @@ def write(relative, records):
     print(f"{relative}: {len(records)}")
 
 
+def count_weights(branch):
+    """Give each name an equal share within an immediate geography topic."""
+    root = ROOT / branch
+
+    def visit(node):
+        corpus = node / "records.json"
+        count = (len(json.loads(corpus.read_text(encoding="utf-8"))) if corpus.exists()
+                 else sum(visit(child) for child in node.iterdir() if child.is_dir()))
+        if node != root:
+            (node / "node.toml").write_text(f"weight = {count}\n", encoding="utf-8")
+        return count
+
+    return visit(root)
+
+
 def cities(source_dir):
     places = source("ne_10m_populated_places.geojson", source_dir)
     countries = {p["ADM0_A3"]: p for p in source("ne_50m_admin_0_countries.geojson", source_dir)}
@@ -319,6 +334,7 @@ def cities(source_dir):
     # A continent is now a branch; remove only its obsolete flat corpus.
     for region in {group.split("/")[0] for group in grouped}:
         (ROOT / "cities" / region / "records.json").unlink(missing_ok=True)
+    count_weights("cities")
 
 
 def pinned_provenance(filename, identifier):
@@ -354,6 +370,7 @@ def administrative_geography(source_dir):
         })
     for group, records in sorted(grouped.items()):
         write(f"countries-and-territories/{group}", records)
+    count_weights("countries-and-territories")
     filename = "ne_10m_admin_1_states_provinces.geojson"
     grouped = defaultdict(list)
     units = source(filename, source_dir)
@@ -379,8 +396,7 @@ def administrative_geography(source_dir):
         })
     for group, records in sorted(grouped.items()):
         write(f"subdivisions/{group}", records)
-        (ROOT / "subdivisions" / group / "node.toml").write_text(
-            f"weight = {len(records)}\n", encoding="utf-8")
+    count_weights("subdivisions")
 
 
 def main():

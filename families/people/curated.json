@@ -3,8 +3,8 @@
     "path": "arts/literature/poets",
     "record": {
       "id": "person-rabindranath-tagore",
-      "text": "Rabindranath Tagore — poet; Bengali verse.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Rabindranath Tagore — Bengali poet and philosopher.",
+      "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q7241, https://www.wikidata.org/wiki/Q7241; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization. Incorrect parenthetical lifespan omitted; birth year is 1861 per https://www.nobelprize.org/prizes/literature/1913/tagore/biographical/."
     },
     "qid": "Q7241",
     "identity_name": "Rabindranath Tagore",
@@ -14,8 +14,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-toni-morrison",
-      "text": "Toni Morrison — novelist; African American experience.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Toni Morrison — Afro-American writer.",
+      "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q72334, https://www.wikidata.org/wiki/Q72334; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
     },
     "qid": "Q72334",
     "identity_name": "Toni Morrison",
@@ -25,8 +25,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-gabriel-garcia-marquez",
-      "text": "Gabriel García Márquez — novelist; fantastic-realistic narratives.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Gabriel García Márquez — Colombian writer, journalist and Nobel laureate in literature.",
+      "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q5878, https://www.wikidata.org/wiki/Q5878; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
     },
     "qid": "Q5878",
     "identity_name": "Gabriel García Márquez",
@@ -36,8 +36,8 @@
     "path": "arts/literature/poets",
     "record": {
       "id": "person-pablo-neruda",
-      "text": "Pablo Neruda — poet; Latin American verse.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Pablo Neruda — Chilean poet, diplomat, politician (1904-1973).",
+      "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q34189, https://www.wikidata.org/wiki/Q34189; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
     },
     "qid": "Q34189",
     "identity_name": "Pablo Neruda",
@@ -47,8 +47,8 @@
     "path": "arts/literature/poets",
     "record": {
       "id": "person-gabriela-mistral",
-      "text": "Gabriela Mistral — poet; Latin American lyricism.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Gabriela Mistral — poet.",
+      "provenance": "Compact occupation label; interpretive contribution blurb omitted. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
     },
     "qid": "Q80871",
     "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q80871; checked 2026-10-13."
@@ -57,8 +57,8 @@
     "path": "arts/literature/poets",
     "record": {
       "id": "person-octavio-paz",
-      "text": "Octavio Paz — poet; sensuous, humanistic writing.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Octavio Paz — Mexican writer laureated with the 1990 Nobel Prize for Literature.",
+      "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q46739, https://www.wikidata.org/wiki/Q46739; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
     },
     "qid": "Q46739",
     "identity_name": "Octavio Paz",
@@ -68,8 +68,8 @@
     "path": "arts/literature/dramatists",
     "record": {
       "id": "person-wole-soyinka",
-      "text": "Wole Soyinka — dramatist; African cultural perspectives.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Wole Soyinka — dramatist.",
+      "provenance": "Compact occupation label; interpretive contribution blurb omitted. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
     },
     "qid": "Q41488",
     "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q41488; checked 2026-10-13."
@@ -78,8 +78,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-naguib-mahfouz",
-      "text": "Naguib Mahfouz — novelist; Arabic narrative.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Naguib Mahfouz — novelist.",
+      "provenance": "Compact occupation label; interpretive contribution blurb omitted. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
     },
     "qid": "Q7176",
     "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q7176; checked 2026-10-13."
@@ -88,8 +88,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-yasunari-kawabata",
-      "text": "Yasunari Kawabata — novelist; Japanese sensibility.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Yasunari Kawabata — Japanese author.",
+      "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q43736, https://www.wikidata.org/wiki/Q43736; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
     },
     "qid": "Q43736",
     "identity_name": "Yasunari Kawabata",
@@ -99,8 +99,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-kenzaburo-oe",
-      "text": "Kenzaburō Ōe — novelist; imaginative human predicaments.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Kenzaburō Ōe — novelist.",
+      "provenance": "Compact occupation label; interpretive contribution blurb omitted. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
     },
     "qid": "Q80095",
     "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q80095; checked 2026-10-13."
@@ -109,8 +109,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-mo-yan",
-      "text": "Mo Yan — novelist; hallucinatory realism.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Mo Yan — novelist.",
+      "provenance": "Compact occupation label; interpretive contribution blurb omitted. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
     },
     "qid": "Q8998",
     "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q8998"
@@ -119,8 +119,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-gao-xingjian",
-      "text": "Gao Xingjian — writer; linguistic experimentation.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Gao Xingjian — writer.",
+      "provenance": "Compact occupation label; interpretive contribution blurb omitted. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
     },
     "qid": "Q18143",
     "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q18143; checked 2026-10-13."
@@ -129,8 +129,8 @@
     "path": "arts/literature/poets",
     "record": {
       "id": "person-wislawa-szymborska",
-      "text": "Wisława Szymborska — poet; ironic precision.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Wisława Szymborska — Polish poet, Nobel Prize winner.",
+      "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q42552, https://www.wikidata.org/wiki/Q42552; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
     },
     "qid": "Q42552",
     "identity_name": "Wisława Szymborska",
@@ -140,8 +140,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-jose-saramago",
-      "text": "José Saramago — novelist; imaginative parables.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "José Saramago — Portuguese writer and recipient of the 1998 Nobel Prize in Literature.",
+      "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q37060, https://www.wikidata.org/wiki/Q37060; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
     },
     "qid": "Q37060",
     "identity_name": "José Saramago",
@@ -151,8 +151,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-orhan-pamuk",
-      "text": "Orhan Pamuk — novelist; intertwined cultures.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Orhan Pamuk — novelist.",
+      "provenance": "Compact occupation label; interpretive contribution blurb omitted. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
     },
     "qid": "Q241248",
     "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q241248; checked 2026-10-13."
@@ -161,8 +161,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-doris-lessing",
-      "text": "Doris Lessing — novelist; female experience.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Doris Lessing — British novelist, poet, playwright, librettist, biographer and short story writer.",
+      "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q40874, https://www.wikidata.org/wiki/Q40874; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
     },
     "qid": "Q40874",
     "identity_name": "Doris Lessing",
@@ -172,8 +172,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-alice-munro",
-      "text": "Alice Munro — writer; contemporary short stories.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Alice Munro — writer.",
+      "provenance": "Compact occupation label; interpretive contribution blurb omitted. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
     },
     "qid": "Q234819",
     "identity_provenance": "Reviewed occupation/contribution to resolve homonymous source names; https://www.wikidata.org/wiki/Q234819"
@@ -182,8 +182,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-olga-tokarczuk",
-      "text": "Olga Tokarczuk — novelist; boundary-crossing narratives.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Olga Tokarczuk — novelist.",
+      "provenance": "Compact occupation label; interpretive contribution blurb omitted. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
     },
     "qid": "Q254032",
     "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q254032; checked 2026-10-13."
@@ -192,8 +192,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-abdulrazak-gurnah",
-      "text": "Abdulrazak Gurnah — novelist; colonialism and refugees.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Abdulrazak Gurnah — novelist.",
+      "provenance": "Compact occupation label; interpretive contribution blurb omitted. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
     },
     "qid": "Q317877",
     "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q317877; checked 2026-10-13."
@@ -202,8 +202,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-jm-coetzee",
-      "text": "J. M. Coetzee — novelist; outsider perspectives.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "J. M. Coetzee — novelist.",
+      "provenance": "Compact occupation label; interpretive contribution blurb omitted. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
     },
     "qid": "Q43293",
     "identity_provenance": "Primary Wikidata human identity lookup, English description reviewed; https://www.wikidata.org/wiki/Q43293; checked 2026-10-13."
@@ -212,8 +212,8 @@
     "path": "arts/literature/dramatists",
     "record": {
       "id": "person-samuel-beckett",
-      "text": "Samuel Beckett — dramatist; human destitution.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Samuel Beckett — Irish novelist, playwright, and poet (1906-1989).",
+      "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q37327, https://www.wikidata.org/wiki/Q37327; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
     },
     "qid": "Q37327",
     "identity_name": "Samuel Beckett",
@@ -223,8 +223,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-albert-camus",
-      "text": "Albert Camus — writer; questions of conscience.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Albert Camus — Algerian-French author and journalist (1913-1960).",
+      "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q34670, https://www.wikidata.org/wiki/Q34670; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
     },
     "qid": "Q34670",
     "identity_name": "Albert Camus",
@@ -234,8 +234,8 @@
     "path": "arts/literature/fiction",
     "record": {
       "id": "person-ernest-hemingway",
-      "text": "Ernest Hemingway — novelist; narrative technique.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "Ernest Hemingway — American author and journalist.",
+      "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q23434, https://www.wikidata.org/wiki/Q23434; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
     },
     "qid": "Q23434",
     "identity_name": "Ernest Hemingway",
@@ -245,8 +245,8 @@
     "path": "arts/literature/poets",
     "record": {
       "id": "person-ts-eliot",
-      "text": "T. S. Eliot — poet; modern verse.",
-      "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Literature, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/. Consulted 2026-10-13; source prose and images are not reproduced."
+      "text": "T. S. Eliot — English author.",
+      "provenance": "AgeDataset V1 (2022), AgeDataset-V1-Part1.csv, Wikidata Q37767, https://www.wikidata.org/wiki/Q37767; https://raw.githubusercontent.com/Moradnejad/AgeDataset/776b4811e992ed593a59c01ff327dcc056e3ab4d/AgeDataset-V1-Part1.csv; SHA-256 d9082cd20d64de9b1dff479c779ea5c5728cb66540bf8d10c888dcd3ffb40b9a; CC BY 4.0. Original profile ID/display name retained; source description copied with whitespace/final punctuation normalization."
     },
     "qid": "Q37767",
     "identity_name": "T. S. Eliot",
@@ -741,9 +741,9 @@
       "text": "Akira Suzuki — chemist; palladium-catalysed cross-coupling.",
       "provenance": "Original concise factual description. Source: Nobel Prize Outreach, All Nobel Prizes in Chemistry, https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-chemistry/all/?gallery_style=page. Consulted 2026-10-13; source prose and images are not reproduced."
     },
-    "qid": "Q11648916",
+    "qid": "Q105949",
     "identity_name": "Akira Suzuki",
-    "identity_provenance": "Unique normalized name in the checksum-pinned AgeDataset V1; source description reviewed against the existing contribution."
+    "identity_provenance": "Corrected homonymous film-editor Q11648916 mapping. Chemist identity, 1930 birth, Nobel Prize in Chemistry 2010 and Hokkaido University match https://www.wikidata.org/wiki/Q105949 and https://www.nobelprize.org/prizes/chemistry/2010/suzuki/biographical/; checked 2026-10-22."
   },
   {
     "path": "science/physical/chemists",

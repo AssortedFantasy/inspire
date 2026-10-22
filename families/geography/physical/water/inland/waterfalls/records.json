@@ -1,22 +1,22 @@
 [
   {
     "id": "geography-physical-10m_geography_regions_points-1159105053",
-    "text": "Iguazu Falls - waterfall; mapped near 25.6°S, 54.6°W (South America)",
+    "text": "Iguazu Falls - waterfall\n25.6°S, 54.6°W (South America)",
     "provenance": "Natural Earth, source ID 1159105053; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105019",
-    "text": "Niagara Falls - waterfall; mapped near 43.1°N, 79.0°W (North America)",
+    "text": "Niagara Falls - waterfall\n43.1°N, 79°W (North America)",
     "provenance": "Natural Earth, source ID 1159105019; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159105051",
-    "text": "Salto Angel - waterfall; mapped near 5.7°N, 62.1°W (South America)",
+    "text": "Salto Angel - waterfall\n5.7°N, 62.1°W (South America)",
     "provenance": "Natural Earth, source ID 1159105051; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_points-1159104887",
-    "text": "Victoria Falls - waterfall; mapped near 17.9°S, 25.9°E (Africa)",
+    "text": "Victoria Falls - waterfall\n17.9°S, 25.9°E (Africa)",
     "provenance": "Natural Earth, source ID 1159104887; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_points.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   }
 ]

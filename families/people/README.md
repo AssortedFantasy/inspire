@@ -5,12 +5,17 @@ visual art, music and performance; science separates formal, physical and life
 sciences; thought, society and technology cover scholarship, social contributions
 and technical work. Multi-disciplinary people appear once, in one browsing role.
 
-The original 132 compact contribution profiles are retained in `curated.json`,
-with their original IDs, text and references. Every original is explicitly mapped
+The original 132 identities are retained in `curated.json`,
+with their original profile IDs. Every original is explicitly mapped
 to a reviewed Wikidata QID; full-name variants and homonyms are documented there.
 Profiles keep their identities when moved. Their descriptions use Nobel Prize
 Outreach, MacTutor, museums, the National Park Service and National Inventors
-Hall of Fame references, without reproducing biographies or images.
+Hall of Fame references, without reproducing biographies or images. The 24
+literary profiles use pinned source descriptions where available and compact
+occupation labels otherwise; interpretive blurbs such as "Japanese sensibility"
+are omitted. Tagore's source description omits its erroneous parenthetical
+lifespan. Akira Suzuki's reviewed identity is the chemist `Q105949`, rather than
+the homonymous film editor `Q11648916`.
 
 ## Downloaded source
 

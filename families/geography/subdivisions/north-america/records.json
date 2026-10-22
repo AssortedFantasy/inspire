@@ -95,14 +95,14 @@
     "provenance": "Natural Earth, source ID DOM-1969; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311709; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159309245",
-    "text": "Baja California Sur - state, Mexico",
-    "provenance": "Natural Earth, source ID MEX-2707; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309245; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159309265",
     "text": "Baja California - state, Mexico",
     "provenance": "Natural Earth, source ID MEX-2706; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309265; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159309245",
+    "text": "Baja California Sur - state, Mexico",
+    "provenance": "Natural Earth, source ID MEX-2707; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309245; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159311635",
@@ -300,14 +300,14 @@
     "provenance": "Natural Earth, source ID NIC-669; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309091; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159316443",
-    "text": "Christ Church Nichola Town - parish, Saint Kitts and Nevis",
-    "provenance": "Natural Earth, source ID KNA-5099; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316443; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159311511",
     "text": "Christ Church - parish, Barbados",
     "provenance": "Natural Earth, source ID BRB-1989; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311511; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159316443",
+    "text": "Christ Church Nichola Town - parish, Saint Kitts and Nevis",
+    "provenance": "Natural Earth, source ID KNA-5099; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316443; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159310337",
@@ -1460,16 +1460,6 @@
     "provenance": "Natural Earth, source ID JAM-1373; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310271; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159316429",
-    "text": "Saint George Basseterre - parish, Saint Kitts and Nevis",
-    "provenance": "Natural Earth, source ID KNA-5101; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316429; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159316421",
-    "text": "Saint George Gingerland - parish, Saint Kitts and Nevis",
-    "provenance": "Natural Earth, source ID KNA-5102; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316421; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159316407",
     "text": "Saint George - parish, Antigua and Barbuda",
     "provenance": "Natural Earth, source ID ATG-5093; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316407; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -1495,6 +1485,16 @@
     "provenance": "Natural Earth, source ID VCT-5067; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316351; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
+    "id": "geography-subdivision-ne-1159316429",
+    "text": "Saint George Basseterre - parish, Saint Kitts and Nevis",
+    "provenance": "Natural Earth, source ID KNA-5101; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316429; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159316421",
+    "text": "Saint George Gingerland - parish, Saint Kitts and Nevis",
+    "provenance": "Natural Earth, source ID KNA-5102; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316421; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
     "id": "geography-subdivision-ne-1159316507",
     "text": "Saint George's - administrative unit, Bermuda",
     "provenance": "Natural Earth, source ID BMU-5140; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316507; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -1503,11 +1503,6 @@
     "id": "geography-subdivision-ne-1159316399",
     "text": "Saint Georges - parish, Montserrat",
     "provenance": "Natural Earth, source ID MSR-5088; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316399; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159315547",
-    "text": "Saint James Windward - parish, Saint Kitts and Nevis",
-    "provenance": "Natural Earth, source ID KNA-5103; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315547; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159311517",
@@ -1520,14 +1515,9 @@
     "provenance": "Natural Earth, source ID JAM-1374; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310273; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159316441",
-    "text": "Saint John Capesterre - parish, Saint Kitts and Nevis",
-    "provenance": "Natural Earth, source ID KNA-5104; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316441; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159316423",
-    "text": "Saint John Figtree - parish, Saint Kitts and Nevis",
-    "provenance": "Natural Earth, source ID KNA-5105; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316423; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "id": "geography-subdivision-ne-1159315547",
+    "text": "Saint James Windward - parish, Saint Kitts and Nevis",
+    "provenance": "Natural Earth, source ID KNA-5103; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315547; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159315963",
@@ -1553,6 +1543,16 @@
     "id": "geography-subdivision-ne-1159316365",
     "text": "Saint John - parish, Grenada",
     "provenance": "Natural Earth, source ID GRD-5073; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316365; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159316441",
+    "text": "Saint John Capesterre - parish, Saint Kitts and Nevis",
+    "provenance": "Natural Earth, source ID KNA-5104; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316441; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159316423",
+    "text": "Saint John Figtree - parish, Saint Kitts and Nevis",
+    "provenance": "Natural Earth, source ID KNA-5105; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316423; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159311523",
@@ -1585,11 +1585,6 @@
     "provenance": "Natural Earth, source ID GRD-5074; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316363; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159316445",
-    "text": "Saint Mary Cayon - parish, Saint Kitts and Nevis",
-    "provenance": "Natural Earth, source ID KNA-5106; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316445; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159316417",
     "text": "Saint Mary - parish, Antigua and Barbuda",
     "provenance": "Natural Earth, source ID ATG-5097; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316417; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -1598,6 +1593,11 @@
     "id": "geography-subdivision-ne-1159310289",
     "text": "Saint Mary - parish, Jamaica",
     "provenance": "Natural Earth, source ID JAM-1381; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310289; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159316445",
+    "text": "Saint Mary Cayon - parish, Saint Kitts and Nevis",
+    "provenance": "Natural Earth, source ID KNA-5106; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316445; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159311527",
@@ -1620,16 +1620,6 @@
     "provenance": "Natural Earth, source ID VCT-5068; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316355; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159316439",
-    "text": "Saint Paul Capesterre - parish, Saint Kitts and Nevis",
-    "provenance": "Natural Earth, source ID KNA-5107; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316439; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159316425",
-    "text": "Saint Paul Charlestown - parish, Saint Kitts and Nevis",
-    "provenance": "Natural Earth, source ID KNA-5108; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316425; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159316413",
     "text": "Saint Paul - parish, Antigua and Barbuda",
     "provenance": "Natural Earth, source ID ATG-5096; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316413; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -1640,9 +1630,14 @@
     "provenance": "Natural Earth, source ID DMA-1440; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311623; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159316447",
-    "text": "Saint Peter Basseterre - parish, Saint Kitts and Nevis",
-    "provenance": "Natural Earth, source ID KNA-5109; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316447; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "id": "geography-subdivision-ne-1159316439",
+    "text": "Saint Paul Capesterre - parish, Saint Kitts and Nevis",
+    "provenance": "Natural Earth, source ID KNA-5107; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316439; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159316425",
+    "text": "Saint Paul Charlestown - parish, Saint Kitts and Nevis",
+    "provenance": "Natural Earth, source ID KNA-5108; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316425; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159316409",
@@ -1665,6 +1660,11 @@
     "provenance": "Natural Earth, source ID MSR-5089; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315545; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
+    "id": "geography-subdivision-ne-1159316447",
+    "text": "Saint Peter Basseterre - parish, Saint Kitts and Nevis",
+    "provenance": "Natural Earth, source ID KNA-5109; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316447; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
     "id": "geography-subdivision-ne-1159316411",
     "text": "Saint Philip - parish, Antigua and Barbuda",
     "provenance": "Natural Earth, source ID ATG-5095; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316411; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -1673,16 +1673,6 @@
     "id": "geography-subdivision-ne-1159311531",
     "text": "Saint Philip - parish, Barbados",
     "provenance": "Natural Earth, source ID BRB-1998; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311531; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159316427",
-    "text": "Saint Thomas Lowland - parish, Saint Kitts and Nevis",
-    "provenance": "Natural Earth, source ID KNA-5110; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316427; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159316435",
-    "text": "Saint Thomas Middle Island - parish, Saint Kitts and Nevis",
-    "provenance": "Natural Earth, source ID KNA-5111; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316435; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159315559",
@@ -1698,6 +1688,16 @@
     "id": "geography-subdivision-ne-1159310293",
     "text": "Saint Thomas - parish, Jamaica",
     "provenance": "Natural Earth, source ID JAM-1383; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310293; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159316427",
+    "text": "Saint Thomas Lowland - parish, Saint Kitts and Nevis",
+    "provenance": "Natural Earth, source ID KNA-5110; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316427; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159316435",
+    "text": "Saint Thomas Middle Island - parish, Saint Kitts and Nevis",
+    "provenance": "Natural Earth, source ID KNA-5111; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159316435; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159315673",
@@ -1725,14 +1725,14 @@
     "provenance": "Natural Earth, source ID TTO-62; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308065; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159311727",
-    "text": "San José de Ocoa - province, Dominican Republic",
-    "provenance": "Natural Earth, source ID DOM-1978; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311727; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159310121",
     "text": "San José - province, Costa Rica",
     "provenance": "Natural Earth, source ID CRI-1331; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310121; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
+    "id": "geography-subdivision-ne-1159311727",
+    "text": "San José de Ocoa - province, Dominican Republic",
+    "provenance": "Natural Earth, source ID DOM-1978; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311727; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159310307",
@@ -1820,6 +1820,11 @@
     "provenance": "Natural Earth, source ID GTM-1957; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159311669; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
+    "id": "geography-subdivision-ne-1159310301",
+    "text": "Santiago - province, Dominican Republic",
+    "provenance": "Natural Earth, source ID DOM-1390; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310301; mapped admin-1 snapshot, not a claim of present-day legal level."
+  },
+  {
     "id": "geography-subdivision-ne-1159310359",
     "text": "Santiago de Cuba - province, Cuba",
     "provenance": "Natural Earth, source ID CUB-1369; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310359; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -1828,11 +1833,6 @@
     "id": "geography-subdivision-ne-1159310303",
     "text": "Santiago Rodríguez - province, Dominican Republic",
     "provenance": "Natural Earth, source ID DOM-1391; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310303; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
-    "id": "geography-subdivision-ne-1159310301",
-    "text": "Santiago - province, Dominican Republic",
-    "provenance": "Natural Earth, source ID DOM-1390; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159310301; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
     "id": "geography-subdivision-ne-1159310309",
