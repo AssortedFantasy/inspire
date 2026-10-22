@@ -1,787 +1,787 @@
 [
   {
     "id": "wn30-v-00643473",
-    "text": "Verb sense: break down / analyze\nDefinition: make a mathematical, chemical, or grammatical analysis of; break down into components or essential features",
+    "text": "break down / analyze (v.)\nmake a mathematical, chemical, or grammatical analysis of; break down into components or essential features",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00658052",
-    "text": "Verb sense: rate / place / grade / rank\nDefinition: assign a rank or rating to",
+    "text": "rate / place / grade / rank (v.)\nassign a rank or rating to",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00684068",
-    "text": "Verb sense: believe\nDefinition: credit with veracity",
+    "text": "believe (v.)\ncredit with veracity",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00697589",
-    "text": "Verb sense: decide / make up one's mind / determine\nDefinition: reach, make, or come to a decision about something",
+    "text": "decide / make up one's mind / determine (v.)\nreach, make, or come to a decision about something",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00634472",
-    "text": "Verb sense: conclude / reason\nDefinition: decide by reasoning; draw or come to a conclusion",
+    "text": "conclude / reason (v.)\ndecide by reasoning; draw or come to a conclusion",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00609100",
-    "text": "Verb sense: forget\nDefinition: be unable to remember",
+    "text": "forget (v.)\nbe unable to remember",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00589904",
-    "text": "Verb sense: get / catch\nDefinition: grasp with the mind or develop an understanding of",
+    "text": "get / catch (v.)\ngrasp with the mind or develop an understanding of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00667747",
-    "text": "Verb sense: rebut / refute\nDefinition: prove to be false or incorrect",
+    "text": "rebut / refute (v.)\nprove to be false or incorrect",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00708128",
-    "text": "Verb sense: plot\nDefinition: plan secretly, usually something illegal",
+    "text": "plot (v.)\nplan secretly, usually something illegal",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00625723",
-    "text": "Verb sense: reread\nDefinition: read anew; read again",
+    "text": "reread (v.)\nread anew; read again",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00723545",
-    "text": "Verb sense: take into account / allow\nDefinition: allow or plan for a certain possibility; concede the truth or validity of something",
+    "text": "take into account / allow (v.)\nallow or plan for a certain possibility; concede the truth or validity of something",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00603298",
-    "text": "Verb sense: train / develop / educate / prepare\nDefinition: create by training and teaching",
+    "text": "train / develop / educate / prepare (v.)\ncreate by training and teaching",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00715868",
-    "text": "Verb sense: rule\nDefinition: decide with authority",
+    "text": "rule (v.)\ndecide with authority",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00597915",
-    "text": "Verb sense: learn\nDefinition: gain knowledge or skills",
+    "text": "learn (v.)\ngain knowledge or skills",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00698855",
-    "text": "Verb sense: settle / resolve / decide\nDefinition: bring to an end; settle conclusively",
+    "text": "settle / resolve / decide (v.)\nbring to an end; settle conclusively",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00719231",
-    "text": "Verb sense: accept\nDefinition: react favorably to; consider right and proper",
+    "text": "accept (v.)\nreact favorably to; consider right and proper",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00613683",
-    "text": "Verb sense: leave\nDefinition: go and leave behind, either intentionally or by neglect or forgetfulness",
+    "text": "leave (v.)\ngo and leave behind, either intentionally or by neglect or forgetfulness",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00622384",
-    "text": "Verb sense: puzzle / bewilder / amaze / baffle / mystify\nDefinition: be a mystery or bewildering to",
+    "text": "puzzle / bewilder / amaze / baffle / mystify (v.)\nbe a mystery or bewildering to",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00602805",
-    "text": "Verb sense: train\nDefinition: undergo training or instruction in preparation for a particular role, function, or profession",
+    "text": "train (v.)\nundergo training or instruction in preparation for a particular role, function, or profession",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00628491",
-    "text": "Verb sense: think / cerebrate\nDefinition: use or exercise the mind or one's power of reason in order to make inferences, decisions, or arrive at a solution or judgments",
+    "text": "think / cerebrate (v.)\nuse or exercise the mind or one's power of reason in order to make inferences, decisions, or arrive at a solution or judgments",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00678282",
-    "text": "Verb sense: schedule\nDefinition: plan for an activity or event",
+    "text": "schedule (v.)\nplan for an activity or event",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00599992",
-    "text": "Verb sense: study / take / read / learn\nDefinition: be a student of a certain subject",
+    "text": "study / take / read / learn (v.)\nbe a student of a certain subject",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00611481",
-    "text": "Verb sense: commemorate\nDefinition: call to remembrance; keep alive the memory of someone or something, as in a ceremony",
+    "text": "commemorate (v.)\ncall to remembrance; keep alive the memory of someone or something, as in a ceremony",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00660102",
-    "text": "Verb sense: rank\nDefinition: take or have a position relative to others",
+    "text": "rank (v.)\ntake or have a position relative to others",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00720961",
-    "text": "Verb sense: tell\nDefinition: discern or comprehend",
+    "text": "tell (v.)\ndiscern or comprehend",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00684838",
-    "text": "Verb sense: include\nDefinition: consider as part of something",
+    "text": "include (v.)\nconsider as part of something",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00718907",
-    "text": "Verb sense: greet\nDefinition: react to in a certain way",
+    "text": "greet (v.)\nreact to in a certain way",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00665476",
-    "text": "Verb sense: establish / lay down / make\nDefinition: institute, enact, or establish",
+    "text": "establish / lay down / make (v.)\ninstitute, enact, or establish",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00611256",
-    "text": "Verb sense: remember / think back\nDefinition: recapture the past; indulge in memories",
+    "text": "remember / think back (v.)\nrecapture the past; indulge in memories",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00724664",
-    "text": "Verb sense: beware\nDefinition: be on one's guard; be cautious or wary about; be alert to",
+    "text": "beware (v.)\nbe on one's guard; be cautious or wary about; be alert to",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00668099",
-    "text": "Verb sense: bear / stand / suffer / tolerate / endure / put up\nDefinition: put up with something or somebody unpleasant",
+    "text": "bear / stand / suffer / tolerate / endure / put up (v.)\nput up with something or somebody unpleasant",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00685419",
-    "text": "Verb sense: eliminate / rule out\nDefinition: dismiss from consideration or a contest",
+    "text": "eliminate / rule out (v.)\ndismiss from consideration or a contest",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00606093",
-    "text": "Verb sense: practice / drill\nDefinition: learn by repetition",
+    "text": "practice / drill (v.)\nlearn by repetition",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00664788",
-    "text": "Verb sense: show / prove / establish / demonstrate\nDefinition: establish the validity of something, as by an example, explanation or experiment",
+    "text": "show / prove / establish / demonstrate (v.)\nestablish the validity of something, as by an example, explanation or experiment",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00634906",
-    "text": "Verb sense: solve / figure out / puzzle out / lick\nDefinition: find the solution to (a problem or question) or understand the meaning of",
+    "text": "solve / figure out / puzzle out / lick (v.)\nfind the solution to (a problem or question) or understand the meaning of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00655555",
-    "text": "Verb sense: refer\nDefinition: think of, regard, or classify under a subsuming principle or with a general group or in relation to another",
+    "text": "refer (v.)\nthink of, regard, or classify under a subsuming principle or with a general group or in relation to another",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00672277",
-    "text": "Verb sense: judge\nDefinition: determine the result of (a competition)",
+    "text": "judge (v.)\ndetermine the result of (a competition)",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00730758",
-    "text": "Verb sense: make / draw\nDefinition: make, formulate, or derive in the mind",
+    "text": "make / draw (v.)\nmake, formulate, or derive in the mind",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00618878",
-    "text": "Verb sense: identify / place\nDefinition: recognize as being; establish the identity of someone or something",
+    "text": "identify / place (v.)\nrecognize as being; establish the identity of someone or something",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00726300",
-    "text": "Verb sense: attribute / assign / ascribe / impute\nDefinition: attribute or credit to",
+    "text": "attribute / assign / ascribe / impute (v.)\nattribute or credit to",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00596644",
-    "text": "Verb sense: know / experience / live\nDefinition: have firsthand knowledge of states, situations, emotions, or sensations",
+    "text": "know / experience / live (v.)\nhave firsthand knowledge of states, situations, emotions, or sensations",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00687926",
-    "text": "Verb sense: distrust / mistrust / suspect\nDefinition: regard as untrustworthy; regard with suspicion; have no faith or confidence in",
+    "text": "distrust / mistrust / suspect (v.)\nregard as untrustworthy; regard with suspicion; have no faith or confidence in",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00708538",
-    "text": "Verb sense: intend / mean / think\nDefinition: have in mind as a purpose",
+    "text": "intend / mean / think (v.)\nhave in mind as a purpose",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00700708",
-    "text": "Verb sense: determine\nDefinition: fix in scope; fix the boundaries of",
+    "text": "determine (v.)\nfix in scope; fix the boundaries of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00720617",
-    "text": "Verb sense: look to\nDefinition: turn one's interests or expectations towards",
+    "text": "look to (v.)\nturn one's interests or expectations towards",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00607114",
-    "text": "Verb sense: study\nDefinition: learn by reading books",
+    "text": "study (v.)\nlearn by reading books",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00712135",
-    "text": "Verb sense: figure / estimate / calculate / reckon / forecast / count on\nDefinition: judge to be probable",
+    "text": "figure / estimate / calculate / reckon / forecast / count on (v.)\njudge to be probable",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00624476",
-    "text": "Verb sense: take / read\nDefinition: interpret something in a certain way; convey a particular meaning or impression",
+    "text": "take / read (v.)\ninterpret something in a certain way; convey a particular meaning or impression",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00730052",
-    "text": "Verb sense: think of / have in mind / mean\nDefinition: intend to refer to",
+    "text": "think of / have in mind / mean (v.)\nintend to refer to",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00685683",
-    "text": "Verb sense: reject\nDefinition: refuse to accept or acknowledge",
+    "text": "reject (v.)\nrefuse to accept or acknowledge",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00671335",
-    "text": "Verb sense: underestimate / underrate\nDefinition: make too low an estimate of",
+    "text": "underestimate / underrate (v.)\nmake too low an estimate of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00600370",
-    "text": "Verb sense: engage / occupy\nDefinition: consume all of one's attention or time",
+    "text": "engage / occupy (v.)\nconsume all of one's attention or time",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00674340",
-    "text": "Verb sense: disapprove\nDefinition: consider bad or wrong",
+    "text": "disapprove (v.)\nconsider bad or wrong",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00651991",
-    "text": "Verb sense: mark / distinguish / differentiate\nDefinition: be a distinctive feature, attribute, or trait; sometimes in a very positive sense",
+    "text": "mark / distinguish / differentiate (v.)\nbe a distinctive feature, attribute, or trait; sometimes in a very positive sense",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00688377",
-    "text": "Verb sense: trust / rely\nDefinition: have confidence or faith in",
+    "text": "trust / rely (v.)\nhave confidence or faith in",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00612612",
-    "text": "Verb sense: mark / commemorate\nDefinition: mark by some ceremony or observation",
+    "text": "mark / commemorate (v.)\nmark by some ceremony or observation",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00637259",
-    "text": "Verb sense: compute / calculate / figure / reckon\nDefinition: make a mathematical calculation or computation",
+    "text": "compute / calculate / figure / reckon (v.)\nmake a mathematical calculation or computation",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00597634",
-    "text": "Verb sense: master\nDefinition: be or become completely proficient or skilled in",
+    "text": "master (v.)\nbe or become completely proficient or skilled in",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00664483",
-    "text": "Verb sense: verify\nDefinition: confirm the truth of",
+    "text": "verify (v.)\nconfirm the truth of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00693780",
-    "text": "Verb sense: hold / deem / view as / take for\nDefinition: keep in mind or convey as a conviction or view",
+    "text": "hold / deem / view as / take for (v.)\nkeep in mind or convey as a conviction or view",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00592883",
-    "text": "Verb sense: recognize / know\nDefinition: accept (someone) to be what is claimed or accept his power and authority",
+    "text": "recognize / know (v.)\naccept (someone) to be what is claimed or accept his power and authority",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00719062",
-    "text": "Verb sense: explode\nDefinition: show a violent emotional reaction",
+    "text": "explode (v.)\nshow a violent emotional reaction",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00719590",
-    "text": "Verb sense: answer\nDefinition: respond to a signal",
+    "text": "answer (v.)\nrespond to a signal",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00652900",
-    "text": "Verb sense: compare\nDefinition: examine and note the similarities or differences of",
+    "text": "compare (v.)\nexamine and note the similarities or differences of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00696700",
-    "text": "Verb sense: go over / review\nDefinition: hold a review (of troops)",
+    "text": "go over / review (v.)\nhold a review (of troops)",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00617748",
-    "text": "Verb sense: err / slip\nDefinition: to make a mistake or be incorrect",
+    "text": "err / slip (v.)\nto make a mistake or be incorrect",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00636441",
-    "text": "Verb sense: induce\nDefinition: reason or establish by induction",
+    "text": "induce (v.)\nreason or establish by induction",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00610538",
-    "text": "Verb sense: remind\nDefinition: put in the mind of someone",
+    "text": "remind (v.)\nput in the mind of someone",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00675901",
-    "text": "Verb sense: draw\nDefinition: select or take in from a given group or region",
+    "text": "draw (v.)\nselect or take in from a given group or region",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00610167",
-    "text": "Verb sense: forget\nDefinition: dismiss from the mind; stop remembering",
+    "text": "forget (v.)\ndismiss from the mind; stop remembering",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00655792",
-    "text": "Verb sense: reclassify\nDefinition: classify anew, change the previous classification",
+    "text": "reclassify (v.)\nclassify anew, change the previous classification",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00654625",
-    "text": "Verb sense: classify / separate / sort out / class\nDefinition: arrange or order by classes or categories",
+    "text": "classify / separate / sort out / class (v.)\narrange or order by classes or categories",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00591755",
-    "text": "Verb sense: sink in / come home / dawn / get across / penetrate\nDefinition: become clear or enter one's consciousness or emotions",
+    "text": "sink in / come home / dawn / get across / penetrate (v.)\nbecome clear or enter one's consciousness or emotions",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00728617",
-    "text": "Verb sense: realize / recognize\nDefinition: be fully aware or cognizant of",
+    "text": "realize / recognize (v.)\nbe fully aware or cognizant of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00594621",
-    "text": "Verb sense: know\nDefinition: be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about",
+    "text": "know (v.)\nbe cognizant or aware of a fact or a specific piece of information; possess knowledge or information about",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00653620",
-    "text": "Verb sense: compare / equate\nDefinition: consider or describe as similar, equal, or analogous",
+    "text": "compare / equate (v.)\nconsider or describe as similar, equal, or analogous",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00686447",
-    "text": "Verb sense: accept\nDefinition: consider or hold as true",
+    "text": "accept (v.)\nconsider or hold as true",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00703875",
-    "text": "Verb sense: contemplate\nDefinition: consider as a possibility",
+    "text": "contemplate (v.)\nconsider as a possibility",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00604576",
-    "text": "Verb sense: learn / memorize\nDefinition: commit to memory; learn by heart",
+    "text": "learn / memorize (v.)\ncommit to memory; learn by heart",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00633443",
-    "text": "Verb sense: suppose / speculate / hypothesize / theorize / conjecture\nDefinition: to believe especially on uncertain or tentative grounds",
+    "text": "suppose / speculate / hypothesize / theorize / conjecture (v.)\nto believe especially on uncertain or tentative grounds",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00707624",
-    "text": "Verb sense: conspire\nDefinition: act in unison or agreement and in secret towards a deceitful or illegal purpose",
+    "text": "conspire (v.)\nact in unison or agreement and in secret towards a deceitful or illegal purpose",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00690305",
-    "text": "Verb sense: feel\nDefinition: have a feeling or perception about oneself in reaction to someone's behavior or attitude",
+    "text": "feel (v.)\nhave a feeling or perception about oneself in reaction to someone's behavior or attitude",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00647094",
-    "text": "Verb sense: measure\nDefinition: determine the measurements of something or somebody, take measurements of",
+    "text": "measure (v.)\ndetermine the measurements of something or somebody, take measurements of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00639998",
-    "text": "Verb sense: average / average out\nDefinition: compute the average of",
+    "text": "average / average out (v.)\ncompute the average of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00738951",
-    "text": "Verb sense: carry\nDefinition: include, as on a list",
+    "text": "carry (v.)\ninclude, as on a list",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00698398",
-    "text": "Verb sense: will\nDefinition: determine by choice",
+    "text": "will (v.)\ndetermine by choice",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00620673",
-    "text": "Verb sense: obscure / blur\nDefinition: make unclear, indistinct, or blurred",
+    "text": "obscure / blur (v.)\nmake unclear, indistinct, or blurred",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00678777",
-    "text": "Verb sense: book\nDefinition: engage for a performance",
+    "text": "book (v.)\nengage for a performance",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00729109",
-    "text": "Verb sense: trace / follow\nDefinition: follow, discover, or ascertain the course of development of something",
+    "text": "trace / follow (v.)\nfollow, discover, or ascertain the course of development of something",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00594058",
-    "text": "Verb sense: sympathize / understand\nDefinition: be understanding of",
+    "text": "sympathize / understand (v.)\nbe understanding of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00732552",
-    "text": "Verb sense: keep / observe\nDefinition: stick to correctly or closely",
+    "text": "keep / observe (v.)\nstick to correctly or closely",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00652622",
-    "text": "Verb sense: catalogue\nDefinition: make an itemized list or catalog of; classify",
+    "text": "catalogue (v.)\nmake an itemized list or catalog of; classify",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00716531",
-    "text": "Verb sense: presuppose\nDefinition: take for granted or as a given; suppose beforehand",
+    "text": "presuppose (v.)\ntake for granted or as a given; suppose beforehand",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00704388",
-    "text": "Verb sense: contemplate / study\nDefinition: think intently and at length, as for spiritual purposes",
+    "text": "contemplate / study (v.)\nthink intently and at length, as for spiritual purposes",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00593852",
-    "text": "Verb sense: understand / translate / interpret\nDefinition: make sense of a language",
+    "text": "understand / translate / interpret (v.)\nmake sense of a language",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00711715",
-    "text": "Verb sense: think of / think about / entertain / flirt with / toy with\nDefinition: take into consideration, have in view",
+    "text": "think of / think about / entertain / flirt with / toy with (v.)\ntake into consideration, have in view",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00627091",
-    "text": "Verb sense: read\nDefinition: interpret the significance of, as of palms, tea leaves, intestines, the sky; also of human behavior",
+    "text": "read (v.)\ninterpret the significance of, as of palms, tea leaves, intestines, the sky; also of human behavior",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00706047",
-    "text": "Verb sense: hope / go for\nDefinition: intend with some possibility of fulfilment",
+    "text": "hope / go for (v.)\nintend with some possibility of fulfilment",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00695226",
-    "text": "Verb sense: value\nDefinition: fix or determine the value of; assign a value to",
+    "text": "value (v.)\nfix or determine the value of; assign a value to",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00710005",
-    "text": "Verb sense: organize / mastermind\nDefinition: plan and direct (a complex undertaking)",
+    "text": "organize / mastermind (v.)\nplan and direct (a complex undertaking)",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00601043",
-    "text": "Verb sense: engulf / steep / absorb / engross / immerse\nDefinition: devote (oneself) fully to",
+    "text": "engulf / steep / absorb / engross / immerse (v.)\ndevote (oneself) fully to",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00640136",
-    "text": "Verb sense: square\nDefinition: raise to the second power",
+    "text": "square (v.)\nraise to the second power",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00687295",
-    "text": "Verb sense: doubt\nDefinition: consider unlikely or have doubts about",
+    "text": "doubt (v.)\nconsider unlikely or have doubts about",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00705227",
-    "text": "Verb sense: plan / be after\nDefinition: have the will and intention to carry out some action",
+    "text": "plan / be after (v.)\nhave the will and intention to carry out some action",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00733895",
-    "text": "Verb sense: believe in\nDefinition: have a firm conviction as to the goodness of something",
+    "text": "believe in (v.)\nhave a firm conviction as to the goodness of something",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00715239",
-    "text": "Verb sense: feel / find\nDefinition: come to believe on the basis of emotion, intuitions, or indefinite grounds",
+    "text": "feel / find (v.)\ncome to believe on the basis of emotion, intuitions, or indefinite grounds",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00709844",
-    "text": "Verb sense: slate\nDefinition: designate or schedule",
+    "text": "slate (v.)\ndesignate or schedule",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00621058",
-    "text": "Verb sense: illuminate / shed light on / sort out / clear / crystallize\nDefinition: make free from confusion or ambiguity; make clear",
+    "text": "illuminate / shed light on / sort out / clear / crystallize (v.)\nmake free from confusion or ambiguity; make clear",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00723056",
-    "text": "Verb sense: think\nDefinition: focus one's attention on a certain state",
+    "text": "think (v.)\nfocus one's attention on a certain state",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00685081",
-    "text": "Verb sense: count\nDefinition: include as if by counting",
+    "text": "count (v.)\ninclude as if by counting",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00615774",
-    "text": "Verb sense: exclude / omit / leave out / leave off / except\nDefinition: prevent from being included or considered or accepted",
+    "text": "exclude / omit / leave out / leave off / except (v.)\nprevent from being included or considered or accepted",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00728393",
-    "text": "Verb sense: impress\nDefinition: produce or try to produce a vivid impression of",
+    "text": "impress (v.)\nproduce or try to produce a vivid impression of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00714884",
-    "text": "Verb sense: debate\nDefinition: argue with one another",
+    "text": "debate (v.)\nargue with one another",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00595935",
-    "text": "Verb sense: know\nDefinition: know how to do or perform something",
+    "text": "know (v.)\nknow how to do or perform something",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00670991",
-    "text": "Verb sense: stand\nDefinition: have or maintain a position or stand on an issue",
+    "text": "stand (v.)\nhave or maintain a position or stand on an issue",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00636061",
-    "text": "Verb sense: guess\nDefinition: guess correctly; solve by guessing",
+    "text": "guess (v.)\nguess correctly; solve by guessing",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00640385",
-    "text": "Verb sense: factor\nDefinition: resolve into factors",
+    "text": "factor (v.)\nresolve into factors",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00706243",
-    "text": "Verb sense: propose / project\nDefinition: present for consideration, examination, criticism, etc.",
+    "text": "propose / project (v.)\npresent for consideration, examination, criticism, etc.",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00619610",
-    "text": "Verb sense: confuse\nDefinition: mistake one thing for another",
+    "text": "confuse (v.)\nmistake one thing for another",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00694068",
-    "text": "Verb sense: respect / esteem / value\nDefinition: regard highly; think much of",
+    "text": "respect / esteem / value (v.)\nregard highly; think much of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00646542",
-    "text": "Verb sense: survey\nDefinition: consider in a comprehensive way",
+    "text": "survey (v.)\nconsider in a comprehensive way",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00679239",
-    "text": "Verb sense: single out\nDefinition: select from a group",
+    "text": "single out (v.)\nselect from a group",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00590366",
-    "text": "Verb sense: get it / catch on / get onto\nDefinition: understand, usually after some initial difficulty",
+    "text": "get it / catch on / get onto (v.)\nunderstand, usually after some initial difficulty",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00728954",
-    "text": "Verb sense: fathom / penetrate\nDefinition: come to understand",
+    "text": "fathom / penetrate (v.)\ncome to understand",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00588888",
-    "text": "Verb sense: understand\nDefinition: know and comprehend the nature or meaning of",
+    "text": "understand (v.)\nknow and comprehend the nature or meaning of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00659776",
-    "text": "Verb sense: place / come out\nDefinition: take a place in a competition; often followed by an ordinal",
+    "text": "place / come out (v.)\ntake a place in a competition; often followed by an ordinal",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00716345",
-    "text": "Verb sense: presuppose\nDefinition: require as a necessary antecedent or precondition",
+    "text": "presuppose (v.)\nrequire as a necessary antecedent or precondition",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00705517",
-    "text": "Verb sense: aim / aspire\nDefinition: have an ambitious plan or a lofty goal",
+    "text": "aim / aspire (v.)\nhave an ambitious plan or a lofty goal",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00631737",
-    "text": "Verb sense: think / guess / suppose / imagine / reckon\nDefinition: expect, believe, or suppose",
+    "text": "think / guess / suppose / imagine / reckon (v.)\nexpect, believe, or suppose",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00713167",
-    "text": "Verb sense: associate / relate / link / connect\nDefinition: make a logical or causal connection",
+    "text": "associate / relate / link / connect (v.)\nmake a logical or causal connection",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00673983",
-    "text": "Verb sense: approve\nDefinition: judge to be right or commendable; think well of",
+    "text": "approve (v.)\njudge to be right or commendable; think well of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00594337",
-    "text": "Verb sense: know\nDefinition: be familiar or acquainted with a person or an object",
+    "text": "know (v.)\nbe familiar or acquainted with a person or an object",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00721098",
-    "text": "Verb sense: believe / trust\nDefinition: be confident about something",
+    "text": "believe / trust (v.)\nbe confident about something",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00670261",
-    "text": "Verb sense: judge\nDefinition: form a critical opinion of",
+    "text": "judge (v.)\nform a critical opinion of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00723349",
-    "text": "Verb sense: occur / come\nDefinition: come to one's mind; suggest itself",
+    "text": "occur / come (v.)\ncome to one's mind; suggest itself",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00681429",
-    "text": "Verb sense: evaluate / assess / measure / appraise\nDefinition: evaluate or estimate the nature, quality, ability, extent, or significance of",
+    "text": "evaluate / assess / measure / appraise (v.)\nevaluate or estimate the nature, quality, ability, extent, or significance of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00607405",
-    "text": "Verb sense: study\nDefinition: be a student; follow a course of study; be enrolled at an institute of learning",
+    "text": "study (v.)\nbe a student; follow a course of study; be enrolled at an institute of learning",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00692329",
-    "text": "Verb sense: abstract\nDefinition: consider a concept without thinking of a specific example; consider abstractly or theoretically",
+    "text": "abstract (v.)\nconsider a concept without thinking of a specific example; consider abstractly or theoretically",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00595630",
-    "text": "Verb sense: know\nDefinition: be aware of the truth of something; have a belief or faith in something; regard as true beyond any doubt",
+    "text": "know (v.)\nbe aware of the truth of something; have a belief or faith in something; regard as true beyond any doubt",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00660851",
-    "text": "Verb sense: upgrade\nDefinition: rate higher; raise in value or esteem",
+    "text": "upgrade (v.)\nrate higher; raise in value or esteem",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00720808",
-    "text": "Verb sense: foresee / anticipate / foreknow\nDefinition: realize beforehand",
+    "text": "foresee / anticipate / foreknow (v.)\nrealize beforehand",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00668805",
-    "text": "Verb sense: accept\nDefinition: tolerate or accommodate oneself to",
+    "text": "accept (v.)\ntolerate or accommodate oneself to",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00627520",
-    "text": "Verb sense: read\nDefinition: obtain data from magnetic tapes",
+    "text": "read (v.)\nobtain data from magnetic tapes",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00678547",
-    "text": "Verb sense: time\nDefinition: assign a time for an activity or event",
+    "text": "time (v.)\nassign a time for an activity or event",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00652346",
-    "text": "Verb sense: identify / describe / key / name\nDefinition: identify as in botany or biology, for example",
+    "text": "identify / describe / key / name (v.)\nidentify as in botany or biology, for example",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00719734",
-    "text": "Verb sense: expect / anticipate\nDefinition: regard something as probable or likely",
+    "text": "expect / anticipate (v.)\nregard something as probable or likely",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00693172",
-    "text": "Verb sense: romanticize\nDefinition: interpret romantically",
+    "text": "romanticize (v.)\ninterpret romantically",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00720497",
-    "text": "Verb sense: look forward\nDefinition: expect or hope for",
+    "text": "look forward (v.)\nexpect or hope for",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00634090",
-    "text": "Verb sense: reconstruct\nDefinition: reassemble mentally",
+    "text": "reconstruct (v.)\nreassemble mentally",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00713015",
-    "text": "Verb sense: aim / direct\nDefinition: specifically design a product, event, or activity for a certain public",
+    "text": "aim / direct (v.)\nspecifically design a product, event, or activity for a certain public",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00644583",
-    "text": "Verb sense: study / analyze / examine / analyse\nDefinition: consider in detail and subject to an analysis in order to discover essential features or meaning",
+    "text": "study / analyze / examine / analyse (v.)\nconsider in detail and subject to an analysis in order to discover essential features or meaning",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00677683",
-    "text": "Verb sense: assign / set apart\nDefinition: select something or someone for a specific purpose",
+    "text": "assign / set apart (v.)\nselect something or someone for a specific purpose",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00601822",
-    "text": "Verb sense: embrace / sweep up\nDefinition: take up the cause, ideology, practice, method, of someone and use it as one's own",
+    "text": "embrace / sweep up (v.)\ntake up the cause, ideology, practice, method, of someone and use it as one's own",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00709205",
-    "text": "Verb sense: want\nDefinition: wish or demand the presence of",
+    "text": "want (v.)\nwish or demand the presence of",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00613018",
-    "text": "Verb sense: leave\nDefinition: leave behind unintentionally",
+    "text": "leave (v.)\nleave behind unintentionally",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00679937",
-    "text": "Verb sense: choose\nDefinition: see fit or proper to act in a certain way; decide to act in a certain way",
+    "text": "choose (v.)\nsee fit or proper to act in a certain way; decide to act in a certain way",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
     "id": "wn30-v-00686879",
-    "text": "Verb sense: receive\nDefinition: accept as true or valid",
+    "text": "receive (v.)\naccept as true or valid",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   }
 ]

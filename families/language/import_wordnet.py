@@ -107,13 +107,13 @@ def score(synset):
 
 
 def record(synset):
-    part = {"n": "noun", "v": "verb", "a": "adjective", "r": "adverb"}[synset["pos"]]
+    part = {"n": "n.", "v": "v.", "a": "adj.", "r": "adv."}[synset["pos"]]
     words = sorted({word for word in synset["words"] if synset["counts"][word.lower()]},
                    key=lambda word: (-synset["counts"][word.lower()], word))[:6]
     wording = " / ".join(words)
     return {
         "id": f"wn30-{synset['pos']}-{synset['offset']}",
-        "text": f"{part.capitalize()} sense: {wording}\nDefinition: {synset['definition']}",
+        "text": f"{wording} ({part})\n{synset['definition']}",
         "provenance": PROVENANCE,
     }
 
@@ -179,14 +179,16 @@ def import_records(archive):
                 pairs[identity] = {
                     "id": f"wn30-ant-{pos}-{identity[0][0][1]}-{identity[1][0][1]}-"
                           + hashlib.sha256(repr(identity).encode()).hexdigest()[:8],
-                    "text": f"{path[:-1].capitalize()} antonyms:\n"
-                            f"{source_word} - {value['definition']}\n"
-                            f"{target_word} - {target['definition']}",
+                    "text": f"{source_word} — {value['definition']}\n"
+                            f"{target_word} — {target['definition']}",
                     "provenance": PROVENANCE + " Direct lexical ! pointer with exact source/target word numbers; unordered pairs deduplicated.",
                 }
         chosen = sorted(pairs.values(), key=lambda value: hashlib.sha256(value["id"].encode()).hexdigest())[:160]
         write("relations/antonyms/" + path, chosen)
-    (ROOT / "lexicon" / "LICENSE").write_text(license_text, encoding="utf-8")
+    (ROOT / "lexicon" / "LICENSE").write_text(
+        "\n".join(line.rstrip() for line in license_text.splitlines()) + "\n",
+        encoding="utf-8",
+    )
 
 
 def main():

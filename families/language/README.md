@@ -1,17 +1,16 @@
 # Language
 
-English constructions, lexical senses, semantic relations, traditional expressions,
-and word histories. Branches balance material types and topics, rather than treating
-record counts as sampling weights.
+Attested English usage, lexical senses, semantic relations, traditional expressions,
+and historical word scholarship. Sampled text contains the source material and its
+credit, without invented examples, interpretations, or category introductions.
 
-- `grammar/tense-aspect/`: six original examples.
-- `grammar/syntax/`: 44 original examples in ten construction families: voice and
-  agreement, clause types, relatives, conditionals, adverbial clauses, comparisons,
-  information structure, complementation, coordination, and noun phrases.
-- `phraseology/idioms/`: 15 attested phrases with original definitions and examples.
-- `phraseology/proverbs/`: 25 sayings checked against Preston's numbered entries;
-  their readings are interpretations, not universal advice.
-- `word-histories/`: 12 concise explanations based on Weekley's 1922 edition.
+- `grammar/`: 335 literary usage quotations collected by Baskervill and Sewell in
+  *An English Grammar* (1895), retaining the credited authors.
+- `phraseology/sayings/`: 614 exact entries from Thomas Preston's *A Dictionary of
+  English Proverbs and Proverbial Phrases*. Idioms and proverbs share one collection
+  instead of repeating an expression in two tiny leaves.
+- `word-histories/`: 51 complete paragraphs from Ernest Weekley's *The Romance of
+  Words*, fourth edition (1922), replacing twelve editorial paraphrases.
 - `lexicon/senses/`: bounded WordNet collections divided by part of speech and
   native lexical domain. Nouns cover attributes, cognition, communication, feelings,
   phenomena, processes, relations, shapes, states, and time; verbs cover change,
@@ -19,11 +18,31 @@ record counts as sampling weights.
 - `lexicon/relations/antonyms/`: direct lexical antonyms, separately for nouns,
   verbs, and adjectives, with both definitions to distinguish the relevant senses.
 
-Invented examples are identified in provenance. Idiom wording may be inflected or
-modernized; attestation does not establish origin. Historical sources are linked in
-each record. Grammar examples illustrate conventional English constructions without
-claiming to describe every dialect. Slash-separated WordNet words share the listed
-sense; this does not make them interchangeable in every sentence.
+The four branches deliberately receive 50% lexicon, 25% phraseology, 20% grammar,
+and 5% word histories within language. This preserves material variety while
+reducing the former 25% share assigned to twelve word histories. WordNet's existing
+part-of-speech and domain balance remains; record counts do not let it displace
+the other sources.
+
+Historical wording is not modernized. Word histories carry Weekley's name, book,
+and year; selection avoids obvious discredited derivations, missing quotation
+context, and page references. Slash-separated WordNet words share the listed sense.
+Compact part-of-speech notation identifies the lexical entry without repeating the
+sampling path; antonym pairs display both exact definitions on separate lines.
+
+## Reproducible historical selections
+
+`python -B families/language/import_historical.py` downloads two source snapshots
+into `target/imports/language`, verifies their SHA256 checksums, and rebuilds the
+sayings and word-history records. `historical-selections.json` stores the reviewed
+entry numbers and normalized-text checksums. The importer strips page furniture,
+footnote markers, and Preston's index keywords; it preserves the selected wording
+and adds a source credit. Source changes fail verification instead of silently
+replacing reviewed material. The parser uses only Python's standard library.
+Add `--check` to verify the generated files without rewriting them.
+
+The grammar importer and its source selection are documented in [grammar/README.md](grammar/README.md).
+Redistribution notices are in [LICENSE.md](LICENSE.md) and [grammar/LICENSE.md](grammar/LICENSE.md).
 
 ## Reproducible WordNet selection
 
