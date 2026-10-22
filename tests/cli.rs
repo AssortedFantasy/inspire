@@ -124,7 +124,7 @@ fn listing_and_help_respect_the_cli_contract() {
         let help = invoke(&[flag]);
         assert!(help.status.success());
         assert!(help.stderr.is_empty());
-        assert_eq!(help.stdout, b"Generates a bit of inspiration\n");
+        assert_eq!(help.stdout, b"Generates a bit of inspirational text.\n");
     }
     let full_help = invoke(&["--help-full"]);
     assert!(full_help.status.success());

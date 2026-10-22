@@ -8,6 +8,7 @@ import argparse
 from collections import Counter, defaultdict
 import json
 from pathlib import Path
+import random
 import subprocess
 import tomllib
 import unicodedata
@@ -19,6 +20,18 @@ ROOT = Path(__file__).resolve().parents[1] / "families"
 
 def normalized(text):
     return " ".join(unicodedata.normalize("NFKC", text).casefold().split())
+
+
+def weighted_samples(binary, count, seed):
+    """Exercise the ordinary CLI distribution, keeping every sample reproducible."""
+    rng = random.Random(seed)
+    samples = []
+    for _ in range(count):
+        sample_seed = rng.getrandbits(64)
+        result = subprocess.run([str(binary), "--seed", str(sample_seed), "--json"],
+                                check=True, capture_output=True, text=True, encoding="utf-8")
+        samples.append({"seed": sample_seed, **json.loads(result.stdout)})
+    return samples
 
 
 def weight(path):
@@ -82,7 +95,8 @@ def review(binary=None, sample_count=3, seeds=128):
         if corpus.exists():
             records = json.loads(corpus.read_text(encoding="utf-8"))
             families[family].update(records=len(records), corpora=1)
-            entry.update(kind="corpus", records=len(records), per_record_probability=probability / len(records))
+            entry.update(kind="corpus", records=len(records), per_record_probability=probability / len(records),
+                         repeat_probability=probability * probability / len(records))
             # Spread samples across the file, including both endpoints.
             indexes = sorted({i * (len(records) - 1) // max(1, sample_count - 1) for i in range(sample_count)})
             entry["samples"] = [records[i] for i in indexes]
@@ -98,10 +112,16 @@ def review(binary=None, sample_count=3, seeds=128):
         leaves.append(entry)
 
     visit(ROOT, 1.0)
+    corpora = [entry for entry in leaves if entry["kind"] == "corpus"]
     return {"families": dict(sorted(families.items())),
             "totals": dict(sum(families.values(), Counter())),
             "max_leaf_depth": max(entry["path"].count("/") + 1 for entry in leaves),
             "duplicate_texts": [refs for refs in texts.values() if len(refs) > 1],
+            # Probability that two independent root draws select the same record.
+            # Cross-leaf duplicates and generators are deliberately excluded.
+            "corpus_repeat_probability": sum(entry["repeat_probability"] for entry in corpora),
+            "most_exposed_records": [entry["path"] for entry in sorted(
+                corpora, key=lambda entry: -entry["per_record_probability"])[:20]],
             "leaves": leaves}
 
 
@@ -111,16 +131,25 @@ def main():
     parser.add_argument("--samples", type=int, default=3, help="Samples per leaf (positive integer)")
     parser.add_argument("--seeds", type=int, default=128, help="Generator seeds to inspect (positive integer)")
     parser.add_argument("--output", type=Path, help="Save the full JSON report here")
+    parser.add_argument("--weighted-samples", type=int, default=0,
+                        help="Include this many ordinary weighted CLI draws (requires --binary)")
+    parser.add_argument("--seed", type=int, default=0, help="Seed for choosing weighted sample seeds")
     args = parser.parse_args()
     if args.samples < 1 or args.seeds < 1:
         parser.error("--samples and --seeds must be positive")
+    if args.weighted_samples < 0 or (args.weighted_samples and not args.binary):
+        parser.error("--weighted-samples must be nonnegative and requires --binary")
     report = review(args.binary.resolve() if args.binary else None, args.samples, args.seeds)
+    if args.weighted_samples:
+        report["weighted_samples"] = weighted_samples(args.binary.resolve(), args.weighted_samples, args.seed)
     if args.output:
         args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     for family, counts in report["families"].items():
         print(f"{family}: {counts['records']} records, {counts['corpora']} corpora, {counts['generators']} generators")
     print(f"Totals: {report['totals']}; maximum depth: {report['max_leaf_depth']}; "
           f"duplicate text groups: {len(report['duplicate_texts'])}")
+    print(f"Same-record probability for two root draws: {report['corpus_repeat_probability']:.6%} "
+          "(corpora only; excludes cross-leaf duplicates)")
 
 
 if __name__ == "__main__":
