@@ -1,68 +1,162 @@
 use rand::{Rng, rngs::StdRng};
 
-const NAMES: [&str; 12] = [
-    "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B",
-];
+mod spelling {
+    include!("../../spelling.rs");
+}
+
 const MAJOR: [u8; 7] = [0, 2, 4, 5, 7, 9, 11];
-const ROMAN: [&str; 7] = ["I", "ii", "iii", "IV", "V", "vi", "vii°"];
-const PATTERNS: [(&str, &[usize]); 7] = [
-    ("authentic close", &[0, 3, 4, 0]),
-    ("authentic close", &[0, 1, 4, 0]),
-    ("plagal close", &[0, 5, 3, 0]),
-    ("deceptive close", &[0, 3, 4, 5]),
-    ("half close", &[0, 5, 1, 4]),
-    ("authentic close", &[0, 5, 1, 4, 0]),
-    ("half close", &[0, 3, 1, 4]),
+const MINOR: [u8; 7] = [0, 2, 3, 5, 7, 8, 10];
+const SUFFIXES: [&str; 7] = ["", "m", "dim", "7", "m7", "maj7", "m7b5"];
+type Chord = (usize, i8, usize);
+type Pattern = (bool, &'static str, &'static [Chord]);
+const PATTERNS: [Pattern; 16] = [
+    (
+        false,
+        "authentic cadence",
+        &[(0, 0, 0), (3, 0, 0), (4, 0, 3), (0, 0, 0)],
+    ),
+    (
+        false,
+        "authentic cadence",
+        &[(0, 0, 0), (1, 0, 4), (4, 0, 3), (0, 0, 0)],
+    ),
+    (
+        false,
+        "plagal cadence",
+        &[(0, 0, 0), (5, 0, 1), (3, 0, 0), (0, 0, 0)],
+    ),
+    (
+        false,
+        "deceptive cadence",
+        &[(0, 0, 0), (3, 0, 0), (4, 0, 3), (5, 0, 1)],
+    ),
+    (
+        false,
+        "half cadence",
+        &[(0, 0, 0), (5, 0, 1), (1, 0, 1), (4, 0, 0)],
+    ),
+    (
+        false,
+        "minor plagal cadence",
+        &[(0, 0, 0), (3, 0, 0), (3, 0, 1), (0, 0, 0)],
+    ),
+    (
+        false,
+        "secondary dominant",
+        &[(0, 0, 0), (5, 0, 3), (1, 0, 4), (4, 0, 3), (0, 0, 0)],
+    ),
+    (
+        false,
+        "secondary dominant",
+        &[(0, 0, 0), (1, 0, 3), (4, 0, 3), (0, 0, 0)],
+    ),
+    (
+        false,
+        "backdoor cadence",
+        &[(0, 0, 0), (3, 0, 4), (6, -1, 3), (0, 0, 5)],
+    ),
+    (
+        true,
+        "authentic cadence",
+        &[(0, 0, 1), (3, 0, 1), (4, 0, 3), (0, 0, 1)],
+    ),
+    (
+        true,
+        "authentic cadence",
+        &[(0, 0, 1), (1, 0, 6), (4, 0, 3), (0, 0, 1)],
+    ),
+    (
+        true,
+        "deceptive cadence",
+        &[(0, 0, 1), (3, 0, 1), (4, 0, 3), (5, 0, 0)],
+    ),
+    (
+        true,
+        "Neapolitan cadence",
+        &[(0, 0, 1), (1, -1, 0), (4, 0, 3), (0, 0, 1)],
+    ),
+    (
+        true,
+        "Andalusian cadence",
+        &[(0, 0, 1), (6, 0, 0), (5, 0, 0), (4, 0, 0)],
+    ),
+    (
+        true,
+        "plagal cadence",
+        &[(0, 0, 1), (5, 0, 0), (3, 0, 1), (0, 0, 1)],
+    ),
+    (
+        true,
+        "Picardy third",
+        &[(0, 0, 1), (3, 0, 1), (4, 0, 3), (0, 0, 0)],
+    ),
 ];
 
-fn chord(tonic: u8, degree: usize) -> [u8; 3] {
-    [0, 2, 4].map(|offset| (tonic + MAJOR[(degree + offset) % 7]) % 12)
+fn chord_root(tonic: spelling::Pitch, scale: [u8; 7], chord: Chord) -> spelling::Pitch {
+    let (degree, alteration, _) = chord;
+    tonic.transpose(
+        (scale[degree] as i8 + alteration).rem_euclid(12) as u8,
+        degree,
+    )
 }
 
 pub fn generate(rng: &mut StdRng) -> String {
-    let tonic = rng.random_range(0..12);
-    let (kind, pattern) = PATTERNS[rng.random_range(0..PATTERNS.len())];
-    let romans: Vec<_> = pattern.iter().map(|&d| ROMAN[d]).collect();
+    let (minor, name, pattern) = PATTERNS[rng.random_range(0..PATTERNS.len())];
+    let scale = if minor { MINOR } else { MAJOR };
+    let tonic = spelling::root(rng.random_range(0..12), &scale, &[0, 1, 2, 3, 4, 5, 6]);
     let chords: Vec<_> = pattern
         .iter()
-        .map(|&d| {
-            let labels: Vec<_> = chord(tonic, d)
-                .into_iter()
-                .map(|pc| NAMES[pc as usize])
-                .collect();
-            format!("{} [{}]", ROMAN[d], labels.join(", "))
+        .map(|&chord| {
+            format!(
+                "{}{}",
+                chord_root(tonic, scale, chord).name(),
+                SUFFIXES[chord.2]
+            )
         })
         .collect();
     format!(
-        "{} major: {kind}\n{}\n{}. Each chord lasts one bar. Brackets show root, third and fifth as pitch classes, with sharp labels in twelve-tone equal temperament; voicing is unspecified.",
-        NAMES[tonic as usize],
-        romans.join(" – "),
-        chords.join(" → ")
+        "{} {} — {name}\n| {} |",
+        tonic.name(),
+        if minor { "minor" } else { "major" },
+        chords.join(" | ")
     )
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
+
     #[test]
-    fn diatonic_triad_qualities_and_cadential_endpoints_are_correct() {
-        let qualities = [[4, 7], [3, 7], [3, 7], [4, 7], [4, 7], [3, 7], [3, 6]];
-        for tonic in 0..12 {
-            for (degree, expected) in qualities.iter().enumerate() {
-                let c = chord(tonic, degree);
-                assert_eq!(
-                    [(c[1] + 12 - c[0]) % 12, (c[2] + 12 - c[0]) % 12],
-                    *expected
-                );
-            }
-        }
-        for (name, p) in PATTERNS {
-            let final_pair = &p[p.len() - 2..];
+    fn cadential_roots_resolve_to_the_named_degrees() {
+        for (minor, name, pattern) in PATTERNS {
+            let end = &pattern[pattern.len() - 2..];
             match name {
-                "authentic close" => assert_eq!(final_pair, [4, 0]),
-                "plagal close" => assert_eq!(final_pair, [3, 0]),
-                "deceptive close" => assert_eq!(final_pair, [4, 5]),
-                _ => assert_eq!(*p.last().unwrap(), 4),
+                "authentic cadence" | "Picardy third" | "Neapolitan cadence" => {
+                    assert_eq!(end[0].0, 4);
+                    assert_eq!(end[1].0, 0);
+                }
+                "plagal cadence" | "minor plagal cadence" => {
+                    assert_eq!(end[0].0, 3);
+                    assert_eq!(end[1].0, 0);
+                }
+                "deceptive cadence" => {
+                    assert_eq!(end[0].0, 4);
+                    assert_eq!(end[1].0, 5);
+                }
+                "half cadence" | "Andalusian cadence" => assert_eq!(end[1].0, 4),
+                "backdoor cadence" => {
+                    assert_eq!(end[0], (6, -1, 3));
+                    assert_eq!(end[1].0, 0);
+                }
+                _ => assert_eq!(end[1].0, 0),
+            }
+            let scale = if minor { MINOR } else { MAJOR };
+            for pc in 0..12 {
+                let tonic = spelling::root(pc, &scale, &[0, 1, 2, 3, 4, 5, 6]);
+                for &chord in pattern {
+                    let expected = (pc as i8 + scale[chord.0] as i8 + chord.1).rem_euclid(12) as u8;
+                    assert_eq!(chord_root(tonic, scale, chord).pc(), expected);
+                }
             }
         }
     }

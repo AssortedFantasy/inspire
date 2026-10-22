@@ -7,22 +7,28 @@ fn pattern(pulses: usize, steps: usize, rotation: usize) -> Vec<bool> {
 }
 
 pub fn generate(rng: &mut StdRng) -> String {
-    let steps = rng.random_range(5..=24);
-    let pulses = rng.random_range(2..steps);
+    let steps = [8, 12, 16, 16, 24, 5, 7, 9, 11, 13][rng.random_range(0..10)];
+    let pulses = rng.random_range((steps / 4).max(2)..=steps / 2 + 1);
     let rotation = rng.random_range(0..steps);
     let pattern = pattern(pulses, steps, rotation);
-    let diagram: String = pattern
-        .iter()
-        .map(|&on| if on { 'x' } else { '.' })
-        .collect();
-    let onsets: Vec<_> = pattern
-        .iter()
-        .enumerate()
-        .filter_map(|(i, &on)| on.then_some(i))
-        .collect();
-    format!(
-        "Evenly spaced cyclic rhythm: {pulses} attacks in {steps} equal subdivisions.\n{diagram}\nZero-based onset indices: {onsets:?}. x = attack; . = silence. The pattern repeats cyclically; adjacent inter-onset gaps differ by at most one subdivision."
-    )
+    let group = if steps.is_multiple_of(4) {
+        4
+    } else if steps.is_multiple_of(3) {
+        3
+    } else {
+        steps
+    };
+    let diagram = pattern
+        .chunks(group)
+        .map(|chunk| {
+            chunk
+                .iter()
+                .map(|&on| if on { 'x' } else { '.' })
+                .collect::<String>()
+        })
+        .collect::<Vec<_>>()
+        .join(" ");
+    format!("{pulses} hits / {steps} steps\n|: {diagram} :|")
 }
 
 #[cfg(test)]

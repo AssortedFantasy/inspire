@@ -25,7 +25,7 @@ SKOS = "http://www.w3.org/2004/02/skos/core#"
 FAMILIES = {"2370": "percussion", "2230": "keyboard", "3101": "stringed", "3730": "wind", "2208": "electronic", "4475": "mechanical", "2347": "mirlitons"}
 OMIT = {"Others", "Other instruments", "Electronic", "Mechanical", "Gamelan"}
 OMIT_IDS = {"2348", "2216"}  # duplicate umbrella mirlitons; generic MIDI instrument
-EXCLUDE_IDS = {"5291", "3777", "4766", "6795", "3239", "3705"}
+EXCLUDE_IDS = {"5291", "3777", "4766", "6795", "3239", "3705", "4938"}
 CORRECTIONS = {"3613": "Appalachian dulcimer", "4296": "Bass ophicleide"}
 SUBDIVIDE = {"keyboard", "percussion", "stringed", "wind"}
 
@@ -64,6 +64,13 @@ def routes(uri, parents, active=()):
     if uri.startswith(PREFIX) and uri[len(PREFIX):] in FAMILIES:
         return [(uri,)]
     return [(uri,) + path for parent in sorted(parents.get(uri, ())) for path in routes(parent, parents, active + (uri,))]
+
+
+def repeats_name(kind, name):
+    words = " " + re.sub(r"[^\w]+", " ", name.casefold()) + " "
+    label = re.sub(r"[^\w]+", " ", kind.casefold()).strip()
+    return any(" " + variant + " " in words for variant in
+               {label, label.removesuffix("s"), label.removesuffix("es")})
 
 
 def import_records(cache):
@@ -111,11 +118,12 @@ def import_records(cache):
         name = CORRECTIONS.get(source_id, name)
         aliases = sorted(a for a in alternate.get(uri, ()) if a.casefold() != name.casefold() and len(a) <= 80)
         text = name
-        useful_context = [kind for kind in context if kind.casefold() != name.casefold()]
+        useful_context = [kind for kind in context if not repeats_name(kind, name)
+                          and kind not in {"Electronic instruments", "Mechanical instruments"}]
         if useful_context:
-            text += "\nType: " + "; ".join(useful_context) + "."
+            text += " (" + ", ".join(useful_context) + ")"
         if aliases:
-            text += "\nAlso called: " + "; ".join(aliases[:4]) + "."
+            text += "\nAlso called " + ", ".join(aliases[:4])
         slug = re.sub(r"[^a-z0-9]+", "-", labels[subfamily].lower()).strip("-") if subfamily else None
         relative = f"{category}/{slug}" if slug else category
         grouped[relative].append({"id": "mimo-" + source_id, "text": text,
@@ -137,8 +145,12 @@ def import_records(cache):
         if old_payload.exists():
             old_payload.unlink()
         (parent / "node.toml").write_text(f"weight = {counts[category]}\n", encoding="utf8")
+    (ROOT / "instruments/catalogue/node.toml").write_text(
+        f"weight = {sum(counts.values())}\n", encoding="utf8")
     print("Excluded:", dict(skipped))
     print("Total:", sum(map(len, grouped.values())))
+    from import_data import dedupe_instruments
+    dedupe_instruments()
 
 
 if __name__ == "__main__":

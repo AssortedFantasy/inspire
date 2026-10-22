@@ -1,6 +1,9 @@
 use rand::{Rng, rngs::StdRng};
 
-const GROUPINGS: [&[u8]; 10] = [
+type Group = Vec<(u8, bool)>;
+type Bar = Vec<Group>;
+
+const GROUPINGS: [&[u8]; 12] = [
     &[2, 3],
     &[3, 2],
     &[2, 2, 3],
@@ -8,54 +11,80 @@ const GROUPINGS: [&[u8]; 10] = [
     &[3, 2, 2],
     &[3, 3, 2],
     &[2, 3, 3],
+    &[2, 2, 2, 3],
     &[3, 2, 2, 3],
     &[2, 2, 3, 3],
     &[3, 3, 3, 2],
+    &[3, 2, 3, 2, 3],
+];
+const SHORT: [&[u8]; 6] = [&[4], &[2, 2], &[3, 1], &[1, 3], &[2, 1, 1], &[1, 1, 2]];
+const LONG: [&[u8]; 7] = [
+    &[6],
+    &[2, 2, 2],
+    &[4, 2],
+    &[2, 4],
+    &[3, 1, 2],
+    &[2, 1, 1, 2],
+    &[2, 2, 1, 1],
 ];
 
-fn bar(rng: &mut StdRng, groups: &[u8]) -> Vec<Vec<(u8, bool)>> {
-    groups
+fn group(rng: &mut StdRng, eighths: u8) -> Group {
+    let cells = if eighths == 2 { &SHORT[..] } else { &LONG[..] };
+    cells[rng.random_range(0..cells.len())]
         .iter()
-        .map(|&units| {
-            if rng.random_bool(0.25) {
-                vec![(units, true)]
-            } else {
-                (0..units)
-                    .map(|i| (1, i == 0 || rng.random_bool(0.8)))
-                    .collect()
-            }
-        })
+        .enumerate()
+        .map(|(i, &duration)| (duration, i == 0 || rng.random_bool(0.8)))
         .collect()
+}
+
+fn phrase(rng: &mut StdRng, groups: &[u8]) -> Vec<Bar> {
+    let motif: Bar = groups.iter().map(|&units| group(rng, units)).collect();
+    let mut answer = motif.clone();
+    let changed = rng.random_range(0..groups.len());
+    answer[changed] = group(rng, groups[changed]);
+    if answer[changed] == motif[changed] {
+        answer[changed] = if motif[changed].len() == 1 {
+            vec![(2, true); groups[changed] as usize]
+        } else {
+            vec![(2 * groups[changed], true)]
+        };
+    }
+    let mut ending = answer.clone();
+    let last = groups.len() - 1;
+    ending[last] = vec![(2 * groups[last], true)];
+    vec![motif.clone(), answer, motif, ending]
+}
+
+fn notation(bar: &Bar) -> String {
+    bar.iter()
+        .map(|group| {
+            group
+                .iter()
+                .map(|&(duration, sounding)| {
+                    let note = if sounding { 'C' } else { 'z' };
+                    if duration == 1 {
+                        note.to_string()
+                    } else {
+                        format!("{note}{duration}")
+                    }
+                })
+                .collect::<String>()
+        })
+        .collect::<Vec<_>>()
+        .join(" ")
 }
 
 pub fn generate(rng: &mut StdRng) -> String {
     let groups = GROUPINGS[rng.random_range(0..GROUPINGS.len())];
-    let numerator: u8 = groups.iter().sum();
-    let tempo = rng.random_range(160..=280);
     let grouping = groups
         .iter()
         .map(u8::to_string)
         .collect::<Vec<_>>()
         .join("+");
-    let bars: Vec<_> = (0..4)
-        .map(|_| {
-            bar(rng, groups)
-                .iter()
-                .map(|group| {
-                    group
-                        .iter()
-                        .map(|&(duration, note)| {
-                            format!("{}{}", if note { "n" } else { "r" }, duration)
-                        })
-                        .collect::<Vec<_>>()
-                        .join(" ")
-                })
-                .collect::<Vec<_>>()
-                .join(" / ")
-        })
-        .collect();
+    let tempo = rng.random_range(160..=280);
+    let bars: Vec<_> = phrase(rng, groups).iter().map(notation).collect();
     format!(
-        "Four-bar additive rhythm in {numerator}/8, grouped {grouping}; eighth note = {tempo} BPM.\n{}\nLegend: n = note, r = rest; numbers are eighth-note units; / separates accented groups and | separates bars.",
+        "X:1\nM:({grouping})/8\nL:1/16\nQ:1/8={tempo}\nK:C\n{} |]",
         bars.join(" | ")
     )
 }
@@ -64,15 +93,22 @@ pub fn generate(rng: &mut StdRng) -> String {
 mod tests {
     use super::*;
     use rand::SeedableRng;
+
     #[test]
-    fn additive_groups_preserve_the_meter_and_have_attacks() {
+    fn additive_phrases_preserve_grouping_and_reprise_the_motif() {
         let mut rng = StdRng::seed_from_u64(10);
         for groups in GROUPINGS {
             for _ in 0..500 {
-                let result = bar(&mut rng, groups);
-                for (&expected, actual) in groups.iter().zip(result) {
-                    assert_eq!(actual.iter().map(|(d, _)| *d).sum::<u8>(), expected);
-                    assert!(actual[0].1);
+                let bars = phrase(&mut rng, groups);
+                assert_eq!(bars.len(), 4);
+                assert_eq!(bars[0], bars[2]);
+                assert_ne!(bars[0], bars[1]);
+                for bar in &bars {
+                    assert_eq!(bar.len(), groups.len());
+                    for (&expected, actual) in groups.iter().zip(bar) {
+                        assert_eq!(actual.iter().map(|(d, _)| *d).sum::<u8>(), 2 * expected);
+                        assert!(actual[0].1);
+                    }
                 }
             }
         }

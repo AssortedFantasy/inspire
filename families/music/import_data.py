@@ -91,34 +91,6 @@ def instruments(cache):
     }
     mapping = {item: category for category, items in categories.items() for item in items.split("|")}
     corrections = {"saxaphone": "saxophone", "mellotran": "Mellotron"}
-    specific = {
-        "air horn": "Compressed air drives a vibrating diaphragm; a horn projects the resulting sound.",
-        "calliope": "Pressurized steam or compressed air sounds a bank of whistles, usually operated from a keyboard.",
-        "pipe organ": "A wind supply feeds pipes controlled from keyboards and pedals. Flue pipes sound through an edge-directed air stream; reed pipes use vibrating reeds.",
-        "accordion": "Bellows supply air to free reeds; keys or buttons select the sounding pitches.",
-        "concertina": "Bellows supply air to free reeds; buttons select the sounding pitches.",
-        "harmonica": "The player's breath sounds free reeds mounted inside the instrument.",
-        "melodica": "A mouth-blown keyboard instrument with free reeds.",
-        "bagpipe": "Air stored in a bag supplies one or more reed pipes; typical configurations include a melody pipe and drones.",
-        "bassoon": "A double reed excites the air column of a folded conical bore.",
-        "oboe": "A double reed excites the air column of a conical bore.",
-        "clarinet": "A single reed excites the air column of a predominantly cylindrical bore.",
-        "saxophone": "A single reed excites the air column of a conical bore.",
-        "harpsichord": "Keys operate jacks whose plectra pluck the instrument's strings.",
-        "hurdy-gurdy": "A hand-cranked wheel continuously rubs the strings; keys shorten the melody string's vibrating length.",
-        "piano": "Keys operate hammers that strike strings; dampers control the decay of most notes.",
-        "clavichord": "Keys raise metal tangents that strike the strings and remain in contact to define their vibrating length.",
-        "dulcimer": "The name covers several string instruments: hammered dulcimers are struck with beaters; Appalachian dulcimers are commonly strummed or plucked.",
-        "zither": "A structural family with strings extending across a body without a distinct neck. Different kinds may be plucked, struck or bowed.",
-        "kick drum": "A drumhead is struck, usually by a beater operated with a foot pedal.",
-        "tambourine": "A headed tambourine combines a struck membrane with sounding jingles. Headless variants sound through their jingles alone.",
-        "kazoo": "Humming into the instrument excites a membrane that modifies the player's vocal sound; it is a mirliton.",
-        "Mellotron": "A keyboard controls playback of sampled instrument sounds. Original Mellotrons use magnetic-tape strips; later digital models replay recorded samples electronically.",
-        "theremin": "Electronic oscillators produce the sound; hand positions near antennas control pitch and volume without touching the instrument.",
-        "marimba": "Mallets strike tuned bars, commonly coupled to resonators.",
-        "xylophone": "Mallets strike tuned bars arranged by pitch.",
-        "glockenspiel": "Mallets strike tuned metal bars arranged by pitch.",
-    }
     grouped = defaultdict(list)
     for original in data["instruments"]:
         name = corrections.get(original, original)
@@ -126,18 +98,47 @@ def instruments(cache):
         if name in {"baby grand piano", "grand piano"}:
             continue
         category = mapping[name]
-        description = specific.get(name)
         text = name[0].upper() + name[1:]
-        if description:
-            text += f"\n{description}"
         grouped[category].append({"id": "corpora-instrument-" + hashlib.sha256(original.encode()).hexdigest()[:16], "text": text,
-            "provenance": f"Name from Darius Kazemi and Corpora contributors, CC0: {INSTRUMENT_URL}. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."})
+            "provenance": f"Name from Darius Kazemi and Corpora contributors, CC0: {INSTRUMENT_URL}. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates."})
     for category, records in grouped.items():
         write(f"instruments/sound-mechanism/{category}", records)
-    for former in ("air-driven", "strings", "membranes"):
-        old_payload = ROOT / "instruments/sound-mechanism" / former / "records.json"
-        if old_payload.exists():
-            old_payload.unlink()
+    dedupe_instruments()
+
+
+def dedupe_instruments():
+    branch = ROOT / "instruments/sound-mechanism"
+    catalogue = ROOT / "instruments/catalogue"
+    def key(name):
+        return "".join(c for c in name.casefold() if c.isalnum())
+    names = {key(record["text"].splitlines()[0].split(" (")[0])
+             for payload in catalogue.rglob("records.json")
+             for record in json.loads(payload.read_text(encoding="utf8"))}
+    if not names:
+        raise ValueError("Import the MIMO catalogue before Corpora instruments")
+    counts = defaultdict(int)
+    omitted = 0
+    for payload in sorted(branch.rglob("records.json")):
+        records = json.loads(payload.read_text(encoding="utf8"))
+        retained = [record for record in records if key(record["text"].splitlines()[0]) not in names]
+        omitted += len(records) - len(retained)
+        if retained:
+            payload.write_text(json.dumps(retained, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+            relative = payload.parent.relative_to(branch)
+            for parent in [relative, *relative.parents]:
+                counts[parent] += len(retained)
+        else:
+            payload.unlink()
+            (payload.parent / "node.toml").unlink(missing_ok=True)
+            payload.parent.rmdir()
+    # Only known weight files and already empty directories are removed.
+    for directory in sorted(branch.rglob("*"), key=lambda p: len(p.parts), reverse=True):
+        if directory.is_dir() and directory.relative_to(branch) not in counts:
+            (directory / "node.toml").unlink(missing_ok=True)
+            directory.rmdir()
+    for relative, count in counts.items():
+        (branch / relative / "node.toml").write_text(f"weight = {count}\n", encoding="utf8")
+    print(f"Corpora instruments: {counts[Path('.')]}; omitted {omitted} names already in MIMO")
 
 
 if __name__ == "__main__":

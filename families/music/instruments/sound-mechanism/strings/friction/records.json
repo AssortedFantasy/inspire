@@ -1,27 +1,7 @@
 [
   {
-    "id": "corpora-instrument-00e3e584e242f926",
-    "text": "Violin",
-    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
-  },
-  {
-    "id": "corpora-instrument-7fc2d4968d2e68c6",
-    "text": "Fiddle",
-    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
-  },
-  {
     "id": "corpora-instrument-9bbf02efd82322aa",
     "text": "Cello",
-    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
-  },
-  {
-    "id": "corpora-instrument-ea06555bfb18a805",
-    "text": "Hurdy-gurdy\nA hand-cranked wheel continuously rubs the strings; keys shorten the melody string's vibrating length.",
-    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
-  },
-  {
-    "id": "corpora-instrument-f6d8f0dac4a886d9",
-    "text": "Viola",
-    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates. Mechanism descriptions are original factual framing."
+    "provenance": "Name from Darius Kazemi and Corpora contributors, CC0: https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/music/instruments.json. Original sound-mechanism grouping, not a complete Hornbostel–Sachs code. Corrected saxaphone→saxophone and mellotran→Mellotron; omitted piano size duplicates."
   }
 ]

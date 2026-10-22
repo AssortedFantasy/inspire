@@ -1,15 +1,16 @@
 use rand::{Rng, rngs::StdRng};
 
-const NAMES: [&str; 12] = [
-    "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B",
-];
+mod spelling {
+    include!("../../../harmony/spelling.rs");
+}
+
 const MODES: [&str; 7] = [
-    "Ionian",
+    "major",
     "Dorian",
     "Phrygian",
     "Lydian",
     "Mixolydian",
-    "Aeolian",
+    "natural minor",
     "Locrian",
 ];
 const MAJOR: [u8; 7] = [0, 2, 4, 5, 7, 9, 11];
@@ -21,25 +22,21 @@ fn intervals(mode: usize) -> Vec<u8> {
 }
 
 pub fn generate(rng: &mut StdRng) -> String {
-    let root: u8 = rng.random_range(0..12);
     let mode = rng.random_range(0..7);
     let steps = intervals(mode);
+    let tonic = spelling::root(rng.random_range(0..12), &steps, &[0, 1, 2, 3, 4, 5, 6]);
     let notes: Vec<_> = steps
         .iter()
-        .map(|i| NAMES[((root + i) % 12) as usize])
+        .enumerate()
+        .map(|(degree, &interval)| tonic.transpose(interval, degree).name())
         .collect();
-    format!(
-        "{} {} mode\nAscending pitch classes: {}.\nSemitones above tonic: {:?}. Twelve-tone equal temperament; pitch-class labels use sharps.",
-        NAMES[root as usize],
-        MODES[mode],
-        notes.join(" – "),
-        steps
-    )
+    format!("{} {}\n{}", tonic.name(), MODES[mode], notes.join(" – "))
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
+
     #[test]
     fn modes_rotate_the_diatonic_step_pattern() {
         for mode in 0..7 {

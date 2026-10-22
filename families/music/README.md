@@ -2,8 +2,10 @@
 
 Music balances six topics: repertoire, instruments, pitch, harmony, rhythm and
 melody. Local weights balance concepts, not record counts: the largest catalogue
-does not crowd out generated musical structures. Repertoire separates historical
-recording charts from classical work metadata. The classical catalogue is
+does not crowd out generated musical structures. Instrument subtrees and their
+descendants use record-count weights, so each imported instrument has the same
+conditional probability. Repertoire separates historical recording charts from
+classical work metadata. The classical catalogue is
 predominantly Western art music, not a survey of all world musical traditions.
 
 ## Downloaded catalogues
@@ -28,41 +30,36 @@ acknowledges uneven historical standardization; no composition dates are
 inferred from the API's placeholder composer birth dates. The five leaves have
 4,743; 5,223; 5,088; 1,252; and 8,443 records, respectively.
 
-`instruments/sound-mechanism/` transforms 55 CC0 names from
+`instruments/sound-mechanism/` retains 11 additional instrument names from
 [Darius Kazemi's Corpora](https://github.com/dariusk/corpora), revision
-`2e7adec11a0561696c236ae1fca82e88be173d42`, into 53 records. The imported path is
+`2e7adec11a0561696c236ae1fca82e88be173d42`. The imported path is
 `data/music/instruments.json`, SHA256
 `a2be9c68eb6a536bd37961c78598cbf7c4a303b77ae495f24da27aeff01d2527`.
-Names are grouped by sound mechanism: air-driven (24), strings (21), vibrating
-membranes (3), struck solid bars (3), and electronic generation/playback (2).
-Samples print the name and, where it adds useful detail, an instrument-specific
-mechanism note. These are broad practical categories, not complete
-Hornbostel–Sachs classifications. Names `saxaphone` and `mellotran` are corrected
-to `saxophone` and `Mellotron`; `grand piano` and `baby grand piano` are omitted
-as size variants of `piano`. Traditional synonyms such as violin/fiddle remain.
-Air-driven kinds divide into flutes (4), reeds (9), lip-excited instruments (8),
-and pressure-fed instruments (3). Strings divide into plucked (12), friction (5),
-keyboard-struck (2), and varied-excitation structural families (2). Membranes
-separate struck drumheads (2) from voice-excited mirlitons (1). Kazoo is correctly
-classified as a voice-excited membrane; an air horn uses a diaphragm driven by
-compressed air. Piano hammers and clavichord tangents are distinguished;
-dulcimer and zither remain qualified broad types rather than forced into one
-excitation mechanism. The tambourine's membrane and jingles are both identified,
-with its headless variant qualified. Original Mellotron tape mechanisms and
-later digital models are distinguished. The source list is
-a modest, uneven selection, not an exhaustive instrument catalogue.
+From the 55 CC0 names, two piano-size variants and 42 names already represented
+in MIMO are omitted. Name comparisons ignore case, punctuation and spacing.
+Both importers apply this deduplication and rebuild the record-count weights.
+The retained names are Air horn, Calliope, Cello, Didgeridoo, French horn,
+Kick drum, Pan flute, Piano, Piccolo, Pipe organ and Washtub bass.
 
-`instruments/catalogue/` adds 2,136 instrument kinds from the multilingual
+Samples print the sourced names. The mechanism grouping remains in the tree:
+air-driven (7), strings (3) and struck membranes (1), across seven leaves.
+Original descriptive prose has been removed from the records. These are broad
+practical categories, not complete Hornbostel–Sachs classifications. Source
+spellings `saxaphone` and `mellotran` are normalized before deduplication.
+
+`instruments/catalogue/` adds 2,135 instrument kinds from the multilingual
 [MIMO vocabulary exported by DOREMUS](https://github.com/DOREMUS-ANR/knowledge-base/tree/9cfb5c9cc3147084c9ac01161102f8ac368b8f1b/vocabularies).
 The seven branches are electronic (24), keyboard (73), mechanical (47), mirlitons
-(4), percussion (743), stringed (524), and wind (721). Keyboard, percussion,
+(4), percussion (743), stringed (524), and wind (720). Keyboard, percussion,
 stringed and wind expand into 6, 17, 17 and 22 source-supported families,
 respectively; the other three are leaves. Thus the catalogue has 65 final leaves.
 Each record retains its
 MIMO concept ID, English preferred name, useful broader kind and up to four
-English alternate names. Samples omit source URLs, license boilerplate and
-repeated classifications that match the instrument name; record provenance
-retains source details and the full license is bundled. This adds globally varied kinds
+English alternate names. Useful broader kinds appear in parentheses; redundant
+plural classifications and broad electronic/mechanical labels are omitted. Aliases
+are comma-separated. Samples omit source URLs and license boilerplate; record
+provenance retains source details and the full license is bundled. This adds
+globally varied kinds
 such as rababa, shakuhachi, kora and regional gongs with actual vocabulary links,
 without inferring geographic origins or acoustic mechanisms from their names.
 Categories retain the museum vocabulary's historical groupings; they are not
@@ -84,7 +81,10 @@ records whose immediate broader labels are the redundant `Electronic` and
 concepts become branch labels rather than repeated payload records. The audit
 also excludes opaque `Medium` (5291), misclassified `Txistu` (3777), conflicting
 `Salamuri` (4766), unresolved `Bayan` (6795), and redundant English label/context
-concepts 3239 (harp-guitar) and 3705 (dulcimer), retaining 3225 and 3644 instead.
+concepts 3239 (harp-guitar), 3705 (dulcimer) and 4938 (Jula jula), retaining
+3225, 3644 and 5239 (Julajula) instead. Both flute names normalize identically
+and share the same immediate source parent; 5239 also retains an explicit
+Hornbostel–Sachs link in the source.
 Spelling corrections are concept 3613 `Appalchian dulcimer` → `Appalachian
 dulcimer` and 4296 `Bass ophocleide` → `Bass ophicleide`, corroborated by source
 alternate-language labels and links. Changes remain documented rather than
@@ -114,30 +114,33 @@ data dedications; record provenance preserves download URLs and revisions.
 
 ## Generated structures
 
-Each generator produces one kind of concrete symbolic musical object using only
-the seeded RNG. Pitch names intentionally denote equal-tempered pitch classes
-with sharp enharmonic labels; diatonic staff spellings are not implied.
+Each generator produces a concrete symbolic musical object using only the seeded
+RNG. Diatonic pitches use the correct letter spellings, with enharmonic tonics
+chosen to avoid needless accidentals. Melody and meter outputs are ABC notation.
 
-- `pitch/scales/`: seven diatonic modes and three symmetric interval cycles.
-- `harmony/chords/`: four triad qualities with actual closed-position inversions;
-  six distinct seventh-chord qualities.
-- `harmony/progressions/cadences/`: major-key chord sequences with accurately
-  labelled authentic, plagal, deceptive or half endings; voicing is unspecified.
-- `harmony/voice-leading/triads/`: three ordered voices connecting related
-  diatonic triads. Exhaustive bounded search minimizes total semitone movement
-  among distinct-tone closed voicings with bass MIDI 48–72. This is a geometric
-  voice-leading model, not a full eighteenth-century counterpoint model.
-- `rhythm/meters/`: four-bar simple, compound and additive rhythms with explicit
-  duration units, beat grouping, rests, attacks, meter and tempo units.
-- `rhythm/patterns/even-pulses/`: cyclic attack grids with exactly the stated
-  pulse count and cyclic inter-onset gaps differing by at most one subdivision.
-- `melody/phrases/diatonic/`: original two-bar arches with diatonic pitches,
-  quarter-note durations, bounded thirds, one apex and tonic endings.
+- `pitch/scales/`: seven diatonic modes and four symmetric interval cycles.
+- `harmony/chords/`: four triad qualities with closed or open inversions; seven
+  seventh-chord qualities with inversions and optional drop-2 voicings.
+- `harmony/progressions/cadences/`: sixteen major/minor chord sequences including
+  secondary dominants, borrowed chords, Neapolitan and Picardy endings.
+- `harmony/voice-leading/triads/`: two to five triads in three ordered voices.
+  Exhaustive bounded search minimizes total semitone movement per transition
+  among distinct-tone closed voicings with bass MIDI 48–72.
+- `rhythm/meters/`: four-bar simple, compound and additive phrases with recurring
+  motifs, changed responses, rests and sixteenth-note subdivisions.
+- `rhythm/patterns/even-pulses/`: cyclic attack grids with exact pulse counts and
+  cyclic inter-onset gaps differing by at most one subdivision.
+- `rhythm/patterns/drum-grooves/`: kick, snare and hi-hat grids with two-bar
+  variations and fills.
+- `rhythm/patterns/polymeter/`: independent percussion cycles repeated to their
+  least common period.
+- `melody/phrases/diatonic/`: two-, four- and eight-bar phrases in five modes and
+  five meters. Rhythmic cells, varied contours, transposition, inversion, returning
+  motifs and passing notes provide structure; final notes resolve to the tonic.
 
-Tests verify pitch membership, inversion bass/order, mode step cycles, chord
-quality, cadential endpoints, global minimum voice movement, exact rhythmic
-bar filling, cyclic gaps, and melodic contour/step bounds. Tempo and duration
-units are printed explicitly so symbolic output is interpretable without audio.
+Tests verify pitch membership and spelling, ordered inversions, mode step cycles,
+chord quality, cadential roots, minimum voice movement, exact rhythmic bar
+filling, cyclic gaps, percussion cycle lengths and melodic range/resolution.
 
 ## Historical chart metadata
 

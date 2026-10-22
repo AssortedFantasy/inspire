@@ -1,11 +1,21 @@
 use rand::{Rng, rngs::StdRng};
 
-const NAMES: [&str; 12] = [
-    "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B",
-];
+mod spelling {
+    include!("../../spelling.rs");
+}
+
 const MAJOR: [u8; 7] = [0, 2, 4, 5, 7, 9, 11];
 const ROMAN: [&str; 7] = ["I", "ii", "iii", "IV", "V", "vi", "vii°"];
 const CONNECTIONS: [(usize, usize); 6] = [(1, 4), (4, 0), (3, 0), (1, 3), (5, 3), (0, 5)];
+const PHRASES: [&[usize]; 7] = [
+    &[1, 4, 0],
+    &[0, 5, 1, 4, 0],
+    &[0, 3, 4, 0],
+    &[0, 5, 3, 4],
+    &[0, 2, 5, 1],
+    &[5, 3, 1, 4],
+    &[0, 3, 0],
+];
 
 fn members(tonic: u8, degree: usize) -> [u8; 3] {
     [0, 2, 4].map(|i| (tonic + MAJOR[(degree + i) % 7]) % 12)
@@ -47,34 +57,40 @@ fn closest(source: [u8; 3], target: [u8; 3]) -> [u8; 3] {
         .unwrap()
 }
 
-fn label(notes: [u8; 3]) -> String {
+fn label(notes: [u8; 3], tonic: spelling::Pitch) -> String {
+    let pitches = [0, 1, 2, 3, 4, 5, 6].map(|degree| tonic.transpose(MAJOR[degree], degree));
     notes
         .into_iter()
-        .map(|n| format!("{}{}", NAMES[(n % 12) as usize], n / 12 - 1))
+        .map(|note| {
+            pitches
+                .iter()
+                .find(|pitch| pitch.pc() == note % 12)
+                .unwrap()
+                .at(note)
+        })
         .collect::<Vec<_>>()
         .join(" – ")
 }
 
 pub fn generate(rng: &mut StdRng) -> String {
     let tonic = rng.random_range(0..12);
-    let (from, to) = CONNECTIONS[rng.random_range(0..CONNECTIONS.len())];
-    let sources = candidates(members(tonic, from));
-    let source = sources[rng.random_range(0..sources.len())];
-    let target = closest(source, members(tonic, to));
-    let movement: Vec<_> = source
-        .into_iter()
-        .zip(target)
-        .map(|(s, t)| i16::from(t) - i16::from(s))
-        .collect();
-    format!(
-        "Three-voice chord connection in {} major: {} → {}\nLow to high: {} → {}.\nVoice movements in semitones: {movement:?}; total absolute movement: {}.\nEach chord contains its three distinct chord tones in closed position; voices keep their order. The target minimizes total movement among closed-position voicings with MIDI bass 48–72. C4 = MIDI 60; pitch labels use sharps in twelve-tone equal temperament.",
-        NAMES[tonic as usize],
-        ROMAN[from],
-        ROMAN[to],
-        label(source),
-        label(target),
-        distance(source, target)
-    )
+    let phrase: Vec<_> = if rng.random_bool(0.35) {
+        let (from, to) = CONNECTIONS[rng.random_range(0..CONNECTIONS.len())];
+        vec![from, to]
+    } else {
+        PHRASES[rng.random_range(0..PHRASES.len())].to_vec()
+    };
+    let pitches = spelling::root(tonic, &MAJOR, &[0, 1, 2, 3, 4, 5, 6]);
+    let sources = candidates(members(tonic, phrase[0]));
+    let mut notes = sources[rng.random_range(0..sources.len())];
+    let mut lines = vec![format!("{} major", pitches.name())];
+    for (index, &degree) in phrase.iter().enumerate() {
+        if index > 0 {
+            notes = closest(notes, members(tonic, degree));
+        }
+        lines.push(format!("{:<4} {}", ROMAN[degree], label(notes, pitches)));
+    }
+    lines.join("\n")
 }
 
 #[cfg(test)]
