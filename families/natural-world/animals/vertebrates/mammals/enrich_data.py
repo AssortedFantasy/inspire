@@ -77,8 +77,10 @@ def run():
     enriched = 0
     for record in records:
         record["text"] = record["text"].split(MARKER)[0]
+        for marker in ("\nAdult body mass:", "\nGestation:", "\nOffspring per litter:", "\nMaximum recorded longevity:"):
+            record["text"] = record["text"].split(marker)[0]
         record["provenance"] = record["provenance"].split(" PanTHERIA trait source: ")[0]
-        match = re.match(r"[^()]+ \(([^()]+)\)\.", record["text"])
+        match = re.search(r"\(([^()]+)\)$", record["text"].splitlines()[0])
         canonical = match[1] if match else ""
         row = traits.get(canonical)
         if row is None:
@@ -90,14 +92,17 @@ def run():
             if math.isfinite(value) and value > 0:
                 if unit == "g" and value >= 1000:
                     value, unit = value / 1000, "kg"
-                values.append(f"{label} approximately {number(value)}" + (f" {unit}" if unit else ""))
+                if unit == "months" and value >= 12:
+                    value, unit = value / 12, "years"
+                values.append(f"{label.capitalize()}: approximately {number(value)}" + (f" {unit}" if unit else ""))
                 counts[field] += 1
         if values:
-            record["text"] += MARKER + "; ".join(values) + "."
+            record["text"] += "\n" + "\n".join(values)
             record["provenance"] += (
                 f" PanTHERIA trait source: Jones et al. (2009), https://doi.org/10.1890/08-1494.1; {DATA}; "
                 f"version 1.0 WR05 August 2008, exact MSW05_Binomial={canonical}. "
                 f"Species estimates rounded to three significant figures; missing -999 values omitted. "
+                "Longevity of at least 12 source months is converted to years. "
                 f"Non-EXT fields only; source estimates may include model adjustment or extrapolated literature observations. "
                 f"Maximum longevity includes captive and wild observations, not life expectancy. "
                 f"Species names may represent older species concepts; no synonym remapping or imputation. "

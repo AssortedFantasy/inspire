@@ -119,13 +119,13 @@ def run():
     counts = Counter()
     joins = []
     for record in records:
-        name = re.search(r"\(([^()]*)\)", record["text"]).group(1)
+        name = re.search(r"\(([^()]+)\)$", record["text"].splitlines()[0]).group(1)
         if name not in rows or name not in citations:
             continue
         fields = traits(rows[name], citations[name])
         if not fields:
             continue
-        record["text"] += " ReptTraits: " + "; ".join(f"{label}: {value}" for _, label, value in fields) + "."
+        record["text"] += "\n" + "\n".join(f"{label.capitalize()}: {value}" for _, label, value in fields)
         record["provenance"] += " Exact-binomial join to ReptTraits, Oskyrko et al., Figshare article version 4, workbook v1-2; " + DOI + "; CC BY 4.0. Source-reported values; longevity includes captive records where present. Per-trait citations and exclusions are in trait_sources.json."
         joins.append({"id": record["id"], "species": name, "traits": [{"field": headers[i], "value": rows[name][i], "citation": citations[name][i]} for i, _, _ in fields]})
         counts.update(label for _, label, _ in fields)

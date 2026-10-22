@@ -70,9 +70,8 @@ def central(row, key):
 
 
 def fmt(value):
-    if abs(value) >= 10_000:
-        return f"{value:.0f}"
-    return f"{value:.4g}"
+    mantissa, separator, exponent = f"{value:.4g}".partition("e")
+    return f"{mantissa}e{int(exponent)}" if separator else mantissa
 
 
 def provenance(filename, identifier, details):
@@ -144,13 +143,13 @@ def exoplanets(cache, groups):
         ]:
             value = row[key]
             if central(row, key) and value > 0:
-                details.append(f"reported {label} ≈ {fmt(value)} {unit}")
+                details.append(f"{label.capitalize()}: ≈ {fmt(value)} {unit}")
         minimum_mass = row["pl_msinie"]
         if central(row, "pl_msinie") and minimum_mass > 0:
-            details.append(f"reported minimum mass m·sin(i) ≈ {fmt(minimum_mass)} Earth masses")
+            details.append(f"Minimum mass m·sin(i): ≈ {fmt(minimum_mass)} Earth masses")
         eccentricity = row["pl_orbeccen"]
         if central(row, "pl_orbeccen") and 0 <= eccentricity < 1:
-            details.append(f"reported orbital eccentricity {fmt(eccentricity)}")
+            details.append(f"Orbital eccentricity: {fmt(eccentricity)}")
         if not details:
             continue
         method = row["discoverymethod"]
@@ -159,10 +158,8 @@ def exoplanets(cache, groups):
         raw_reference = row["pl_refname"] or ""
         reference = " ".join(unescape(re.sub(r"<[^>]+>", "", raw_reference)).split())
         urls = re.findall(r"href\s*=\s*[\"']?([^\"'\s>]+)", raw_reference)
-        text = (f"{row['pl_name']}, orbiting {row['hostname']}. " + "; ".join(details)
-                + f". Discovery method: {method}"
-                + (f"; discovery year: {year}" if year else "")
-                + ".")
+        discovery = f"Discovered {year} by {method.lower()}" if year else f"Discovery: {method.lower()}"
+        text = "\n".join([row["pl_name"], f"Host: {row['hostname']}", *details, discovery])
         groups["extrasolar-planets/" + leaf].append({
             "id": "nasa-ps-" + row["pl_name"],
             "text": text,
@@ -192,13 +189,11 @@ def solar_system(cache, groups):
             name = row[0]
             radius, rotation, orbit = (first_number(row[index]) for index in (2, 5, 6))
             assert radius > 0 and rotation != 0 and orbit > 0
-            kind = "planet" if name in planets else "dwarf planet"
             sense = "retrograde" if rotation < 0 else "prograde"
             period_unit = "year" if orbit == 1 else "years"
-            text = (f"{name}, a Solar System {kind}. Reported volume-equivalent mean radius "
-                    f"≈ {fmt(radius)} km; sidereal rotation ≈ {fmt(abs(rotation))} days ({sense}); "
-                    f"sidereal orbital period ≈ {fmt(orbit)} {period_unit}. Sidereal periods are measured "
-                    "relative to fixed stars.")
+            text = (f"{name}\nMean radius: ≈ {fmt(radius)} km\n"
+                    f"Sidereal rotation: ≈ {fmt(abs(rotation))} days ({sense})\n"
+                    f"Sidereal orbital period: ≈ {fmt(orbit)} {period_unit}")
             groups["solar-system/" + ("planets" if name in planets else "dwarf-planets")].append({
                 "id": "jpl-planet-" + name.lower(),
                 "text": text,
@@ -225,9 +220,8 @@ def solar_system(cache, groups):
             # Preserve enough central-value precision for the quoted sigma:
             # rounding Moon 1737.4±0.1 to 1737±0.1 would change the interval.
             uncertainty = f" ± {sigma:.12g}" if sigma is not None and sigma >= 0 else ""
-            text = (f"{moon}, a natural satellite of {planet}. "
-                    f"Reported volume-equivalent mean radius {radius:.12g}{uncertainty} km: "
-                    "the radius of a sphere with the same volume as the moon.")
+            text = (f"{moon} — moon of {planet}\n"
+                    f"Mean radius: {radius:.12g}{uncertainty} km")
             groups["solar-system/natural-satellites"].append({
                 "id": "jpl-satellite-" + code,
                 "text": text,

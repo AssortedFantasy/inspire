@@ -46,6 +46,11 @@ TRAITS = {
     "b_Surface_deposition": "surface sediment deposition", "b_Upward_conveyor": "upward conveyor sediment transport",
     "b_Downward_conveyer": "downward conveyor sediment transport", "b_None": "no bioturbation",
 }
+TRAIT_GROUPS = {
+    "m": "Morphology", "ed": "Egg development", "ld": "Larval development",
+    "lh": "Living habit", "sp": "Sediment position", "f": "Feeding",
+    "mob": "Mobility", "b": "Sediment mixing",
+}
 
 
 def inputs(replay=False):
@@ -90,12 +95,16 @@ def records(group, per_family, data):
         if len(strong) < 2 or not row["Family"]:
             continue
         name = row["Genus"]
-        placement = (f"unresolved family placement (source group {row['Family']})"
-                     if "incertae sedis" in row["Family"] else f"family {row['Family']}")
-        text = f"Marine genus {name}, {placement}, class {row['Class']}. "
-        text += "Cefas' Northwest Europe benthic trait synthesis assigns strong evidence (score 3 of 3) to: " + "; ".join(strong) + ". "
-        text += "These genus-level categories summarize Northwest European evidence synthesized from literature and professional judgement, including inference from relatives."
-        record = {"id": "cefas-genus-" + name.lower(), "text": text,
+        placement = (f"unresolved ({row['Family']})"
+                     if "incertae sedis" in row["Family"] else row["Family"])
+        lines = [f"{name} (genus)", f"Class: {row['Class']}", f"Family: {placement}",
+                 "Regional trait synthesis: Northwest European marine benthos"]
+        for prefix, label in TRAIT_GROUPS.items():
+            values = [text for field, text in TRAITS.items()
+                      if field.split("_", 1)[0] == prefix and row[field] == "3"]
+            if values:
+                lines.append(f"{label}: " + ", ".join(values))
+        record = {"id": "cefas-genus-" + name.lower(), "text": "\n".join(lines),
                   "provenance": "Clare et al. (2022), Ten key biological traits of marine benthic invertebrates surveyed in Northwest Europe, Cefas, UK, V2. "
                   "DOI https://doi.org/10.14466/CefasDataHub.123; https://data.cefas.co.uk/view/21362. "
                   "Open Government Licence v3.0, https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/. "

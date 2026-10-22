@@ -49,7 +49,7 @@ def number(raw):
     value = float(raw)
     if not math.isfinite(value) or value <= 0:
         raise ValueError(f"Invalid positive measurement: {raw}")
-    return f"{value:.3g}"
+    return re.sub(r"e([+-]?)0*(\d+)$", lambda match: "e" + ("-" if match[1] == "-" else "") + match[2], f"{value:.3g}")
 
 
 def read_inputs(replay):
@@ -78,13 +78,13 @@ def observation(row, index):
             lower, upper = (float(row["body mass - " + bound]) * 1000 for bound in ("minimum", "maximum"))
             if lower > upper:
                 raise ValueError("Reversed body-mass range")
-            traits.append("reported body mass range " + number(str(lower)) + "–" + number(str(upper)) + " g")
+            traits.append("Body mass: " + number(str(lower)) + "–" + number(str(upper)) + " g")
         else:
-            traits.append("reported body mass " + number(str(float(row["body mass"]) * 1000)) + " g")
+            traits.append("Body mass: " + number(str(float(row["body mass"]) * 1000)) + " g")
     if row["metabolic rate"]:
         if row["metabolic rate - units"] != "W":
             raise ValueError("Unexpected standardized metabolic units")
-        traits.append("metabolic rate normalized by the source to 25 °C: " + number(row["metabolic rate"]) + " W")
+        traits.append("Metabolic rate (normalized to 25 °C): " + number(row["metabolic rate"]) + " W")
     if row["original brain size"]:
         units = row["original brain size - units"]
         if not units:
@@ -96,10 +96,10 @@ def observation(row, index):
             units = factor[2]
         units = {"um3": "µm³", "mm3": "mm³", "ug": "µg"}.get(units, units)
         if row["inTextReference"] == "Quesada et al., 2011":
-            label = "reported central nervous system neuropil volume"
+            label = "Central nervous system neuropil volume"
         else:
-            label = "reported neural-tissue size" if row["brain size - comments"] == "ganglia and ventral nerve cord" else "reported brain size"
-        traits.append(label + " " + number(brain) + " " + units)
+            label = "Neural-tissue size" if row["brain size - comments"] == "ganglia and ventral nerve cord" else "Brain size"
+        traits.append(label + ": " + number(brain) + " " + units)
     if len(traits) < 2:
         return None
     name = row["species"]
@@ -112,36 +112,31 @@ def observation(row, index):
     order = ORDER_CORRECTIONS.get(row["order"], row["order"])
     if not family or not row["inTextReference"] or not row["fullReference"]:
         return None
-    text = f"{name} ({order}, family {family}): study observation. "
-    details = "; ".join(traits)
-    text += details[0].upper() + details[1:] + "."
-    context = []
+    lines = [name, f"Order: {order}", f"Family: {family}", *traits]
     if row["sex"]:
-        context.append("sex " + row["sex"])
+        lines.append("Sex: " + row["sex"])
     caste = row["brain size - comments"]
     if family == "Formicidae" and caste in {"major", "minor", "worker", "soldier", "gyne", "queen"}:
-        context.append("ant caste/individual type " + caste)
+        lines.append("Caste: " + caste)
     if row["sampleSizeValue"]:
-        context.append("sample size " + row["sampleSizeValue"])
+        lines.append("Sample size: " + row["sampleSizeValue"])
     if row["metabolic rate"] and row["original temperature"]:
         # The source column is temperature in degrees Celsius; keep exact source
         # value rather than introducing a precision or rounding transformation.
-        context.append("metabolic measurement temperature " + row["original temperature"] + " °C")
-    if context:
-        text += " Study context: " + "; ".join(context) + "."
+        lines.append("Measurement temperature: " + row["original temperature"] + " °C")
     if row["species"] == "Damon annulatipes" and row["original temperature"] == "21":
-        text += " Source temperature discrepancy: the measurement column gives 21 °C; the metadata comment mentions 25 °C."
+        lines[-1] += " (metadata comment gives 25 °C)"
     if row["species"] == "Mysmenopsis tengellacompa" and row["inTextReference"] == "Quesada et al., 2011" and row["sampleSizeValue"] == "1":
-        text += " Source sample-size discrepancy: the dataset lists 1; the study table reports 3 females."
+        lines[lines.index("Sample size: 1")] = "Sample size: 1 in dataset, 3 females in study table"
     if row["metabolic rate"] and row["metabolic rate - method"] not in {"", "not specified"}:
-        text += " Metabolic measure type: " + row["metabolic rate - method"] + "."
+        lines.append("Metabolic measure: " + row["metabolic rate - method"])
     if row["brain size - comments"] == "ganglia and ventral nerve cord":
-        text += " Neural structures measured: ganglia and ventral nerve cord."
+        lines.append("Neural tissue: ganglia and ventral nerve cord")
     if row["original brain size"] and row["inTextReference"] == "Quesada et al., 2011":
-        text += " Neural structures measured: supra- and sub-oesophageal ganglia, neuropil only (cortex excluded)."
+        lines.append("Neural tissue: supra- and sub-oesophageal ganglia, neuropil only (cortex excluded)")
     if row["original brain size"] and row["brain size - method"] not in {"", "not specified"}:
-        text += " Brain measurement method: " + row["brain size - method"].strip().rstrip(".") + "."
-    text += " Values summarize measurements from the sampled individuals or groups. Study: " + row["inTextReference"] + "."
+        lines.append("Brain measurement: " + row["brain size - method"].strip().rstrip("."))
+    lines.append("Study: " + row["inTextReference"])
     corrections = []
     for field, mapping in (("species", SPECIES_CORRECTIONS), ("order", ORDER_CORRECTIONS), ("family", FAMILY_CORRECTIONS)):
         original = row[field]
@@ -149,7 +144,7 @@ def observation(row, index):
             corrections.append(f" {field.capitalize()} spelling {original} corrected to {mapping[original]}; evidence: {CORRECTION_EVIDENCE[original]}.")
     if row["original brain size"] and row["inTextReference"] == "Quesada et al., 2011":
         corrections.append(" Source brain-size column identified as CNS neuropil-only volume from the study's supplementary Table 2 (N column); evidence: " + QUESADA_CNS_EVIDENCE + ".")
-    record = {"id": f"animaltraits-observation-{index}", "text": text, "provenance":
+    record = {"id": f"animaltraits-observation-{index}", "text": "\n".join(lines), "provenance":
               "AnimalTraits v1.0.7, McLean (2022), https://doi.org/10.5281/zenodo.6468938; CC0 1.0. "
               "Dataset descriptor https://doi.org/10.1038/s41597-022-01364-9. "
               f"Pinned observation CSV data row {index} (one-based, header excluded), "

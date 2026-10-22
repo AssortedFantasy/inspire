@@ -1,8 +1,7 @@
 # Invertebrates
 
 Biological groups occupy distinct children: insects, arachnids, crustaceans,
-molluscs, cnidarians, echinoderms and annelids. Insects separate `species` names
-from `observations`; molluscs separate `species` from `genus-traits`. These
+molluscs. Insects separate `species` names from `observations`. These
 children distinguish evidence kinds: a study observation is not a universal
 species property, and a genus trait is not a species measurement. Arachnids
 contain only study observations and need no extra single-child branch.
@@ -38,7 +37,7 @@ The two pinned inputs are cached in `inspire-animal-traits` under the operating
 system temporary directory. To replay a marine leaf, for example:
 
 ```sh
-python -B families/natural-world/animals/invertebrates/import_cefas.py --group echinoderms --output families/natural-world/animals/invertebrates/echinoderms --per-family 3 --replay
+python -B families/natural-world/animals/invertebrates/import_cefas.py --group crustaceans --output families/natural-world/animals/invertebrates/crustaceans --per-family 3 --replay
 ```
 
 Every input hash is fixed in the importer and repeated in leaf manifests.

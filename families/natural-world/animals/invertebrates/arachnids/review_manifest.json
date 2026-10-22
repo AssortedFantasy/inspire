@@ -9,7 +9,7 @@
       "reviewer": "/root/natural_world/animals/invertebrates/arachnids",
       "record_count": 44,
       "weight": 44,
-      "records_sha256": "99484d959721d79fae2109070bb61d5dbb3b07c3e089a1f07b935b22468cbbbb",
+      "records_sha256": "6f36c8407b1b4789b9042296846dbf53494151b076f6c5308f0b73a3b42c12bd",
       "source_manifest": "sources.json",
       "source_manifest_sha256": "43269f6dd3ec8bd1d33413de5ac88f4d0023f7bd4628eca8f5d598b02b7859fb",
       "coverage": {
@@ -57,7 +57,13 @@
           "url": "https://raw.githubusercontent.com/animaltraits/animaltraits.github.io/06c872793e83d448538a12f6f98dbad389a86703/R/standardisation/traits-config.R",
           "sha256": "eda7577a7f6830e9eead7ad4782b3d1d99f3a8dc40d639e0d44b596bc6e52efc"
         }
-      ]
+      ],
+      "source_reviewed_records_sha256": "99484d959721d79fae2109070bb61d5dbb3b07c3e089a1f07b935b22468cbbbb"
     }
-  ]
+  ],
+  "formatting_review": {
+    "date": "2026-10-22",
+    "scope": "Newline fields and grouped traits; source selection, IDs, quantities and study qualifiers preserved.",
+    "checks": "All records checked for schema, stable IDs/counts, unique texts and weights. Source-review hashes retained separately. Full source replay not repeated because the temporary input caches are unavailable."
+  }
 }

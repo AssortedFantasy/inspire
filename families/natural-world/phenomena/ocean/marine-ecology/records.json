@@ -1,22 +1,22 @@
 [
   {
     "id": "upwelling-nutrients",
-    "text": "Upwelled water is often colder and richer in nutrients than surface water, supporting productive coastal food webs.",
-    "provenance": "Original factual paraphrase. Source: NOAA National Ocean Service, Upwelling; https://oceanservice.noaa.gov/facts/upwelling.html. Consulted 2026-10-13."
+    "text": "Upwelled water\nTemperature: typically colder than surface water\nNutrients: typically richer than surface water\nEcological effect: productive coastal food webs",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA National Ocean Service, Upwelling; https://oceanservice.noaa.gov/facts/upwelling.html. Consulted 2026-10-13."
   },
   {
     "id": "estuary-mixing",
-    "text": "An estuary combines river water with seawater. Tides continually change its depth and chemistry, creating a patchwork of habitats.",
-    "provenance": "Original factual paraphrase. Source: NOAA Fisheries, Estuary Habitat; https://www.fisheries.noaa.gov/national/habitat-conservation/estuary-habitat. Consulted 2026-10-13."
+    "text": "Estuary\nWater sources: river water and seawater\nTidal effects: changing depth and chemistry",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA Fisheries, Estuary Habitat; https://www.fisheries.noaa.gov/national/habitat-conservation/estuary-habitat. Consulted 2026-10-13."
   },
   {
     "id": "counterillumination",
-    "text": "Some midwater animals have light organs on their underside. Matching the brightness of water above them can erase the silhouette a predator below would otherwise see.",
-    "provenance": "Original factual paraphrase. Source: NOAA Ocean Exploration, Ocean Zones curriculum, section 5; https://oceanexplorer.noaa.gov/edu/curriculum/section5.pdf. Consulted 2026-10-13."
+    "text": "Counterillumination in midwater animals\nLight organs: underside of the body\nLight output: matches the brightness of water above\nEffect: reduced silhouette when seen from below",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA Ocean Exploration, Ocean Zones curriculum, section 5; https://oceanexplorer.noaa.gov/edu/curriculum/section5.pdf. Consulted 2026-10-13."
   },
   {
     "id": "bioluminescent-signals",
-    "text": "Marine bioluminescence comes from chemical reactions in living organisms. Different species use light to communicate, attract prey, or disrupt a predator's attack.",
-    "provenance": "Original factual paraphrase. Source: NOAA National Ocean Service, bioluminescence; https://oceanservice.noaa.gov/facts/biolum.html. Consulted 2026-10-13."
+    "text": "Marine bioluminescence\nLight source: chemical reactions in living organisms\nFunctions: communication, prey attraction, disruption of predator attacks",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA National Ocean Service, bioluminescence; https://oceanservice.noaa.gov/facts/biolum.html. Consulted 2026-10-13."
   }
 ]

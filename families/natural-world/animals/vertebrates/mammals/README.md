@@ -19,7 +19,8 @@ gestation, litter size and maximum recorded longevity. These are source
 species estimates, which can incorporate model adjustment and literature
 extrapolation, rather than measurements of a particular animal. Missing
 values (`-999`) are omitted; no imputation, synonym remapping or EXT columns
-are used. Numbers are rounded to three significant figures. Maximum recorded
+are used. Numbers are rounded to three significant figures; longevity of at least
+12 source months is shown in years. Maximum recorded
 longevity can include captivity and is not life expectancy.
 
 312 profiles have at least one selected trait: 308 body masses, 193 gestation
@@ -34,7 +35,7 @@ sexes or individuals. Provenance identifies the source and vintage.
 
 GBIF and the current Ecological Archives default are CC BY 4.0. PanTHERIA's
 dataset-specific metadata additionally states no copyright or proprietary
-restrictions. Attribution is printed in every output; `LICENSE.txt` records
+restrictions. Attribution is retained in provenance; `LICENSE.txt` records
 the source-specific terms. Raw downloads stay outside the sampling tree.
 `sources.json` and `traits-sources.json` pin exact URLs and SHA-256 checksums.
 

@@ -1,32 +1,32 @@
 [
   {
     "id": "elephant-foot-pads",
-    "text": "Elephants walk on their toes, with thick fibrous pads beneath their feet cushioning the load.",
-    "provenance": "Original factual paraphrase. Source: Smithsonian National Zoo, Asian elephant fact sheet; https://nationalzoo.si.edu/animals/asian-elephant. Consulted 2026-10-13."
+    "text": "Elephant\nFoot posture: walking on the toes\nLoad cushioning: thick fibrous pads beneath the feet",
+    "provenance": "Concise factual data extracted from the cited source. Source: Smithsonian National Zoo, Asian elephant fact sheet; https://nationalzoo.si.edu/animals/asian-elephant. Consulted 2026-10-13."
   },
   {
     "id": "fennec-paws",
-    "text": "Fur on a fennec fox's paws helps with traction in sand and shields the feet from hot ground.",
-    "provenance": "Original factual paraphrase. Source: Smithsonian National Zoo, fennec fox fact sheet; https://nationalzoo.si.edu/animals/fennec-fox. Consulted 2026-10-13."
+    "text": "Fennec fox\nPaw covering: fur\nFunctions: traction in sand, protection from hot ground",
+    "provenance": "Concise factual data extracted from the cited source. Source: Smithsonian National Zoo, fennec fox fact sheet; https://nationalzoo.si.edu/animals/fennec-fox. Consulted 2026-10-13."
   },
   {
     "id": "beaver-tail-roles",
-    "text": "A beaver's flattened tail helps steer during swimming and brace the body on land. A slap on the water can signal danger.",
-    "provenance": "Original factual paraphrase. Source: Smithsonian National Zoo, beaver fact sheet; https://nationalzoo.si.edu/animals/beaver. Consulted 2026-10-13."
+    "text": "Beaver\nFlattened tail: steering in water, bracing on land\nAlarm signal: tail slap on water",
+    "provenance": "Concise factual data extracted from the cited source. Source: Smithsonian National Zoo, beaver fact sheet; https://nationalzoo.si.edu/animals/beaver. Consulted 2026-10-13."
   },
   {
     "id": "orangutan-clambering",
-    "text": "Orangutans usually move through trees by careful climbing and walking, distributing their weight among branches. Their long arms and grasping feet suit this arboreal travel.",
-    "provenance": "Original factual paraphrase. Source: Smithsonian National Zoo, orangutan fact sheet; https://nationalzoo.si.edu/animals/orangutan. Consulted 2026-10-13."
+    "text": "Orangutan\nArboreal locomotion: climbing and walking along branches\nWeight support: distributed among branches\nGrasping limbs: long arms and prehensile feet",
+    "provenance": "Concise factual data extracted from the cited source. Source: Smithsonian National Zoo, orangutan fact sheet; https://nationalzoo.si.edu/animals/orangutan. Consulted 2026-10-13."
   },
   {
     "id": "spadefoot-burrowing",
-    "text": "Plains spadefoots spend much of the year underground. Their spadelike feet help dig the burrows used for shelter and overwintering.",
-    "provenance": "Original factual paraphrase. Source: National Park Service, Yellowstone amphibians; https://www.nps.gov/yell/learn/nature/amphibians.htm. Consulted 2026-10-13."
+    "text": "Plains spadefoot\nBurrowing: spadelike feet\nBurrow uses: shelter and overwintering\nActivity: much of the year spent underground",
+    "provenance": "Concise factual data extracted from the cited source. Source: National Park Service, Yellowstone amphibians; https://www.nps.gov/yell/learn/nature/amphibians.htm. Consulted 2026-10-13."
   },
   {
     "id": "dipper-diving",
-    "text": "American dippers dive into streams to take aquatic insects. A songbird's feeding ground can lie below the water's surface.",
-    "provenance": "Original factual paraphrase. Source: National Park Service, Yellowstone bird inventory; https://www.nps.gov/yell/learn/nature/birds.htm. Consulted 2026-10-13."
+    "text": "American dipper\nForaging: diving in streams\nPrey: aquatic insects",
+    "provenance": "Concise factual data extracted from the cited source. Source: National Park Service, Yellowstone bird inventory; https://www.nps.gov/yell/learn/nature/birds.htm. Consulted 2026-10-13."
   }
 ]

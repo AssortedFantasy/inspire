@@ -1,42 +1,42 @@
 [
   {
     "id": "jpl-planet-mercury",
-    "text": "Mercury, a Solar System planet. Reported volume-equivalent mean radius ≈ 2439 km; sidereal rotation ≈ 58.65 days (prograde); sidereal orbital period ≈ 0.2408 years. Sidereal periods are measured relative to fixed stars.",
+    "text": "Mercury\nMean radius: ≈ 2439 km\nSidereal rotation: ≈ 58.65 days (prograde)\nSidereal orbital period: ≈ 0.2408 years",
     "provenance": "NASA astronomical factual data; source object Mercury; https://ssd.jpl.nasa.gov/planets/phys_par.html; retrieved 2026-10-13; input SHA256 e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b. JPL selected physical parameters table. Mean radius is the radius of an equal-volume sphere, not equatorial radius; rotation is sidereal, not a solar day. Signed rotation is rendered as magnitude and sense. Original table reference letters and numerical uncertainties remain in the pinned HTML input. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-planet-venus",
-    "text": "Venus, a Solar System planet. Reported volume-equivalent mean radius ≈ 6052 km; sidereal rotation ≈ 243 days (retrograde); sidereal orbital period ≈ 0.6152 years. Sidereal periods are measured relative to fixed stars.",
+    "text": "Venus\nMean radius: ≈ 6052 km\nSidereal rotation: ≈ 243 days (retrograde)\nSidereal orbital period: ≈ 0.6152 years",
     "provenance": "NASA astronomical factual data; source object Venus; https://ssd.jpl.nasa.gov/planets/phys_par.html; retrieved 2026-10-13; input SHA256 e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b. JPL selected physical parameters table. Mean radius is the radius of an equal-volume sphere, not equatorial radius; rotation is sidereal, not a solar day. Signed rotation is rendered as magnitude and sense. Original table reference letters and numerical uncertainties remain in the pinned HTML input. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-planet-earth",
-    "text": "Earth, a Solar System planet. Reported volume-equivalent mean radius ≈ 6371 km; sidereal rotation ≈ 0.9973 days (prograde); sidereal orbital period ≈ 1 year. Sidereal periods are measured relative to fixed stars.",
+    "text": "Earth\nMean radius: ≈ 6371 km\nSidereal rotation: ≈ 0.9973 days (prograde)\nSidereal orbital period: ≈ 1 year",
     "provenance": "NASA astronomical factual data; source object Earth; https://ssd.jpl.nasa.gov/planets/phys_par.html; retrieved 2026-10-13; input SHA256 e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b. JPL selected physical parameters table. Mean radius is the radius of an equal-volume sphere, not equatorial radius; rotation is sidereal, not a solar day. Signed rotation is rendered as magnitude and sense. Original table reference letters and numerical uncertainties remain in the pinned HTML input. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-planet-mars",
-    "text": "Mars, a Solar System planet. Reported volume-equivalent mean radius ≈ 3390 km; sidereal rotation ≈ 1.026 days (prograde); sidereal orbital period ≈ 1.881 years. Sidereal periods are measured relative to fixed stars.",
+    "text": "Mars\nMean radius: ≈ 3390 km\nSidereal rotation: ≈ 1.026 days (prograde)\nSidereal orbital period: ≈ 1.881 years",
     "provenance": "NASA astronomical factual data; source object Mars; https://ssd.jpl.nasa.gov/planets/phys_par.html; retrieved 2026-10-13; input SHA256 e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b. JPL selected physical parameters table. Mean radius is the radius of an equal-volume sphere, not equatorial radius; rotation is sidereal, not a solar day. Signed rotation is rendered as magnitude and sense. Original table reference letters and numerical uncertainties remain in the pinned HTML input. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-planet-jupiter",
-    "text": "Jupiter, a Solar System planet. Reported volume-equivalent mean radius ≈ 6.991e+04 km; sidereal rotation ≈ 0.4135 days (prograde); sidereal orbital period ≈ 11.86 years. Sidereal periods are measured relative to fixed stars.",
+    "text": "Jupiter\nMean radius: ≈ 6.991e4 km\nSidereal rotation: ≈ 0.4135 days (prograde)\nSidereal orbital period: ≈ 11.86 years",
     "provenance": "NASA astronomical factual data; source object Jupiter; https://ssd.jpl.nasa.gov/planets/phys_par.html; retrieved 2026-10-13; input SHA256 e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b. JPL selected physical parameters table. Mean radius is the radius of an equal-volume sphere, not equatorial radius; rotation is sidereal, not a solar day. Signed rotation is rendered as magnitude and sense. Original table reference letters and numerical uncertainties remain in the pinned HTML input. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-planet-saturn",
-    "text": "Saturn, a Solar System planet. Reported volume-equivalent mean radius ≈ 5.823e+04 km; sidereal rotation ≈ 0.444 days (prograde); sidereal orbital period ≈ 29.45 years. Sidereal periods are measured relative to fixed stars.",
+    "text": "Saturn\nMean radius: ≈ 5.823e4 km\nSidereal rotation: ≈ 0.444 days (prograde)\nSidereal orbital period: ≈ 29.45 years",
     "provenance": "NASA astronomical factual data; source object Saturn; https://ssd.jpl.nasa.gov/planets/phys_par.html; retrieved 2026-10-13; input SHA256 e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b. JPL selected physical parameters table. Mean radius is the radius of an equal-volume sphere, not equatorial radius; rotation is sidereal, not a solar day. Signed rotation is rendered as magnitude and sense. Original table reference letters and numerical uncertainties remain in the pinned HTML input. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-planet-uranus",
-    "text": "Uranus, a Solar System planet. Reported volume-equivalent mean radius ≈ 2.536e+04 km; sidereal rotation ≈ 0.7183 days (retrograde); sidereal orbital period ≈ 84.02 years. Sidereal periods are measured relative to fixed stars.",
+    "text": "Uranus\nMean radius: ≈ 2.536e4 km\nSidereal rotation: ≈ 0.7183 days (retrograde)\nSidereal orbital period: ≈ 84.02 years",
     "provenance": "NASA astronomical factual data; source object Uranus; https://ssd.jpl.nasa.gov/planets/phys_par.html; retrieved 2026-10-13; input SHA256 e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b. JPL selected physical parameters table. Mean radius is the radius of an equal-volume sphere, not equatorial radius; rotation is sidereal, not a solar day. Signed rotation is rendered as magnitude and sense. Original table reference letters and numerical uncertainties remain in the pinned HTML input. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-planet-neptune",
-    "text": "Neptune, a Solar System planet. Reported volume-equivalent mean radius ≈ 2.462e+04 km; sidereal rotation ≈ 0.6713 days (prograde); sidereal orbital period ≈ 164.8 years. Sidereal periods are measured relative to fixed stars.",
+    "text": "Neptune\nMean radius: ≈ 2.462e4 km\nSidereal rotation: ≈ 0.6713 days (prograde)\nSidereal orbital period: ≈ 164.8 years",
     "provenance": "NASA astronomical factual data; source object Neptune; https://ssd.jpl.nasa.gov/planets/phys_par.html; retrieved 2026-10-13; input SHA256 e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b. JPL selected physical parameters table. Mean radius is the radius of an equal-volume sphere, not equatorial radius; rotation is sidereal, not a solar day. Signed rotation is rendered as magnitude and sense. Original table reference letters and numerical uncertainties remain in the pinned HTML input. Selected numerical facts formatted by Inspire; no images or article prose used."
   }
 ]

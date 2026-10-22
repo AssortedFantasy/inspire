@@ -6,14 +6,15 @@ gymnosperms, and spore-bearing groups. Flowering plants separate woody forms,
 forbs, graminoids, and climbers; ferns, lycophytes, horsetails, and whisk ferns
 remain distinct. Nonvascular plants separate mosses, liverworts, and hornworts.
 
-Records give a scientific binomial, a common name where supplied, botanical
-family, recorded growth forms and life cycles, and up to two explicitly named
-native-status jurisdictions. They retain the USDA taxonomy. "Native" means
+Records start with the scientific binomial and common name where supplied.
+Botanical family and group, recorded growth forms, life cycles, and up to two
+explicitly named native-status jurisdictions follow on separate lines. They
+retain the USDA taxonomy. "Native" means
 native somewhere within that USDA jurisdiction; populations elsewhere in that
 jurisdiction may be introduced. The North America status is used only for
 nonvascular plants. These botanical profiles describe recorded traits and
 statuses. Missing traits remain absent. Generic common names
-that repeat a printed botanical group or growth form are printed only once.
+that repeat a printed botanical group or growth form are omitted.
 
 Sampling within plants is uniform per retained species: every child weight is
 its descendant record count. The incoming plants weight remains the default

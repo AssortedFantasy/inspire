@@ -18,7 +18,7 @@ The methods select one lateral-view illustration per species; these outputs
 describe that source-associated depiction, not a population mean, an invariant
 species ratio, or within-species variation. Drawings need not identify a concrete
 individual. Neither individual identity nor sex is asserted. The 265 photographs
-and 22 drawings retain the full source illustration citation inline; 45 references
+and 22 drawings retain the full source illustration citation in provenance; 45 references
 marked `Unpublished` explicitly identify that source label and an unidentified
 image. Original illustrations are not redistributed or independently remeasured.
 

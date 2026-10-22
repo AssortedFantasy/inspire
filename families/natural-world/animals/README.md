@@ -2,11 +2,14 @@
 
 Species records follow two biological branches. Vertebrates separate mammals,
 birds, amphibians, reptiles, bony fishes and cartilaginous fishes. Invertebrates
-separate insects, arachnids, crustaceans, molluscs, cnidarians, echinoderms and
-annelids.
+separate insects, arachnids, crustaceans and molluscs.
 The hierarchy groups related organisms and separates evidence kinds. Insects
-have distinct species-name and study-observation children; molluscs separate
-species names from genus-level trait syntheses.
+have distinct species-name and study-observation children.
+
+Names lead each output. Classification and traits use one field per line;
+dataset credits, source URLs and detailed interpretation stay in provenance.
+Study records retain units, methods and available sample context. Fish image
+ratios identify the measurement and whether it came from a photograph or drawing.
 
 ## Source and selection
 
@@ -66,11 +69,10 @@ an expired snapshot after the temporary cache is lost. An intentional source
 upgrade must create and review a new manifest. The compiled executable uses only
 committed records and performs no network requests.
 
-The `animals` node and each descendant leaf and branch have weights equal to
-their descendant record counts. At each split, selection is therefore uniform
-per record, including when selecting either intermediate branch directly. The
-`natural-world` branch continues to balance its topics. Adding data requires
-updating all affected weights inside this family.
+The `animals` topic has weight 1 alongside other natural-world topics. Its
+descendant leaves and branches have weights equal to their descendant record
+counts, so selection within animals is uniform per record. Adding data requires
+updating the affected descendant weights.
 
 The previous direct `animals/{mammals,birds,amphibians,reptiles}` paths migrate to
 `animals/vertebrates/...`. The former mixed `animals/invertebrates` corpus is

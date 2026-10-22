@@ -44,7 +44,7 @@ complete license is inherited from `../../LICENSE.txt`.
 Only exact binomial joins are used, without synonym guessing or imputation.
 `MBl` is maximum body length in **centimetres**, compiled by FISHMORPH from
 FishBase (Froese & Pauly 2020). The source does not specify standard, total or
-fork length; species records keep that limitation and the compilation vintage.
+fork length; provenance keeps that limitation and the compilation vintage.
 These values are not measurements of the illustrations or current maxima.
 
 The [primary paper](https://aureletoussaint.github.io/homepage/data/2021_Brosse_GEB.pdf),
@@ -63,8 +63,8 @@ defined `CPt` and appear in the image child using that measurement. Four image
 records are omitted: three tongue soles have zero-coded `CPt`, and starry
 flounder has missing image ratios. No missing/zero code is turned into a
 physical measurement. These species remain in the species child.
-Illustration references appear in the image records; images and the paper are
-not redistributed. Per-record attribution appears in emitted text. Children
+Illustration references and source attribution remain in provenance; images and
+the paper are not redistributed. Children
 inherit the full CC BY 4.0 license from `../../../LICENSE.txt`.
 
 ## Reproduce

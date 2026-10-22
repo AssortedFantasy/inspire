@@ -24,6 +24,10 @@ individual physical surface. See the archive's
 [column definitions](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)
 and [composite calculations](https://exoplanetarchive.ipac.caltech.edu/docs/pscp_calc.html).
 
+Outputs start with the object's name, followed by one quantity per line.
+Scientific notation omits padded exponents and redundant signs (`1.42e4`).
+Definitions and source-selection details stay in documentation and provenance.
+
 NASA/JPL Solar System Dynamics provides the other two tables. A mean radius is
 the radius of an equal-volume sphere, not an equatorial radius or a diameter.
 Sidereal rotation and orbital periods refer to fixed stars; a rotation period is
@@ -47,8 +51,8 @@ Solar System topics equally, then balances the three Solar System object kinds.
 Rare techniques remain explicitly selectable without dominating random output.
 
 These are formatted factual numerical data, not copied article prose or imagery.
-Emitted text credits NASA Exoplanet Archive or NASA/JPL Solar System Dynamics;
-each record preserves its source URL, object ID, and pinned snapshot provenance.
+Each record credits NASA Exoplanet Archive or NASA/JPL Solar System Dynamics in
+provenance, preserving its source URL, object ID, and pinned snapshot details.
 Each exoplanet also attributes its default literature reference, preserving the
 reference label and linked bibliographic URL in provenance. The archive is
 operated by Caltech under contract with NASA's Exoplanet Exploration Program;

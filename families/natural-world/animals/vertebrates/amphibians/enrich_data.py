@@ -9,6 +9,7 @@ import hashlib
 import importlib.util
 import io
 import json
+import re
 import sys
 import urllib.request
 import zipfile
@@ -24,12 +25,8 @@ METADATA_URL = "https://api.figshare.com/v2/articles/4644424/versions/5"
 ARCHIVE_URL = "https://ndownloader.figshare.com/files/8828578"
 DOI = "https://doi.org/10.6084/m9.figshare.4644424.v5"
 NUMERIC = {
-    "Age_at_maturity_min_y": ("Reported minimum age at sexual maturity", "years"),
-    "Age_at_maturity_max_y": ("Reported maximum age at sexual maturity", "years"),
-    "Longevity_max_y": ("Reported maximum lifespan", "years"),
-    "Litter_size_min_n": ("Reported minimum clutch size", "offspring or eggs"),
-    "Litter_size_max_n": ("Reported maximum clutch size", "offspring or eggs"),
-    "Reproductive_output_y": ("Reported maximum reproductive events per year", ""),
+    "Longevity_max_y": ("Maximum lifespan", "years"),
+    "Reproductive_output_y": ("Maximum reproductive events per year", ""),
 }
 GROUPS = [
     ("Recorded foraging strata", {"Fos": "fossorial", "Ter": "terrestrial", "Aqu": "aquatic", "Arb": "arboreal"}),
@@ -64,18 +61,33 @@ def trait_sentences(row):
     if size not in ("", "NA"):
         assert Decimal(size).is_finite() and Decimal(size) > 0
         measure = "snout-to-vent length" if row["Order"] == "Anura" else "total length"
-        sentences.append(f"Reported maximum adult {measure}: {size} mm.")
+        sentences.append(f"Maximum adult {measure}: {size} mm")
     for field, (label, unit) in NUMERIC.items():
         value = row[field]
         if value not in ("", "NA"):
             assert Decimal(value).is_finite() and Decimal(value) >= 0
             suffix = f" {unit}" if unit else ""
-            sentences.append(f"{label}: {value}{suffix}.")
+            sentences.append(f"{label}: {value}{suffix}")
+    for lower, upper, label, unit in (
+        ("Age_at_maturity_min_y", "Age_at_maturity_max_y", "Age at sexual maturity", "years"),
+        ("Litter_size_min_n", "Litter_size_max_n", "Clutch size", "offspring or eggs"),
+    ):
+        low, high = row[lower], row[upper]
+        available = [value for value in (low, high) if value not in ("", "NA")]
+        assert all(Decimal(value).is_finite() and Decimal(value) >= 0 for value in available)
+        if len(available) == 2:
+            assert Decimal(low) <= Decimal(high)
+            value = low if Decimal(low) == Decimal(high) else low + "–" + high
+            sentences.append(f"{label}: {value} {unit}")
+        elif available:
+            bound = "Minimum" if low not in ("", "NA") else "Maximum"
+            sentences.append(f"{bound} {label.lower()}: {available[0]} {unit}")
     for label, fields in GROUPS:
         assert all(row[key] in ("0", "1", "NA", "") for key in fields)
         present = [name for key, name in fields.items() if row[key] == "1"]
         if present:
-            sentences.append(f"{label}: {', '.join(present)}.")
+            label = label.removeprefix("Recorded ").replace("adult diet includes", "adult diet")
+            sentences.append(f"{label.capitalize()}: {', '.join(present)}")
     return sentences
 
 
@@ -122,18 +134,18 @@ def main():
     exact = enriched = sized = 0
     joins = []
     for record in records:
-        scientific = record["text"].split(" (", 1)[1].split(").", 1)[0]
+        scientific = re.search(r"\(([^()]+)\)$", record["text"].splitlines()[0]).group(1)
         row = by_name.get(scientific)
         if row is None:
             continue
         assert row["Order"] in ("Anura", "Caudata", "Gymnophiona")
         # Updated family names do not prevent an exact binomial join; order
         # disagreement would invalidate the length definition and is rejected.
-        assert f"Order: {row['Order']};" in record["text"]
+        assert f"Order: {row['Order']}" in record["text"].splitlines()
         exact += 1
         sentences = trait_sentences(row)
         if sentences:
-            record["text"] += " " + " ".join(sentences)
+            record["text"] += "\n" + "\n".join(sentences)
             record["provenance"] += (
                 f" Exact scientific-binomial join to AmphiBIO species {row['id']}: {scientific}; "
                 f"Oliveira, São-Pedro, Santos-Barrera, Penone and Costa (2017), {DOI}; CC BY 4.0. "

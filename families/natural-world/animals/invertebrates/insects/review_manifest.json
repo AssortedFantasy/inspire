@@ -10,7 +10,7 @@
       "reviewer": "/root/natural_world/animals/invertebrates/insects/species",
       "record_count": 66,
       "weight": 66,
-      "records_sha256": "af11b37bc4fae552ecd16875b31c46562d9dbaf158e4f0e39178a810785b1c0d",
+      "records_sha256": "fad59d30d71a2344f47b50f606efb08784f8695d402728953a42b90316bfda9e",
       "source_manifest": "sources.json",
       "checks": [
         "All 66 outputs reviewed; all 25 original butterfly taxa represented once",
@@ -18,14 +18,15 @@
         "63 GBIF records across 19 orders and 45 families; 3 exact NPS records retained",
         "Payload/config/manifest reproduced byte-identically offline",
         "Corrupted pinned class response rejected before payload mutation"
-      ]
+      ],
+      "source_reviewed_records_sha256": "af11b37bc4fae552ecd16875b31c46562d9dbaf158e4f0e39178a810785b1c0d"
     },
     {
       "path": "families/natural-world/animals/invertebrates/insects/observations",
       "reviewer": "/root/natural_world/animals/invertebrates/insects/observations",
       "record_count": 59,
       "weight": 59,
-      "records_sha256": "4f2c628c8852347be8ac577f441dbecea928b7571810a8ff2c32fc4fec90df9d",
+      "records_sha256": "12f3031bbc26ac2427edda33a90b261072c78eb687d0e8f7f09bd5fd4d8c0578",
       "source_manifest": "sources.json",
       "checks": [
         "All 59 outputs checked against pinned CSV rows and same-study selection",
@@ -33,7 +34,8 @@
         "Original units, normalization, sex/sample/caste and available method context retained",
         "Payload/config/manifest reproduced byte-identically offline",
         "Corruption of each pinned input and missing-cache replay rejected before payload mutation"
-      ]
+      ],
+      "source_reviewed_records_sha256": "4f2c628c8852347be8ac577f441dbecea928b7571810a8ff2c32fc4fec90df9d"
     }
   ],
   "corrections": {
@@ -51,5 +53,10 @@
     "Strict schema, nonblank/NUL checks, globally unique IDs and per-leaf unique texts",
     "Leaf manifest counts and leaf/branch incoming weights match payload counts; equal conditional per-record probability 1/125",
     "Sources distinguish pinned historical nomenclature from study-linked measurements"
-  ]
+  ],
+  "formatting_review": {
+    "date": "2026-10-22",
+    "scope": "Newline fields and grouped traits; source selection, IDs, quantities and study qualifiers preserved.",
+    "checks": "All records checked for schema, stable IDs/counts, unique texts and weights. Source-review hashes retained separately. Full source replay not repeated because the temporary input caches are unavailable."
+  }
 }

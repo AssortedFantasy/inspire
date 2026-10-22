@@ -1,22 +1,22 @@
 [
   {
     "id": "moraine-record",
-    "text": "A moraine is a ridge of debris deposited along a glacier's margins. Ridges left after retreat can mark former ice limits.",
-    "provenance": "Original factual paraphrase. Source: US Geological Survey Professional Paper 387-B, Recent activity of glaciers of Mount Rainier; https://pubs.usgs.gov/publication/pp387B. Consulted 2026-10-13."
+    "text": "Moraine\nMaterial: debris deposited along a glacier margin\nRetreat record: ridges can mark former ice limits",
+    "provenance": "Concise factual data extracted from the cited source. Source: US Geological Survey Professional Paper 387-B, Recent activity of glaciers of Mount Rainier; https://pubs.usgs.gov/publication/pp387B. Consulted 2026-10-13."
   },
   {
     "id": "medial-moraine",
-    "text": "When two glaciers merge, debris bands from their adjoining edges can join into a medial moraine down the combined glacier.",
-    "provenance": "Original factual paraphrase. Source: US Geological Survey, Glossary of Glacier Terminology; https://pubs.usgs.gov/of/2004/1216/text.html. Consulted 2026-10-13."
+    "text": "Medial moraine\nOrigin: debris bands at adjoining edges of merging glaciers\nPosition: down the combined glacier",
+    "provenance": "Concise factual data extracted from the cited source. Source: US Geological Survey, Glossary of Glacier Terminology; https://pubs.usgs.gov/of/2004/1216/text.html. Consulted 2026-10-13."
   },
   {
     "id": "cirque-tarn",
-    "text": "A tarn is a lake occupying a cirque basin, commonly left after the glacier that carved the hollow has melted.",
-    "provenance": "Original factual paraphrase. Source: US Geological Survey, Glossary of Glacier Terminology; https://pubs.usgs.gov/of/2004/1216/text.html. Consulted 2026-10-13."
+    "text": "Tarn\nLocation: a cirque basin\nOrigin: commonly follows melting of the glacier that carved the basin",
+    "provenance": "Concise factual data extracted from the cited source. Source: US Geological Survey, Glossary of Glacier Terminology; https://pubs.usgs.gov/of/2004/1216/text.html. Consulted 2026-10-13."
   },
   {
     "id": "rock-glacier",
-    "text": "A rock glacier is a glacierlike mass of rock debris, often filling a valley beneath a cirque.",
-    "provenance": "Original factual paraphrase. Source: US Geological Survey, Glossary of Glacier Terminology; https://pubs.usgs.gov/of/2004/1216/text.html. Consulted 2026-10-13."
+    "text": "Rock glacier\nMaterial: rock debris\nForm: glacierlike, often occupying a valley beneath a cirque",
+    "provenance": "Concise factual data extracted from the cited source. Source: US Geological Survey, Glossary of Glacier Terminology; https://pubs.usgs.gov/of/2004/1216/text.html. Consulted 2026-10-13."
   }
 ]

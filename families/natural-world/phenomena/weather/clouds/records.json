@@ -1,157 +1,172 @@
 [
   {
     "id": "cirrus",
-    "text": "Cirrus clouds form delicate filaments high in the atmosphere. Their substance is ice, even when the sky below is warm.",
-    "provenance": "Original factual paraphrase. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
+    "text": "Cirrus\nAltitude: high\nStructure: delicate filaments\nComposition: ice crystals",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
   },
   {
     "id": "cirrocumulus",
-    "text": "Cirrocumulus appears as small bright grains or ripples high in the sky, usually without the dark shading of larger cloud heaps.",
-    "provenance": "Original factual paraphrase. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
+    "text": "Cirrocumulus\nAltitude: high\nStructure: small bright grains or ripples\nShading: usually absent",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
   },
   {
     "id": "cirrostratus",
-    "text": "Cirrostratus can spread a thin veil over the sky. Ice crystals in the veil often produce a halo around the Sun or Moon.",
-    "provenance": "Original factual paraphrase. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
+    "text": "Cirrostratus\nStructure: thin veil\nComposition: ice crystals\nOptical effect: often a halo around the Sun or Moon",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
   },
   {
     "id": "altocumulus",
-    "text": "Altocumulus forms midlevel patches or layers of rounded cloud elements, sometimes arranged into rolls.",
-    "provenance": "Original factual paraphrase. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
+    "text": "Altocumulus\nAltitude: middle\nStructure: patches or layers of rounded elements, sometimes rolls",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
   },
   {
     "id": "altostratus",
-    "text": "Altostratus is a gray or blue-gray sheet through which the Sun can look like light seen through frosted glass.",
-    "provenance": "Original factual paraphrase. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
+    "text": "Altostratus\nAppearance: gray or blue-gray sheet\nSun: may appear as through frosted glass",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
   },
   {
     "id": "nimbostratus",
-    "text": "Nimbostratus forms a thick, dark layer associated with continuing rain or snow. Ragged lower clouds may gather underneath it.",
-    "provenance": "Original factual paraphrase. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
+    "text": "Nimbostratus\nStructure: thick, dark layer\nPrecipitation: continuing rain or snow\nLower cloud: ragged fragments may gather underneath",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
   },
   {
     "id": "cumulus",
-    "text": "Cumulus has distinct boundaries, growing into sunlit mounds above a darker, roughly level base.",
-    "provenance": "Original factual paraphrase. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
+    "text": "Cumulus\nBoundaries: distinct\nStructure: sunlit mounds above a darker, roughly level base",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
   },
   {
     "id": "cumulonimbus",
-    "text": "Cumulonimbus is the towering cloud of a thunderstorm; its upper region often spreads into an anvil.",
-    "provenance": "Original factual paraphrase. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
+    "text": "Cumulonimbus\nAssociated weather: thunderstorms\nStructure: towering cloud, upper region often spreading into an anvil",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
   },
   {
     "id": "stratocumulus",
-    "text": "Stratocumulus spreads in low patches or layers of rounded masses, with darker gaps and shading between the elements.",
-    "provenance": "Original factual paraphrase. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
+    "text": "Stratocumulus\nAltitude: low\nStructure: patches or layers of rounded masses\nAppearance: darker gaps and shading between elements",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
   },
   {
     "id": "stratus",
-    "text": "Stratus makes a low, comparatively uniform cloud sheet. It can produce drizzle or small snow grains.",
-    "provenance": "Original factual paraphrase. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
+    "text": "Stratus\nAltitude: low\nStructure: comparatively uniform sheet\nPrecipitation: drizzle or small snow grains",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA JetStream, Ten Basic Clouds; https://www.noaa.gov/jetstream/clouds/ten-basic-clouds. Consulted 2026-10-13."
   },
   {
     "id": "noaa-glossary-banner-cloud",
-    "text": "Banner Cloud — A cloud plume often observed to extend downwind behind isolated mountain peaks, even on otherwise cloud-free days.",
+    "text": "Banner Cloud\nA cloud plume often observed to extend downwind behind isolated mountain peaks, even on otherwise cloud-free days.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=b; term Banner Cloud; downloaded 2026-10-13; input SHA256 c7277cc659fb38ddfd8c3c10b473b39beb5d2e1149ea0c8aaedbe0c4b43a3093. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-cap-cloud",
-    "text": "Cap Cloud — A stationary cloud directly above an isolated mountain peak, with cloud base below the elevation of the peak.",
+    "text": "Cap Cloud\nA stationary cloud directly above an isolated mountain peak, with cloud base below the elevation of the peak.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=c; term Cap Cloud; downloaded 2026-10-13; input SHA256 52b9c55ec47b208bc5e7c62af894752d068d93e2dd2c08d90e1e3aedb54abc70. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-cloud-condensation-nuclei",
-    "text": "Cloud Condensation Nuclei — Small particles in the air on which water vapor condenses and forms cloud droplets.",
+    "text": "Cloud Condensation Nuclei\nSmall particles in the air on which water vapor condenses and forms cloud droplets.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=c; term Cloud Condensation Nuclei; downloaded 2026-10-13; input SHA256 52b9c55ec47b208bc5e7c62af894752d068d93e2dd2c08d90e1e3aedb54abc70. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-cloud-streets",
-    "text": "Cloud Streets — Rows of cumulus or cumulus-type clouds aligned parallel to the low-level flow. Cloud streets sometimes can be seen from the ground, but are seen best on satellite photographs.",
+    "text": "Cloud Streets\nRows of cumulus or cumulus-type clouds aligned parallel to the low-level flow. Cloud streets sometimes can be seen from the ground, but are seen best on satellite photographs.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=c; term Cloud Streets; downloaded 2026-10-13; input SHA256 52b9c55ec47b208bc5e7c62af894752d068d93e2dd2c08d90e1e3aedb54abc70. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-lenticular-cloud",
-    "text": "Lenticular Cloud — A very smooth, round or oval, lens-shaped cloud that is often seen, singly or stacked in groups, near or in the lee of a mountain ridge.",
+    "text": "Lenticular Cloud\nA very smooth, round or oval, lens-shaped cloud that is often seen, singly or stacked in groups, near or in the lee of a mountain ridge.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=l; term Lenticular Cloud; downloaded 2026-10-13; input SHA256 6d24db07cfc93d48813d3708609c92ce3b0c526da8348cd60cc5494bc81d5f5b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-mammatus-clouds",
-    "text": "Mammatus Clouds — Rounded, smooth, sack-like protrusions hanging from the underside of a cloud (usually a thunderstorm anvil). Mammatus clouds often accompany severe thunderstorms, but do not produce severe weather; they may accompany non-severe storms as well.",
+    "text": "Mammatus Clouds\nRounded, smooth, sack-like protrusions hanging from the underside of a cloud (usually a thunderstorm anvil). Mammatus clouds often accompany severe thunderstorms, but do not produce severe weather; they may accompany non-severe storms as well.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=m; term Mammatus Clouds; downloaded 2026-10-13; input SHA256 0ad03b04f1d3611ea2ef2f146365edd727078d3b1bc200db11627e83546e6cc1. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-nacreous-clouds",
-    "text": "Nacreous Clouds — Clouds of unknown composition that have a soft, pearly luster and that form at altitudes about 25 to 30 km above the Earth's surface. They are also called \"mother-of-the-pearl clouds.\"",
+    "text": "Nacreous Clouds\nClouds of unknown composition that have a soft, pearly luster and that form at altitudes about 25 to 30 km above the Earth's surface. They are also called \"mother-of-the-pearl clouds.\"\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=n; term Nacreous Clouds; downloaded 2026-10-13; input SHA256 4025e644592fc12cbde400049ee52705a0c4846ebd29258cfd42190967c35b89. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-noctilucent-clouds",
-    "text": "Noctilucent Clouds — Wavy, thin, bluish-white clouds that are best seen at twilight in polar latitudes. They form at altitudes about 80 to 90 km above the Earth's surface.",
+    "text": "Noctilucent Clouds\nWavy, thin, bluish-white clouds that are best seen at twilight in polar latitudes. They form at altitudes about 80 to 90 km above the Earth's surface.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=n; term Noctilucent Clouds; downloaded 2026-10-13; input SHA256 4025e644592fc12cbde400049ee52705a0c4846ebd29258cfd42190967c35b89. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-roll-cloud",
-    "text": "Roll Cloud — A low, horizontal tube-shaped arcus cloud associated with a thunderstorm gust front (or sometimes with a cold front). Roll clouds are relatively rare; they are completely detached from the thunderstorm base or other cloud features, thus differentiating them from the more familiar shelf clouds. Roll clouds usually appear to be \"rolling\" about a horizontal axis, but should not be confused with funnel clouds.",
+    "text": "Roll Cloud\nA low, horizontal tube-shaped arcus cloud associated with a thunderstorm gust front (or sometimes with a cold front). Roll clouds are relatively rare; they are completely detached from the thunderstorm base or other cloud features, thus differentiating them from the more familiar shelf clouds. Roll clouds usually appear to be \"rolling\" about a horizontal axis, but should not be confused with funnel clouds.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=r; term Roll Cloud; downloaded 2026-10-13; input SHA256 4162f8f13f65c72b704dd552a5a68cdc34ed68d0d2aae77d015cd9a730d4ce1a. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-shelf-cloud",
-    "text": "Shelf Cloud — A low, horizontal wedge-shaped arcus cloud, associated with a thunderstorm gust front (or occasionally with a cold front, even in the absence of thunderstorms). Unlike the roll cloud, the shelf cloud is attached to the base of the parent cloud above it (usually a thunderstorm). Rising cloud motion often can be seen in the leading (outer) part of the shelf cloud, while the underside often appears turbulent, boiling, and wind-torn.",
+    "text": "Shelf Cloud\nA low, horizontal wedge-shaped arcus cloud, associated with a thunderstorm gust front (or occasionally with a cold front, even in the absence of thunderstorms). Unlike the roll cloud, the shelf cloud is attached to the base of the parent cloud above it (usually a thunderstorm). Rising cloud motion often can be seen in the leading (outer) part of the shelf cloud, while the underside often appears turbulent, boiling, and wind-torn.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=s; term Shelf Cloud; downloaded 2026-10-13; input SHA256 fc10498908fab91e198cd9482922c1e71a2649f113127720a12594b1d7d2880b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-wall-cloud",
-    "text": "Wall Cloud — A localized, persistent, often abrupt lowering from a rain-free base. Wall clouds can range from a fraction of a mile up to nearly five miles in diameter, and normally are found on the south or southwest (inflow) side of the thunderstorm. When seen from within several miles, many wall clouds exhibit rapid upward motion and cyclonic rotation. However, not all wall clouds rotate. Rotating wall clouds usually develop before strong or violent tornadoes, by anywhere from a few minutes up to nearly an hour. Wall clouds should be monitored visually for signs of persistent, sustained rotation and/or rapid vertical motion. \"Wall cloud\" also is used occasionally in tropical meteorology to describe the inner cloud wall surrounding the eye of a tropical cyclone, but the proper term for this feature is eyewall.",
+    "text": "Wall Cloud\nA localized, persistent, often abrupt lowering from a rain-free base. Wall clouds can range from a fraction of a mile up to nearly five miles in diameter, and normally are found on the south or southwest (inflow) side of the thunderstorm. When seen from within several miles, many wall clouds exhibit rapid upward motion and cyclonic rotation. However, not all wall clouds rotate. Rotating wall clouds usually develop before strong or violent tornadoes, by anywhere from a few minutes up to nearly an hour. Wall clouds should be monitored visually for signs of persistent, sustained rotation and/or rapid vertical motion. \"Wall cloud\" also is used occasionally in tropical meteorology to describe the inner cloud wall surrounding the eye of a tropical cyclone, but the proper term for this feature is eyewall.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=w; term Wall Cloud; downloaded 2026-10-13; input SHA256 c08eff893a9f026bbb146c577836e1768da3b5fe9117c012b75cf4327407928a. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-advection-fog",
-    "text": "Advection Fog — A fog that forms when warm air flows over a cold surface and cools from below until saturation is reached.",
+    "text": "Advection Fog\nA fog that forms when warm air flows over a cold surface and cools from below until saturation is reached.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=a; term Advection Fog; downloaded 2026-10-13; input SHA256 7cdbaa30a7310ac82200624ca4a2eb31b5c3038d8cbcdbdf0e78f5b3318c9864. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-radiation-fog",
-    "text": "Radiation Fog — A fog that forms when outgoing longwave radiation cools the near-surface air below its dew point temperature.",
+    "text": "Radiation Fog\nA fog that forms when outgoing longwave radiation cools the near-surface air below its dew point temperature.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=r; term Radiation Fog; downloaded 2026-10-13; input SHA256 4162f8f13f65c72b704dd552a5a68cdc34ed68d0d2aae77d015cd9a730d4ce1a. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-steam-fog",
-    "text": "Steam Fog — Fog formed when water vapor is added to air which is much colder than the source of the vapor. It may be formed when very cold air drifts across relatively warm water. At temperatures below about-20°F, ice particles or droxtals may be formed in the air producing a type of ice fog known as frost smoke.",
+    "text": "Steam Fog\nFog formed when water vapor is added to air which is much colder than the source of the vapor. It may be formed when very cold air drifts across relatively warm water. At temperatures below about-20°F, ice particles or droxtals may be formed in the air producing a type of ice fog known as frost smoke.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=s; term Steam Fog; downloaded 2026-10-13; input SHA256 fc10498908fab91e198cd9482922c1e71a2649f113127720a12594b1d7d2880b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-upslope-fog",
-    "text": "Upslope Fog — A fog that forms when moist, stable air is carried up a mountain slope.",
+    "text": "Upslope Fog\nA fog that forms when moist, stable air is carried up a mountain slope.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=u; term Upslope Fog; downloaded 2026-10-13; input SHA256 f5b5ad2ddb055d6a8f2caaab1c56880e4d74041d24ddee3ea6ff72c96a608491. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-freezing-fog",
-    "text": "Freezing Fog — A fog the droplets of which freeze upon contact with exposed objects and form a coating of rime and/or glaze.",
+    "text": "Freezing Fog\nA fog the droplets of which freeze upon contact with exposed objects and form a coating of rime and/or glaze.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=f; term Freezing Fog; downloaded 2026-10-13; input SHA256 5f7ab7cfc6fbdfaf221dc35df98f6b7cebd7817a6f3fc26deddd346b599e2140. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-ice-fog",
-    "text": "Ice Fog — (Also called ice-crystal fog, frozen fog, frost fog, frost flakes, air hoar, rime fog, pogonip.) A type of fog, composed of suspended particles of ice; partly ice crystals 20 to 100 micron in diameter, but chiefly (especially when dense) ice particles about 12–20 micron in diameter, formed by direct freezing of supercooled water droplets with little growth directly from the vapor. It occurs at very low temperatures, and usually in clear, calm weather in high latitudes. The sun is usually visible and may cause halo phenomena. Ice fog is rare at temperatures warmer than -30°C, and increases in frequency with decreasing temperature until it is almost always present at air temperatures of -45°C in the vicinity of a source of water vapor. Such sources are the open water of fast-flowing streams or of the sea, herds of animals, volcanoes, and especially products of combustion for heating or propulsion. At temperatures warmer than -30°C, these sources can cause steam fog of liquid water droplets, which may turn into ice fog when cooled (see frost smoke). See ice-crystal haze, arctic mist.",
+    "text": "Ice Fog\n(Also called ice-crystal fog, frozen fog, frost fog, frost flakes, air hoar, rime fog, pogonip.) A type of fog, composed of suspended particles of ice; partly ice crystals 20 to 100 micron in diameter, but chiefly (especially when dense) ice particles about 12–20 micron in diameter, formed by direct freezing of supercooled water droplets with little growth directly from the vapor. It occurs at very low temperatures, and usually in clear, calm weather in high latitudes. The sun is usually visible and may cause halo phenomena. Ice fog is rare at temperatures warmer than -30°C, and increases in frequency with decreasing temperature until it is almost always present at air temperatures of -45°C in the vicinity of a source of water vapor. Such sources are the open water of fast-flowing streams or of the sea, herds of animals, volcanoes, and especially products of combustion for heating or propulsion. At temperatures warmer than -30°C, these sources can cause steam fog of liquid water droplets, which may turn into ice fog when cooled (see frost smoke). See ice-crystal haze, arctic mist.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=i; term Ice Fog; downloaded 2026-10-13; input SHA256 248012b6324bab790aa947328a2d10ce8be5c21fc72eef1e1122959b1060eaeb. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-tule-fog",
-    "text": "Tule Fog — Radiation fog in the Central Valley of California. It forms during night and morning hours in late fall and winter months following the first significant rainfall. A leading cause of weather related casualties in California.",
+    "text": "Tule Fog\nRadiation fog in the Central Valley of California. It forms during night and morning hours in late fall and winter months following the first significant rainfall. A leading cause of weather related casualties in California.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=t; term Tule Fog; downloaded 2026-10-13; input SHA256 ecd087ce5c62e4ea0460cc3cd7a2906c00a5209d0199add6e7d47a658067845e. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-ground-fog",
-    "text": "Ground Fog — (abbrev. GF) Fog produced over the land by the cooling of the lower atmosphere as it comes in contact with the ground. Also known as radiation fog, and in parts of California as tule fog.",
+    "text": "Ground Fog\n(abbrev. GF) Fog produced over the land by the cooling of the lower atmosphere as it comes in contact with the ground. Also known as radiation fog, and in parts of California as tule fog.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=g; term Ground Fog; downloaded 2026-10-13; input SHA256 de90adf98fb239c82459bdb1081837ce86150dd0f2c846535a52b59560d688d3. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-sea-fog",
-    "text": "Sea Fog — Common advection fog caused by transport of moist air over a cold body of water.",
+    "text": "Sea Fog\nCommon advection fog caused by transport of moist air over a cold body of water.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=s; term Sea Fog; downloaded 2026-10-13; input SHA256 fc10498908fab91e198cd9482922c1e71a2649f113127720a12594b1d7d2880b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-evaporation-mixing-fog",
-    "text": "Evaporation-mixing Fog — Fog that forms when the evaporation of water raises the dew point of the adjacent air.",
+    "text": "Evaporation-mixing Fog\nFog that forms when the evaporation of water raises the dew point of the adjacent air.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=e; term Evaporation-mixing Fog; downloaded 2026-10-13; input SHA256 b159c92744e2d512dc2415394e9a3300c7516568ba267b42f890878aaa160e60. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-scud",
+    "text": "Scud\nSmall, ragged, low cloud fragments that are unattached to a larger cloud base and often seen with and behind cold fronts and thunderstorm gust fronts. Such clouds generally are associated with cool moist air, such as thunderstorm outflow.\n— National Weather Service, Glossary",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=s; term Scud; downloaded 2026-10-13; input SHA256 fc10498908fab91e198cd9482922c1e71a2649f113127720a12594b1d7d2880b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-cumulus-congestus",
+    "text": "Cumulus Congestus\nA large, towering cumulus cloud with great vertical development, usually with a cauliflower-like appearance, but lacking the characteristic anvil of a cumulonimbus.\n— National Weather Service, Glossary",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=c; term Cumulus Congestus; downloaded 2026-10-13; input SHA256 52b9c55ec47b208bc5e7c62af894752d068d93e2dd2c08d90e1e3aedb54abc70. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-rotor-cloud",
+    "text": "Rotor Cloud\nA turbulent altocumulus cloud formation found in the lee of some mountain barriers when winds cross the barrier at high speed. The air in the cloud rotates around an axis parallel to the range. Also called a roll cloud.\n— National Weather Service, Glossary",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=r; term Rotor Cloud; downloaded 2026-10-13; input SHA256 4162f8f13f65c72b704dd552a5a68cdc34ed68d0d2aae77d015cd9a730d4ce1a. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   }
 ]

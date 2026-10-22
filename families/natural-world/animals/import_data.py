@@ -86,12 +86,12 @@ def make_record(row):
     lineage = [(rank, row[rank]) for rank in ("class", "order", "family") if row.get(rank)]
     if not row.get("family") or len(lineage) < 2:
         return None
-    text = f"{names[0]} ({canonical}). "
-    text += "; ".join(f"{rank.capitalize()}: {value}" for rank, value in lineage) + "."
+    lines = [f"{names[0]} ({canonical})"]
+    lines.extend(f"{rank.capitalize()}: {value}" for rank, value in lineage)
     habitats = sorted(set(row.get("habitats", [])) - {"UNKNOWN"})
     if habitats:
-        text += " Recorded habitat categories: " + ", ".join(h.lower().replace("_", " ") for h in habitats) + "."
-    return {"id": f"gbif-{row['key']}", "text": text, "provenance":
+        lines.append("Habitat: " + ", ".join(h.lower().replace("_", " ") for h in habitats))
+    return {"id": f"gbif-{row['key']}", "text": "\n".join(lines), "provenance":
             f"GBIF Secretariat: GBIF Backbone Taxonomy, dataset {DATASET}; "
             f"https://www.gbif.org/species/{row['key']}; snapshot retrieved 2026-10-13. "
             "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. "

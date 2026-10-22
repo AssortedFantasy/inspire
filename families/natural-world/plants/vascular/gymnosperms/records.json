@@ -1,87 +1,87 @@
 [
   {
     "id": "usda-plants-agro6",
-    "text": "Agathis robusta (Queensland kauri): gymnosperm; family Araucariaceae; growth forms: tree; life cycle: perennial. PLANTS native status: Puerto Rico — introduced.",
+    "text": "Agathis robusta (Queensland kauri)\nFamily: Araucariaceae (gymnosperm)\nGrowth forms: tree\nLife cycle: perennial\nPuerto Rico — introduced",
     "provenance": "USDA NRCS PLANTS profile AGRO6; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=AGRO6; downloaded 2026-10-13; input SHA256 a0b4350601af2a32d55c89c5403b40ef601bb93e9dbf676c0e1664a476634c69. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-arcu7",
-    "text": "Araucaria cunninghamii (Moreton Bay pine): gymnosperm; family Araucariaceae.",
+    "text": "Araucaria cunninghamii (Moreton Bay pine)\nFamily: Araucariaceae (gymnosperm)",
     "provenance": "USDA NRCS PLANTS profile ARCU7; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ARCU7; downloaded 2026-10-13; input SHA256 d2f6158c5052ac8753dbf331649076a03d124ffcfd0232e71033d445f54b7f41. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-ceha2",
-    "text": "Cephalotaxus harringtonia (Harrington's cephalotaxus): gymnosperm; family Cephalotaxaceae.",
+    "text": "Cephalotaxus harringtonia (Harrington's cephalotaxus)\nFamily: Cephalotaxaceae (gymnosperm)",
     "provenance": "USDA NRCS PLANTS profile CEHA2; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CEHA2; downloaded 2026-10-13; input SHA256 da2b2e1ed5f96ad1d522860d82b0fdf7ffe8619707e6e05305e3ee3439e39861. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-cymi8",
-    "text": "Cycas micronesica (Micronesian cycad): gymnosperm; family Cycadaceae; growth forms: tree; life cycle: perennial. PLANTS native status: the Pacific Basin excluding Hawaii — native.",
+    "text": "Cycas micronesica (Micronesian cycad)\nFamily: Cycadaceae (gymnosperm)\nGrowth forms: tree\nLife cycle: perennial\nPacific Basin excluding Hawaii — native",
     "provenance": "USDA NRCS PLANTS profile CYMI8; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=CYMI8; downloaded 2026-10-13; input SHA256 7682783489951d8ef2d3b19627776786949180626b311dffeea42cf78e5d5c0b. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-dacu2",
-    "text": "Dacrydium cupressinum (New Zealand red pine): gymnosperm; family Podocarpaceae.",
+    "text": "Dacrydium cupressinum (New Zealand red pine)\nFamily: Podocarpaceae (gymnosperm)",
     "provenance": "USDA NRCS PLANTS profile DACU2; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=DACU2; downloaded 2026-10-13; input SHA256 6df1af50cb35efdff70b3408e99794453d2df08355b5f13f9c58f664a60d25e5. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-eppe",
-    "text": "Ephedra pedunculata (vine jointfir): gymnosperm; family Ephedraceae; growth forms: shrub, vine; life cycle: perennial. PLANTS native status: the lower 48 U.S. states — native.",
+    "text": "Ephedra pedunculata (vine jointfir)\nFamily: Ephedraceae (gymnosperm)\nGrowth forms: shrub, vine\nLife cycle: perennial\nLower 48 U.S. states — native",
     "provenance": "USDA NRCS PLANTS profile EPPE; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=EPPE; downloaded 2026-10-13; input SHA256 5101cd8c6ec16691ff832e04104db7688fc37b9662ecf6b0d917e95f64c70cd9. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-ficu2",
-    "text": "Fitzroya cupressoides (Patagonian cypress): gymnosperm; family Cupressaceae.",
+    "text": "Fitzroya cupressoides (Patagonian cypress)\nFamily: Cupressaceae (gymnosperm)",
     "provenance": "USDA NRCS PLANTS profile FICU2; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=FICU2; downloaded 2026-10-13; input SHA256 9cc7ed5c59eed85a1ff06327534f6ed53cde2d495de7aeacc5f70f72ab57fad8. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-gibi2",
-    "text": "Ginkgo biloba (maidenhair tree): gymnosperm; family Ginkgoaceae; growth forms: tree; life cycle: perennial. PLANTS native status: the lower 48 U.S. states — introduced.",
+    "text": "Ginkgo biloba (maidenhair tree)\nFamily: Ginkgoaceae (gymnosperm)\nGrowth forms: tree\nLife cycle: perennial\nLower 48 U.S. states — introduced",
     "provenance": "USDA NRCS PLANTS profile GIBI2; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GIBI2; downloaded 2026-10-13; input SHA256 947bcc13c2a5c373b0c34e7931f254b503e8e6afae27bad23a4b5d5554cd7034. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-gnaf",
-    "text": "Gnetum africanum (African jointfir): gymnosperm; family Gnetaceae.",
+    "text": "Gnetum africanum (African jointfir)\nFamily: Gnetaceae (gymnosperm)",
     "provenance": "USDA NRCS PLANTS profile GNAF; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=GNAF; downloaded 2026-10-13; input SHA256 b0e140b5b333cc00fe7c39ebb939f4607f58bde3c68077eed14228ed4b254d5e. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-hegu4",
-    "text": "Hesperocyparis guadalupensis (Guadalupe cypress): gymnosperm; family Cupressaceae.",
+    "text": "Hesperocyparis guadalupensis (Guadalupe cypress)\nFamily: Cupressaceae (gymnosperm)",
     "provenance": "USDA NRCS PLANTS profile HEGU4; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=HEGU4; downloaded 2026-10-13; input SHA256 0be12036a03720660a600eea94d4bdddfe1c8c8302eaceef5aae3802d7a62014. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-maco33",
-    "text": "Macrozamia communis (burrawong): gymnosperm; family Zamiaceae.",
+    "text": "Macrozamia communis (burrawong)\nFamily: Zamiaceae (gymnosperm)",
     "provenance": "USDA NRCS PLANTS profile MACO33; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=MACO33; downloaded 2026-10-13; input SHA256 bf4cde2b751b9e3d871c6a1939cb9438608eddf5a6db91e47fd0659e0fe04cd5. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-pima11",
-    "text": "Pinus massoniana (Chinese red pine): gymnosperm; family Pinaceae.",
+    "text": "Pinus massoniana (Chinese red pine)\nFamily: Pinaceae (gymnosperm)",
     "provenance": "USDA NRCS PLANTS profile PIMA11; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PIMA11; downloaded 2026-10-13; input SHA256 127f42617185ff4bd9f2205b02f1a13b29c6b00afe13245a9a283e0f975b8247. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-pipu",
-    "text": "Picea pungens (blue spruce): gymnosperm; family Pinaceae; growth forms: tree; life cycle: perennial. PLANTS native status: the lower 48 U.S. states — native; Canada — introduced.",
+    "text": "Picea pungens (blue spruce)\nFamily: Pinaceae (gymnosperm)\nGrowth forms: tree\nLife cycle: perennial\nLower 48 U.S. states — native\nCanada — introduced",
     "provenance": "USDA NRCS PLANTS profile PIPU; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=PIPU; downloaded 2026-10-13; input SHA256 76ed62c4aeca92a836e24635b84ccd123306b683b7123ef15499988389469750. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-poco3",
-    "text": "Podocarpus coriaceus (yucca plum pine): gymnosperm; family Podocarpaceae; growth forms: tree; life cycle: perennial. PLANTS native status: Puerto Rico — native.",
+    "text": "Podocarpus coriaceus (yucca plum pine)\nFamily: Podocarpaceae (gymnosperm)\nGrowth forms: tree\nLife cycle: perennial\nPuerto Rico — native",
     "provenance": "USDA NRCS PLANTS profile POCO3; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=POCO3; downloaded 2026-10-13; input SHA256 6e225fba3c3770512b631228b0623ce089d167a4d5c8b0ef6ce8f2ec9d654615. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-taba80",
-    "text": "Taxus baccata (English yew): gymnosperm; family Taxaceae; growth forms: shrub, tree; life cycle: perennial. PLANTS native status: the lower 48 U.S. states — introduced.",
+    "text": "Taxus baccata (English yew)\nFamily: Taxaceae (gymnosperm)\nGrowth forms: shrub, tree\nLife cycle: perennial\nLower 48 U.S. states — introduced",
     "provenance": "USDA NRCS PLANTS profile TABA80; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TABA80; downloaded 2026-10-13; input SHA256 27e1719dbae48b4b6e0e4a5e4042901945d9dfde869c07eedbcdcdf36c2100dc. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-tota",
-    "text": "Torreya taxifolia (Florida nutmeg): gymnosperm; family Taxaceae; growth forms: tree; life cycle: perennial. PLANTS native status: the lower 48 U.S. states — native.",
+    "text": "Torreya taxifolia (Florida nutmeg)\nFamily: Taxaceae (gymnosperm)\nGrowth forms: tree\nLife cycle: perennial\nLower 48 U.S. states — native",
     "provenance": "USDA NRCS PLANTS profile TOTA; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=TOTA; downloaded 2026-10-13; input SHA256 51a68ded55f9a1ab2c543eae27957c769363f1396586a48426c8f2a293458d25. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   },
   {
     "id": "usda-plants-zaam2",
-    "text": "Zamia amblyphyllidia (zamia): gymnosperm; family Zamiaceae; growth forms: shrub; life cycle: perennial. PLANTS native status: Puerto Rico — native.",
+    "text": "Zamia amblyphyllidia (zamia)\nFamily: Zamiaceae (gymnosperm)\nGrowth forms: shrub\nLife cycle: perennial\nPuerto Rico — native",
     "provenance": "USDA NRCS PLANTS profile ZAAM2; https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ZAAM2; downloaded 2026-10-13; input SHA256 0516e5429d23c18f56764214095061aae7e6d314daf820b391f48acf88d51d92. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied."
   }
 ]

@@ -28,7 +28,9 @@ Definitions come from the archive's metadata. Adult size is a reported maximum,
 in millimeters: snout-to-vent length in frogs and total length in salamanders and
 caecilians. Maturity ages and maximum lifespan are years; clutch sizes count
 offspring or eggs; reproductive output is the
-maximum number of reproductive events per year. Other fields report positive
+maximum number of reproductive events per year. Paired maturity and clutch-size
+bounds share one range; a lone bound keeps its minimum or maximum label.
+Other fields report positive
 source categories for foraging strata, adult diet, activity and breeding strategy.
 Foraging strata omit seasonal and developmental detail; adult diet may originate
 from observation, stomach contents or specialist judgment in the cited literature.

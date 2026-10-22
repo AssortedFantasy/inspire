@@ -9,15 +9,22 @@
       "reviewer": "/root/natural_world/animals/invertebrates/crustaceans",
       "record_count": 181,
       "weight": 181,
-      "records_sha256": "08c4c1e6c28c39dff4f854cb04799d9e6ec8fa5bf430c84439ec7219988f2368",
+      "records_sha256": "4d1df372a37bed1859cad9be07a66519541294ebb934d3a7d79d43bac414b556",
       "source_manifest": "sources.json",
       "source_manifest_sha256": "ea01d886552da27819e84a2993eca9bca980abb74ee9f2cf6fe74057f94d675f",
       "coverage": {
         "source_genera": 204,
         "source_family_groups": 123,
         "resolved_families": 122,
-        "unresolved_source_groups": ["Paratanaoidea incertae sedis"],
-        "classes": {"Hexanauplia": 3, "Malacostraca": 166, "Ostracoda": 3, "Thecostraca": 9},
+        "unresolved_source_groups": [
+          "Paratanaoidea incertae sedis"
+        ],
+        "classes": {
+          "Hexanauplia": 3,
+          "Malacostraca": 166,
+          "Ostracoda": 3,
+          "Thecostraca": 9
+        },
         "orders": {
           "Amphipoda": 75,
           "Balanomorpha": 4,
@@ -61,7 +68,13 @@
         "https://www.nature.com/articles/s41597-022-01442-y",
         "https://data-api.cefas.co.uk/api/holdings/21362",
         "https://data-api.cefas.co.uk/api/export/11935"
-      ]
+      ],
+      "source_reviewed_records_sha256": "08c4c1e6c28c39dff4f854cb04799d9e6ec8fa5bf430c84439ec7219988f2368"
     }
-  ]
+  ],
+  "formatting_review": {
+    "date": "2026-10-22",
+    "scope": "Newline fields and grouped traits; source selection, IDs, quantities and study qualifiers preserved.",
+    "checks": "All records checked for schema, stable IDs/counts, unique texts and weights. Source-review hashes retained separately. Full source replay not repeated because the temporary input caches are unavailable."
+  }
 }

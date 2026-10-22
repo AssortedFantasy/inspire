@@ -1,232 +1,232 @@
 [
   {
     "id": "jpl-satellite-301",
-    "text": "Moon, a natural satellite of Earth. Reported volume-equivalent mean radius 1737.4 ± 0.1 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Moon — moon of Earth\nMean radius: 1737.4 ± 0.1 km",
     "provenance": "NASA astronomical factual data; source object 301 Moon; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-401",
-    "text": "Phobos, a natural satellite of Mars. Reported volume-equivalent mean radius 11.08 ± 0.04 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Phobos — moon of Mars\nMean radius: 11.08 ± 0.04 km",
     "provenance": "NASA astronomical factual data; source object 401 Phobos; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-402",
-    "text": "Deimos, a natural satellite of Mars. Reported volume-equivalent mean radius 6.2 ± 0.24 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Deimos — moon of Mars\nMean radius: 6.2 ± 0.24 km",
     "provenance": "NASA astronomical factual data; source object 402 Deimos; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-501",
-    "text": "Io, a natural satellite of Jupiter. Reported volume-equivalent mean radius 1821.49 ± 0.5 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Io — moon of Jupiter\nMean radius: 1821.49 ± 0.5 km",
     "provenance": "NASA astronomical factual data; source object 501 Io; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-502",
-    "text": "Europa, a natural satellite of Jupiter. Reported volume-equivalent mean radius 1560.8 ± 0.3 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Europa — moon of Jupiter\nMean radius: 1560.8 ± 0.3 km",
     "provenance": "NASA astronomical factual data; source object 502 Europa; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-503",
-    "text": "Ganymede, a natural satellite of Jupiter. Reported volume-equivalent mean radius 2631.2 ± 1.7 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Ganymede — moon of Jupiter\nMean radius: 2631.2 ± 1.7 km",
     "provenance": "NASA astronomical factual data; source object 503 Ganymede; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-504",
-    "text": "Callisto, a natural satellite of Jupiter. Reported volume-equivalent mean radius 2410.3 ± 1.5 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Callisto — moon of Jupiter\nMean radius: 2410.3 ± 1.5 km",
     "provenance": "NASA astronomical factual data; source object 504 Callisto; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-505",
-    "text": "Amalthea, a natural satellite of Jupiter. Reported volume-equivalent mean radius 83.5 ± 3 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Amalthea — moon of Jupiter\nMean radius: 83.5 ± 3 km",
     "provenance": "NASA astronomical factual data; source object 505 Amalthea; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-514",
-    "text": "Thebe, a natural satellite of Jupiter. Reported volume-equivalent mean radius 49.3 ± 4 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Thebe — moon of Jupiter\nMean radius: 49.3 ± 4 km",
     "provenance": "NASA astronomical factual data; source object 514 Thebe; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-515",
-    "text": "Adrastea, a natural satellite of Jupiter. Reported volume-equivalent mean radius 8.2 ± 4 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Adrastea — moon of Jupiter\nMean radius: 8.2 ± 4 km",
     "provenance": "NASA astronomical factual data; source object 515 Adrastea; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-516",
-    "text": "Metis, a natural satellite of Jupiter. Reported volume-equivalent mean radius 21.5 ± 4 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Metis — moon of Jupiter\nMean radius: 21.5 ± 4 km",
     "provenance": "NASA astronomical factual data; source object 516 Metis; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-506",
-    "text": "Himalia, a natural satellite of Jupiter. Reported volume-equivalent mean radius 85 ± 10 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Himalia — moon of Jupiter\nMean radius: 85 ± 10 km",
     "provenance": "NASA astronomical factual data; source object 506 Himalia; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-601",
-    "text": "Mimas, a natural satellite of Saturn. Reported volume-equivalent mean radius 198.2 ± 0.4 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Mimas — moon of Saturn\nMean radius: 198.2 ± 0.4 km",
     "provenance": "NASA astronomical factual data; source object 601 Mimas; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-602",
-    "text": "Enceladus, a natural satellite of Saturn. Reported volume-equivalent mean radius 252.1 ± 0.2 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Enceladus — moon of Saturn\nMean radius: 252.1 ± 0.2 km",
     "provenance": "NASA astronomical factual data; source object 602 Enceladus; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-603",
-    "text": "Tethys, a natural satellite of Saturn. Reported volume-equivalent mean radius 531.1 ± 0.6 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Tethys — moon of Saturn\nMean radius: 531.1 ± 0.6 km",
     "provenance": "NASA astronomical factual data; source object 603 Tethys; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-604",
-    "text": "Dione, a natural satellite of Saturn. Reported volume-equivalent mean radius 561.4 ± 0.4 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Dione — moon of Saturn\nMean radius: 561.4 ± 0.4 km",
     "provenance": "NASA astronomical factual data; source object 604 Dione; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-605",
-    "text": "Rhea, a natural satellite of Saturn. Reported volume-equivalent mean radius 763.5 ± 0.6 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Rhea — moon of Saturn\nMean radius: 763.5 ± 0.6 km",
     "provenance": "NASA astronomical factual data; source object 605 Rhea; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-606",
-    "text": "Titan, a natural satellite of Saturn. Reported volume-equivalent mean radius 2574.76 ± 0.02 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Titan — moon of Saturn\nMean radius: 2574.76 ± 0.02 km",
     "provenance": "NASA astronomical factual data; source object 606 Titan; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-607",
-    "text": "Hyperion, a natural satellite of Saturn. Reported volume-equivalent mean radius 135 ± 4 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Hyperion — moon of Saturn\nMean radius: 135 ± 4 km",
     "provenance": "NASA astronomical factual data; source object 607 Hyperion; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-608",
-    "text": "Iapetus, a natural satellite of Saturn. Reported volume-equivalent mean radius 734.3 ± 2.8 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Iapetus — moon of Saturn\nMean radius: 734.3 ± 2.8 km",
     "provenance": "NASA astronomical factual data; source object 608 Iapetus; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-609",
-    "text": "Phoebe, a natural satellite of Saturn. Reported volume-equivalent mean radius 106.5 ± 0.7 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Phoebe — moon of Saturn\nMean radius: 106.5 ± 0.7 km",
     "provenance": "NASA astronomical factual data; source object 609 Phoebe; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-610",
-    "text": "Janus, a natural satellite of Saturn. Reported volume-equivalent mean radius 89.2 ± 0.8 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Janus — moon of Saturn\nMean radius: 89.2 ± 0.8 km",
     "provenance": "NASA astronomical factual data; source object 610 Janus; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-611",
-    "text": "Epimetheus, a natural satellite of Saturn. Reported volume-equivalent mean radius 58.2 ± 1.2 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Epimetheus — moon of Saturn\nMean radius: 58.2 ± 1.2 km",
     "provenance": "NASA astronomical factual data; source object 611 Epimetheus; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-612",
-    "text": "Helene, a natural satellite of Saturn. Reported volume-equivalent mean radius 18 ± 0.4 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Helene — moon of Saturn\nMean radius: 18 ± 0.4 km",
     "provenance": "NASA astronomical factual data; source object 612 Helene; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-615",
-    "text": "Atlas, a natural satellite of Saturn. Reported volume-equivalent mean radius 15.1 ± 0.8 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Atlas — moon of Saturn\nMean radius: 15.1 ± 0.8 km",
     "provenance": "NASA astronomical factual data; source object 615 Atlas; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-616",
-    "text": "Prometheus, a natural satellite of Saturn. Reported volume-equivalent mean radius 43.1 ± 1.2 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Prometheus — moon of Saturn\nMean radius: 43.1 ± 1.2 km",
     "provenance": "NASA astronomical factual data; source object 616 Prometheus; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-617",
-    "text": "Pandora, a natural satellite of Saturn. Reported volume-equivalent mean radius 40.6 ± 1.5 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Pandora — moon of Saturn\nMean radius: 40.6 ± 1.5 km",
     "provenance": "NASA astronomical factual data; source object 617 Pandora; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-618",
-    "text": "Pan, a natural satellite of Saturn. Reported volume-equivalent mean radius 14 ± 1.2 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Pan — moon of Saturn\nMean radius: 14 ± 1.2 km",
     "provenance": "NASA astronomical factual data; source object 618 Pan; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-701",
-    "text": "Ariel, a natural satellite of Uranus. Reported volume-equivalent mean radius 578.9 ± 0.6 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Ariel — moon of Uranus\nMean radius: 578.9 ± 0.6 km",
     "provenance": "NASA astronomical factual data; source object 701 Ariel; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-702",
-    "text": "Umbriel, a natural satellite of Uranus. Reported volume-equivalent mean radius 584.7 ± 2.8 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Umbriel — moon of Uranus\nMean radius: 584.7 ± 2.8 km",
     "provenance": "NASA astronomical factual data; source object 702 Umbriel; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-703",
-    "text": "Titania, a natural satellite of Uranus. Reported volume-equivalent mean radius 788.9 ± 1.8 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Titania — moon of Uranus\nMean radius: 788.9 ± 1.8 km",
     "provenance": "NASA astronomical factual data; source object 703 Titania; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-704",
-    "text": "Oberon, a natural satellite of Uranus. Reported volume-equivalent mean radius 761.4 ± 2.6 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Oberon — moon of Uranus\nMean radius: 761.4 ± 2.6 km",
     "provenance": "NASA astronomical factual data; source object 704 Oberon; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-705",
-    "text": "Miranda, a natural satellite of Uranus. Reported volume-equivalent mean radius 235.8 ± 0.7 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Miranda — moon of Uranus\nMean radius: 235.8 ± 0.7 km",
     "provenance": "NASA astronomical factual data; source object 705 Miranda; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-801",
-    "text": "Triton, a natural satellite of Neptune. Reported volume-equivalent mean radius 1352.6 ± 2.4 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Triton — moon of Neptune\nMean radius: 1352.6 ± 2.4 km",
     "provenance": "NASA astronomical factual data; source object 801 Triton; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-802",
-    "text": "Nereid, a natural satellite of Neptune. Reported volume-equivalent mean radius 170 ± 25 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Nereid — moon of Neptune\nMean radius: 170 ± 25 km",
     "provenance": "NASA astronomical factual data; source object 802 Nereid; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-803",
-    "text": "Naiad, a natural satellite of Neptune. Reported volume-equivalent mean radius 29 ± 6 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Naiad — moon of Neptune\nMean radius: 29 ± 6 km",
     "provenance": "NASA astronomical factual data; source object 803 Naiad; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-804",
-    "text": "Thalassa, a natural satellite of Neptune. Reported volume-equivalent mean radius 40 ± 8 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Thalassa — moon of Neptune\nMean radius: 40 ± 8 km",
     "provenance": "NASA astronomical factual data; source object 804 Thalassa; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-805",
-    "text": "Despina, a natural satellite of Neptune. Reported volume-equivalent mean radius 74 ± 10 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Despina — moon of Neptune\nMean radius: 74 ± 10 km",
     "provenance": "NASA astronomical factual data; source object 805 Despina; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-806",
-    "text": "Galatea, a natural satellite of Neptune. Reported volume-equivalent mean radius 79 ± 12 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Galatea — moon of Neptune\nMean radius: 79 ± 12 km",
     "provenance": "NASA astronomical factual data; source object 806 Galatea; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-807",
-    "text": "Larissa, a natural satellite of Neptune. Reported volume-equivalent mean radius 96 ± 7 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Larissa — moon of Neptune\nMean radius: 96 ± 7 km",
     "provenance": "NASA astronomical factual data; source object 807 Larissa; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-808",
-    "text": "Proteus, a natural satellite of Neptune. Reported volume-equivalent mean radius 208 ± 8 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Proteus — moon of Neptune\nMean radius: 208 ± 8 km",
     "provenance": "NASA astronomical factual data; source object 808 Proteus; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-901",
-    "text": "Charon, a natural satellite of Pluto. Reported volume-equivalent mean radius 606 ± 0.5 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Charon — moon of Pluto\nMean radius: 606 ± 0.5 km",
     "provenance": "NASA astronomical factual data; source object 901 Charon; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-902",
-    "text": "Nix, a natural satellite of Pluto. Reported volume-equivalent mean radius 18 ± 1 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Nix — moon of Pluto\nMean radius: 18 ± 1 km",
     "provenance": "NASA astronomical factual data; source object 902 Nix; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-903",
-    "text": "Hydra, a natural satellite of Pluto. Reported volume-equivalent mean radius 18.5 ± 1 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Hydra — moon of Pluto\nMean radius: 18.5 ± 1 km",
     "provenance": "NASA astronomical factual data; source object 903 Hydra; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-904",
-    "text": "Kerberos, a natural satellite of Pluto. Reported volume-equivalent mean radius 6 ± 1 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Kerberos — moon of Pluto\nMean radius: 6 ± 1 km",
     "provenance": "NASA astronomical factual data; source object 904 Kerberos; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-satellite-905",
-    "text": "Styx, a natural satellite of Pluto. Reported volume-equivalent mean radius 5.2 ± 1 km: the radius of a sphere with the same volume as the moon.",
+    "text": "Styx — moon of Pluto\nMean radius: 5.2 ± 1 km",
     "provenance": "NASA astronomical factual data; source object 905 Styx; https://ssd.jpl.nasa.gov/sats/phys_par/; retrieved 2026-10-13; input SHA256 0c6323f469e48ac654f7d4dd263ed6c62ad14689218c5451a98da29d625aaf10. JPL planetary satellite physical parameters; mean radius and quoted sigma, not diameter. Missing/upper-limit GM and poorly constrained derived densities are not emitted. Original physical-parameter references remain in pinned HTML. Selected numerical facts formatted by Inspire; no images or article prose used."
   }
 ]

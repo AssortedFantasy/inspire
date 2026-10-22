@@ -64,21 +64,21 @@ def make_image_record(row, t, common):
     if reference.lower() == "unpublished":
         reference += " (source label; image unidentified)"
     reference_sentence = reference + ("" if reference.endswith(".") else ".")
-    text = (f"{common} ({name}). Lateral-view image: {label} = {value:.3g}"
-            f" (dimensionless), measured from a source-selected {illustration}.")
+    text = (f"{common} ({name})\n{label.capitalize()}: {value:.3g}"
+            f"\nMeasurement: lateral-view {illustration}")
     provenance = (
         f"FISHMORPH v1.1, FishBase species code {t['SpecCode']}; https://rodare.hzdr.de/record/1316;"
         f" exact scientific-binomial join for {name}. Source value {trait}={t[trait]}; {definition}."
         f" Illustration type: {illustration}; illustration reference: {reference_sentence}"
-        " Formatted to three significant digits; no imputation, behavioral inference, individual identity,"
-        " Measurement describes the selected image; it is not an estimate of species variation."
+        " Formatted to three significant digits. Measurement describes the selected image;"
+        " it is not an estimate of species variation."
         " Brosse, Charpin, Su, Toussaint, Herrera-R, Tedesco and Villeger (2021),"
         " doi:10.14278/rodare.1316; associated methods doi:10.1111/geb.13395, Figure 1 and"
         " sections 2.1.1, 2.1.2, 2.2.2 and 4;"
         " https://aureletoussaint.github.io/homepage/data/2021_Brosse_GEB.pdf."
         f" Common name and association: GBIF Secretariat, GBIF Backbone Taxonomy, stable key {row['key']};"
         f" https://www.gbif.org/species/{row['key']}; snapshot retrieved 2026-10-13."
-        " Both datasets CC BY 4.0; formatted and filtered by Inspire."
+        " Both datasets CC BY 4.0, https://creativecommons.org/licenses/by/4.0/; formatted and filtered by Inspire."
         " Exact API inputs are pinned in ../sources.json; trait CSV, units README and methods"
         " are pinned in ../traits-sources.json. Full license inherited from ../../../LICENSE.txt.")
     return {"id": f"fishmorph-{trait.lower()}-{t['SpecCode']}", "text": text, "provenance": provenance}
@@ -196,9 +196,7 @@ def run():
                 if illustration not in {"photograph", "drawing"}:
                     raise ValueError(f"Unknown source illustration: {illustration}")
                 if size is not None:
-                    record["text"] += (
-                        f" FISHMORPH compilation: maximum body length {size:g} cm, compiled from FishBase"
-                        " (Froese & Pauly 2020); length convention (standard, total or fork) is unspecified.")
+                    record["text"] += f"\nMaximum body length: {size:g} cm"
                     record["provenance"] += (
                         f" Exact scientific-name join to FISHMORPH v1.1, FishBase species code {t['SpecCode']}."
                         " Maximum body length MBl (cm), compiled from FishBase (Froese & Pauly 2020);"

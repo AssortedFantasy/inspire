@@ -1,27 +1,27 @@
 [
   {
     "id": "jpl-planet-ceres",
-    "text": "Ceres, a Solar System dwarf planet. Reported volume-equivalent mean radius ≈ 469.7 km; sidereal rotation ≈ 0.3781 days (prograde); sidereal orbital period ≈ 4.61 years. Sidereal periods are measured relative to fixed stars.",
+    "text": "Ceres\nMean radius: ≈ 469.7 km\nSidereal rotation: ≈ 0.3781 days (prograde)\nSidereal orbital period: ≈ 4.61 years",
     "provenance": "NASA astronomical factual data; source object Ceres; https://ssd.jpl.nasa.gov/planets/phys_par.html; retrieved 2026-10-13; input SHA256 e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b. JPL selected physical parameters table. Mean radius is the radius of an equal-volume sphere, not equatorial radius; rotation is sidereal, not a solar day. Signed rotation is rendered as magnitude and sense. Original table reference letters and numerical uncertainties remain in the pinned HTML input. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-planet-pluto",
-    "text": "Pluto, a Solar System dwarf planet. Reported volume-equivalent mean radius ≈ 1188 km; sidereal rotation ≈ 6.387 days (retrograde); sidereal orbital period ≈ 247.9 years. Sidereal periods are measured relative to fixed stars.",
+    "text": "Pluto\nMean radius: ≈ 1188 km\nSidereal rotation: ≈ 6.387 days (retrograde)\nSidereal orbital period: ≈ 247.9 years",
     "provenance": "NASA astronomical factual data; source object Pluto; https://ssd.jpl.nasa.gov/planets/phys_par.html; retrieved 2026-10-13; input SHA256 e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b. JPL selected physical parameters table. Mean radius is the radius of an equal-volume sphere, not equatorial radius; rotation is sidereal, not a solar day. Signed rotation is rendered as magnitude and sense. Original table reference letters and numerical uncertainties remain in the pinned HTML input. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-planet-eris",
-    "text": "Eris, a Solar System dwarf planet. Reported volume-equivalent mean radius ≈ 1200 km; sidereal rotation ≈ 1.079 days (prograde); sidereal orbital period ≈ 557.6 years. Sidereal periods are measured relative to fixed stars.",
+    "text": "Eris\nMean radius: ≈ 1200 km\nSidereal rotation: ≈ 1.079 days (prograde)\nSidereal orbital period: ≈ 557.6 years",
     "provenance": "NASA astronomical factual data; source object Eris; https://ssd.jpl.nasa.gov/planets/phys_par.html; retrieved 2026-10-13; input SHA256 e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b. JPL selected physical parameters table. Mean radius is the radius of an equal-volume sphere, not equatorial radius; rotation is sidereal, not a solar day. Signed rotation is rendered as magnitude and sense. Original table reference letters and numerical uncertainties remain in the pinned HTML input. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-planet-makemake",
-    "text": "Makemake, a Solar System dwarf planet. Reported volume-equivalent mean radius ≈ 714 km; sidereal rotation ≈ 0.937 days (prograde); sidereal orbital period ≈ 307.5 years. Sidereal periods are measured relative to fixed stars.",
+    "text": "Makemake\nMean radius: ≈ 714 km\nSidereal rotation: ≈ 0.937 days (prograde)\nSidereal orbital period: ≈ 307.5 years",
     "provenance": "NASA astronomical factual data; source object Makemake; https://ssd.jpl.nasa.gov/planets/phys_par.html; retrieved 2026-10-13; input SHA256 e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b. JPL selected physical parameters table. Mean radius is the radius of an equal-volume sphere, not equatorial radius; rotation is sidereal, not a solar day. Signed rotation is rendered as magnitude and sense. Original table reference letters and numerical uncertainties remain in the pinned HTML input. Selected numerical facts formatted by Inspire; no images or article prose used."
   },
   {
     "id": "jpl-planet-haumea",
-    "text": "Haumea, a Solar System dwarf planet. Reported volume-equivalent mean radius ≈ 715 km; sidereal rotation ≈ 0.1631 days (prograde); sidereal orbital period ≈ 284.8 years. Sidereal periods are measured relative to fixed stars.",
+    "text": "Haumea\nMean radius: ≈ 715 km\nSidereal rotation: ≈ 0.1631 days (prograde)\nSidereal orbital period: ≈ 284.8 years",
     "provenance": "NASA astronomical factual data; source object Haumea; https://ssd.jpl.nasa.gov/planets/phys_par.html; retrieved 2026-10-13; input SHA256 e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b. JPL selected physical parameters table. Mean radius is the radius of an equal-volume sphere, not equatorial radius; rotation is sidereal, not a solar day. Signed rotation is rendered as magnitude and sense. Original table reference letters and numerical uncertainties remain in the pinned HTML input. Selected numerical facts formatted by Inspire; no images or article prose used."
   }
 ]

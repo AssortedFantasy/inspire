@@ -104,8 +104,10 @@ def main():
     for record in records:
         # Makes enrichment idempotent without altering the original GBIF clauses.
         record["text"] = record["text"].split(" AVONET species profile:")[0]
+        for marker in ("\nMean body mass:", "\nMean beak culmen length:", "\nMean unflattened wing length:", "\nPrimary habitat:", "\nDiet:", "\nMigration:"):
+            record["text"] = record["text"].split(marker)[0]
         record["provenance"] = record["provenance"].split(" AVONET traits:")[0]
-        name = re.search(r"\(([^()]+)\)\.", record["text"]).group(1)
+        name = re.search(r"\(([^()]+)\)$", record["text"].splitlines()[0]).group(1)
         row = traits.get(name)
         if row is None:
             unmatched.append(name)
@@ -120,15 +122,15 @@ def main():
             value = row[key]
             if isinstance(value, (float, int)) and value > 0:
                 rounded = float(format(value, ".3g"))
-                parts.append(f"mean {label} {rounded:g} {unit}")
-        for key, label in (("Habitat", "primary habitat"), ("Trophic.Niche", "diet category")):
+                parts.append(f"Mean {label}: {rounded:g} {unit}")
+        for key, label in (("Habitat", "Primary habitat"), ("Trophic.Niche", "Diet")):
             if row[key] and row[key] != "NA":
                 parts.append(f"{label}: {row[key].lower()}")
         migration = {1: "sedentary", 2: "partially migratory", 3: "migratory"}.get(row["Migration"])
         if migration:
-            parts.append(f"migration category: {migration}")
+            parts.append(f"Migration: {migration}")
         if parts:
-            record["text"] += " AVONET species profile: " + "; ".join(parts) + "."
+            record["text"] += "\n" + "\n".join(parts)
             record["provenance"] += (
                 " AVONET traits: Tobias et al. (2022), Ecology Letters, doi:10.1111/ele.13898; "
                 "dataset doi:10.6084/m9.figshare.16586228.v7; CC BY 4.0, "

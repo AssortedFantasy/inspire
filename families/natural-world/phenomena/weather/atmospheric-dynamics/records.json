@@ -1,187 +1,212 @@
 [
   {
     "id": "supercell",
-    "text": "A supercell contains a persistent rotating updraft. Its organized internal motion can allow the storm to last for hours.",
-    "provenance": "Original factual paraphrase. Source: NOAA National Severe Storms Laboratory, Thunderstorm FAQ; https://www.nssl.noaa.gov/education/svrwx101/thunderstorms/faq/. Consulted 2026-10-13."
+    "text": "Supercell thunderstorm\nUpdraft: persistent and rotating\nDuration: can last for hours",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA National Severe Storms Laboratory, Thunderstorm FAQ; https://www.nssl.noaa.gov/education/svrwx101/thunderstorms/faq/. Consulted 2026-10-13."
   },
   {
     "id": "condensation-energy",
-    "text": "Condensing water vapor releases heat. That release supplies a substantial part of a thunderstorm's energy.",
-    "provenance": "Original factual paraphrase. Source: NOAA National Severe Storms Laboratory, Thunderstorm FAQ; https://www.nssl.noaa.gov/education/svrwx101/thunderstorms/faq/. Consulted 2026-10-13."
+    "text": "Condensation in thunderstorms\nPhase change: water vapor to liquid water\nHeat: released during condensation\nRole: substantial energy supply for the storm",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA National Severe Storms Laboratory, Thunderstorm FAQ; https://www.nssl.noaa.gov/education/svrwx101/thunderstorms/faq/. Consulted 2026-10-13."
   },
   {
     "id": "derecho",
-    "text": "A derecho is a widespread, long-lived windstorm associated with a fast-moving band of showers or thunderstorms. Its damage often follows a relatively straight swath.",
-    "provenance": "Original factual paraphrase. Source: NOAA National Severe Storms Laboratory, Thunderstorm FAQ; https://www.nssl.noaa.gov/education/svrwx101/thunderstorms/faq/. Consulted 2026-10-13."
+    "text": "Derecho\nStorm type: widespread, long-lived windstorm\nAssociated weather: fast-moving band of showers or thunderstorms\nDamage: often a relatively straight swath",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA National Severe Storms Laboratory, Thunderstorm FAQ; https://www.nssl.noaa.gov/education/svrwx101/thunderstorms/faq/. Consulted 2026-10-13."
   },
   {
     "id": "island-vortex-street",
-    "text": "Wind flowing past a tall island can leave a wake of alternating rotating eddies. Clouds make the otherwise invisible vortex street visible from above.",
-    "provenance": "Original factual paraphrase. Source: NOAA JetStream, NASA satellite observations of Canary Island cloud vortices; https://www.noaa.gov/jetstream. Consulted 2026-10-13."
+    "text": "Island vortex street\nObstacle: tall island in an airflow\nWake: alternating rotating eddies\nVisible tracer: clouds",
+    "provenance": "Concise factual data extracted from the cited source. Source: NOAA JetStream, NASA satellite observations of Canary Island cloud vortices; https://www.noaa.gov/jetstream. Consulted 2026-10-13."
   },
   {
     "id": "noaa-glossary-adiabatic-process",
-    "text": "Adiabatic Process — A process which occurs with no exchange of heat between a system and its environment.",
+    "text": "Adiabatic Process\nA process which occurs with no exchange of heat between a system and its environment.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=a; term Adiabatic Process; downloaded 2026-10-13; input SHA256 7cdbaa30a7310ac82200624ca4a2eb31b5c3038d8cbcdbdf0e78f5b3318c9864. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-adiabatic-lapse-rate",
-    "text": "Adiabatic Lapse Rate — The rate of decrease of temperature experienced by a parcel of air when it is lifted in the atmosphere under the restriction that it cannot exchange heat with its environment. For parcels that remain unsaturated during lifting, the (dry adiabatic) lapse rate is 9.8°C per kilometer.",
+    "text": "Adiabatic Lapse Rate\nThe rate of decrease of temperature experienced by a parcel of air when it is lifted in the atmosphere under the restriction that it cannot exchange heat with its environment. For parcels that remain unsaturated during lifting, the (dry adiabatic) lapse rate is 9.8°C per kilometer.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=a; term Adiabatic Lapse Rate; downloaded 2026-10-13; input SHA256 7cdbaa30a7310ac82200624ca4a2eb31b5c3038d8cbcdbdf0e78f5b3318c9864. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-advection",
-    "text": "Advection — (Abbrev. ADVCTN)- Transport of an atmospheric property by the wind.",
+    "text": "Advection\n(Abbrev. ADVCTN)- Transport of an atmospheric property by the wind.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=a; term Advection; downloaded 2026-10-13; input SHA256 7cdbaa30a7310ac82200624ca4a2eb31b5c3038d8cbcdbdf0e78f5b3318c9864. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-air-mass",
-    "text": "Air Mass — A body of air covering a relatively wide area and exhibiting horizontally uniform properties.",
+    "text": "Air Mass\nA body of air covering a relatively wide area and exhibiting horizontally uniform properties.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=a; term Air Mass; downloaded 2026-10-13; input SHA256 7cdbaa30a7310ac82200624ca4a2eb31b5c3038d8cbcdbdf0e78f5b3318c9864. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-anticyclone",
-    "text": "Anticyclone — A large-scale circulation of winds around a central region of high atmospheric pressure, clockwise in the Northern Hemisphere, counterclockwise in the Southern Hemisphere",
+    "text": "Anticyclone\nA large-scale circulation of winds around a central region of high atmospheric pressure, clockwise in the Northern Hemisphere, counterclockwise in the Southern Hemisphere\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=a; term Anticyclone; downloaded 2026-10-13; input SHA256 7cdbaa30a7310ac82200624ca4a2eb31b5c3038d8cbcdbdf0e78f5b3318c9864. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-cold-front",
-    "text": "Cold Front — A zone separating two air masses, of which the cooler, denser mass is advancing and replacing the warmer.",
+    "text": "Cold Front\nA zone separating two air masses, of which the cooler, denser mass is advancing and replacing the warmer.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=c; term Cold Front; downloaded 2026-10-13; input SHA256 52b9c55ec47b208bc5e7c62af894752d068d93e2dd2c08d90e1e3aedb54abc70. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-convection",
-    "text": "Convection — Generally, transport of heat and moisture by the movement of a fluid. In meteorology, the term is used specifically to describe vertical transport of heat and moisture in the atmosphere, especially by updrafts and downdrafts in an unstable atmosphere. The terms \"convection\" and \"thunderstorms\" often are used interchangeably, although thunderstorms are only one form of convection. Cbs, towering cumulus clouds, and ACCAS clouds all are visible forms of convection. However, convection is not always made visible by clouds. Convection which occurs without cloud formation is called dry convection, while the visible convection processes referred to above are forms of moist convection.",
+    "text": "Convection\nGenerally, transport of heat and moisture by the movement of a fluid. In meteorology, the term is used specifically to describe vertical transport of heat and moisture in the atmosphere, especially by updrafts and downdrafts in an unstable atmosphere. The terms \"convection\" and \"thunderstorms\" often are used interchangeably, although thunderstorms are only one form of convection. Cbs, towering cumulus clouds, and ACCAS clouds all are visible forms of convection. However, convection is not always made visible by clouds. Convection which occurs without cloud formation is called dry convection, while the visible convection processes referred to above are forms of moist convection.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=c; term Convection; downloaded 2026-10-13; input SHA256 52b9c55ec47b208bc5e7c62af894752d068d93e2dd2c08d90e1e3aedb54abc70. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-coriolis-force",
-    "text": "Coriolis Force — A fictitious force used to account for the apparent deflection of a body in motion with respect to the earth, as seen by an observer on the earth. The deflection (to the right in the Northern Hemisphere) is caused by the rotation of the earth.",
+    "text": "Coriolis Force\nA fictitious force used to account for the apparent deflection of a body in motion with respect to the earth, as seen by an observer on the earth. The deflection (to the right in the Northern Hemisphere) is caused by the rotation of the earth.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=c; term Coriolis Force; downloaded 2026-10-13; input SHA256 52b9c55ec47b208bc5e7c62af894752d068d93e2dd2c08d90e1e3aedb54abc70. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-cyclone",
-    "text": "Cyclone — (abbrev. CYC) - A large-scale circulation of winds around a central region of low atmospheric pressure, counterclockwise in the Northern Hemisphere, clockwise in the Southern Hemisphere.",
+    "text": "Cyclone\n(abbrev. CYC) - A large-scale circulation of winds around a central region of low atmospheric pressure, counterclockwise in the Northern Hemisphere, clockwise in the Southern Hemisphere.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=c; term Cyclone; downloaded 2026-10-13; input SHA256 52b9c55ec47b208bc5e7c62af894752d068d93e2dd2c08d90e1e3aedb54abc70. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-dry-line",
-    "text": "Dry Line — A boundary separating moist and dry air masses, and an important factor in severe weather frequency in the Great Plains. It typically lies north-south across the central and southern high Plains states during the spring and early summer, where it separates moist air from the Gulf of Mexico (to the east) and dry desert air from the southwestern states (to the west). The dry line typically advances eastward during the afternoon and retreats westward at night. However, a strong storm system can sweep the dry line eastward into the Mississippi Valley, or even further east, regardless of the time of day. A typical dry line passage results in a sharp drop in humidity (hence the name), clearing skies, and a wind shift from south or southeasterly to west or southwesterly. (Blowing dust and rising temperatures also may follow, especially if the dry line passes during the daytime. These changes occur in reverse order when the dry line retreats westward. Severe and sometimes tornadic thunderstorms often develop along a dry line or in the moist air just to the east of it, especially when it begins moving eastward.",
+    "text": "Dry Line\nA boundary separating moist and dry air masses, and an important factor in severe weather frequency in the Great Plains. It typically lies north-south across the central and southern high Plains states during the spring and early summer, where it separates moist air from the Gulf of Mexico (to the east) and dry desert air from the southwestern states (to the west). The dry line typically advances eastward during the afternoon and retreats westward at night. However, a strong storm system can sweep the dry line eastward into the Mississippi Valley, or even further east, regardless of the time of day. A typical dry line passage results in a sharp drop in humidity (hence the name), clearing skies, and a wind shift from south or southeasterly to west or southwesterly. (Blowing dust and rising temperatures also may follow, especially if the dry line passes during the daytime. These changes occur in reverse order when the dry line retreats westward. Severe and sometimes tornadic thunderstorms often develop along a dry line or in the moist air just to the east of it, especially when it begins moving eastward.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=d; term Dry Line; downloaded 2026-10-13; input SHA256 b921b93417e3a76b7cb5163cb3b543da8775c7cc59ce819ece5b4ed93807f237. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-environmental-lapse-rate",
-    "text": "Environmental Lapse Rate — The rate of decrease of air temperature with height, usually measured with a radiosonde.",
+    "text": "Environmental Lapse Rate\nThe rate of decrease of air temperature with height, usually measured with a radiosonde.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=e; term Environmental Lapse Rate; downloaded 2026-10-13; input SHA256 b159c92744e2d512dc2415394e9a3300c7516568ba267b42f890878aaa160e60. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-extratropical-cyclone",
-    "text": "Extratropical Cyclone — A cyclone in the middle and high latitudes often being 2000 kilometers in diameter and usually containing a cold front that extends toward the equator for hundreds of kilometers.",
+    "text": "Extratropical Cyclone\nA cyclone in the middle and high latitudes often being 2000 kilometers in diameter and usually containing a cold front that extends toward the equator for hundreds of kilometers.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=e; term Extratropical Cyclone; downloaded 2026-10-13; input SHA256 b159c92744e2d512dc2415394e9a3300c7516568ba267b42f890878aaa160e60. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-frontogenesis",
-    "text": "Frontogenesis — 1. The initial formation of a front or frontal zone. 2. In general, an increase in the horizontal gradient of an airmass property, principally density, and the development of the accompanying features of the wind field that typify a front.",
+    "text": "Frontogenesis\n1. The initial formation of a front or frontal zone. 2. In general, an increase in the horizontal gradient of an airmass property, principally density, and the development of the accompanying features of the wind field that typify a front.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=f; term Frontogenesis; downloaded 2026-10-13; input SHA256 5f7ab7cfc6fbdfaf221dc35df98f6b7cebd7817a6f3fc26deddd346b599e2140. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-gravity-wave",
-    "text": "Gravity Wave — A wave created by the action of gravity on density variations in the stratified atmosphere. A generic classification for lee waves, mountains waves, and many other waves that form in the atmosphere.",
+    "text": "Gravity Wave\nA wave created by the action of gravity on density variations in the stratified atmosphere. A generic classification for lee waves, mountains waves, and many other waves that form in the atmosphere.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=g; term Gravity Wave; downloaded 2026-10-13; input SHA256 de90adf98fb239c82459bdb1081837ce86150dd0f2c846535a52b59560d688d3. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-gust-front",
-    "text": "Gust Front — The leading edge of gusty surface winds from thunderstorm downdrafts; sometimes associated with a shelf cloud or roll cloud.",
+    "text": "Gust Front\nThe leading edge of gusty surface winds from thunderstorm downdrafts; sometimes associated with a shelf cloud or roll cloud.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=g; term Gust Front; downloaded 2026-10-13; input SHA256 de90adf98fb239c82459bdb1081837ce86150dd0f2c846535a52b59560d688d3. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-inversion",
-    "text": "Inversion — (abbrev. INVRN) Generally, a departure from the usual increase or decrease in an atmospheric property with altitude. Specifically it almost always refers to a temperature inversion, i.e., an increase in temperature with height, or to the layer within which such an increase occurs. An inversion is present in the lower part of a cap.",
+    "text": "Inversion\n(abbrev. INVRN) Generally, a departure from the usual increase or decrease in an atmospheric property with altitude. Specifically it almost always refers to a temperature inversion, i.e., an increase in temperature with height, or to the layer within which such an increase occurs. An inversion is present in the lower part of a cap.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=i; term Inversion; downloaded 2026-10-13; input SHA256 248012b6324bab790aa947328a2d10ce8be5c21fc72eef1e1122959b1060eaeb. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-jet-stream",
-    "text": "Jet Stream — (abbrev. JSTR) Relatively strong winds concentrated in a narrow stream in the atmosphere, normally referring to horizontal, high-altitude winds. The position and orientation of jet streams vary from day to day. General weather patterns (hot/cold, wet/dry) are related closely to the position, strength and orientation of the jet stream (or jet streams). A jet stream at low levels is known as a low-level jet.",
+    "text": "Jet Stream\n(abbrev. JSTR) Relatively strong winds concentrated in a narrow stream in the atmosphere, normally referring to horizontal, high-altitude winds. The position and orientation of jet streams vary from day to day. General weather patterns (hot/cold, wet/dry) are related closely to the position, strength and orientation of the jet stream (or jet streams). A jet stream at low levels is known as a low-level jet.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=j; term Jet Stream; downloaded 2026-10-13; input SHA256 2791b2529c7c85f8ce5e74152813ee3da7e42b1a9df01e27b58fc43062bba7f3. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-katabatic-wind",
-    "text": "Katabatic Wind — A wind that is created by air flowing downhill.",
+    "text": "Katabatic Wind\nA wind that is created by air flowing downhill.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=k; term Katabatic Wind; downloaded 2026-10-13; input SHA256 1c0ebb22b127f5150e7072f73fef1ad51de621627fccb12a484681d9f7e8b807. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-kelvin-helmholtz-waves",
-    "text": "Kelvin-Helmholtz Waves — Vertical waves in the air associated with wind shear across statically-stable regions. Can appear as breaking waves and as braided patterns in radar images and cloud photos.",
+    "text": "Kelvin-Helmholtz Waves\nVertical waves in the air associated with wind shear across statically-stable regions. Can appear as breaking waves and as braided patterns in radar images and cloud photos.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=k; term Kelvin-Helmholtz Waves; downloaded 2026-10-13; input SHA256 1c0ebb22b127f5150e7072f73fef1ad51de621627fccb12a484681d9f7e8b807. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-lake-breeze",
-    "text": "Lake Breeze — A thermally produced wind blowing during the day from the surface of a large lake to the shore, caused by the difference in the rates of heating of the surfaces of the lake and of the land.",
+    "text": "Lake Breeze\nA thermally produced wind blowing during the day from the surface of a large lake to the shore, caused by the difference in the rates of heating of the surfaces of the lake and of the land.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=l; term Lake Breeze; downloaded 2026-10-13; input SHA256 6d24db07cfc93d48813d3708609c92ce3b0c526da8348cd60cc5494bc81d5f5b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-land-breeze",
-    "text": "Land Breeze — A coastal breeze at night blowing from land to sea, caused by the difference in the rates of cooling of their respective surfaces.",
+    "text": "Land Breeze\nA coastal breeze at night blowing from land to sea, caused by the difference in the rates of cooling of their respective surfaces.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=l; term Land Breeze; downloaded 2026-10-13; input SHA256 6d24db07cfc93d48813d3708609c92ce3b0c526da8348cd60cc5494bc81d5f5b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-lee-wave",
-    "text": "Lee Wave — The wavelike effect, characterized by severe updrafts and downdrafts, that occurs in the lee of a mountain range when rapidly flowing air is lifted up the steep front of a mountain range. Compare mountain wave.",
+    "text": "Lee Wave\nThe wavelike effect, characterized by severe updrafts and downdrafts, that occurs in the lee of a mountain range when rapidly flowing air is lifted up the steep front of a mountain range. Compare mountain wave.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=l; term Lee Wave; downloaded 2026-10-13; input SHA256 6d24db07cfc93d48813d3708609c92ce3b0c526da8348cd60cc5494bc81d5f5b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-mesocyclone",
-    "text": "Mesocyclone — A storm-scale region of rotation, typically around 2–6 miles across. Its circulation covers an area much larger than the tornado that may develop within it.",
-    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=m; term Mesocyclone; downloaded 2026-10-13; input SHA256 0ad03b04f1d3611ea2ef2f146365edd727078d3b1bc200db11627e83546e6cc1. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Original factual paraphrase of the downloaded definition. Selection and editorial changes documented in import_weather.py and README.md."
+    "text": "Mesocyclone\nA storm-scale region of rotation, typically around 2-6 miles in diameter and often found in the right rear flank of a supercell (or often on the eastern, or front, flank of an HP storm). The circulation of a mesocyclone covers an area much larger than the tornado that may develop within it.\n— National Weather Service, Glossary",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=m; term Mesocyclone; downloaded 2026-10-13; input SHA256 0ad03b04f1d3611ea2ef2f146365edd727078d3b1bc200db11627e83546e6cc1. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Contiguous verbatim source excerpt. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-microburst",
-    "text": "Microburst — A convective downdraft with an affected outflow area of less than 2½ miles wide and peak winds lasting less than 5 minutes. Microbursts may induce dangerous horizontal/vertical wind shears, which can adversely affect aircraft performance and cause property damage.",
+    "text": "Microburst\nA convective downdraft with an affected outflow area of less than 2½ miles wide and peak winds lasting less than 5 minutes. Microbursts may induce dangerous horizontal/vertical wind shears, which can adversely affect aircraft performance and cause property damage.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=m; term Microburst; downloaded 2026-10-13; input SHA256 0ad03b04f1d3611ea2ef2f146365edd727078d3b1bc200db11627e83546e6cc1. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-mountain-wave",
-    "text": "Mountain Wave — The wavelike effect, characterized by updrafts and downdrafts, that occurs above and behind a mountain range when rapidly flowing air encounters the mountain range's steep front.",
+    "text": "Mountain Wave\nThe wavelike effect, characterized by updrafts and downdrafts, that occurs above and behind a mountain range when rapidly flowing air encounters the mountain range's steep front.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=m; term Mountain Wave; downloaded 2026-10-13; input SHA256 0ad03b04f1d3611ea2ef2f146365edd727078d3b1bc200db11627e83546e6cc1. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-occluded-front",
-    "text": "Occluded Front — A composite of two fronts, formed as a cold front overtakes a warm or quasi-stationary front. Two types of occlusions can form depending on the relative coldness of the air behind the cold front to the air ahead of the warm or stationary front. A cold occlusion results when the coldest air is behind the cold front and a warm occlusion results when the coldest air is ahead of the warm front.",
+    "text": "Occluded Front\nA composite of two fronts, formed as a cold front overtakes a warm or quasi-stationary front. Two types of occlusions can form depending on the relative coldness of the air behind the cold front to the air ahead of the warm or stationary front. A cold occlusion results when the coldest air is behind the cold front and a warm occlusion results when the coldest air is ahead of the warm front.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=o; term Occluded Front; downloaded 2026-10-13; input SHA256 ba52fa775afcfdfc42664e7bc1a9540154bb933cbc6d69b1845657d5feb20af6. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-rossby-waves",
-    "text": "Rossby Waves — A series of troughs and ridges on quasi-horizontal surfaces in the major belt of upper tropospheric westerlies. The waves are thousands of kilometers long and have significant latitudinal amplitude.",
+    "text": "Rossby Waves\nA series of troughs and ridges on quasi-horizontal surfaces in the major belt of upper tropospheric westerlies. The waves are thousands of kilometers long and have significant latitudinal amplitude.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=r; term Rossby Waves; downloaded 2026-10-13; input SHA256 4162f8f13f65c72b704dd552a5a68cdc34ed68d0d2aae77d015cd9a730d4ce1a. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-sea-breeze",
-    "text": "Sea Breeze — A thermally produced wind blowing during the day from a cool ocean surface onto the adjoining warm land, caused by the difference in the rates of heating of the surfaces of the ocean and of the land.",
+    "text": "Sea Breeze\nA thermally produced wind blowing during the day from a cool ocean surface onto the adjoining warm land, caused by the difference in the rates of heating of the surfaces of the ocean and of the land.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=s; term Sea Breeze; downloaded 2026-10-13; input SHA256 fc10498908fab91e198cd9482922c1e71a2649f113127720a12594b1d7d2880b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-stationary-front",
-    "text": "Stationary Front — A front between warm and cold air masses that is moving very slowly or not at all.",
+    "text": "Stationary Front\nA front between warm and cold air masses that is moving very slowly or not at all.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=s; term Stationary Front; downloaded 2026-10-13; input SHA256 fc10498908fab91e198cd9482922c1e71a2649f113127720a12594b1d7d2880b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-tornado",
-    "text": "Tornado — A violently rotating column of air, usually pendant to a cumulonimbus, with circulation reaching the ground. It nearly always starts as a funnel cloud and may be accompanied by a loud roaring noise. On a local scale, it is the most destructive of all atmospheric phenomena.",
+    "text": "Tornado\nA violently rotating column of air, usually pendant to a cumulonimbus, with circulation reaching the ground. It nearly always starts as a funnel cloud and may be accompanied by a loud roaring noise. On a local scale, it is the most destructive of all atmospheric phenomena.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=t; term Tornado; downloaded 2026-10-13; input SHA256 ecd087ce5c62e4ea0460cc3cd7a2906c00a5209d0199add6e7d47a658067845e. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-tropical-cyclone",
-    "text": "Tropical Cyclone — A warm-core, non-frontal synoptic-scale cyclone, originating over tropical or subtropical waters with organized deep convection and a closed surface wind circulation about a well-defined center.",
+    "text": "Tropical Cyclone\nA warm-core, non-frontal synoptic-scale cyclone, originating over tropical or subtropical waters with organized deep convection and a closed surface wind circulation about a well-defined center.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=t; term Tropical Cyclone; downloaded 2026-10-13; input SHA256 ecd087ce5c62e4ea0460cc3cd7a2906c00a5209d0199add6e7d47a658067845e. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-urban-heat-island",
-    "text": "Urban Heat Island — The increased air temperatures in urban areas in contrast to cooler surrounding rural areas.",
+    "text": "Urban Heat Island\nThe increased air temperatures in urban areas in contrast to cooler surrounding rural areas.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=u; term Urban Heat Island; downloaded 2026-10-13; input SHA256 f5b5ad2ddb055d6a8f2caaab1c56880e4d74041d24ddee3ea6ff72c96a608491. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   },
   {
     "id": "noaa-glossary-warm-front",
-    "text": "Warm Front — A transition zone between a mass of warm air and the colder air it is replacing.",
+    "text": "Warm Front\nA transition zone between a mass of warm air and the colder air it is replacing.\n— National Weather Service, Glossary",
     "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=w; term Warm Front; downloaded 2026-10-13; input SHA256 c08eff893a9f026bbb146c577836e1768da3b5fe9117c012b75cf4327407928a. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-bora",
+    "text": "Bora\nA regional downslope wind whose source is so cold that it is experienced as a cold wind, despite compression warming as it descends the lee slope of a mountain range.\n— National Weather Service, Glossary",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=b; term Bora; downloaded 2026-10-13; input SHA256 c7277cc659fb38ddfd8c3c10b473b39beb5d2e1149ea0c8aaedbe0c4b43a3093. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-foehn",
+    "text": "Foehn\nA warm, dry wind on the lee side of a mountain range, the warmth and dryness of the air being due to adiabatic compression as the air descends the mountain slopes. In the United States, the term chinook is used for Foehn winds in the Rocky and Sierra mountains.\n— National Weather Service, Glossary",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=f; term Foehn; downloaded 2026-10-13; input SHA256 5f7ab7cfc6fbdfaf221dc35df98f6b7cebd7817a6f3fc26deddd346b599e2140. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-dust-devil",
+    "text": "Dust Devil\nA small, rapidly rotating wind that is made visible by the dust, dirt or debris it picks up. Also called a whirlwind, it develops best on clear, dry, hot afternoons\n— National Weather Service, Glossary",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=d; term Dust Devil; downloaded 2026-10-13; input SHA256 b921b93417e3a76b7cb5163cb3b543da8775c7cc59ce819ece5b4ed93807f237. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-sea-breeze-convergence-zone",
+    "text": "Sea Breeze Convergence Zone\nThe zone at the leading edge of a sea breeze where winds converge. The incoming air rises in this zone, often producing convective clouds.\n— National Weather Service, Glossary",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=s; term Sea Breeze Convergence Zone; downloaded 2026-10-13; input SHA256 fc10498908fab91e198cd9482922c1e71a2649f113127720a12594b1d7d2880b. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
+  },
+  {
+    "id": "noaa-glossary-wet-microburst",
+    "text": "Wet Microburst\nA microburst accompanied by heavy precipitation at the surface. A rain foot may be a visible sign of a wet microburst.\n— National Weather Service, Glossary",
+    "provenance": "National Weather Service, NOAA glossary; https://forecast.weather.gov/glossary.php?letter=w; term Wet Microburst; downloaded 2026-10-13; input SHA256 c08eff893a9f026bbb146c577836e1768da3b5fe9117c012b75cf4327407928a. Public domain NWS glossary material under https://www.weather.gov/disclaimer; selected definitions, HTML removed, whitespace normalized and evidenced encoding artifacts corrected. Source wording retained except trailing cross-references. Selection and editorial changes documented in import_weather.py and README.md."
   }
 ]

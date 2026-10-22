@@ -30,13 +30,13 @@ in source names. No fuzzy match, synonym migration, or imputation is used. The
 table contains repeated species rows; a trait is omitted if its nonmissing values
 disagree. Annual mortality, growth rates, and the confusingly labeled maximum
 litter-size column are excluded. Values are attributed to the historical compilation,
-with an explicit population/sex limitation; they are not universal physiological
+with the population/sex limitation in provenance; they are not universal physiological
 constants or claims of current taxonomic consensus. Coverage is deliberately bounded:
 35 records have maximum weight, 35 maturity age, and all 40 interbirth interval.
 
 Source-listed clear names are preferred for little skate, kitefin shark, western
 stingaree, and small-spotted catshark. This avoids misleading generic or obscure
-first-ranked GBIF vernaculars. Required GBIF attribution is included in each output;
+first-ranked GBIF vernaculars. Required GBIF attribution is retained in provenance;
 full CC BY 4.0 and CC0 notices are inherited from `../../LICENSE.txt`.
 
 ## Reproduce and review
@@ -54,4 +54,4 @@ and compares all three generated files byte for byte without rewriting them.
 
 Schema, IDs, exact binomials, family cap, all emitted profiles, and representative
 shark/ray/chimaera numeric values were reviewed. The node weight equals its count;
-ancestor record-count weights are maintained by the parent branch importer.
+descendant record-count weights are maintained within the animal tree.

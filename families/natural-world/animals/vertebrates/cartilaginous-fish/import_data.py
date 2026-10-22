@@ -143,13 +143,12 @@ def run():
             if not math.isfinite(number) or not lower < number <= upper:
                 raise ValueError(f"Implausible source value: {row['canonicalName']} {column}={value}")
             unit = "year" if unit == "years" and number == 1 else unit
-            summaries.append(f"{label} {value} {unit}")
+            summaries.append(f"{label.capitalize()}: {number:g} {unit}")
         if not summaries:
             rejected["no_unambiguous_traits"] += 1
             continue
-        record["text"] += " Compiled species-level life-history values: " + "; ".join(summaries) + "."
-        record["text"] += " These are compiled species-level values; population and sex were not supplied."
-        record["provenance"] += " Exact-binomial joined to Hutchings, Myers, Garcia, Lucifora and Kuparinen, 2012, supplement 1, " + SOURCE + "; CC0, https://creativecommons.org/publicdomain/zero/1.0/. Only unambiguous repeated-row values are emitted; no imputation or synonym matching."
+        record["text"] += "\n" + "\n".join(summaries)
+        record["provenance"] += " Exact-binomial joined to Hutchings, Myers, Garcia, Lucifora and Kuparinen, 2012, supplement 1, " + SOURCE + "; CC0, https://creativecommons.org/publicdomain/zero/1.0/. Compiled species values; population and sex are not supplied. Only unambiguous repeated-row values are emitted; no imputation or synonym matching."
         candidates[row["family"]].append((len(summaries), record))
     records = []
     for family in sorted(candidates):

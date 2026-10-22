@@ -12,10 +12,10 @@ import urllib.request
 ROOT = Path(__file__).resolve().parent
 DATE = "2026-10-13"
 REGIONS = {
-    "L48": "the lower 48 U.S. states", "AK": "Alaska", "HI": "Hawaii",
-    "CAN": "Canada", "PR": "Puerto Rico", "VI": "the U.S. Virgin Islands",
+    "L48": "Lower 48 U.S. states", "AK": "Alaska", "HI": "Hawaii",
+    "CAN": "Canada", "PR": "Puerto Rico", "VI": "U.S. Virgin Islands",
     "NA": "North America", "GL": "Greenland", "SPM": "St. Pierre and Miquelon",
-    "NAV": "Navassa Island", "PB": "the Pacific Basin excluding Hawaii",
+    "NAV": "Navassa Island", "PB": "Pacific Basin excluding Hawaii",
 }
 STATUSES = {
     "N": "native", "N?": "probably native", "I": "introduced",
@@ -81,27 +81,26 @@ def record(profile, source):
              "Moss": "moss", "Liverwort": "liverwort", "Hornwort": "hornwort"}[profile["Group"]]
     generic_labels = {group, *(HABITS[h] for h in profile["GrowthHabits"])}
     heading = f"{name} ({common})" if common and common.lower() not in generic_labels else name
-    detail = [group, f"family {families[0]}"]
+    detail = [heading, f"Family: {families[0]} ({group})"]
     habits = profile["GrowthHabits"]
     if habits and habits != ["Nonvascular"]:
-        detail.append("growth forms: " + ", ".join(HABITS[h] for h in habits))
+        detail.append("Growth forms: " + ", ".join(HABITS[h] for h in habits))
     durations = profile["Durations"]
     if durations:
         if not set(durations) <= {"Annual", "Biennial", "Perennial"}:
             raise ValueError(f"Unknown lifecycle: {symbol}")
-        label = "life cycle: " if len(durations) == 1 else "life cycles: "
+        label = "Life cycle: " if len(durations) == 1 else "Life cycles: "
         detail.append(label + ", ".join(d.lower() for d in durations))
-    text = heading + ": " + "; ".join(detail) + "."
     statuses = profile["NativeStatuses"]
     if statuses:
         statuses = sorted(statuses, key=lambda s: list(REGIONS).index(s["Region"]))
         # Two explicitly scoped source jurisdictions provide useful detail
         # without turning the stimulus into an exhaustive range list.
-        text += " PLANTS native status: " + "; ".join(
-            f"{REGIONS[s['Region']]} — {STATUSES[s['Status']]}" for s in statuses[:2]) + "."
+        detail.extend(
+            f"{REGIONS[s['Region']]} — {STATUSES[s['Status']]}" for s in statuses[:2])
     return {
         "id": "usda-plants-" + symbol.lower(),
-        "text": text,
+        "text": "\n".join(detail),
         "provenance": f"USDA NRCS PLANTS profile {symbol}; {source['url']}; downloaded {DATE}; input SHA256 {source['sha256']}. Basic factual data are not copyrighted and free for any use; PLANTS Help, Conditions of Image and Data Use. Source taxonomy and growth forms retained; no images or guide prose copied.",
     }
 

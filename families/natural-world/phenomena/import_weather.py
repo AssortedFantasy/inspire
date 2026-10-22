@@ -17,12 +17,14 @@ SELECTION = {
         "Noctilucent Clouds", "Roll Cloud", "Shelf Cloud", "Wall Cloud",
         "Advection Fog", "Radiation Fog", "Steam Fog", "Upslope Fog", "Freezing Fog",
         "Ice Fog", "Tule Fog", "Ground Fog", "Sea Fog", "Evaporation-mixing Fog",
+        "Scud", "Cumulus Congestus", "Rotor Cloud",
     ],
     "precipitation": [
         "Dew", "Diamond Dust", "Freezing Rain", "Frozen Dew", "Glaze",
         "Hoar Frost", "Ice Crystals", "Ice Pellets", "Lake Effect Snow",
         "Orographic Precipitation", "Rain Shadow", "Rime Ice", "Snow Grains",
         "Snow Pellets", "Snowflake", "Virga",
+        "Drizzle", "Freezing Drizzle", "Supercooled Liquid Water",
     ],
     "atmospheric-dynamics": [
         "Adiabatic Process", "Adiabatic Lapse Rate", "Advection", "Air Mass",
@@ -33,42 +35,36 @@ SELECTION = {
         "Land Breeze", "Lee Wave", "Mesocyclone", "Microburst", "Mountain Wave",
         "Occluded Front", "Rossby Waves", "Sea Breeze", "Stationary Front",
         "Tornado", "Tropical Cyclone", "Urban Heat Island", "Warm Front",
+        "Bora", "Foehn", "Dust Devil", "Sea Breeze Convergence Zone", "Wet Microburst",
     ],
     "optical-effects": [
         "Anthelion", "Crepuscular Rays", "Fogbow", "Glory", "Halo",
         "Iridescence", "Parhelion", "Rainbow", "Rayleigh Scattering",
         "Refraction", "Sun Pillar", "Undersun",
+        "Brocken Specter",
     ],
 }
 
-# Bounded source-grounded edits remove operational guidance and wording that
-# confuses deposition with sublimation. They do not add an inferred phenomenon.
-PARAPHRASES = {
-    "Mesocyclone": (
-        "A storm-scale region of rotation, typically around 2–6 miles across. "
-        "Its circulation covers an area much larger than the tornado that may develop within it."
-    ),
-    "Parhelion": (
-        "A sun dog: either of two colored luminous spots appearing roughly 22 degrees "
-        "to either side of the Sun at the same elevation. Refraction of sunlight "
-        "through ice crystals produces these spots."
-    ),
-    "Hoar Frost": (
-        "A deposit of interlocking ice crystals on objects whose surfaces are below "
-        "freezing. Water vapor deposits directly as ice on exposed surfaces such as "
-        "branches, leaves, wires, and poles."
-    ),
-    "Ice Pellets": (
-        "Sleet: pellets of ice composed of frozen or mostly frozen raindrops, or "
-        "refrozen partially melted snowflakes. The pellets usually bounce after "
-        "hitting the ground or another hard surface."
-    ),
-    "Refraction": (
-        "A change in the direction of energy propagation as conditions change "
-        "within the medium through which it travels. In the atmosphere, refraction "
-        "changes the path of light and radar beams."
-    ),
+# Verbatim contiguous source excerpts. Omit radar-product instructions,
+# an overstrong restriction on sun dogs, and an obsolete use of "sublimation"
+# for frost deposition. Anchors fail if the pinned wording is no longer present.
+EXCERPTS = {
+    "Mesocyclone": ("A storm-scale region", "develop within it."),
+    "Parhelion": ("Either of two colored", "through ice crystals."),
+    "Hoar Frost": ("The deposition of hoar frost", "by cooling."),
+    "Ice Pellets": ("pellets of ice composed", "other hard surfaces."),
+    "Refraction": ("Changes in the direction", "propagating medium."),
 }
+
+
+def select_definition(term, definition):
+    definition = clean_definition(definition)
+    if term in EXCERPTS:
+        first, last = EXCERPTS[term]
+        start = definition.index(first)
+        end = definition.index(last, start) + len(last)
+        definition = definition[start:end]
+    return definition
 
 
 def clean_definition(value):
@@ -115,6 +111,7 @@ class Glossary(HTMLParser):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--cache", type=Path, required=True)
+    parser.add_argument("--check", action="store_true", help="Validate committed records without rewriting")
     args = parser.parse_args()
     sources = json.loads((ROOT / "noaa_sources.json").read_text(encoding="utf-8"))
     definitions = {}
@@ -141,7 +138,7 @@ def main():
             definition = alternatives[0]
             if definition.lower().startswith(("see ", "same as ")):
                 raise ValueError(f"Definition is a cross-reference, not self-contained: {term}")
-            selected[term] = PARAPHRASES.get(term, clean_definition(definition))
+            selected[term] = select_definition(term, definition)
 
     additions = 0
     for leaf, terms in SELECTION.items():
@@ -154,7 +151,7 @@ def main():
             identifier = "noaa-glossary-" + re.sub(r"[^a-z0-9]+", "-", term.lower()).strip("-")
             records.append({
                 "id": identifier,
-                "text": f"{term} — {definition}",
+                "text": f"{term}\n{definition}\n— National Weather Service, Glossary",
                 "provenance": (
                     "National Weather Service, NOAA glossary; " + source["url"]
                     + "; term " + term + "; downloaded 2026-10-13; input SHA256 "
@@ -162,15 +159,20 @@ def main():
                     "https://www.weather.gov/disclaimer; "
                     "selected definitions, HTML removed, whitespace normalized and "
                     "evidenced encoding artifacts corrected. "
-                    + ("Original factual paraphrase of the downloaded definition. "
-                       if term in PARAPHRASES else "Source wording retained except trailing cross-references. ")
+                    + ("Contiguous verbatim source excerpt. "
+                       if term in EXCERPTS else "Source wording retained except trailing cross-references. ")
                     + "Selection and editorial changes documented in import_weather.py and README.md."
                 ),
             })
             additions += 1
         assert len({record["id"] for record in records}) == len(records)
-        output.parent.mkdir(parents=True, exist_ok=True)
-        output.write_text(json.dumps(records, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        payload = json.dumps(records, ensure_ascii=False, indent=2) + "\n"
+        if args.check:
+            if output.read_text(encoding="utf-8") != payload:
+                raise ValueError(f"Reproduction differs: {output}")
+        else:
+            output.parent.mkdir(parents=True, exist_ok=True)
+            output.write_text(payload, encoding="utf-8")
     print(f"Imported {additions} selected NOAA definitions")
 
 
