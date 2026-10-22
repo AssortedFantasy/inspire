@@ -104,17 +104,18 @@ Select any branch or leaf with `--family`. Omit it to sample the whole tree.
 Weights are local to siblings: a larger corpus does not automatically receive
 more samples. Broad top-level families have weight 2; raw random values have
 weight 1. Names within `people`,
-`objects/cars`, `natural-world/animals`, and `geography/subdivisions` have equal
-per-record shares across their folders. Other branches balance subjects rather
-than corpus size; family READMEs explain their local choices. Colors and dates
+`objects/cars`, museum artifacts, animal and plant profiles, geographic topics,
+chemical identities, and instrument catalogues have equal per-record shares
+within their collections. Other branches balance subjects rather than corpus
+size; family READMEs explain their local choices. Colors and dates
 each have twice UUID's share. `--list` shows the
 effective probabilities. Calls are independent, so repeats are possible.
 
 Source URLs and reuse notes live in each record's `provenance` field and in
 family READMEs. Sampled text focuses on the material; dataset credit and license
-notices are bundled with the executable through `--data-licenses`. Factual
-explanations are original paraphrases; literary excerpts identify their authors
-and works. Coverage is curated rather than
+notices are bundled with the executable through `--data-licenses`. Corpora contain
+source text or concise factual data; quotations identify their authors and works.
+Coverage is curated rather than
 exhaustive, and random constructions are not uniform over every possible object.
 See [dataset redistribution notes](DATA_SOURCES.md).
 
@@ -124,8 +125,8 @@ generators, or RNG version can change the output for an existing seed.
 Samples should be self-contained material, not prompts or assignments for the
 consuming agent. For new corpora, prefer downloading reusable source datasets
 and transforming them with reproducible importers; spot-check the emitted text.
-Procedures label their intrinsic steps as algorithms, kitchen/sewing procedures,
-or experiment protocols; language examples and proverbs are explicitly quoted.
+Generators print the artifact directly: a puzzle, score, circuit, trace, or
+mathematical construction. Formatting and structure vary alongside the values.
 
 See [the content audit](docs/content-audit.md) for the weighting rationale,
 corrected issues, and remaining coverage limitations.
