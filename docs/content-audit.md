@@ -1,67 +1,87 @@
-# Content maintenance - 2026-10-13
+# Content maintenance - 2026-10-22
 
-The current tree contains 74,979 records in 595 corpora and 141 generators across
-15 families. Earlier expansion work grew the tree from 2,134 records, 67 corpora,
-and 13 generators. Historical review manifests are snapshots rather than a
-requirement for routine maintenance.
+The tree contains 76,353 records in 563 corpora and 156 generators across 15
+families. This pass adds 1,374 records and 15 generators overall while merging
+small collections and removing duplicate or weak material.
 
-## Human feedback applied
+## Output quality
 
-[Human feedback](../reviews/human-feedback.md) favors useful material with compact
-framing: recipes, examples, objects, poems, and concrete mathematical or technical
-artifacts. Repeated source and dataset descriptions obscured that material.
+[Human feedback](../reviews/human-feedback.md) guided the pass. Generators now
+print their artifacts without rulebooks, repeated category introductions,
+defensive definitions, or padded numbers. A week date is `1982-W41-6`; a chemical
+reaction is its equation; a circuit is a runnable netlist with a selected analysis.
+Relevant assumptions, units, source credits, and mathematical domains remain.
 
-- Instrument and person records omit repeated source URLs, license paragraphs,
-  transformation notes, and administrative identifiers.
-- Chemistry records focus on identity, formulas, mass, and structure. Reaction
-  extents state consumption and production directly, with relevant conditions.
-- WordNet retains senses and antonyms; copyright and permission notices are bundled.
-- Literary credits retain author, work, translator, and meaningful printed
-  locations. Invented poem ordinals, paragraph counters, and HTML anchors stay in
-  provenance. Authentic excerpt wording and punctuation are preserved.
-- Museum records retain object, date, culture, and material. Geographic labels
-  prefer ordinary hyphens. Biological data retain units, measurement method, and
-  species, genus, regional, or study context with shorter framing.
-- Circuit displays use six significant digits. Exact mathematical values,
-  combinatorial drafts, and intrinsic game/procedure rules retain their meaning.
+Dogfooding included default weighted draws and targeted samples. The difference
+between original poems and rigid generated paragraphs prompted more attention
+to structure: recurring musical motifs, varied rhythmic phrases, geometric
+trajectories, sparse transition graphs, and whole historical anecdotes.
 
-Producer formatting and stored records change together. Source provenance and
-full notices remain available; `inspire --data-licenses` includes dataset credit,
-modification notes, and complete license text without crowding ordinary samples.
+- Music gains ABC phrases with varied rhythm, meter, form, and contour, plus drum
+  grooves, polymeters, chord voicings, and correctly spelled modes.
+- Design gains five circuit topologies, focused analyses, more outfit silhouettes,
+  and varied weaving drafts. Circuit tests share one independent nodal solver.
+- Games gain unique, irredundant Mastermind puzzles and multi-player Hold'em
+  showdowns. Dates choose one representation; palettes include separated
+  categorical colors. Ordinary game samples omit solution spoilers and rules.
+- Mechanisms gain Geneva indexing, thermostat cycles, capillary manifolds, and
+  full cam programs. Gear topology and initial oscillator motion also vary.
+- Mathematics includes non-coprime and inconsistent congruence systems, sparse
+  absorbing chains, varied exact constructions, and compact graph artifacts.
+- Algorithms print executions, including new SCC and topological traces.
+  Chemistry adds stereochemical comparisons and empirical-formula reductions.
 
-The corpus scan found no normalized exact duplicate texts and no printed source
-URL, snapshot-date, license-footer, or invented poem-ID remnants. Authentic
-quotations retain contrast and negation; mathematical negation and defining
-assumptions remain part of the content.
+## Source material
 
-## Sampling policy
+Authored examples, interpretations, and paraphrased procedures were replaced by
+original source text or concise factual data. Importers and stored records change
+together. New source selections are pinned and carry attribution and bundled
+notices; source caches stay outside `families/`.
 
-The feedback dashboard's sample frequencies do not measure default CLI exposure.
-This cleanup preserves topic weights. Broad top-level families have weight 2;
-raw random values have weight 1. `inspire --list` shows effective probabilities.
+Language now includes 614 Preston sayings, 335 attributed literary quotations,
+and 51 Weekley paragraphs. Literature adds 191 complete Gulistan anecdotes.
+History restores primary sources and adds manuals, menus, invitations, typesetting,
+and Roman building material. Procedures draw on Farmer, Higgin, Dillmont, and
+Tissandier. Museum objects gain 295 sourced coin, basket, and writing records;
+weather gains 12 original NOAA definitions.
 
-Within `people`, `objects/cars`, `natural-world/animals`, and
-`geography/subdivisions`, child weights equal descendant record counts, giving
-records equal conditional shares across folder depths. Animal weights were
-synchronized to the current 2,604 records. Other branches balance subjects rather
-than corpus size; family notes describe additional local choices.
+The pass also fixes an incorrect Akira Suzuki identity, chemistry importer branch
+collisions, chess importer/tree drift, and broken excerpt boundaries. Biological
+and astronomical records use readable fields while retaining measurement context.
+Instrument deduplication keeps 2,135 MIMO and 11 additional Corpora names.
 
-## Maintenance workflow
+## Sampling
 
-Leaf implementation uses GPT-6 Luna with high reasoning. Shared formatting fixes
-are applied in bulk, followed by a bounded pass over affected leaves. Completed
-leaves or coherent batches are committed promptly. Tests run at integration
-points, with substantive invariants covering behavior changes. Routine wording
-edits do not start another source audit or exhaustive review chain.
+The animal branch accidentally had incoming weight 2,604, overwhelming the other
+natural-world topics. Its incoming weight is now 1; all five topics have equal
+shares. Count weights remain below the animal and plant topic roots.
 
-Coverage remains curated and inherits source geographic, historical, and language
-biases. Generators cover bounded constructions. Cached inputs can be needed to
-reproduce mutable API snapshots; runtime remains offline.
+Other changes reduce disproportionate exposure of tiny collections while retaining
+deliberate broad topic shares. Geographic topics, museum artifacts, chemical
+identities, instruments, and source procedures use count weights internally.
+Language has explicit 50/25/20/5 shares for lexicon, sayings, grammar, and histories.
+Literature favors larger bodies of actual text; topic leaves within individual
+historical works use record counts.
 
-The integrated tree passes all 279 Rust tests, Cargo and generator formatting,
-Clippy with warnings denied, and the standalone release build. Corpus scanning
-and cached importer checks, including all four literature replay tests, cover
-the updated output format without reopening historical review queues.
+The probability of two independent root draws selecting the same corpus record
+falls from 0.024996% to 0.011823%, about 53%. This excludes generator collisions
+and cross-leaf duplicates; it measures repetition exposure, not quality. The final
+source scan finds no normalized exact duplicate outputs.
 
-See [family guidance](../families/AGENTS.md) for content preferences and the
-[architecture](architecture.md) for packing, sampling, and verification tools.
+## Verification
+
+Use `scripts/review_content.py --binary target/release/inspire.exe --samples 4 --seeds 128 --weighted-samples 512 --seed 20261022 --output target/content-after.json`
+for both per-leaf inspection and ordinary weighted dogfooding. Seeds reproduce
+within this build; changed content and tree paths change historical seed results.
+
+Validation includes Rust invariant tests, source replay where caches are available,
+record schemas, weight calculations, duplicate checks, individual generator
+formatting, Clippy, and a standalone release build. Circuit checks use independent
+modified nodal analysis; ngspice is not installed. Some animal, plant, and astronomy
+source caches were unavailable, so their format changes also use reconstructed
+importer comparisons. Source coverage remains curated and inherits historical and
+geographic biases.
+
+Historical review manifests are records of earlier work; they are not fabricated
+or expanded into new reviewer histories. See [family guidance](../families/AGENTS.md)
+and [architecture](architecture.md) for maintenance and runtime details.

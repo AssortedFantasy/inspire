@@ -90,8 +90,8 @@ the chosen node's incoming weight and all ancestors; it still obeys weights belo
 the chosen node.
 
 The executable runs offline without source or configuration files. Broken stdout
-pipes exit quietly; other errors go to stderr with status 1. `--help` prints
-`Generates a bit of inspiration`; `--help-full` shows usage and options.
+pipes exit quietly; other errors go to stderr with status 1. `--help` prints a
+one-line description; `--help-full` shows usage and options.
 
 ## Limits
 
@@ -113,6 +113,14 @@ The default checks 128 seeds per generator; `--samples` controls how many output
 are included in the JSON report. Distinct text counts measure exact repetition,
 not structural variety or factual quality. Leaf-specific invariant tests and
 human review remain necessary.
+
+The report also ranks corpus leaves by per-record exposure and computes the
+probability that two independent root draws select the same corpus record. This
+excludes generator collisions and duplicate text across leaves. With
+`--weighted-samples N --seed INTEGER --binary PATH`, it includes actual default
+CLI draws and their exact reproduction seeds alongside the per-leaf samples.
+Use both views: leaf review finds local problems, while weighted draws reveal
+what ordinary use repeatedly exposes.
 
 `scripts/check_reviews.py` compares each family's `review_manifest.json` with
 its current leaves. It rejects missing or stale paths, repeated leaf reviewers,
