@@ -1,7 +1,0 @@
-[
-  {
-    "id": "selection-sort",
-    "text": "Algorithm: Selection sort\nSelection sort: for each position i in a finite array, find the smallest key in positions i through n−1 and swap it into i. The prefix becomes final one entry at a time. Require a consistent total ordering; the ordinary swapping version does not preserve the order of equal keys.",
-    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 21elementary; https://algs4.cs.princeton.edu/21elementary/ . Algorithm paraphrase, not copied code."
-  }
-]

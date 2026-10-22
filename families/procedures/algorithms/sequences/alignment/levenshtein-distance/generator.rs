@@ -57,6 +57,16 @@ pub fn generate(rng: &mut StdRng) -> String {
         &["crane", "cane", "can", "craned", "crank"],
         &["learn", "lean", "leant", "yearn", "earn"],
         &["music", "musics", "muse", "mused", "mosaic"],
+        &["thread", "tread", "bread", "threat", "treat"],
+        &["screen", "scream", "green", "seen", "scene"],
+        &["flight", "light", "fight", "flint", "slight"],
+        &["copper", "cooper", "cropper", "copier", "proper"],
+        &["wander", "wonder", "winder", "warder", "waned"],
+        &["breathe", "breath", "wreath", "breathed", "breather"],
+        &["silent", "listen", "enlist", "inlets", "tinsel"],
+        &["threaded", "traded", "treaded", "threatened", "treated"],
+        &["harbor", "harbour", "arbor", "armour", "labor"],
+        &["receive", "receipt", "recipe", "recite", "recede"],
     ];
     // Shared spelling makes insertions, deletions and alignments visible,
     // instead of producing mostly unrelated all-substitution examples.
@@ -66,17 +76,59 @@ pub fn generate(rng: &mut StdRng) -> String {
     if j >= i {
         j += 1;
     }
-    let (left, right) = (words[i], words[j]);
+    let (mut left, mut right) = (words[i].to_string(), words[j].to_string());
+    if rng.random_bool(0.5) {
+        left = (0..rng.random_range(6..=10))
+            .map(|_| b"ACGT"[rng.random_range(0..4)] as char)
+            .collect();
+        let mut sequence = left.as_bytes().to_vec();
+        for _ in 0..rng.random_range(1..=4) {
+            match rng.random_range(0..3) {
+                0 => {
+                    let i = rng.random_range(0..sequence.len());
+                    sequence[i] = b"ACGT"[rng.random_range(0..4)];
+                }
+                1 => {
+                    let i = rng.random_range(0..=sequence.len());
+                    sequence.insert(i, b"ACGT"[rng.random_range(0..4)]);
+                }
+                _ if sequence.len() > 3 => {
+                    let i = rng.random_range(0..sequence.len());
+                    sequence.remove(i);
+                }
+                _ => {}
+            }
+        }
+        right = String::from_utf8(sequence).unwrap();
+        if left == right {
+            right.push(b"ACGT"[rng.random_range(0..4)] as char);
+        }
+    }
     let (table, a, b) = execute(left.as_bytes(), right.as_bytes());
     let mut text = format!(
-        "Levenshtein-distance execution\nSource: {left}; target: {right}.\nInsertion, deletion, and substitution each cost 1; a matching letter costs 0.\nRows are source-prefix lengths 0..{}; columns are target-prefix lengths 0..{}.",
-        left.len(),
-        right.len()
+        "{left} → {right}\nEdit distance {}\n\n     ∅",
+        table[left.len()][right.len()]
     );
-    for (i, row) in table.iter().enumerate() {
-        write!(text, "\nRow {i}: {row:?}").unwrap();
+    for letter in right.chars() {
+        write!(text, " {letter:>2}").unwrap();
     }
-    write!(text,"\nMinimum edit cost: {}\nOne optimal alignment (- denotes a gap):\n{a}\n{b}\nTraceback tie order: diagonal, deletion, insertion.",table[left.len()][right.len()]).unwrap();
+    for (i, row) in table.iter().enumerate() {
+        let label = if i == 0 {
+            '∅'
+        } else {
+            left.as_bytes()[i - 1] as char
+        };
+        write!(text, "\n{label}  ").unwrap();
+        for value in row {
+            write!(text, " {value:>2}").unwrap();
+        }
+    }
+    let marks: String = a
+        .chars()
+        .zip(b.chars())
+        .map(|(x, y)| if x == y { '|' } else { ' ' })
+        .collect();
+    write!(text, "\n\n{a}\n{marks}\n{b}").unwrap();
     text
 }
 #[cfg(test)]

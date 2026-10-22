@@ -1,7 +1,12 @@
 [
   {
-    "id": "thread-splice-without-knot",
-    "text": "Sewing procedure: Thread splice without knot\nTo introduce a new thread into running stitch or backstitch without a bulky knot, make its first stitch, lay the old and new thread ends along the next part of the seam, and work the following stitches over both ends. The stitched overlap secures the join inside the work.",
-    "provenance": "Original procedure paraphrase; Thérèse de Dillmont, Encyclopedia of Needlework, Plain Sewing, figures 4–22; public-domain primary craft manual, https://www.gutenberg.org/cache/epub/20776/pg20776-images.html . Wording and practical dimensions adapted, not copied."
+    "id": "dillmont-fastening-threads",
+    "text": "Fastening threads off, and on.—Knots should be avoided in white work. To fasten on, in hemming, turn the needle backwards with the point up, take one stitch, and stroke and work the end of the thread in, underneath the turning. To fasten on, in back-stitching or running, make one stitch with the new thread, then take both ends and lay them down together to the left, and work over them, so that they wind in, and out of the next few stitches.\n\nThérèse de Dillmont, Encyclopedia of Needlework.",
+    "provenance": "Verbatim public-domain text, Thérèse de Dillmont, Encyclopedia of Needlework, paragraph beginning 'Fastening threads off, and on', 1 consecutive paragraphs. https://www.gutenberg.org/cache/epub/20776/pg20776-images.html; SHA256 482c6206f57b8ad42bc7306433e2c1d1677dca89d21429130773d50ae10ac2d0. HTML and page numbers stripped, whitespace normalized, parenthetical and inline figure-navigation references omitted. Linen darning omits its initial figure-dependent exception and closing illustration sentence. No illustrations reproduced."
+  },
+  {
+    "id": "dillmont-knotting-thread",
+    "text": "Knotting the thread into the needle.—When the thread becomes inconveniently short, and you do not want take a fresh one, it may be knotted into the needle, thus: bring it round the forefinger close to the needle, cross it on the inside next to the finger, hold the crossed threads fast, with the thumb draw the needle out through the loop thus formed, and tighten the loop round both ends.\n\nThérèse de Dillmont, Encyclopedia of Needlework.",
+    "provenance": "Verbatim public-domain text, Thérèse de Dillmont, Encyclopedia of Needlework, paragraph beginning 'Knotting the thread into the needle', 1 consecutive paragraphs. https://www.gutenberg.org/cache/epub/20776/pg20776-images.html; SHA256 482c6206f57b8ad42bc7306433e2c1d1677dca89d21429130773d50ae10ac2d0. HTML and page numbers stripped, whitespace normalized, parenthetical and inline figure-navigation references omitted. Linen darning omits its initial figure-dependent exception and closing illustration sentence. No illustrations reproduced."
   }
 ]

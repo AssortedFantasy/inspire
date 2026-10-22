@@ -1,7 +1,0 @@
-[
-  {
-    "id": "kruskal-tree",
-    "text": "Algorithm: Kruskal tree\nKruskal’s minimum spanning tree: sort an undirected graph’s edges by weight. Begin with each vertex in its own union-find set; accept an edge only when its endpoints belong to different sets, then unite those sets. A connected finite graph stops at V−1 accepted edges; self-loops and cycle-closing edges are discarded.",
-    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 43mst; https://algs4.cs.princeton.edu/43mst/ . Algorithm paraphrase, not copied code."
-  }
-]

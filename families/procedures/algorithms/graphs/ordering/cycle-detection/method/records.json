@@ -1,7 +1,0 @@
-[
-  {
-    "id": "directed-cycle",
-    "text": "Algorithm: Directed cycle\nDetect a cycle in a finite directed graph with depth-first search. Mark vertices as unvisited, active, or finished; change a vertex to active on entry and finished after all outgoing edges are processed. An edge to an active vertex closes a directed cycle. An edge to a finished vertex alone does not.",
-    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 42digraph; https://algs4.cs.princeton.edu/42digraph/ . Algorithm paraphrase, not copied code."
-  }
-]

@@ -26,14 +26,13 @@ pub fn generate(rng: &mut StdRng) -> String {
         rng.random_range(-7..=22)
     };
     let (position, trace) = lower_bound(&data, key);
-    let mut text = format!(
-        "Binary-search lower-bound execution\nSorted input: {data:?}\nKey: {key}; indices start at 0; interval [lo, hi) excludes hi."
-    );
+    let mut text = format!("Lower bound of {key} in {data:?}\nRange      Probe");
     for (lo, hi, mid) in trace {
-        write!(text, "\n[lo={lo}, hi={hi}): mid={mid}, value={}", data[mid]).unwrap();
+        write!(text, "\n[{lo:>2}, {hi:>2})   [{mid}] = {}", data[mid]).unwrap();
     }
     let present = data.get(position) == Some(&key);
-    write!(text, "\nLower bound = {position}; key present = {present}. This is the first index with value >= key, or the input length.").unwrap();
+    let result = if present { "Found" } else { "Insert" };
+    write!(text, "\n{result} at index {position}").unwrap();
     text
 }
 #[cfg(test)]

@@ -1,21 +1,20 @@
 # Procedures
 
-156 procedure records and nine tested execution generators in 73 leaves.
-Algorithms separate sequence operations, graph traversal/connectivity/order,
-shortest paths, spanning trees, and dynamic programming. Individual methods and
-executions are separate children; closely related merge-sort, quicksort and
-heap operations share small method collections.
+140 public-domain procedure excerpts and eleven tested execution generators.
+Algorithms emit actual sort passes, searches, alignments, graph traversals,
+shortest paths, spanning trees, component stack pops, dependency queues and
+knapsack tables. Edit alignments include spelling pairs and nucleotide strings.
 
-Cooking separates measuring/mixing, original adaptations, and imported
-historical recipes by food and preparation. Needlework separates sewing joins,
-edges, gathering, and embroidery mechanisms. Bench experiments separate the
-physical property being observed. All 60 original records and IDs are retained.
-Steps belong to the sampled procedure itself, without an unrelated assignment.
+Cooking separates measuring/mixing and historical recipes by food and
+preparation. Needlework includes sewing, mending and embroidery. Experiments
+include inertia, pressure, capillarity, buoyancy and visual effects. Text comes
+directly from Farmer, Higgin, Dillmont and Tissandier; the former 60 paraphrases
+survive only in the unsampled migration archive `baseline_records.json`.
 
 The four main topics have weights algorithms 3, cooking 3, craft 2, experiments
-2. Cooking weights methods 1, adaptations 2, historical recipes 4; algorithm
-weights graphs 3, sequences 3, optimization 2. Other sibling topics have equal
-weight. Record count does not determine these topic probabilities.
+2. Corpus descendants are weighted by record count within cooking, craft and
+experiments, giving each source excerpt equal exposure within its topic.
+Algorithm weights remain graphs 3, sequences 3, optimization 2.
 
 See [sources and replay](SOURCES.md) for pinned primary texts, filtering,
 historical terminology, redistribution notices, and independent generator checks.

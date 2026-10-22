@@ -1,4 +1,4 @@
-use rand::{Rng, rngs::StdRng};
+use rand::{Rng, rngs::StdRng, seq::SliceRandom};
 use std::fmt::Write;
 
 type Edge = (usize, usize, u32);
@@ -29,29 +29,52 @@ fn execute(n: usize, edges: &[Edge], source: usize) -> Execution {
     (distances, predecessors, order)
 }
 fn instance(rng: &mut StdRng) -> (usize, Vec<Edge>, usize) {
-    let n = rng.random_range(5..=7);
+    let n = rng.random_range(5..=8);
+    let mut vertices: Vec<_> = (0..n).collect();
+    vertices.shuffle(rng);
+    let reachable = rng.random_range(4..=n);
     let mut edges = Vec::new();
-    for a in 0..n {
-        for b in 0..n {
-            if a != b && rng.random_bool(0.28) {
+    for b in 1..reachable {
+        let a = rng.random_range(0..b);
+        edges.push((vertices[a], vertices[b], rng.random_range(0..=12)));
+    }
+    for (i, &a) in vertices.iter().enumerate() {
+        for (j, &b) in vertices.iter().enumerate() {
+            if a != b
+                && (i >= reachable || j < reachable)
+                && !edges.iter().any(|&(x, y, _)| x == a && y == b)
+                && rng.random_bool(0.28)
+            {
                 edges.push((a, b, rng.random_range(0..=12)));
             }
         }
     }
-    if edges.is_empty() {
-        edges.push((0, 1, rng.random_range(1..=12)));
-    }
-    let candidates: Vec<_> = (0..n).filter(|&v| edges.iter().any(|e| e.0 == v)).collect();
-    let source = candidates[rng.random_range(0..candidates.len())];
-    (n, edges, source)
+    edges.sort_unstable();
+    (n, edges, vertices[0])
 }
 pub fn generate(rng: &mut StdRng) -> String {
     let (n, edges, source) = instance(rng);
     let (distances, predecessors, order) = execute(n, &edges, source);
-    let mut text = format!(
-        "Dijkstra execution\nDirected graph; vertices 0..{}; edges (from, to, nonnegative weight): {edges:?}\nStart vertex: {source}; distance ties settle the smaller vertex; equal-length alternatives do not change predecessors.\nSettlement order: {order:?}",
-        n - 1
-    );
+    let mut text = format!("Dijkstra from {source}\n");
+    for a in 0..n {
+        let outgoing = edges
+            .iter()
+            .filter(|e| e.0 == a)
+            .map(|&(_, b, w)| format!("{b} ({w})"))
+            .collect::<Vec<_>>()
+            .join(", ");
+        writeln!(
+            text,
+            "{a} → {}",
+            if outgoing.is_empty() {
+                "∅"
+            } else {
+                &outgoing
+            }
+        )
+        .unwrap();
+    }
+    write!(text, "\nSettle {order:?}\nVertex  Distance  Path").unwrap();
     for (v, distance) in distances.iter().enumerate() {
         if let Some(distance) = distance {
             let mut path = vec![v];
@@ -61,9 +84,14 @@ pub fn generate(rng: &mut StdRng) -> String {
                 current = previous;
             }
             path.reverse();
-            write!(text, "\n{v}: distance {distance}, path {path:?}").unwrap();
+            let path = path
+                .iter()
+                .map(usize::to_string)
+                .collect::<Vec<_>>()
+                .join(" → ");
+            write!(text, "\n{v:>3}     {distance:>3}     {path}").unwrap();
         } else {
-            write!(text, "\n{v}: unreachable").unwrap();
+            write!(text, "\n{v:>3}      ∞      —").unwrap();
         }
     }
     text

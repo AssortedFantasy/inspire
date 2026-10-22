@@ -1,7 +1,0 @@
-[
-  {
-    "id": "connected-components",
-    "text": "Algorithm: Connected components\nFind connected components of a finite undirected graph by scanning all vertices. Whenever an unmarked vertex appears, start a depth-first search and label every vertex it reaches with a new component number. Isolated vertices each form their own component; previous labels are retained across searches.",
-    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 41graph; https://algs4.cs.princeton.edu/41graph/ . Algorithm paraphrase, not copied code."
-  }
-]

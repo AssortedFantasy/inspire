@@ -46,29 +46,27 @@ fn instance(rng: &mut StdRng) -> (usize, Vec<Edge>) {
             }
         }
     }
+    if edges.len() == n - 1 {
+        let missing: Vec<_> = (0..n)
+            .flat_map(|a| (a + 1..n).map(move |b| (a, b)))
+            .filter(|&(a, b)| !edges.iter().any(|&(x, y, _)| x == a && y == b))
+            .collect();
+        let (a, b) = missing[rng.random_range(0..missing.len())];
+        edges.push((a, b, weights.pop().unwrap()));
+    }
     (n, edges)
 }
 pub fn generate(rng: &mut StdRng) -> String {
     let (n, edges) = instance(rng);
     let (tree, trace) = execute(n, &edges);
-    let mut text = format!(
-        "Kruskal minimum-spanning-tree execution\nConnected undirected graph; vertices 0..{}; edges (endpoint, endpoint, weight): {edges:?}\nDistinct integer weights; negative weights are permitted.",
-        n - 1
-    );
+    let mut text = String::from("Kruskal's minimum spanning tree\nEdge   Weight   Decision");
     for (edge, accepted) in trace {
-        let decision = if accepted {
-            "accept: joins two components"
-        } else {
-            "reject: would close a cycle"
-        };
-        write!(text, "\n{edge:?}: {decision}").unwrap();
+        let (a, b, weight) = edge;
+        let decision = if accepted { "keep" } else { "cycle" };
+        write!(text, "\n{a}—{b}    {weight:>3}      {decision}").unwrap();
     }
     let total: i32 = tree.iter().map(|e| e.2).sum();
-    write!(
-        text,
-        "\nMinimum spanning tree: {tree:?}\nTotal weight: {total}"
-    )
-    .unwrap();
+    write!(text, "\nTotal weight {total}").unwrap();
     text
 }
 #[cfg(test)]

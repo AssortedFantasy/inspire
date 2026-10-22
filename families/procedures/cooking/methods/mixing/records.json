@@ -1,12 +1,22 @@
 [
   {
-    "id": "folding-airy-mixture",
-    "text": "Kitchen procedure: Folding airy mixture\nTo combine an airy mixture without beating out its bubbles, cut a spoon down through the mixture, bring it along the bottom, and turn a portion over the top. Alternate cutting and turning until blended. Use this motion where the recipe calls for folding beaten egg whites or whipped cream into another mixture.",
-    "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    "id": "farmer-1910-method-stirring",
+    "text": "To stir, mix by using circular motion, widening the circles until all is blended. Stirring is the motion ordinarily employed in all cookery, alone or in combination with beating.\n\nFannie Merritt Farmer, The Boston Cooking-School Cook Book (1910).",
+    "provenance": "Verbatim public-domain text, Fannie Merritt Farmer, The Boston Cooking-School Cook Book (1910), paragraph beginning 'To stir,'. https://www.gutenberg.org/cache/epub/65061/pg65061-images.html; SHA256 6d6beef18c37b384169c58276b425794cde2f97a11caf10b950d14f25aff0efe. HTML stripped and whitespace normalized."
   },
   {
-    "id": "creaming-butter",
-    "text": "Kitchen procedure: Creaming butter\nCream butter for a recipe by working it in a bowl with a wooden spoon until it becomes soft and uniformly creamy. If the recipe next calls for sugar, add it gradually while continuing to work the mixture. This is a preparation step; it does not mean adding cream or melting the butter into liquid.",
-    "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    "id": "farmer-1910-method-beating",
+    "text": "To beat, turn ingredient or ingredients over and over, continually bringing the under part to the surface, thus allowing the utensil used for beating to be constantly brought in contact with bottom of the dish and throughout the mixture.\n\nFannie Merritt Farmer, The Boston Cooking-School Cook Book (1910).",
+    "provenance": "Verbatim public-domain text, Fannie Merritt Farmer, The Boston Cooking-School Cook Book (1910), paragraph beginning 'To beat,'. https://www.gutenberg.org/cache/epub/65061/pg65061-images.html; SHA256 6d6beef18c37b384169c58276b425794cde2f97a11caf10b950d14f25aff0efe. HTML stripped and whitespace normalized."
+  },
+  {
+    "id": "farmer-1910-method-cutting-and-folding",
+    "text": "To cut and fold, introduce one ingredient into another ingredient or mixture by two motions: with a spoon, a repeated vertical downward motion, known as cutting; and a turning over and over of mixture, allowing bowl of spoon each time to come in contact with bottom of dish, is called folding. These repeated motions are alternated until thorough blending is accomplished.\n\nFannie Merritt Farmer, The Boston Cooking-School Cook Book (1910).",
+    "provenance": "Verbatim public-domain text, Fannie Merritt Farmer, The Boston Cooking-School Cook Book (1910), paragraph beginning 'To cut and fold,'. https://www.gutenberg.org/cache/epub/65061/pg65061-images.html; SHA256 6d6beef18c37b384169c58276b425794cde2f97a11caf10b950d14f25aff0efe. HTML stripped and whitespace normalized."
+  },
+  {
+    "id": "farmer-1910-method-creaming-butter",
+    "text": "To Cream Butter. Put in a bowl and work with a wooden spoon until soft and of creamy consistency. Should buttermilk exude from butter it should be poured off.\n\nFannie Merritt Farmer, The Boston Cooking-School Cook Book (1910).",
+    "provenance": "Verbatim public-domain text, Fannie Merritt Farmer, The Boston Cooking-School Cook Book (1910), paragraph beginning 'To Cream Butter.'. https://www.gutenberg.org/cache/epub/65061/pg65061-images.html; SHA256 6d6beef18c37b384169c58276b425794cde2f97a11caf10b950d14f25aff0efe. HTML stripped and whitespace normalized."
   }
 ]

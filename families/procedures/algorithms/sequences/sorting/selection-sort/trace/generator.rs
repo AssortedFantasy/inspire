@@ -16,11 +16,13 @@ pub fn generate(rng: &mut StdRng) -> String {
         .map(|_| rng.random_range(-9..=19))
         .collect();
     let (_, passes) = execute(&input);
-    let mut text = format!(
-        "Selection-sort execution\nInput: {input:?}\nIndices start at 0; choose the leftmost minimum of the unsorted suffix."
-    );
+    let mut text = format!("Selection sort\n{input:?}");
     for (i, (minimum, state)) in passes.iter().enumerate() {
-        write!(text, "\nSwap indices {i} and {minimum}: {state:?}").unwrap();
+        if i == *minimum {
+            write!(text, "\nKeep {i}     → {state:?}").unwrap();
+        } else {
+            write!(text, "\nSwap {i} ↔ {minimum} → {state:?}").unwrap();
+        }
     }
     text
 }

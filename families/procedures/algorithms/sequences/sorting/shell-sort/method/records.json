@@ -1,7 +1,0 @@
-[
-  {
-    "id": "shell-sort",
-    "text": "Algorithm: Shell sort\nShellsort: choose descending positive gaps ending in 1. For each gap h, insertion-sort each interleaved subsequence i, i+h, i+2h, and so on. One option is to generate 1, 4, 13, 40, … with h=3h+1, then use the suitable values in reverse. The final gap-1 pass produces ordinary sorted order.",
-    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 21elementary; https://algs4.cs.princeton.edu/21elementary/ . Algorithm paraphrase, not copied code."
-  }
-]

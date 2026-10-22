@@ -29,13 +29,22 @@ pub fn generate(rng: &mut StdRng) -> String {
     left.sort_by_key(|item| item.0);
     right.sort_by_key(|item| item.0);
     let (result, sides) = merge(&left, &right);
+    let display = |items: &[Item]| {
+        items
+            .iter()
+            .map(|&(key, id)| format!("{key}{id}"))
+            .collect::<Vec<_>>()
+            .join(" ")
+    };
     let mut text = format!(
-        "Stable-merge execution\nItems are (key, identity). Left run: {left:?}\nRight run: {right:?}\nTies choose the left run, retaining equal-key order within each run."
+        "Stable merge\nLeft   {}\nRight  {}",
+        display(&left),
+        display(&right)
     );
     for (item, side) in result.iter().zip(sides) {
-        write!(text, "\nTake {item:?} from {side}").unwrap();
+        write!(text, "\n{side} → {}{}", item.0, item.1).unwrap();
     }
-    write!(text, "\nMerged run: {result:?}").unwrap();
+    write!(text, "\nMerged {}", display(&result)).unwrap();
     text
 }
 #[cfg(test)]

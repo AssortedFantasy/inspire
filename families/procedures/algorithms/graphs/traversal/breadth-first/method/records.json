@@ -1,7 +1,0 @@
-[
-  {
-    "id": "breadth-first-distance",
-    "text": "Algorithm: Breadth first distance\nBreadth-first search on an unweighted finite graph: enqueue the source with distance 0 and mark it. Repeatedly dequeue v; for each unmarked neighbor w, mark w, record parent v and distance d[v]+1, then enqueue w. Mark on enqueue to avoid duplicates. Reversing parent links yields a path with the fewest edges.",
-    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 41graph; https://algs4.cs.princeton.edu/41graph/ . Algorithm paraphrase, not copied code."
-  }
-]

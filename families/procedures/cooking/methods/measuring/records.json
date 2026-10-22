@@ -1,7 +1,17 @@
 [
   {
-    "id": "level-flour-measure",
-    "text": "Kitchen procedure: Level flour measure\nFor a volume-based recipe that specifies sifted flour, sift before measuring. Spoon flour into the cup without shaking or packing it, then sweep the excess level with a straight edge. Measure dry ingredients before liquid or fat if reusing one cup; the clean, dry cup keeps flour from sticking into unmeasured clumps.",
-    "provenance": "Original procedure paraphrase; Fannie Merritt Farmer, The Boston Cooking-School Cook Book, revised 1910 edition; public-domain primary culinary manual, https://www.gutenberg.org/cache/epub/65061/pg65061-images.html . Named methods and recipes paraphrased; no preservation, raw-egg, or medical advice reproduced."
+    "id": "farmer-1910-method-dry-ingredients",
+    "text": "Measuring Ingredients. Flour, meal, powdered and confectioners’ sugar, and soda should be sifted before measuring. Mustard and baking-powder, from standing in boxes, settle, therefore should be stirred to lighten; salt frequently lumps, and these lumps should be broken. A cupful is measured level. To measure a cupful, put in the ingredient by spoonfuls or from a scoop, round slightly, and level with a case knife, care being taken not to shake the cup. A tablespoonful is measured level. A teaspoonful is measured level.\n\nFannie Merritt Farmer, The Boston Cooking-School Cook Book (1910).",
+    "provenance": "Verbatim public-domain text, Fannie Merritt Farmer, The Boston Cooking-School Cook Book (1910), paragraph beginning 'Measuring Ingredients.'. https://www.gutenberg.org/cache/epub/65061/pg65061-images.html; SHA256 6d6beef18c37b384169c58276b425794cde2f97a11caf10b950d14f25aff0efe. HTML stripped and whitespace normalized."
+  },
+  {
+    "id": "farmer-1910-method-spoonfuls",
+    "text": "To measure tea or table spoonfuls, dip the spoon in the ingredient, fill, lift, and level with a knife, the sharp edge of knife being toward tip of spoon. Divide with knife lengthwise of spoon, for a half-spoonful; divide halves crosswise for quarters, and quarters crosswise for eighths. Less than one-eighth of a teaspoonful is considered a few grains.\n\nFannie Merritt Farmer, The Boston Cooking-School Cook Book (1910).",
+    "provenance": "Verbatim public-domain text, Fannie Merritt Farmer, The Boston Cooking-School Cook Book (1910), paragraph beginning 'To measure tea or table spoonfuls'. https://www.gutenberg.org/cache/epub/65061/pg65061-images.html; SHA256 6d6beef18c37b384169c58276b425794cde2f97a11caf10b950d14f25aff0efe. HTML stripped and whitespace normalized."
+  },
+  {
+    "id": "farmer-1910-method-solid-fats",
+    "text": "Measuring Butter, Lard, etc. To measure butter, lard, and other solid fats, pack solidly into cup or spoon, and level with a knife.\n\nFannie Merritt Farmer, The Boston Cooking-School Cook Book (1910).",
+    "provenance": "Verbatim public-domain text, Fannie Merritt Farmer, The Boston Cooking-School Cook Book (1910), paragraph beginning 'Measuring Butter, Lard, etc.'. https://www.gutenberg.org/cache/epub/65061/pg65061-images.html; SHA256 6d6beef18c37b384169c58276b425794cde2f97a11caf10b950d14f25aff0efe. HTML stripped and whitespace normalized."
   }
 ]

@@ -1,4 +1,4 @@
-use rand::{Rng, rngs::StdRng};
+use rand::{Rng, rngs::StdRng, seq::SliceRandom};
 use std::{collections::VecDeque, fmt::Write};
 
 fn bfs(graph: &[Vec<usize>], source: usize) -> (Vec<Option<usize>>, Vec<usize>) {
@@ -28,32 +28,41 @@ fn instance(rng: &mut StdRng) -> Vec<Vec<usize>> {
             }
         }
     }
-    if graph.iter().all(Vec::is_empty) {
-        graph[0].push(1);
-        graph[1].push(0);
+    let mut chain: Vec<_> = (0..n).collect();
+    chain.shuffle(rng);
+    for pair in chain[..4].windows(2) {
+        graph[pair[0]].push(pair[1]);
+        graph[pair[1]].push(pair[0]);
+    }
+    for neighbors in &mut graph {
+        neighbors.sort_unstable();
+        neighbors.dedup();
     }
     graph
 }
 pub fn generate(rng: &mut StdRng) -> String {
     let graph = instance(rng);
-    let candidates: Vec<_> = (0..graph.len()).filter(|&v| !graph[v].is_empty()).collect();
+    let candidates: Vec<_> = (0..graph.len())
+        .filter(|&v| bfs(&graph, v).1.len() >= 4)
+        .collect();
     let source = candidates[rng.random_range(0..candidates.len())];
     let (distances, order) = bfs(&graph, source);
-    let mut text = format!(
-        "Breadth-first search execution\nUndirected unweighted graph; vertices 0..{}; neighbors visited in ascending order.\nStart vertex: {source}",
-        graph.len() - 1
-    );
+    let mut text = format!("Breadth-first search from {source}\n");
     for (v, neighbors) in graph.iter().enumerate() {
-        write!(text, "\nAdjacency {v}: {neighbors:?}").unwrap();
+        writeln!(text, "{v} — {neighbors:?}").unwrap();
     }
-    write!(
-        text,
-        "\nFIFO dequeue order: {order:?}\nShortest edge distances:"
-    )
-    .unwrap();
-    for (v, distance) in distances.iter().enumerate() {
-        let label = distance.map_or_else(|| "unreachable".to_string(), |d| d.to_string());
-        write!(text, "\n{v}: {label}").unwrap();
+    write!(text, "\nVisit {order:?}").unwrap();
+    for depth in 0..=distances.iter().flatten().copied().max().unwrap() {
+        let layer: Vec<_> = (0..graph.len())
+            .filter(|&v| distances[v] == Some(depth))
+            .collect();
+        write!(text, "\nDistance {depth}: {layer:?}").unwrap();
+    }
+    let unreachable: Vec<_> = (0..graph.len())
+        .filter(|&v| distances[v].is_none())
+        .collect();
+    if !unreachable.is_empty() {
+        write!(text, "\nUnreachable: {unreachable:?}").unwrap();
     }
     text
 }

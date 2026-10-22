@@ -1,6 +1,7 @@
 """Run from the repository root: python -B -m unittest discover -s families/procedures."""
 import json
 import unittest
+from fractions import Fraction
 from pathlib import Path
 
 from bs4 import BeautifulSoup
@@ -14,12 +15,11 @@ class ImportTests(unittest.TestCase):
         sections = list(import_data.farmer_sections(BeautifulSoup(html, "html.parser")))
         self.assertEqual(sections, [("CHAPTER I", "First", ["½ cup flour", "Mix."]), ("CHAPTER I", "Second", ["Bake."])])
 
-    def test_hashes_exact_replay_schema_and_original_preservation(self):
+    def test_hashes_exact_replay_schema_and_unique_records(self):
         cache = Path("target/imports/procedures")
         for name in import_data.SOURCES:
             import_data.source(cache, name)
-        expected = import_data.baseline()
-        expected.update(import_data.imported(cache))
+        expected = import_data.imported(cache)
         corpus_paths = {p.parent.relative_to(import_data.ROOT).as_posix() for p in import_data.ROOT.rglob("records.json")}
         self.assertEqual(corpus_paths, set(expected))
         records = []
@@ -32,11 +32,15 @@ class ImportTests(unittest.TestCase):
                 self.assertTrue(all(isinstance(value, str) and value.strip() and "\0" not in value for value in row.values()))
         self.assertEqual(len(records), len({row["id"] for row in records}))
         self.assertEqual(len(records), len({row["text"] for row in records}))
-        originals = [row["record"] for row in json.loads((import_data.ROOT / "baseline_records.json").read_text(encoding="utf-8"))]
-        actual = {row["id"]: row for row in records}
-        self.assertEqual(len(originals), 60)
-        for row in originals:
-            self.assertEqual(actual[row["id"]], row)
+
+    def test_excerpt_lookup_rejects_ambiguous_or_missing_boundaries(self):
+        with self.assertRaises(ValueError):
+            import_data.selected(["Same text.", "Same text again."], "Same")
+        with self.assertRaises(ValueError):
+            import_data.selected(["Complete sentence."], "Missing")
+        with self.assertRaises(ValueError):
+            import_data.selected(["Complete sentence."], "Complete", stop="Absent")
+        self.assertEqual(import_data.selected(["First. Next.", "Second."], "First", stop=" Next."), "First.")
 
     def test_selected_recipes_keep_quantities_and_resolve_foundations(self):
         rows = [r for records in import_data.imported(Path("target/imports/procedures")).values() for r in records]
@@ -48,6 +52,38 @@ class ImportTests(unittest.TestCase):
         self.assertNotIn("bottled and kept", by_id["farmer-1910-iii-lemonade"]["text"])
         self.assertNotIn("Scalloped Tomatoes", by_id["farmer-1910-xix-stewed-tomatoes"]["text"])
         self.assertIn("Foundation (stem stitch)", by_id["higgin-1880-split-stitch"]["text"])
+
+    def test_replacements_retain_primary_source_words(self):
+        cache = Path("target/imports/procedures")
+        groups = {**import_data.sewing(cache), **import_data.experiments(cache)}
+        by_id = {r["id"]: r for records in groups.values() for r in records}
+        self.assertIn("Pass the needle in and out of the material, at regular intervals", by_id["dillmont-running-stitch"]["text"])
+        self.assertIn("the two raw edges are enclosed between", by_id["dillmont-french-double-seam"]["text"])
+        self.assertIn("leave a small hole about as large as a pin’s head", by_id["tissandier-ludion"]["text"])
+        self.assertNotIn("candle", by_id["tissandier-hidden-coin"]["text"])
+        self.assertNotIn("Cramer", by_id["tissandier-two-pins"]["text"])
+        for row in by_id.values():
+            self.assertIn("Verbatim public-domain", row["provenance"])
+
+    def test_record_weights_are_uniform_within_each_corpus_topic(self):
+        output = import_data.imported(Path("target/imports/procedures"))
+        weights = import_data.corpus_weights(output)
+        self.assertTrue(all(not path.startswith("algorithms/") for path in weights))
+        for path, weight in weights.items():
+            self.assertEqual((import_data.ROOT / path / "node.toml").read_text().strip(), f"weight = {weight}")
+        for topic in ("cooking", "craft", "experiments"):
+            total = sum(len(rows) for path, rows in output.items() if path.startswith(topic + "/"))
+            for path, rows in output.items():
+                if not path.startswith(topic + "/"):
+                    continue
+                probability = Fraction(1, len(rows))
+                parts = path.split("/")
+                for length in range(2, len(parts) + 1):
+                    node = "/".join(parts[:length])
+                    parent = node.rsplit("/", 1)[0]
+                    sibling_total = sum(weight for sibling, weight in weights.items() if sibling.rsplit("/", 1)[0] == parent)
+                    probability *= Fraction(weights[node], sibling_total)
+                self.assertEqual(probability, Fraction(1, total), path)
 
     def test_tree_has_only_nonempty_unmixed_nodes(self):
         for path in [import_data.ROOT, *[p for p in import_data.ROOT.rglob("*") if p.is_dir()]]:

@@ -1,7 +1,7 @@
 [
   {
-    "id": "color-afterimage",
-    "text": "Experiment protocol: Color afterimage\nPlace a red paper shape beside a matching outline on white paper. Look steadily at a small central mark on the red shape for about twenty seconds, then shift to the outline. Note the transient complementary-color shape. Repeat with green paper under the same ordinary room lighting; no bright light source is needed.",
-    "provenance": "Exploratorium, ColorFest: Find Complementary Colors in Afterimages; https://annex.exploratorium.edu/colorfest/trythis.html . Original paraphrase of the colored-paper activity."
+    "id": "tissandier-accidental-colours",
+    "text": "Accidental colours, or ocular spectra, are, so to speak, illusions, and differently-coloured objects will, when our gaze is turned from them, give us different “spectra” or images. For instance, a violet object will, when we turn to a sheet of white paper, give us a yellow “spectrum”; orange will be blue; black and white will change respectively; red will become a blue-green. From a very strong white light the accidental colours will vary.\n\nGaston Tissandier, Popular Scientific Recreations, English edition.",
+    "provenance": "Verbatim public-domain excerpt, Gaston Tissandier, Popular Scientific Recreations, English translation and enlargement, paragraph containing 'Accidental colours, or ocular spectra'. https://www.gutenberg.org/cache/epub/52709/pg52709-images.html; SHA256 13b2844007872c5227dec2d1d1098390bc4d4ad80f987772009356233a918d39. HTML and page numbers stripped, whitespace normalized, parenthetical and inline figure-navigation references omitted. Excerpt boundaries retain complete sentences. No illustrations reproduced."
   }
 ]

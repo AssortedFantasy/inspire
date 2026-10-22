@@ -1,7 +1,0 @@
-[
-  {
-    "id": "strong-components",
-    "text": "Algorithm: Strong components\nKosaraju–Sharir strong components: reverse every edge of a finite digraph and compute that reversed graph’s reverse DFS postorder. In the original graph, start DFS from still-unmarked vertices in that order, assigning a fresh component label to each search. Two vertices share a label exactly when each is reachable from the other.",
-    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 42digraph; https://algs4.cs.princeton.edu/42digraph/ . Algorithm paraphrase, not copied code."
-  }
-]

@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-10-13",
+  "snapshot_date": "2026-10-22",
   "parser": "beautifulsoup4==4.12.3",
   "sources": [
     {
@@ -16,6 +16,11 @@
       "file": "dillmont.html",
       "url": "https://www.gutenberg.org/cache/epub/20776/pg20776-images.html",
       "sha256": "482c6206f57b8ad42bc7306433e2c1d1677dca89d21429130773d50ae10ac2d0"
+    },
+    {
+      "file": "tissandier.html",
+      "url": "https://www.gutenberg.org/cache/epub/52709/pg52709-images.html",
+      "sha256": "13b2844007872c5227dec2d1d1098390bc4d4ad80f987772009356233a918d39"
     }
   ]
 }

@@ -1,7 +1,0 @@
-[
-  {
-    "id": "dijkstra-paths",
-    "text": "Algorithm: Dijkstra paths\nDijkstra’s shortest paths require nonnegative edge weights. Give the source distance 0 and other vertices infinity; extract the unsettled vertex with least tentative distance, then improve each outgoing neighbor with d[v]+weight when smaller. Record improving edges as predecessors. Stop when no finite unsettled distance remains; unreachable vertices retain infinity.",
-    "provenance": "Original concise procedure; Princeton University, Robert Sedgewick and Kevin Wayne, Algorithms 4th edition companion, 44sp; https://algs4.cs.princeton.edu/44sp/ . Algorithm paraphrase, not copied code."
-  }
-]

@@ -31,24 +31,43 @@ fn instance(rng: &mut StdRng) -> (Vec<(usize, u32)>, usize) {
 pub fn generate(rng: &mut StdRng) -> String {
     let (items, capacity) = instance(rng);
     let (table, selected) = execute(&items, capacity);
-    let mut text = format!(
-        "0/1-knapsack dynamic-programming execution\nCapacity: {capacity}; each item is available once; unused capacity is allowed."
-    );
+    let mut text = format!("0/1 knapsack\nCapacity {capacity}\nItem  Weight  Value");
     for (i, (weight, value)) in items.iter().enumerate() {
         write!(
             text,
-            "\nItem {}: weight {weight}, value {value}",
+            "\n{}      {weight:>2}     {value:>2}",
             (b'A' + i as u8) as char
         )
         .unwrap();
     }
-    write!(text,"\nRows show the best value for capacities 0..{capacity}, after processing each prefix of items.").unwrap();
+    write!(text, "\nBest value by capacity\n       ").unwrap();
+    for c in 0..=capacity {
+        write!(text, " {c:>2}").unwrap();
+    }
     for (i, row) in table.iter().enumerate() {
-        write!(text, "\nAfter {i} items: {row:?}").unwrap();
+        let label = if i == 0 {
+            "—".to_string()
+        } else {
+            (0..i).map(|j| (b'A' + j as u8) as char).collect()
+        };
+        write!(text, "\n{label:<7}").unwrap();
+        for value in row {
+            write!(text, " {value:>2}").unwrap();
+        }
     }
     let names: Vec<_> = selected.iter().map(|&i| (b'A' + i as u8) as char).collect();
     let weight: usize = selected.iter().map(|&i| items[i].0).sum();
-    write!(text,"\nSelected items: {names:?}; total weight {weight}; optimal value {}.\nTraceback skips an item when including it ties the best value without it.",table[items.len()][capacity]).unwrap();
+    write!(
+        text,
+        "\nTake {}\nWeight {weight}\nValue {}",
+        names
+            .iter()
+            .map(char::to_string)
+            .collect::<Vec<_>>()
+            .join(" + "),
+        table[items.len()][capacity]
+    )
+    .unwrap();
     text
 }
 #[cfg(test)]

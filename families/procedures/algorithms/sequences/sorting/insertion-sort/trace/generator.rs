@@ -22,16 +22,9 @@ pub fn generate(rng: &mut StdRng) -> String {
         .map(|_| rng.random_range(-9..=19))
         .collect();
     let (_, passes) = execute(&input);
-    let mut text = format!(
-        "Insertion-sort execution\nInput: {input:?}\nAscending order; each pass inserts the next key into the sorted prefix."
-    );
+    let mut text = format!("Insertion sort\n{input:?}");
     for (i, state) in passes.iter().enumerate() {
-        write!(
-            text,
-            "\nInsert key at original prefix length {}: {state:?}",
-            i + 2
-        )
-        .unwrap();
+        write!(text, "\nInsert {:>3} → {state:?}", input[i + 1]).unwrap();
     }
     text
 }
