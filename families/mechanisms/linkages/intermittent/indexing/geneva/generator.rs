@@ -26,7 +26,7 @@ pub fn generate(rng: &mut StdRng) -> String {
         n(360.0 / slots as f64),
         n(180.0 + 360.0 / slots as f64)
     );
-    out.push_str("\n\nθ (°) | wheel Δφ (°) | wheel rpm | pin radius (mm)");
+    out.push_str("\n\nθ (°) | wheel Δφ (°) | wheel rpm | pin–wheel center (mm)");
     for fraction in [-1.0, -0.75, -0.5, 0.0, 0.5, 0.75, 1.0] {
         let theta = fraction * engagement;
         let (phi, ratio, reach) = state(slots, centers, theta);
