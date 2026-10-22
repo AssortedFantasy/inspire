@@ -1,17 +1,19 @@
 # Adding and maintaining the family tree
 
 Add or move directories under `families/` and rebuild to change the sampling tree.
+See [reviews/human-feedback.md](../reviews/human-feedback.md) for concrete review notes.
 
 ## Output quality (no AI slop)
 
-Inspire outputs should read like crisp, high-entropy artifacts or authentic primary material, not LLM textbook exercises or defensive spec sheets.
+Focus on the **entropic core**—the actual artifact, fact, or quotation—and strip away scaffolding, defensive clarifications, and GPT prose patterns.
 
-- **No CYA definitions or convention footnotes.** Assume a competent reader. Do not explain what an atomic number is (`71 protons per nucleus and 71 electrons in a neutral atom`), that MIDI puts `C4 = 60` in 12-TET, that a SPICE netlist uses SI units and an ideal source, or that a free oscillator has "No external forcing." If the notation already carries the meaning, let it stand on its own.
-- **No semicolon/colon key-value sludge.** Avoid the robotic GPT cadence of chaining terse labels, colons, and semicolons to pack in minor clarifications (`Label: X; condition: Y; convention: Z.`). Write natural prose when prose is needed, or just emit the object itself.
-- **No fake variation.** Multiplying a balanced chemical equation by a random integer (`For a forward extent of 2 mol: consume...`), counting atoms in $k$ molecules (`2 molecules contain 24 atoms`), or slotting a 10-row color lookup table into a rigid `Top: / Bottom: / Footwear: / Accent:` checklist is padding, not entropy. Every random choice in a generator should produce genuine structural variety.
-- **Prefer verbatim primary text over LLM paraphrases.** Real human writing has texture and variation that LLM summaries flatten out. When pulling from historical, technical, or literary public-domain sources, quote the text directly (with author/work credit) instead of paraphrasing it into "X describes Y, turning A into B."
-- **Emit the artifact, not a prompt.** Print the mathematical object, recipe, circuit, game position, or quotation itself. Never print instructions telling the reader to "Design an outfit," "Construct a group," or "Imagine a position."
-- **Keep metadata out of sampled text.** Put download URLs, checksums, snapshot dates, internal record IDs, and license boilerplate in `provenance` or `LICENSE*` files, not in the printed output.
+- **No CYA definitions or rulebook explanations.** Assume a competent reader. Do not explain how Sudoku or Nim works, that poker uses a 52-card deck with no jokers, what an atomic number means (`29 protons per nucleus and 29 electrons in a neutral atom`), that ionic solids form lattices, that MIDI puts `C4 = 60` in 12-TET, or that a SPICE netlist uses ideal sources and SI units. Print the puzzle, hand, reaction, or netlist directly.
+- **No tree-path or category scaffolding.** Do not leak the directory taxonomy into the output as a header (`Experiment protocol: Blind spot card`, `Word history: apron`, `Poetic form: Shakespearean sonnet`, `Algorithm: Kruskal tree`, `Type: Drums`). And never double-introduce an item (`Algorithm: Kruskal tree` followed by `Kruskal's minimum spanning tree:`). Start directly with the material.
+- **No semicolon/colon key-value sludge.** Avoid the GPT habit of chaining terse clauses with colons and semicolons (`Ideal hydraulic press: incompressible liquid... Input piston diameter 17 mm; output diameter 68 mm...`). When presenting multiple fields (like biological taxonomy and trait estimates), use clean line breaks instead of a semicolon wall.
+- **Vary structure, not just numbers—and never print every representation at once.** Instead of printing `ISO week date: 1982-W41-6; Gregorian date: 1982-10-16 (Saturday).`, just print `1982-W41-6`. Avoid fake variation like multiplying a chemical reaction by a random integer (`For a forward extent of 1 mol...`) or plugging numbers into a rigid paragraph template.
+- **Trim noisy float precision and trailing zeros.** Write `9` or `2.2e3`, not `9.00000e0` or `4800.000 N`.
+- **Ban LLM paraphrasing.** Paraphrasing a good human source collapses its natural texture into flat ChatGPT cadence (`A packet that already sinks or floats too strongly may not respond as a useful diver`). Use verbatim public-domain text (with author/work credit) or concise factual data—never LLM-authored paraphrases or out-of-context figure/animation captions.
+- **Emit the artifact, not a prompt.** Never print instructions telling the consuming agent to "Design an outfit" or "Construct a group." Keep URLs, checksums, record IDs, and license text in `provenance` or `LICENSE*` files.
 
 ## Corpora (`records.json`)
 
@@ -29,9 +31,9 @@ A corpus leaf contains `records.json`:
 
 - Records are sampled uniformly within a leaf.
 - `id`, `text`, and `provenance` are required and must be nonblank. `id` values must be unique within the file, and `text` cannot contain NUL (`\u0000`). Unknown fields fail the build.
-- Prefer importing real datasets or verified public-domain texts over having an LLM bulk-author records. Keep download caches and raw files outside `families/` (for example under `target/`) and use `python -B` for helper scripts so `__pycache__` directories do not pollute the tree.
+- Import real datasets or verified public-domain texts rather than having an LLM author or paraphrase records. Keep download caches outside `families/` (for example under `target/`) and run helper scripts with `python -B` so `__pycache__` directories do not pollute the tree.
 - Place required dataset notices in `LICENSE`, `LICENSE.txt`, or `LICENSE.md` inside the branch so the build embeds them for `inspire --data-licenses`. See [DATA_SOURCES.md](../DATA_SOURCES.md).
-- When changing output formatting for an imported corpus, update both the importer script and `records.json` together.
+- Update both the importer script and `records.json` together when changing formatting.
 
 ## Procedural generators (`generator.rs`)
 
@@ -48,7 +50,7 @@ pub fn generate(rng: &mut StdRng) -> String {
 
 - The build discovers and compiles `generator.rs` automatically. Format touched generators with `rustfmt --edition 2024 <path>`.
 - Return a nonblank string with no trailing newline. Use only the provided `StdRng` and bounded local computation (no I/O or external state). Helper `.rs` files may live beside `generator.rs`.
-- Put tests for real mathematical or structural invariants (valid moves, unique puzzle solutions, balanced equations, circuit nodal analysis) in `#[cfg(test)] mod tests`. Avoid brittle tests that only lock in boilerplate wording.
+- Put tests for substantive mathematical or structural invariants in `#[cfg(test)] mod tests`. Do not write tests that lock in boilerplate wording or disclaimer strings.
 
 ## Tree structure and weights
 
@@ -59,4 +61,4 @@ pub fn generate(rng: &mut StdRng) -> String {
   weight = 2
   ```
 - A node's effective sampling probability is the product of sibling weight ratios along its path (`inspire --list` shows all weights and probabilities). Weight `0` disables selection through the parent while still allowing direct selection via `--family`.
-- In homogeneous name collections (`people`, `objects/cars`, `natural-world/animals`, and `geography/subdivisions`), node weights match descendant record counts so every record has equal probability within the collection. Other branches weight by topic.
+- Watch out for **small-leaf repeat collisions**: a leaf with only a few records (or a tiny generator space) sitting on a shallow, high-weight branch will repeat single items far too often. Scale weights so tiny leaves do not dominate sampling. In homogeneous collections (`people`, `objects/cars`, `natural-world/animals`, `geography/subdivisions`), weights match descendant record counts so every record has equal probability.
