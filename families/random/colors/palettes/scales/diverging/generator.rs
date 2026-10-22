@@ -94,16 +94,12 @@ fn sample(rng: &mut StdRng) -> Scale {
 
 pub fn generate(rng: &mut StdRng) -> String {
     let scale = sample(rng);
-    let colors = scale
+    scale
         .colors()
         .iter()
         .map(|[r, g, b]| format!("#{r:02x}{g:02x}{b:02x}"))
         .collect::<Vec<_>>()
-        .join(", ");
-    format!(
-        "Diverging palette, {} ordered steps through a pale neutral midpoint (matched OKLCH lightness and chroma on both wings; fitted to sRGB):\n{colors}",
-        2 * scale.half + 1
-    )
+        .join(", ")
 }
 
 #[cfg(test)]

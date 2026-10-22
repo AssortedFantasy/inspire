@@ -13,7 +13,7 @@ Palette order is preserved; RGB triplets are converted losslessly to hex.
 The pinned upstream export omits the nine-class YlOrRd row; the importer
 preserves the export as published rather than inventing a replacement.
 These are scheme data, not assertions that every class count is accessible
-or appropriate for every display. Only source type labels are carried over.
+or appropriate for every display. Outputs contain the ordered hex swatches and a short scheme credit.
 
 Run `python import_data.py` to fetch and verify the pinned source, or use
 `python import_data.py --input downloaded-colorbrewer.json`. The importer

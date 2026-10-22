@@ -41,7 +41,7 @@ pub fn generate(rng: &mut StdRng) -> String {
         2 => 'O',
         _ => '.',
     };
-    let mut text = String::from("Tic-tac-toe (X starts; . is empty)\n  a b c");
+    let mut text = String::from("Tic-tac-toe\n  a b c");
     for row in 0..3 {
         text.push_str(&format!(
             "\n{} {} {} {}",

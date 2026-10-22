@@ -62,14 +62,11 @@ pub fn generate(rng: &mut StdRng) -> String {
     let dark = rng.random_range(0.28..=0.42);
     let strength = rng.random_range(0.075..=0.16);
     let count = rng.random_range(5..=9);
-    let colors = ramp(hue, light, dark, strength, count)
+    ramp(hue, light, dark, strength, count)
         .iter()
         .map(|[r, g, b]| format!("#{r:02x}{g:02x}{b:02x}"))
         .collect::<Vec<_>>()
-        .join(", ");
-    format!(
-        "Sequential palette, {count} steps from light to dark (one OKLCH hue, evenly spaced lightness; chroma reduced to fit sRGB):\n{colors}"
-    )
+        .join(", ")
 }
 
 #[cfg(test)]

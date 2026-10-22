@@ -79,9 +79,7 @@ fn coord(i: usize) -> String {
 }
 pub fn generate(rng: &mut StdRng) -> String {
     let (board, history, player) = position(rng);
-    let mut text = String::from(
-        "Reversi (B starts; . empty; row 1 at top).\nA move brackets one or more W/B discs in a straight line and flips them. Pass only with no legal move; finish when neither player can move.\n  a b c d e f g h",
-    );
+    let mut text = String::from("Reversi\n  a b c d e f g h");
     for row in 0..8 {
         text.push_str(&format!(
             "\n{} {}",
@@ -100,21 +98,19 @@ pub fn generate(rng: &mut StdRng) -> String {
     let w = board.iter().filter(|&&p| p == 2).count();
     let moves = legal(&board, player);
     let status = if moves.is_empty() && legal(&board, 3 - player).is_empty() {
-        format!(
-            "finished; {}",
-            if b > w {
-                "B wins"
-            } else if w > b {
-                "W wins"
-            } else {
-                "draw"
-            }
-        )
+        if b > w {
+            "B wins"
+        } else if w > b {
+            "W wins"
+        } else {
+            "draw"
+        }
+        .into()
     } else if moves.is_empty() {
         format!("{} must pass", if player == 1 { "B" } else { "W" })
     } else {
         format!(
-            "{} to move; legal: {}",
+            "{} to move\nLegal: {}",
             if player == 1 { "B" } else { "W" },
             moves
                 .iter()
@@ -124,7 +120,7 @@ pub fn generate(rng: &mut StdRng) -> String {
         )
     };
     format!(
-        "{text}\nDiscs B={b}, W={w}; {status}\nMoves from standard center: {}",
+        "{text}\nB {b} / W {w}\n{status}\nMoves: {}",
         history
             .iter()
             .map(|m| m.map(coord).unwrap_or_else(|| "pass".into()))

@@ -5,7 +5,8 @@
     "checks": [
       "81 records across nine schemes exactly match pinned source, RGB conversion and order.",
       "Strict schema, unique IDs, class/category mapping, provenance and attribution pass.",
-      "Both arms strictly brighten toward center; all nine maximum-class schemes visually reviewed; no corrections needed."
+      "Both arms strictly brighten toward center; all nine maximum-class schemes visually reviewed; no corrections needed.",
+      "Output reduced to swatches followed by a short ColorBrewer scheme credit; all 264 records preserve every color, source order, ID, and provenance, and importer output matches."
     ]
   },
   {
@@ -14,7 +15,8 @@
     "checks": [
       "58 records across eight schemes exactly match pinned source and RGB conversion/order.",
       "Strict schema, unique IDs/text/colors, category/class coverage, provenance and attribution pass.",
-      "All eight largest palettes visually inspected; categorical labels correct; no corrections needed."
+      "All eight largest palettes visually inspected; categorical labels correct; no corrections needed.",
+      "Output reduced to swatches followed by a short ColorBrewer scheme credit; all 264 records preserve every color, source order, ID, and provenance, and importer output matches."
     ]
   },
   {
@@ -23,7 +25,8 @@
     "checks": [
       "125 records across 18 schemes exactly match pinned source and importer.",
       "Strict schema, unique IDs/text, class sizes/colors, provenance and attribution pass.",
-      "All scales strictly decrease relative luminance; all 18 maximum-class schemes visually reviewed; no corrections needed."
+      "All scales strictly decrease relative luminance; all 18 maximum-class schemes visually reviewed; no corrections needed.",
+      "Output reduced to swatches followed by a short ColorBrewer scheme credit; all 264 records preserve every color, source order, ID, and provenance, and importer output matches."
     ]
   },
   {
@@ -32,7 +35,8 @@
     "checks": [
       "Verified exact quantized sRGB WCAG luminance and >=4.5 threshold against W3C; bounded 48-candidate search and black/white fallback sound.",
       "Added RGB coefficient references and bytes 10/11 transfer-boundary tests; four isolated tests pass including 10,000 pairs and 500 parsed reported ratios.",
-      "Actual seeded outputs varied and coherent; README updated; formatting passes."
+      "Actual seeded outputs varied and coherent; README updated; formatting passes.",
+      "Removed taxonomy headers and algorithm explanations from output; role labels remain where they distinguish swatches, and isolated invariant tests pass."
     ]
   },
   {
@@ -40,7 +44,8 @@
     "agent": "/root/random/colors/palettes/harmony/analogous",
     "checks": [
       "Four isolated tests pass: 10,000 seeded palettes and exhaustive 360 hues x 11 spacings x lightness boundaries; five distinct RGB8 swatches and adjacent RGB distance >=7.",
-      "Twelve rendered palettes visually reviewed; added invariant tests and leaf README; formatting passes."
+      "Twelve rendered palettes visually reviewed; added invariant tests and leaf README; formatting passes.",
+      "Removed taxonomy headers and algorithm explanations from output; role labels remain where they distinguish swatches, and isolated invariant tests pass."
     ]
   },
   {
@@ -49,7 +54,8 @@
     "checks": [
       "Varied tint lightness 80-90% and shade 18-28% with exact opposite hues and matched tint roles.",
       "Two isolated tests pass over 10,000 seeded palettes: reproducibility, coverage, RGB uniqueness, hue/saturation relations, luminance ordering.",
-      "Six actual seeded outputs visually reviewed; added leaf README; formatting passes."
+      "Six actual seeded outputs visually reviewed; added leaf README; formatting passes.",
+      "Removed taxonomy headers and algorithm explanations from output; role labels remain where they distinguish swatches, and isolated invariant tests pass."
     ]
   },
   {
@@ -58,7 +64,8 @@
     "checks": [
       "Replaced six RGB-axis pairings with continuous OKLCH hue pairs 120-240 degrees apart, mirrored lightness/chroma wings, neutral midpoint and shared bounded gamut fit.",
       "Three isolated tests passed with -D warnings: reference conversions/byte roundtrips, 2,592 boundary palettes, 2,000 seeded palettes; checked balanced wings, uniqueness, luminance rise/fall and reproducibility.",
-      "Sixteen rendered seeded palettes visually inspected; leaf README updated; formatting passes."
+      "Sixteen rendered seeded palettes visually inspected; leaf README updated; formatting passes.",
+      "Removed taxonomy headers and algorithm explanations from output; role labels remain where they distinguish swatches, and isolated invariant tests pass."
     ]
   },
   {
@@ -67,7 +74,8 @@
     "checks": [
       "Replaced uneven linear-sRGB ramp with same-hue OKLCH, equally spaced lightness, sine chroma envelope and bounded hue-preserving gamut fitting.",
       "Three isolated tests passed: reference conversions/byte roundtrips, 14,400 boundary ramps, 2,000 seeded emitted palettes; checked gamut, lightness/hue fidelity, monotonic luminance, lightness gap, distinctness and reproducibility.",
-      "Twelve rendered seeded swatch rows visually inspected; leaf README updated; formatting passes."
+      "Twelve rendered seeded swatch rows visually inspected; leaf README updated; formatting passes.",
+      "Removed taxonomy headers and algorithm explanations from output; role labels remain where they distinguish swatches, and isolated invariant tests pass."
     ]
   },
   {
@@ -88,7 +96,8 @@
     "path": "random/colors/representations/oklch",
     "agent": "/root/random/colors/representations/oklch",
     "checks": [
-      "Reviewed 32 actual samples converted to sRGB; compared conversion matrices to primary public-domain Oklab source; three rebuilt isolated tests verify known red/neutral coordinates, grid gamut boundary search and 10,000 emitted decimal coordinates remaining in gamut. No corrections needed."
+      "Reviewed 32 actual samples converted to sRGB; compared conversion matrices to primary public-domain Oklab source; three rebuilt isolated tests verify known red/neutral coordinates, grid gamut boundary search and 10,000 emitted decimal coordinates remaining in gamut. No corrections needed.",
+      "Omit trailing decimal zeros while preserving sampled values and existing gamut tests."
     ]
   },
   {
@@ -96,6 +105,15 @@
     "agent": "/root/random/colors/representations/rgb",
     "checks": [
       "Reviewed 32 actual samples and checked W3C CSS syntax; two isolated tests verify exhaustive decimal byte encoding and preservation of independent uniform RNG channel draws. No corrections needed."
+    ]
+  },
+  {
+    "path": "random/colors/palettes/categorical/distinct",
+    "agent": "/root/games_random/color_cleanup",
+    "checks": [
+      "Farthest-point selection from 128 bounded candidates per swatch, measured in quantized OKLab; four through eight opaque sRGB colors.",
+      "Three isolated tests with -D warnings pass: conversion references, seeded reproducibility, 2,000 palettes with every pair farther than 0.1 in OKLab, and full hue/count coverage.",
+      "Four categorical outputs and twelve scale/contrast outputs rendered and visually reviewed; runtime stays offline."
     ]
   }
 ]

@@ -193,10 +193,7 @@ fn puzzle(rng: &mut StdRng) -> ([u8; 81], [u8; 81]) {
 
 pub fn generate(rng: &mut StdRng) -> String {
     let (grid, _) = puzzle(rng);
-    let clues = grid.iter().filter(|&&digit| digit != 0).count();
-    let mut text = format!(
-        "Sudoku ({clues} clues; unique solution; . is empty)\nRule: each completed row, column, and 3x3 box contains 1-9 exactly once."
-    );
+    let mut text = String::from("Sudoku");
     for row in 0..9 {
         if row > 0 && row % 3 == 0 {
             text.push_str("\n------+-------+------");

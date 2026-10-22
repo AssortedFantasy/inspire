@@ -5,7 +5,7 @@ weight remains 1; colors and dates each have local weight 2, while UUID has weig
 1. Thus their conditional shares are 40%, 40%, and 20% regardless of descendant
 counts. Colors favor structured palettes over single encoded colors by 3:1.
 
-The former three generators expand into 20 coherent leaves: 17 generators and
+The former three generators expand into 21 coherent leaves: 18 generators and
 three corpora containing 264 official ColorBrewer palettes. See
 [colors](colors/README.md), [dates](dates/README.md), and [UUID](uuid/README.md) for
 subtree distributions and invariants. Bare encodings, palette relationships,

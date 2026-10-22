@@ -89,7 +89,7 @@ pub fn generate(rng: &mut StdRng) -> String {
     let grid = puzzle(rng);
     let (rows, cols) = clues(&grid);
     format!(
-        "Nonogram 5x5 (unique solution).\nEach clue lists consecutive filled runs; neighboring runs have at least one empty cell; 0 means an empty line.\nRows top to bottom: {}\nColumns left to right: {}",
+        "Nonogram 5x5\nRows: {}\nColumns: {}",
         list(&rows),
         list(&cols)
     )

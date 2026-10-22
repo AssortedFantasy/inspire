@@ -45,9 +45,7 @@ pub fn generate(rng: &mut StdRng) -> String {
         2 => 'O',
         _ => '.',
     };
-    let mut text = String::from(
-        "Connect Four (X starts; columns 1-7; gravity down).\nFour contiguous pieces horizontally, vertically, or diagonally win.",
-    );
+    let mut text = String::from("Connect Four");
     for row in (0..6).rev() {
         text.push('\n');
         text.push_str(

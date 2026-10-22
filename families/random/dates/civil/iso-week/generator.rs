@@ -5,11 +5,7 @@ mod calendar;
 pub fn generate(rng: &mut StdRng) -> String {
     let ordinal = rng.random_range(0..calendar::DAYS);
     let (year, week, day) = calendar::iso_week(ordinal);
-    format!(
-        "ISO week date: {year:04}-W{week:02}-{day}; Gregorian date: {} ({}).",
-        calendar::iso(ordinal),
-        calendar::WEEKDAYS[(day - 1) as usize]
-    )
+    format!("{year:04}-W{week:02}-{day}")
 }
 
 #[cfg(test)]

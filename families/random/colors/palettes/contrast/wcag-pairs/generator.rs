@@ -38,7 +38,7 @@ pub fn generate(rng: &mut StdRng) -> String {
     let [br, bg, bb] = bg;
     let ratio = (contrast(fg, [br, bg, bb]) * 100.0).floor() / 100.0;
     format!(
-        "Opaque sRGB text/background pair (WCAG 2 contrast ≥4.5:1):\nforeground: #{r:02x}{g:02x}{b:02x}\nbackground: #{br:02x}{bg:02x}{bb:02x}\ncontrast: {ratio:.2}:1 (rounded down)"
+        "foreground: #{r:02x}{g:02x}{b:02x}\nbackground: #{br:02x}{bg:02x}{bb:02x}\ncontrast: {ratio}:1"
     )
 }
 
@@ -96,8 +96,8 @@ mod tests {
                 let hex = line.split_once('#').unwrap().1;
                 std::array::from_fn(|i| u8::from_str_radix(&hex[2 * i..2 * i + 2], 16).unwrap())
             };
-            let exact = contrast(parse(lines[1]), parse(lines[2]));
-            let printed: f64 = lines[3]
+            let exact = contrast(parse(lines[0]), parse(lines[1]));
+            let printed: f64 = lines[2]
                 .split_whitespace()
                 .nth(1)
                 .unwrap()

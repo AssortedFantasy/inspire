@@ -10,12 +10,18 @@
   },
   "counts": {
     "flank/english": 167,
-    "flank/other-systems": 194,
+    "flank/other-systems/fianchetto-attacks/hungarian": 21,
+    "flank/other-systems/fianchetto-attacks/nimzo-larsen": 18,
+    "flank/other-systems/knight-openings/amar": 3,
+    "flank/other-systems/knight-openings/sodium": 4,
+    "flank/other-systems/knight-openings/van-geet": 33,
+    "flank/other-systems/restrained-center": 12,
+    "flank/other-systems/wing-pawn-openings": 103,
     "flank/reti-and-zukertort": 52,
-    "king-pawn/open-games": 1038,
+    "king-pawn/open-games": 1037,
     "king-pawn/semi-open/caro-kann": 110,
     "king-pawn/semi-open/french": 212,
-    "king-pawn/semi-open/other-defenses": 271,
+    "king-pawn/semi-open/other-defenses": 272,
     "king-pawn/semi-open/sicilian": 400,
     "queen-pawn/asymmetric-defenses": 326,
     "queen-pawn/indian/grunfeld": 104,
@@ -23,7 +29,7 @@
     "queen-pawn/indian/nimzo-indian": 104,
     "queen-pawn/indian/other-systems": 64,
     "queen-pawn/indian/queens-indian": 74,
-    "queen-pawn/queen-gambit/other-systems": 429,
-    "queen-pawn/queen-gambit/slav": 174
+    "queen-pawn/queen-gambit/other-systems": 430,
+    "queen-pawn/queen-gambit/slav": 173
   }
 }

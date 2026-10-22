@@ -12,30 +12,17 @@ pub fn generate(rng: &mut StdRng) -> String {
     moves.shuffle(rng);
     moves.truncate(rng.random_range(2..=4));
     moves.sort_unstable();
-    let tokens = rng.random_range(8..=40);
-    let win = outcomes(tokens, &moves);
-    let winning: Vec<_> = moves
-        .iter()
-        .copied()
-        .filter(|&m| m <= tokens && !win[tokens - m])
-        .collect();
+    let win = outcomes(40, &moves);
+    let desired: bool = rng.random();
+    let candidates: Vec<_> = (8..=40).filter(|&n| win[n] == desired).collect();
+    let tokens = candidates[rng.random_range(0..candidates.len())];
     format!(
-        "Normal-play subtraction game. One heap contains {tokens} tokens. Each turn removes exactly one of [{}] tokens when enough remain; a player with no legal move loses.\nPosition under optimal play: {}.\nWinning removals: {}",
+        "Subtraction\nHeap: {tokens}\nRemovals: {}",
         moves
             .iter()
             .map(usize::to_string)
             .collect::<Vec<_>>()
-            .join(", "),
-        if win[tokens] { "winning" } else { "losing" },
-        if winning.is_empty() {
-            "none".into()
-        } else {
-            winning
-                .iter()
-                .map(usize::to_string)
-                .collect::<Vec<_>>()
-                .join(", ")
-        }
+            .join(" ")
     )
 }
 #[cfg(test)]

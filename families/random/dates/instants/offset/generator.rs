@@ -14,12 +14,11 @@ fn render(day: u32, second: u32, offset: i32) -> String {
     let local_second = (local % 86_400) as u32;
     let magnitude = offset.unsigned_abs();
     format!(
-        "{}{}{:02}:{:02} (fixed offset); same instant: {}Z",
+        "{}{}{:02}:{:02}",
         calendar::timestamp(local_day, local_second),
         if offset < 0 { '-' } else { '+' },
         magnitude / 60,
-        magnitude % 60,
-        calendar::timestamp(day, second)
+        magnitude % 60
     )
 }
 
@@ -38,11 +37,11 @@ mod tests {
     fn offset_rolls_across_midnight_both_directions() {
         assert_eq!(
             render(calendar::ordinal(2000, 1, 1), 0, -210),
-            "1999-12-31T20:30:00-03:30 (fixed offset); same instant: 2000-01-01T00:00:00Z"
+            "1999-12-31T20:30:00-03:30"
         );
         assert_eq!(
             render(calendar::ordinal(2000, 12, 31), 23 * 3600, 345),
-            "2001-01-01T04:45:00+05:45 (fixed offset); same instant: 2000-12-31T23:00:00Z"
+            "2001-01-01T04:45:00+05:45"
         );
     }
     #[test]
@@ -51,7 +50,9 @@ mod tests {
             for day in [1, calendar::DAYS - 2] {
                 for second in [0, 86_399] {
                     let text = render(day, second, offset);
-                    assert!(text.contains("same instant:"));
+                    let year: u32 = text[..4].parse().unwrap();
+                    assert!((1600..=2199).contains(&year));
+                    assert_eq!(text.len(), 25);
                 }
             }
         }

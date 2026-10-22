@@ -6,7 +6,7 @@ pub fn generate(rng: &mut StdRng) -> String {
     let tens: u16 = rng.random_range(0..10) * 10;
     let units: u16 = rng.random_range(0..10);
     let total = percentile(tens, units);
-    format!("Percentile dice (00 + 0 means 100): [{tens:02}, {units}] => {total}")
+    format!("d100 [{tens:02} {units}] = {total}")
 }
 
 #[cfg(test)]

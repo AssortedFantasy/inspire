@@ -39,7 +39,7 @@ pub fn generate(rng: &mut StdRng) -> String {
     let fraction = f64::from(rng.random_range(150..=950)) / 1000.0;
     // Stay inside the boundary; round downward so decimal output remains in gamut.
     let chroma = (maximum_chroma(lightness, hue) * fraction * 1_000_000.0).floor() / 1_000_000.0;
-    format!("oklch({lightness:.3} {chroma:.6} {hue:.1})")
+    format!("oklch({lightness} {chroma} {hue})")
 }
 
 #[cfg(test)]

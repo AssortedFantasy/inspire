@@ -1,6 +1,8 @@
 # Normal-play Nim
 
-Original 2-6-heap positions. Every turn removes positive tokens from one heap;
-no move loses. Nim-sum is XOR; nonzero positions include a concrete reduction to
-zero. Tests exhaustively verify the claimed move and zero-sum response property
-for three heaps of size 0-15. Heap sizes are a compact illustrative range.
+Original 2-6-heap positions printed without strategy spoilers. One third are
+zero-XOR positions, so losing states are not crowded out by arbitrary heaps.
+Other samples are forced to have nonzero XOR. Heap sizes range from 1 to 31.
+Tests exhaustively verify winning reductions and the zero-sum response property
+for three heaps of size 0-15, and check strategic class coverage in generated
+samples.

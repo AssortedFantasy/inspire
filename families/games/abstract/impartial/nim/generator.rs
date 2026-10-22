@@ -7,32 +7,49 @@ fn winning_move(heaps: &[u8]) -> Option<(usize, u8)> {
         (next < heap).then_some((i, next))
     })
 }
-pub fn generate(rng: &mut StdRng) -> String {
-    let heaps: Vec<u8> = (0..rng.random_range(2..=6))
+fn position(rng: &mut StdRng) -> Vec<u8> {
+    let mut heaps: Vec<u8> = (0..rng.random_range(2..=6))
         .map(|_| rng.random_range(1..=15))
         .collect();
-    let xor = heaps.iter().fold(0, |a, &b| a ^ b);
-    let status = if let Some((i, next)) = winning_move(&heaps) {
-        format!(
-            "Winning position under optimal play; heap {} can be reduced from {} to {next}, leaving nim-sum 0.",
-            i + 1,
-            heaps[i]
-        )
-    } else {
-        "Losing position under optimal play; every move leaves a nonzero nim-sum.".into()
-    };
+    if rng.random_ratio(1, 3) {
+        heaps.pop();
+        let last = heaps.iter().fold(0, |a, &b| a ^ b);
+        if last != 0 {
+            heaps.push(last);
+        }
+    } else if winning_move(&heaps).is_none() {
+        heaps[0] ^= 16;
+    }
+    heaps
+}
+
+pub fn generate(rng: &mut StdRng) -> String {
     format!(
-        "Normal-play Nim. A turn removes one or more tokens from exactly one heap; the player unable to move loses.\nHeaps: {}\nNim-sum (bitwise XOR): {xor}\n{status}",
-        heaps
+        "Nim\nHeaps: {}",
+        position(rng)
             .iter()
             .map(u8::to_string)
             .collect::<Vec<_>>()
-            .join(", ")
+            .join(" ")
     )
 }
 #[cfg(test)]
 mod tests {
     use super::*;
+    use rand::SeedableRng;
+
+    #[test]
+    fn samples_include_both_strategic_classes() {
+        let mut rng = StdRng::seed_from_u64(432);
+        let mut losing = 0;
+        for _ in 0..1000 {
+            let heaps = position(&mut rng);
+            assert!((2..=6).contains(&heaps.len()));
+            assert!(heaps.iter().all(|&heap| (1..=31).contains(&heap)));
+            losing += usize::from(winning_move(&heaps).is_none());
+        }
+        assert!((250..420).contains(&losing));
+    }
     #[test]
     fn strategic_move_reaches_zero_and_zero_cannot_remain_zero() {
         for a in 0..16 {

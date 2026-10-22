@@ -58,9 +58,9 @@ pub fn generate(rng: &mut StdRng) -> String {
     let mut deck: Vec<u8> = (0..52).collect();
     deck.shuffle(rng);
     let hand = &deck[..5];
-    let (category, tiebreak) = rank(hand);
+    let (category, _) = rank(hand);
     format!(
-        "Five-card poker; one standard 52-card deck, no jokers.\nHand: {}\nCategory: {}\nTie-break ranks (descending priority; ace=14, wheel high=5): {}",
+        "{}\n{}",
         hand.iter().map(|&c| card(c)).collect::<Vec<_>>().join(" "),
         [
             "high card",
@@ -72,12 +72,7 @@ pub fn generate(rng: &mut StdRng) -> String {
             "full house",
             "four of a kind",
             "straight flush"
-        ][category as usize],
-        tiebreak
-            .iter()
-            .map(u8::to_string)
-            .collect::<Vec<_>>()
-            .join(", ")
+        ][category as usize]
     )
 }
 

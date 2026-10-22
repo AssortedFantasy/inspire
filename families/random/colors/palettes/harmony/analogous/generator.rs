@@ -11,12 +11,11 @@ pub fn generate(rng: &mut StdRng) -> String {
     let step = rng.random_range(10..=20);
     let saturation = rng.random_range(40..=75);
     let lightness = rng.random_range(38..=65);
-    let colors = palette(hue, step, saturation, lightness)
+    palette(hue, step, saturation, lightness)
         .iter()
         .map(|(h, s, l)| format!("hsl({h} {s}% {l}%)"))
         .collect::<Vec<_>>()
-        .join(", ");
-    format!("Analogous palette, five hues spaced {step}° apart:\n{colors}")
+        .join(", ")
 }
 
 #[cfg(test)]
@@ -82,13 +81,6 @@ mod tests {
         for _ in 0..10_000 {
             let value = generate(&mut rng);
             assert!(!value.ends_with('\n'));
-            let step: i32 = value
-                .split_whitespace()
-                .nth(5)
-                .unwrap()
-                .trim_end_matches('°')
-                .parse()
-                .unwrap();
             let colors: Vec<[i32; 3]> = value
                 .split("hsl(")
                 .skip(1)
@@ -104,6 +96,7 @@ mod tests {
                 })
                 .collect();
             assert_eq!(colors.len(), 5);
+            let step = (colors[1][0] - colors[0][0]).rem_euclid(360);
             assert!((10..=20).contains(&step));
             for &[h, s, l] in &colors {
                 assert!((0..360).contains(&h));

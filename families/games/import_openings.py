@@ -25,10 +25,12 @@ def category(eco, name):
     for prefix, path in flank_systems.items():
         if name.startswith(prefix):
             return "flank/other-systems/" + path
-    if name.startswith("Colle System"):
-        return "queen-pawn/queen-gambit/other-systems"
-    if name.startswith("Modern Defense"):
-        return "king-pawn/semi-open/other-defenses"
+    # Low-A transpositions retain the named system; A40+ remains queen-pawn.
+    if eco[0] == "A" and int(eco[1:]) < 40:
+        if name.startswith("Colle System"):
+            return "queen-pawn/queen-gambit/other-systems"
+        if name.startswith("Modern Defense"):
+            return "king-pawn/semi-open/other-defenses"
     if name.startswith("Sicilian"):
         return "king-pawn/semi-open/sicilian"
     if name.startswith("French"):
@@ -59,7 +61,9 @@ def category(eco, name):
         return "flank/english"
     if name.startswith(("Réti", "Zukertort")):
         return "flank/reti-and-zukertort"
-    return "flank/other-systems"
+    if name.startswith(("Amsterdam Attack", "Mieses Opening", "Saragossa Opening", "Valencia Opening", "Van't Kruijs Opening")):
+        return "flank/other-systems/restrained-center"
+    return "flank/other-systems/wing-pawn-openings"
 
 
 def main():

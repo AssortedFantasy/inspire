@@ -18,7 +18,7 @@ pub fn generate(rng: &mut StdRng) -> String {
     let values = roll(rng, count, sides);
     let successes = values.iter().filter(|&&v| v >= target).count();
     format!(
-        "{count}d{sides} pool; each die >= {target} is one success: [{}] => {successes} successes",
+        "{count}d{sides} >= {target}\n[{}]\n{successes} successes",
         list(&values)
     )
 }

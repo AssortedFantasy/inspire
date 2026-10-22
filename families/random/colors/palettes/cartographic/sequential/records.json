@@ -1,627 +1,627 @@
 [
   {
     "id": "colorbrewer-blues-3",
-    "text": "ColorBrewer Blues, 3 classes (sequential).\nOrdered light-to-dark scale: #deebf7, #9ecae1, #3182bd",
+    "text": "#deebf7, #9ecae1, #3182bd\nColorBrewer Blues",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-blues-4",
-    "text": "ColorBrewer Blues, 4 classes (sequential).\nOrdered light-to-dark scale: #eff3ff, #bdd7e7, #6baed6, #2171b5",
+    "text": "#eff3ff, #bdd7e7, #6baed6, #2171b5\nColorBrewer Blues",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-blues-5",
-    "text": "ColorBrewer Blues, 5 classes (sequential).\nOrdered light-to-dark scale: #eff3ff, #bdd7e7, #6baed6, #3182bd, #08519c",
+    "text": "#eff3ff, #bdd7e7, #6baed6, #3182bd, #08519c\nColorBrewer Blues",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-blues-6",
-    "text": "ColorBrewer Blues, 6 classes (sequential).\nOrdered light-to-dark scale: #eff3ff, #c6dbef, #9ecae1, #6baed6, #3182bd, #08519c",
+    "text": "#eff3ff, #c6dbef, #9ecae1, #6baed6, #3182bd, #08519c\nColorBrewer Blues",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-blues-7",
-    "text": "ColorBrewer Blues, 7 classes (sequential).\nOrdered light-to-dark scale: #eff3ff, #c6dbef, #9ecae1, #6baed6, #4292c6, #2171b5, #084594",
+    "text": "#eff3ff, #c6dbef, #9ecae1, #6baed6, #4292c6, #2171b5, #084594\nColorBrewer Blues",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-blues-8",
-    "text": "ColorBrewer Blues, 8 classes (sequential).\nOrdered light-to-dark scale: #f7fbff, #deebf7, #c6dbef, #9ecae1, #6baed6, #4292c6, #2171b5, #084594",
+    "text": "#f7fbff, #deebf7, #c6dbef, #9ecae1, #6baed6, #4292c6, #2171b5, #084594\nColorBrewer Blues",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-blues-9",
-    "text": "ColorBrewer Blues, 9 classes (sequential).\nOrdered light-to-dark scale: #f7fbff, #deebf7, #c6dbef, #9ecae1, #6baed6, #4292c6, #2171b5, #08519c, #08306b",
+    "text": "#f7fbff, #deebf7, #c6dbef, #9ecae1, #6baed6, #4292c6, #2171b5, #08519c, #08306b\nColorBrewer Blues",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bugn-3",
-    "text": "ColorBrewer BuGn, 3 classes (sequential).\nOrdered light-to-dark scale: #e5f5f9, #99d8c9, #2ca25f",
+    "text": "#e5f5f9, #99d8c9, #2ca25f\nColorBrewer BuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bugn-4",
-    "text": "ColorBrewer BuGn, 4 classes (sequential).\nOrdered light-to-dark scale: #edf8fb, #b2e2e2, #66c2a4, #238b45",
+    "text": "#edf8fb, #b2e2e2, #66c2a4, #238b45\nColorBrewer BuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bugn-5",
-    "text": "ColorBrewer BuGn, 5 classes (sequential).\nOrdered light-to-dark scale: #edf8fb, #b2e2e2, #66c2a4, #2ca25f, #006d2c",
+    "text": "#edf8fb, #b2e2e2, #66c2a4, #2ca25f, #006d2c\nColorBrewer BuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bugn-6",
-    "text": "ColorBrewer BuGn, 6 classes (sequential).\nOrdered light-to-dark scale: #edf8fb, #ccece6, #99d8c9, #66c2a4, #2ca25f, #006d2c",
+    "text": "#edf8fb, #ccece6, #99d8c9, #66c2a4, #2ca25f, #006d2c\nColorBrewer BuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bugn-7",
-    "text": "ColorBrewer BuGn, 7 classes (sequential).\nOrdered light-to-dark scale: #edf8fb, #ccece6, #99d8c9, #66c2a4, #41ae76, #238b45, #005824",
+    "text": "#edf8fb, #ccece6, #99d8c9, #66c2a4, #41ae76, #238b45, #005824\nColorBrewer BuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bugn-8",
-    "text": "ColorBrewer BuGn, 8 classes (sequential).\nOrdered light-to-dark scale: #f7fcfd, #e5f5f9, #ccece6, #99d8c9, #66c2a4, #41ae76, #238b45, #005824",
+    "text": "#f7fcfd, #e5f5f9, #ccece6, #99d8c9, #66c2a4, #41ae76, #238b45, #005824\nColorBrewer BuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bugn-9",
-    "text": "ColorBrewer BuGn, 9 classes (sequential).\nOrdered light-to-dark scale: #f7fcfd, #e5f5f9, #ccece6, #99d8c9, #66c2a4, #41ae76, #238b45, #006d2c, #00441b",
+    "text": "#f7fcfd, #e5f5f9, #ccece6, #99d8c9, #66c2a4, #41ae76, #238b45, #006d2c, #00441b\nColorBrewer BuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bupu-3",
-    "text": "ColorBrewer BuPu, 3 classes (sequential).\nOrdered light-to-dark scale: #e0ecf4, #9ebcda, #8856a7",
+    "text": "#e0ecf4, #9ebcda, #8856a7\nColorBrewer BuPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bupu-4",
-    "text": "ColorBrewer BuPu, 4 classes (sequential).\nOrdered light-to-dark scale: #edf8fb, #b3cde3, #8c96c6, #88419d",
+    "text": "#edf8fb, #b3cde3, #8c96c6, #88419d\nColorBrewer BuPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bupu-5",
-    "text": "ColorBrewer BuPu, 5 classes (sequential).\nOrdered light-to-dark scale: #edf8fb, #b3cde3, #8c96c6, #8856a7, #810f7c",
+    "text": "#edf8fb, #b3cde3, #8c96c6, #8856a7, #810f7c\nColorBrewer BuPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bupu-6",
-    "text": "ColorBrewer BuPu, 6 classes (sequential).\nOrdered light-to-dark scale: #edf8fb, #bfd3e6, #9ebcda, #8c96c6, #8856a7, #810f7c",
+    "text": "#edf8fb, #bfd3e6, #9ebcda, #8c96c6, #8856a7, #810f7c\nColorBrewer BuPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bupu-7",
-    "text": "ColorBrewer BuPu, 7 classes (sequential).\nOrdered light-to-dark scale: #edf8fb, #bfd3e6, #9ebcda, #8c96c6, #8c6bb1, #88419d, #6e016b",
+    "text": "#edf8fb, #bfd3e6, #9ebcda, #8c96c6, #8c6bb1, #88419d, #6e016b\nColorBrewer BuPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bupu-8",
-    "text": "ColorBrewer BuPu, 8 classes (sequential).\nOrdered light-to-dark scale: #f7fcfd, #e0ecf4, #bfd3e6, #9ebcda, #8c96c6, #8c6bb1, #88419d, #6e016b",
+    "text": "#f7fcfd, #e0ecf4, #bfd3e6, #9ebcda, #8c96c6, #8c6bb1, #88419d, #6e016b\nColorBrewer BuPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-bupu-9",
-    "text": "ColorBrewer BuPu, 9 classes (sequential).\nOrdered light-to-dark scale: #f7fcfd, #e0ecf4, #bfd3e6, #9ebcda, #8c96c6, #8c6bb1, #88419d, #810f7c, #4d004b",
+    "text": "#f7fcfd, #e0ecf4, #bfd3e6, #9ebcda, #8c96c6, #8c6bb1, #88419d, #810f7c, #4d004b\nColorBrewer BuPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-gnbu-3",
-    "text": "ColorBrewer GnBu, 3 classes (sequential).\nOrdered light-to-dark scale: #e0f3db, #a8ddb5, #43a2ca",
+    "text": "#e0f3db, #a8ddb5, #43a2ca\nColorBrewer GnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-gnbu-4",
-    "text": "ColorBrewer GnBu, 4 classes (sequential).\nOrdered light-to-dark scale: #f0f9e8, #bae4bc, #7bccc4, #2b8cbe",
+    "text": "#f0f9e8, #bae4bc, #7bccc4, #2b8cbe\nColorBrewer GnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-gnbu-5",
-    "text": "ColorBrewer GnBu, 5 classes (sequential).\nOrdered light-to-dark scale: #f0f9e8, #bae4bc, #7bccc4, #43a2ca, #0868ac",
+    "text": "#f0f9e8, #bae4bc, #7bccc4, #43a2ca, #0868ac\nColorBrewer GnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-gnbu-6",
-    "text": "ColorBrewer GnBu, 6 classes (sequential).\nOrdered light-to-dark scale: #f0f9e8, #ccebc5, #a8ddb5, #7bccc4, #43a2ca, #0868ac",
+    "text": "#f0f9e8, #ccebc5, #a8ddb5, #7bccc4, #43a2ca, #0868ac\nColorBrewer GnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-gnbu-7",
-    "text": "ColorBrewer GnBu, 7 classes (sequential).\nOrdered light-to-dark scale: #f0f9e8, #ccebc5, #a8ddb5, #7bccc4, #4eb3d3, #2b8cbe, #08589e",
+    "text": "#f0f9e8, #ccebc5, #a8ddb5, #7bccc4, #4eb3d3, #2b8cbe, #08589e\nColorBrewer GnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-gnbu-8",
-    "text": "ColorBrewer GnBu, 8 classes (sequential).\nOrdered light-to-dark scale: #f7fcf0, #e0f3db, #ccebc5, #a8ddb5, #7bccc4, #4eb3d3, #2b8cbe, #08589e",
+    "text": "#f7fcf0, #e0f3db, #ccebc5, #a8ddb5, #7bccc4, #4eb3d3, #2b8cbe, #08589e\nColorBrewer GnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-gnbu-9",
-    "text": "ColorBrewer GnBu, 9 classes (sequential).\nOrdered light-to-dark scale: #f7fcf0, #e0f3db, #ccebc5, #a8ddb5, #7bccc4, #4eb3d3, #2b8cbe, #0868ac, #084081",
+    "text": "#f7fcf0, #e0f3db, #ccebc5, #a8ddb5, #7bccc4, #4eb3d3, #2b8cbe, #0868ac, #084081\nColorBrewer GnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greens-3",
-    "text": "ColorBrewer Greens, 3 classes (sequential).\nOrdered light-to-dark scale: #e5f5e0, #a1d99b, #31a354",
+    "text": "#e5f5e0, #a1d99b, #31a354\nColorBrewer Greens",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greens-4",
-    "text": "ColorBrewer Greens, 4 classes (sequential).\nOrdered light-to-dark scale: #edf8e9, #bae4b3, #74c476, #238b45",
+    "text": "#edf8e9, #bae4b3, #74c476, #238b45\nColorBrewer Greens",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greens-5",
-    "text": "ColorBrewer Greens, 5 classes (sequential).\nOrdered light-to-dark scale: #edf8e9, #bae4b3, #74c476, #31a354, #006d2c",
+    "text": "#edf8e9, #bae4b3, #74c476, #31a354, #006d2c\nColorBrewer Greens",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greens-6",
-    "text": "ColorBrewer Greens, 6 classes (sequential).\nOrdered light-to-dark scale: #edf8e9, #c7e9c0, #a1d99b, #74c476, #31a354, #006d2c",
+    "text": "#edf8e9, #c7e9c0, #a1d99b, #74c476, #31a354, #006d2c\nColorBrewer Greens",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greens-7",
-    "text": "ColorBrewer Greens, 7 classes (sequential).\nOrdered light-to-dark scale: #edf8e9, #c7e9c0, #a1d99b, #74c476, #41ab5d, #238b45, #005a32",
+    "text": "#edf8e9, #c7e9c0, #a1d99b, #74c476, #41ab5d, #238b45, #005a32\nColorBrewer Greens",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greens-8",
-    "text": "ColorBrewer Greens, 8 classes (sequential).\nOrdered light-to-dark scale: #f7fcf5, #e5f5e0, #c7e9c0, #a1d99b, #74c476, #41ab5d, #238b45, #005a32",
+    "text": "#f7fcf5, #e5f5e0, #c7e9c0, #a1d99b, #74c476, #41ab5d, #238b45, #005a32\nColorBrewer Greens",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greens-9",
-    "text": "ColorBrewer Greens, 9 classes (sequential).\nOrdered light-to-dark scale: #f7fcf5, #e5f5e0, #c7e9c0, #a1d99b, #74c476, #41ab5d, #238b45, #006d2c, #00441b",
+    "text": "#f7fcf5, #e5f5e0, #c7e9c0, #a1d99b, #74c476, #41ab5d, #238b45, #006d2c, #00441b\nColorBrewer Greens",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greys-3",
-    "text": "ColorBrewer Greys, 3 classes (sequential).\nOrdered light-to-dark scale: #f0f0f0, #bdbdbd, #636363",
+    "text": "#f0f0f0, #bdbdbd, #636363\nColorBrewer Greys",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greys-4",
-    "text": "ColorBrewer Greys, 4 classes (sequential).\nOrdered light-to-dark scale: #f7f7f7, #cccccc, #969696, #525252",
+    "text": "#f7f7f7, #cccccc, #969696, #525252\nColorBrewer Greys",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greys-5",
-    "text": "ColorBrewer Greys, 5 classes (sequential).\nOrdered light-to-dark scale: #f7f7f7, #cccccc, #969696, #636363, #252525",
+    "text": "#f7f7f7, #cccccc, #969696, #636363, #252525\nColorBrewer Greys",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greys-6",
-    "text": "ColorBrewer Greys, 6 classes (sequential).\nOrdered light-to-dark scale: #f7f7f7, #d9d9d9, #bdbdbd, #969696, #636363, #252525",
+    "text": "#f7f7f7, #d9d9d9, #bdbdbd, #969696, #636363, #252525\nColorBrewer Greys",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greys-7",
-    "text": "ColorBrewer Greys, 7 classes (sequential).\nOrdered light-to-dark scale: #f7f7f7, #d9d9d9, #bdbdbd, #969696, #737373, #525252, #252525",
+    "text": "#f7f7f7, #d9d9d9, #bdbdbd, #969696, #737373, #525252, #252525\nColorBrewer Greys",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greys-8",
-    "text": "ColorBrewer Greys, 8 classes (sequential).\nOrdered light-to-dark scale: #ffffff, #f0f0f0, #d9d9d9, #bdbdbd, #969696, #737373, #525252, #252525",
+    "text": "#ffffff, #f0f0f0, #d9d9d9, #bdbdbd, #969696, #737373, #525252, #252525\nColorBrewer Greys",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-greys-9",
-    "text": "ColorBrewer Greys, 9 classes (sequential).\nOrdered light-to-dark scale: #ffffff, #f0f0f0, #d9d9d9, #bdbdbd, #969696, #737373, #525252, #252525, #000000",
+    "text": "#ffffff, #f0f0f0, #d9d9d9, #bdbdbd, #969696, #737373, #525252, #252525, #000000\nColorBrewer Greys",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-orrd-3",
-    "text": "ColorBrewer OrRd, 3 classes (sequential).\nOrdered light-to-dark scale: #fee8c8, #fdbb84, #e34a33",
+    "text": "#fee8c8, #fdbb84, #e34a33\nColorBrewer OrRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-orrd-4",
-    "text": "ColorBrewer OrRd, 4 classes (sequential).\nOrdered light-to-dark scale: #fef0d9, #fdcc8a, #fc8d59, #d7301f",
+    "text": "#fef0d9, #fdcc8a, #fc8d59, #d7301f\nColorBrewer OrRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-orrd-5",
-    "text": "ColorBrewer OrRd, 5 classes (sequential).\nOrdered light-to-dark scale: #fef0d9, #fdcc8a, #fc8d59, #e34a33, #b30000",
+    "text": "#fef0d9, #fdcc8a, #fc8d59, #e34a33, #b30000\nColorBrewer OrRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-orrd-6",
-    "text": "ColorBrewer OrRd, 6 classes (sequential).\nOrdered light-to-dark scale: #fef0d9, #fdd49e, #fdbb84, #fc8d59, #e34a33, #b30000",
+    "text": "#fef0d9, #fdd49e, #fdbb84, #fc8d59, #e34a33, #b30000\nColorBrewer OrRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-orrd-7",
-    "text": "ColorBrewer OrRd, 7 classes (sequential).\nOrdered light-to-dark scale: #fef0d9, #fdd49e, #fdbb84, #fc8d59, #ef6548, #d7301f, #990000",
+    "text": "#fef0d9, #fdd49e, #fdbb84, #fc8d59, #ef6548, #d7301f, #990000\nColorBrewer OrRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-orrd-8",
-    "text": "ColorBrewer OrRd, 8 classes (sequential).\nOrdered light-to-dark scale: #fff7ec, #fee8c8, #fdd49e, #fdbb84, #fc8d59, #ef6548, #d7301f, #990000",
+    "text": "#fff7ec, #fee8c8, #fdd49e, #fdbb84, #fc8d59, #ef6548, #d7301f, #990000\nColorBrewer OrRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-orrd-9",
-    "text": "ColorBrewer OrRd, 9 classes (sequential).\nOrdered light-to-dark scale: #fff7ec, #fee8c8, #fdd49e, #fdbb84, #fc8d59, #ef6548, #d7301f, #b30000, #7f0000",
+    "text": "#fff7ec, #fee8c8, #fdd49e, #fdbb84, #fc8d59, #ef6548, #d7301f, #b30000, #7f0000\nColorBrewer OrRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-oranges-3",
-    "text": "ColorBrewer Oranges, 3 classes (sequential).\nOrdered light-to-dark scale: #fee6ce, #fdae6b, #e6550d",
+    "text": "#fee6ce, #fdae6b, #e6550d\nColorBrewer Oranges",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-oranges-4",
-    "text": "ColorBrewer Oranges, 4 classes (sequential).\nOrdered light-to-dark scale: #feedde, #fdbe85, #fd8d3c, #d94701",
+    "text": "#feedde, #fdbe85, #fd8d3c, #d94701\nColorBrewer Oranges",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-oranges-5",
-    "text": "ColorBrewer Oranges, 5 classes (sequential).\nOrdered light-to-dark scale: #feedde, #fdbe85, #fd8d3c, #e6550d, #a63603",
+    "text": "#feedde, #fdbe85, #fd8d3c, #e6550d, #a63603\nColorBrewer Oranges",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-oranges-6",
-    "text": "ColorBrewer Oranges, 6 classes (sequential).\nOrdered light-to-dark scale: #feedde, #fdd0a2, #fdae6b, #fd8d3c, #e6550d, #a63603",
+    "text": "#feedde, #fdd0a2, #fdae6b, #fd8d3c, #e6550d, #a63603\nColorBrewer Oranges",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-oranges-7",
-    "text": "ColorBrewer Oranges, 7 classes (sequential).\nOrdered light-to-dark scale: #feedde, #fdd0a2, #fdae6b, #fd8d3c, #f16913, #d94801, #8c2d04",
+    "text": "#feedde, #fdd0a2, #fdae6b, #fd8d3c, #f16913, #d94801, #8c2d04\nColorBrewer Oranges",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-oranges-8",
-    "text": "ColorBrewer Oranges, 8 classes (sequential).\nOrdered light-to-dark scale: #fff5eb, #fee6ce, #fdd0a2, #fdae6b, #fd8d3c, #f16913, #d94801, #8c2d04",
+    "text": "#fff5eb, #fee6ce, #fdd0a2, #fdae6b, #fd8d3c, #f16913, #d94801, #8c2d04\nColorBrewer Oranges",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-oranges-9",
-    "text": "ColorBrewer Oranges, 9 classes (sequential).\nOrdered light-to-dark scale: #fff5eb, #fee6ce, #fdd0a2, #fdae6b, #fd8d3c, #f16913, #d94801, #a63603, #7f2704",
+    "text": "#fff5eb, #fee6ce, #fdd0a2, #fdae6b, #fd8d3c, #f16913, #d94801, #a63603, #7f2704\nColorBrewer Oranges",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubu-3",
-    "text": "ColorBrewer PuBu, 3 classes (sequential).\nOrdered light-to-dark scale: #ece7f2, #a6bddb, #2b8cbe",
+    "text": "#ece7f2, #a6bddb, #2b8cbe\nColorBrewer PuBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubu-4",
-    "text": "ColorBrewer PuBu, 4 classes (sequential).\nOrdered light-to-dark scale: #f1eef6, #bdc9e1, #74a9cf, #0570b0",
+    "text": "#f1eef6, #bdc9e1, #74a9cf, #0570b0\nColorBrewer PuBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubu-5",
-    "text": "ColorBrewer PuBu, 5 classes (sequential).\nOrdered light-to-dark scale: #f1eef6, #bdc9e1, #74a9cf, #2b8cbe, #045a8d",
+    "text": "#f1eef6, #bdc9e1, #74a9cf, #2b8cbe, #045a8d\nColorBrewer PuBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubu-6",
-    "text": "ColorBrewer PuBu, 6 classes (sequential).\nOrdered light-to-dark scale: #f1eef6, #d0d1e6, #a6bddb, #74a9cf, #2b8cbe, #045a8d",
+    "text": "#f1eef6, #d0d1e6, #a6bddb, #74a9cf, #2b8cbe, #045a8d\nColorBrewer PuBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubu-7",
-    "text": "ColorBrewer PuBu, 7 classes (sequential).\nOrdered light-to-dark scale: #f1eef6, #d0d1e6, #a6bddb, #74a9cf, #3690c0, #0570b0, #034e7b",
+    "text": "#f1eef6, #d0d1e6, #a6bddb, #74a9cf, #3690c0, #0570b0, #034e7b\nColorBrewer PuBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubu-8",
-    "text": "ColorBrewer PuBu, 8 classes (sequential).\nOrdered light-to-dark scale: #fff7fb, #ece7f2, #d0d1e6, #a6bddb, #74a9cf, #3690c0, #0570b0, #034e7b",
+    "text": "#fff7fb, #ece7f2, #d0d1e6, #a6bddb, #74a9cf, #3690c0, #0570b0, #034e7b\nColorBrewer PuBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubu-9",
-    "text": "ColorBrewer PuBu, 9 classes (sequential).\nOrdered light-to-dark scale: #fff7fb, #ece7f2, #d0d1e6, #a6bddb, #74a9cf, #3690c0, #0570b0, #045a8d, #023858",
+    "text": "#fff7fb, #ece7f2, #d0d1e6, #a6bddb, #74a9cf, #3690c0, #0570b0, #045a8d, #023858\nColorBrewer PuBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubugn-3",
-    "text": "ColorBrewer PuBuGn, 3 classes (sequential).\nOrdered light-to-dark scale: #ece2f0, #a6bddb, #1c9099",
+    "text": "#ece2f0, #a6bddb, #1c9099\nColorBrewer PuBuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubugn-4",
-    "text": "ColorBrewer PuBuGn, 4 classes (sequential).\nOrdered light-to-dark scale: #f6eff7, #bdc9e1, #67a9cf, #02818a",
+    "text": "#f6eff7, #bdc9e1, #67a9cf, #02818a\nColorBrewer PuBuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubugn-5",
-    "text": "ColorBrewer PuBuGn, 5 classes (sequential).\nOrdered light-to-dark scale: #f6eff7, #bdc9e1, #67a9cf, #1c9099, #016c59",
+    "text": "#f6eff7, #bdc9e1, #67a9cf, #1c9099, #016c59\nColorBrewer PuBuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubugn-6",
-    "text": "ColorBrewer PuBuGn, 6 classes (sequential).\nOrdered light-to-dark scale: #f6eff7, #d0d1e6, #a6bddb, #67a9cf, #1c9099, #016c59",
+    "text": "#f6eff7, #d0d1e6, #a6bddb, #67a9cf, #1c9099, #016c59\nColorBrewer PuBuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubugn-7",
-    "text": "ColorBrewer PuBuGn, 7 classes (sequential).\nOrdered light-to-dark scale: #f6eff7, #d0d1e6, #a6bddb, #67a9cf, #3690c0, #02818a, #016450",
+    "text": "#f6eff7, #d0d1e6, #a6bddb, #67a9cf, #3690c0, #02818a, #016450\nColorBrewer PuBuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubugn-8",
-    "text": "ColorBrewer PuBuGn, 8 classes (sequential).\nOrdered light-to-dark scale: #fff7fb, #ece2f0, #d0d1e6, #a6bddb, #67a9cf, #3690c0, #02818a, #016450",
+    "text": "#fff7fb, #ece2f0, #d0d1e6, #a6bddb, #67a9cf, #3690c0, #02818a, #016450\nColorBrewer PuBuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-pubugn-9",
-    "text": "ColorBrewer PuBuGn, 9 classes (sequential).\nOrdered light-to-dark scale: #fff7fb, #ece2f0, #d0d1e6, #a6bddb, #67a9cf, #3690c0, #02818a, #016c59, #014636",
+    "text": "#fff7fb, #ece2f0, #d0d1e6, #a6bddb, #67a9cf, #3690c0, #02818a, #016c59, #014636\nColorBrewer PuBuGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purd-3",
-    "text": "ColorBrewer PuRd, 3 classes (sequential).\nOrdered light-to-dark scale: #e7e1ef, #c994c7, #dd1c77",
+    "text": "#e7e1ef, #c994c7, #dd1c77\nColorBrewer PuRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purd-4",
-    "text": "ColorBrewer PuRd, 4 classes (sequential).\nOrdered light-to-dark scale: #f1eef6, #d7b5d8, #df65b0, #ce1256",
+    "text": "#f1eef6, #d7b5d8, #df65b0, #ce1256\nColorBrewer PuRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purd-5",
-    "text": "ColorBrewer PuRd, 5 classes (sequential).\nOrdered light-to-dark scale: #f1eef6, #d7b5d8, #df65b0, #dd1c77, #980043",
+    "text": "#f1eef6, #d7b5d8, #df65b0, #dd1c77, #980043\nColorBrewer PuRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purd-6",
-    "text": "ColorBrewer PuRd, 6 classes (sequential).\nOrdered light-to-dark scale: #f1eef6, #d4b9da, #c994c7, #df65b0, #dd1c77, #980043",
+    "text": "#f1eef6, #d4b9da, #c994c7, #df65b0, #dd1c77, #980043\nColorBrewer PuRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purd-7",
-    "text": "ColorBrewer PuRd, 7 classes (sequential).\nOrdered light-to-dark scale: #f1eef6, #d4b9da, #c994c7, #df65b0, #e7298a, #ce1256, #91003f",
+    "text": "#f1eef6, #d4b9da, #c994c7, #df65b0, #e7298a, #ce1256, #91003f\nColorBrewer PuRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purd-8",
-    "text": "ColorBrewer PuRd, 8 classes (sequential).\nOrdered light-to-dark scale: #f7f4f9, #e7e1ef, #d4b9da, #c994c7, #df65b0, #e7298a, #ce1256, #91003f",
+    "text": "#f7f4f9, #e7e1ef, #d4b9da, #c994c7, #df65b0, #e7298a, #ce1256, #91003f\nColorBrewer PuRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purd-9",
-    "text": "ColorBrewer PuRd, 9 classes (sequential).\nOrdered light-to-dark scale: #f7f4f9, #e7e1ef, #d4b9da, #c994c7, #df65b0, #e7298a, #ce1256, #980043, #67001f",
+    "text": "#f7f4f9, #e7e1ef, #d4b9da, #c994c7, #df65b0, #e7298a, #ce1256, #980043, #67001f\nColorBrewer PuRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purples-3",
-    "text": "ColorBrewer Purples, 3 classes (sequential).\nOrdered light-to-dark scale: #efedf5, #bcbddc, #756bb1",
+    "text": "#efedf5, #bcbddc, #756bb1\nColorBrewer Purples",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purples-4",
-    "text": "ColorBrewer Purples, 4 classes (sequential).\nOrdered light-to-dark scale: #f2f0f7, #cbc9e2, #9e9ac8, #6a51a3",
+    "text": "#f2f0f7, #cbc9e2, #9e9ac8, #6a51a3\nColorBrewer Purples",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purples-5",
-    "text": "ColorBrewer Purples, 5 classes (sequential).\nOrdered light-to-dark scale: #f2f0f7, #cbc9e2, #9e9ac8, #756bb1, #54278f",
+    "text": "#f2f0f7, #cbc9e2, #9e9ac8, #756bb1, #54278f\nColorBrewer Purples",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purples-6",
-    "text": "ColorBrewer Purples, 6 classes (sequential).\nOrdered light-to-dark scale: #f2f0f7, #dadaeb, #bcbddc, #9e9ac8, #756bb1, #54278f",
+    "text": "#f2f0f7, #dadaeb, #bcbddc, #9e9ac8, #756bb1, #54278f\nColorBrewer Purples",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purples-7",
-    "text": "ColorBrewer Purples, 7 classes (sequential).\nOrdered light-to-dark scale: #f2f0f7, #dadaeb, #bcbddc, #9e9ac8, #807dba, #6a51a3, #4a1486",
+    "text": "#f2f0f7, #dadaeb, #bcbddc, #9e9ac8, #807dba, #6a51a3, #4a1486\nColorBrewer Purples",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purples-8",
-    "text": "ColorBrewer Purples, 8 classes (sequential).\nOrdered light-to-dark scale: #fcfbfd, #efedf5, #dadaeb, #bcbddc, #9e9ac8, #807dba, #6a51a3, #4a1486",
+    "text": "#fcfbfd, #efedf5, #dadaeb, #bcbddc, #9e9ac8, #807dba, #6a51a3, #4a1486\nColorBrewer Purples",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-purples-9",
-    "text": "ColorBrewer Purples, 9 classes (sequential).\nOrdered light-to-dark scale: #fcfbfd, #efedf5, #dadaeb, #bcbddc, #9e9ac8, #807dba, #6a51a3, #54278f, #3f007d",
+    "text": "#fcfbfd, #efedf5, #dadaeb, #bcbddc, #9e9ac8, #807dba, #6a51a3, #54278f, #3f007d\nColorBrewer Purples",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdpu-3",
-    "text": "ColorBrewer RdPu, 3 classes (sequential).\nOrdered light-to-dark scale: #fde0dd, #fa9fb5, #c51b8a",
+    "text": "#fde0dd, #fa9fb5, #c51b8a\nColorBrewer RdPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdpu-4",
-    "text": "ColorBrewer RdPu, 4 classes (sequential).\nOrdered light-to-dark scale: #feebe2, #fbb4b9, #f768a1, #ae017e",
+    "text": "#feebe2, #fbb4b9, #f768a1, #ae017e\nColorBrewer RdPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdpu-5",
-    "text": "ColorBrewer RdPu, 5 classes (sequential).\nOrdered light-to-dark scale: #feebe2, #fbb4b9, #f768a1, #c51b8a, #7a0177",
+    "text": "#feebe2, #fbb4b9, #f768a1, #c51b8a, #7a0177\nColorBrewer RdPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdpu-6",
-    "text": "ColorBrewer RdPu, 6 classes (sequential).\nOrdered light-to-dark scale: #feebe2, #fcc5c0, #fa9fb5, #f768a1, #c51b8a, #7a0177",
+    "text": "#feebe2, #fcc5c0, #fa9fb5, #f768a1, #c51b8a, #7a0177\nColorBrewer RdPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdpu-7",
-    "text": "ColorBrewer RdPu, 7 classes (sequential).\nOrdered light-to-dark scale: #feebe2, #fcc5c0, #fa9fb5, #f768a1, #dd3497, #ae017e, #7a0177",
+    "text": "#feebe2, #fcc5c0, #fa9fb5, #f768a1, #dd3497, #ae017e, #7a0177\nColorBrewer RdPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdpu-8",
-    "text": "ColorBrewer RdPu, 8 classes (sequential).\nOrdered light-to-dark scale: #fff7f3, #fde0dd, #fcc5c0, #fa9fb5, #f768a1, #dd3497, #ae017e, #7a0177",
+    "text": "#fff7f3, #fde0dd, #fcc5c0, #fa9fb5, #f768a1, #dd3497, #ae017e, #7a0177\nColorBrewer RdPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-rdpu-9",
-    "text": "ColorBrewer RdPu, 9 classes (sequential).\nOrdered light-to-dark scale: #fff7f3, #fde0dd, #fcc5c0, #fa9fb5, #f768a1, #dd3497, #ae017e, #7a0177, #49006a",
+    "text": "#fff7f3, #fde0dd, #fcc5c0, #fa9fb5, #f768a1, #dd3497, #ae017e, #7a0177, #49006a\nColorBrewer RdPu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-reds-3",
-    "text": "ColorBrewer Reds, 3 classes (sequential).\nOrdered light-to-dark scale: #fee0d2, #fc9272, #de2d26",
+    "text": "#fee0d2, #fc9272, #de2d26\nColorBrewer Reds",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-reds-4",
-    "text": "ColorBrewer Reds, 4 classes (sequential).\nOrdered light-to-dark scale: #fee5d9, #fcae91, #fb6a4a, #cb181d",
+    "text": "#fee5d9, #fcae91, #fb6a4a, #cb181d\nColorBrewer Reds",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-reds-5",
-    "text": "ColorBrewer Reds, 5 classes (sequential).\nOrdered light-to-dark scale: #fee5d9, #fcae91, #fb6a4a, #de2d26, #a50f15",
+    "text": "#fee5d9, #fcae91, #fb6a4a, #de2d26, #a50f15\nColorBrewer Reds",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-reds-6",
-    "text": "ColorBrewer Reds, 6 classes (sequential).\nOrdered light-to-dark scale: #fee5d9, #fcbba1, #fc9272, #fb6a4a, #de2d26, #a50f15",
+    "text": "#fee5d9, #fcbba1, #fc9272, #fb6a4a, #de2d26, #a50f15\nColorBrewer Reds",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-reds-7",
-    "text": "ColorBrewer Reds, 7 classes (sequential).\nOrdered light-to-dark scale: #fee5d9, #fcbba1, #fc9272, #fb6a4a, #ef3b2c, #cb181d, #99000d",
+    "text": "#fee5d9, #fcbba1, #fc9272, #fb6a4a, #ef3b2c, #cb181d, #99000d\nColorBrewer Reds",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-reds-8",
-    "text": "ColorBrewer Reds, 8 classes (sequential).\nOrdered light-to-dark scale: #fff5f0, #fee0d2, #fcbba1, #fc9272, #fb6a4a, #ef3b2c, #cb181d, #99000d",
+    "text": "#fff5f0, #fee0d2, #fcbba1, #fc9272, #fb6a4a, #ef3b2c, #cb181d, #99000d\nColorBrewer Reds",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-reds-9",
-    "text": "ColorBrewer Reds, 9 classes (sequential).\nOrdered light-to-dark scale: #fff5f0, #fee0d2, #fcbba1, #fc9272, #fb6a4a, #ef3b2c, #cb181d, #a50f15, #67000d",
+    "text": "#fff5f0, #fee0d2, #fcbba1, #fc9272, #fb6a4a, #ef3b2c, #cb181d, #a50f15, #67000d\nColorBrewer Reds",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgn-3",
-    "text": "ColorBrewer YlGn, 3 classes (sequential).\nOrdered light-to-dark scale: #f7fcb9, #addd8e, #31a354",
+    "text": "#f7fcb9, #addd8e, #31a354\nColorBrewer YlGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgn-4",
-    "text": "ColorBrewer YlGn, 4 classes (sequential).\nOrdered light-to-dark scale: #ffffcc, #c2e699, #78c679, #238443",
+    "text": "#ffffcc, #c2e699, #78c679, #238443\nColorBrewer YlGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgn-5",
-    "text": "ColorBrewer YlGn, 5 classes (sequential).\nOrdered light-to-dark scale: #ffffcc, #c2e699, #78c679, #31a354, #006837",
+    "text": "#ffffcc, #c2e699, #78c679, #31a354, #006837\nColorBrewer YlGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgn-6",
-    "text": "ColorBrewer YlGn, 6 classes (sequential).\nOrdered light-to-dark scale: #ffffcc, #d9f0a3, #addd8e, #78c679, #31a354, #006837",
+    "text": "#ffffcc, #d9f0a3, #addd8e, #78c679, #31a354, #006837\nColorBrewer YlGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgn-7",
-    "text": "ColorBrewer YlGn, 7 classes (sequential).\nOrdered light-to-dark scale: #ffffcc, #d9f0a3, #addd8e, #78c679, #41ab5d, #238443, #005a32",
+    "text": "#ffffcc, #d9f0a3, #addd8e, #78c679, #41ab5d, #238443, #005a32\nColorBrewer YlGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgn-8",
-    "text": "ColorBrewer YlGn, 8 classes (sequential).\nOrdered light-to-dark scale: #ffffe5, #f7fcb9, #d9f0a3, #addd8e, #78c679, #41ab5d, #238443, #005a32",
+    "text": "#ffffe5, #f7fcb9, #d9f0a3, #addd8e, #78c679, #41ab5d, #238443, #005a32\nColorBrewer YlGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgn-9",
-    "text": "ColorBrewer YlGn, 9 classes (sequential).\nOrdered light-to-dark scale: #ffffe5, #f7fcb9, #d9f0a3, #addd8e, #78c679, #41ab5d, #238443, #006837, #004529",
+    "text": "#ffffe5, #f7fcb9, #d9f0a3, #addd8e, #78c679, #41ab5d, #238443, #006837, #004529\nColorBrewer YlGn",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgnbu-3",
-    "text": "ColorBrewer YlGnBu, 3 classes (sequential).\nOrdered light-to-dark scale: #edf8b1, #7fcdbb, #2c7fb8",
+    "text": "#edf8b1, #7fcdbb, #2c7fb8\nColorBrewer YlGnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgnbu-4",
-    "text": "ColorBrewer YlGnBu, 4 classes (sequential).\nOrdered light-to-dark scale: #ffffcc, #a1dab4, #41b6c4, #225ea8",
+    "text": "#ffffcc, #a1dab4, #41b6c4, #225ea8\nColorBrewer YlGnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgnbu-5",
-    "text": "ColorBrewer YlGnBu, 5 classes (sequential).\nOrdered light-to-dark scale: #ffffcc, #a1dab4, #41b6c4, #2c7fb8, #253494",
+    "text": "#ffffcc, #a1dab4, #41b6c4, #2c7fb8, #253494\nColorBrewer YlGnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgnbu-6",
-    "text": "ColorBrewer YlGnBu, 6 classes (sequential).\nOrdered light-to-dark scale: #ffffcc, #c7e9b4, #7fcdbb, #41b6c4, #2c7fb8, #253494",
+    "text": "#ffffcc, #c7e9b4, #7fcdbb, #41b6c4, #2c7fb8, #253494\nColorBrewer YlGnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgnbu-7",
-    "text": "ColorBrewer YlGnBu, 7 classes (sequential).\nOrdered light-to-dark scale: #ffffcc, #c7e9b4, #7fcdbb, #41b6c4, #1d91c0, #225ea8, #0c2c84",
+    "text": "#ffffcc, #c7e9b4, #7fcdbb, #41b6c4, #1d91c0, #225ea8, #0c2c84\nColorBrewer YlGnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgnbu-8",
-    "text": "ColorBrewer YlGnBu, 8 classes (sequential).\nOrdered light-to-dark scale: #ffffd9, #edf8b1, #c7e9b4, #7fcdbb, #41b6c4, #1d91c0, #225ea8, #0c2c84",
+    "text": "#ffffd9, #edf8b1, #c7e9b4, #7fcdbb, #41b6c4, #1d91c0, #225ea8, #0c2c84\nColorBrewer YlGnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylgnbu-9",
-    "text": "ColorBrewer YlGnBu, 9 classes (sequential).\nOrdered light-to-dark scale: #ffffd9, #edf8b1, #c7e9b4, #7fcdbb, #41b6c4, #1d91c0, #225ea8, #253494, #081d58",
+    "text": "#ffffd9, #edf8b1, #c7e9b4, #7fcdbb, #41b6c4, #1d91c0, #225ea8, #253494, #081d58\nColorBrewer YlGnBu",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylorbr-3",
-    "text": "ColorBrewer YlOrBr, 3 classes (sequential).\nOrdered light-to-dark scale: #fff7bc, #fec44f, #d95f0e",
+    "text": "#fff7bc, #fec44f, #d95f0e\nColorBrewer YlOrBr",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylorbr-4",
-    "text": "ColorBrewer YlOrBr, 4 classes (sequential).\nOrdered light-to-dark scale: #ffffd4, #fed98e, #fe9929, #cc4c02",
+    "text": "#ffffd4, #fed98e, #fe9929, #cc4c02\nColorBrewer YlOrBr",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylorbr-5",
-    "text": "ColorBrewer YlOrBr, 5 classes (sequential).\nOrdered light-to-dark scale: #ffffd4, #fed98e, #fe9929, #d95f0e, #993404",
+    "text": "#ffffd4, #fed98e, #fe9929, #d95f0e, #993404\nColorBrewer YlOrBr",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylorbr-6",
-    "text": "ColorBrewer YlOrBr, 6 classes (sequential).\nOrdered light-to-dark scale: #ffffd4, #fee391, #fec44f, #fe9929, #d95f0e, #993404",
+    "text": "#ffffd4, #fee391, #fec44f, #fe9929, #d95f0e, #993404\nColorBrewer YlOrBr",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylorbr-7",
-    "text": "ColorBrewer YlOrBr, 7 classes (sequential).\nOrdered light-to-dark scale: #ffffd4, #fee391, #fec44f, #fe9929, #ec7014, #cc4c02, #8c2d04",
+    "text": "#ffffd4, #fee391, #fec44f, #fe9929, #ec7014, #cc4c02, #8c2d04\nColorBrewer YlOrBr",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylorbr-8",
-    "text": "ColorBrewer YlOrBr, 8 classes (sequential).\nOrdered light-to-dark scale: #ffffe5, #fff7bc, #fee391, #fec44f, #fe9929, #ec7014, #cc4c02, #8c2d04",
+    "text": "#ffffe5, #fff7bc, #fee391, #fec44f, #fe9929, #ec7014, #cc4c02, #8c2d04\nColorBrewer YlOrBr",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylorbr-9",
-    "text": "ColorBrewer YlOrBr, 9 classes (sequential).\nOrdered light-to-dark scale: #ffffe5, #fff7bc, #fee391, #fec44f, #fe9929, #ec7014, #cc4c02, #993404, #662506",
+    "text": "#ffffe5, #fff7bc, #fee391, #fec44f, #fe9929, #ec7014, #cc4c02, #993404, #662506\nColorBrewer YlOrBr",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylorrd-3",
-    "text": "ColorBrewer YlOrRd, 3 classes (sequential).\nOrdered light-to-dark scale: #ffeda0, #feb24c, #f03b20",
+    "text": "#ffeda0, #feb24c, #f03b20\nColorBrewer YlOrRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylorrd-4",
-    "text": "ColorBrewer YlOrRd, 4 classes (sequential).\nOrdered light-to-dark scale: #ffffb2, #fecc5c, #fd8d3c, #e31a1c",
+    "text": "#ffffb2, #fecc5c, #fd8d3c, #e31a1c\nColorBrewer YlOrRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylorrd-5",
-    "text": "ColorBrewer YlOrRd, 5 classes (sequential).\nOrdered light-to-dark scale: #ffffb2, #fecc5c, #fd8d3c, #f03b20, #bd0026",
+    "text": "#ffffb2, #fecc5c, #fd8d3c, #f03b20, #bd0026\nColorBrewer YlOrRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylorrd-6",
-    "text": "ColorBrewer YlOrRd, 6 classes (sequential).\nOrdered light-to-dark scale: #ffffb2, #fed976, #feb24c, #fd8d3c, #f03b20, #bd0026",
+    "text": "#ffffb2, #fed976, #feb24c, #fd8d3c, #f03b20, #bd0026\nColorBrewer YlOrRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylorrd-7",
-    "text": "ColorBrewer YlOrRd, 7 classes (sequential).\nOrdered light-to-dark scale: #ffffb2, #fed976, #feb24c, #fd8d3c, #fc4e2a, #e31a1c, #b10026",
+    "text": "#ffffb2, #fed976, #feb24c, #fd8d3c, #fc4e2a, #e31a1c, #b10026\nColorBrewer YlOrRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   },
   {
     "id": "colorbrewer-ylorrd-8",
-    "text": "ColorBrewer YlOrRd, 8 classes (sequential).\nOrdered light-to-dark scale: #ffffcc, #ffeda0, #fed976, #feb24c, #fd8d3c, #fc4e2a, #e31a1c, #b10026",
+    "text": "#ffffcc, #ffeda0, #fed976, #feb24c, #fd8d3c, #fc4e2a, #e31a1c, #b10026\nColorBrewer YlOrRd",
     "provenance": "ColorBrewer export by Cynthia Brewer, revision 7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f; https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json; SHA-256 729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal."
   }
 ]

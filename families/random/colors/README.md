@@ -5,6 +5,7 @@ remains 2. `palettes` has weight 3 and `representations` weight 1, so three
 quarters of color samples are useful multi-color objects.
 
 - `representations/{hex,rgb,hsl,oklch}`: one opaque color per precise notation.
+- `palettes/categorical/distinct`: farthest-point OKLab palette selection.
 - `palettes/harmony/{analogous,complementary}`: constrained HSL hue relationships.
 - `palettes/scales/{sequential,diverging}`: ordered OKLCH scales with
   hue-preserving gamut fitting into sRGB.

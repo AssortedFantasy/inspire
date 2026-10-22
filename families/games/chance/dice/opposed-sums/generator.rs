@@ -24,7 +24,7 @@ pub fn generate(rng: &mut StdRng) -> String {
         std::cmp::Ordering::Equal => "tie",
     };
     format!(
-        "Opposed sums: A {a_count}d6 [{}] = {a_total}; B {b_count}d6 [{}] = {b_total}; {result}",
+        "A {a_count}d6 [{}] = {a_total}\nB {b_count}d6 [{}] = {b_total}\n{result}",
         list(&a),
         list(&b)
     )

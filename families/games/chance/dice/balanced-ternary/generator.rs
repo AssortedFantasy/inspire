@@ -10,8 +10,5 @@ pub fn generate(rng: &mut StdRng) -> String {
         })
         .collect::<Vec<_>>()
         .join(" ");
-    format!(
-        "Four balanced dice (-, 0, + each equally likely): [{symbols}] => {:+}",
-        values.iter().sum::<i32>()
-    )
+    format!("4dF [{symbols}] = {:+}", values.iter().sum::<i32>())
 }

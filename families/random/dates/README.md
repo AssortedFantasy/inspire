@@ -5,13 +5,17 @@ datetime spellings. Incoming weight remains 2; `civil`, `instants`, and
 `intervals` have equal weight 1. Their children also have equal weight 1, so each
 civil leaf receives 1/9 of date samples and each other leaf receives 1/6.
 
-- `civil/gregorian`: a named weekday and unambiguous Gregorian calendar date.
-- `civil/iso-week`: ISO week-year, week and weekday, with its calendar equivalent.
-- `civil/ordinal`: year and day-of-year, with its calendar equivalent.
+- `civil/gregorian`: one calendar-date spelling, optionally with a weekday.
+- `civil/iso-week`: a bare ISO week date, such as `1982-W41-6`.
+- `civil/ordinal`: a bare year and day-of-year, such as `1982-289`.
 - `instants/utc`: a UTC RFC 3339 timestamp, sampled uniformly by day and second.
-- `instants/offset`: a fixed-offset timestamp and the equivalent UTC instant.
-- `intervals/calendar-days`: an ordered half-open date interval and exact day count.
-- `intervals/elapsed-time`: two UTC endpoints and their exact elapsed duration.
+- `instants/offset`: one fixed-offset RFC 3339 timestamp.
+- `intervals/calendar-days`: one ISO interval using endpoints or one endpoint and days.
+- `intervals/elapsed-time`: one ISO interval using UTC endpoints or an endpoint and duration.
+
+Intervals choose start/end, start/duration, or duration/end notation with equal
+probability. Each output gives one representation; arithmetic equivalents and
+notation explanations stay in documentation. Elapsed durations omit zero parts.
 
 Days span 1600-01-01 through 2199-12-31 in the proleptic Gregorian calendar.
 This convention applies before local historical adoption. ISO week-years may

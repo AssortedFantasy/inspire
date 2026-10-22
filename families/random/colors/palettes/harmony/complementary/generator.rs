@@ -11,7 +11,7 @@ pub fn generate(rng: &mut StdRng) -> String {
     let tint = rng.random_range(80..=90);
     let shade = rng.random_range(18..=28);
     format!(
-        "Complementary palette (HSL hue separation 180°):\nbase: hsl({base} {saturation}% {middle}%)\nbase tint: hsl({base} {}% {tint}%)\nbase shade: hsl({base} {}% {shade}%)\naccent: hsl({accent} {saturation}% {middle}%)\naccent tint: hsl({accent} {}% {tint}%)",
+        "base: hsl({base} {saturation}% {middle}%)\nbase tint: hsl({base} {}% {tint}%)\nbase shade: hsl({base} {}% {shade}%)\naccent: hsl({accent} {saturation}% {middle}%)\naccent tint: hsl({accent} {}% {tint}%)",
         saturation - 15,
         saturation - 10,
         saturation - 15

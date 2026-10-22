@@ -4,11 +4,11 @@ mod calendar;
 
 pub fn generate(rng: &mut StdRng) -> String {
     let (start, length) = sample(rng);
-    format!(
-        "Gregorian calendar interval: [{}, {}); {length} days. Start included; end excluded.",
-        calendar::iso(start),
-        calendar::iso(start + length)
-    )
+    match rng.random_range(0..3) {
+        0 => format!("{}/{}", calendar::iso(start), calendar::iso(start + length)),
+        1 => format!("{}/P{length}D", calendar::iso(start)),
+        _ => format!("P{length}D/{}", calendar::iso(start + length)),
+    }
 }
 
 fn sample(rng: &mut StdRng) -> (u32, u32) {

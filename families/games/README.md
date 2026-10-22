@@ -3,25 +3,26 @@
 The tree balances five domains: board games, cards, chance constructions,
 impartial games, and puzzles. Branches balance topics rather than corpus size.
 
-- `board/chess/openings`: 3,865 exact Lichess CC0 lines in 16 related opening
-  families, grouped below flank, king-pawn, and queen-pawn systems. Full SAN lines
+- `board/chess/openings`: 3,865 exact Lichess CC0 lines in 22 opening
+  leaves, grouped below flank, king-pawn, and queen-pawn systems. Full SAN lines
   preserve their named endpoints; every move and check suffix is legally replayed.
 - `board/alignment`: reachable tic-tac-toe and Connect Four positions with
   complete histories; play stops at the first win.
 - `board/capture/reversi`: reachable center-start positions, required passes,
   legal next moves, disc counts, and terminal status.
-- `cards`: five-card poker hands with full category/tie-break rank, complete
+- `cards`: five-card poker hands, 2-6-player Texas hold'em showdowns, complete
   bridge deals with conserved high-card points, and blackjack initial deals.
-- `chance/dice`: seven separate mechanisms, each with explicit resolution rules.
-- `abstract/impartial`: normal-play Nim and finite subtraction games, including
-  independently checkable winning moves and optimal-play status.
-- `puzzles`: unique Sudoku and nonograms, and solvable eight-puzzles.
+- `chance/dice`: seven mechanisms using compact roll notation.
+- `abstract/impartial`: normal-play Nim and finite subtraction positions, with
+  balanced strategic classes and no strategy spoilers.
+- `puzzles`: unique Sudoku, nonograms, and irredundant Mastermind clue sets,
+  plus solvable eight-puzzles.
 
 Procedural leaves are original code and text, using only bounded local work and
 one supplied RNG. They sample legal objects, not optimal game play. Board-state
 sampling is biased by random trajectories; puzzle generation has no asserted
-human difficulty level. Poker and card outputs define their limited scoring
-context and do not model betting, bidding, payouts, or whole rounds.
+human difficulty level. Board positions retain move histories; puzzle outputs
+show the puzzle directly. Card outputs do not model betting or bidding.
 
 ## Opening import
 

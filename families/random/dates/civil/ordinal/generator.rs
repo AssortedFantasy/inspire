@@ -9,11 +9,7 @@ pub fn generate(rng: &mut StdRng) -> String {
 fn render(ordinal: u32) -> String {
     let (year, _, _) = calendar::calendar(ordinal);
     let day = ordinal - calendar::ordinal(year, 1, 1) + 1;
-    format!(
-        "Gregorian ordinal date: {year:04}-{day:03}; calendar date: {}. Day {day} of {}.",
-        calendar::iso(ordinal),
-        if calendar::leap(year) { 366 } else { 365 }
-    )
+    format!("{year:04}-{day:03}")
 }
 
 #[cfg(test)]
@@ -22,7 +18,7 @@ mod tests {
 
     #[test]
     fn ordinal_boundaries_and_century_leap_days() {
-        for (year, month, date, day, length) in [
+        for (year, month, date, day, _) in [
             (1600, 1, 1, 1, 366),
             (1600, 2, 29, 60, 366),
             (1600, 12, 31, 366, 366),
@@ -34,10 +30,7 @@ mod tests {
         ] {
             assert_eq!(
                 render(calendar::ordinal(year, month, date)),
-                format!(
-                    "Gregorian ordinal date: {year:04}-{day:03}; calendar date: \
-                     {year:04}-{month:02}-{date:02}. Day {day} of {length}."
-                )
+                format!("{year:04}-{day:03}")
             );
         }
     }

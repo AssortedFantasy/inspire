@@ -21,11 +21,11 @@ pub fn generate(rng: &mut StdRng) -> String {
     let dealer = [deck[1], deck[3]];
     let (value, soft) = total(&player);
     format!(
-        "Blackjack initial deal; single deck, no replacement.\nPlayer: {} {}; total {value} ({}{})\nDealer upcard: {}; hole card hidden\nAce counts 1 or 11; T/J/Q/K count 10. A natural is an ace plus a ten-valued card in the first two cards.",
+        "Blackjack\nPlayer: {} {} ({value}, {}{})\nDealer: {} ??",
         card(player[0]),
         card(player[1]),
         if soft { "soft" } else { "hard" },
-        if value == 21 { "; natural" } else { "" },
+        if value == 21 { ", natural" } else { "" },
         card(dealer[0])
     )
 }

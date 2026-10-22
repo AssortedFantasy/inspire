@@ -33,9 +33,7 @@ fn puzzle(rng: &mut StdRng) -> ([u8; 9], Vec<usize>) {
 }
 pub fn generate(rng: &mut StdRng) -> String {
     let (board, _) = puzzle(rng);
-    let mut text = String::from(
-        "Eight-puzzle (solvable; . is the blank).\nA move swaps the blank with an orthogonally adjacent tile. Goal rows: 1 2 3 / 4 5 6 / 7 8 .",
-    );
+    let mut text = String::from("Eight-puzzle");
     for row in board.chunks(3) {
         text.push('\n');
         text.push_str(

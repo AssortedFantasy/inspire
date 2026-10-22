@@ -36,12 +36,10 @@ fn hand(cards: &[u8]) -> String {
 pub fn generate(rng: &mut StdRng) -> String {
     let mut deck: Vec<u8> = (0..52).collect();
     deck.shuffle(rng);
-    let mut text = String::from(
-        "Bridge deal (52 distinct cards; 13 per player).\nHCP: A=4, K=3, Q=2, J=1; void=-.",
-    );
+    let mut text = String::from("Bridge");
     for (i, name) in ["North", "East", "South", "West"].iter().enumerate() {
         let cards = &deck[i * 13..(i + 1) * 13];
-        text.push_str(&format!("\n{name}: {}; {} HCP", hand(cards), hcp(cards)));
+        text.push_str(&format!("\n{name}: {} ({} HCP)", hand(cards), hcp(cards)));
     }
     text
 }

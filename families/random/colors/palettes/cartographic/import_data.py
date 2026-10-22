@@ -35,10 +35,9 @@ def transform(raw):
                 colors.append("#" + "".join(f"{channel:02x}" for channel in rgb))
             if len(colors) != int(count) or len(set(colors)) != len(colors):
                 raise ValueError(f"Invalid palette: {name}/{count}")
-            label = "Ordered light-to-dark scale" if kind == "sequential" else "Ordered two-sided scale" if kind == "diverging" else "Categorical colors (no numeric order)"
             result[kind].append({
                 "id": f"colorbrewer-{name.lower()}-{count}",
-                "text": f"ColorBrewer {name}, {count} classes ({kind}).\n{label}: {', '.join(colors)}",
+                "text": f"{', '.join(colors)}\nColorBrewer {name}",
                 "provenance": f"ColorBrewer export by Cynthia Brewer, revision {REVISION}; {URL}; SHA-256 {SHA256}; Apache-Style ColorBrewer license in LICENSE.txt. RGB channels and palette ordering preserved; converted to hexadecimal.",
             })
     if len(data) != 35 or {kind: len(rows) for kind, rows in result.items()} != {"sequential": 125, "diverging": 81, "qualitative": 58}:
@@ -54,7 +53,7 @@ def main():
     for kind, rows in transform(raw).items():
         directory = Path(__file__).parent / kind
         directory.mkdir(exist_ok=True)
-        (directory / "records.json").write_text(json.dumps(rows, indent=2) + "\n", encoding="utf-8")
+        (directory / "records.json").write_text(json.dumps(rows, indent=2) + "\n", encoding="utf-8", newline="\n")
         print(f"{kind}: {len(rows)} palettes")
 
 
