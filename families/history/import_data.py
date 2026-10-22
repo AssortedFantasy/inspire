@@ -79,22 +79,27 @@ def render(source_dir):
     seen_ids, seen_texts = set(), set()
     for selection in selections:
         book, entries = books[selection["book"]]
-        tag, attrs, raw = entries[selection["paragraph"]]
-        if tag != "p" or "footnote" in attrs.get("class", ""):
+        first = selection["paragraph"]
+        selected = entries[first:selection.get("paragraph_end", first + 1)]
+        allowed = {"p", "h1", "h2", "h3", "h4", "h5", "h6"} if "paragraph_end" in selection else {"p"}
+        if not selected or any(
+            tag not in allowed or "footnote" in attrs.get("class", "")
+            for tag, attrs, _ in selected
+        ):
             raise ValueError(f'Not main prose: {selection}')
-        cleaned = clean(raw)
+        cleaned = "\n".join(clean(raw) for _, _, raw in selected)
         excerpt = passage(cleaned, selection.get("start", 0), selection.get("end"))
         if not excerpt.strip() or "\0" in excerpt:
             raise ValueError(f'Invalid passage: {selection["id"]}')
         if hashlib.sha256(excerpt.encode()).hexdigest() != selection["text_sha256"]:
             raise ValueError(f'Passage changed: {selection["id"]}')
-        text = f'{book["credit"]}, {selection["locator"]}:\n“{excerpt}”'
+        text = f'{excerpt}\n- {book["credit"]}, {selection["locator"]}'
         record = {
             "id": selection["id"],
             "text": text,
             "provenance": f'Public-domain primary-source excerpt. {book["citation"]}. '
             f'{book["url"]}; source SHA-256 {book["sha256"]}; '
-            f'HTML prose entry {selection["paragraph"]}, normalized-text characters '
+            f'HTML entries {first}:{selection.get("paragraph_end", first + 1)}, normalized-text characters '
             f'{selection.get("start", 0)}:{selection.get("end", "end")}. '
             'Whitespace normalized; page labels and footnote callouts omitted. '
             'Historical wording and perspective retained; no modern factual endorsement.',
@@ -104,6 +109,17 @@ def render(source_dir):
         seen_ids.add(record["id"])
         seen_texts.add(excerpt)
         outputs.setdefault(selection["leaf"], []).append(record)
+    for item in json.loads((ROOT / "museum-data.json").read_text(encoding="utf-8")):
+        text = "\n".join(item["lines"])
+        if item["id"] in seen_ids or text in seen_texts:
+            raise ValueError(f'Duplicate museum record: {item["id"]}')
+        seen_ids.add(item["id"])
+        seen_texts.add(text)
+        outputs.setdefault(item["leaf"], []).append({
+            "id": item["id"],
+            "text": text,
+            "provenance": item["provenance"],
+        })
     return outputs
 
 
@@ -129,7 +145,7 @@ def main():
         else:
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(content, encoding="utf-8", newline="\n")
-    print(f'{sum(map(len, outputs.values()))} excerpts in {len(outputs)} leaves')
+    print(f'{sum(map(len, outputs.values()))} records in {len(outputs)} leaves')
 
 
 if __name__ == "__main__":

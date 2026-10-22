@@ -1,0 +1,146 @@
+[
+  {
+    "leaf": "ancient-world/egypt/museum-models",
+    "id": "granary-accounting-zone",
+    "lines": [
+      "Model of a Granary with Scribes",
+      "Tomb of Meketre, Thebes. c. 1981–1975 BCE",
+      "Wood, plaster, paint, linen, grain",
+      "6 sack carriers",
+      "9 men measuring and accounting",
+      "4 scribes: 2 papyrus scrolls, 2 wooden writing boards",
+      "- The Metropolitan Museum of Art"
+    ],
+    "provenance": "Factual catalog data and figure counts. The Metropolitan Museum of Art, Model of a Granary with Scribes, 20.3.11. https://www.metmuseum.org/art/collection/search/545281 . Checked 2026-10-22. No museum prose or images reproduced."
+  },
+  {
+    "leaf": "ancient-world/egypt/museum-models",
+    "id": "bread-beer-workshop",
+    "lines": [
+      "Model Bakery and Brewery from the Tomb of Meketre",
+      "Thebes. c. 1981–1975 BCE",
+      "Wood, gesso, paint, linen",
+      "Brewery: grain crushing, milling, dough mixing, mashing, fermentation",
+      "Bakery: pestles, millstones, dough tubs, 2 ovens, 2 circular stoves",
+      "- The Metropolitan Museum of Art"
+    ],
+    "provenance": "Factual catalog data and inventory of represented work stages. The Metropolitan Museum of Art, Model Bakery and Brewery from the Tomb of Meketre, 20.3.12. https://www.metmuseum.org/art/collection/search/544258 . Checked 2026-10-22. No museum prose or images reproduced."
+  },
+  {
+    "leaf": "ancient-world/egypt/papyrus-materials",
+    "id": "papyrus-layers",
+    "lines": [
+      "Papyrus writing in ancient Egypt",
+      "Plant — Cyperus papyrus",
+      "Sheet — layered stalk pith, dried under pressure",
+      "Recto — inner surface of roll, horizontal fibers",
+      "Verso — outer surface of roll",
+      "Scripts — hieratic, demotic, Greek, Coptic",
+      "- The Metropolitan Museum of Art"
+    ],
+    "provenance": "Factual material, surface and script data. Janice Kamrin, Papyrus in Ancient Egypt, The Metropolitan Museum of Art (2015). https://www.metmuseum.org/essays/papyrus-in-ancient-egypt . Checked 2026-10-22. No museum prose or images reproduced."
+  },
+  {
+    "leaf": "ancient-world/egypt/papyrus-materials",
+    "id": "black-red-ink",
+    "lines": [
+      "Ancient Egyptian scribal kit",
+      "Rush styluses",
+      "Water",
+      "Black ink cake — carbon",
+      "Red ink cake — hematite",
+      "Reed pens — late first century BCE onward",
+      "- The Metropolitan Museum of Art"
+    ],
+    "provenance": "Factual inventory and material data. Janice Kamrin, Papyrus in Ancient Egypt, The Metropolitan Museum of Art (2015). https://www.metmuseum.org/essays/papyrus-in-ancient-egypt . Checked 2026-10-22. No museum prose or images reproduced."
+  },
+  {
+    "leaf": "ancient-world/egypt/papyrus-materials",
+    "id": "papyrus-everyday-fibers",
+    "lines": [
+      "Papyrus manufacture in ancient Egypt",
+      "Stalk bundles — skiffs",
+      "Pith strips — writing sheets, mats, boxes, baskets, lids, sandals, ropes",
+      "Reused writing sheets and plaster — cartonnage",
+      "- The Metropolitan Museum of Art"
+    ],
+    "provenance": "Factual material and object data. Janice Kamrin, Papyrus in Ancient Egypt, The Metropolitan Museum of Art (2015). https://www.metmuseum.org/essays/papyrus-in-ancient-egypt . Checked 2026-10-22. No museum prose or images reproduced."
+  },
+  {
+    "leaf": "material-practices/textiles/japan/museum-garments",
+    "id": "kimono-adjustment",
+    "lines": [
+      "Kimono",
+      "Straight seams",
+      "Left side wrapped over right",
+      "Obi sash",
+      "Length adjusted by folding excess fabric under the obi",
+      "Summer — unlined",
+      "Winter — multiple linings",
+      "- Victoria and Albert Museum"
+    ],
+    "provenance": "Factual garment construction and seasonal lining data. Victoria and Albert Museum, Kimono. https://www.vam.ac.uk/articles/kimono . Checked 2026-10-22. No museum prose or images reproduced."
+  },
+  {
+    "leaf": "material-practices/textiles/japan/museum-garments",
+    "id": "winter-motifs",
+    "lines": [
+      "Shōchikubai — Three Friends of Winter",
+      "Pine — longevity",
+      "Bamboo — perseverance",
+      "Plum — renewal",
+      "Japanese kimono motifs",
+      "- Victoria and Albert Museum"
+    ],
+    "provenance": "Factual motif names and symbolism. Victoria and Albert Museum, Kimono. https://www.vam.ac.uk/articles/kimono . Checked 2026-10-22. No museum prose or images reproduced."
+  },
+  {
+    "leaf": "material-practices/textiles/japan/museum-garments",
+    "id": "modernity-on-boys-robes",
+    "lines": [
+      "Boys' kimono motifs, early twentieth-century Japan",
+      "Cars, trains, aeroplanes, skyscrapers",
+      "- Victoria and Albert Museum"
+    ],
+    "provenance": "Factual motif inventory and period. Victoria and Albert Museum, Kimono. https://www.vam.ac.uk/articles/kimono . Checked 2026-10-22. No museum prose or images reproduced."
+  },
+  {
+    "leaf": "material-practices/textiles/japan/museum-garments",
+    "id": "edo-stencil-paste",
+    "lines": [
+      "Robe (Kosode) with Ferns",
+      "Japan, late eighteenth–early nineteenth century",
+      "Gauze-weave silk",
+      "Stencil dyeing with resist paste",
+      "Edo komon pattern",
+      "- The Metropolitan Museum of Art"
+    ],
+    "provenance": "Factual catalog and technique data. The Metropolitan Museum of Art, Robe (Kosode) with Ferns, 2001.428.43. https://www.metmuseum.org/art/collection/search/61838 . Checked 2026-10-22. No museum prose or images reproduced."
+  },
+  {
+    "leaf": "material-practices/textiles/japan/museum-garments",
+    "id": "gold-on-woven-flowers",
+    "lines": [
+      "Robe (Kosode) with Shells and Sea Grasses",
+      "Japan, early seventeenth century",
+      "Plain-weave silk patterned with warp floats",
+      "Resist dyeing, embroidery, gold leaf",
+      "153.7 × 124.5 cm",
+      "- The Metropolitan Museum of Art"
+    ],
+    "provenance": "Factual catalog and technique data. The Metropolitan Museum of Art, Robe (Kosode) with Shells and Sea Grasses, 1992.253. https://www.metmuseum.org/art/collection/search/50688 . Checked 2026-10-22. No museum prose or images reproduced."
+  },
+  {
+    "leaf": "material-practices/textiles/japan/museum-garments",
+    "id": "indian-sarasa-kosode",
+    "lines": [
+      "Woman's Kimono (Kosode)",
+      "Japan, late eighteenth–mid-nineteenth century",
+      "Textile made in India",
+      "Block-printed cotton plain weave (sarasa)",
+      "Center back length 168.28 cm",
+      "- Los Angeles County Museum of Art"
+    ],
+    "provenance": "Factual catalog data. Los Angeles County Museum of Art, Woman's Kimono (Kosode), M.2006.38.2. https://collections.lacma.org/object/133261 . Checked 2026-10-22. No museum prose or images reproduced."
+  }
+]

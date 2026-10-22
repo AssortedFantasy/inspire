@@ -1,7 +1,7 @@
 [
   {
     "id": "steelyard-distance",
-    "text": "Vitruvius explains a steelyard by moving a small counterweight farther along the beam until it balances a larger load. His Roman example makes distance from the pivot as important as the weight itself (Book X.3).",
-    "provenance": "Original factual paraphrase. Vitruvius, De architectura, Augustan Roman world, translated by Morris Hicky Morgan (1914), public-domain primary text; https://www.gutenberg.org/files/20239/20239-h/20239-h.htm . Verified primary context: Book X.3.4; chapter also specified in the stimulus."
+    "text": "When the handle is set as a centre close to the end from which the scale hangs, and the counterpoise is moved along towards the other arm of the beam, shifting from point to point as it goes farther or even reaches the extremity, a small and inferior weight becomes equal to a very heavy object that is being weighed, on account of the equilibrium that is due to the levelling of the beam. Thus, as it withdraws from the centre, a small and comparatively light counterpoise, slowly turning the scale, makes a greater amount of weight rise gently upwards from below.\n- Vitruvius, The Ten Books on Architecture, translated by Morris Hicky Morgan (1914), X.3.4",
+    "provenance": "Public-domain primary-source excerpt. Vitruvius, The Ten Books on Architecture, translated by Morris Hicky Morgan (1914). https://www.gutenberg.org/files/20239/20239-h/20239-h.htm; source SHA-256 e8899dede3ba49ba09f4ecf3684bb65e96e80a530dacb84ba2801a3a80b787d8; HTML entries 1054:1055, normalized-text characters 63:628. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
   }
 ]

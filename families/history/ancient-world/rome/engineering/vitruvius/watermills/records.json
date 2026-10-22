@@ -1,7 +1,7 @@
 [
   {
     "id": "right-angle-mill",
-    "text": "In Vitruvius’s Roman watermill description, a toothed wheel on the waterwheel axle drives a smaller horizontal toothed wheel attached to the millstone. The paired gears transfer rotation from the horizontal waterwheel axle to the vertical millstone axis while a hopper feeds grain to the stones (Book X.5).",
-    "provenance": "Original factual paraphrase. Vitruvius, De architectura, Augustan Roman world, translated by Morris Hicky Morgan (1914), public-domain primary text; https://www.gutenberg.org/files/20239/20239-h/20239-h.htm . Verified primary context: Book X.5.2; chapter also specified in the stimulus."
+    "text": "Water mills are turned on the same principle. Everything is the same in them, except that a drum with teeth is fixed into one end of the axle. It is set vertically on its edge, and turns in the same plane with the wheel. Next to this larger drum there is a smaller one, also with teeth, but set horizontally, and this is attached (to the millstone). Thus the teeth of the drum which is fixed to the axle make the teeth of the horizontal drum move, and cause the mill to turn. A hopper, hanging over this contrivance, supplies the mill with corn, and meal is produced by the same revolution.\n- Vitruvius, The Ten Books on Architecture, translated by Morris Hicky Morgan (1914), X.5.2",
+    "provenance": "Public-domain primary-source excerpt. Vitruvius, The Ten Books on Architecture, translated by Morris Hicky Morgan (1914). https://www.gutenberg.org/files/20239/20239-h/20239-h.htm; source SHA-256 e8899dede3ba49ba09f4ecf3684bb65e96e80a530dacb84ba2801a3a80b787d8; HTML entries 1069:1070, normalized-text characters 3:593. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
   }
 ]

@@ -990,5 +990,57 @@
   {
     "id": "pg-17150-p0233-c00000",
     "reason": "Clause 227 assumes the unauthorized-branding offense defined in clause 226; the omitted owner-consent condition leaves the deception and the brander’s lack of knowledge undefined when sampled alone."
+  },
+  {
+    "id": "pg-52868-p0494-c00000",
+    "reason": "Malformed source paragraph with duplicated text and omitted illustrations"
+  },
+  {
+    "id": "pg-52868-p0441-c00000",
+    "reason": "Caption for an omitted hall plan"
+  },
+  {
+    "id": "pg-52868-p0278-c00000",
+    "reason": "Description of positions in an omitted figure"
+  },
+  {
+    "id": "pg-52868-p0329-c00000",
+    "reason": "Summary dependent on omitted window examples"
+  },
+  {
+    "id": "pg-52868-p0374-c00000",
+    "reason": "Summary dependent on omitted bath-tub examples"
+  },
+  {
+    "id": "pg-17520-p0357-c00000",
+    "reason": "Preface to omitted verse"
+  },
+  {
+    "id": "pg-17520-p0374-c00000",
+    "reason": "Missing referent and introduction to omitted verse"
+  },
+  {
+    "id": "pg-17520-p0237-c00000",
+    "reason": "Commentary on omitted translated verse"
+  },
+  {
+    "id": "pg-15399-p0086-c01515",
+    "reason": "Fragment ending at an abbreviated name; narrative restored as one complete passage"
+  },
+  {
+    "id": "pg-15399-p0086-c02169",
+    "reason": "Adjacent fragment merged into the complete John Mondle narrative"
+  },
+  {
+    "id": "pg-15399-p0086-c02927",
+    "reason": "Adjacent fragment merged into the complete John Mondle narrative"
+  },
+  {
+    "id": "pg-17520-p0056-c00713",
+    "reason": "Referent restored by merging the free-town comparison"
+  },
+  {
+    "id": "pg-17520-p0056-c01416",
+    "reason": "Referent restored by merging the free-town comparison"
   }
 ]

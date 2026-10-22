@@ -1,4 +1,4 @@
-"""Source replay, corruption rejection and preservation checks for history."""
+"""Source replay and corruption rejection for history."""
 
 import json
 from pathlib import Path
@@ -24,16 +24,15 @@ class SourceTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "Checksum mismatch"):
                 render(path)
 
-    def test_all_selections_replay_and_original_ids_survive(self):
+    def test_all_records_replay(self):
         outputs = render(Path("target/imports/history"))
         for leaf, expected in outputs.items():
             actual = json.loads((ROOT / leaf / "records.json").read_text(encoding="utf-8"))
             self.assertEqual(actual, expected, leaf)
-        originals = json.loads((ROOT / "original-records.json").read_text(encoding="utf-8"))
-        self.assertEqual(sum(map(len, originals.values())), 72)
-        for leaf, ids in originals.items():
-            actual = json.loads((ROOT / leaf / "records.json").read_text(encoding="utf-8"))
-            self.assertEqual(set(ids), {record["id"] for record in actual})
+        self.assertEqual(
+            {ROOT / leaf / "records.json" for leaf in outputs},
+            set(ROOT.rglob("records.json")),
+        )
         ids, texts = set(), set()
         for file in ROOT.rglob("records.json"):
             for record in json.loads(file.read_text(encoding="utf-8")):

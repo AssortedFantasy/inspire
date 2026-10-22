@@ -1,0 +1,137 @@
+[
+  {
+    "id": "case-drawing",
+    "text": "The best method of learning the case is to draw a plan of it. This can be done by a study of the case itself before beginning to set type. Let the apprentice first copy the plan of the boxes without trying to memorize the letters in them. When the outline of the boxes is complete the letters can then be marked in place. Another way is to make a copy on a large scale from a print such as shown on page 11. When this is done the apprentice should ask the advice of his foreman or somebody familiar with the cases in his particular room, to be sure that his plan corresponds with the cases he will use.\n- A. A. Stewart, Typesetting (1919), Learning the Case",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 60:61, normalized-text characters 0:602. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "frequent-letter-boxes",
+    "text": "In the lower-case plan there is an irregular arrangement of the alphabet and a difference in the size of the boxes. Some letters are used much more frequently than others, and the extra quantities of these types need larger boxes. These boxes are placed in the case near the compositor’s hand, while the types less frequently used are kept in boxes farther away.\n- A. A. Stewart, Typesetting (1919), Learning the Case",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 53:54, normalized-text characters 0:362. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "california-job-case",
+    "text": "The style of case now commonly used in America is that known as the California job case, which has boxes for alphabets of both capitals and small letters and for figures, points, spaces, quads, and a few other indispensable characters like &, $, dashes, etc. This style of case is popular because it provides in a convenient single tray enough boxes for a complete font of types needed to compose English sentences.\n- A. A. Stewart, Typesetting (1919), Learning the Case",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 56:57, normalized-text characters 0:415. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "capital-j-u",
+    "text": "The plan of the common capital case is a simple alphabetical order of the letters, with the exception of J and U.\n- A. A. Stewart, Typesetting (1919), Learning the Case",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 48:49, normalized-text characters 0:113. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "em-body",
+    "text": "The amount of type in a page is measured in ems of the size of type used. An em is a square of the body , and varies in size with each size of type. Thus, an 8-point em is 8 points deep and 8 points wide; a 12-point em is 12 points deep and 12 points wide.\n- A. A. Stewart, Typesetting (1919), Units for Measuring",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 64:65, normalized-text characters 0:256. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "blank-types",
+    "text": "Trade custom gives the name spaces to the small type blanks and quads to the larger type blanks. These are further specified according to their thickness or fractional part of the em, or square, as 3-to-em, 4-to-em, 5-to-em (hereafter in this treatise, for convenience, termed respectively the 3-space, 4-space, 5-space). Very thin blanks are hair spaces or justifiers. The en quad (half the square) is sometimes called the thick space. The large blanks are the em quad 2-em quad, and (for types of 12-point and smaller) 3-em quad.\n- A. A. Stewart, Typesetting (1919), Spaces and Quads",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 71:72, normalized-text characters 0:531. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "space-combinations",
+    "text": "Taking 60 as the common denominator of the five blanks, including the em quad, which would be 60⁄60, the en quad is 30⁄60, the 3-space is 20⁄60, the 4-space is 15⁄60, and the 5-space is 12⁄60.\n- A. A. Stewart, Typesetting (1919), A Simple Spacing Table",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 77:78, normalized-text characters 0:192. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "high-electrotype-blanks",
+    "text": "When type composition is to be used regularly for making moulds for electrotypes; high spaces, quads, leads, and slugs are employed instead of the ordinary low spaces and quads. These reach nearly as high as the shoulder of the type and, unlike low spaces, do not leave small holes and crevices between the words and lines into which the moulding wax is forced when moulding.\n- A. A. Stewart, Typesetting (1919), Spaces and Quads",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 81:82, normalized-text characters 0:375. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "hollow-quads-down",
+    "text": "Large hollow quads, known as quotation quads (quotation furniture, in the larger sizes), are used in place of solid quads where there are many large blanks in the form. These have the advantage of lightness in comparison with regular quads. They should be set in the form with the hollow space down, so as not to catch dirt and small particles that will be likely to come out later on the ink rollers when the form is on the press.\n- A. A. Stewart, Typesetting (1919), Spaces and Quads",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 82:83, normalized-text characters 0:431. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "first-later-proofs",
+    "text": "First proofs from composed types are taken for the purpose of correcting any errors. Later proofs are for verifying corrections and to note whether instructions have been followed in make-up and in various other matters necessary to get the type ready for printing.\n- A. A. Stewart, Typesetting (1919), Taking Proofs",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 159:160, normalized-text characters 0:265. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "oversize-proof-planer",
+    "text": "The proof planer is not the common method of taking proofs, but is employed in places where there is no regular proof press, and also under conditions where a proof press cannot readily be used. The latter condition is in the case of a large form beyond the capacity of the proof press, locked up on the imposing stone, when a proof is required, either of a part or of the whole, for verification of some detail before sending the form to press for printing.\n- A. A. Stewart, Typesetting (1919), Taking Proofs",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 168:169, normalized-text characters 0:458. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "type-reuse-cleaning",
+    "text": "Clean printing can not be done from dirty type. For this reason, as well as for greater ease and cleanliness in handling, it is important that type (which has to be used over and over again) should be washed as clean as possible after use. Ink should not be allowed to dry hard on a form, as it will if left over night or over an idle day.\n- A. A. Stewart, Typesetting (1919), Washing Type",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 326:327, normalized-text characters 0:339. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0092-c00000",
+    "text": "There are many places where spaces thinner than the 5-space are needed, especially for letter-spacing and for careful word-spacing, as well as for tabular pages and other work requiring accurate justification. For such purposes hair spaces, copper-thins, and brass-thins are provided. The thickness of hair spaces varies according to the size of the type; the name is given generally to any cast space thinner than the 5-to-em. Copper spaces are 1⁄2-point in thickness and brass spaces are 1-point thick, the difference in the metal used being for easy distinction of the thicknesses. Copper and brass spaces, because of greater durability, are superior to cast metal hair spaces for hand composition.\n- A. A. Stewart, Typesetting (1919), Spaces and Quads",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 92:93, normalized-text characters 0:701. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0095-c00000",
+    "text": "Lines of type are separated by leads and slugs. These are strips of metal lower than type-high and are furnished by dealers in labor-saving fonts and also in lengths of two feet. Leads are made 1-point, 11⁄2-point, 2-point, and 3-point thick. The 1-point size is furnished in 16-inch lengths. The 2-point is the thickness mostly used. Slugs are made usually 6-point, 12-point, 18-point, and 24-point thick, but other sizes are also made.\n- A. A. Stewart, Typesetting (1919), Leads and Slugs",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 95:96, normalized-text characters 0:437. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0098-c00000",
+    "text": "Strips of wood, called reglet, are sometimes used as substitutes for leads and slugs in large sizes. These are made in lengths of one yard and in sizes of 6-point (nonpareil), 12-point (pica), and 18-point. Larger sizes of the same material are known as wooden furniture.\n- A. A. Stewart, Typesetting (1919), Leads and Slugs",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 98:99, normalized-text characters 0:271. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0104-c00000",
+    "text": "For ordinary measures a line of perfect 12-point quads will be a good gage. For very short measures, as in tabular column heads, 6-point quads should be used. A gage that will be more uniformly accurate is a line of 12-point letters (for short measures) or 24-point letters (for longer measures) from a font of foundry-cast type. These should be set in the stick with the nicks sideways, not in front as for composition. The body-size of cast type is the most accurate of any point-size material, and as 12-point and 24-point fonts are at hand in every composing room they furnish a convenient and reliable standard at all times.\n- A. A. Stewart, Typesetting (1919), Setting the Composing Stick",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 104:105, normalized-text characters 0:629. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0111-c00000",
+    "text": "Lines of type are easier handled by the aid of a composing rule. It is not practicable to set small types in the stick without some support or to set a second line immediately next to another without a lead or rule to separate them. The composing rule furnishes a smooth surface against which to place the types as they are assembled and to keep them in line while the respacing and justifying is done. The rule is also convenient for lifting lines out into the galley and for handling them in later operations.\n- A. A. Stewart, Typesetting (1919), The Composing Rule",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 111:112, normalized-text characters 0:511. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0122-c00000",
+    "text": "A compositor should always read his copy ahead of his setting and try to get the sense of the words. This will make it easier for him to carry in his mind a number of words at a time in advance of picking up the types. One who must constantly refer to his copy word for word will waste valuable time hunting for his place, will have greater difficulty in keeping the sequence of words, and will be far more liable to make mistakes. Concentration of mind is absolutely essential if he hopes to become a good compositor.\n- A. A. Stewart, Typesetting (1919), The First Type Setting",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 122:123, normalized-text characters 0:518. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0124-c00000",
+    "text": "The nicks on the type bodies are important in helping to pick them up in such a manner that they may be carried to the stick and put in place right side up quickly. Look for a particular type in the box and note the nick first. Select one that can be carried to the stick right side up with the fewest motions. While it is going to its place look for the next type and have the left thumb in the stick do its share of the team work. Fumbling for a type, picking it up and turning it over several times to find the nick before it can be put in the line is a habit that should be guarded against as a positive handicap. Study to avoid as much as possible all superfluous motions. Do not mistake nervous, fussy, trust-to-luck motions for speed; they are usually the reverse. Be deliberate and accurate, even if slow at the start. Learn first to do it right, then strive to do it quickly. Speed is important, but correctness is much more so.\n- A. A. Stewart, Typesetting (1919), The First Type Setting",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 124:125, normalized-text characters 0:937. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0129-c00000",
+    "text": "A line of type is well justified when it will stand up in the stick without other support than its own tightness. Lines that will fall down when the composing stick is slightly tipped forward are too loosely justified. On the other hand, they should not be so tight that they will be difficult to lift out when the stickful is taken out on the galley. Unnecessary tightness is liable to injure small types at the end of the lines. Careless compositors will sometimes force a type into place so tightly that it will shave a slight film of metal from the adjoining types, the metal remaining under the feet of the letters which will make them higher than the surrounding letters.\n- A. A. Stewart, Typesetting (1919), Justifying the Lines",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 129:130, normalized-text characters 0:677. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0130-c00000",
+    "text": "Long lines require a little firmer justification than short ones, because the greater number of pieces, especially if the type is old, will compress more than the fewer number in the short line when they are later locked up in the chase.\n- A. A. Stewart, Typesetting (1919), Justifying the Lines",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 130:131, normalized-text characters 0:237. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0133-c00000",
+    "text": "The first point to note is that the types should be squarely on their feet in the stick when the line is justified. If they are leaning forward or backward and left this way the line will be short when the types are later straightened up on the galley or in the form. It is wise, therefore, before going to the next line to make sure that all types are on their feet when the final letter or justifying space is inserted.\n- A. A. Stewart, Typesetting (1919), Justifying the Lines",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 133:134, normalized-text characters 0:421. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0172-c00000",
+    "text": "When a line of type has been set in the composing stick it should be read over with care, compared with copy, and any mistakes corrected before the line is justified. A habit of doing this will make cleaner proofs and save a great deal of time and expense. An error corrected at this time saves a second justification of the line. If the error is an omitted word or syllable or a word inserted twice its detection will save the probable over-running of several lines or even of a whole paragraph later.\n- A. A. Stewart, Typesetting (1919), Correcting",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 172:173, normalized-text characters 0:502. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0175-c00000",
+    "text": "Do not try to correct a line in the stick when another line or part of a line is in front of it. If a correction makes necessary a change of spaces or a re-justifying of the line, take out all the lines in front, then correct and justify again. This allows the stick to be held in the hand and the types can be handled in the same manner as for the original setting. This will be more convenient than to lay the stick on the case while re-spacing a line in the middle of a stickful.\n- A. A. Stewart, Typesetting (1919), Correcting",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 175:176, normalized-text characters 0:482. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0193-c00000",
+    "text": "Uniform spacing between the words in a line is always desirable. A thin space on one side of a word and a wide space on the other is an inexcusable fault. An exception is made of the space between sentences, where the ending of one and the beginning of another occurs in the same line. In this case it is customary to leave a wide space after the period.\n- A. A. Stewart, Typesetting (1919), Spacing",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 193:194, normalized-text characters 0:354. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0240-c00000",
+    "text": "Large initials used in groups, as in college degrees and military titles, are often set close together with simply the period for separation. This style is preferred in any close-spaced matter; though for more open matter a thin space may be used after the periods.\n- A. A. Stewart, Typesetting (1919), Spacing",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 240:241, normalized-text characters 0:265. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  },
+  {
+    "id": "pg-46113-p0250-c00000",
+    "text": "In some kinds of composition wide spacing and wide leading are desirable. Wide measures and ample white space up and down the page naturally call for open spacing of type lines. Large advertisements, wall cards, placards, and other forms intended to be read at a distance farther away than the book or magazine in the hand, are properly wide-spaced and wide-leaded. Extremes in openness, however, are not safe to follow. A study of the work of the leading designers in typography will show a compact grouping of both words and lines which gives unity and orderliness with ample readability. In contrast with this the disconnected, patchy, scattered effects shown in commonplace type composition will prove that habitual wide-spacing is often unnecessary.\n- A. A. Stewart, Typesetting (1919), Wide Spacing",
+    "provenance": "Public-domain primary-source excerpt. A. A. Stewart, Typesetting (1919). https://www.gutenberg.org/files/46113/46113-h/46113-h.htm; source SHA-256 70d748d213e23162f1712dc3ce3aaa9c4a749fd47d751d024a37959b9e9489cc; HTML entries 250:251, normalized-text characters 0:754. Whitespace normalized; page labels and footnote callouts omitted. Historical wording and perspective retained; no modern factual endorsement."
+  }
+]

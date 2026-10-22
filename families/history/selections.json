@@ -2930,16 +2930,6 @@
     "text_sha256": "5639c26999c3aa3fae027e19d1f9ae77510149f2234c4cf795ea160743738672"
   },
   {
-    "id": "pg-52868-p0278-c00000",
-    "book": 52868,
-    "paragraph": 278,
-    "start": 0,
-    "end": 280,
-    "leaf": "material-practices/households/japan/morse-1889/interiors",
-    "locator": "Chapter 3",
-    "text_sha256": "03ca903309a684aa73c1aaa33358f46a8b309e01ecd67cadb9d5fa816433fc18"
-  },
-  {
     "id": "pg-52868-p0281-c00000",
     "book": 52868,
     "paragraph": 281,
@@ -2994,10 +2984,10 @@
     "book": 52868,
     "paragraph": 285,
     "start": 0,
-    "end": 1323,
+    "end": 1245,
     "leaf": "material-practices/households/japan/morse-1889/interiors",
     "locator": "Chapter 3",
-    "text_sha256": "0adcecb92846bd7a50e15fe7cfec723c20604a7706b75b3f06389ce15db72224"
+    "text_sha256": "e50df08aa1348bf850c122a1a5f664fc65bc7b9f33231f61e61a515e4403aaba"
   },
   {
     "id": "pg-52868-p0290-c00000",
@@ -3228,16 +3218,6 @@
     "leaf": "material-practices/households/japan/morse-1889/interiors",
     "locator": "Chapter 3",
     "text_sha256": "1952efa594e9c35944116ccea6b4fced28f8cd27418b1853d4e9d7065ad3ad13"
-  },
-  {
-    "id": "pg-52868-p0329-c00000",
-    "book": 52868,
-    "paragraph": 329,
-    "start": 0,
-    "end": 365,
-    "leaf": "material-practices/households/japan/morse-1889/interiors",
-    "locator": "Chapter 3",
-    "text_sha256": "6faf83b9d085e5ee432d2ec423be65116a0b9c1a75c27ae834b4fd49eb002a3a"
   },
   {
     "id": "pg-52868-p0331-c00000",
@@ -3528,16 +3508,6 @@
     "leaf": "material-practices/households/japan/morse-1889/household-fittings",
     "locator": "Chapter 4",
     "text_sha256": "1c12f0be610b1c464057839a0644b5c337d1a48e6ac9f1f4c9861852fef2434b"
-  },
-  {
-    "id": "pg-52868-p0374-c00000",
-    "book": 52868,
-    "paragraph": 374,
-    "start": 0,
-    "end": 432,
-    "leaf": "material-practices/households/japan/morse-1889/household-fittings",
-    "locator": "Chapter 4",
-    "text_sha256": "5a323de1378af2732eb5384a65ecfd3a6bfe6d43ee3442710c1f550bc7e5c64e"
   },
   {
     "id": "pg-52868-p0379-c00000",
@@ -3860,16 +3830,6 @@
     "text_sha256": "fc4a48fbfd2dcc8e63673e729eaf0b043be5c4be9c39eb4772fb8c9cf0497d10"
   },
   {
-    "id": "pg-52868-p0441-c00000",
-    "book": 52868,
-    "paragraph": 441,
-    "start": 0,
-    "end": 293,
-    "leaf": "material-practices/households/japan/morse-1889/entrances",
-    "locator": "Chapter 5",
-    "text_sha256": "6225cc823086e460d83282dd19255a2f04f0447a8a7a87bb51ec06ee2762fc16"
-  },
-  {
     "id": "pg-52868-p0443-c00000",
     "book": 52868,
     "paragraph": 443,
@@ -4180,16 +4140,6 @@
     "text_sha256": "c5920fd1416485b514e61536acbbf1feb032c3af8bdf82ccd4676d24ba0fc14b"
   },
   {
-    "id": "pg-52868-p0494-c00000",
-    "book": 52868,
-    "paragraph": 494,
-    "start": 0,
-    "end": 1251,
-    "leaf": "material-practices/households/japan/morse-1889/entrances",
-    "locator": "Chapter 5",
-    "text_sha256": "1ad17a12d6fd44a8e1462d2d63c75e9c1dce3fe3b61f719097ab438a84a0ca41"
-  },
-  {
     "id": "pg-52868-p0495-c00000",
     "book": 52868,
     "paragraph": 495,
@@ -4344,10 +4294,10 @@
     "book": 52868,
     "paragraph": 521,
     "start": 0,
-    "end": 781,
+    "end": 394,
     "leaf": "material-practices/households/japan/morse-1889/gardens",
     "locator": "Chapter 6",
-    "text_sha256": "0980df2fa7d4b9027b2d247f687342e204484079cf67502692a79cfdb4bccfce"
+    "text_sha256": "c9ff994ebb2e8e1a940efaac6b4527eb7d33d7bba511e697ff9297f84219b9b9"
   },
   {
     "id": "pg-52868-p0522-c00000",
@@ -5014,10 +4964,10 @@
     "book": 15399,
     "paragraph": 51,
     "start": 7912,
-    "end": 8271,
+    "end": 8238,
     "leaf": "life-writing/atlantic-world/equiano-1789/captivity",
     "locator": "Chapter 2",
-    "text_sha256": "21b0552ff3fb03ef82552a7e2805e4972b7ca628007dd802e37f5610d7fcfdeb"
+    "text_sha256": "05d83dc071f37f4871aaf4ff09112d1fe361557ac18347365720f39b7da5c5e3"
   },
   {
     "id": "pg-15399-p0052-c00000",
@@ -5664,40 +5614,10 @@
     "book": 15399,
     "paragraph": 86,
     "start": 0,
-    "end": 658,
+    "end": 3955,
     "leaf": "life-writing/atlantic-world/equiano-1789/seafaring",
     "locator": "Chapter 4",
-    "text_sha256": "dbb4112645047220abed57f7e9c7ae2ca64ae47418b9dd43bb6f863c361a5b27"
-  },
-  {
-    "id": "pg-15399-p0086-c01515",
-    "book": 15399,
-    "paragraph": 86,
-    "start": 1515,
-    "end": 2168,
-    "leaf": "life-writing/atlantic-world/equiano-1789/seafaring",
-    "locator": "Chapter 4",
-    "text_sha256": "36e198d8178927ea7e85296060fb0811cad9e7f84b8897f4f196da8c44e018f5"
-  },
-  {
-    "id": "pg-15399-p0086-c02169",
-    "book": 15399,
-    "paragraph": 86,
-    "start": 2169,
-    "end": 2926,
-    "leaf": "life-writing/atlantic-world/equiano-1789/seafaring",
-    "locator": "Chapter 4",
-    "text_sha256": "b766a6d3de6a99655c56e92f397e69dd427ac0a9a9478f7451646e37bdacdc98"
-  },
-  {
-    "id": "pg-15399-p0086-c02927",
-    "book": 15399,
-    "paragraph": 86,
-    "start": 2927,
-    "end": 3775,
-    "leaf": "life-writing/atlantic-world/equiano-1789/seafaring",
-    "locator": "Chapter 4",
-    "text_sha256": "28eebaaf8c3e52f6de4767b7c1e30c7ea4b24580a06f41c932d367d03c550ae0"
+    "text_sha256": "db2698a1ff33259a4f8c8b665cc0d6af1655d4c882edddb32f460c8930aaa404"
   },
   {
     "id": "pg-15399-p0087-c00000",
@@ -6973,31 +6893,11 @@
     "id": "pg-17520-p0056-c00000",
     "book": 17520,
     "paragraph": 56,
-    "start": 0,
-    "end": 712,
-    "leaf": "correspondence/embassy-travel/montagu-1716-1718/european-route",
-    "locator": "LET. V., Nuremberg, Aug. 22. O. S. 1716.",
-    "text_sha256": "3fc2ce2e0d4a77a3d7463cb2ab07e53e3a076082159c92eda3f8351ae764f165"
-  },
-  {
-    "id": "pg-17520-p0056-c00713",
-    "book": 17520,
-    "paragraph": 56,
-    "start": 713,
-    "end": 1415,
-    "leaf": "correspondence/embassy-travel/montagu-1716-1718/european-route",
-    "locator": "LET. V., Nuremberg, Aug. 22. O. S. 1716.",
-    "text_sha256": "5896cfa227996b9d813ebe43559ff354ef7e097a85de8f520b12b68df6b22cb8"
-  },
-  {
-    "id": "pg-17520-p0056-c01416",
-    "book": 17520,
-    "paragraph": 56,
-    "start": 1416,
+    "start": 330,
     "end": 2471,
     "leaf": "correspondence/embassy-travel/montagu-1716-1718/european-route",
     "locator": "LET. V., Nuremberg, Aug. 22. O. S. 1716.",
-    "text_sha256": "25e26da6b09d34eeaef50fdd33728807972c190d29f64553a67b0379ac19773c"
+    "text_sha256": "2472e79e28578d461571525aa31e4694e593d85278148ce666281a935dab8a6f"
   },
   {
     "id": "pg-17520-p0057-c00000",
@@ -7880,16 +7780,6 @@
     "text_sha256": "fc0e0b7e57f42195f00772586c37a785ec73c35a542971bc90a3f60c5049d01d"
   },
   {
-    "id": "pg-17520-p0237-c00000",
-    "book": 17520,
-    "paragraph": 237,
-    "start": 0,
-    "end": 803,
-    "leaf": "correspondence/embassy-travel/montagu-1716-1718/ottoman-residence",
-    "locator": "LET. XXX., Adrianople, April 1. O. S. 1717.",
-    "text_sha256": "a1f759ad6e630b04ac06a98981048cc93c3bcf870b8f5530b5e9a03773e09e34"
-  },
-  {
     "id": "pg-17520-p0248-c00000",
     "book": 17520,
     "paragraph": 248,
@@ -8060,16 +7950,6 @@
     "text_sha256": "fb834ec43bc5e9ea3d01b0aa99cbca4e42d65d758b1529d85790ab1e7ebf9106"
   },
   {
-    "id": "pg-17520-p0357-c00000",
-    "book": 17520,
-    "paragraph": 357,
-    "start": 0,
-    "end": 321,
-    "leaf": "correspondence/embassy-travel/montagu-1716-1718/return-route",
-    "locator": "LET. XLIV., Tunis, July 31. O. S. 1718",
-    "text_sha256": "c2e1a57556bc0769c10d1862c3692aff21b8019d408766537aa94a5b87479a46"
-  },
-  {
     "id": "pg-17520-p0359-c00000",
     "book": 17520,
     "paragraph": 359,
@@ -8124,10 +8004,10 @@
     "book": 17520,
     "paragraph": 367,
     "start": 0,
-    "end": 1081,
+    "end": 923,
     "leaf": "correspondence/embassy-travel/montagu-1716-1718/return-route",
     "locator": "LET. XLIV., Tunis, July 31. O. S. 1718",
-    "text_sha256": "bcdd8486437eac2e22aa58cfb26544931d91728ab89d4756690d7d698e620d72"
+    "text_sha256": "f75b89ba02d8db0fd439dfe3a4ac682288f2d66c3ac2e67d3307f7327f2efa04"
   },
   {
     "id": "pg-17520-p0370-c00000",
@@ -8168,16 +8048,6 @@
     "leaf": "correspondence/embassy-travel/montagu-1716-1718/return-route",
     "locator": "LET. XLIV., Tunis, July 31. O. S. 1718",
     "text_sha256": "39c12c9c7fcfe3d220a01139ddb9acd0e2b88dfbb8028323a75507f8ada33c86"
-  },
-  {
-    "id": "pg-17520-p0374-c00000",
-    "book": 17520,
-    "paragraph": 374,
-    "start": 0,
-    "end": 1126,
-    "leaf": "correspondence/embassy-travel/montagu-1716-1718/return-route",
-    "locator": "LET. XLIV., Tunis, July 31. O. S. 1718",
-    "text_sha256": "b2b602231daa30f5ac26085ed291df1fb50095c4baa2078a087efa3d72420d1f"
   },
   {
     "id": "pg-17520-p0378-c00000",
@@ -9928,5 +9798,1104 @@
     "leaf": "travel-accounts/eurasian-travel/polo/urban-economy",
     "locator": "Book 2, Chapter 32",
     "text_sha256": "549fc883ad3f165a9171bb493af3127331efabfaf2e90916ec92e975161ba778"
+  },
+  {
+    "id": "case-drawing",
+    "book": 46113,
+    "paragraph": 60,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Learning the Case",
+    "start": 0,
+    "end": 602,
+    "text_sha256": "82f2ea86d029848ad7f394d117902003f0ac553256fd36487b13995413919afc"
+  },
+  {
+    "id": "frequent-letter-boxes",
+    "book": 46113,
+    "paragraph": 53,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Learning the Case",
+    "start": 0,
+    "end": 362,
+    "text_sha256": "9c3e30bc9d9a8ed0264eb0b42f5966c799ddca5825e08d00af75666f6e4e9fd9"
+  },
+  {
+    "id": "california-job-case",
+    "book": 46113,
+    "paragraph": 56,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Learning the Case",
+    "start": 0,
+    "end": 415,
+    "text_sha256": "d91d20569f317494dd38768a8eb0f1225af87060d68b56fbc71a6b4d20e2c034"
+  },
+  {
+    "id": "capital-j-u",
+    "book": 46113,
+    "paragraph": 48,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Learning the Case",
+    "start": 0,
+    "end": 113,
+    "text_sha256": "59ddb38da924b05ea914597c2d7c94e3f06c2859a02279e38f48f24726f121d0"
+  },
+  {
+    "id": "em-body",
+    "book": 46113,
+    "paragraph": 64,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Units for Measuring",
+    "start": 0,
+    "end": 256,
+    "text_sha256": "9022002c2579b92696ebf5a53b57de4a1cbefc1750cb34a92263ac072f1be4d3"
+  },
+  {
+    "id": "blank-types",
+    "book": 46113,
+    "paragraph": 71,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Spaces and Quads",
+    "start": 0,
+    "end": 531,
+    "text_sha256": "157c883b677db084a5ac553f40a035b66e340da6e892ef0bd9c57d5211823d26"
+  },
+  {
+    "id": "space-combinations",
+    "book": 46113,
+    "paragraph": 77,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "A Simple Spacing Table",
+    "start": 0,
+    "end": 192,
+    "text_sha256": "5833aadc59f539cdd3d5e4735841639e44ea7be3de2df11eaadd42942d4d757e"
+  },
+  {
+    "id": "high-electrotype-blanks",
+    "book": 46113,
+    "paragraph": 81,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Spaces and Quads",
+    "start": 0,
+    "end": 375,
+    "text_sha256": "fdccd83da2f8d11205b575fbf6cf1525c08201bbc7b0061ad0cde6bc6faa6687"
+  },
+  {
+    "id": "hollow-quads-down",
+    "book": 46113,
+    "paragraph": 82,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Spaces and Quads",
+    "start": 0,
+    "end": 431,
+    "text_sha256": "1e74be57f8259adfa4b57a204410d0c675389a6c04034195a7266a1d343b4f00"
+  },
+  {
+    "id": "first-later-proofs",
+    "book": 46113,
+    "paragraph": 159,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Taking Proofs",
+    "start": 0,
+    "end": 265,
+    "text_sha256": "577560e360c587ab20ea44aa52a92d5a035e2d02c57969b33877470901da2e8f"
+  },
+  {
+    "id": "oversize-proof-planer",
+    "book": 46113,
+    "paragraph": 168,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Taking Proofs",
+    "start": 0,
+    "end": 458,
+    "text_sha256": "6571bceb97abfa5dfd9cf10547758b80d1b20eab4f2b7b200ddf6b3b11d4d9fa"
+  },
+  {
+    "id": "type-reuse-cleaning",
+    "book": 46113,
+    "paragraph": 326,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Washing Type",
+    "start": 0,
+    "end": 339,
+    "text_sha256": "db5a7098d1349c186de855598922a89420f4e2e83a0505a621437fe9089279c5"
+  },
+  {
+    "id": "paper-before-loom",
+    "book": 31630,
+    "paragraph": 85,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter III",
+    "start": 0,
+    "end": 278,
+    "text_sha256": "def8a7fcd55aa7ea02f42fa3c6e5bd9836baccfbbb172bd6d690d85b21fcb2f2"
+  },
+  {
+    "id": "continuous-warp",
+    "book": 31630,
+    "paragraph": 109,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter IV",
+    "start": 114,
+    "end": 267,
+    "text_sha256": "8bc7c629a7f425536a8a3645b813b06b5015e525bfbd7eb55ab2d5afc71b61be"
+  },
+  {
+    "id": "edge-rods",
+    "book": 31630,
+    "paragraph": 108,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter IV",
+    "start": 227,
+    "end": 424,
+    "text_sha256": "a1bc89cba2fb25c711bb23c6e409bfd6f9d146fa0134215b7be3454eacc1eedf"
+  },
+  {
+    "id": "warp-touch-test",
+    "book": 31630,
+    "paragraph": 110,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter IV",
+    "start": 396,
+    "end": 968,
+    "text_sha256": "90ee312d83fa1043b48b128934bb742310aa679f9a46b07738908d65cac403fd"
+  },
+  {
+    "id": "custom-pattern-grid",
+    "book": 31630,
+    "paragraph": 113,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter IV",
+    "start": 0,
+    "end": 471,
+    "text_sha256": "e99607e43cdf319a6906f739c0e6012b33d23322fc7de1788dac56c2f1df0dbe"
+  },
+  {
+    "id": "advancing-long-work",
+    "book": 31630,
+    "paragraph": 115,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter IV",
+    "start": 0,
+    "end": 1066,
+    "text_sha256": "b899f39277d5c3f8c06e8def79a3ada4e3772637f33607bc7cf4c15be77773c9"
+  },
+  {
+    "id": "overlap-wool",
+    "book": 31630,
+    "paragraph": 290,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter VII",
+    "start": 0,
+    "end": 842,
+    "text_sha256": "67e4e4bb19b07c9d6f1cd82280fb08f9cb4223327149464d72809b694fefa9a2"
+  },
+  {
+    "id": "sewn-rag-splice",
+    "book": 31630,
+    "paragraph": 291,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter VII",
+    "start": 0,
+    "end": 330,
+    "text_sha256": "b515a19aa3ff65f54bafe1690a1e0bdd7abe6f1be3e0ed965bd024f387e670c6"
+  },
+  {
+    "id": "matched-end-stripes",
+    "book": 31630,
+    "paragraph": 299,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter VIII",
+    "start": 537,
+    "end": 998,
+    "text_sha256": "6c990975c4b697e5aa8e06ef78e9352a35202c7219cb94b8e0be89f0412a8e43"
+  },
+  {
+    "id": "soft-woven-washcloth",
+    "book": 31630,
+    "paragraph": 129,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter V",
+    "start": 0,
+    "end": 78,
+    "text_sha256": "b8c5ec7c1fa9e32e62f35877cd660c6d47c456f8b15a3bb58ba47af8ba6846a3"
+  },
+  {
+    "id": "panel-boxes",
+    "book": 31630,
+    "paragraph": 326,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter XI",
+    "start": 0,
+    "end": 365,
+    "text_sha256": "afd30bf82b11518ed47de198460d3121a8e0773a521d8c271542398ec1c6789c"
+  },
+  {
+    "id": "doll-cap-square",
+    "book": 31630,
+    "paragraph": 338,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter XII",
+    "start": 0,
+    "end": 448,
+    "text_sha256": "c2449c60782ec83fa46f6b7581f3fbc68c2b24df214f5bbfcc2b465ca5f1ef08"
+  },
+  {
+    "id": "daily-ledger",
+    "book": 10136,
+    "paragraph": 172,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "§16",
+    "start": 4,
+    "end": 532,
+    "text_sha256": "b12c658b80629cbd7ac0f2ea13e44a9e635e9a758a773aa1829ccf585a979672"
+  },
+  {
+    "id": "monthly-cash-check",
+    "book": 10136,
+    "paragraph": 172,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "§16",
+    "start": 533,
+    "end": 704,
+    "text_sha256": "9981412941ebbc720f508f9bf8a6dcd2b27a2d1724796c1bc4a67c3b0b72f291"
+  },
+  {
+    "id": "delivery-register",
+    "book": 10136,
+    "paragraph": 264,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "§56",
+    "start": 0,
+    "end": 594,
+    "text_sha256": "14cafc3d4531c341cd29bdf6142c5d0592ea38e87ca679059efe3330cc7f9d05"
+  },
+  {
+    "id": "duties-at-hiring",
+    "book": 10136,
+    "paragraph": 175,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "§17",
+    "start": 0,
+    "end": 597,
+    "text_sha256": "655fa25f4c81543699d7f6e87bdddcb3a9850d8d7a9c4c501592e82551dbe062"
+  },
+  {
+    "id": "reference-interview",
+    "book": 10136,
+    "paragraph": 177,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "§18",
+    "start": 0,
+    "end": 714,
+    "text_sha256": "b1301e4b2e748d3d46ad73274a046649c4ec5bf089c17d8e11a39bbd7aefa621"
+  },
+  {
+    "id": "russe-sideboard",
+    "book": 10136,
+    "paragraph": 11197,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "Service à la Russe, July",
+    "start": 6,
+    "end": 232,
+    "text_sha256": "baba726214c44433430702ed51c2579e1bdb65069eebb736ffaff6904480c357"
+  },
+  {
+    "id": "individual-menus",
+    "book": 10136,
+    "paragraph": 11197,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "Service à la Russe, July",
+    "start": 233,
+    "end": 449,
+    "text_sha256": "c7eae604247a9443c2953e7e0944069c722e57748c2ebe890d4a5cb2a4879da3"
+  },
+  {
+    "id": "warmed-teapot",
+    "book": 10136,
+    "paragraph": 9964,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "Tea, recipe 1814",
+    "start": 167,
+    "end": 570,
+    "text_sha256": "4afee6def6090cba1fd49eed0d3fa18cfa39a7b050ab39cfa96da1aa47d92d08"
+  },
+  {
+    "id": "two-teapots",
+    "book": 10136,
+    "paragraph": 9964,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "Tea, recipe 1814",
+    "start": 819,
+    "end": 1218,
+    "text_sha256": "03592204b90d6128975fb4e1d8ba38b91d8f9ed5daa249b00244f4342020c03b"
+  },
+  {
+    "id": "after-dinner-coffee",
+    "book": 10136,
+    "paragraph": 9962,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "Café noir, recipe 1813",
+    "start": 174,
+    "end": 279,
+    "text_sha256": "a7407b531683a4b49cb94782bd89a9a7cc40362867c077280361c9187b4bf858"
+  },
+  {
+    "id": "recipe-accounting",
+    "book": 10136,
+    "paragraph": 19,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "Preface",
+    "start": 0,
+    "end": 323,
+    "text_sha256": "4eb9f89f63bddd59a95a4452a1a64c3f5b5bc5ab1fefbdec674843c6f1532d6b"
+  },
+  {
+    "id": "seasonal-bills-of-fare",
+    "book": 10136,
+    "paragraph": 11179,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "Service à la Russe, July",
+    "start": 6,
+    "end": 744,
+    "text_sha256": "8daed217b548f63d2156944b89ff28b53e6ee34daa443ff6f4c76af7cbffea8f",
+    "paragraph_end": 11196
+  },
+  {
+    "id": "chorobates-plumb",
+    "book": 20239,
+    "paragraph": 889,
+    "leaf": "ancient-world/rome/engineering/vitruvius/surveying",
+    "locator": "VIII.5.1",
+    "start": 331,
+    "end": 878,
+    "text_sha256": "ff086ac38614375b9e63d85574323f6cbf9283d938573d5ccc9432353fd81d04"
+  },
+  {
+    "id": "chorobates-water",
+    "book": 20239,
+    "paragraph": 890,
+    "leaf": "ancient-world/rome/engineering/vitruvius/surveying",
+    "locator": "VIII.5.2",
+    "start": 3,
+    "end": 422,
+    "text_sha256": "257a6563ccfc8e626b29c384c3c469e79066497aeba025213201caa87f3a9f97"
+  },
+  {
+    "id": "three-water-networks",
+    "book": 20239,
+    "paragraph": 894,
+    "leaf": "ancient-world/rome/engineering/vitruvius/aqueducts",
+    "locator": "VIII.6.1–2",
+    "start": 392,
+    "end": 1266,
+    "text_sha256": "516fea94e65e24ac6ee02c4dc5da458315a54494119f2127a240a4a23f859342",
+    "paragraph_end": 896
+  },
+  {
+    "id": "covered-water-channel",
+    "book": 20239,
+    "paragraph": 894,
+    "leaf": "ancient-world/rome/engineering/vitruvius/aqueducts",
+    "locator": "VIII.6.1",
+    "start": 3,
+    "end": 391,
+    "text_sha256": "985b5fab52c56957a8f74c20c1b00ebafcc52516b950cab79d67c5365c342b50"
+  },
+  {
+    "id": "water-tunnel-shafts",
+    "book": 20239,
+    "paragraph": 896,
+    "leaf": "ancient-world/rome/engineering/vitruvius/aqueducts",
+    "locator": "VIII.6.3",
+    "start": 3,
+    "end": 412,
+    "text_sha256": "ccef49e3a404ce9a1c33f354a250b7097817079ea15e757e063d2a8b87023737"
+  },
+  {
+    "id": "clay-over-lead",
+    "book": 20239,
+    "paragraph": 903,
+    "leaf": "ancient-world/rome/engineering/vitruvius/aqueducts",
+    "locator": "VIII.6.10",
+    "start": 4,
+    "end": 497,
+    "text_sha256": "9fbd724389ec3b48dc8d174b22f0bbd4c9d2c0fbcc7ad84af4610b45c7a7b575"
+  },
+  {
+    "id": "tympanum-lift",
+    "book": 20239,
+    "paragraph": 1062,
+    "leaf": "ancient-world/rome/engineering/vitruvius/water-lifting",
+    "locator": "X.4.1–2",
+    "start": 233,
+    "end": 1269,
+    "text_sha256": "443cbe9471d02582842397540932c5838c389c3f9bd19a361b2f9af1879e120c",
+    "paragraph_end": 1064
+  },
+  {
+    "id": "bucket-chain",
+    "book": 20239,
+    "paragraph": 1064,
+    "leaf": "ancient-world/rome/engineering/vitruvius/water-lifting",
+    "locator": "X.4.3–4",
+    "start": 88,
+    "end": 885,
+    "text_sha256": "0676f2c5bbb9143433d81419b4eb4b6a77ba447cf5062c08e267f7072d99219b",
+    "paragraph_end": 1066
+  },
+  {
+    "id": "river-wheel",
+    "book": 20239,
+    "paragraph": 1068,
+    "leaf": "ancient-world/rome/engineering/vitruvius/water-lifting",
+    "locator": "X.5.1",
+    "start": 3,
+    "end": 424,
+    "text_sha256": "63471d5557aea854d835fc4068b2a431a0c39503409168eb2f62df3e6be708f4"
+  },
+  {
+    "id": "right-angle-mill",
+    "book": 20239,
+    "paragraph": 1069,
+    "leaf": "ancient-world/rome/engineering/vitruvius/watermills",
+    "locator": "X.5.2",
+    "start": 3,
+    "end": 593,
+    "text_sha256": "b91f95065c439776bd71ed9dfcdc400fd123c33af6c8e323fa330f5e3ea39df9"
+  },
+  {
+    "id": "steelyard-distance",
+    "book": 20239,
+    "paragraph": 1054,
+    "leaf": "ancient-world/rome/engineering/vitruvius/statics",
+    "locator": "X.3.4",
+    "start": 63,
+    "end": 628,
+    "text_sha256": "41174ad7e71f27d6afbc0dc4609ff43cc48c027484a2f65e6cad6185cdc100d0"
+  },
+  {
+    "id": "room-exposure",
+    "book": 20239,
+    "paragraph": 660,
+    "leaf": "ancient-world/rome/engineering/vitruvius/room-exposures",
+    "locator": "VI.4.2",
+    "start": 3,
+    "end": 706,
+    "text_sha256": "30953808e8820b9958b97cfd886abeeac5e333fa25c5980051a4b9cdaacb6cc8"
+  },
+  {
+    "id": "pg-46113-p0092-c00000",
+    "book": 46113,
+    "paragraph": 92,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Spaces and Quads",
+    "start": 0,
+    "end": 701,
+    "text_sha256": "d8fc069d828e5ff057a4144c439584d108ad3dc98807719fb4d9e5887ae1dd92"
+  },
+  {
+    "id": "pg-46113-p0095-c00000",
+    "book": 46113,
+    "paragraph": 95,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Leads and Slugs",
+    "start": 0,
+    "end": 437,
+    "text_sha256": "eeca97adfed07f54a0267db2825ab1ba981e6322b58af444ae02b86ef1d3593d"
+  },
+  {
+    "id": "pg-46113-p0098-c00000",
+    "book": 46113,
+    "paragraph": 98,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Leads and Slugs",
+    "start": 0,
+    "end": 271,
+    "text_sha256": "fe355a9f183725ea611e4fc2bbd4ab85a7e97d82da70ddb43c4dc21d001b2f12"
+  },
+  {
+    "id": "pg-46113-p0104-c00000",
+    "book": 46113,
+    "paragraph": 104,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Setting the Composing Stick",
+    "start": 0,
+    "end": 629,
+    "text_sha256": "3fab9e07ba03387a2019891f49030e7113afb77bd473cc97e0aa1b05a71e82c9"
+  },
+  {
+    "id": "pg-46113-p0111-c00000",
+    "book": 46113,
+    "paragraph": 111,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "The Composing Rule",
+    "start": 0,
+    "end": 511,
+    "text_sha256": "e36face3a240dc03d8b0ed2d670101e5e11123de3d05d394cba6ea0dc3c079bb"
+  },
+  {
+    "id": "pg-46113-p0122-c00000",
+    "book": 46113,
+    "paragraph": 122,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "The First Type Setting",
+    "start": 0,
+    "end": 518,
+    "text_sha256": "809447ef0f54f47dd77fa52bf66b5d160643429f2c336d6c720bb5bbd94de9c5"
+  },
+  {
+    "id": "pg-46113-p0124-c00000",
+    "book": 46113,
+    "paragraph": 124,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "The First Type Setting",
+    "start": 0,
+    "end": 937,
+    "text_sha256": "78b3764c03ade8d141bf362daec75cc22216e7f97fe06b2307371fab3d6c1f52"
+  },
+  {
+    "id": "pg-46113-p0129-c00000",
+    "book": 46113,
+    "paragraph": 129,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Justifying the Lines",
+    "start": 0,
+    "end": 677,
+    "text_sha256": "393dfe366eb792acc8396f58438145a97e4a03d3af8f688624d93c58ce1f21a3"
+  },
+  {
+    "id": "pg-46113-p0130-c00000",
+    "book": 46113,
+    "paragraph": 130,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Justifying the Lines",
+    "start": 0,
+    "end": 237,
+    "text_sha256": "f0b7914185aeb408fe50bff4ccdff7351b4a9648245a744d1ac85b52034723b2"
+  },
+  {
+    "id": "pg-46113-p0133-c00000",
+    "book": 46113,
+    "paragraph": 133,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Justifying the Lines",
+    "start": 0,
+    "end": 421,
+    "text_sha256": "350658d5a6ae466e2113002589dcace559f5ab07f689b4206fd77875d6a6cc47"
+  },
+  {
+    "id": "pg-46113-p0172-c00000",
+    "book": 46113,
+    "paragraph": 172,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Correcting",
+    "start": 0,
+    "end": 502,
+    "text_sha256": "04ab67eb6e02fc9f3698dd5b8c05f59a3c63a28d5827752023fbb24766330755"
+  },
+  {
+    "id": "pg-46113-p0175-c00000",
+    "book": 46113,
+    "paragraph": 175,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Correcting",
+    "start": 0,
+    "end": 482,
+    "text_sha256": "a66c4b05b86810135e225e15b67ec2cce58589fd7cfcbab207d9a7ac61011ab7"
+  },
+  {
+    "id": "pg-46113-p0193-c00000",
+    "book": 46113,
+    "paragraph": 193,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Spacing",
+    "start": 0,
+    "end": 354,
+    "text_sha256": "ba343d82be8904bd3598d39beae6b43f6fcb18d11d08134a0276f52cd6f41e04"
+  },
+  {
+    "id": "pg-46113-p0240-c00000",
+    "book": 46113,
+    "paragraph": 240,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Spacing",
+    "start": 0,
+    "end": 265,
+    "text_sha256": "2def5e9819789cb08289dc5014342fa354662d9bc74ebb199e19710c1488d716"
+  },
+  {
+    "id": "pg-46113-p0250-c00000",
+    "book": 46113,
+    "paragraph": 250,
+    "leaf": "material-practices/printing/united-states/stewart-1919",
+    "locator": "Wide Spacing",
+    "start": 0,
+    "end": 754,
+    "text_sha256": "fc3f09aa8b5e74d05d1c115b81bcbb2790469835e9eb66bc39c4d8bffb6ea116"
+  },
+  {
+    "id": "pg-31630-p0088-c00000",
+    "book": 31630,
+    "paragraph": 88,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter III",
+    "start": 0,
+    "end": 355,
+    "text_sha256": "22e539bea9339e06f0ea37b69fe58f42dbcec32eadf08e1daebf784ed853640c"
+  },
+  {
+    "id": "pg-31630-p0089-c00000",
+    "book": 31630,
+    "paragraph": 89,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter III",
+    "start": 0,
+    "end": 242,
+    "text_sha256": "7add927d33bb7ecdde2cb62fe950a7f5498a52fc50a2402eedec63862d70568a"
+  },
+  {
+    "id": "pg-31630-p0096-c00000",
+    "book": 31630,
+    "paragraph": 96,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter III",
+    "start": 0,
+    "end": 686,
+    "text_sha256": "95e9d8a4bf832cecf4c77e254496d04bfabbd7a7bf2d0999d77c6cebce9e51e4"
+  },
+  {
+    "id": "pg-31630-p0120-c00000",
+    "book": 31630,
+    "paragraph": 120,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter IV",
+    "start": 0,
+    "end": 427,
+    "text_sha256": "7552fc9e7405b285735627a41df718ce677a509e479681571f51242c504a152a"
+  },
+  {
+    "id": "pg-31630-p0131-c00000",
+    "book": 31630,
+    "paragraph": 131,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter V",
+    "start": 0,
+    "end": 977,
+    "text_sha256": "9079c5aed03b26001a7776574abb2e0027d924ccb82b3c48ca057a4ab4247f8a"
+  },
+  {
+    "id": "pg-31630-p0135-c00000",
+    "book": 31630,
+    "paragraph": 135,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter V",
+    "start": 0,
+    "end": 260,
+    "text_sha256": "8835f27b247f1b68aa9475fef46edf4bfa78f54d0ed484a2cb5c0165cba8a245"
+  },
+  {
+    "id": "pg-31630-p0137-c00000",
+    "book": 31630,
+    "paragraph": 137,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter V",
+    "start": 0,
+    "end": 272,
+    "text_sha256": "2a29c1c84f26162f754306aa298f4859936d4810bea64981bf19f47181e5a759"
+  },
+  {
+    "id": "pg-31630-p0141-c00000",
+    "book": 31630,
+    "paragraph": 141,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter V",
+    "start": 0,
+    "end": 274,
+    "text_sha256": "f22fdc6556aee00ec35f57d8305b1c88874728be69e7aa263ae8cecdc50b1eef"
+  },
+  {
+    "id": "pg-31630-p0292-c00000",
+    "book": 31630,
+    "paragraph": 292,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter VII",
+    "start": 0,
+    "end": 284,
+    "text_sha256": "714d622e3c82b488cbe7f84af3fc069cd68c1a57c0a1d42eb32c5e35806a75f9"
+  },
+  {
+    "id": "pg-31630-p0293-c00000",
+    "book": 31630,
+    "paragraph": 293,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter VII",
+    "start": 0,
+    "end": 380,
+    "text_sha256": "462d559c8de5303eccc828f8d105ab0efd1281f2747860f669031cb943c5ff51"
+  },
+  {
+    "id": "pg-31630-p0294-c00000",
+    "book": 31630,
+    "paragraph": 294,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter VII",
+    "start": 0,
+    "end": 616,
+    "text_sha256": "e1f1b954dbabc4bf7fdcbd62b9e05070f6e76bbaa9799e46a0bade23ddee7486"
+  },
+  {
+    "id": "pg-31630-p0300-c00000",
+    "book": 31630,
+    "paragraph": 300,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter VIII",
+    "start": 0,
+    "end": 267,
+    "text_sha256": "a81a57c17fcd3976d3253f9601bc0111fb06bf86c7edbe24e380f5e20c04d6ac"
+  },
+  {
+    "id": "pg-31630-p0332-c00000",
+    "book": 31630,
+    "paragraph": 332,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter XII",
+    "start": 0,
+    "end": 555,
+    "text_sha256": "78d24fd35aea67f6170d5d9afbe54ab7ac3b08c7a24b956a7c221d215b819eb4"
+  },
+  {
+    "id": "pg-31630-p0335-c00000",
+    "book": 31630,
+    "paragraph": 335,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter XII",
+    "start": 0,
+    "end": 354,
+    "text_sha256": "ee1fd1b64345f3e1372a52be4e2c15f6122a3eabd4f477b4bb2c571bfb0540d0"
+  },
+  {
+    "id": "pg-31630-p0336-c00000",
+    "book": 31630,
+    "paragraph": 336,
+    "leaf": "material-practices/textiles/school-weaving/todd-1902",
+    "locator": "Chapter XII",
+    "start": 0,
+    "end": 310,
+    "text_sha256": "0ceab724849c38a5e09b6a21695404ec36537616e48fda2582324113f49e498e"
+  },
+  {
+    "id": "pg-20239-p0143-c00000",
+    "book": 20239,
+    "paragraph": 143,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.3.1",
+    "start": 3,
+    "end": 615,
+    "text_sha256": "e4bdfa5e373666c4269e2f33eb69d3fcc22dacb9202a8c0bbfa25cf446e8fa29"
+  },
+  {
+    "id": "pg-20239-p0144-c00000",
+    "book": 20239,
+    "paragraph": 144,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.3.2",
+    "start": 3,
+    "end": 1133,
+    "text_sha256": "10ccd0e81b3671f3d1dd2024fcae3b0d8820b94233a2e53658922730943aa95d"
+  },
+  {
+    "id": "pg-20239-p0145-c00000",
+    "book": 20239,
+    "paragraph": 145,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.3.3",
+    "start": 3,
+    "end": 561,
+    "text_sha256": "895a89be5584dcb5db7ed9871c001ae1104df4ca3a23f8956595fbf5008d3059"
+  },
+  {
+    "id": "pg-20239-p0151-c00000",
+    "book": 20239,
+    "paragraph": 151,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.4.1",
+    "start": 3,
+    "end": 503,
+    "text_sha256": "d80e50d67a219a2dfa2fd93bf09e189e20bbdeccbf785d80f462e5d4f9ed06e9"
+  },
+  {
+    "id": "pg-20239-p0152-c00000",
+    "book": 20239,
+    "paragraph": 152,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.4.2",
+    "start": 3,
+    "end": 502,
+    "text_sha256": "068b395b3cecaa9adb9b2075f634fb85c45b0d01820b9611709258429d2d3fa3"
+  },
+  {
+    "id": "pg-20239-p0153-c00000",
+    "book": 20239,
+    "paragraph": 153,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.4.3",
+    "start": 3,
+    "end": 886,
+    "text_sha256": "e958f581dcf6e029f33415021a42c0e41873ffe0c7b737ba933d0ea49c113281"
+  },
+  {
+    "id": "pg-20239-p0156-c00000",
+    "book": 20239,
+    "paragraph": 156,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.5.1",
+    "start": 3,
+    "end": 713,
+    "text_sha256": "6b7c4173fc9eac7feb26711028d3ce341e0115ef4329bfeaecceb5986afeb720"
+  },
+  {
+    "id": "pg-20239-p0161-c00000",
+    "book": 20239,
+    "paragraph": 161,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.6.1",
+    "start": 3,
+    "end": 1091,
+    "text_sha256": "8734f13c4c1cd57fc4733f98e9031336daa963e88af95eb302edc6bd20582a28"
+  },
+  {
+    "id": "pg-20239-p0176-c00000",
+    "book": 20239,
+    "paragraph": 176,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.7.3",
+    "start": 3,
+    "end": 618,
+    "text_sha256": "21131f452e6ef0a9e7e762d97222d159d6ec8acde8832280ea88861cd4262850"
+  },
+  {
+    "id": "pg-20239-p0178-c00000",
+    "book": 20239,
+    "paragraph": 178,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.7.5",
+    "start": 3,
+    "end": 764,
+    "text_sha256": "b9e2417853a43524fd34463415384c5d82b69e900711f2f769f6f262bb64e6c7"
+  },
+  {
+    "id": "pg-20239-p0182-c00000",
+    "book": 20239,
+    "paragraph": 182,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.8.1",
+    "start": 3,
+    "end": 430,
+    "text_sha256": "3dee98ce56932df61904c904cdb76f3f98734673786c16de30ba6fc2102ef324"
+  },
+  {
+    "id": "pg-20239-p0187-c00000",
+    "book": 20239,
+    "paragraph": 187,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.8.6",
+    "start": 3,
+    "end": 565,
+    "text_sha256": "179c65f457fb6192ffc3348e30b535790285430b9545203160ea47ed8bb32a7c"
+  },
+  {
+    "id": "pg-20239-p0188-c00000",
+    "book": 20239,
+    "paragraph": 188,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.8.7",
+    "start": 3,
+    "end": 1046,
+    "text_sha256": "f591ab039dcaec6d457a396e10f898672b13e8182deca046061aa870adffc6a8"
+  },
+  {
+    "id": "pg-20239-p0199-c00000",
+    "book": 20239,
+    "paragraph": 199,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.8.17",
+    "start": 4,
+    "end": 1071,
+    "text_sha256": "2bcdec7374449140058dfaae8a0d3bf70f288638af8580ff1d005d93e28086a7"
+  },
+  {
+    "id": "pg-20239-p0215-c00000",
+    "book": 20239,
+    "paragraph": 215,
+    "leaf": "ancient-world/rome/engineering/vitruvius/building-materials",
+    "locator": "II.9.10",
+    "start": 4,
+    "end": 631,
+    "text_sha256": "f3539a4ce318af0842a7197117db63b557050a8190979e2ed0dd902121e80f5e"
+  },
+  {
+    "id": "beeton-dinner-january",
+    "book": 10136,
+    "paragraph": 10306,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "January bill of fare",
+    "start": 6,
+    "end": 362,
+    "text_sha256": "85ade6c816449744616c3a75100f8604fcf9a554b0b49d431424c66d9e11af75",
+    "paragraph_end": 10312
+  },
+  {
+    "id": "beeton-dinner-february",
+    "book": 10136,
+    "paragraph": 10376,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "February bill of fare",
+    "start": 6,
+    "end": 421,
+    "text_sha256": "3232cbe061ef601c682a9edfe24d26db606c18feb8a4a926450883129c31740a",
+    "paragraph_end": 10382
+  },
+  {
+    "id": "beeton-dinner-march",
+    "book": 10136,
+    "paragraph": 10445,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "March bill of fare",
+    "start": 6,
+    "end": 658,
+    "text_sha256": "064b531d63221fa48cd3dcf3db5956a45a5e6f7692d21692bf055cef9431948a",
+    "paragraph_end": 10451
+  },
+  {
+    "id": "beeton-dinner-april",
+    "book": 10136,
+    "paragraph": 10544,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "April bill of fare",
+    "start": 6,
+    "end": 311,
+    "text_sha256": "19e9ca243d63022d6ebc7918fb2f125c2b42862aecc853b0f201c2abc89ab788",
+    "paragraph_end": 10550
+  },
+  {
+    "id": "beeton-dinner-may",
+    "book": 10136,
+    "paragraph": 10620,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "May bill of fare",
+    "start": 6,
+    "end": 328,
+    "text_sha256": "32ef6f2917e28a6edddc7ddaa11b0da7dd9f9fc8d5ef48f1049fd6bed8789c62",
+    "paragraph_end": 10626
+  },
+  {
+    "id": "beeton-dinner-june",
+    "book": 10136,
+    "paragraph": 10689,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "June bill of fare",
+    "start": 6,
+    "end": 550,
+    "text_sha256": "d7a09a9ef5127ec344c6388e4dfb9c9db207a532891946e789b91b7e6aee4a20",
+    "paragraph_end": 10695
+  },
+  {
+    "id": "beeton-dinner-july",
+    "book": 10136,
+    "paragraph": 10782,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "July bill of fare",
+    "start": 6,
+    "end": 473,
+    "text_sha256": "1415c75db175568147286ff1cd3c1f6cf0c36ce1821be7ef3cdc77b5e18b801b",
+    "paragraph_end": 10788
+  },
+  {
+    "id": "beeton-dinner-august",
+    "book": 10136,
+    "paragraph": 10839,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "August bill of fare",
+    "start": 6,
+    "end": 389,
+    "text_sha256": "1477fef9dd632d8b412cf3209a62d39782e072b2a83a4acc6e8729b44960525d",
+    "paragraph_end": 10845
+  },
+  {
+    "id": "beeton-dinner-september",
+    "book": 10136,
+    "paragraph": 10896,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "September bill of fare",
+    "start": 6,
+    "end": 485,
+    "text_sha256": "78212ff4f0ac826d807acbe0f84c2c59cf35f155cedc48583068af23e84b2e65",
+    "paragraph_end": 10903
+  },
+  {
+    "id": "beeton-dinner-october",
+    "book": 10136,
+    "paragraph": 10972,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "October bill of fare",
+    "start": 6,
+    "end": 387,
+    "text_sha256": "7f40ed5636418c44cf945c7cfd2dbdf24e7ffdd4ce38865df222219dd971335f",
+    "paragraph_end": 10978
+  },
+  {
+    "id": "beeton-dinner-november",
+    "book": 10136,
+    "paragraph": 11020,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "November bill of fare",
+    "start": 6,
+    "end": 527,
+    "text_sha256": "ffbb2ca7121ea60d2d33539bd46daa3ea98faa8c0ee7fa6de2cad9b176e1f016",
+    "paragraph_end": 11026
+  },
+  {
+    "id": "beeton-dinner-december",
+    "book": 10136,
+    "paragraph": 11096,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "December bill of fare",
+    "start": 6,
+    "end": 412,
+    "text_sha256": "56473a8b379b04a661086311af586b27d8c7bbd08466f3f9b3fc8f5c738ec46a",
+    "paragraph_end": 11102
+  },
+  {
+    "id": "beeton-november-service-russe",
+    "book": 10136,
+    "paragraph": 11199,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "Service à la Russe, November",
+    "start": 6,
+    "end": 707,
+    "text_sha256": "c8cddc570e4c4fc4ba32d014df7cbd701f72227476fdfe16661cd859d08cfe00",
+    "paragraph_end": 11217
+  },
+  {
+    "id": "beeton-dinner-invitation",
+    "book": 10136,
+    "paragraph": 207,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "§33",
+    "start": 0,
+    "end": 230,
+    "text_sha256": "f84bb91af2d1979b5be560e3493783b39fb78767f1af3949cad2960a6fadd2f9",
+    "paragraph_end": 209
+  },
+  {
+    "id": "beeton-dinner-acceptance",
+    "book": 10136,
+    "paragraph": 210,
+    "leaf": "material-practices/households/britain/beeton-1861",
+    "locator": "§33",
+    "start": 0,
+    "end": 237,
+    "text_sha256": "ea38b0c365901de342d0a59d96562ce25d0c56e00d074948ab6742295acb5ce8",
+    "paragraph_end": 212
   }
 ]
