@@ -1,32 +1,32 @@
 [
   {
     "id": "pubchem-cid-750",
-    "text": "glycine\nMolecular formula: C2H5NO2.\nMolar mass (calculated): 75.07 g/mol.\nAtoms per molecule: C: 2, H: 5, N: 1, O: 2.\nGlycine is achiral.\nSMILES: C(C(=O)O)N\nNeutral structural representation; protonation in solution depends on pH.",
+    "text": "glycine (C2H5NO2)\nMolar mass: 75.07 g/mol\nSMILES: C(C(=O)O)N",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glycine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 750; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
   },
   {
     "id": "pubchem-cid-5950",
-    "text": "L-alanine\nMolecular formula: C3H7NO2.\nMolar mass (calculated): 89.09 g/mol.\nAtoms per molecule: C: 3, H: 7, N: 1, O: 2.\nL stereoisomer; IUPAC name: (2S)-2-aminopropanoic acid.\nSMILES: C[C@@H](C(=O)O)N\nNeutral structural representation; protonation in solution depends on pH.",
+    "text": "L-alanine (C3H7NO2)\nMolar mass: 89.09 g/mol\nSMILES: C[C@@H](C(=O)O)N",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-alanine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 5950; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
   },
   {
     "id": "pubchem-cid-6287",
-    "text": "L-valine\nMolecular formula: C5H11NO2.\nMolar mass (calculated): 117.15 g/mol.\nAtoms per molecule: C: 5, H: 11, N: 1, O: 2.\nL stereoisomer; IUPAC name: (2S)-2-amino-3-methylbutanoic acid.\nSMILES: CC(C)[C@@H](C(=O)O)N\nNeutral structural representation; protonation in solution depends on pH.",
+    "text": "L-valine (C5H11NO2)\nMolar mass: 117.15 g/mol\nSMILES: CC(C)[C@@H](C(=O)O)N",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-valine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6287; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
   },
   {
     "id": "pubchem-cid-6106",
-    "text": "L-leucine\nMolecular formula: C6H13NO2.\nMolar mass (calculated): 131.17 g/mol.\nAtoms per molecule: C: 6, H: 13, N: 1, O: 2.\nL stereoisomer; IUPAC name: (2S)-2-amino-4-methylpentanoic acid.\nSMILES: CC(C)C[C@@H](C(=O)O)N\nNeutral structural representation; protonation in solution depends on pH.",
+    "text": "L-leucine (C6H13NO2)\nMolar mass: 131.17 g/mol\nSMILES: CC(C)C[C@@H](C(=O)O)N",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-leucine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6106; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
   },
   {
     "id": "pubchem-cid-6306",
-    "text": "L-isoleucine\nMolecular formula: C6H13NO2.\nMolar mass (calculated): 131.17 g/mol.\nAtoms per molecule: C: 6, H: 13, N: 1, O: 2.\nL stereoisomer; IUPAC name: (2S,3S)-2-amino-3-methylpentanoic acid.\nSMILES: CC[C@H](C)[C@@H](C(=O)O)N\nNeutral structural representation; protonation in solution depends on pH.",
+    "text": "L-isoleucine (C6H13NO2)\nMolar mass: 131.17 g/mol\nSMILES: CC[C@H](C)[C@@H](C(=O)O)N",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-isoleucine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6306; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
   },
   {
     "id": "pubchem-cid-145742",
-    "text": "L-proline\nMolecular formula: C5H9NO2.\nMolar mass (calculated): 115.13 g/mol.\nAtoms per molecule: C: 5, H: 9, N: 1, O: 2.\nL stereoisomer; IUPAC name: (2S)-pyrrolidine-2-carboxylic acid.\nSMILES: C1C[C@H](NC1)C(=O)O\nNeutral structural representation; protonation in solution depends on pH.",
+    "text": "L-proline (C5H9NO2)\nMolar mass: 115.13 g/mol\nSMILES: C1C[C@H](NC1)C(=O)O",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-proline/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 145742; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
   }
 ]

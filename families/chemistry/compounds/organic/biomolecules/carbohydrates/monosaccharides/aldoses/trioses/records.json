@@ -1,12 +1,12 @@
 [
   {
     "id": "pubchem-cid-79014",
-    "text": "D-glyceraldehyde\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C3H6O3; empirical formula: CH2O.\nMolar mass (calculated): 90.08 g/mol; formal charge: 0.\nAtoms per molecule: C: 3, H: 6, O: 3.\nSystematic name: (2R)-2,3-dihydroxypropanal\nStereochemical SMILES: C([C@H](C=O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "text": "D-glyceraldehyde (C3H6O3)\nOpen-chain aldose\nMolar mass: 90.08 g/mol\nSMILES: C([C@H](C=O)O)O",
     "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-glyceraldehyde/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 79014; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
   },
   {
     "id": "pubchem-cid-439723",
-    "text": "L-glyceraldehyde\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C3H6O3; empirical formula: CH2O.\nMolar mass (calculated): 90.08 g/mol; formal charge: 0.\nAtoms per molecule: C: 3, H: 6, O: 3.\nSystematic name: (2S)-2,3-dihydroxypropanal\nStereochemical SMILES: C([C@@H](C=O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "text": "L-glyceraldehyde (C3H6O3)\nOpen-chain aldose\nMolar mass: 90.08 g/mol\nSMILES: C([C@@H](C=O)O)O",
     "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-glyceraldehyde/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 439723; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
   }
 ]

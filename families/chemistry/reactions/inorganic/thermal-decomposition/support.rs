@@ -2,7 +2,7 @@
 use rand::{Rng, rngs::StdRng};
 
 pub struct Reaction {
-    pub title: &'static str,
+    pub identity: &'static str,
     pub left: &'static [(u32, &'static str)],
     pub right: &'static [(u32, &'static str)],
     pub conditions: &'static str,
@@ -23,27 +23,19 @@ fn side(terms: &[(u32, &str)]) -> String {
         .join(" + ")
 }
 
-fn amounts(terms: &[(u32, &str)], extent: u32) -> String {
-    terms
-        .iter()
-        .map(|(n, species)| format!("{} mol {species}", n * extent))
-        .collect::<Vec<_>>()
-        .join(", ")
-}
-
 pub fn generate(rng: &mut StdRng, reactions: &[Reaction]) -> String {
     let r = &reactions[rng.random_range(0..reactions.len())];
-    let extent = rng.random_range(1..=8);
-    format!(
-        "{}\n{} {} {}\nConditions: {}\nFor a forward extent of {extent} mol: consume {}; produce {}.",
-        r.title,
+    let equation = format!(
+        "{} {} {}",
         side(r.left),
         if r.equilibrium { "<=>" } else { "->" },
-        side(r.right),
-        r.conditions,
-        amounts(r.left, extent),
-        amounts(r.right, extent)
-    )
+        side(r.right)
+    );
+    [r.identity, &equation, r.conditions]
+        .into_iter()
+        .filter(|line| !line.is_empty())
+        .collect::<Vec<_>>()
+        .join("\n")
 }
 
 #[cfg(test)]
@@ -124,7 +116,7 @@ mod tests {
     #[test]
     fn atom_and_charge_conservation_and_primitive_coefficients() {
         for r in super::super::REACTIONS {
-            assert_eq!(inventory(r.left), inventory(r.right), "{}", r.title);
+            assert_eq!(inventory(r.left), inventory(r.right), "{}", side(r.left));
             let mut divisor = 0;
             for (n, _) in r.left.iter().chain(r.right) {
                 assert!(*n > 0);
@@ -133,21 +125,19 @@ mod tests {
                     (divisor, n) = (n, divisor % n);
                 }
             }
-            assert_eq!(divisor, 1, "{}", r.title);
-            assert!(!r.conditions.is_empty());
+            assert_eq!(divisor, 1, "{}", side(r.left));
         }
         assert_eq!(species("Ca(NO3)2(aq)").0["O"], 6);
         assert_eq!(species("Cr2O7^2-(aq)").1, -2);
     }
 
     #[test]
-    fn deterministic_conditioned_samples() {
+    fn deterministic_samples() {
         let mut a = StdRng::seed_from_u64(72);
         let mut b = StdRng::seed_from_u64(72);
         for _ in 0..200 {
             let output = generate(&mut a, super::super::REACTIONS);
             assert_eq!(output, generate(&mut b, super::super::REACTIONS));
-            assert!(output.contains("Conditions:"));
             assert!(!output.ends_with('\n'));
         }
     }

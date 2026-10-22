@@ -1,22 +1,132 @@
 [
   {
     "id": "stereo-5287573-62695",
-    "text": "cis-2-butene and trans-2-butene\nGeometric diastereomers with molecular formula C4H8. The Z (cis) and E (trans) configurations have different arrangements across the carbon-carbon double bond.\ncis-2-butene: C/C=C\\C\ntrans-2-butene: C/C=C/C",
-    "provenance": "PubChem structure identities 5287573 and 62695; explicit stereochemical relation reviewed independently. Original prose and formatting; factual identity/calculated structures only. URLs and checksums in chemistry/source_manifest.json."
+    "text": "cis-2-butene: C/C=C\\C\ntrans-2-butene: C/C=C/C\n\nC4H8 — geometric diastereomers (Z / E)",
+    "provenance": "PubChem CIDs 5287573-62695; factual identities and source SMILES. Explicit geometrical or alpha-carbon assignments reviewed independently; pinned inputs in chemistry/source_manifest.json."
   },
   {
     "id": "stereo-444266-444972",
-    "text": "maleic acid and fumaric acid\nGeometric diastereomers with molecular formula C4H4O4. Maleic acid is Z-butenedioic acid; fumaric acid is E-butenedioic acid.\nmaleic acid: C(=C\\C(=O)O)\\C(=O)O\nfumaric acid: C(=C/C(=O)O)\\C(=O)O",
-    "provenance": "PubChem structure identities 444266 and 444972; explicit stereochemical relation reviewed independently. Original prose and formatting; factual identity/calculated structures only. URLs and checksums in chemistry/source_manifest.json."
+    "text": "maleic acid: C(=C\\C(=O)O)\\C(=O)O\nfumaric acid: C(=C/C(=O)O)\\C(=O)O\n\nC4H4O4 — geometric diastereomers (Z / E)",
+    "provenance": "PubChem CIDs 444266-444972; factual identities and source SMILES. Explicit geometrical or alpha-carbon assignments reviewed independently; pinned inputs in chemistry/source_manifest.json."
   },
   {
     "id": "stereo-5950-71080",
-    "text": "L-alanine and D-alanine\nEnantiomers with molecular formula C3H7NO2. L-alanine has S configuration and D-alanine has R configuration at the alpha carbon. D/L labels specify configuration; optical-rotation sign is a separate property.\nL-alanine: C[C@@H](C(=O)O)N\nD-alanine: C[C@H](C(=O)O)N",
-    "provenance": "PubChem structure identities 5950 and 71080; explicit stereochemical relation reviewed independently. Original prose and formatting; factual identity/calculated structures only. URLs and checksums in chemistry/source_manifest.json."
+    "text": "L-alanine: C[C@@H](C(=O)O)N\nD-alanine: C[C@H](C(=O)O)N\n\nC3H7NO2 — enantiomers (S / R)",
+    "provenance": "PubChem CIDs 5950-71080; factual identities and source SMILES. Explicit geometrical or alpha-carbon assignments reviewed independently; pinned inputs in chemistry/source_manifest.json."
   },
   {
-    "id": "stereo-5793-6036",
-    "text": "D-glucose and D-galactose\nDiastereomers with molecular formula C6H12O6. In their open-chain forms these aldohexoses differ at carbon 4 and are C4 epimers; glucose and fructose instead differ in connectivity.\nD-glucose: C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O\nD-galactose: C([C@@H]1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
-    "provenance": "PubChem structure identities 5793 and 6036; explicit stereochemical relation reviewed independently. Original prose and formatting; factual identity/calculated structures only. URLs and checksums in chemistry/source_manifest.json."
+    "id": "stereo-79014-439723",
+    "text": "D-glyceraldehyde: C([C@H](C=O)O)O\nL-glyceraldehyde: C([C@@H](C=O)O)O\n\nC3H6O3 — enantiomers · open-chain forms",
+    "provenance": "PubChem CIDs 79014-439723; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-94176-5460674",
+    "text": "D-erythrose: C([C@H]([C@H](C=O)O)O)O\nL-erythrose: C([C@@H]([C@@H](C=O)O)O)O\n\nC4H8O4 — enantiomers · open-chain forms",
+    "provenance": "PubChem CIDs 94176-5460674; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-94176-439665",
+    "text": "D-erythrose: C([C@H]([C@H](C=O)O)O)O\nD-threose: C([C@H]([C@@H](C=O)O)O)O\n\nC4H8O4 — C2 epimers · open-chain forms",
+    "provenance": "PubChem CIDs 94176-439665; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-94176-5460672",
+    "text": "D-erythrose: C([C@H]([C@H](C=O)O)O)O\nL-threose: C([C@@H]([C@H](C=O)O)O)O\n\nC4H8O4 — C3 epimers · open-chain forms",
+    "provenance": "PubChem CIDs 94176-5460672; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-5460674-439665",
+    "text": "L-erythrose: C([C@@H]([C@@H](C=O)O)O)O\nD-threose: C([C@H]([C@@H](C=O)O)O)O\n\nC4H8O4 — C3 epimers · open-chain forms",
+    "provenance": "PubChem CIDs 5460674-439665; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-5460674-5460672",
+    "text": "L-erythrose: C([C@@H]([C@@H](C=O)O)O)O\nL-threose: C([C@@H]([C@H](C=O)O)O)O\n\nC4H8O4 — C2 epimers · open-chain forms",
+    "provenance": "PubChem CIDs 5460674-5460672; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-439665-5460672",
+    "text": "D-threose: C([C@H]([C@@H](C=O)O)O)O\nL-threose: C([C@@H]([C@H](C=O)O)O)O\n\nC4H8O4 — enantiomers · open-chain forms",
+    "provenance": "PubChem CIDs 439665-5460672; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-90428-66308",
+    "text": "L-ribose: C([C@@H]([C@@H]([C@@H](C=O)O)O)O)O\nD-arabinose: C([C@H]([C@H]([C@@H](C=O)O)O)O)O\n\nC5H10O5 — diastereomers · open-chain forms",
+    "provenance": "PubChem CIDs 90428-66308; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-90428-95259",
+    "text": "L-ribose: C([C@@H]([C@@H]([C@@H](C=O)O)O)O)O\nL-xylose: C([C@@H]([C@H]([C@@H](C=O)O)O)O)O\n\nC5H10O5 — C3 epimers · open-chain forms",
+    "provenance": "PubChem CIDs 90428-95259; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-90428-644176",
+    "text": "L-ribose: C([C@@H]([C@@H]([C@@H](C=O)O)O)O)O\nL-lyxose: C([C@@H]([C@H]([C@H](C=O)O)O)O)O\n\nC5H10O5 — diastereomers · open-chain forms",
+    "provenance": "PubChem CIDs 90428-644176; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-66308-95259",
+    "text": "D-arabinose: C([C@H]([C@H]([C@@H](C=O)O)O)O)O\nL-xylose: C([C@@H]([C@H]([C@@H](C=O)O)O)O)O\n\nC5H10O5 — C4 epimers · open-chain forms",
+    "provenance": "PubChem CIDs 66308-95259; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-66308-644176",
+    "text": "D-arabinose: C([C@H]([C@H]([C@@H](C=O)O)O)O)O\nL-lyxose: C([C@@H]([C@H]([C@H](C=O)O)O)O)O\n\nC5H10O5 — diastereomers · open-chain forms",
+    "provenance": "PubChem CIDs 66308-644176; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-95259-644176",
+    "text": "L-xylose: C([C@@H]([C@H]([C@@H](C=O)O)O)O)O\nL-lyxose: C([C@@H]([C@H]([C@H](C=O)O)O)O)O\n\nC5H10O5 — C2 epimers · open-chain forms",
+    "provenance": "PubChem CIDs 95259-644176; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-111317-82308",
+    "text": "L-allose: C([C@@H]([C@@H]([C@@H]([C@@H](C=O)O)O)O)O)O\nL-mannose: C([C@@H]([C@@H]([C@H]([C@H](C=O)O)O)O)O)O\n\nC6H12O6 — diastereomers · open-chain forms",
+    "provenance": "PubChem CIDs 111317-82308; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-111317-80127",
+    "text": "L-allose: C([C@@H]([C@@H]([C@@H]([C@@H](C=O)O)O)O)O)O\nL-gulose: C([C@@H]([C@H]([C@@H]([C@@H](C=O)O)O)O)O)O\n\nC6H12O6 — C4 epimers · open-chain forms",
+    "provenance": "PubChem CIDs 111317-80127; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-111317-84996",
+    "text": "L-allose: C([C@@H]([C@@H]([C@@H]([C@@H](C=O)O)O)O)O)O\nL-galactose: C([C@@H]([C@H]([C@H]([C@@H](C=O)O)O)O)O)O\n\nC6H12O6 — diastereomers · open-chain forms",
+    "provenance": "PubChem CIDs 111317-84996; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-111317-90173",
+    "text": "L-allose: C([C@@H]([C@@H]([C@@H]([C@@H](C=O)O)O)O)O)O\nL-talose: C([C@@H]([C@H]([C@H]([C@H](C=O)O)O)O)O)O\n\nC6H12O6 — diastereomers · open-chain forms",
+    "provenance": "PubChem CIDs 111317-90173; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-82308-80127",
+    "text": "L-mannose: C([C@@H]([C@@H]([C@H]([C@H](C=O)O)O)O)O)O\nL-gulose: C([C@@H]([C@H]([C@@H]([C@@H](C=O)O)O)O)O)O\n\nC6H12O6 — diastereomers · open-chain forms",
+    "provenance": "PubChem CIDs 82308-80127; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-82308-84996",
+    "text": "L-mannose: C([C@@H]([C@@H]([C@H]([C@H](C=O)O)O)O)O)O\nL-galactose: C([C@@H]([C@H]([C@H]([C@@H](C=O)O)O)O)O)O\n\nC6H12O6 — diastereomers · open-chain forms",
+    "provenance": "PubChem CIDs 82308-84996; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-82308-90173",
+    "text": "L-mannose: C([C@@H]([C@@H]([C@H]([C@H](C=O)O)O)O)O)O\nL-talose: C([C@@H]([C@H]([C@H]([C@H](C=O)O)O)O)O)O\n\nC6H12O6 — C4 epimers · open-chain forms",
+    "provenance": "PubChem CIDs 82308-90173; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-80127-84996",
+    "text": "L-gulose: C([C@@H]([C@H]([C@@H]([C@@H](C=O)O)O)O)O)O\nL-galactose: C([C@@H]([C@H]([C@H]([C@@H](C=O)O)O)O)O)O\n\nC6H12O6 — C3 epimers · open-chain forms",
+    "provenance": "PubChem CIDs 80127-84996; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-80127-90173",
+    "text": "L-gulose: C([C@@H]([C@H]([C@@H]([C@@H](C=O)O)O)O)O)O\nL-talose: C([C@@H]([C@H]([C@H]([C@H](C=O)O)O)O)O)O\n\nC6H12O6 — diastereomers · open-chain forms",
+    "provenance": "PubChem CIDs 80127-90173; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
+  },
+  {
+    "id": "stereo-84996-90173",
+    "text": "L-galactose: C([C@@H]([C@H]([C@H]([C@@H](C=O)O)O)O)O)O\nL-talose: C([C@@H]([C@H]([C@H]([C@H](C=O)O)O)O)O)O\n\nC6H12O6 — C2 epimers · open-chain forms",
+    "provenance": "PubChem CIDs 84996-90173; factual identities and source SMILES. Pinned inputs in chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/source_manifest.json. Identical open-chain IUPAC backbones and stereocenter positions; relation determined from the complete R/S assignments."
   }
 ]

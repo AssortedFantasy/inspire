@@ -17,7 +17,7 @@ Deoxy/amino sugars, sugar alcohols and sugar acids are excluded.
 `target/chemistry-sources/`. Without `--download`, every cached response must
 match the exact URL and SHA-256 in `source_manifest.json`. The two original
 cached responses retain their original keys and checksums. The importer checks
-CnH2nOn formulas, CH2O ratios, neutral charge, molar masses, independent SMILES
+CnH2nOn formulas, neutral charge, molar masses, independent SMILES
 valence inventories, ring/aldehyde consistency, stereo-centre counts and
 IUPAC configuration tuples, plus record ID/text uniqueness. Its restricted
 SMILES parser rejects chemistry outside the selected neutral C/O scope.

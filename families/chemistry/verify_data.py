@@ -3,11 +3,27 @@ import hashlib
 import json
 import re
 from pathlib import Path
-from import_data import CACHE, ROOT, composition, empirical
+from import_data import CACHE, ROOT, CONVENTIONAL_FORMULAS, composition, empirical
+
+
+def check_record_weights(branch):
+    records = branch / "records.json"
+    if records.exists():
+        return len(json.loads(records.read_text(encoding="utf-8")))
+    total = 0
+    for child in (path for path in branch.iterdir() if path.is_dir()):
+        count = check_record_weights(child)
+        assert (child / "node.toml").read_text().strip() == f"weight = {count}", child
+        total += count
+    return total
 
 
 def main():
-    manifest = json.loads((ROOT / "source_manifest.json").read_text())
+    manifest = {}
+    for path in ROOT.rglob("source_manifest.json"):
+        for key, entry in json.loads(path.read_text()).items():
+            assert key not in manifest or manifest[key] == entry, (path, key)
+            manifest[key] = entry
     for key, entry in manifest.items():
         assert hashlib.sha256((CACHE / (key + ".json")).read_bytes()).hexdigest() == entry["sha256"], key
     table = json.loads((CACHE / "periodic-table.json").read_text())["Table"]
@@ -36,8 +52,12 @@ def main():
     assert formulas["benzene"] == "C6H6"
     assert formulas["glycine"] == "C2H5NO2"
     assert formulas["sodium chloride"] == "ClNa"  # PubChem Hill order, not NaCl.
+    for name, formula in CONVENTIONAL_FORMULAS.items():
+        assert composition(formula) == composition(formulas[name]), name
     assert empirical(composition("C6H12O6")) == "CH2O"
     assert empirical(composition("C2H6O")) == "C2H6O"
+    assert check_record_weights(ROOT / "elements") == 118
+    compound_count = check_record_weights(ROOT / "compounds")
     texts = set()
     count = 0
     for path in ROOT.rglob("records.json"):
@@ -52,7 +72,7 @@ def main():
             ids.add(record["id"])
             texts.add(record["text"])
             count += 1
-    print(f"Verified {len(manifest)} source hashes, 118 electron configurations, {len(data)} compounds and {count} unique corpus records.")
+    print(f"Verified {len(manifest)} source hashes, 118 electron configurations, {compound_count} compound records, uniform identity weights and {count} unique corpus records.")
 
 
 if __name__ == "__main__":

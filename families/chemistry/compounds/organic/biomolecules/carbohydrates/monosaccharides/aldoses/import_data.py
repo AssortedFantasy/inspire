@@ -112,16 +112,11 @@ def records(selected, manifest):
         category = entry['group']
         if carbon >= 5:
             category += '/pyranoses' if cyclic else '/open-chain'
-        form = 'Pyranose (six-membered cyclic hemiacetal); anomeric configuration unspecified.' if cyclic else 'Open-chain aldose; terminal aldehyde.'
+        form = 'Pyranose, anomer unspecified' if cyclic else 'Open-chain aldose'
         text = (
-            f"{label}\nRepresentation: {form}\n"
-            f"Molecular formula: {data['MolecularFormula']}; empirical formula: CH2O.\n"
-            f"Molar mass (calculated): {data['MolecularWeight']} g/mol; formal charge: 0.\n"
-            f"Atoms per molecule: C: {carbon}, H: {2 * carbon}, O: {carbon}.\n"
-            f"Systematic name: {data['IUPACName']}\n"
-            f"Stereochemical SMILES: {data['SMILES']}\n"
-            'D/L labels specify configuration; optical-rotation sign is a separate property. '
-            + ('Aqueous aldoses also form cyclic hemiacetals.' if not cyclic else 'Open-chain and other cyclic forms also occur in aqueous solution.')
+            f"{label} ({data['MolecularFormula']})\n{form}\n"
+            f"Molar mass: {float(data['MolecularWeight']):g} g/mol\n"
+            f"SMILES: {data['SMILES']}"
         )
         provenance = (
             f"Selected PubChem factual identity/computed properties; {manifest[entry['key']]['url']}; CID {data['CID']}; "

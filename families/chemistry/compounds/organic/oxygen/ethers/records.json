@@ -1,27 +1,27 @@
 [
   {
     "id": "pubchem-cid-8254",
-    "text": "dimethyl ether\nMolecular formula: C2H6O.\nMolar mass (calculated): 46.07 g/mol.\nAtoms per molecule: C: 2, H: 6, O: 1.\nSMILES: COC",
+    "text": "dimethyl ether (C2H6O)\nMolar mass: 46.07 g/mol\nSMILES: COC",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/dimethyl%20ether/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 8254; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-3283",
-    "text": "diethyl ether\nMolecular formula: C4H10O.\nMolar mass (calculated): 74.12 g/mol.\nAtoms per molecule: C: 4, H: 10, O: 1.\nSMILES: CCOCC",
+    "text": "diethyl ether (C4H10O)\nMolar mass: 74.12 g/mol\nSMILES: CCOCC",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/diethyl%20ether/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 3283; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-8028",
-    "text": "tetrahydrofuran\nMolecular formula: C4H8O.\nMolar mass (calculated): 72.11 g/mol.\nAtoms per molecule: C: 4, H: 8, O: 1.\nSMILES: C1CCOC1",
+    "text": "tetrahydrofuran (C4H8O)\nMolar mass: 72.11 g/mol\nSMILES: C1CCOC1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/tetrahydrofuran/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 8028; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-7519",
-    "text": "anisole\nMolecular formula: C7H8O.\nMolar mass (calculated): 108.14 g/mol.\nAtoms per molecule: C: 7, H: 8, O: 1.\nSMILES: COC1=CC=CC=C1",
+    "text": "anisole (C7H8O)\nMolar mass: 108.14 g/mol\nSMILES: COC1=CC=CC=C1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/anisole/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 7519; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-31275",
-    "text": "dioxane\nMolecular formula: C4H8O2; empirical formula: C2H4O.\nMolar mass (calculated): 88.11 g/mol.\nAtoms per molecule: C: 4, H: 8, O: 2.\nSMILES: C1COCCO1",
+    "text": "dioxane (C4H8O2)\nMolar mass: 88.11 g/mol\nSMILES: C1COCCO1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/dioxane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 31275; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   }
 ]

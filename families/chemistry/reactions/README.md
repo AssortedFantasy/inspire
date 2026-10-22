@@ -12,9 +12,12 @@ Neutralization enumerates soluble combinations of dilute strong monoprotic acids
 and alkali hydroxides plus one barium-hydroxide/nitric-acid example. It does not
 randomly combine salts or infer that every exchange precipitates. Combustion
 coefficients follow C/H/O accounting for 28 actual fuels, with water vapor among
-hot products. Extents multiply coefficients without predicting actual conversion.
+hot products. Fuel names distinguish isomers that share a molecular formula.
+Outputs use primitive integer coefficients, with no randomly scaled extents or
+repeated consumption/production calculations.
 
 Rust tests independently parse displayed formulas, parentheses and charges, and
 check every complete equation rather than sampled outputs alone. Balance is
-necessary but does not establish feasibility: explicit conditions and the reviewed
-source catalog provide that constraint.
+necessary but does not establish feasibility; the source catalog contains
+established reactions. Displayed conditions identify useful heat, pressure and
+catalyst requirements without restating phase labels or chemical conventions.

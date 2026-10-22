@@ -1,72 +1,72 @@
 [
   {
     "id": "pubchem-element-1",
-    "text": "Hydrogen (H)\nAtomic number: 1; 1 protons per nucleus and 1 electrons in a neutral atom.\nClassification: Nonmetal.\nNeutral-atom electron configuration: 1s1.",
+    "text": "Hydrogen (H)\nAtomic number: 1\nNonmetal\nElectron configuration: 1s1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-5",
-    "text": "Boron (B)\nAtomic number: 5; 5 protons per nucleus and 5 electrons in a neutral atom.\nClassification: Metalloid.\nNeutral-atom electron configuration: [He]2s2 2p1.",
+    "text": "Boron (B)\nAtomic number: 5\nMetalloid\nElectron configuration: [He]2s2 2p1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-6",
-    "text": "Carbon (C)\nAtomic number: 6; 6 protons per nucleus and 6 electrons in a neutral atom.\nClassification: Nonmetal.\nNeutral-atom electron configuration: [He]2s2 2p2.",
+    "text": "Carbon (C)\nAtomic number: 6\nNonmetal\nElectron configuration: [He]2s2 2p2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-7",
-    "text": "Nitrogen (N)\nAtomic number: 7; 7 protons per nucleus and 7 electrons in a neutral atom.\nClassification: Nonmetal.\nNeutral-atom electron configuration: [He] 2s2 2p3.",
+    "text": "Nitrogen (N)\nAtomic number: 7\nNonmetal\nElectron configuration: [He] 2s2 2p3",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-8",
-    "text": "Oxygen (O)\nAtomic number: 8; 8 protons per nucleus and 8 electrons in a neutral atom.\nClassification: Nonmetal.\nNeutral-atom electron configuration: [He]2s2 2p4.",
+    "text": "Oxygen (O)\nAtomic number: 8\nNonmetal\nElectron configuration: [He]2s2 2p4",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-14",
-    "text": "Silicon (Si)\nAtomic number: 14; 14 protons per nucleus and 14 electrons in a neutral atom.\nClassification: Metalloid.\nNeutral-atom electron configuration: [Ne]3s2 3p2.",
+    "text": "Silicon (Si)\nAtomic number: 14\nMetalloid\nElectron configuration: [Ne]3s2 3p2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-15",
-    "text": "Phosphorus (P)\nAtomic number: 15; 15 protons per nucleus and 15 electrons in a neutral atom.\nClassification: Nonmetal.\nNeutral-atom electron configuration: [Ne]3s2 3p3.",
+    "text": "Phosphorus (P)\nAtomic number: 15\nNonmetal\nElectron configuration: [Ne]3s2 3p3",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-16",
-    "text": "Sulfur (S)\nAtomic number: 16; 16 protons per nucleus and 16 electrons in a neutral atom.\nClassification: Nonmetal.\nNeutral-atom electron configuration: [Ne]3s2 3p4.",
+    "text": "Sulfur (S)\nAtomic number: 16\nNonmetal\nElectron configuration: [Ne]3s2 3p4",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-32",
-    "text": "Germanium (Ge)\nAtomic number: 32; 32 protons per nucleus and 32 electrons in a neutral atom.\nClassification: Metalloid.\nNeutral-atom electron configuration: [Ar]4s2 3d10 4p2.",
+    "text": "Germanium (Ge)\nAtomic number: 32\nMetalloid\nElectron configuration: [Ar]4s2 3d10 4p2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-33",
-    "text": "Arsenic (As)\nAtomic number: 33; 33 protons per nucleus and 33 electrons in a neutral atom.\nClassification: Metalloid.\nNeutral-atom electron configuration: [Ar]4s2 3d10 4p3.",
+    "text": "Arsenic (As)\nAtomic number: 33\nMetalloid\nElectron configuration: [Ar]4s2 3d10 4p3",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-34",
-    "text": "Selenium (Se)\nAtomic number: 34; 34 protons per nucleus and 34 electrons in a neutral atom.\nClassification: Nonmetal.\nNeutral-atom electron configuration: [Ar]4s2 3d10 4p4.",
+    "text": "Selenium (Se)\nAtomic number: 34\nNonmetal\nElectron configuration: [Ar]4s2 3d10 4p4",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-51",
-    "text": "Antimony (Sb)\nAtomic number: 51; 51 protons per nucleus and 51 electrons in a neutral atom.\nClassification: Metalloid.\nNeutral-atom electron configuration: [Kr]5s2 4d10 5p3.",
+    "text": "Antimony (Sb)\nAtomic number: 51\nMetalloid\nElectron configuration: [Kr]5s2 4d10 5p3",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-52",
-    "text": "Tellurium (Te)\nAtomic number: 52; 52 protons per nucleus and 52 electrons in a neutral atom.\nClassification: Metalloid.\nNeutral-atom electron configuration: [Kr]5s2 4d10 5p4.",
+    "text": "Tellurium (Te)\nAtomic number: 52\nMetalloid\nElectron configuration: [Kr]5s2 4d10 5p4",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-84",
-    "text": "Polonium (Po)\nAtomic number: 84; 84 protons per nucleus and 84 electrons in a neutral atom.\nClassification: Metalloid.\nNeutral-atom electron configuration: [Xe]6s2 4f14 5d10 6p4.",
+    "text": "Polonium (Po)\nAtomic number: 84\nMetalloid\nElectron configuration: [Xe]6s2 4f14 5d10 6p4",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   }
 ]

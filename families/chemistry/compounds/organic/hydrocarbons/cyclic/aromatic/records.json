@@ -1,32 +1,32 @@
 [
   {
     "id": "pubchem-cid-241",
-    "text": "benzene\nMolecular formula: C6H6; empirical formula: CH.\nMolar mass (calculated): 78.11 g/mol.\nAtoms per molecule: C: 6, H: 6.\nSMILES: C1=CC=CC=C1",
+    "text": "benzene (C6H6)\nMolar mass: 78.11 g/mol\nSMILES: C1=CC=CC=C1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/benzene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 241; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-1140",
-    "text": "toluene\nMolecular formula: C7H8.\nMolar mass (calculated): 92.14 g/mol.\nAtoms per molecule: C: 7, H: 8.\nSMILES: CC1=CC=CC=C1",
+    "text": "toluene (C7H8)\nMolar mass: 92.14 g/mol\nSMILES: CC1=CC=CC=C1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/toluene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 1140; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-7500",
-    "text": "ethylbenzene\nMolecular formula: C8H10; empirical formula: C4H5.\nMolar mass (calculated): 106.16 g/mol.\nAtoms per molecule: C: 8, H: 10.\nSMILES: CCC1=CC=CC=C1",
+    "text": "ethylbenzene (C8H10)\nMolar mass: 106.16 g/mol\nSMILES: CCC1=CC=CC=C1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethylbenzene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 7500; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-931",
-    "text": "naphthalene\nMolecular formula: C10H8; empirical formula: C5H4.\nMolar mass (calculated): 128.17 g/mol.\nAtoms per molecule: C: 10, H: 8.\nSMILES: C1=CC=C2C=CC=CC2=C1",
+    "text": "naphthalene (C10H8)\nMolar mass: 128.17 g/mol\nSMILES: C1=CC=C2C=CC=CC2=C1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/naphthalene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 931; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-8418",
-    "text": "anthracene\nMolecular formula: C14H10; empirical formula: C7H5.\nMolar mass (calculated): 178.23 g/mol.\nAtoms per molecule: C: 14, H: 10.\nSMILES: C1=CC=C2C=C3C=CC=CC3=CC2=C1",
+    "text": "anthracene (C14H10)\nMolar mass: 178.23 g/mol\nSMILES: C1=CC=C2C=C3C=CC=CC3=CC2=C1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/anthracene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 8418; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-995",
-    "text": "phenanthrene\nMolecular formula: C14H10; empirical formula: C7H5.\nMolar mass (calculated): 178.23 g/mol.\nAtoms per molecule: C: 14, H: 10.\nSMILES: C1=CC=C2C(=C1)C=CC3=CC=CC=C32",
+    "text": "phenanthrene (C14H10)\nMolar mass: 178.23 g/mol\nSMILES: C1=CC=C2C(=C1)C=CC3=CC=CC=C32",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/phenanthrene/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 995; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   }
 ]

@@ -1,42 +1,42 @@
 [
   {
     "id": "pubchem-cid-5234",
-    "text": "sodium chloride\nComposition formula: ClNa.\nMolar mass (calculated): 58.44 g/mol.\nAtoms per formula unit: Cl: 1, Na: 1.\nSMILES: [Na+].[Cl-]\nIonic solids form extended lattices; the formula gives the empirical formula unit.",
+    "text": "sodium chloride (NaCl)\nMolar mass: 58.44 g/mol",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20chloride/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 5234; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-4873",
-    "text": "potassium chloride\nComposition formula: ClK.\nMolar mass (calculated): 74.55 g/mol.\nAtoms per formula unit: Cl: 1, K: 1.\nSMILES: [Cl-].[K+]\nIonic solids form extended lattices; the formula gives the empirical formula unit.",
+    "text": "potassium chloride (KCl)\nMolar mass: 74.55 g/mol",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/potassium%20chloride/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 4873; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-10112",
-    "text": "calcium carbonate\nComposition formula: CCaO3.\nMolar mass (calculated): 100.09 g/mol.\nAtoms per formula unit: C: 1, Ca: 1, O: 3.\nSMILES: C(=O)([O-])[O-].[Ca+2]\nIonic solids form extended lattices; the formula gives the empirical formula unit.",
+    "text": "calcium carbonate (CaCO3)\nMolar mass: 100.09 g/mol",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/calcium%20carbonate/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 10112; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-516892",
-    "text": "sodium bicarbonate\nComposition formula: CHNaO3.\nMolar mass (calculated): 84.007 g/mol.\nAtoms per formula unit: C: 1, H: 1, Na: 1, O: 3.\nSMILES: C(=O)(O)[O-].[Na+]\nIonic solids form extended lattices; the formula gives the empirical formula unit.",
+    "text": "sodium bicarbonate (NaHCO3)\nMolar mass: 84.007 g/mol",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20bicarbonate/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 516892; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-24268",
-    "text": "sodium nitrate\nComposition formula: NNaO3.\nMolar mass (calculated): 84.995 g/mol.\nAtoms per formula unit: N: 1, Na: 1, O: 3.\nSMILES: [N+](=O)([O-])[O-].[Na+]\nIonic solids form extended lattices; the formula gives the empirical formula unit.",
+    "text": "sodium nitrate (NaNO3)\nMolar mass: 84.995 g/mol",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20nitrate/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 24268; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-25517",
-    "text": "ammonium chloride\nComposition formula: ClH4N.\nMolar mass (calculated): 53.49 g/mol.\nAtoms per formula unit: Cl: 1, H: 4, N: 1.\nSMILES: [NH4+].[Cl-]\nIonic solids form extended lattices; the formula gives the empirical formula unit.",
+    "text": "ammonium chloride (NH4Cl)\nMolar mass: 53.49 g/mol",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ammonium%20chloride/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 25517; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-14792",
-    "text": "magnesium oxide\nComposition formula: MgO.\nMolar mass (calculated): 40.305 g/mol.\nAtoms per formula unit: Mg: 1, O: 1.\nSMILES: O=[Mg]\nIonic solids form extended lattices; the formula gives the empirical formula unit.",
+    "text": "magnesium oxide (MgO)\nMolar mass: 40.305 g/mol",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/magnesium%20oxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 14792; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-14778",
-    "text": "calcium oxide\nComposition formula: CaO.\nMolar mass (calculated): 56.08 g/mol.\nAtoms per formula unit: Ca: 1, O: 1.\nSMILES: O=[Ca]\nIonic solids form extended lattices; the formula gives the empirical formula unit.",
+    "text": "calcium oxide (CaO)\nMolar mass: 56.08 g/mol",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/calcium%20oxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 14778; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   }
 ]

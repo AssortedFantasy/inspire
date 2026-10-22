@@ -1,17 +1,17 @@
 [
   {
     "id": "pubchem-cid-5988",
-    "text": "sucrose\nMolecular formula: C12H22O11.\nMolar mass (calculated): 342.30 g/mol.\nAtoms per molecule: C: 12, H: 22, O: 11.\nSMILES: C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
-    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sucrose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 5988; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+    "text": "sucrose (C12H22O11)\nMolar mass: 342.3 g/mol\nSMILES: C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sucrose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 5988; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and carbohydrates/source_manifest.json."
   },
   {
     "id": "pubchem-cid-6134",
-    "text": "lactose\nMolecular formula: C12H22O11.\nMolar mass (calculated): 342.30 g/mol.\nAtoms per molecule: C: 12, H: 22, O: 11.\nSMILES: C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O)O)O)CO)O)O)O)O",
-    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/lactose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6134; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+    "text": "lactose (C12H22O11)\nMolar mass: 342.3 g/mol\nSMILES: C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O)O)O)CO)O)O)O)O",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/lactose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6134; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and carbohydrates/source_manifest.json."
   },
   {
     "id": "pubchem-cid-439186",
-    "text": "maltose\nMolecular formula: C12H22O11.\nMolar mass (calculated): 342.30 g/mol.\nAtoms per molecule: C: 12, H: 22, O: 11.\nSMILES: C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](OC([C@@H]([C@H]2O)O)O)CO)O)O)O)O",
-    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/maltose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 439186; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+    "text": "maltose (C12H22O11)\nMolar mass: 342.3 g/mol\nSMILES: C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](OC([C@@H]([C@H]2O)O)O)CO)O)O)O)O",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/maltose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 439186; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and carbohydrates/source_manifest.json."
   }
 ]

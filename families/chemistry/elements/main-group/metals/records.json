@@ -1,117 +1,117 @@
 [
   {
     "id": "pubchem-element-3",
-    "text": "Lithium (Li)\nAtomic number: 3; 3 protons per nucleus and 3 electrons in a neutral atom.\nClassification: Alkali metal.\nNeutral-atom electron configuration: [He]2s1.",
+    "text": "Lithium (Li)\nAtomic number: 3\nAlkali metal\nElectron configuration: [He]2s1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-4",
-    "text": "Beryllium (Be)\nAtomic number: 4; 4 protons per nucleus and 4 electrons in a neutral atom.\nClassification: Alkaline earth metal.\nNeutral-atom electron configuration: [He]2s2.",
+    "text": "Beryllium (Be)\nAtomic number: 4\nAlkaline earth metal\nElectron configuration: [He]2s2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-11",
-    "text": "Sodium (Na)\nAtomic number: 11; 11 protons per nucleus and 11 electrons in a neutral atom.\nClassification: Alkali metal.\nNeutral-atom electron configuration: [Ne]3s1.",
+    "text": "Sodium (Na)\nAtomic number: 11\nAlkali metal\nElectron configuration: [Ne]3s1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-12",
-    "text": "Magnesium (Mg)\nAtomic number: 12; 12 protons per nucleus and 12 electrons in a neutral atom.\nClassification: Alkaline earth metal.\nNeutral-atom electron configuration: [Ne]3s2.",
+    "text": "Magnesium (Mg)\nAtomic number: 12\nAlkaline earth metal\nElectron configuration: [Ne]3s2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-13",
-    "text": "Aluminum (Al)\nAtomic number: 13; 13 protons per nucleus and 13 electrons in a neutral atom.\nClassification: Post-transition metal.\nNeutral-atom electron configuration: [Ne]3s2 3p1.",
+    "text": "Aluminum (Al)\nAtomic number: 13\nPost-transition metal\nElectron configuration: [Ne]3s2 3p1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-19",
-    "text": "Potassium (K)\nAtomic number: 19; 19 protons per nucleus and 19 electrons in a neutral atom.\nClassification: Alkali metal.\nNeutral-atom electron configuration: [Ar]4s1.",
+    "text": "Potassium (K)\nAtomic number: 19\nAlkali metal\nElectron configuration: [Ar]4s1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-20",
-    "text": "Calcium (Ca)\nAtomic number: 20; 20 protons per nucleus and 20 electrons in a neutral atom.\nClassification: Alkaline earth metal.\nNeutral-atom electron configuration: [Ar]4s2.",
+    "text": "Calcium (Ca)\nAtomic number: 20\nAlkaline earth metal\nElectron configuration: [Ar]4s2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-31",
-    "text": "Gallium (Ga)\nAtomic number: 31; 31 protons per nucleus and 31 electrons in a neutral atom.\nClassification: Post-transition metal.\nNeutral-atom electron configuration: [Ar]4s2 3d10 4p1.",
+    "text": "Gallium (Ga)\nAtomic number: 31\nPost-transition metal\nElectron configuration: [Ar]4s2 3d10 4p1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-37",
-    "text": "Rubidium (Rb)\nAtomic number: 37; 37 protons per nucleus and 37 electrons in a neutral atom.\nClassification: Alkali metal.\nNeutral-atom electron configuration: [Kr]5s1.",
+    "text": "Rubidium (Rb)\nAtomic number: 37\nAlkali metal\nElectron configuration: [Kr]5s1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-38",
-    "text": "Strontium (Sr)\nAtomic number: 38; 38 protons per nucleus and 38 electrons in a neutral atom.\nClassification: Alkaline earth metal.\nNeutral-atom electron configuration: [Kr]5s2.",
+    "text": "Strontium (Sr)\nAtomic number: 38\nAlkaline earth metal\nElectron configuration: [Kr]5s2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-49",
-    "text": "Indium (In)\nAtomic number: 49; 49 protons per nucleus and 49 electrons in a neutral atom.\nClassification: Post-transition metal.\nNeutral-atom electron configuration: [Kr]5s2 4d10 5p1.",
+    "text": "Indium (In)\nAtomic number: 49\nPost-transition metal\nElectron configuration: [Kr]5s2 4d10 5p1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-50",
-    "text": "Tin (Sn)\nAtomic number: 50; 50 protons per nucleus and 50 electrons in a neutral atom.\nClassification: Post-transition metal.\nNeutral-atom electron configuration: [Kr]5s2 4d10 5p2.",
+    "text": "Tin (Sn)\nAtomic number: 50\nPost-transition metal\nElectron configuration: [Kr]5s2 4d10 5p2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-55",
-    "text": "Cesium (Cs)\nAtomic number: 55; 55 protons per nucleus and 55 electrons in a neutral atom.\nClassification: Alkali metal.\nNeutral-atom electron configuration: [Xe]6s1.",
+    "text": "Cesium (Cs)\nAtomic number: 55\nAlkali metal\nElectron configuration: [Xe]6s1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-56",
-    "text": "Barium (Ba)\nAtomic number: 56; 56 protons per nucleus and 56 electrons in a neutral atom.\nClassification: Alkaline earth metal.\nNeutral-atom electron configuration: [Xe]6s2.",
+    "text": "Barium (Ba)\nAtomic number: 56\nAlkaline earth metal\nElectron configuration: [Xe]6s2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-81",
-    "text": "Thallium (Tl)\nAtomic number: 81; 81 protons per nucleus and 81 electrons in a neutral atom.\nClassification: Post-transition metal.\nNeutral-atom electron configuration: [Xe]6s2 4f14 5d10 6p1.",
+    "text": "Thallium (Tl)\nAtomic number: 81\nPost-transition metal\nElectron configuration: [Xe]6s2 4f14 5d10 6p1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-82",
-    "text": "Lead (Pb)\nAtomic number: 82; 82 protons per nucleus and 82 electrons in a neutral atom.\nClassification: Post-transition metal.\nNeutral-atom electron configuration: [Xe]6s2 4f14 5d10 6p2.",
+    "text": "Lead (Pb)\nAtomic number: 82\nPost-transition metal\nElectron configuration: [Xe]6s2 4f14 5d10 6p2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-83",
-    "text": "Bismuth (Bi)\nAtomic number: 83; 83 protons per nucleus and 83 electrons in a neutral atom.\nClassification: Post-transition metal.\nNeutral-atom electron configuration: [Xe]6s2 4f14 5d10 6p3.",
+    "text": "Bismuth (Bi)\nAtomic number: 83\nPost-transition metal\nElectron configuration: [Xe]6s2 4f14 5d10 6p3",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-87",
-    "text": "Francium (Fr)\nAtomic number: 87; 87 protons per nucleus and 87 electrons in a neutral atom.\nClassification: Alkali metal.\nNeutral-atom electron configuration: [Rn]7s1.",
+    "text": "Francium (Fr)\nAtomic number: 87\nAlkali metal\nElectron configuration: [Rn]7s1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-88",
-    "text": "Radium (Ra)\nAtomic number: 88; 88 protons per nucleus and 88 electrons in a neutral atom.\nClassification: Alkaline earth metal.\nNeutral-atom electron configuration: [Rn]7s2.",
+    "text": "Radium (Ra)\nAtomic number: 88\nAlkaline earth metal\nElectron configuration: [Rn]7s2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-113",
-    "text": "Nihonium (Nh)\nAtomic number: 113; 113 protons per nucleus and 113 electrons in a neutral atom.\nClassification: Post-transition metal.\nNeutral-atom electron configuration: [Rn]5f14 6d10 7s2 7p1 (predicted). Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Nihonium (Nh)\nAtomic number: 113\nPost-transition metal\nElectron configuration: [Rn]5f14 6d10 7s2 7p1 (predicted)",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-114",
-    "text": "Flerovium (Fl)\nAtomic number: 114; 114 protons per nucleus and 114 electrons in a neutral atom.\nClassification: Post-transition metal.\nNeutral-atom electron configuration: [Rn]7s2 7p2 5f14 6d10 (predicted). Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Flerovium (Fl)\nAtomic number: 114\nPost-transition metal\nElectron configuration: [Rn]7s2 7p2 5f14 6d10 (predicted)",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-115",
-    "text": "Moscovium (Mc)\nAtomic number: 115; 115 protons per nucleus and 115 electrons in a neutral atom.\nClassification: Post-transition metal.\nNeutral-atom electron configuration: [Rn]7s2 7p3 5f14 6d10 (predicted). Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Moscovium (Mc)\nAtomic number: 115\nPost-transition metal\nElectron configuration: [Rn]7s2 7p3 5f14 6d10 (predicted)",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-116",
-    "text": "Livermorium (Lv)\nAtomic number: 116; 116 protons per nucleus and 116 electrons in a neutral atom.\nClassification: Post-transition metal.\nNeutral-atom electron configuration: [Rn]7s2 7p4 5f14 6d10 (predicted). Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Livermorium (Lv)\nAtomic number: 116\nPost-transition metal\nElectron configuration: [Rn]7s2 7p4 5f14 6d10 (predicted)",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   }
 ]

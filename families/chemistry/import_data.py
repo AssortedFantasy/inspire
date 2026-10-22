@@ -9,6 +9,8 @@ import hashlib
 import json
 import math
 import re
+import subprocess
+import sys
 import time
 import urllib.parse
 import urllib.request
@@ -31,6 +33,15 @@ SELECTION = {
     "organic/biomolecules/carbohydrates": "D-glucose|D-fructose|sucrose|lactose|maltose|D-ribose",
     "inorganic/molecules": "water|ammonia|carbon monoxide|carbon dioxide|sulfur dioxide|hydrogen sulfide|carbon disulfide|nitric oxide|hydrogen peroxide",
     "inorganic/ionic-solids": "sodium chloride|potassium chloride|calcium carbonate|sodium bicarbonate|sodium nitrate|ammonium chloride|magnesium oxide|calcium oxide",
+}
+
+# PubChem uses Hill order, which obscures familiar inorganic identities.
+CONVENTIONAL_FORMULAS = {
+    "water": "H2O", "ammonia": "NH3", "hydrogen sulfide": "H2S",
+    "sulfur dioxide": "SO2",
+    "sodium chloride": "NaCl", "potassium chloride": "KCl",
+    "calcium carbonate": "CaCO3", "sodium bicarbonate": "NaHCO3",
+    "sodium nitrate": "NaNO3", "ammonium chloride": "NH4Cl",
 }
 
 
@@ -71,6 +82,19 @@ def empirical(atoms):
     return "".join(e + (str(n // divisor) if n // divisor != 1 else "") for e, n in atoms.items())
 
 
+def weight_record_children(branch):
+    records = branch / "records.json"
+    if records.exists():
+        return len(json.loads(records.read_text(encoding="utf-8")))
+    total = 0
+    for child in sorted(path for path in branch.iterdir() if path.is_dir()):
+        count = weight_record_children(child)
+        assert count > 0, child
+        (child / "node.toml").write_text(f"weight = {count}\n", encoding="utf-8")
+        total += count
+    return total
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--download", action="store_true")
@@ -91,11 +115,9 @@ def main():
             "Noble gas": "main-group/noble-gases", "Transition metal": "transition-metals",
             "Lanthanide": "inner-transition/lanthanides", "Actinide": "inner-transition/actinides",
         }[group]
-        text = f'{data["Name"]} ({data["Symbol"]})\nAtomic number: {z}; {z} protons per nucleus and {z} electrons in a neutral atom.\nClassification: {group}.'
+        text = f'{data["Name"]} ({data["Symbol"]})\nAtomic number: {z}\n{group}'
         if data["ElectronConfiguration"]:
-            text += f'\nNeutral-atom electron configuration: {data["ElectronConfiguration"]}.'
-        if z >= 104:
-            text += " Configurations for these short-lived superheavy elements are theoretical assignments."
+            text += f'\nElectron configuration: {data["ElectronConfiguration"]}'
         categories[category].append({"id": f"pubchem-element-{z}", "text": text,
             "provenance": "PubChem periodic table numerical/identity facts, " + manifest["periodic-table"]["url"] + "; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."})
     assert sum(map(len, categories.values())) == 118
@@ -118,16 +140,12 @@ def main():
             assert data["Charge"] == 0, name
             formula = data["MolecularFormula"]
             atoms = composition(formula)
-            unit = "formula unit" if category == "inorganic/ionic-solids" else "molecule"
-            label = "Composition formula" if unit == "formula unit" else "Molecular formula"
-            inventory = ", ".join(f"{element}: {count}" for element, count in atoms.items())
-            ratio = empirical(atoms)
-            formula_line = f'{label}: {formula}'
-            if ratio != formula:
-                formula_line += f'; empirical formula: {ratio}'
-            text = f'{name}\n{formula_line}.\nMolar mass (calculated): {data["MolecularWeight"]} g/mol.\nAtoms per {unit}: {inventory}.\nSMILES: {data["SMILES"]}'
-            if unit == "formula unit":
-                text += " Ionic solids form extended lattices; the formula gives the empirical formula unit."
+            displayed_formula = CONVENTIONAL_FORMULAS.get(name, formula)
+            assert composition(displayed_formula) == atoms
+            mass = f'{float(data["MolecularWeight"]):g}'
+            text = f'{name} ({displayed_formula})\nMolar mass: {mass} g/mol'
+            if category != "inorganic/ionic-solids":
+                text += f'\nSMILES: {data["SMILES"]}'
             leaf_category = category
             if category == "organic/hydrocarbons/cyclic":
                 leaf_category += "/saturated" if name.startswith("cyclo") else "/aromatic"
@@ -135,13 +153,22 @@ def main():
                 leaf_category = "organic/oxygen/" + ("esters" if name in ["methyl formate", "ethyl acetate", "methyl acetate"] else "ethers")
             elif category == "organic/nitrogen/amines-and-amides":
                 leaf_category = "organic/nitrogen/" + ("amides" if name in ["urea", "acetamide", "formamide"] else "amines")
-            records_by_category[leaf_category].append({"id": f"pubchem-cid-{cid}", "text": text, "provenance": f"Selected factual identity and PubChem-calculated composition/molar mass/SMILES; {url}; CID {cid}; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."})
+            if not category.startswith("organic/biomolecules/"):
+                records_by_category[leaf_category].append({"id": f"pubchem-cid-{cid}", "text": text, "provenance": f"Selected factual identity and PubChem-calculated composition/molar mass/SMILES; {url}; CID {cid}; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."})
             compounds.append({"name": name, "category": leaf_category, **data})
         for leaf_category, records in records_by_category.items():
             write(ROOT / "compounds" / leaf_category / "records.json", records)
     write(manifest_path, manifest)
     write(CACHE / "selected-compounds.json", compounds)
-    print(f"Imported 118 elements and {len(compounds)} compounds; 22 corpus leaves.")
+    for branch in ("amino-acids", "carbohydrates"):
+        script = ROOT / "compounds" / "organic" / "biomolecules" / branch / "import_data.py"
+        command = [sys.executable, "-B", str(script)]
+        if args.download:
+            command.append("--download")
+        subprocess.run(command, check=True)
+    for branch in ("elements", "compounds"):
+        weight_record_children(ROOT / branch)
+    print(f"Imported 118 elements and {len(compounds)} base compound selections, plus biomolecule extensions.")
 
 
 if __name__ == "__main__":

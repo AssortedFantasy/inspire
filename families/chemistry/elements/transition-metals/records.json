@@ -1,192 +1,192 @@
 [
   {
     "id": "pubchem-element-21",
-    "text": "Scandium (Sc)\nAtomic number: 21; 21 protons per nucleus and 21 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Ar]4s2 3d1.",
+    "text": "Scandium (Sc)\nAtomic number: 21\nTransition metal\nElectron configuration: [Ar]4s2 3d1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-22",
-    "text": "Titanium (Ti)\nAtomic number: 22; 22 protons per nucleus and 22 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Ar]4s2 3d2.",
+    "text": "Titanium (Ti)\nAtomic number: 22\nTransition metal\nElectron configuration: [Ar]4s2 3d2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-23",
-    "text": "Vanadium (V)\nAtomic number: 23; 23 protons per nucleus and 23 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Ar]4s2 3d3.",
+    "text": "Vanadium (V)\nAtomic number: 23\nTransition metal\nElectron configuration: [Ar]4s2 3d3",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-24",
-    "text": "Chromium (Cr)\nAtomic number: 24; 24 protons per nucleus and 24 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Ar]3d5 4s1.",
+    "text": "Chromium (Cr)\nAtomic number: 24\nTransition metal\nElectron configuration: [Ar]3d5 4s1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-25",
-    "text": "Manganese (Mn)\nAtomic number: 25; 25 protons per nucleus and 25 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Ar]4s2 3d5.",
+    "text": "Manganese (Mn)\nAtomic number: 25\nTransition metal\nElectron configuration: [Ar]4s2 3d5",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-26",
-    "text": "Iron (Fe)\nAtomic number: 26; 26 protons per nucleus and 26 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Ar]4s2 3d6.",
+    "text": "Iron (Fe)\nAtomic number: 26\nTransition metal\nElectron configuration: [Ar]4s2 3d6",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-27",
-    "text": "Cobalt (Co)\nAtomic number: 27; 27 protons per nucleus and 27 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Ar]4s2 3d7.",
+    "text": "Cobalt (Co)\nAtomic number: 27\nTransition metal\nElectron configuration: [Ar]4s2 3d7",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-28",
-    "text": "Nickel (Ni)\nAtomic number: 28; 28 protons per nucleus and 28 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Ar]4s2 3d8.",
+    "text": "Nickel (Ni)\nAtomic number: 28\nTransition metal\nElectron configuration: [Ar]4s2 3d8",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-29",
-    "text": "Copper (Cu)\nAtomic number: 29; 29 protons per nucleus and 29 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Ar]4s1 3d10.",
+    "text": "Copper (Cu)\nAtomic number: 29\nTransition metal\nElectron configuration: [Ar]4s1 3d10",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-30",
-    "text": "Zinc (Zn)\nAtomic number: 30; 30 protons per nucleus and 30 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Ar]4s2 3d10.",
+    "text": "Zinc (Zn)\nAtomic number: 30\nTransition metal\nElectron configuration: [Ar]4s2 3d10",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-39",
-    "text": "Yttrium (Y)\nAtomic number: 39; 39 protons per nucleus and 39 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Kr]5s2 4d1.",
+    "text": "Yttrium (Y)\nAtomic number: 39\nTransition metal\nElectron configuration: [Kr]5s2 4d1",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-40",
-    "text": "Zirconium (Zr)\nAtomic number: 40; 40 protons per nucleus and 40 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Kr]5s2 4d2.",
+    "text": "Zirconium (Zr)\nAtomic number: 40\nTransition metal\nElectron configuration: [Kr]5s2 4d2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-41",
-    "text": "Niobium (Nb)\nAtomic number: 41; 41 protons per nucleus and 41 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Kr]5s1 4d4.",
+    "text": "Niobium (Nb)\nAtomic number: 41\nTransition metal\nElectron configuration: [Kr]5s1 4d4",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-42",
-    "text": "Molybdenum (Mo)\nAtomic number: 42; 42 protons per nucleus and 42 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Kr]5s1 4d5.",
+    "text": "Molybdenum (Mo)\nAtomic number: 42\nTransition metal\nElectron configuration: [Kr]5s1 4d5",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-43",
-    "text": "Technetium (Tc)\nAtomic number: 43; 43 protons per nucleus and 43 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Kr]5s2 4d5.",
+    "text": "Technetium (Tc)\nAtomic number: 43\nTransition metal\nElectron configuration: [Kr]5s2 4d5",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-44",
-    "text": "Ruthenium (Ru)\nAtomic number: 44; 44 protons per nucleus and 44 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Kr]5s1 4d7.",
+    "text": "Ruthenium (Ru)\nAtomic number: 44\nTransition metal\nElectron configuration: [Kr]5s1 4d7",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-45",
-    "text": "Rhodium (Rh)\nAtomic number: 45; 45 protons per nucleus and 45 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Kr]5s1 4d8.",
+    "text": "Rhodium (Rh)\nAtomic number: 45\nTransition metal\nElectron configuration: [Kr]5s1 4d8",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-46",
-    "text": "Palladium (Pd)\nAtomic number: 46; 46 protons per nucleus and 46 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Kr]4d10.",
+    "text": "Palladium (Pd)\nAtomic number: 46\nTransition metal\nElectron configuration: [Kr]4d10",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-47",
-    "text": "Silver (Ag)\nAtomic number: 47; 47 protons per nucleus and 47 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Kr]5s1 4d10.",
+    "text": "Silver (Ag)\nAtomic number: 47\nTransition metal\nElectron configuration: [Kr]5s1 4d10",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-48",
-    "text": "Cadmium (Cd)\nAtomic number: 48; 48 protons per nucleus and 48 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Kr]5s2 4d10.",
+    "text": "Cadmium (Cd)\nAtomic number: 48\nTransition metal\nElectron configuration: [Kr]5s2 4d10",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-72",
-    "text": "Hafnium (Hf)\nAtomic number: 72; 72 protons per nucleus and 72 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Xe]6s2 4f14 5d2.",
+    "text": "Hafnium (Hf)\nAtomic number: 72\nTransition metal\nElectron configuration: [Xe]6s2 4f14 5d2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-73",
-    "text": "Tantalum (Ta)\nAtomic number: 73; 73 protons per nucleus and 73 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Xe]6s2 4f14 5d3.",
+    "text": "Tantalum (Ta)\nAtomic number: 73\nTransition metal\nElectron configuration: [Xe]6s2 4f14 5d3",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-74",
-    "text": "Tungsten (W)\nAtomic number: 74; 74 protons per nucleus and 74 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Xe]6s2 4f14 5d4.",
+    "text": "Tungsten (W)\nAtomic number: 74\nTransition metal\nElectron configuration: [Xe]6s2 4f14 5d4",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-75",
-    "text": "Rhenium (Re)\nAtomic number: 75; 75 protons per nucleus and 75 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Xe]6s2 4f14 5d5.",
+    "text": "Rhenium (Re)\nAtomic number: 75\nTransition metal\nElectron configuration: [Xe]6s2 4f14 5d5",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-76",
-    "text": "Osmium (Os)\nAtomic number: 76; 76 protons per nucleus and 76 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Xe]6s2 4f14 5d6.",
+    "text": "Osmium (Os)\nAtomic number: 76\nTransition metal\nElectron configuration: [Xe]6s2 4f14 5d6",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-77",
-    "text": "Iridium (Ir)\nAtomic number: 77; 77 protons per nucleus and 77 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Xe]6s2 4f14 5d7.",
+    "text": "Iridium (Ir)\nAtomic number: 77\nTransition metal\nElectron configuration: [Xe]6s2 4f14 5d7",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-78",
-    "text": "Platinum (Pt)\nAtomic number: 78; 78 protons per nucleus and 78 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Xe]6s1 4f14 5d9.",
+    "text": "Platinum (Pt)\nAtomic number: 78\nTransition metal\nElectron configuration: [Xe]6s1 4f14 5d9",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-79",
-    "text": "Gold (Au)\nAtomic number: 79; 79 protons per nucleus and 79 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Xe]6s1 4f14 5d10.",
+    "text": "Gold (Au)\nAtomic number: 79\nTransition metal\nElectron configuration: [Xe]6s1 4f14 5d10",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-80",
-    "text": "Mercury (Hg)\nAtomic number: 80; 80 protons per nucleus and 80 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Xe]6s2 4f14 5d10.",
+    "text": "Mercury (Hg)\nAtomic number: 80\nTransition metal\nElectron configuration: [Xe]6s2 4f14 5d10",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-104",
-    "text": "Rutherfordium (Rf)\nAtomic number: 104; 104 protons per nucleus and 104 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Rn]7s2 5f14 6d2. Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Rutherfordium (Rf)\nAtomic number: 104\nTransition metal\nElectron configuration: [Rn]7s2 5f14 6d2",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-105",
-    "text": "Dubnium (Db)\nAtomic number: 105; 105 protons per nucleus and 105 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Rn]7s2 5f14 6d3. Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Dubnium (Db)\nAtomic number: 105\nTransition metal\nElectron configuration: [Rn]7s2 5f14 6d3",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-106",
-    "text": "Seaborgium (Sg)\nAtomic number: 106; 106 protons per nucleus and 106 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Rn]7s2 5f14 6d4. Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Seaborgium (Sg)\nAtomic number: 106\nTransition metal\nElectron configuration: [Rn]7s2 5f14 6d4",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-107",
-    "text": "Bohrium (Bh)\nAtomic number: 107; 107 protons per nucleus and 107 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Rn]7s2 5f14 6d5. Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Bohrium (Bh)\nAtomic number: 107\nTransition metal\nElectron configuration: [Rn]7s2 5f14 6d5",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-108",
-    "text": "Hassium (Hs)\nAtomic number: 108; 108 protons per nucleus and 108 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Rn]7s2 5f14 6d6. Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Hassium (Hs)\nAtomic number: 108\nTransition metal\nElectron configuration: [Rn]7s2 5f14 6d6",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-109",
-    "text": "Meitnerium (Mt)\nAtomic number: 109; 109 protons per nucleus and 109 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Rn]7s2 5f14 6d7 (calculated). Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Meitnerium (Mt)\nAtomic number: 109\nTransition metal\nElectron configuration: [Rn]7s2 5f14 6d7 (calculated)",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-110",
-    "text": "Darmstadtium (Ds)\nAtomic number: 110; 110 protons per nucleus and 110 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Rn]7s2 5f14 6d8 (predicted). Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Darmstadtium (Ds)\nAtomic number: 110\nTransition metal\nElectron configuration: [Rn]7s2 5f14 6d8 (predicted)",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-111",
-    "text": "Roentgenium (Rg)\nAtomic number: 111; 111 protons per nucleus and 111 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Rn]7s2 5f14 6d9 (predicted). Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Roentgenium (Rg)\nAtomic number: 111\nTransition metal\nElectron configuration: [Rn]7s2 5f14 6d9 (predicted)",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-112",
-    "text": "Copernicium (Cn)\nAtomic number: 112; 112 protons per nucleus and 112 electrons in a neutral atom.\nClassification: Transition metal.\nNeutral-atom electron configuration: [Rn]7s2 5f14 6d10 (predicted). Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Copernicium (Cn)\nAtomic number: 112\nTransition metal\nElectron configuration: [Rn]7s2 5f14 6d10 (predicted)",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   }
 ]

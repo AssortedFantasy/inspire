@@ -9,9 +9,21 @@ stereocentres. D/L describes configuration, not optical rotation. A structure
 with an unspecified anomeric centre does not identify a single anomer; a
 specified cyclic form does not describe every form present in solution.
 
-The six original CIDs (5793, 2723872, 5988, 6134, 439186, 10975657) are retained.
-Subtree importers download only during development and use cached SHA-256-pinned
-responses under `target/chemistry-sources/`. Runtime remains offline.
+Thirty aldoses, D-fructose and three disaccharides retain the six original
+CIDs (5793, 2723872, 5988, 6134, 439186, 10975657). Records show the name,
+formula, molar mass and stereochemical SMILES, with the source's open-chain
+or pyranose form identified for monosaccharides.
+
+```sh
+python -B families/chemistry/compounds/organic/biomolecules/carbohydrates/import_data.py --download
+python -B families/chemistry/compounds/organic/biomolecules/carbohydrates/import_data.py
+```
+
+The importer runs the aldose importer and regenerates the ketose and
+oligosaccharide leaves. `monosaccharides/import_data.py` regenerates just the
+monosaccharides. Importers verify SHA-256-pinned responses under
+`target/chemistry-sources/`; downloads happen only with `--download`.
+The parent manifest includes every carbohydrate source. Runtime remains offline.
 
 Reuse scope is factual identity, numerical properties and computed structures,
 with original formatting and chemical classification. No third-party descriptive

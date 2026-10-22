@@ -1,7 +1,7 @@
 [
   {
     "id": "pubchem-cid-2723872",
-    "text": "D-fructose\nMolecular formula: C6H12O6; empirical formula: CH2O.\nMolar mass (calculated): 180.16 g/mol.\nAtoms per molecule: C: 6, H: 12, O: 6.\nSMILES: C1[C@H]([C@H]([C@@H](C(O1)(CO)O)O)O)O",
-    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-fructose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 2723872; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
+    "text": "D-fructose (C6H12O6)\nPyranose, anomer unspecified\nMolar mass: 180.16 g/mol\nSMILES: C1[C@H]([C@H]([C@@H](C(O1)(CO)O)O)O)O",
+    "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-fructose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 2723872; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and carbohydrates/source_manifest.json."
   }
 ]

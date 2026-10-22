@@ -1,37 +1,37 @@
 [
   {
     "id": "pubchem-cid-1049",
-    "text": "pyridine\nMolecular formula: C5H5N.\nMolar mass (calculated): 79.10 g/mol.\nAtoms per molecule: C: 5, H: 5, N: 1.\nSMILES: C1=CC=NC=C1",
+    "text": "pyridine (C5H5N)\nMolar mass: 79.1 g/mol\nSMILES: C1=CC=NC=C1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pyridine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 1049; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-8027",
-    "text": "pyrrole\nMolecular formula: C4H5N.\nMolar mass (calculated): 67.09 g/mol.\nAtoms per molecule: C: 4, H: 5, N: 1.\nSMILES: C1=CNC=C1",
+    "text": "pyrrole (C4H5N)\nMolar mass: 67.09 g/mol\nSMILES: C1=CNC=C1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pyrrole/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 8027; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-795",
-    "text": "imidazole\nMolecular formula: C3H4N2.\nMolar mass (calculated): 68.08 g/mol.\nAtoms per molecule: C: 3, H: 4, N: 2.\nSMILES: C1=CN=CN1",
+    "text": "imidazole (C3H4N2)\nMolar mass: 68.08 g/mol\nSMILES: C1=CN=CN1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/imidazole/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 795; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-798",
-    "text": "indole\nMolecular formula: C8H7N.\nMolar mass (calculated): 117.15 g/mol.\nAtoms per molecule: C: 8, H: 7, N: 1.\nSMILES: C1=CC=C2C(=C1)C=CN2",
+    "text": "indole (C8H7N)\nMolar mass: 117.15 g/mol\nSMILES: C1=CC=C2C(=C1)C=CN2",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/indole/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 798; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-9260",
-    "text": "pyrimidine\nMolecular formula: C4H4N2; empirical formula: C2H2N.\nMolar mass (calculated): 80.09 g/mol.\nAtoms per molecule: C: 4, H: 4, N: 2.\nSMILES: C1=CN=CN=C1",
+    "text": "pyrimidine (C4H4N2)\nMolar mass: 80.09 g/mol\nSMILES: C1=CN=CN=C1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pyrimidine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 9260; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-1044",
-    "text": "purine\nMolecular formula: C5H4N4.\nMolar mass (calculated): 120.11 g/mol.\nAtoms per molecule: C: 5, H: 4, N: 4.\nSMILES: C1=C2C(=NC=N1)N=CN2",
+    "text": "purine (C5H4N4)\nMolar mass: 120.11 g/mol\nSMILES: C1=C2C(=NC=N1)N=CN2",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/purine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 1044; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-2519",
-    "text": "caffeine\nMolecular formula: C8H10N4O2; empirical formula: C4H5N2O.\nMolar mass (calculated): 194.19 g/mol.\nAtoms per molecule: C: 8, H: 10, N: 4, O: 2.\nSMILES: CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+    "text": "caffeine (C8H10N4O2)\nMolar mass: 194.19 g/mol\nSMILES: CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/caffeine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 2519; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   }
 ]

@@ -1,42 +1,42 @@
 [
   {
     "id": "pubchem-cid-712",
-    "text": "formaldehyde\nMolecular formula: CH2O.\nMolar mass (calculated): 30.026 g/mol.\nAtoms per molecule: C: 1, H: 2, O: 1.\nSMILES: C=O",
+    "text": "formaldehyde (CH2O)\nMolar mass: 30.026 g/mol\nSMILES: C=O",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/formaldehyde/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 712; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-177",
-    "text": "acetaldehyde\nMolecular formula: C2H4O.\nMolar mass (calculated): 44.05 g/mol.\nAtoms per molecule: C: 2, H: 4, O: 1.\nSMILES: CC=O",
+    "text": "acetaldehyde (C2H4O)\nMolar mass: 44.05 g/mol\nSMILES: CC=O",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetaldehyde/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 177; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-527",
-    "text": "propanal\nMolecular formula: C3H6O.\nMolar mass (calculated): 58.08 g/mol.\nAtoms per molecule: C: 3, H: 6, O: 1.\nSMILES: CCC=O",
+    "text": "propanal (C3H6O)\nMolar mass: 58.08 g/mol\nSMILES: CCC=O",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/propanal/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 527; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-261",
-    "text": "butanal\nMolecular formula: C4H8O.\nMolar mass (calculated): 72.11 g/mol.\nAtoms per molecule: C: 4, H: 8, O: 1.\nSMILES: CCCC=O",
+    "text": "butanal (C4H8O)\nMolar mass: 72.11 g/mol\nSMILES: CCCC=O",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/butanal/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 261; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-240",
-    "text": "benzaldehyde\nMolecular formula: C7H6O.\nMolar mass (calculated): 106.12 g/mol.\nAtoms per molecule: C: 7, H: 6, O: 1.\nSMILES: C1=CC=C(C=C1)C=O",
+    "text": "benzaldehyde (C7H6O)\nMolar mass: 106.12 g/mol\nSMILES: C1=CC=C(C=C1)C=O",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/benzaldehyde/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 240; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-180",
-    "text": "acetone\nMolecular formula: C3H6O.\nMolar mass (calculated): 58.08 g/mol.\nAtoms per molecule: C: 3, H: 6, O: 1.\nSMILES: CC(=O)C",
+    "text": "acetone (C3H6O)\nMolar mass: 58.08 g/mol\nSMILES: CC(=O)C",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetone/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 180; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-6569",
-    "text": "2-butanone\nMolecular formula: C4H8O.\nMolar mass (calculated): 72.11 g/mol.\nAtoms per molecule: C: 4, H: 8, O: 1.\nSMILES: CCC(=O)C",
+    "text": "2-butanone (C4H8O)\nMolar mass: 72.11 g/mol\nSMILES: CCC(=O)C",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2-butanone/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6569; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-7967",
-    "text": "cyclohexanone\nMolecular formula: C6H10O.\nMolar mass (calculated): 98.14 g/mol.\nAtoms per molecule: C: 6, H: 10, O: 1.\nSMILES: C1CCC(=O)CC1",
+    "text": "cyclohexanone (C6H10O)\nMolar mass: 98.14 g/mol\nSMILES: C1CCC(=O)CC1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/cyclohexanone/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 7967; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   }
 ]

@@ -5,7 +5,6 @@ Run with Python -B; --download permits fetching missing development cache files.
 import argparse
 import hashlib
 import json
-import math
 import re
 import time
 import urllib.parse
@@ -73,21 +72,13 @@ def main():
             stereo = {"L-cysteine": "(2R)", "L-isoleucine": "(2S,3S)", "L-threonine": "(2S,3R)"}.get(name, "(2S)")
             if name == "glycine":
                 assert "@" not in data["SMILES"]
-                stereo_text = "Glycine is achiral."
             else:
                 assert data["IUPACName"].startswith(stereo), (name, data["IUPACName"])
                 assert data["SMILES"].count("@") > 0, name
-                stereo_text = f"L stereoisomer; IUPAC name: {data['IUPACName']}."
             formula = data["MolecularFormula"]
             atoms = {element: int(count or 1) for element, count in re.findall(r"([A-Z][a-z]?)(\d*)", formula)}
             assert "".join(e + (str(n) if n != 1 else "") for e, n in atoms.items()) == formula
-            divisor = math.gcd(*atoms.values())
-            empirical = "".join(e + (str(n // divisor) if n // divisor != 1 else "") for e, n in atoms.items())
-            inventory = ", ".join(f"{e}: {n}" for e, n in atoms.items())
-            formula_line = f"Molecular formula: {formula}"
-            if empirical != formula:
-                formula_line += f"; empirical formula: {empirical}"
-            text = f"{name}\n{formula_line}.\nMolar mass (calculated): {data['MolecularWeight']} g/mol.\nAtoms per molecule: {inventory}.\n{stereo_text}\nSMILES: {data['SMILES']}\nNeutral structural representation; protonation in solution depends on pH."
+            text = f"{name} ({formula})\nMolar mass: {float(data['MolecularWeight']):g} g/mol\nSMILES: {data['SMILES']}"
             records.append({"id": f"pubchem-cid-{cid}", "text": text,
                 "provenance": f"Selected factual identity and PubChem-calculated composition/molar mass/SMILES; {url}; CID {cid}; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."})
         destination = ROOT / category / "records.json"

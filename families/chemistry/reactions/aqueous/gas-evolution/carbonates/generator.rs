@@ -5,31 +5,31 @@ use support::Reaction;
 
 const REACTIONS: &[Reaction] = &[
     Reaction {
-        title: "Acid dissolution of CaCO3",
+        identity: "",
         left: &[(1, "CaCO3(s)"), (2, "H3O^+(aq)")],
         right: &[(1, "Ca^2+(aq)"), (1, "CO2(g)"), (3, "H2O(l)")],
-        conditions: "Excess dilute nonoxidizing aqueous acid; carbon dioxide leaves the solution.",
+        conditions: "",
         equilibrium: false,
     },
     Reaction {
-        title: "Acid dissolution of MgCO3",
+        identity: "",
         left: &[(1, "MgCO3(s)"), (2, "H3O^+(aq)")],
         right: &[(1, "Mg^2+(aq)"), (1, "CO2(g)"), (3, "H2O(l)")],
-        conditions: "Excess dilute nonoxidizing aqueous acid; carbon dioxide leaves the solution.",
+        conditions: "",
         equilibrium: false,
     },
     Reaction {
-        title: "Acid dissolution of ZnCO3",
+        identity: "",
         left: &[(1, "ZnCO3(s)"), (2, "H3O^+(aq)")],
         right: &[(1, "Zn^2+(aq)"), (1, "CO2(g)"), (3, "H2O(l)")],
-        conditions: "Excess dilute nonoxidizing aqueous acid; carbon dioxide leaves the solution.",
+        conditions: "",
         equilibrium: false,
     },
     Reaction {
-        title: "Bicarbonate acidification",
+        identity: "",
         left: &[(1, "HCO3^-(aq)"), (1, "H3O^+(aq)")],
         right: &[(1, "CO2(g)"), (2, "H2O(l)")],
-        conditions: "Excess aqueous acid; carbon dioxide escapes. Bicarbonate is protonated and the carbonic acid product decomposes.",
+        conditions: "",
         equilibrium: false,
     },
 ];

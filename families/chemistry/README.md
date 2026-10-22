@@ -1,23 +1,23 @@
 # Chemistry
 
-The 35 leaves separate chemical identities, structural relationships and reaction
-classes. Runtime is offline; PubChem downloads happen only during development.
+Chemical identities, structural relationships and reaction classes. Runtime is
+offline; PubChem downloads happen only during development.
 
 - `elements/`: 118 element identities and neutral-atom configurations, grouped
   into main-group, transition, lanthanide and actinide branches.
-- `compounds/`: 106 selected PubChem compounds organized by structure, functional
-  group and inorganic class. Stable CIDs accompany formulas, reduced empirical
-  ratios, calculated molar masses, atom inventories and structure SMILES.
-- `formulas/`: the original molecular-inventory generator plus distinct
-  constitutional-isomer and stereochemical-pair corpora.
+- `compounds/`: 146 PubChem compounds organized by structure, functional group
+  and inorganic class. Outputs contain a name, formula, molar mass and molecular
+  SMILES. Ionic solids use familiar formula-unit notation without molecular SMILES.
+- `formulas/`: 34 empirical reductions, 15 constitutional-isomer comparison sets
+  and 26 stereochemical pairs from pinned source structures.
 - `reactions/`: 87 reviewed equation templates in ten leaves: two combustion
   classes, neutralization, weak equilibria, ionic precipitation, carbonate gas
   evolution, metal displacement, aqueous electron transfer, thermal decomposition
-  and gas equilibria. Species specify phases and conditions.
+  and gas equilibria. Outputs contain the equation, with a fuel identity or a
+  concise heating/catalyst condition where useful.
 
-`formulas` and `reactions` remain selectable branches; their former mixed payloads
-moved into descendants. Weights balance chemical topics, not dataset sizes.
-Records contain concrete objects and facts rather than assignments.
+Top-level weights balance chemical topics. Within `elements` and `compounds`,
+weights follow descendant record counts so each identity samples uniformly.
 
 ## Reproduction
 
@@ -25,6 +25,7 @@ Records contain concrete objects and facts rather than assignments.
 python -B families/chemistry/import_data.py --download
 python -B families/chemistry/import_isomers.py --download
 python -B families/chemistry/generate_reactions.py
+python -B families/chemistry/verify_data.py
 ```
 
 Downloads are cached under `target/chemistry-sources/`. `source_manifest.json`
@@ -33,31 +34,30 @@ importers require the cache and perform no network I/O. Changed upstream inputs
 are rejected until explicitly reviewed and repinned. Raw data and intermediate
 files remain outside the tree; the executable embeds the generated outputs.
 
-## Chemical conventions and limitations
+The base importer also runs the amino-acid and carbohydrate importers, then
+rebuilds identity weights. It preserves the source selection used by isomer
+comparisons without writing corpus files over branches containing child leaves.
+
+## Chemical conventions
 
 Selections are deliberate examples, not exhaustive inventories or random IDs.
 Ionic solids use formula units, not molecules. Molar mass is not labelled exact
 or monoisotopic mass. SMILES come directly from pinned PubChem structures,
 including available stereo information. Superheavy element configurations are
-labelled theoretical. Atomic weights and inadequately qualified physical
-properties from the periodic table are omitted.
+marked with the source's calculated/predicted qualification. Atomic weights and
+inadequately qualified physical properties from the periodic table are omitted.
 
-Constitutional pairs exclude carbohydrates: sugar epimers may have identical
-connectivity while differing in stereochemistry. Four explicitly selected
-stereochemical pairs distinguish E/Z geometry, enantiomers and C4 epimers. D/L
-labels specify configuration; optical-rotation sign is a separate property.
+Constitutional comparisons exclude carbohydrates. Stereochemical pairs
+distinguish E/Z geometry, enantiomers, epimers and other diastereomers. Aldose
+relationships use fully specified open-chain R/S assignments on matching
+backbones; cyclic structures with unspecified anomers are excluded.
 
 Every reaction has independent Rust atom-inventory, charge-conservation,
-positive-coefficient and primitive-ratio tests. Conditions limit precipitation
-to supersaturation without excess complexing ligands, metal displacement to
-appropriate exposed surfaces, and redox chemistry to the specified medium.
-Random forward extents give stoichiometric reactant consumption and product
-formation; actual yields depend on reaction conditions, kinetics and equilibrium.
-
-The original 56-molecule inventory and all 28 combustion fuels are preserved.
-Older mixed equations moved into their reaction classes; silver chloride now
-uses a net ionic equation. Sodium/chlorine formation was omitted from the
-refactored redox branch, which focuses on displacement and aqueous transfer.
+positive-coefficient and primitive-ratio tests. All 28 combustion fuels are
+preserved, with names distinguishing isomeric fuels that share a formula.
+Equations use their smallest integer coefficients and are never multiplied by a
+random extent. Phase labels, equilibrium arrows and relevant conditions remain
+part of the chemical artifact.
 
 References inspected include PubChem PUG REST responses, NIST compound identities
 (https://wtt-lite.nist.gov/wtt-lite/help/lite.html), and established chemical

@@ -1,32 +1,32 @@
 [
   {
     "id": "pubchem-element-9",
-    "text": "Fluorine (F)\nAtomic number: 9; 9 protons per nucleus and 9 electrons in a neutral atom.\nClassification: Halogen.\nNeutral-atom electron configuration: [He]2s2 2p5.",
+    "text": "Fluorine (F)\nAtomic number: 9\nHalogen\nElectron configuration: [He]2s2 2p5",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-17",
-    "text": "Chlorine (Cl)\nAtomic number: 17; 17 protons per nucleus and 17 electrons in a neutral atom.\nClassification: Halogen.\nNeutral-atom electron configuration: [Ne]3s2 3p5.",
+    "text": "Chlorine (Cl)\nAtomic number: 17\nHalogen\nElectron configuration: [Ne]3s2 3p5",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-35",
-    "text": "Bromine (Br)\nAtomic number: 35; 35 protons per nucleus and 35 electrons in a neutral atom.\nClassification: Halogen.\nNeutral-atom electron configuration: [Ar]4s2 3d10 4p5.",
+    "text": "Bromine (Br)\nAtomic number: 35\nHalogen\nElectron configuration: [Ar]4s2 3d10 4p5",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-53",
-    "text": "Iodine (I)\nAtomic number: 53; 53 protons per nucleus and 53 electrons in a neutral atom.\nClassification: Halogen.\nNeutral-atom electron configuration: [Kr]5s2 4d10 5p5.",
+    "text": "Iodine (I)\nAtomic number: 53\nHalogen\nElectron configuration: [Kr]5s2 4d10 5p5",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-85",
-    "text": "Astatine (At)\nAtomic number: 85; 85 protons per nucleus and 85 electrons in a neutral atom.\nClassification: Halogen.\nNeutral-atom electron configuration: [Xe]6s2 4f14 5d10 6p5.",
+    "text": "Astatine (At)\nAtomic number: 85\nHalogen\nElectron configuration: [Xe]6s2 4f14 5d10 6p5",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-element-117",
-    "text": "Tennessine (Ts)\nAtomic number: 117; 117 protons per nucleus and 117 electrons in a neutral atom.\nClassification: Halogen.\nNeutral-atom electron configuration: [Rn]7s2 7p5 5f14 6d10 (predicted). Configurations for these short-lived superheavy elements are theoretical assignments.",
+    "text": "Tennessine (Ts)\nAtomic number: 117\nHalogen\nElectron configuration: [Rn]7s2 7p5 5f14 6d10 (predicted)",
     "provenance": "PubChem periodic table numerical/identity facts, https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON; NCBI/NLM acknowledgement; no third-party prose imported. See chemistry/LICENSE.md and source_manifest.json."
   }
 ]

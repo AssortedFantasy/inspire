@@ -1,12 +1,12 @@
 [
   {
     "id": "pubchem-cid-5951",
-    "text": "L-serine\nMolecular formula: C3H7NO3.\nMolar mass (calculated): 105.09 g/mol.\nAtoms per molecule: C: 3, H: 7, N: 1, O: 3.\nL stereoisomer; IUPAC name: (2S)-2-amino-3-hydroxypropanoic acid.\nSMILES: C([C@@H](C(=O)O)N)O\nNeutral structural representation; protonation in solution depends on pH.",
+    "text": "L-serine (C3H7NO3)\nMolar mass: 105.09 g/mol\nSMILES: C([C@@H](C(=O)O)N)O",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-serine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 5951; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
   },
   {
     "id": "pubchem-cid-6288",
-    "text": "L-threonine\nMolecular formula: C4H9NO3.\nMolar mass (calculated): 119.12 g/mol.\nAtoms per molecule: C: 4, H: 9, N: 1, O: 3.\nL stereoisomer; IUPAC name: (2S,3R)-2-amino-3-hydroxybutanoic acid.\nSMILES: C[C@H]([C@@H](C(=O)O)N)O\nNeutral structural representation; protonation in solution depends on pH.",
+    "text": "L-threonine (C4H9NO3)\nMolar mass: 119.12 g/mol\nSMILES: C[C@H]([C@@H](C(=O)O)N)O",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-threonine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6288; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
   }
 ]

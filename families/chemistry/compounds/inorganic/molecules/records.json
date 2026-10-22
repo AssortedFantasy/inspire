@@ -1,47 +1,47 @@
 [
   {
     "id": "pubchem-cid-962",
-    "text": "water\nMolecular formula: H2O.\nMolar mass (calculated): 18.015 g/mol.\nAtoms per molecule: H: 2, O: 1.\nSMILES: O",
+    "text": "water (H2O)\nMolar mass: 18.015 g/mol\nSMILES: O",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/water/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 962; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-222",
-    "text": "ammonia\nMolecular formula: H3N.\nMolar mass (calculated): 17.031 g/mol.\nAtoms per molecule: H: 3, N: 1.\nSMILES: N",
+    "text": "ammonia (NH3)\nMolar mass: 17.031 g/mol\nSMILES: N",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ammonia/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 222; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-281",
-    "text": "carbon monoxide\nMolecular formula: CO.\nMolar mass (calculated): 28.010 g/mol.\nAtoms per molecule: C: 1, O: 1.\nSMILES: [C-]#[O+]",
+    "text": "carbon monoxide (CO)\nMolar mass: 28.01 g/mol\nSMILES: [C-]#[O+]",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/carbon%20monoxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 281; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-280",
-    "text": "carbon dioxide\nMolecular formula: CO2.\nMolar mass (calculated): 44.009 g/mol.\nAtoms per molecule: C: 1, O: 2.\nSMILES: C(=O)=O",
+    "text": "carbon dioxide (CO2)\nMolar mass: 44.009 g/mol\nSMILES: C(=O)=O",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/carbon%20dioxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 280; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-1119",
-    "text": "sulfur dioxide\nMolecular formula: O2S.\nMolar mass (calculated): 64.07 g/mol.\nAtoms per molecule: O: 2, S: 1.\nSMILES: O=S=O",
+    "text": "sulfur dioxide (SO2)\nMolar mass: 64.07 g/mol\nSMILES: O=S=O",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sulfur%20dioxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 1119; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-402",
-    "text": "hydrogen sulfide\nMolecular formula: H2S.\nMolar mass (calculated): 34.08 g/mol.\nAtoms per molecule: H: 2, S: 1.\nSMILES: S",
+    "text": "hydrogen sulfide (H2S)\nMolar mass: 34.08 g/mol\nSMILES: S",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/hydrogen%20sulfide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 402; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-6348",
-    "text": "carbon disulfide\nMolecular formula: CS2.\nMolar mass (calculated): 76.15 g/mol.\nAtoms per molecule: C: 1, S: 2.\nSMILES: C(=S)=S",
+    "text": "carbon disulfide (CS2)\nMolar mass: 76.15 g/mol\nSMILES: C(=S)=S",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/carbon%20disulfide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6348; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-145068",
-    "text": "nitric oxide\nMolecular formula: NO.\nMolar mass (calculated): 30.006 g/mol.\nAtoms per molecule: N: 1, O: 1.\nSMILES: [N]=O",
+    "text": "nitric oxide (NO)\nMolar mass: 30.006 g/mol\nSMILES: [N]=O",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/nitric%20oxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 145068; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-784",
-    "text": "hydrogen peroxide\nMolecular formula: H2O2; empirical formula: HO.\nMolar mass (calculated): 34.015 g/mol.\nAtoms per molecule: H: 2, O: 2.\nSMILES: OO",
+    "text": "hydrogen peroxide (H2O2)\nMolar mass: 34.015 g/mol\nSMILES: OO",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/hydrogen%20peroxide/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 784; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   }
 ]

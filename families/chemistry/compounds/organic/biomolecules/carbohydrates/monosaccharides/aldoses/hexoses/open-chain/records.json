@@ -1,27 +1,27 @@
 [
   {
     "id": "pubchem-cid-111317",
-    "text": "L-allose\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C6H12O6; empirical formula: CH2O.\nMolar mass (calculated): 180.16 g/mol; formal charge: 0.\nAtoms per molecule: C: 6, H: 12, O: 6.\nSystematic name: (2S,3S,4S,5S)-2,3,4,5,6-pentahydroxyhexanal\nStereochemical SMILES: C([C@@H]([C@@H]([C@@H]([C@@H](C=O)O)O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "text": "L-allose (C6H12O6)\nOpen-chain aldose\nMolar mass: 180.16 g/mol\nSMILES: C([C@@H]([C@@H]([C@@H]([C@@H](C=O)O)O)O)O)O",
     "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-allose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 111317; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
   },
   {
     "id": "pubchem-cid-84996",
-    "text": "L-galactose\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C6H12O6; empirical formula: CH2O.\nMolar mass (calculated): 180.16 g/mol; formal charge: 0.\nAtoms per molecule: C: 6, H: 12, O: 6.\nSystematic name: (2S,3R,4R,5S)-2,3,4,5,6-pentahydroxyhexanal\nStereochemical SMILES: C([C@@H]([C@H]([C@H]([C@@H](C=O)O)O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "text": "L-galactose (C6H12O6)\nOpen-chain aldose\nMolar mass: 180.16 g/mol\nSMILES: C([C@@H]([C@H]([C@H]([C@@H](C=O)O)O)O)O)O",
     "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-galactose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 84996; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
   },
   {
     "id": "pubchem-cid-80127",
-    "text": "L-gulose\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C6H12O6; empirical formula: CH2O.\nMolar mass (calculated): 180.16 g/mol; formal charge: 0.\nAtoms per molecule: C: 6, H: 12, O: 6.\nSystematic name: (2S,3S,4R,5S)-2,3,4,5,6-pentahydroxyhexanal\nStereochemical SMILES: C([C@@H]([C@H]([C@@H]([C@@H](C=O)O)O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "text": "L-gulose (C6H12O6)\nOpen-chain aldose\nMolar mass: 180.16 g/mol\nSMILES: C([C@@H]([C@H]([C@@H]([C@@H](C=O)O)O)O)O)O",
     "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-gulose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 80127; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
   },
   {
     "id": "pubchem-cid-82308",
-    "text": "L-mannose\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C6H12O6; empirical formula: CH2O.\nMolar mass (calculated): 180.16 g/mol; formal charge: 0.\nAtoms per molecule: C: 6, H: 12, O: 6.\nSystematic name: (2R,3R,4S,5S)-2,3,4,5,6-pentahydroxyhexanal\nStereochemical SMILES: C([C@@H]([C@@H]([C@H]([C@H](C=O)O)O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "text": "L-mannose (C6H12O6)\nOpen-chain aldose\nMolar mass: 180.16 g/mol\nSMILES: C([C@@H]([C@@H]([C@H]([C@H](C=O)O)O)O)O)O",
     "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-mannose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 82308; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
   },
   {
     "id": "pubchem-cid-90173",
-    "text": "L-talose\nRepresentation: Open-chain aldose; terminal aldehyde.\nMolecular formula: C6H12O6; empirical formula: CH2O.\nMolar mass (calculated): 180.16 g/mol; formal charge: 0.\nAtoms per molecule: C: 6, H: 12, O: 6.\nSystematic name: (2R,3R,4R,5S)-2,3,4,5,6-pentahydroxyhexanal\nStereochemical SMILES: C([C@@H]([C@H]([C@H]([C@H](C=O)O)O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Aqueous aldoses also form cyclic hemiacetals.",
+    "text": "L-talose (C6H12O6)\nOpen-chain aldose\nMolar mass: 180.16 g/mol\nSMILES: C([C@@H]([C@H]([C@H]([C@H](C=O)O)O)O)O)O",
     "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-talose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 90173; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
   }
 ]

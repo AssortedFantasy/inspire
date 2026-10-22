@@ -1,27 +1,27 @@
 [
   {
     "id": "pubchem-cid-6329",
-    "text": "methylamine\nMolecular formula: CH5N.\nMolar mass (calculated): 31.057 g/mol.\nAtoms per molecule: C: 1, H: 5, N: 1.\nSMILES: CN",
+    "text": "methylamine (CH5N)\nMolar mass: 31.057 g/mol\nSMILES: CN",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methylamine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6329; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-6341",
-    "text": "ethylamine\nMolecular formula: C2H7N.\nMolar mass (calculated): 45.08 g/mol.\nAtoms per molecule: C: 2, H: 7, N: 1.\nSMILES: CCN",
+    "text": "ethylamine (C2H7N)\nMolar mass: 45.08 g/mol\nSMILES: CCN",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethylamine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6341; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-674",
-    "text": "dimethylamine\nMolecular formula: C2H7N.\nMolar mass (calculated): 45.08 g/mol.\nAtoms per molecule: C: 2, H: 7, N: 1.\nSMILES: CNC",
+    "text": "dimethylamine (C2H7N)\nMolar mass: 45.08 g/mol\nSMILES: CNC",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/dimethylamine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 674; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-1146",
-    "text": "trimethylamine\nMolecular formula: C3H9N.\nMolar mass (calculated): 59.11 g/mol.\nAtoms per molecule: C: 3, H: 9, N: 1.\nSMILES: CN(C)C",
+    "text": "trimethylamine (C3H9N)\nMolar mass: 59.11 g/mol\nSMILES: CN(C)C",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/trimethylamine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 1146; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-6115",
-    "text": "aniline\nMolecular formula: C6H7N.\nMolar mass (calculated): 93.13 g/mol.\nAtoms per molecule: C: 6, H: 7, N: 1.\nSMILES: C1=CC=C(C=C1)N",
+    "text": "aniline (C6H7N)\nMolar mass: 93.13 g/mol\nSMILES: C1=CC=C(C=C1)N",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/aniline/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6115; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   }
 ]

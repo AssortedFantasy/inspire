@@ -1,22 +1,22 @@
 [
   {
     "id": "pubchem-cid-6351",
-    "text": "cyclopropane\nMolecular formula: C3H6; empirical formula: CH2.\nMolar mass (calculated): 42.08 g/mol.\nAtoms per molecule: C: 3, H: 6.\nSMILES: C1CC1",
+    "text": "cyclopropane (C3H6)\nMolar mass: 42.08 g/mol\nSMILES: C1CC1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/cyclopropane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6351; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-9250",
-    "text": "cyclobutane\nMolecular formula: C4H8; empirical formula: CH2.\nMolar mass (calculated): 56.11 g/mol.\nAtoms per molecule: C: 4, H: 8.\nSMILES: C1CCC1",
+    "text": "cyclobutane (C4H8)\nMolar mass: 56.11 g/mol\nSMILES: C1CCC1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/cyclobutane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 9250; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-9253",
-    "text": "cyclopentane\nMolecular formula: C5H10; empirical formula: CH2.\nMolar mass (calculated): 70.13 g/mol.\nAtoms per molecule: C: 5, H: 10.\nSMILES: C1CCCC1",
+    "text": "cyclopentane (C5H10)\nMolar mass: 70.13 g/mol\nSMILES: C1CCCC1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/cyclopentane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 9253; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   },
   {
     "id": "pubchem-cid-8078",
-    "text": "cyclohexane\nMolecular formula: C6H12; empirical formula: CH2.\nMolar mass (calculated): 84.16 g/mol.\nAtoms per molecule: C: 6, H: 12.\nSMILES: C1CCCCC1",
+    "text": "cyclohexane (C6H12)\nMolar mass: 84.16 g/mol\nSMILES: C1CCCCC1",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/cyclohexane/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 8078; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and class mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and source_manifest.json."
   }
 ]

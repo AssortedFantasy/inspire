@@ -5,38 +5,38 @@ use support::Reaction;
 
 const REACTIONS: &[Reaction] = &[
     Reaction {
-        title: "Calcium carbonate decomposition",
+        identity: "",
         left: &[(1, "CaCO3(s)")],
         right: &[(1, "CaO(s)"), (1, "CO2(g)")],
-        conditions: "Strong heating with low carbon-dioxide partial pressure; CO2 removal favors decomposition.",
+        conditions: "Strong heating, CO2 removed",
         equilibrium: false,
     },
     Reaction {
-        title: "Magnesium carbonate decomposition",
+        identity: "",
         left: &[(1, "MgCO3(s)")],
         right: &[(1, "MgO(s)"), (1, "CO2(g)")],
-        conditions: "Heating with carbon-dioxide removal; anhydrous carbonate stoichiometry.",
+        conditions: "Heat",
         equilibrium: false,
     },
     Reaction {
-        title: "Sodium bicarbonate decomposition",
+        identity: "",
         left: &[(2, "NaHCO3(s)")],
         right: &[(1, "Na2CO3(s)"), (1, "CO2(g)"), (1, "H2O(g)")],
-        conditions: "Heating; water and carbon dioxide leave as gases.",
+        conditions: "Heat",
         equilibrium: false,
     },
     Reaction {
-        title: "Potassium chlorate decomposition",
+        identity: "",
         left: &[(2, "KClO3(s)")],
         right: &[(2, "KCl(s)"), (3, "O2(g)")],
-        conditions: "Heating, commonly with manganese dioxide catalyst; ideal overall decomposition equation.",
+        conditions: "Heat, MnO2 catalyst",
         equilibrium: false,
     },
     Reaction {
-        title: "Silver(I) oxide decomposition",
+        identity: "",
         left: &[(2, "Ag2O(s)")],
         right: &[(4, "Ag(s)"), (1, "O2(g)")],
-        conditions: "Heating above the decomposition temperature; oxygen escapes.",
+        conditions: "Heat",
         equilibrium: false,
     },
 ];

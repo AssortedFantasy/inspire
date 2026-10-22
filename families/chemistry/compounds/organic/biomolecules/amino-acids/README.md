@@ -10,7 +10,7 @@ Side-chain groups are disjoint editorial categories: `aliphatic` (six),
 `acidic` (two), and `basic` (three). Tyrosine is grouped with aromatic rings,
 histidine with basic side chains, and methionine with sulfur compounds. These
 are structural groupings, not claims of a single charge or polarity at all pH.
-Default sibling weights balance categories rather than amino-acid frequencies.
+Sibling weights follow record counts so all twenty identities sample uniformly.
 
 Each record uses the neutral PubChem structural representation; amino acids in
 solution have pH-dependent protonation and can be zwitterionic. L/D does not
@@ -25,8 +25,9 @@ python -B families/chemistry/compounds/organic/biomolecules/amino-acids/import_d
 
 `source_manifest.json` pins the full PUG REST responses. Missing inputs download
 to `target/chemistry-sources`; changed URLs or hashes fail. The importer checks
-CID uniqueness, neutral structure, stereochemical IUPAC names, composition and
-empirical reduction. Runtime has no network dependency. Provenance and sampled
-text acknowledge NCBI/NLM; chemistry/LICENSE.md carries the embedded source
-notice. Only factual identities and computed properties are redistributed,
+CID uniqueness, neutral structure, stereochemical IUPAC names and composition.
+Records contain the name, formula, molar mass and stereochemical SMILES.
+Runtime has no network dependency. Provenance acknowledges NCBI/NLM;
+chemistry/LICENSE.md carries the embedded source notice. Only factual identities
+and computed properties are redistributed,
 without third-party descriptive annotations or prose.

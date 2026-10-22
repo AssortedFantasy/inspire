@@ -1,22 +1,22 @@
 [
   {
     "id": "pubchem-cid-439240",
-    "text": "D-lyxose\nRepresentation: Pyranose (six-membered cyclic hemiacetal); anomeric configuration unspecified.\nMolecular formula: C5H10O5; empirical formula: CH2O.\nMolar mass (calculated): 150.13 g/mol; formal charge: 0.\nAtoms per molecule: C: 5, H: 10, O: 5.\nSystematic name: (3S,4S,5R)-oxane-2,3,4,5-tetrol\nStereochemical SMILES: C1[C@H]([C@@H]([C@@H](C(O1)O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Open-chain and other cyclic forms also occur in aqueous solution.",
+    "text": "D-lyxose (C5H10O5)\nPyranose, anomer unspecified\nMolar mass: 150.13 g/mol\nSMILES: C1[C@H]([C@@H]([C@@H](C(O1)O)O)O)O",
     "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-lyxose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 439240; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
   },
   {
     "id": "pubchem-cid-10975657",
-    "text": "D-ribose\nRepresentation: Pyranose (six-membered cyclic hemiacetal); anomeric configuration unspecified.\nMolecular formula: C5H10O5; empirical formula: CH2O.\nMolar mass (calculated): 150.13 g/mol; formal charge: 0.\nAtoms per molecule: C: 5, H: 10, O: 5.\nSystematic name: (3R,4R,5R)-oxane-2,3,4,5-tetrol\nStereochemical SMILES: C1[C@H]([C@H]([C@H](C(O1)O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Open-chain and other cyclic forms also occur in aqueous solution.",
+    "text": "D-ribose (C5H10O5)\nPyranose, anomer unspecified\nMolar mass: 150.13 g/mol\nSMILES: C1[C@H]([C@H]([C@H](C(O1)O)O)O)O",
     "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-ribose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 10975657; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
   },
   {
     "id": "pubchem-cid-135191",
-    "text": "D-xylose\nRepresentation: Pyranose (six-membered cyclic hemiacetal); anomeric configuration unspecified.\nMolecular formula: C5H10O5; empirical formula: CH2O.\nMolar mass (calculated): 150.13 g/mol; formal charge: 0.\nAtoms per molecule: C: 5, H: 10, O: 5.\nSystematic name: (3R,4S,5R)-oxane-2,3,4,5-tetrol\nStereochemical SMILES: C1[C@H]([C@@H]([C@H](C(O1)O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Open-chain and other cyclic forms also occur in aqueous solution.",
+    "text": "D-xylose (C5H10O5)\nPyranose, anomer unspecified\nMolar mass: 150.13 g/mol\nSMILES: C1[C@H]([C@@H]([C@H](C(O1)O)O)O)O",
     "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/D-xylose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 135191; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
   },
   {
     "id": "pubchem-cid-439195",
-    "text": "L-arabinose\nRepresentation: Pyranose (six-membered cyclic hemiacetal); anomeric configuration unspecified.\nMolecular formula: C5H10O5; empirical formula: CH2O.\nMolar mass (calculated): 150.13 g/mol; formal charge: 0.\nAtoms per molecule: C: 5, H: 10, O: 5.\nSystematic name: (3R,4S,5S)-oxane-2,3,4,5-tetrol\nStereochemical SMILES: C1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O\nD/L labels specify configuration; optical-rotation sign is a separate property. Open-chain and other cyclic forms also occur in aqueous solution.",
+    "text": "L-arabinose (C5H10O5)\nPyranose, anomer unspecified\nMolar mass: 150.13 g/mol\nSMILES: C1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O",
     "provenance": "Selected PubChem factual identity/computed properties; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-arabinose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 439195; original formatting and aldose classification. NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; NCBI/NLM credit; contributed material may have separate rights. No third-party descriptive prose imported. See chemistry/LICENSE.md and aldoses/source_manifest.json."
   }
 ]

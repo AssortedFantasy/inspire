@@ -1,17 +1,17 @@
 [
   {
     "id": "pubchem-cid-5962",
-    "text": "L-lysine\nMolecular formula: C6H14N2O2; empirical formula: C3H7NO.\nMolar mass (calculated): 146.19 g/mol.\nAtoms per molecule: C: 6, H: 14, N: 2, O: 2.\nL stereoisomer; IUPAC name: (2S)-2,6-diaminohexanoic acid.\nSMILES: C(CCN)C[C@@H](C(=O)O)N\nNeutral structural representation; protonation in solution depends on pH.",
+    "text": "L-lysine (C6H14N2O2)\nMolar mass: 146.19 g/mol\nSMILES: C(CCN)C[C@@H](C(=O)O)N",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-lysine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 5962; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
   },
   {
     "id": "pubchem-cid-6322",
-    "text": "L-arginine\nMolecular formula: C6H14N4O2; empirical formula: C3H7N2O.\nMolar mass (calculated): 174.20 g/mol.\nAtoms per molecule: C: 6, H: 14, N: 4, O: 2.\nL stereoisomer; IUPAC name: (2S)-2-amino-5-(diaminomethylideneamino)pentanoic acid.\nSMILES: C(C[C@@H](C(=O)O)N)CN=C(N)N\nNeutral structural representation; protonation in solution depends on pH.",
+    "text": "L-arginine (C6H14N4O2)\nMolar mass: 174.2 g/mol\nSMILES: C(C[C@@H](C(=O)O)N)CN=C(N)N",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-arginine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6322; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
   },
   {
     "id": "pubchem-cid-6274",
-    "text": "L-histidine\nMolecular formula: C6H9N3O2.\nMolar mass (calculated): 155.15 g/mol.\nAtoms per molecule: C: 6, H: 9, N: 3, O: 2.\nL stereoisomer; IUPAC name: (2S)-2-amino-3-(1H-imidazol-5-yl)propanoic acid.\nSMILES: C1=C(NC=N1)C[C@@H](C(=O)O)N\nNeutral structural representation; protonation in solution depends on pH.",
+    "text": "L-histidine (C6H9N3O2)\nMolar mass: 155.15 g/mol\nSMILES: C1=C(NC=N1)C[C@@H](C(=O)O)N",
     "provenance": "Selected factual identity and PubChem-calculated composition/molar mass/SMILES; https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/L-histidine/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON; CID 6274; NCBI policy https://www.ncbi.nlm.nih.gov/home/about/policies/; original formatting and side-chain mapping. No third-party descriptive annotations. See chemistry/LICENSE.md and amino-acids/source_manifest.json."
   }
 ]

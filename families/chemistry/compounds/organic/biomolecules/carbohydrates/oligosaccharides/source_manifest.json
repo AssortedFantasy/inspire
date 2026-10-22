@@ -1,0 +1,14 @@
+{
+  "compound-sucrose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sucrose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "6ceab47d83ae8e3357078f3666caf92f4239d22a5cf5f6ca238cb03befc441f7"
+  },
+  "compound-lactose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/lactose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "d9f46c67e537b5719bc93aa48ca39a3b5da648388d3f518c3425b02f2ce8b455"
+  },
+  "compound-maltose": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/maltose/property/MolecularFormula,MolecularWeight,IUPACName,SMILES,Charge/JSON",
+    "sha256": "1a14b1507b989a0d742a66434ec9f5b77e3931a29d2c35de62c809d3cf36a801"
+  }
+}
