@@ -4,6 +4,11 @@
 Each leaf has its own `support.rs` so moving the node preserves its code. Edit the
 Python catalog and regenerate, then format both Rust files.
 
+Every child weight equals its descendant equation count, so each of the 87
+reactions has the same probability within this branch. Regeneration updates
+these weights without changing the incoming `reactions` topic weight.
+`chemistry/verify_data.py` independently checks weights against emitted catalogs.
+
 All species specify phases; charged species use `^+`, `^-`, `^2+`, etc. Net ionic
 equations omit spectator ions. Equilibrium arrows differ from idealized complete
 combustion, precipitation and displacement arrows.

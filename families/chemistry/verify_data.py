@@ -18,6 +18,20 @@ def check_record_weights(branch):
     return total
 
 
+def check_reaction_weights(branch):
+    generator = branch / "generator.rs"
+    if generator.exists():
+        count = generator.read_text(encoding="utf-8").count("Reaction {")
+        assert count > 0, generator
+        return count
+    total = 0
+    for child in (path for path in branch.iterdir() if path.is_dir()):
+        count = check_reaction_weights(child)
+        assert (child / "node.toml").read_text().strip() == f"weight = {count}", child
+        total += count
+    return total
+
+
 def main():
     manifest = {}
     for path in ROOT.rglob("source_manifest.json"):
@@ -58,6 +72,7 @@ def main():
     assert empirical(composition("C2H6O")) == "C2H6O"
     assert check_record_weights(ROOT / "elements") == 118
     compound_count = check_record_weights(ROOT / "compounds")
+    assert check_reaction_weights(ROOT / "reactions") == 87
     texts = set()
     count = 0
     for path in ROOT.rglob("records.json"):
@@ -72,7 +87,7 @@ def main():
             ids.add(record["id"])
             texts.add(record["text"])
             count += 1
-    print(f"Verified {len(manifest)} source hashes, 118 electron configurations, {compound_count} compound records, uniform identity weights and {count} unique corpus records.")
+    print(f"Verified {len(manifest)} source hashes, 118 electron configurations, {compound_count} compound records, 87 reaction weights and {count} unique corpus records.")
 
 
 if __name__ == "__main__":

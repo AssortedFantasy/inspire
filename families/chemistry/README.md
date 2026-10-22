@@ -18,6 +18,8 @@ offline; PubChem downloads happen only during development.
 
 Top-level weights balance chemical topics. Within `elements` and `compounds`,
 weights follow descendant record counts so each identity samples uniformly.
+Within `reactions`, descendant equation counts likewise give all 87 equations
+equal probability.
 
 ## Reproduction
 
