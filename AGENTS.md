@@ -4,7 +4,7 @@ It runs offline as a single executable. Directories under `families/` define the
 sampling tree; leaves contain records or a Rust generator. The build embeds the
 tree and payloads, so runtime needs no source files. Weights are local to siblings.
 
-Try to be clever about random generators so that the outputs look "good". Vibe check that their outputs aren't garbage in some obvious way.
+Try to be clever about random generators so that the outputs look "good". Vibe check that their outputs aren't garbage in some obvious way. Cut GPT-style CYA slop: no semicolon/colon glossary chains, no explaining basic conventions, and no fake variation from trivial arithmetic or rigid mad-libs templates.
 
 # Agent Rules
 
