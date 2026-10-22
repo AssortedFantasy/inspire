@@ -177,10 +177,11 @@ def chinese(source, soup):
             if previous is poem or getattr(previous, "name", None) in ["h4", "h5"]:
                 break
             if getattr(previous, "name", None) and "comment" in previous.get("class", []):
-                text = re.sub(r"\s+", " ", previous.get_text(" ", strip=True))
+                text = clean(previous.find("p"))
                 if text.startswith("By "):
                     # Keep printed attribution, without the translator's biographical essay.
-                    comments.append(re.split(r"(?<=\))[,.;] |\. ", text, 1)[0])
+                    # Date abbreviations are not sentence boundaries.
+                    comments.append(re.split(r"(?<=\))[,.;] |(?<!A\.D)(?<!B\.C)\. ", text, 1)[0])
         prefix = context + ("\n" + "\n".join(comments) if comments else "")
         path = source["path"] + ("/bai-juyi" if poem.find_previous("h2") and
                                    heading(poem.find_previous("h2")).startswith("PART II") else "/early-and-various")

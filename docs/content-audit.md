@@ -58,7 +58,7 @@ shares. Count weights remain below the animal and plant topic roots.
 
 Other changes reduce disproportionate exposure of tiny collections while retaining
 deliberate broad topic shares. Geographic topics, museum artifacts, chemical
-identities, instruments, and source procedures use count weights internally.
+identities, reaction catalogs, instruments, and source procedures use count weights internally.
 Language has explicit 50/25/20/5 shares for lexicon, sayings, grammar, and histories.
 Literature favors larger bodies of actual text; topic leaves within individual
 historical works use record counts.
@@ -74,9 +74,11 @@ Use `scripts/review_content.py --binary target/release/inspire.exe --samples 4 -
 for both per-leaf inspection and ordinary weighted dogfooding. Seeds reproduce
 within this build; changed content and tree paths change historical seed results.
 
-Validation includes Rust invariant tests, source replay where caches are available,
-record schemas, weight calculations, duplicate checks, individual generator
-formatting, Clippy, and a standalone release build. Circuit checks use independent
+The integrated Rust suite passes all 323 tests; the review tools pass nine tests.
+All 156 generators pass individual formatting checks, and Clippy passes with
+warnings denied. Source replay where caches are available, record schemas, weight
+calculations, duplicate checks, and a standalone release build also pass.
+Circuit checks use independent
 modified nodal analysis; ngspice is not installed. Some animal, plant, and astronomy
 source caches were unavailable, so their format changes also use reconstructed
 importer comparisons. Source coverage remains curated and inherits historical and

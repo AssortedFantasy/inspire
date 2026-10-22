@@ -34,6 +34,17 @@ class LiteratureTests(unittest.TestCase):
         body = importer.body_text(rows[0][1]['text'])
         self.assertEqual(body, ('First paragraph. ' * 8).strip() + '\n\nA separate concluding verse.')
 
+    def test_waley_source_attributions_keep_complete_dates(self):
+        source = next(row for row in json.loads(importer.MANIFEST.read_text(encoding='utf-8')) if row['id'] == 42290)
+        soup = BeautifulSoup(Path('target/imports/literature/pg42290.html').read_bytes(), 'html.parser')
+        rows = {row['id']: row for _path, row in importer.chinese(source, soup)}
+        for row in rows.values():
+            for line in importer.body_text(row['text']).splitlines():
+                if line.startswith('By '):
+                    self.assertEqual(line.count('('), line.count(')'), line)
+        self.assertIn('By Ch’ü Yüan (332-295 B.C.)\n', rows['pg-42290-verse-block-4']['text'])
+        self.assertIn('By General Su Wu (circa 100 B.C.)\n', rows['pg-42290-verse-block-42']['text'])
+
     def test_offline_replay_and_complete_units(self):
         outputs = importer.build(Path('target/imports/literature'))
         for path, rows in outputs.items():
