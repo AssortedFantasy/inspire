@@ -1,132 +1,202 @@
-"""Write distinct original SPICE generator leaves (development time only)."""
+"""Write original SPICE generator leaves and their independent circuit tests."""
 
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
 COMMON = '''use rand::{rngs::StdRng, Rng};
-use std::f64::consts::PI;
 
 fn pick(rng: &mut StdRng, values: &[f64]) -> f64 {
     values[rng.random_range(0..values.len())]
+}
+
+fn preferred(rng: &mut StdRng, low: i32, high: i32) -> f64 {
+    pick(rng, &[1.0, 1.2, 1.5, 1.8, 2.2, 2.7, 3.3, 3.9, 4.7, 5.6, 6.8, 8.2])
+        * 10.0_f64.powi(rng.random_range(low..=high))
+}
+
+fn number(value: f64) -> String {
+    let scientific = format!("{value:.3e}");
+    let (mantissa, exponent) = scientific.split_once('e').unwrap();
+    let mantissa = mantissa.trim_end_matches('0').trim_end_matches('.');
+    let exponent: i32 = exponent.parse().unwrap();
+    if (-2..=2).contains(&exponent) {
+        let decimal = format!("{value:.precision$}", precision = (3 - exponent) as usize);
+        decimal.trim_end_matches('0').trim_end_matches('.').to_owned()
+    } else { format!("{mantissa}e{exponent}") }
+}
+
+fn part(name: &str, from: &str, to: &str, value: f64) -> String {
+    format!("{name} {from} {to} {}", number(value))
+}
+'''
+
+FILTER = '''use std::f64::consts::PI;
+
+fn filter_deck(
+    rng: &mut StdRng, title: &str, parts: Vec<String>, time: f64,
+    low: f64, high: f64, observations: &str,
+) -> String {
+    let mode = rng.random_range(0..3);
+    let source = match mode {
+        0 => "V1 in 0 DC 0 AC 1".to_owned(),
+        1 => format!(
+            "V1 in 0 DC 0 PULSE(0 1 {} {} {} {} {})",
+            number(time), number(time / 100.0), number(time / 100.0),
+            number(time * 8.0), number(time * 16.0),
+        ),
+        _ => format!("V1 in 0 DC 0 SIN(0 1 {})", number(1.0 / (2.0 * PI * time))),
+    };
+    let mut lines = vec![title.to_owned(), source];
+    lines.extend(parts);
+    lines.push(".op".to_owned());
+    if mode == 0 {
+        lines.push(format!(".ac dec 40 {} {}", number(low), number(high)));
+        lines.push(format!(".print ac {observations} vp(out)"));
+    } else {
+        lines.push(format!(".tran {} {}", number(time / 100.0), number(time * 32.0)));
+        lines.push(".print tran v(in) v(out)".to_owned());
+    }
+    lines.push(".end".to_owned());
+    lines.join("\\n")
 }
 '''
 
 CASES = {
     "passive/resistive/loaded-divider": '''
     let v = pick(rng, &[1.8, 3.3, 5.0, 9.0, 12.0]);
-    let r1 = pick(rng, &[1000.0, 2200.0, 4700.0, 10000.0, 22000.0]);
-    let r2 = pick(rng, &[1000.0, 3300.0, 6800.0, 10000.0, 47000.0]);
+    let r1 = preferred(rng, 3, 4);
+    let r2 = preferred(rng, 3, 4);
     let load = r2 * pick(rng, &[2.0, 5.0, 10.0, 20.0]);
-    let parallel = r2 * load / (r2 + load);
-    let out = v * parallel / (r1 + parallel);
-    let resistance = r1 * parallel / (r1 + parallel);
-    format!("Loaded resistive voltage divider\\n* Ideal voltage source and resistors; values in V and ohms.\\n* DC output {out:.5e} V; loaded Thevenin resistance {resistance:.5e} ohm.\\nV1 in 0 DC {v:.5e}\\nR1 in out {r1:.5e}\\nR2 out 0 {r2:.5e}\\nRload out 0 {load:.5e}\\n.op\\n.dc V1 0 {v:.5e} {:.5e}\\n.print dc v(in) v(out)\\n.end", v / 20.0)
+    ["Loaded voltage divider".to_owned(),
+        format!("V1 in 0 DC {}", number(v)),
+        part("R1", "in", "out", r1), part("R2", "out", "0", r2),
+        part("Rload", "out", "0", load), ".op".to_owned(),
+        format!(".dc V1 0 {} {}", number(v), number(v / 20.0)),
+        ".print dc v(in) v(out)".to_owned(), ".end".to_owned()].join("\\n")
 ''',
     "passive/resistive/bridge": '''
     let v = pick(rng, &[1.8, 3.3, 5.0, 9.0, 12.0]);
-    let r1 = pick(rng, &[1000.0, 2200.0, 4700.0, 10000.0]);
-    let r2 = pick(rng, &[1000.0, 3300.0, 6800.0, 10000.0]);
-    let r3 = pick(rng, &[2200.0, 4700.0, 10000.0]);
-    let imbalance = pick(rng, &[0.8, 0.9, 1.0, 1.1, 1.2]);
-    let r4 = r3 * r2 / r1 * imbalance;
-    let out = v * (r2 / (r1 + r2) - r4 / (r3 + r4));
-    format!("Resistive bridge with differential output\\n* Ideal source and resistors; output is unloaded.\\n* Right-arm ratio is {imbalance} times left-arm ratio; v(left,right) = {out:.5e} V.\\nV1 in 0 DC {v:.5e}\\nR1 in left {r1:.5e}\\nR2 left 0 {r2:.5e}\\nR3 in right {r3:.5e}\\nR4 right 0 {r4:.5e}\\n.op\\n.dc V1 0 {v:.5e} {:.5e}\\n.print dc v(left) v(right) v(left,right)\\n.end", v / 20.0)
+    let r1 = preferred(rng, 3, 4);
+    let r2 = preferred(rng, 3, 4);
+    let r3 = preferred(rng, 3, 4);
+    let r4 = r3 * r2 / r1 * pick(rng, &[0.8, 0.9, 1.0, 1.1, 1.2]);
+    ["Resistive bridge".to_owned(), format!("V1 in 0 DC {}", number(v)),
+        part("R1", "in", "left", r1), part("R2", "left", "0", r2),
+        part("R3", "in", "right", r3), part("R4", "right", "0", r4),
+        ".op".to_owned(), format!(".dc V1 0 {} {}", number(v), number(v / 20.0)),
+        ".print dc v(left) v(right) v(left,right)".to_owned(), ".end".to_owned()].join("\\n")
 ''',
     "passive/resistive/tapped-divider": '''
     let v = pick(rng, &[3.3, 5.0, 9.0, 12.0]);
-    let r1 = pick(rng, &[1000.0, 2200.0, 4700.0, 10000.0]);
-    let r2 = pick(rng, &[1000.0, 3300.0, 6800.0, 10000.0]);
-    let r3 = pick(rng, &[1000.0, 2200.0, 4700.0]);
-    let tap = v * (r2 + r3) / (r1 + r2 + r3);
-    let out = v * r3 / (r1 + r2 + r3);
-    let current = v / (r1 + r2 + r3);
-    format!("Three-resistor tapped divider\\n* Ideal source; taps unloaded; resistance in ohms.\\n* DC tap {tap:.5e} V; out {out:.5e} V; source current {current:.5e} A.\\nV1 in 0 DC {v:.5e}\\nR1 in tap {r1:.5e}\\nR2 tap out {r2:.5e}\\nR3 out 0 {r3:.5e}\\n.op\\n.dc V1 0 {v:.5e} {:.5e}\\n.print dc v(tap) v(out)\\n.end", v / 20.0)
+    let r1 = preferred(rng, 3, 4);
+    let r2 = preferred(rng, 3, 4);
+    let r3 = preferred(rng, 3, 4);
+    ["Tapped voltage divider".to_owned(), format!("V1 in 0 DC {}", number(v)),
+        part("R1", "in", "tap", r1), part("R2", "tap", "out", r2),
+        part("R3", "out", "0", r3), ".op".to_owned(),
+        format!(".dc V1 0 {} {}", number(v), number(v / 20.0)),
+        ".print dc v(tap) v(out)".to_owned(), ".end".to_owned()].join("\\n")
 ''',
-    "passive/rc/low-pass": '''
-    let r = pick(rng, &[1000.0, 2200.0, 4700.0, 10000.0, 22000.0]);
-    let c = pick(rng, &[1e-9, 4.7e-9, 10e-9, 47e-9, 100e-9, 1e-6]);
-    let tau = r * c;
+}
+
+for topology in ["low-pass", "high-pass", "loaded-low-pass"]:
+    loaded = topology == "loaded-low-pass"
+    parts = ('part("C1", "in", "out", c), part("R1", "out", "0", r)' if topology == "high-pass"
+             else 'part("R1", "in", "out", r), part("C1", "out", "0", c)')
+    setup = '''let load = r * pick(rng, &[1.0, 2.0, 5.0, 10.0]);
+    let tau = r * load / (r + load) * c;''' if loaded else 'let tau = r * c;'
+    if loaded:
+        parts += ', part("Rload", "out", "0", load)'
+    CASES[f"passive/rc/{topology}"] = f'''
+    let r = preferred(rng, 3, 4);
+    let c = preferred(rng, -9, -6);
+    {setup}
     let fc = 1.0 / (2.0 * PI * tau);
-    format!("RC low-pass filter\\n* Ideal source; unloaded output; values in SI.\\n* Time constant {tau:.5e} s; -3.0103 dB corner {fc:.5e} Hz.\\nV1 in 0 DC 0 AC 1 PULSE(0 1 0 {:.5e} {:.5e} {:.5e} {:.5e})\\nR1 in out {r:.5e}\\nC1 out 0 {c:.5e}\\n.op\\n.ac dec 40 {:.5e} {:.5e}\\n.tran {:.5e} {:.5e}\\n.print ac vm(out) vp(out)\\n.print tran v(in) v(out)\\n.end", tau / 100.0, tau / 100.0, tau * 5.0, tau * 10.0, fc / 100.0, fc * 100.0, tau / 100.0, tau * 20.0)
-''',
-    "passive/rc/high-pass": '''
-    let r = pick(rng, &[1000.0, 2200.0, 4700.0, 10000.0, 22000.0]);
-    let c = pick(rng, &[1e-9, 4.7e-9, 10e-9, 47e-9, 100e-9, 1e-6]);
-    let tau = r * c;
-    let fc = 1.0 / (2.0 * PI * tau);
-    format!("RC high-pass filter\\n* Ideal source; output resistor provides a DC ground path; values in SI.\\n* Time constant {tau:.5e} s; -3.0103 dB corner {fc:.5e} Hz.\\nV1 in 0 DC 0 AC 1 PULSE(0 1 0 {:.5e} {:.5e} {:.5e} {:.5e})\\nC1 in out {c:.5e}\\nR1 out 0 {r:.5e}\\n.op\\n.ac dec 40 {:.5e} {:.5e}\\n.tran {:.5e} {:.5e}\\n.print ac vm(out) vp(out)\\n.print tran v(in) v(out)\\n.end", tau / 100.0, tau / 100.0, tau * 5.0, tau * 10.0, fc / 100.0, fc * 100.0, tau / 100.0, tau * 20.0)
-''',
-    "passive/rc/loaded-low-pass": '''
-    let r1 = pick(rng, &[1000.0, 2200.0, 4700.0, 10000.0]);
-    let r2 = r1 * pick(rng, &[1.0, 2.0, 5.0, 10.0]);
-    let c = pick(rng, &[10e-9, 47e-9, 100e-9, 1e-6]);
-    let tau = r1 * r2 / (r1 + r2) * c;
-    let fc = 1.0 / (2.0 * PI * tau);
-    let gain = r2 / (r1 + r2);
-    format!("Loaded RC low-pass filter\\n* Ideal source with resistive load; values in SI.\\n* DC gain {gain:.5e}; corner {fc:.5e} Hz (-3.0103 dB from DC gain).\\nV1 in 0 DC 1 AC 1\\nR1 in out {r1:.5e}\\nRload out 0 {r2:.5e}\\nC1 out 0 {c:.5e}\\n.op\\n.ac dec 40 {:.5e} {:.5e}\\n.print ac vm(out) vp(out)\\n.end", fc / 100.0, fc * 100.0)
-''',
-    "passive/rc/dual-low-pass": '''
-    let r1 = pick(rng, &[1000.0, 2200.0, 4700.0, 10000.0]);
-    let r2 = pick(rng, &[1000.0, 3300.0, 6800.0, 10000.0]);
-    let c1 = pick(rng, &[10e-9, 47e-9, 100e-9, 1e-6]);
-    let c2 = c1 * pick(rng, &[0.1, 0.5, 1.0, 2.0]);
+    filter_deck(rng, "RC {topology}", vec![{parts}], tau, fc / 100.0, fc * 100.0, "vm(out)")
+'''
+
+for topology in ["dual-low-pass", "band-pass"]:
+    high = topology == "band-pass"
+    parts = ('part("C1", "in", "mid", c1), part("R1", "mid", "0", r1)' if high
+             else 'part("R1", "in", "mid", r1), part("C1", "mid", "0", c1)')
+    CASES[f"passive/rc/{topology}"] = f'''
+    let r1 = preferred(rng, 3, 4);
+    let r2 = r1 * pick(rng, &[0.5, 1.0, 2.0, 5.0]);
+    let c1 = preferred(rng, -8, -6);
+    let c2 = c1 * pick(rng, &[0.1, 0.22, 0.47, 1.0]);
     let a = r1 * c1 + r1 * c2 + r2 * c2;
     let b = r1 * r2 * c1 * c2;
     let root = (a * a - 4.0 * b).sqrt();
     let slow_tau = (a + root) / 2.0;
     let fast_tau = 2.0 * b / (a + root);
-    let low = 1.0 / (2.0 * PI * slow_tau);
-    let high = 1.0 / (2.0 * PI * fast_tau);
-    format!("Unbuffered two-stage RC low-pass ladder\\n* Ideal voltage source; unloaded output; interstage loading included.\\n* H(s)=1/(1+a*s+b*s^2); a={a:.5e} s, b={b:.5e} s^2.\\n* Real pole frequencies {low:.5e} and {high:.5e} Hz.\\nV1 in 0 DC 1 AC 1\\nR1 in mid {r1:.5e}\\nC1 mid 0 {c1:.5e}\\nR2 mid out {r2:.5e}\\nC2 out 0 {c2:.5e}\\n.op\\n.ac dec 40 {:.5e} {:.5e}\\n.print ac vm(out) vp(out)\\n.end", low / 100.0, high * 100.0)
-''',
-}
+    filter_deck(rng, "{'RC band-pass' if high else 'Two-stage RC low-pass'}", vec![
+        {parts}, part("R2", "mid", "out", r2), part("C2", "out", "0", c2),
+    ], slow_tau, 1.0 / (2.0 * PI * slow_tau * 100.0), 100.0 / (2.0 * PI * fast_tau), "vm(mid) vm(out)")
+'''
 
-for topology, components, numerator in [
-    ("low-pass", "R1 in mid {r:.5e}\\nL1 mid out {l:.5e}\\nC1 out 0 {c:.5e}", "1"),
-    ("band-pass", "C1 in mid {c:.5e}\\nL1 mid out {l:.5e}\\nR1 out 0 {r:.5e}", "s*R*C"),
-    ("high-pass", "R1 in mid {r:.5e}\\nC1 mid out {c:.5e}\\nL1 out 0 {l:.5e}", "s^2*L*C"),
+for topology in ["low-pass", "high-pass"]:
+    parts = ('part("L1", "in", "out", l), part("R1", "out", "0", r)' if topology == "low-pass"
+             else 'part("R1", "in", "out", r), part("L1", "out", "0", l)')
+    CASES[f"passive/rl/{topology}"] = f'''
+    let r = preferred(rng, 2, 3);
+    let l = preferred(rng, -3, -1);
+    let tau = l / r;
+    let fc = 1.0 / (2.0 * PI * tau);
+    filter_deck(rng, "RL {topology}", vec![{parts}], tau, fc / 100.0, fc * 100.0, "vm(out)")
+'''
+
+for topology, parts in [
+    ("low-pass", 'part("R1", "in", "mid", r), part("L1", "mid", "out", l), part("C1", "out", "0", c)'),
+    ("band-pass", 'part("C1", "in", "mid", c), part("L1", "mid", "out", l), part("R1", "out", "0", r)'),
+    ("high-pass", 'part("R1", "in", "mid", r), part("C1", "mid", "out", c), part("L1", "out", "0", l)'),
+    ("notch", 'part("R1", "in", "out", r), part("L1", "out", "notch", l), part("C1", "notch", "0", c)'),
 ]:
-    CASES[f"passive/rlc/{topology}"] = '''
-    let l = pick(rng, &[1e-3, 4.7e-3, 10e-3, 47e-3]);
-    let c = pick(rng, &[1e-9, 4.7e-9, 10e-9, 47e-9, 100e-9, 1e-6]);
+    CASES[f"passive/rlc/{topology}"] = f'''
+    let l = preferred(rng, -3, -2);
+    let c = preferred(rng, -9, -6);
     let zeta = pick(rng, &[0.25, 0.5, 0.707, 1.0, 1.5]);
     let r = 2.0 * zeta * (l / c).sqrt();
     let f0 = 1.0 / (2.0 * PI * (l * c).sqrt());
-    let q = 1.0 / (2.0 * zeta);
-    let period = 1.0 / f0;
-''' + f'''    format!("Series RLC {topology} filter\\n* Ideal source and parts; unloaded output; values in SI.\\n* Natural frequency {{f0:.5e}} Hz; damping ratio {{zeta}}; Q={{q:.5e}}.\\n* H(s)={numerator}/(1+s*R*C+s^2*L*C).\\nV1 in 0 DC 0 AC 1 PULSE(0 1 0 {{:.5e}} {{:.5e}} {{:.5e}} {{:.5e}})\\n{components}\\n.op\\n.ac dec 40 {{:.5e}} {{:.5e}}\\n.tran {{:.5e}} {{:.5e}}\\n.print ac vm(out) vp(out)\\n.print tran v(in) v(out)\\n.end", period / 1000.0, period / 1000.0, period * 10.0, period * 20.0, f0 / 100.0, f0 * 100.0, period / 200.0, period * 40.0)
+    filter_deck(rng, "RLC {topology}", vec![{parts}], 1.0 / (2.0 * PI * f0), f0 / 100.0, f0 * 100.0, "vm(out)")
 '''
 
-CASES["active/amplifiers/inverting"] = '''
-    let r1 = pick(rng, &[1000.0, 2200.0, 4700.0, 10000.0]);
-    let rf = r1 * pick(rng, &[0.5, 1.0, 2.0, 5.0, 10.0]);
-    let a = 100000.0;
-    let gain = -a * rf / (rf + r1 * (a + 1.0));
-    format!("Inverting finite-gain idealized amplifier\\n* Linear VCVS; gain 1e5, infinite input impedance, zero output impedance; values in SI.\\n* Closed-loop DC and AC gain {gain:.5e}; output unloaded.\\nV1 in 0 DC 0.1 AC 1\\nR1 in inv {r1:.5e}\\nRf inv out {rf:.5e}\\nE1 out 0 0 inv {a:.5e}\\n.op\\n.dc V1 -0.1 0.1 0.005\\n.ac dec 20 1 1e6\\n.print dc v(out)\\n.print ac vm(out) vp(out)\\n.end")
+for topology in ["inverting", "noninverting", "summing"]:
+    summing = topology == "summing"
+    noninverting = topology == "noninverting"
+    CASES[f"active/amplifiers/{topology}"] = f'''
+    let r = preferred(rng, 3, 4);
+    let rf = preferred(rng, 3, 4);
+    let a = pick(rng, &[1e3, 1e4, 1e5, 1e6]);
+    {('let r2 = r * pick(rng, &[0.5, 1.0, 2.0, 5.0]);' if summing else '')}
+    let mut lines = vec!["{topology.capitalize()} VCVS amplifier".to_owned(),
+        "V1 in 0 DC 0.1".to_owned(),
+        {('part("Rg", "inv", "0", r)' if noninverting else 'part("R1", "in", "inv", r)')},
+        part("Rf", "inv", "out", rf),
+        format!("E1 out 0 {'in' if noninverting else '0'} inv {{}}", number(a)),
+    ];
+    {('lines.extend(["V2 in2 0 DC -0.05".to_owned(), part("R2", "in2", "inv", r2)]);' if summing else '')}
+    lines.extend([".op".to_owned(), ".dc V1 -0.1 0.1 0.005".to_owned(),
+        ".print dc v(in) v(out)".to_owned(), ".end".to_owned()]);
+    lines.join("\\n")
 '''
-CASES["active/amplifiers/noninverting"] = '''
-    let rg = pick(rng, &[1000.0, 2200.0, 4700.0, 10000.0]);
-    let rf = rg * pick(rng, &[0.5, 1.0, 2.0, 5.0, 10.0]);
-    let a = 100000.0;
-    let gain = a / (1.0 + a * rg / (rg + rf));
-    format!("Noninverting finite-gain idealized amplifier\\n* Linear VCVS; gain 1e5, infinite input impedance, zero output impedance; values in SI.\\n* Closed-loop DC and AC gain {gain:.5e}; output unloaded.\\nV1 in 0 DC 0.1 AC 1\\nRg inv 0 {rg:.5e}\\nRf out inv {rf:.5e}\\nE1 out 0 in inv {a:.5e}\\n.op\\n.dc V1 -0.1 0.1 0.005\\n.ac dec 20 1 1e6\\n.print dc v(out)\\n.print ac vm(out) vp(out)\\n.end")
-'''
+
 
 def main():
     for path, body in CASES.items():
         leaf = BASE / path
         leaf.mkdir(parents=True, exist_ok=True)
         kind = path.split("/")[-1]
-        if "/rc/" in path:
-            kind = "rc-" + kind
-        elif "/rlc/" in path:
-            kind = "rlc-" + kind
-        header = COMMON if "/rc/" in path or "/rlc/" in path else COMMON.replace("use std::f64::consts::PI;\n", "")
-        text = "// Generated by ../../../rebuild.py; one topology per leaf.\n" + header
+        circuit = path.split("/")[1]
+        if circuit in {"rc", "rl", "rlc"}:
+            kind = circuit + "-" + kind
+        header = COMMON + (FILTER if circuit in {"rc", "rl", "rlc"} else "")
+        text = "// Generated by circuits/rebuild.py; one topology per leaf.\n" + header
         text += "\npub fn generate(rng: &mut StdRng) -> String {\n" + body + "}\n"
         text += '''
 #[cfg(test)]
-mod validate;
+mod validate {
+    include!("../../../validate.rs");
+}
 
 #[cfg(test)]
 mod tests {
@@ -143,7 +213,9 @@ mod tests {
 }
 '''.replace("KIND", kind)
         (leaf / "generator.rs").write_text(text, encoding="utf-8")
-        (leaf / "validate.rs").write_text((BASE / "validate.rs").read_text(encoding="utf-8"), encoding="utf-8")
+    for path, count in [("passive", 14), ("active", 3), ("passive/rc", 5),
+                        ("passive/rl", 2), ("passive/rlc", 4), ("passive/resistive", 3)]:
+        (BASE / path / "node.toml").write_text(f"weight = {count}\n", encoding="utf-8")
     print(f"Generated {len(CASES)} individual circuit topologies.")
 
 

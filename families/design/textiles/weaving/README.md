@@ -1,22 +1,24 @@
 # Weaving drafts
 
-Original rising-shed lift plans, split by interlacement: two-shaft plain weave,
-grouped basket weave, straight twill, and warp-faced satin. Every output contains
-the threading repeat, warp-color repeat, weft color, every lifted shaft on every
-pick, and the complete repeat drawdown. No loom-specific treadling or hidden
-tie-up is needed; a direct lift plan defines the sheds. Repeats close cyclically.
+Original repeat drafts with two-color warp and weft plans. Each output contains
+either a threading and rising-shed lift repeat or a warp-over drawdown (`X` over,
+`.` under). Color and interlacement repeats are independent. Counts after `×`
+are ends for warp stripes and picks for weft stripes.
 
-Basket groups range from 2x2 through 4x4. Twills use 3-8 shafts, all nontrivial
-over/under ratios, either diagonal direction, and a cyclic starting offset. Satins
-use 5, 7, or 8 shafts with coprime binding steps excluding adjacent diagonals;
-each end and pick has exactly one binding and the stated maximum warp float.
-These are symbolic drafts, without unsupported yarn diameter, sett, shrinkage,
-strength, or finished-dimension claims.
+- Plain weave uses two shafts.
+- Basket weave has independent groups of 2–4 ends and 2–4 picks.
+- Twills use 3–8 shafts and straight, point, or broken threading. Every lift
+  advances one shaft, in either direction, with a cyclic starting offset.
+- Satins use 5, 7, or 8 shafts, either face, and coprime binding steps excluding
+  adjacent diagonals. Every end and pick has one binding.
 
-The basic weave terminology was checked against the primary
+`rebuild.py` writes and formats all four generators. Tests inspect 500 drafts per
+leaf for valid sheds, interlacement on both axes, and cyclic weave structure.
+These are symbolic drafts without yarn, sett, or finished-size assumptions.
+
+Basic terminology was checked against the primary
 [GeoDict 2026 WeaveGeo documentation](https://geodict-userguide.math2market.de/2026/weavegeo_weave-patterns-weave-types.html)
-on 2026-10-13. Drafts, renderers, and mathematical constraints are original; no
-external patterns or explanatory text are copied. `rebuild.py` writes the four
-generators. Tests inspect 500 drafts per leaf: both axes interlace, shed numbers
-are valid and unique, grouped/twill/satin structure holds through the repeat
-boundary, and drawdown floats match the claimed structure.
+on 2026-10-13. Drafts, renderers, and constraints are original.
+Point and staggered-reversal twill terminology was checked against
+[Handwoven's visual guide](https://handwovenmagazine.com/twills-handwoven-archives/)
+on 2026-10-22.

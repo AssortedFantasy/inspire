@@ -8,6 +8,7 @@ struct Draft {
     title: String,
 }
 
+#[cfg(test)]
 fn drawdown(draft: &Draft) -> Vec<Vec<bool>> {
     draft
         .lifts
@@ -22,27 +23,44 @@ fn drawdown(draft: &Draft) -> Vec<Vec<bool>> {
         .collect()
 }
 
+fn stripe_plan(rng: &mut StdRng, colors: (&str, &str)) -> String {
+    let repeats: &[&[usize]] = &[
+        &[1, 1],
+        &[2, 2],
+        &[4, 1],
+        &[4, 2],
+        &[1, 1, 2, 2],
+        &[4, 1, 1, 1],
+        &[6, 1, 1, 1],
+        &[2, 1, 2, 3],
+    ];
+    let repeat = repeats[rng.random_range(0..repeats.len())];
+    repeat
+        .iter()
+        .enumerate()
+        .map(|(i, count)| format!("{}×{count}", if i % 2 == 0 { colors.0 } else { colors.1 }))
+        .collect::<Vec<_>>()
+        .join(" ")
+}
+
 fn render(rng: &mut StdRng, draft: &Draft) -> String {
     let colors = [
         ("indigo", "ivory"),
-        ("charcoal", "silver gray"),
+        ("charcoal", "silver"),
         ("olive", "ecru"),
         ("rust", "cream"),
         ("teal", "stone"),
         ("burgundy", "oatmeal"),
+        ("ochre", "ink"),
+        ("walnut", "flax"),
     ];
-    let (warp, weft) = colors[rng.random_range(0..colors.len())];
-    let group = rng.random_range(1..=4);
-    let alternate = rng.random_bool(0.5);
-    let warp_colors: Vec<_> = (0..draft.threading.len())
-        .map(|i| {
-            if alternate && (i / group) % 2 == 1 {
-                weft
-            } else {
-                warp
-            }
-        })
-        .collect();
+    let pair = colors[rng.random_range(0..colors.len())];
+    let warp = stripe_plan(rng, pair);
+    let weft = if rng.random_bool(0.5) {
+        stripe_plan(rng, (pair.1, pair.0))
+    } else {
+        pair.1.to_owned()
+    };
     let list = |values: &[usize]| {
         values
             .iter()
@@ -52,32 +70,27 @@ fn render(rng: &mut StdRng, draft: &Draft) -> String {
     };
     let mut lines = vec![
         draft.title.clone(),
-        format!(
-            "Rising-shed lift plan; {} shafts. Threading entries are ends; repeat cyclically.",
-            draft.shafts
-        ),
-        format!("Threading, ends left to right: {}.", list(&draft.threading)),
-        format!(
-            "Warp-color repeat, ends left to right: {}.",
-            warp_colors.join(", ")
-        ),
-        format!("Weft: {weft}. Picks repeat cyclically; unlisted shafts stay down."),
+        format!("Warp {warp}"),
+        format!("Weft {weft}"),
     ];
-    for (i, lifted) in draft.lifts.iter().enumerate() {
-        lines.push(format!("Pick {}: raise shafts {}.", i + 1, list(lifted)));
-    }
-    lines.push(
-        "Drawdown: X = warp over weft, . = weft over warp; columns are ends, rows picks."
-            .to_owned(),
-    );
-    for (i, row) in drawdown(draft).iter().enumerate() {
-        lines.push(format!(
-            "{:02} {}",
-            i + 1,
-            row.iter()
-                .map(|over| if *over { 'X' } else { '.' })
-                .collect::<String>()
-        ));
+    if rng.random_bool(0.5) {
+        lines.push(format!("{} shafts", draft.shafts));
+        lines.push(format!("Threading {}", list(&draft.threading)));
+        lines.push("Lift repeat".to_owned());
+        for (i, lifted) in draft.lifts.iter().enumerate() {
+            lines.push(format!("{:02}  {}", i + 1, list(lifted)));
+        }
+    } else {
+        lines.push("Warp-over drawdown".to_owned());
+        for lift in &draft.lifts {
+            lines.push(
+                draft
+                    .threading
+                    .iter()
+                    .map(|shaft| if lift.contains(shaft) { 'X' } else { '.' })
+                    .collect(),
+            );
+        }
     }
     lines.join("\n")
 }
@@ -98,15 +111,16 @@ fn max_cyclic_run(values: &[bool]) -> usize {
 }
 
 fn draft(rng: &mut StdRng) -> Draft {
-    let group = rng.random_range(2..=4);
+    let ends = rng.random_range(2..=4);
+    let picks = rng.random_range(2..=4);
     let first = rng.random_range(0..2);
     Draft {
         shafts: 2,
-        threading: (0..2 * group).map(|i| i / group + 1).collect(),
-        lifts: (0..2 * group)
-            .map(|i| vec![(i / group + first) % 2 + 1])
+        threading: (0..2 * ends).map(|i| i / ends + 1).collect(),
+        lifts: (0..2 * picks)
+            .map(|i| vec![(i / picks + first) % 2 + 1])
             .collect(),
-        title: format!("Two-shaft {group}x{group} basket-weave draft; grouped ends and picks."),
+        title: format!("Basket weave {ends} × {picks}"),
     }
 }
 
@@ -146,18 +160,21 @@ mod tests {
                 assert!(lift.iter().all(|s| (1..=d.shafts).contains(s)));
             }
 
-            let group = d.threading.len() / 2;
-            assert!((2..=4).contains(&group));
+            let ends = d.threading.len() / 2;
+            let picks = d.lifts.len() / 2;
+            assert!((2..=4).contains(&ends));
+            assert!((2..=4).contains(&picks));
             for row in &grid {
-                assert!(row[..group].iter().all(|&v| v == row[0]));
-                assert!(row[group..].iter().all(|&v| v != row[0]));
+                assert!(row[..ends].iter().all(|&v| v == row[0]));
+                assert!(row[ends..].iter().all(|&v| v != row[0]));
+                assert_eq!(max_cyclic_run(row), ends);
             }
-            for col in 0..2 * group {
+            for col in 0..2 * ends {
                 let column: Vec<_> = grid.iter().map(|row| row[col]).collect();
-                assert_eq!(max_cyclic_run(&column), group);
+                assert_eq!(max_cyclic_run(&column), picks);
                 assert_eq!(
                     max_cyclic_run(&column.iter().map(|v| !v).collect::<Vec<_>>()),
-                    group
+                    picks
                 );
             }
 
@@ -165,6 +182,6 @@ mod tests {
             assert!(!text.ends_with('\n'));
             outputs.insert(text);
         }
-        assert!(outputs.len() >= 50);
+        assert!(outputs.len() >= 100);
     }
 }

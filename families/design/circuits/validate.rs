@@ -75,18 +75,6 @@ fn value(parts: &[Vec<&str>], name: &str) -> f64 {
         .unwrap()
 }
 
-fn claimed(deck: &str, marker: &str) -> f64 {
-    deck.split(marker)
-        .nth(1)
-        .unwrap()
-        .split_whitespace()
-        .next()
-        .unwrap()
-        .trim_end_matches([';', '.'])
-        .parse()
-        .unwrap()
-}
-
 fn close(got: C, expected: C) {
     assert!(
         (got - expected).abs() < 2e-5 * expected.abs().max(1.0),
@@ -98,6 +86,10 @@ fn close(got: C, expected: C) {
 // Excitation is always one volt to compare transfer functions independently of
 // the chosen deck's DC operating source level. The emitted circuits are linear.
 fn solve(parts: &[Vec<&str>], frequency: f64) -> HashMap<String, C> {
+    solve_input(parts, frequency, "V1")
+}
+
+fn solve_input(parts: &[Vec<&str>], frequency: f64, input: &str) -> HashMap<String, C> {
     let mut nodes = Vec::new();
     for p in parts {
         for name in p
@@ -154,7 +146,7 @@ fn solve(parts: &[Vec<&str>], frequency: f64) -> HashMap<String, C> {
             }
         }
         if p[0].starts_with('V') {
-            a[row][n] = C::real(1.0);
+            a[row][n] = C::real(if p[0] == input { 1.0 } else { 0.0 });
         }
         if p[0].starts_with('E') {
             let gain: f64 = p[5].parse().unwrap();
@@ -200,6 +192,35 @@ fn solve(parts: &[Vec<&str>], frequency: f64) -> HashMap<String, C> {
 
 fn structure(deck: &str, parts: &[Vec<&str>]) {
     assert!(deck.ends_with(".end") && deck.contains("\n.op\n") && deck.contains("\n.print "));
+    let analyses: Vec<_> = deck
+        .lines()
+        .filter(|l| l.starts_with(".ac ") || l.starts_with(".tran ") || l.starts_with(".dc "))
+        .collect();
+    assert_eq!(analyses.len(), 1);
+    let source = parts.iter().find(|p| p[0] == "V1").unwrap().join(" ");
+    if analyses[0].starts_with(".ac ") {
+        assert!(source.contains(" AC 1"));
+    } else if analyses[0].starts_with(".tran ") {
+        if let Some((_, pulse)) = source.split_once("PULSE(") {
+            let pulse: Vec<f64> = pulse
+                .trim_end_matches(')')
+                .split_whitespace()
+                .map(|v| v.parse().unwrap())
+                .collect();
+            assert_eq!(pulse.len(), 7);
+            assert!(pulse[2..].iter().all(|v| v.is_finite() && *v > 0.0));
+            assert!(pulse[5] > pulse[3] + pulse[4] && pulse[6] > pulse[5]);
+        } else {
+            let (_, sinusoid) = source.split_once("SIN(").unwrap();
+            let sinusoid: Vec<f64> = sinusoid
+                .trim_end_matches(')')
+                .split_whitespace()
+                .map(|v| v.parse().unwrap())
+                .collect();
+            assert_eq!(sinusoid.len(), 3);
+            assert!(sinusoid[2].is_finite() && sinusoid[2] > 0.0);
+        }
+    }
     let mut names = HashSet::new();
     let mut nodes = HashSet::from(["0"]);
     let mut edges: HashMap<&str, Vec<&str>> = HashMap::new();
@@ -261,9 +282,6 @@ pub fn verify(deck: &str, kind: &str) {
     structure(deck, &p);
     let dc = solve(&p, 0.0);
     let one = C::real(1.0);
-    let source = p.iter().find(|p| p[0] == "V1").unwrap()[4]
-        .parse::<f64>()
-        .unwrap();
     match kind {
         "loaded-divider" => {
             let r1 = value(&p, "R1");
@@ -271,14 +289,6 @@ pub fn verify(deck: &str, kind: &str) {
             let load = value(&p, "Rload");
             let bottom = 1.0 / (1.0 / r2 + 1.0 / load);
             close(dc["out"], C::real(bottom / (r1 + bottom)));
-            close(
-                C::real(claimed(deck, "DC output ")),
-                dc["out"] * C::real(source),
-            );
-            close(
-                C::real(claimed(deck, "Thevenin resistance ")),
-                C::real(1.0 / (1.0 / r1 + 1.0 / r2 + 1.0 / load)),
-            );
             close(dc["@V1"], C::real(-1.0 / (r1 + bottom)));
         }
         "bridge" => {
@@ -288,14 +298,6 @@ pub fn verify(deck: &str, kind: &str) {
             let r4 = value(&p, "R4");
             close(dc["left"], C::real(r2 / (r1 + r2)));
             close(dc["right"], C::real(r4 / (r3 + r4)));
-            close(
-                C::real(claimed(deck, "v(left,right) = ")),
-                (dc["left"] - dc["right"]) * C::real(source),
-            );
-            close(
-                C::real(claimed(deck, "Right-arm ratio is ")),
-                C::real((r4 / r3) / (r2 / r1)),
-            );
             close(dc["@V1"], C::real(-1.0 / (r1 + r2) - 1.0 / (r3 + r4)));
         }
         "tapped-divider" => {
@@ -305,23 +307,10 @@ pub fn verify(deck: &str, kind: &str) {
             let sum = r1 + r2 + r3;
             close(dc["tap"], C::real((r2 + r3) / sum));
             close(dc["out"], C::real(r3 / sum));
-            close(
-                C::real(claimed(deck, "DC tap ")),
-                dc["tap"] * C::real(source),
-            );
-            close(
-                C::real(claimed(deck, "; out ")),
-                dc["out"] * C::real(source),
-            );
-            close(
-                C::real(claimed(deck, "source current ")),
-                C::real(source / sum),
-            );
             close(dc["@V1"], C::real(-1.0 / sum));
         }
-        "rc-low-pass" | "rc-high-pass" | "rc-loaded-low-pass" => {
+        "rc-low-pass" | "rc-high-pass" | "rc-loaded-low-pass" | "rl-low-pass" | "rl-high-pass" => {
             let r = value(&p, "R1");
-            let c = value(&p, "C1");
             let loaded = kind == "rc-loaded-low-pass";
             let (gain, resistance) = if loaded {
                 let load = value(&p, "Rload");
@@ -329,15 +318,14 @@ pub fn verify(deck: &str, kind: &str) {
             } else {
                 (1.0, r)
             };
-            let highpass = kind == "rc-high-pass";
-            close(dc["out"], C::real(if highpass { 0.0 } else { gain }));
-            let fc = 1.0 / (2.0 * PI * resistance * c);
-            close(C::real(claimed(deck, "corner ")), C::real(fc));
-            if loaded {
-                close(C::real(claimed(deck, "DC gain ")), C::real(gain));
+            let tau = if kind.starts_with("rl-") {
+                value(&p, "L1") / r
             } else {
-                close(C::real(claimed(deck, "Time constant ")), C::real(r * c));
-            }
+                resistance * value(&p, "C1")
+            };
+            let highpass = kind.ends_with("high-pass");
+            close(dc["out"], C::real(if highpass { 0.0 } else { gain }));
+            let fc = 1.0 / (2.0 * PI * tau);
             for multiple in [0.01, 1.0, 100.0] {
                 let numerator = if highpass {
                     C {
@@ -357,39 +345,48 @@ pub fn verify(deck: &str, kind: &str) {
                 );
             }
         }
-        "rc-dual-low-pass" => {
+        "rc-dual-low-pass" | "rc-band-pass" => {
             let r1 = value(&p, "R1");
             let r2 = value(&p, "R2");
             let c1 = value(&p, "C1");
             let c2 = value(&p, "C2");
             let a = r1 * c1 + (r1 + r2) * c2;
             let b = r1 * r2 * c1 * c2;
-            close(dc["out"], one);
-            close(C::real(claimed(deck, "a=")), C::real(a));
-            close(C::real(claimed(deck, "b=")), C::real(b));
+            let bandpass = kind == "rc-band-pass";
+            close(dc["out"], C::real(if bandpass { 0.0 } else { 1.0 }));
             for multiple in [0.01, 1.0, 100.0] {
                 let omega = multiple / b.sqrt();
+                let numerator = if bandpass {
+                    C {
+                        re: 0.0,
+                        im: omega * r1 * c1,
+                    }
+                } else {
+                    one
+                };
                 close(
                     solve(&p, omega / (2.0 * PI))["out"],
-                    one / C {
-                        re: 1.0 - b * omega * omega,
-                        im: a * omega,
-                    },
+                    numerator
+                        / C {
+                            re: 1.0 - b * omega * omega,
+                            im: a * omega,
+                        },
                 );
             }
         }
-        "rlc-low-pass" | "rlc-band-pass" | "rlc-high-pass" => {
+        "rlc-low-pass" | "rlc-band-pass" | "rlc-high-pass" | "rlc-notch" => {
             let r = value(&p, "R1");
             let l = value(&p, "L1");
             let c = value(&p, "C1");
             let f0 = 1.0 / (2.0 * PI * (l * c).sqrt());
             let zeta = r / 2.0 * (c / l).sqrt();
-            close(C::real(claimed(deck, "Natural frequency ")), C::real(f0));
-            close(C::real(claimed(deck, "damping ratio ")), C::real(zeta));
-            close(C::real(claimed(deck, "Q=")), C::real(1.0 / (2.0 * zeta)));
             close(
                 dc["out"],
-                C::real(if kind == "rlc-low-pass" { 1.0 } else { 0.0 }),
+                C::real(if matches!(kind, "rlc-low-pass" | "rlc-notch") {
+                    1.0
+                } else {
+                    0.0
+                }),
             );
             for multiple in [0.01, 1.0, 100.0] {
                 let numerator = match kind {
@@ -398,6 +395,7 @@ pub fn verify(deck: &str, kind: &str) {
                         re: 0.0,
                         im: 2.0 * zeta * multiple,
                     },
+                    "rlc-notch" => C::real(1.0 - multiple * multiple),
                     _ => C::real(-multiple * multiple),
                 };
                 close(
@@ -410,29 +408,37 @@ pub fn verify(deck: &str, kind: &str) {
                 );
             }
         }
-        "inverting" | "noninverting" => {
+        "inverting" | "noninverting" | "summing" => {
             let rf = value(&p, "Rf");
             let a = p.iter().find(|p| p[0] == "E1").unwrap()[5]
                 .parse::<f64>()
                 .unwrap();
-            let expected = if kind == "inverting" {
-                let r = value(&p, "R1");
-                -a * rf / (rf + r + a * r)
-            } else {
-                let r = value(&p, "Rg");
+            let noninverting = kind == "noninverting";
+            let r = value(&p, if noninverting { "Rg" } else { "R1" });
+            let conductance = 1.0 / rf
+                + 1.0 / r
+                + if kind == "summing" {
+                    1.0 / value(&p, "R2")
+                } else {
+                    0.0
+                };
+            let gain = if noninverting {
                 a * (rf + r) / (rf + r + a * r)
-            };
-            close(dc["out"], C::real(expected));
-            close(C::real(claimed(deck, "DC and AC gain ")), C::real(expected));
-            for f in [1.0, 1000.0, 1e6] {
-                close(solve(&p, f)["out"], C::real(expected));
-            }
-            // Validate VCVS sign and finite differential error, rather than
-            // silently treating its input voltages as exactly equal.
-            let differential = if kind == "inverting" {
-                -dc["inv"]
             } else {
+                -a / r / (conductance + a / rf)
+            };
+            close(dc["out"], C::real(gain));
+            for f in [1.0, 1000.0, 1e6] {
+                close(solve(&p, f)["out"], C::real(gain));
+                if kind == "summing" {
+                    let gain2 = -a / value(&p, "R2") / (conductance + a / rf);
+                    close(solve_input(&p, f, "V2")["out"], C::real(gain2));
+                }
+            }
+            let differential = if noninverting {
                 dc["in"] - dc["inv"]
+            } else {
+                -dc["inv"]
             };
             close(dc["out"], differential * C::real(a));
         }

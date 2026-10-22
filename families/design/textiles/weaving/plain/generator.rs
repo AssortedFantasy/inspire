@@ -8,6 +8,7 @@ struct Draft {
     title: String,
 }
 
+#[cfg(test)]
 fn drawdown(draft: &Draft) -> Vec<Vec<bool>> {
     draft
         .lifts
@@ -22,27 +23,44 @@ fn drawdown(draft: &Draft) -> Vec<Vec<bool>> {
         .collect()
 }
 
+fn stripe_plan(rng: &mut StdRng, colors: (&str, &str)) -> String {
+    let repeats: &[&[usize]] = &[
+        &[1, 1],
+        &[2, 2],
+        &[4, 1],
+        &[4, 2],
+        &[1, 1, 2, 2],
+        &[4, 1, 1, 1],
+        &[6, 1, 1, 1],
+        &[2, 1, 2, 3],
+    ];
+    let repeat = repeats[rng.random_range(0..repeats.len())];
+    repeat
+        .iter()
+        .enumerate()
+        .map(|(i, count)| format!("{}×{count}", if i % 2 == 0 { colors.0 } else { colors.1 }))
+        .collect::<Vec<_>>()
+        .join(" ")
+}
+
 fn render(rng: &mut StdRng, draft: &Draft) -> String {
     let colors = [
         ("indigo", "ivory"),
-        ("charcoal", "silver gray"),
+        ("charcoal", "silver"),
         ("olive", "ecru"),
         ("rust", "cream"),
         ("teal", "stone"),
         ("burgundy", "oatmeal"),
+        ("ochre", "ink"),
+        ("walnut", "flax"),
     ];
-    let (warp, weft) = colors[rng.random_range(0..colors.len())];
-    let group = rng.random_range(1..=4);
-    let alternate = rng.random_bool(0.5);
-    let warp_colors: Vec<_> = (0..draft.threading.len())
-        .map(|i| {
-            if alternate && (i / group) % 2 == 1 {
-                weft
-            } else {
-                warp
-            }
-        })
-        .collect();
+    let pair = colors[rng.random_range(0..colors.len())];
+    let warp = stripe_plan(rng, pair);
+    let weft = if rng.random_bool(0.5) {
+        stripe_plan(rng, (pair.1, pair.0))
+    } else {
+        pair.1.to_owned()
+    };
     let list = |values: &[usize]| {
         values
             .iter()
@@ -52,32 +70,27 @@ fn render(rng: &mut StdRng, draft: &Draft) -> String {
     };
     let mut lines = vec![
         draft.title.clone(),
-        format!(
-            "Rising-shed lift plan; {} shafts. Threading entries are ends; repeat cyclically.",
-            draft.shafts
-        ),
-        format!("Threading, ends left to right: {}.", list(&draft.threading)),
-        format!(
-            "Warp-color repeat, ends left to right: {}.",
-            warp_colors.join(", ")
-        ),
-        format!("Weft: {weft}. Picks repeat cyclically; unlisted shafts stay down."),
+        format!("Warp {warp}"),
+        format!("Weft {weft}"),
     ];
-    for (i, lifted) in draft.lifts.iter().enumerate() {
-        lines.push(format!("Pick {}: raise shafts {}.", i + 1, list(lifted)));
-    }
-    lines.push(
-        "Drawdown: X = warp over weft, . = weft over warp; columns are ends, rows picks."
-            .to_owned(),
-    );
-    for (i, row) in drawdown(draft).iter().enumerate() {
-        lines.push(format!(
-            "{:02} {}",
-            i + 1,
-            row.iter()
-                .map(|over| if *over { 'X' } else { '.' })
-                .collect::<String>()
-        ));
+    if rng.random_bool(0.5) {
+        lines.push(format!("{} shafts", draft.shafts));
+        lines.push(format!("Threading {}", list(&draft.threading)));
+        lines.push("Lift repeat".to_owned());
+        for (i, lifted) in draft.lifts.iter().enumerate() {
+            lines.push(format!("{:02}  {}", i + 1, list(lifted)));
+        }
+    } else {
+        lines.push("Warp-over drawdown".to_owned());
+        for lift in &draft.lifts {
+            lines.push(
+                draft
+                    .threading
+                    .iter()
+                    .map(|shaft| if lift.contains(shaft) { 'X' } else { '.' })
+                    .collect(),
+            );
+        }
     }
     lines.join("\n")
 }
@@ -88,7 +101,7 @@ fn draft(rng: &mut StdRng) -> Draft {
         shafts: 2,
         threading: vec![1, 2],
         lifts: vec![vec![first + 1], vec![2 - first]],
-        title: "Two-shaft plain-weave draft; 1/1 interlacement.".to_owned(),
+        title: "Plain weave".to_owned(),
     }
 }
 
@@ -140,6 +153,6 @@ mod tests {
             assert!(!text.ends_with('\n'));
             outputs.insert(text);
         }
-        assert!(outputs.len() >= 12);
+        assert!(outputs.len() >= 100);
     }
 }
