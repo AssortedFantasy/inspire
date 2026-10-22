@@ -3,7 +3,6 @@
 import argparse
 from collections import OrderedDict
 from datetime import datetime, timezone
-import hashlib
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
 import os
@@ -34,7 +33,6 @@ class Review:
         self.feedback = feedback
         listing = self.invoke(["--list"])
         self.families = sorted({line.split()[0].split("/")[0] for line in listing.splitlines()})
-        self.binary_hash = hashlib.sha256(binary.read_bytes()).hexdigest()
         self.pending = OrderedDict()
         self.saved = {}
         self.lock = threading.Lock()
@@ -56,13 +54,13 @@ class Review:
         source = f"families/{sample['path']}/" + (
             "records.json" if sample["kind"] == "record" else "generator.rs")
         sample.update(id=uuid.uuid4().hex, source=source, seed=str(seed),
-                      binary_sha256=self.binary_hash, command="inspire " + " ".join(args))
+                      command="inspire " + " ".join(args))
         # Source metadata must match the embedded record; never substitute source text.
         if sample["kind"] == "record":
             try:
                 record = json.loads((self.root / source).read_text(encoding="utf-8"))[sample["record_index"]]
                 if record["text"] == sample["text"]:
-                    sample.update(record_id=record["id"], provenance=record.get("provenance", ""))
+                    sample["record_id"] = record["id"]
             except (OSError, ValueError, IndexError, KeyError, TypeError):
                 pass
         if not sample["text"].strip():
@@ -90,21 +88,15 @@ class Review:
                 raise ValueError("Sample expired; reload to get a new sample")
             stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
             entry = f"\n## {rating} — {stamp}\n\n"
-            entry += f"- Review ID: {sample_id}\n- Source: {sample['source']}\n"
+            entry += f"- Source: {sample['source']}\n"
             if "record_id" in sample:
                 entry += "- Record ID: " + json.dumps(sample["record_id"], ensure_ascii=False) + "\n"
-            if sample.get("record_index") is not None:
+            elif sample.get("record_index") is not None:
                 entry += f"- Record index (zero-based): {sample['record_index']}\n"
-            entry += (f"- Seed: {sample['seed']}\n"
-                      f"- Binary SHA-256: {sample['binary_sha256']}\n"
-                      f"- Reproduce: `{sample['command']}`\n")
+            entry += f"- Reproduce: `{sample['command']}`\n"
             entry += "\n### Sample\n\n" + fenced(sample["text"])
-            if sample.get("provenance"):
-                provenance = sample["provenance"]
-                if not isinstance(provenance, str):
-                    provenance = json.dumps(provenance, ensure_ascii=False, indent=2)
-                entry += "\n### Provenance\n\n" + fenced(provenance)
-            entry += "\n### Feedback\n\n" + fenced(notes if notes.strip() else "(No notes)")
+            if notes.strip():
+                entry += "\n### Feedback\n\n" + fenced(notes)
             self.feedback.parent.mkdir(parents=True, exist_ok=True)
             # Mark saved only after a durable write. Retries within this session are idempotent.
             with self.feedback.open("a+", encoding="utf-8", newline="\n") as output:

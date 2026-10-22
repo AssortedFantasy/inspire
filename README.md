@@ -55,10 +55,10 @@ sample invokes the CLI with a random seed and uses its weighted tree and embedde
 payloads, exactly as ordinary CLI sampling does. Selecting a family passes that
 branch to `--family`.
 
-Feedback appends to `reviews/human-feedback.md`, including the full text, source
-path, seed, reproduction command, and binary hash. Matching source records also
-include their ID and provenance. Notes stay
-literal Markdown code blocks for later AI review. Feedback survives restarts;
+Feedback appends to `reviews/human-feedback.md`, including the rating, time, sample,
+source path, record ID (or index), and reproduction command. Notes are included
+only when provided, in literal Markdown code blocks for later AI review.
+Feedback survives restarts;
 the on-screen count covers the current session. The review UI is not embedded
 in Inspire; it uses the CLI's `--json` output to identify the selected leaf and
 record without changing sampling or embedding source metadata.

@@ -49,7 +49,9 @@ class ReviewTests(unittest.TestCase):
         self.assertIn("## JANK", text)
         self.assertIn("families/demo/leaf/records.json", text)
         self.assertIn('Record ID: "record-1"', text)
-        self.assertIn("A source", text)
+        self.assertNotIn("A source", text)
+        for omitted in ("Review ID:", "Binary SHA-256:", "- Seed:", "Record index", "### Provenance"):
+            self.assertNotIn(omitted, text)
         self.assertIn(fenced("Unicode α\n```\n# sample"), text)
         self.assertIn(fenced("My note\n```\nα"), text)
         # A new session appends instead of overwriting earlier reviews.
@@ -79,7 +81,7 @@ class ReviewTests(unittest.TestCase):
         self.assertIn(second["id"], self.review.pending)
         self.assertEqual(self.review.save(second["id"], "JANK", "Second"), 2)
 
-    def test_generator_preserves_seed_and_binary_identity(self):
+    def test_generator_preserves_reproduction_command(self):
         source = self.root / "families" / "generated" / "generator.rs"
         source.parent.mkdir()
         source.write_text("", encoding="utf-8")
@@ -93,7 +95,9 @@ class ReviewTests(unittest.TestCase):
         review.save(sample["id"], "JANK", "")
         text = self.feedback.read_text(encoding="utf-8")
         self.assertIn(f"--seed {sample['seed']}", text)
-        self.assertIn(review.binary_hash, text)
+        self.assertIn("--family generated", text)
+        self.assertNotIn("### Feedback", text)
+        self.assertNotIn("(No notes)", text)
 
     def test_cli_invocation_passes_scope_and_seed(self):
         self.invoke_patch.stop()
@@ -121,7 +125,14 @@ class ReviewTests(unittest.TestCase):
         self.review.save(sample["id"], "LGTM", "")
         text = self.feedback.read_text(encoding="utf-8")
         self.assertIn(sample["command"], text)
-        self.assertIn(sample["binary_sha256"], text)
+        self.assertIn("Record index (zero-based): 0", text)
+
+    def test_whitespace_only_notes_are_omitted(self):
+        sample = self.review.sample()
+        self.review.save(sample["id"], "LGTM", " \n\t")
+        text = self.feedback.read_text(encoding="utf-8")
+        self.assertNotIn("### Feedback", text)
+        self.assertNotIn("(No notes)", text)
 
     def test_http_save_validation_and_origin(self):
         server = ThreadingHTTPServer(("127.0.0.1", 0), handler_for(self.review))

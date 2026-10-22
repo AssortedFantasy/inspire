@@ -69,9 +69,9 @@ names. JSON output reconstructs the selected leaf path from its ancestors.
 `--json` uses the same RNG draws and emits `text`, `path`, `kind`, and
 `record_index` (zero-based within a corpus, or null for a generator). The external
 human review dashboard invokes this mode with a random seed and optional family,
-so its distribution and text match ordinary CLI sampling. Source record IDs and
-provenance are attached by Python only when the source text matches the embedded
-record; they are not embedded in the executable.
+so its distribution and text match ordinary CLI sampling. Source record IDs are
+attached by Python only when the source text matches the embedded record; they
+are not embedded in the executable.
 
 For a node c under parent p:
 
