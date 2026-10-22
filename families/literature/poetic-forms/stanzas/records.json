@@ -1,22 +1,22 @@
 [
   {
     "id": "rhymed-couplet",
-    "text": "Poetic form: Rhymed couplet\nTwo successive verse lines share an end rhyme. A closed couplet also completes a grammatical unit.\nPattern: AA.",
-    "provenance": "Original concise explanatory note for Inspire, 2026; conventional form facts checked 2026-10-13 against https://www.poetryfoundation.org/education/glossary/Couplet . Reference definitions paraphrased; no example poems copied. Poetry Foundation pages consulted through indexed search excerpts; Academy of American Poets pages consulted in full. Form descriptions are typical patterns, not claims that every poem uses them without variation."
+    "text": "Rhymed couplet\n2 lines\nAA",
+    "provenance": "Conventional form data prepared for Inspire, 2026; conventional form facts checked 2026-10-13 against https://www.poetryfoundation.org/education/glossary/Couplet . Rhyme letters and line counts are factual notation; no example poems copied. Poetry Foundation pages consulted through indexed search excerpts; Academy of American Poets pages consulted in full. Form descriptions are typical patterns, not claims that every poem uses them without variation."
   },
   {
     "id": "tercet",
-    "text": "Poetic form: Tercet\nA three-line stanza. Its lines may rhyme or remain unrhymed; the line count alone does not specify a complete rhyme scheme.",
-    "provenance": "Original concise explanatory note for Inspire, 2026; conventional form facts checked 2026-10-13 against https://www.poetryfoundation.org/education/glossary/tercet . Reference definitions paraphrased; no example poems copied. Poetry Foundation pages consulted through indexed search excerpts; Academy of American Poets pages consulted in full. Form descriptions are typical patterns, not claims that every poem uses them without variation."
+    "text": "Tercet\n3-line stanza",
+    "provenance": "Conventional form data prepared for Inspire, 2026; conventional form facts checked 2026-10-13 against https://www.poetryfoundation.org/education/glossary/tercet . Rhyme letters and line counts are factual notation; no example poems copied. Poetry Foundation pages consulted through indexed search excerpts; Academy of American Poets pages consulted in full. Form descriptions are typical patterns, not claims that every poem uses them without variation."
   },
   {
     "id": "quatrain",
-    "text": "Poetic form: Quatrain\nA stanza of four lines. Common arrangements include alternating rhymes and paired rhymes.\nPossible patterns: ABAB or AABB.",
-    "provenance": "Original concise explanatory note for Inspire, 2026; conventional form facts checked 2026-10-13 against https://www.poetryfoundation.org/education/glossary/quatrain . Reference definitions paraphrased; no example poems copied. Poetry Foundation pages consulted through indexed search excerpts; Academy of American Poets pages consulted in full. Form descriptions are typical patterns, not claims that every poem uses them without variation."
+    "text": "Quatrain\n4-line stanza\nABAB or AABB or ABCB",
+    "provenance": "Conventional form data prepared for Inspire, 2026; conventional form facts checked 2026-10-13 against https://www.poetryfoundation.org/education/glossary/quatrain . Rhyme letters and line counts are factual notation; no example poems copied. Poetry Foundation pages consulted through indexed search excerpts; Academy of American Poets pages consulted in full. Form descriptions are typical patterns, not claims that every poem uses them without variation."
   },
   {
     "id": "ballad-stanza",
-    "text": "Poetic form: Ballad stanza\nA common English narrative stanza alternates four-beat and three-beat lines, with the second and fourth lines rhyming.\nTypical rhyme arrangement: ABCB.",
-    "provenance": "Original concise explanatory note for Inspire, 2026; conventional form facts checked 2026-10-13 against https://poets.org/glossary/ballad . Reference definitions paraphrased; no example poems copied. Poetry Foundation pages consulted through indexed search excerpts; Academy of American Poets pages consulted in full. Form descriptions are typical patterns, not claims that every poem uses them without variation."
+    "text": "Ballad stanza\n4 beats\n3 beats\n4 beats\n3 beats\nABCB",
+    "provenance": "Conventional form data prepared for Inspire, 2026; conventional form facts checked 2026-10-13 against https://poets.org/glossary/ballad . Rhyme letters and line counts are factual notation; no example poems copied. Poetry Foundation pages consulted through indexed search excerpts; Academy of American Poets pages consulted in full. Form descriptions are typical patterns, not claims that every poem uses them without variation."
   }
 ]

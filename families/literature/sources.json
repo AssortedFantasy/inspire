@@ -309,5 +309,18 @@
     "sha256": "26adf6c8ff1384574fca7466df77e226fc048e9ef1eac5c341f0dd997bcb71a4",
     "start": "^I[.] A SCANDAL",
     "cap": 96
+  },
+  {
+    "id": 13060,
+    "path": "narrative/anecdotes/persian/sadi/gulistan",
+    "parser": "gulistan",
+    "author": "Sa’di",
+    "title": "The Gulistan",
+    "edition": "1900 revised anthology edition",
+    "translator": "James Ross",
+    "rights": "English translation published before 1931; translator died 1831; public domain in the USA and Canada.",
+    "url": "https://www.gutenberg.org/cache/epub/13060/pg13060-images.html",
+    "sha256": "a6724c1972404009f3d4e98745bf66caf040259debbb9c86cf23b6d5554aaaed",
+    "downloaded": "2026-10-13"
   }
 ]

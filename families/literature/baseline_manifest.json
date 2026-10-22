@@ -145,50 +145,50 @@
   },
   {
     "id": "rhymed-couplet",
-    "sha256": "8f5150903a6d13cddc874d9e78a76a527c828c6472490d59af089c4ed1c2c988"
+    "sha256": "b796fbdf9eac9c848afe413850a3d80094f839eadfddddc7ac8b81fa7464a9db"
   },
   {
     "id": "tercet",
-    "sha256": "53723f6f12575163272ad84f6bbf4f0e36780f1612ecf6f5668f9f452cdd49e2"
+    "sha256": "2e4801bcfd255add2178ee49465b14532cd06357ac5e2d92c98ab1f3f8f81e25"
   },
   {
     "id": "quatrain",
-    "sha256": "55adfd431397d2449aed463ffcc31eb55667fef4d7eddb49600c39c40c5400a8"
+    "sha256": "d0095db3dba485febd3eedc36949528eb99f2587b48abda7168537f326586733"
   },
   {
     "id": "blank-verse",
-    "sha256": "1187b118fa9da591a44bcbe63a8a799cccae0de4a0d06b907b4e4c754075bdca"
+    "sha256": "ebdde19a3e518cc112203d0caf722e20ac3ddcff21e3866299ed2b179ab0c5ac"
   },
   {
     "id": "free-verse",
-    "sha256": "4d85e3817d7969b11871e7fc6577a0e34f1fd667345ca352174262c5c2339fa7"
+    "sha256": "5102d130ff7ba9b41699a4feed0a49095b0173b24e275fedf15a6ee9f5a02202"
   },
   {
     "id": "shakespearean-sonnet",
-    "sha256": "27ecc0f216c3c58e109ebdf345901ae025ca8fddc6e9a4addf6b4c85ae0a3b39"
+    "sha256": "274a396bfc74fc1d410cb87e2f716fabd640683123962d48e805921eace27026"
   },
   {
     "id": "petrarchan-sonnet",
-    "sha256": "cf7657dab83588b00fce7c7f64c2610424e4a04d916b367c1fd73d1c1ce5098e"
+    "sha256": "f84def9824b133110d5dbb555c13800c3d8ddadd11e9f330980421a6de3c3946"
   },
   {
     "id": "villanelle",
-    "sha256": "be2b025d89e8f686d0fe0a8e095311d8d005cfec6fd27ca20f47f21a410953d1"
+    "sha256": "636f8ef27341af179f60ca7278734ccf93161aae030bbc6b6f67726795870f73"
   },
   {
     "id": "sestina",
-    "sha256": "f9cd6bba351b26d1a996b2cf452875534ed866569c0487e522054ddeba20e330"
+    "sha256": "06a465aa07b62857c4c1ef2013788c55726dc00d808519091ae4f6d0ec28601a"
   },
   {
     "id": "terza-rima",
-    "sha256": "b5e7037d8d44ff2397fb51db66330f7ca2b4dd87840ed65103323cc045f0f64c"
+    "sha256": "88137897b85635f382ee648dfd9d124975147a01ba56f279c058f770ca574bd5"
   },
   {
     "id": "acrostic",
-    "sha256": "455bb9a6094dadcc5a25b242597b872037083ba9df58f9bff92c2a6991444cda"
+    "sha256": "2cef943bc91921152e01237c55b484775273fa95d1d3935106a8389038209c50"
   },
   {
     "id": "ballad-stanza",
-    "sha256": "d3ef0eba98b8863a44b9b3ac6c789b9d0a704d7f03247c33730b5ec94fa5497a"
+    "sha256": "2d407ed20a6dc296515b057d23798a851239f72e53c85ca0a11da211435c81f5"
   }
 ]

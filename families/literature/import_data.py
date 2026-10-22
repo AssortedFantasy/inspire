@@ -59,7 +59,7 @@ def record(source, locator, body, excerpt=False):
     return {
         "id": f"pg-{source['id']}-{locator}",
         "text": f"{body}\n- {citation}",
-        "provenance": f"{source['url']}; downloaded 2026-10-13; SHA-256 {source['sha256']}. "
+        "provenance": f"{source['url']}; downloaded {source.get('downloaded', '2026-10-13')}; SHA-256 {source['sha256']}. "
         f"Exact source locator: {locator}. {source['rights']} "
         "Underlying public-domain literary text; Project Gutenberg metadata, trademark statements, "
         "license boilerplate, introductions by other writers, notes and illustrations are excluded. "
@@ -72,6 +72,10 @@ def body_text(text):
     """Return the stimulus before its final generated author/work credit."""
     body, delimiter, _credit = text.rpartition("\n- ")
     return body if delimiter else text
+
+
+def body_key(text):
+    return re.sub(r"\s+", " ", unicodedata.normalize("NFKC", body_text(text)).casefold())
 
 
 def between(head):
@@ -103,6 +107,26 @@ def aesop(source, soup):
         body = "\n\n".join(p for p in paragraphs if p)
         if 100 <= len(body) <= 2000:
             yield source["path"], record(source, anchor["id"], heading(h) + "\n\n" + body)
+
+
+def gulistan(source, soup):
+    """Keep complete numbered anecdotes; never cut their concluding verse."""
+    chapter = None
+    for tag in soup.find_all(["h2", "h4"]):
+        if tag.name == "h2":
+            chapter = heading(tag) if re.fullmatch(r"CHAPTER [IVX]+", heading(tag)) else None
+            continue
+        if not chapter or not re.fullmatch(r"[IVXLCDM]+\.?", heading(tag)):
+            continue
+        parts = [clean(p) for block in between(tag) for p in
+                 ([block] if block.name == "p" else block.find_all("p"))]
+        body = "\n\n".join(p for p in parts if p)
+        if 90 <= len(body) <= 2400 and "*" not in body:
+            locator = f"{chapter}; anecdote {heading(tag).rstrip('.')}"
+            row = record(source, locator, body)
+            row["id"] = f"pg-{source['id']}-{tag['id']}"
+            row["text"] += f", anecdote {heading(tag).rstrip('.')}"
+            yield source["path"], row
 
 
 def quatrains(source, soup):
@@ -261,11 +285,17 @@ def narrative(source, soup):
         yield source["path"], row
 
 
-PARSERS = {f.__name__: f for f in (numbered, aesop, quatrains, kabir, chinese, dunbar, pre_poems, narrative, prophet)}
+PARSERS = {f.__name__: f for f in (numbered, aesop, gulistan, quatrains, kabir, chinese, dunbar, pre_poems, narrative, prophet)}
 
 
 def build(cache):
     outputs, seen = defaultdict(list), set()
+    retained_ids = {row["id"] for row in json.loads((ROOT / "baseline_manifest.json").read_text(encoding="utf-8"))}
+    # Different citations do not make identical retained paragraphs new stimuli.
+    for path in ROOT.rglob("records.json"):
+        for row in json.loads(path.read_text(encoding="utf-8")):
+            if row["id"] in retained_ids:
+                seen.add(body_key(row["text"]))
     for source in json.loads(MANIFEST.read_text(encoding="utf-8")):
         raw = (cache / f"pg{source['id']}.html").read_bytes()
         if hashlib.sha256(raw).hexdigest() != source["sha256"]:
@@ -274,8 +304,7 @@ def build(cache):
         for node in soup.select("#pg-header,#pg-footer"):
             node.decompose()
         for path, row in PARSERS[source["parser"]](source, soup):
-            key = unicodedata.normalize("NFKC", body_text(row["text"])).casefold()
-            key = re.sub(r"\s+", " ", key)
+            key = body_key(row["text"])
             if key in seen:
                 continue
             seen.add(key)
