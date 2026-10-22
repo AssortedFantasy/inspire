@@ -5,12 +5,11 @@
       "path": "math/linear-algebra/inner-product-spaces/orthogonal-projections",
       "reviewer": "/root/math/linear_algebra/inner_product_spaces/orthogonal_projections",
       "checks": [
-        "Read MIT 18.06 Spring 2022 problem set 5 solutions, problems 4–6, and checked the original rank-one projection construction and nonzero-pivot kernel basis.",
-        "Passed four isolated Rust tests: 2000 internal constructions, 2000 independently parsed emitted matrix/vector/kernel certificates, 186732 fraction cases, and the all-zero direction fallback.",
-        "Verified exact symmetry, idempotence, rank one, trace, fixed direction, projected vectors, independent kernel basis and perpendicular residuals; documented finite domains and i64 arithmetic bounds.",
-        "Inspected actual outputs for seeds 0, 1, 42, 99 and 9014, including zero coordinates, integer results, signs and mixed reduced denominators.",
-        "Rust 2024 formatting and isolated Clippy with warnings denied passed."
-      ]
+        "Refresh by /root/math/linear_topology: emits the rational matrix and projected vector directly, selecting line or perpendicular-plane projection; canonicalizes primitive directions.",
+        "Passed four isolated Rust tests with warnings denied: complementary ranks, symmetry, idempotence, orthogonality, Pythagoras, independent kernel basis, fallback and exhaustive reduced fractions.",
+        "Reviewed actual outputs for seeds 0, 1, 2 and 42 with both projection ranks; Rust 2024 formatting check passed."
+      ],
+      "refresh_reviewer": "/root/math/linear_topology"
     }
   ]
 }

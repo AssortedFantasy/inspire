@@ -1,20 +1,17 @@
 # Barycentric triangles
 
-Original bounded examples of an integer triangle and a rational interior point.
-The anchor coordinates range from -6 to 6. Edge vectors are `(a, s*a)` and
-`(b, s*b+c)`, where `a,c` range from 2 to 12, `b` from -8 to 8, and the shear
-`s` from -3 to 3. Their determinant is `a*c > 0`, so every triangle is
-counterclockwise and has area from 2 to 72. Vertex coordinates have absolute
-value at most 42.
+Integer triangles and exact affine combinations. Anchor coordinates range
+from -6 to 6. Edge vectors are `(a,s*a)` and `(b,s*b+c)`, where a,c range
+from 2 to 12, b from -8 to 8, and s from -3 to 3. The determinant is a*c>0;
+area ranges from 2 to 72 and vertex coordinates have absolute value at most 42.
 
-Three integer weights range from 1 to 9; their total ranges from 3 to 27.
-Normalizing them gives strictly positive barycentric coordinates summing to 1.
-Coordinates and opposite subtriangle areas are emitted as reduced exact
-fractions, with integers printed without a denominator. This discrete sampling
-does not claim to sample points uniformly by triangle area.
+Three initial integer weights range from 1 to 9. Half the draws keep all three
+positive. A quarter replace one with zero, placing P on an open edge. A quarter
+negate one weight and add 9 to a different weight; their total stays positive,
+placing P outside the triangle. Dividing by the total gives exact coordinates
+summing to 1. Terms with zero coefficients are omitted. The sampling is discrete.
 
-The geometric relations were checked against Alec Jacobson's
-[Barycentric coordinates and point-triangle queries](https://www.cs.toronto.edu/~jacobson/weblog/1596.html)
-(2011): positive barycentric coordinates characterize the interior, and each
-coordinate is the area of its opposite subtriangle divided by the whole area.
-No source text or dataset is embedded.
+Tests independently recover all three signed weights from subtriangle
+determinants over 2,000 samples, covering interior, edge and exterior points.
+
+Reference: [Alec Jacobson, Barycentric coordinates and point-triangle queries](https://www.cs.toronto.edu/~jacobson/weblog/1596.html).

@@ -143,16 +143,20 @@ def import_records(raw):
         if n < 3:
             continue
         category, degree, parts, rank, chi, colors, triangles, independent, independent_set, spanning = invariants(n, edges)
-        edge_text = ", ".join(f"{u}-{v}" for u, v in edges) or "none"
+        edge_text = ", ".join(f"{u}-{v}" for u, v in edges)
         color_classes = [[v for v, c in enumerate(colors) if c == color] for color in range(chi)]
-        text = (
-            f"Simple undirected graph with vertices 0..{n - 1}.\n"
-            f"Edges: {edge_text}.\n"
-            f"Vertices: {n}; edges: {len(edges)}; degrees (descending): {degree}.\n"
-            f"Connected components: {parts}; cycle-space dimension over F_2: {rank}.\n"
-            f"Chromatic number: {chi}; a minimum coloring has color classes {color_classes}.\n"
-            f"Triangles: {triangles}; independence number: {independent}, with maximum independent set {list(independent_set)}; spanning trees: {spanning}."
-        )
+        views = [
+            [f"Degrees = {degree}", f"Components = {parts}", f"Cycle rank = {rank}"],
+            [f"Chromatic number = {chi}", f"Color classes = {color_classes}",
+             f"Maximum independent set = {list(independent_set)}"],
+            [f"Triangles = {triangles}", f"Spanning trees = {spanning}",
+             f"Independence number = {independent}"],
+        ]
+        text = "\n".join([
+            f"V = {{{', '.join(map(str, range(n)))}}}",
+            f"E = {{{edge_text}}}",
+            *views[index % len(views)],
+        ])
         output[category].append({
             "id": f"networkx-3.4.2-G{index}",
             "text": text,

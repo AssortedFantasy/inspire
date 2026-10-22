@@ -6,8 +6,10 @@
       "reviewer": "/root/math/algebra/groups/concepts",
       "checks": [
         "Reviewed 40 source-grounded group facts and concrete examples against inspected primary-source sections.",
-        "Validated schema, unique IDs and preservation of all 11 original records; checked modular calculations and S3 commutator."
-      ]
+        "Validated schema, unique IDs and preservation of all 11 original records; checked modular calculations and S3 commutator.",
+        "Converted explanatory prose to canonical equations, maps, or explicit calculations; preserved every stable ID and provenance string; checked schema, uniqueness, and concrete arithmetic."
+      ],
+      "quality_pass_reviewer": "/root/math/algebra"
     },
     {
       "path": "math/algebra/groups/finite-groups/affine",
@@ -71,17 +73,19 @@
       "checks": [
         "Checked Stacks Project module and tensor-product tags; corrected the universal bilinear map and ring hypotheses.",
         "Expanded three records to 16 while preserving original IDs; validated schema, unique IDs, nonblank fields and absence of NUL.",
-        "Manager independently reviewed all 16 mathematical statements and clarified localization hypotheses and the new annihilator ID."
-      ]
+        "Manager independently reviewed all 16 mathematical statements and clarified localization hypotheses and the new annihilator ID.",
+        "Converted explanatory prose to canonical equations, maps, or explicit calculations; preserved every stable ID and provenance string; checked schema, uniqueness, and concrete arithmetic."
+      ],
+      "quality_pass_reviewer": "/root/math/algebra"
     },
     {
       "path": "math/algebra/modules/finite-cyclic-tensors",
       "reviewer": "/root/math/algebra/modules/finite_cyclic_tensors",
       "checks": [
-        "Audited gcd decomposition, coordinate map, cardinality, exponent, element orders and arithmetic bounds; inspected seeds 7, 42 and 99.",
-        "Added second-slot additivity and scalar invariants, maximum-size bounds and nonzero-fallback coverage.",
-        "All four isolated tests and formatting check passed; source notes reference Stacks 00CV, without a claimed fresh source browse by this reviewer."
-      ]
+        "Inspected focused decomposition, simple-tensor, and bilinearity samples; removed trivial factors and their forced coordinates.",
+        "Four isolated tests passed, covering representative independence, bilinearity, exact orders, and maximal tensor size."
+      ],
+      "quality_pass_reviewer": "/root/math/algebra"
     },
     {
       "path": "math/algebra/polynomials/identities",
@@ -95,36 +99,38 @@
       "path": "math/algebra/polynomials/rational-factorizations",
       "reviewer": "/root/math/algebra/polynomials/rational_factorizations",
       "checks": [
-        "Checked official SageMath polynomial references and reviewed actual expanded/factored samples.",
-        "Verified 1000 samples using independent subset expansion, primitive content gcd, reduced roots and derivative-certified multiplicities.",
-        "All three standalone tests passed, including deterministic diversity checks across degrees, denominators, multiplicities and signed contents."
-      ]
+        "Inspected exact expanded/factored equalities with multiplicities in powers; removed repeated root catalogues.",
+        "Three isolated tests passed, including independent subset expansion, primitive content, derivative-certified multiplicities, and seeded diversity."
+      ],
+      "quality_pass_reviewer": "/root/math/algebra"
     },
     {
       "path": "math/algebra/rings/concepts",
       "reviewer": "/root/math/algebra/rings/concepts",
       "checks": [
         "Checked Stacks Project tags 00AQ, 00AR, 00CM and 00E0; reviewed domains, localization equivalence, radicals, annihilators and nilpotents.",
-        "Validated schema, unique IDs, finite arithmetic examples and preservation of all nine original IDs in 21 records."
-      ]
+        "Validated schema, unique IDs, finite arithmetic examples and preservation of all nine original IDs in 21 records.",
+        "Converted explanatory prose to canonical equations, maps, or explicit calculations; preserved every stable ID and provenance string; checked schema, uniqueness, and concrete arithmetic."
+      ],
+      "quality_pass_reviewer": "/root/math/algebra"
     },
     {
       "path": "math/algebra/rings/quadratic-fields",
       "reviewer": "/root/math/algebra/rings/quadratic_fields",
       "checks": [
-        "Checked official SageMath finite-field documentation; reviewed F4, F25 and F169 output and characteristic-two formulas.",
-        "Tested every model and element for inverse, Frobenius, trace, norm and order identities, plus exhaustive small-field associativity and distributivity.",
-        "Four isolated tests, production compilation with warnings denied and formatting passed; manager also verified existence of order p²−1 in every model."
-      ]
+        "Inspected arithmetic, Frobenius trace/norm, inverse/order, and minimal-polynomial views without repeated field definitions.",
+        "Four isolated tests passed, checking every field model and element for inverse, Frobenius, trace, norm, minimal-polynomial, and order identities plus exhaustive small-field laws."
+      ],
+      "quality_pass_reviewer": "/root/math/algebra"
     },
     {
       "path": "math/algebra/rings/residue-rings",
       "reviewer": "/root/math/algebra/rings/residue_rings",
       "checks": [
-        "Checked official SageMath modular-ring and nilpotent-element documentation; reviewed actual Z/98Z and Z/100Z output.",
-        "Independently enumerated units, zero divisors, nilpotents, ideals, annihilators and quotient operations for all supported moduli.",
-        "Two isolated tests passed, with 511 distinct outputs across 512 seeds; production compilation with warnings denied and formatting passed."
-      ]
+        "Inspected units, annihilators, nilradicals, ideal quotients, CRT idempotents, and prime-power ideal chains as separate output views.",
+        "Three isolated tests passed, independently enumerating ring invariants and reconstructing every residue from CRT factors and orthogonal idempotents."
+      ],
+      "quality_pass_reviewer": "/root/math/algebra"
     }
   ]
 }

@@ -1,16 +1,16 @@
 # Indefinite integrals
 
-Five equally weighted leaves contain 16 original bounded templates. Each leaf
+Five equally weighted leaves contain 23 bounded forms. Each leaf
 keeps its generator, formatting helpers, tests, and source notes locally.
-Templates within a leaf are sampled uniformly; every output gives the integrand,
-antiderivative, and real domain.
+Forms within a leaf are sampled uniformly. Outputs are integral identities,
+followed by a domain restriction only when the integrand requires one.
 
 | Leaf | Templates |
 | --- | --- |
 | `polynomials` | Affine powers; sparse polynomial sums |
 | `logarithms` | Reciprocal; logarithm by parts; logarithmic powers divided by the affine argument |
-| `exponentials` | Affine exponential; linear and quadratic exponential moments |
-| `trigonometric` | Sine; cosine; sine squared; cosine squared; secant squared |
+| `exponentials` | Affine exponential; linear and quadratic exponential moments; quadratic phase; exponential times sine or cosine |
+| `trigonometric` | Sine; cosine; their squares and cubes; secant squared; tangent; sine times cosine |
 | `inverse-trigonometric` | Reciprocal quadratic; reciprocal square root; arctangent by parts |
 
 Affine shifts range from -5 through 5, coefficient magnitudes from 1 through 9,

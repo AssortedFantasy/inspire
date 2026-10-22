@@ -1,82 +1,82 @@
 [
   {
     "id": "convex",
-    "text": "A real vector-space subset C is convex when (1-t)x+ty lies in C for x,y in C and 0<=t<=1.",
+    "text": "C⊆Rⁿ\nx,y∈C, 0≤t≤1 ⇒ (1-t)x+ty∈C",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, vector spaces and convexity, https://www.jirka.org/ra/html/sec_vectorspaces.html. No source prose reproduced."
   },
   {
     "id": "convex-hull",
-    "text": "The convex hull of a subset A of a real vector space consists of all finite sums sum(t_i*a_i), with a_i in A, t_i>=0, and sum(t_i)=1.",
+    "text": "conv A={Σᵢ₌₁ᵏ tᵢaᵢ : k≥1, aᵢ∈A, tᵢ≥0, Σᵢ₌₁ᵏ tᵢ=1}",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, vector spaces and convexity, https://www.jirka.org/ra/html/sec_vectorspaces.html. No source prose reproduced."
   },
   {
     "id": "convex-intersection",
-    "text": "Any intersection of convex subsets of a real vector space is convex, because a segment joining two points in the intersection belongs to every intersected set.",
+    "text": "conv Cᵢ=Cᵢ (i∈I)\nconv(⋂ᵢ∈ᴵ Cᵢ)=⋂ᵢ∈ᴵ Cᵢ",
     "provenance": "Independent paraphrase checked online against Jiri Lebl, Basic Analysis, Proposition 8.1.23, https://www.jirka.org/ra/html/sec_vectorspaces.html, accessed 2026-10-13. Mathematical fact; no source prose reproduced."
   },
   {
     "id": "nonconvex-union",
-    "text": "A union of convex sets can fail to be convex: the intervals [-2,-1] and [1,2] are convex, but their union omits the midpoint 0 of -1 and 1.",
+    "text": "C=[-2,-1] ∪ [1,2]\n-1,1∈C\n(-1+1)/2=0∉C",
     "provenance": "Original numerical example independently checked by the midpoint calculation. Source context read online: Jiri Lebl, Basic Analysis, Exercise 8.1.13, https://www.jirka.org/ra/html/sec_vectorspaces.html, accessed 2026-10-13. No source prose reproduced."
   },
   {
     "id": "connected-nonconvex",
-    "text": "The punctured plane R^2 minus {(0,0)} is connected but not convex: it contains (1,0) and (-1,0), whose midpoint is the missing origin.",
+    "text": "C=R²∖{(0,0)}\nC connected\n(1,0),(-1,0)∈C\n((1,0)+(-1,0))/2=(0,0)∉C",
     "provenance": "Independent paraphrase and explicit midpoint check against Jiri Lebl, Basic Analysis, Section 8.1.4, https://www.jirka.org/ra/html/sec_vectorspaces.html, read online 2026-10-13. Mathematical fact; no source prose reproduced."
   },
   {
     "id": "convex-normalized-functions",
-    "text": "The continuous nonnegative real functions on [0,1] with integral 1 form a convex set: averaging preserves nonnegativity and the integral. They do not form a vector subspace, since the zero function is excluded.",
+    "text": "C={f∈C([0,1],R) : f≥0, ∫₀¹ f(x)dx=1}\nconv C=C\n0∉C",
     "provenance": "Original explanation verified using linearity of integration and the zero-function test. Source context read online: Jiri Lebl, Basic Analysis, Example 8.1.22 and Exercise 8.1.16, https://www.jirka.org/ra/html/sec_vectorspaces.html, accessed 2026-10-13. No source prose reproduced."
   },
   {
     "id": "affine-line-convex",
-    "text": "The line {(s,1): s in R} is convex and affine, but is not a vector subspace of R^2 because it excludes (0,0).",
+    "text": "L={(s,1) : s∈R}\naff L=conv L=L\n(0,0)∉L",
     "provenance": "Original coordinate example verified directly by affine combinations and the zero-vector test. Definitions read online in Boyd and Vandenberghe, Convex Optimization lecture slides, Sections 2.2-2.3, https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf, accessed 2026-10-13. No source prose reproduced."
   },
   {
     "id": "convex-hull-minimal",
-    "text": "The convex hull of a set A is the smallest convex set containing A; equivalently, it is the intersection of all convex sets that contain A.",
+    "text": "A⊆Rⁿ\nconv A=⋂{C⊆Rⁿ : A⊆C, conv C=C}",
     "provenance": "Independent paraphrase checked online against Jiri Lebl, Basic Analysis, Section 8.1.4 following Proposition 8.1.23, https://www.jirka.org/ra/html/sec_vectorspaces.html, accessed 2026-10-13. Mathematical fact; no source prose reproduced."
   },
   {
     "id": "halfspace-convex",
-    "text": "For a nonzero a in R^n and b in R, the halfspace {x: a dot x <= b} is convex. Its boundary is the hyperplane {x: a dot x = b}.",
+    "text": "a∈Rⁿ∖{0}, b∈R\nH={x∈Rⁿ : aᵀx≤b}\n∂H={x∈Rⁿ : aᵀx=b}\nconv H=H",
     "provenance": "Independent formulation checked online against Boyd and Vandenberghe, Convex Optimization lecture slides, Section 2.6, https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf, accessed 2026-10-13. Mathematical facts; no source prose reproduced."
   },
   {
     "id": "norm-ball-convex",
-    "text": "For any norm on a real vector space, center c, and r>=0, the closed ball {x: ||x-c||<=r} is convex by the triangle inequality and homogeneity of the norm.",
+    "text": "r≥0\nB={x : ‖x-c‖≤r}\nconv B=B",
     "provenance": "Independent formulation checked online against Boyd and Vandenberghe, Convex Optimization lecture slides, Section 2.8, https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf, accessed 2026-10-13. The extension to any real normed vector space follows from the stated norm axioms; no source prose reproduced."
   },
   {
     "id": "polyhedron-convex",
-    "text": "A polyhedron in R^n is a set defined by finitely many nonstrict linear inequalities and linear equalities. It is convex and may be empty, unbounded, or lower-dimensional.",
+    "text": "P={x∈Rⁿ : Ax≤b, Cx=d}\nconv P=P",
     "provenance": "Independent paraphrase of the definition read online in Boyd and Vandenberghe, Convex Optimization lecture slides, Section 2.9, https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf, accessed 2026-10-13. Convexity follows by intersection; possible cases checked by x<=0 with x>=1, x>=0, and x=0. No source prose reproduced."
   },
   {
     "id": "affine-preserves-convexity",
-    "text": "An affine map f(x)=Ax+b sends convex sets to convex sets. For convex D, the inverse image {x: f(x) in D} is also convex, even when A is not invertible.",
+    "text": "f(x)=Ax+b\nconv C=C ⇒ conv f(C)=f(C)\nconv D=D ⇒ conv f⁻¹(D)=f⁻¹(D)",
     "provenance": "Independent formulation checked online against Boyd and Vandenberghe, Convex Optimization lecture slides, Section 2.14, https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf, accessed 2026-10-13. The identity f((1-t)x+ty)=(1-t)f(x)+tf(y) verifies both assertions; no source prose reproduced."
   },
   {
     "id": "convex-cone",
-    "text": "A nonempty convex cone K in a real vector space contains alpha*x+beta*y for every x,y in K and alpha,beta>=0. In particular, it contains 0 and is closed under addition.",
+    "text": "∅≠K⊆Rⁿ\nαK+βK⊆K (α,β≥0)",
     "provenance": "Independent formulation checked online against Boyd and Vandenberghe, Convex Optimization lecture slides, Section 2.5, https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf, accessed 2026-10-13. Nonemptiness makes the zero-vector conclusion explicit; no source prose reproduced."
   },
   {
     "id": "positive-semidefinite-cone",
-    "text": "Real symmetric positive semidefinite n-by-n matrices form a convex cone: X belongs exactly when z^T X z>=0 for every z in R^n, and nonnegative combinations preserve these inequalities.",
+    "text": "S₊ⁿ={X∈R^(n×n) : Xᵀ=X, zᵀXz≥0 ∀z∈Rⁿ}\nX,Y∈S₊ⁿ, α,β≥0 ⇒ αX+βY∈S₊ⁿ",
     "provenance": "Independent formulation checked online against Boyd and Vandenberghe, Convex Optimization lecture slides, Section 2.10, https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf, accessed 2026-10-13. Closure verified by linearity of the quadratic form in X; no source prose reproduced."
   },
   {
     "id": "separating-hyperplane",
-    "text": "Two nonempty disjoint convex sets C,D in R^n admit a nonzero a and real b with a dot x<=b for x in C and a dot y>=b for y in D. These inequalities need not be strict.",
+    "text": "C,D⊆Rⁿ convex\nC≠∅, D≠∅, C∩D=∅\n∃a≠0, b∈R : aᵀx≤b≤aᵀy ∀x∈C, y∈D",
     "provenance": "Independent paraphrase checked online against Boyd and Vandenberghe, Convex Optimization lecture slides, Section 2.22, https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf, accessed 2026-10-13. Finite-dimensional hypotheses and weak inequalities retained; no source prose reproduced."
   },
   {
     "id": "supporting-hyperplane",
-    "text": "At any boundary point p of a nonempty convex set C in R^n, some nonzero a satisfies a dot x<=a dot p for every x in C. The hyperplane a dot x=a dot p supports C, even if p is not in C.",
+    "text": "∅≠C⊆Rⁿ convex, p∈∂C\n∃a≠0 : aᵀx≤aᵀp ∀x∈C\nH={x∈Rⁿ : aᵀx=aᵀp}",
     "provenance": "Independent paraphrase checked online against Boyd and Vandenberghe, Convex Optimization lecture slides, Section 2.23, https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf, accessed 2026-10-13. Boundary-point statement does not require C to be closed; no source prose reproduced."
   }
 ]

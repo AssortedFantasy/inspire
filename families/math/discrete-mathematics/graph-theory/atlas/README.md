@@ -10,10 +10,11 @@ omitted. Vertices retain source labels; an edge `u-v` is undirected.
 - `nonbipartite`: 1,103 graphs requiring at least three colors.
 
 Leaves have equal local weight to balance graph classes rather than uniform
-selection over the atlas. Each graph includes its edge list, degrees, connected
-components, cycle-space dimension, chromatic number with a witness coloring,
-triangle count, independence number with a witness, and spanning-tree count. The latter is zero
-for disconnected graphs. An edgeless graph here still has its listed vertices.
+selection over the atlas. Every graph includes its vertex and edge sets. Three
+compact views rotate by stable atlas number: degrees/components/cycle rank,
+minimum coloring/maximum independent set, or triangles/spanning trees/independence
+number. The importer computes all invariants for every graph and retains its
+independent checks. Spanning-tree counts are zero for disconnected graphs.
 
 Source: [NetworkX 3.4.2 atlas.dat.gz](https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz),
 SHA256 `73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d`.

@@ -1,21 +1,20 @@
-use rand::{Rng, rngs::StdRng};
+use rand::{Rng, rngs::StdRng, seq::SliceRandom};
 
 pub fn generate(rng: &mut StdRng) -> String {
-    let (moduli, residues, result, modulus, terms) = sample(rng);
-    let system = moduli
+    let (moduli, residues) = sample(rng);
+    let mut lines = moduli
         .iter()
         .zip(&residues)
         .map(|(m, r)| format!("x = {r} (mod {m})"))
-        .collect::<Vec<_>>()
-        .join("; ");
-    let reconstruction = terms
-        .iter()
-        .map(|(r, m, inverse)| format!("{r}*{m}*{inverse}"))
-        .collect::<Vec<_>>()
-        .join(" + ");
-    format!(
-        "Chinese remainder system: {system}.\nAll integer solutions: x = {result} + {modulus}*k, k in Z; {result} is the least nonnegative solution.\nThe moduli are pairwise coprime. Reconstruction: x = {reconstruction} (mod {modulus}); each factor after the residue is M/m_i and its inverse modulo m_i."
-    )
+        .collect::<Vec<_>>();
+    match solve(&moduli, &residues) {
+        Ok((x, period)) => lines.push(format!("x = {x} + {period}k, k in Z")),
+        Err((i, j, divisor)) => lines.push(format!(
+            "No solution: {} and {} differ modulo gcd({}, {}) = {divisor}",
+            residues[i], residues[j], moduli[i], moduli[j],
+        )),
+    }
+    lines.join("\n")
 }
 
 fn gcd(mut a: i64, mut b: i64) -> i64 {
@@ -36,26 +35,43 @@ fn inverse(a: i64, modulus: i64) -> i64 {
     t.rem_euclid(modulus)
 }
 
-type Example = (Vec<i64>, Vec<i64>, i64, i64, Vec<(i64, i64, i64)>);
+type Solution = Result<(i64, i64), (usize, usize, i64)>;
 
-fn sample(rng: &mut StdRng) -> Example {
-    let count = rng.random_range(2..=4);
-    let mut moduli = Vec::new();
-    for _ in 0..count {
-        let candidates: Vec<i64> = (2..=40)
-            .filter(|&m| moduli.iter().all(|&n| gcd(m, n) == 1))
-            .collect();
-        moduli.push(candidates[rng.random_range(0..candidates.len())]);
+fn solve(moduli: &[i64], residues: &[i64]) -> Solution {
+    for i in 0..moduli.len() {
+        for j in i + 1..moduli.len() {
+            let divisor = gcd(moduli[i], moduli[j]);
+            if (residues[i] - residues[j]) % divisor != 0 {
+                return Err((i, j, divisor));
+            }
+        }
     }
-    let residues: Vec<_> = moduli.iter().map(|&m| rng.random_range(0..m)).collect();
-    let modulus: i64 = moduli.iter().product();
-    let terms: Vec<_> = moduli
-        .iter()
-        .zip(&residues)
-        .map(|(&m, &r)| (r, modulus / m, inverse(modulus / m, m)))
-        .collect();
-    let result = terms.iter().map(|&(r, m, inv)| r * m * inv).sum::<i64>() % modulus;
-    (moduli, residues, result, modulus, terms)
+    let (mut x, mut period) = (0, 1);
+    for (&m, &r) in moduli.iter().zip(residues) {
+        let divisor = gcd(period, m);
+        let reduced = m / divisor;
+        if reduced > 1 {
+            let step = ((r - x) / divisor * inverse(period / divisor, reduced)).rem_euclid(reduced);
+            x += period * step;
+        }
+        period *= reduced;
+        x = x.rem_euclid(period);
+    }
+    Ok((x, period))
+}
+
+fn sample(rng: &mut StdRng) -> (Vec<i64>, Vec<i64>) {
+    let count = rng.random_range(2..=4);
+    let mut moduli: Vec<i64> = (2..=32).collect();
+    moduli.shuffle(rng);
+    moduli.truncate(count);
+    let hidden = rng.random_range(0..=10_000);
+    let mut residues: Vec<_> = moduli.iter().map(|m| hidden % m).collect();
+    if rng.random_ratio(1, 3) {
+        let slot = rng.random_range(0..count);
+        residues[slot] = rng.random_range(0..moduli[slot]);
+    }
+    (moduli, residues)
 }
 
 #[cfg(test)]
@@ -64,30 +80,42 @@ mod tests {
     use rand::SeedableRng;
 
     #[test]
-    fn inverses_and_every_generated_congruence_are_exact() {
-        for m in 2..=40 {
-            for a in 1..m {
-                if gcd(a, m) == 1 {
-                    assert_eq!((a * inverse(a, m)) % m, 1);
+    fn all_small_systems_agree_with_independent_enumeration() {
+        for a in 2..=12 {
+            for b in 2..=12 {
+                let period = a * b / gcd(a, b);
+                for r in 0..a {
+                    for s in 0..b {
+                        let actual = (0..period).find(|x| x % a == r && x % b == s);
+                        assert_eq!(solve(&[a, b], &[r, s]).ok(), actual.map(|x| (x, period)));
+                    }
                 }
             }
         }
+        assert_eq!(solve(&[6, 8, 9], &[4, 4, 7]), Ok((52, 72)));
+    }
+
+    #[test]
+    fn samples_have_exact_periods_and_incompatibility_witnesses() {
         let mut rng = StdRng::seed_from_u64(615);
+        let (mut shared, mut inconsistent) = (false, false);
         for _ in 0..2_000 {
-            let (moduli, residues, x, total, terms) = sample(&mut rng);
-            assert!(x >= 0 && x < total);
-            assert_eq!(moduli.iter().product::<i64>(), total);
-            for ((m, r), (_, partial, inv)) in moduli.iter().zip(&residues).zip(&terms) {
-                assert_eq!(x % m, *r);
-                assert_eq!((partial * inv) % m, 1);
-            }
-            // For small systems, independently enumerate all solutions in one period.
-            if total <= 500 {
-                let solutions: Vec<_> = (0..total)
-                    .filter(|n| moduli.iter().zip(&residues).all(|(m, r)| n % m == *r))
-                    .collect();
-                assert_eq!(solutions, [x]);
+            let (moduli, residues) = sample(&mut rng);
+            let period = moduli.iter().fold(1, |p, &m| p / gcd(p, m) * m);
+            shared |= period < moduli.iter().product::<i64>();
+            match solve(&moduli, &residues) {
+                Ok((x, m)) => {
+                    assert_eq!(m, period);
+                    assert!((0..m).contains(&x));
+                    assert!(moduli.iter().zip(&residues).all(|(&m, &r)| x % m == r));
+                }
+                Err((i, j, d)) => {
+                    inconsistent = true;
+                    assert_eq!(d, gcd(moduli[i], moduli[j]));
+                    assert_ne!((residues[i] - residues[j]) % d, 0);
+                }
             }
         }
+        assert!(shared && inconsistent);
     }
 }

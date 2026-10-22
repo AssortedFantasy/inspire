@@ -5,39 +5,97 @@ type Edge = (usize, usize, i64);
 pub fn generate(rng: &mut StdRng) -> String {
     let (n, edges) = sample(rng);
     let d = distances(n, &edges);
-    let (mut diameter, mut ends) = (0, (0, 0));
-    for (i, row) in d.iter().enumerate() {
-        for (j, &distance) in row.iter().enumerate().skip(i + 1) {
-            if distance > diameter {
-                (diameter, ends) = (distance, (i, j));
-            }
-        }
-    }
     let edge_text = edges
         .iter()
-        .map(|(u, v, w)| format!("{u}-{v}: {w}"))
-        .collect::<Vec<_>>()
-        .join("; ");
-    let rows = d
-        .iter()
-        .enumerate()
-        .map(|(i, row)| format!("{i}: {row:?}"))
+        .map(|(u, v, w)| format!("{u} -- {v} ({w})"))
         .collect::<Vec<_>>()
         .join("\n");
-    format!(
-        "Weighted tree metric on vertices 0..{}. Undirected edges and positive lengths: {edge_text}.\nDistance is the sum of lengths on the unique path. Distance matrix (rows and columns in vertex order):\n{rows}\nDiameter {diameter}, attained between {} and {}. This finite metric space is complete and compact; its topology is discrete. For any four vertices, the two largest of d(a,b)+d(c,d), d(a,c)+d(b,d), d(a,d)+d(b,c) are equal.",
-        n - 1,
-        ends.0,
-        ends.1,
-    )
+    let mut output = format!("Tree metric on V={{0,...,{}}}\n{edge_text}", n - 1);
+    match rng.random_range(0..3) {
+        0 => {
+            let rows = d
+                .iter()
+                .map(|row| format!("  {row:?}"))
+                .collect::<Vec<_>>()
+                .join("\n");
+            output.push_str(&format!("\nd=[\n{rows}\n]"));
+        }
+        1 => {
+            let eccentricities = d
+                .iter()
+                .map(|row| *row.iter().max().unwrap())
+                .collect::<Vec<_>>();
+            let diameter = *eccentricities.iter().max().unwrap();
+            let radius = *eccentricities.iter().min().unwrap();
+            let centers = eccentricities
+                .iter()
+                .enumerate()
+                .filter_map(|(i, &e)| (e == radius).then_some(i))
+                .collect::<Vec<_>>();
+            let (u, v) = (0..n)
+                .flat_map(|u| (u + 1..n).map(move |v| (u, v)))
+                .find(|&(u, v)| d[u][v] == diameter)
+                .unwrap();
+            output.push_str(&format!(
+                "\ndiameter={diameter} between {u} and {v}\nradius={radius}\ncenters={centers:?}"
+            ));
+        }
+        _ => {
+            let center = rng.random_range(0..n);
+            let radius = rng.random_range(1..=*d[center].iter().max().unwrap());
+            let ball = |closed: bool| {
+                d[center]
+                    .iter()
+                    .enumerate()
+                    .filter_map(|(i, &distance)| {
+                        (distance < radius || (closed && distance == radius))
+                            .then_some(i.to_string())
+                    })
+                    .collect::<Vec<_>>()
+                    .join(",")
+            };
+            output.push_str(&format!(
+                "\nB({center},{radius})={{{}}}\nB_closed({center},{radius})={{{}}}",
+                ball(false),
+                ball(true)
+            ));
+        }
+    }
+    output
 }
 
 fn sample(rng: &mut StdRng) -> (usize, Vec<Edge>) {
-    let n = rng.random_range(4..=7);
-    let edges = (1..n)
-        .map(|v| (rng.random_range(0..v), v, rng.random_range(1..=9)))
+    let n = rng.random_range(4..=8);
+    let code = (0..n - 2)
+        .map(|_| rng.random_range(0..n))
+        .collect::<Vec<_>>();
+    let edges = decode_prufer(&code)
+        .into_iter()
+        .map(|(u, v)| (u, v, rng.random_range(1..=9)))
         .collect();
     (n, edges)
+}
+
+fn decode_prufer(code: &[usize]) -> Vec<(usize, usize)> {
+    let n = code.len() + 2;
+    let mut degree = vec![1; n];
+    for &v in code {
+        degree[v] += 1;
+    }
+    let mut edges = Vec::with_capacity(n - 1);
+    for &v in code {
+        let leaf = degree.iter().position(|&d| d == 1).unwrap();
+        edges.push((leaf, v));
+        degree[leaf] -= 1;
+        degree[v] -= 1;
+    }
+    let leaves = degree
+        .iter()
+        .enumerate()
+        .filter_map(|(v, &d)| (d == 1).then_some(v))
+        .collect::<Vec<_>>();
+    edges.push((leaves[0], leaves[1]));
+    edges
 }
 
 fn distances(n: usize, edges: &[Edge]) -> Vec<Vec<i64>> {
@@ -69,82 +127,38 @@ mod tests {
     use rand::SeedableRng;
 
     #[test]
-    fn rendered_edges_matrix_and_diameter_agree() {
-        for seed in 0..500 {
-            let output = generate(&mut StdRng::seed_from_u64(seed));
-            assert!(!output.ends_with('\n'));
-            let lines = output.lines().collect::<Vec<_>>();
-            let (header, edge_text) = lines[0]
-                .split_once(". Undirected edges and positive lengths: ")
-                .unwrap();
-            let n = header
-                .strip_prefix("Weighted tree metric on vertices 0..")
-                .unwrap()
-                .parse::<usize>()
-                .unwrap()
-                + 1;
-            assert!((4..=7).contains(&n));
-            assert_eq!(lines.len(), n + 3);
-            let mut independent = vec![vec![1_000; n]; n];
-            for (i, row) in independent.iter_mut().enumerate() {
-                row[i] = 0;
-            }
-            let edges = edge_text.strip_suffix('.').unwrap().split("; ");
-            let mut edge_count = 0;
-            for (index, edge) in edges.enumerate() {
-                let (pair, length) = edge.split_once(": ").unwrap();
-                let (parent, child) = pair.split_once('-').unwrap();
-                let (parent, child, length) = (
-                    parent.parse::<usize>().unwrap(),
-                    child.parse::<usize>().unwrap(),
-                    length.parse::<i64>().unwrap(),
-                );
-                assert_eq!(child, index + 1);
-                assert!(parent < child && child < n);
-                assert!((1..=9).contains(&length));
-                independent[parent][child] = length;
-                independent[child][parent] = length;
-                edge_count += 1;
-            }
-            assert_eq!(edge_count, n - 1);
-            for k in 0..n {
-                for i in 0..n {
-                    for j in 0..n {
-                        independent[i][j] =
-                            independent[i][j].min(independent[i][k] + independent[k][j]);
-                    }
-                }
-            }
-            for (i, row) in independent.iter().enumerate() {
-                let (label, values) = lines[i + 2].split_once(": ").unwrap();
-                assert_eq!(label.parse::<usize>().unwrap(), i);
-                let rendered = values
-                    .strip_prefix('[')
-                    .unwrap()
-                    .strip_suffix(']')
-                    .unwrap()
-                    .split(", ")
-                    .map(|value| value.parse::<i64>().unwrap())
+    fn prufer_codes_cover_every_labeled_four_vertex_tree_once() {
+        let mut trees = std::collections::BTreeSet::new();
+        for a in 0..4 {
+            for b in 0..4 {
+                let edges = decode_prufer(&[a, b]);
+                let mut degrees = [0; 4];
+                let mut normalized = edges
+                    .iter()
+                    .map(|&(u, v)| {
+                        degrees[u] += 1;
+                        degrees[v] += 1;
+                        (u.min(v), u.max(v))
+                    })
                     .collect::<Vec<_>>();
-                assert_eq!(&rendered, row, "seed {seed}");
+                for (v, &degree) in degrees.iter().enumerate() {
+                    assert_eq!(degree, 1 + usize::from(a == v) + usize::from(b == v));
+                }
+                normalized.sort_unstable();
+                assert!(trees.insert(normalized));
+                let weighted = edges
+                    .into_iter()
+                    .map(|(u, v)| (u, v, 1))
+                    .collect::<Vec<_>>();
+                let d = distances(4, &weighted);
+                assert!(
+                    d.iter()
+                        .enumerate()
+                        .all(|(i, row)| row.iter().enumerate().all(|(j, &x)| i == j || x > 0))
+                );
             }
-            let (diameter, witness) = lines[n + 2]
-                .strip_prefix("Diameter ")
-                .unwrap()
-                .split_once(", attained between ")
-                .unwrap();
-            let (first, remaining) = witness.split_once(" and ").unwrap();
-            let (second, claims) = remaining.split_once(". ").unwrap();
-            let diameter = diameter.parse::<i64>().unwrap();
-            let first = first.parse::<usize>().unwrap();
-            let second = second.parse::<usize>().unwrap();
-            assert!(first < second && second < n);
-            assert_eq!(diameter, independent[first][second]);
-            assert_eq!(diameter, *independent.iter().flatten().max().unwrap());
-            assert!(claims.starts_with(
-                "This finite metric space is complete and compact; its topology is discrete."
-            ));
         }
+        assert_eq!(trees.len(), 16);
     }
 
     #[test]

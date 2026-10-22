@@ -1,127 +1,127 @@
 [
   {
     "id": "eigenvalue",
-    "text": "An eigenvalue lambda of a linear operator T satisfies T(v)=lambda*v for some nonzero vector v.",
+    "text": "A=[[2,1],[0,3]]\nv=(1,1)\nAv=(3,3)=3v",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
   },
   {
     "id": "nilpotent",
-    "text": "A linear operator N is nilpotent if N^k=0 for some positive integer k.",
+    "text": "N=[[0,1],[0,0]]\nN≠0\nN²=0",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
   },
   {
     "id": "projection",
-    "text": "A linear projection P is an operator satisfying P^2=P. Orthogonality is an additional condition, not part of this definition.",
+    "text": "P=[[1,1],[0,0]]\nP²=P\nPᵀ≠P",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
   },
   {
     "id": "orthogonal-projection",
-    "text": "For a unit vector u in R^n, the map P(v)=(u dot v)u is an orthogonal projection. It satisfies P^2=P, with image span(u) and kernel u-perpendicular.",
+    "text": "u∈Rⁿ, uᵀu=1\nP=uuᵀ\nP(v)=(uᵀv)u",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
   },
   {
     "id": "nilpotent-jordan-block",
-    "text": "The n-by-n matrix with ones on the superdiagonal and zeros elsewhere shifts coordinates. Its nth power is zero, but its (n-1)st power is nonzero.",
+    "text": "n≥2\n(J_n)ᵢⱼ=δ_{j,i+1} (1≤i,j≤n)\nJ_n^n=0\nJ_n^(n-1)≠0",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
   },
   {
     "id": "companion-matrix",
-    "text": "For x^2+a*x+b, the matrix [[0,-b],[1,-a]] has characteristic polynomial x^2+a*x+b.",
+    "text": "A=[[0,-b],[1,-a]]\ndet(tI-A)=t²+at+b",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
   },
   {
     "id": "noncommuting-matrices",
-    "text": "Matrix multiplication need not commute: for A=[[0,1],[0,0]] and B=[[0,0],[1,0]], AB=diag(1,0), BA=diag(0,1).",
+    "text": "A=[[0,1],[0,0]]\nB=[[0,0],[1,0]]\nAB=diag(1,0)\nBA=diag(0,1)",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
   },
   {
     "id": "defective-matrix",
-    "text": "A real matrix need not be diagonalizable: [[1,1],[0,1]] has only one independent eigenvector despite having two rows.",
+    "text": "A=[[1,1],[0,1]]\ndet(tI-A)=(t-1)²\nker(A-I)=span{(1,0)}",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
   },
   {
     "id": "determinant-not-identity",
-    "text": "Determinant 1 does not imply the identity matrix: [[1,1],[0,1]] has determinant 1 and changes (0,1) to (1,1).",
+    "text": "A=[[1,1],[0,1]]\ndet A=1\nA(0,1)=(1,1)",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
   },
   {
     "id": "invertible-sum",
-    "text": "The sum of invertible matrices can be singular: I and -I are invertible, while I+(-I)=0.",
+    "text": "A=I₂, B=-I₂\ndet A=det B=1\nA+B=0",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Gilbert Strang, MIT 18.06 Linear Algebra, https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/. No source prose reproduced."
   },
   {
     "id": "product-dimensions",
-    "text": "For an m-by-n matrix A and an n-by-p matrix B over the same field, AB is m-by-p and (AB)_{ij}=sum_{k=1}^n A_{ik}B_{kj}. Each column of AB lies in the column space of A.",
+    "text": "A∈F^(m×n), B∈F^(n×p)\nAB∈F^(m×p)\n(AB)ᵢⱼ=Σₖ₌₁ⁿ AᵢₖBₖⱼ",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (multiplication), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/1963da71c4d96e5d14e7939780f79bcc_MIT18_06SCF11_Ses1.3sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "transpose-reverses-products",
-    "text": "For matrices A and B with compatible dimensions over a field, (AB)^T=B^T A^T. Transposition reverses the order of the factors.",
+    "text": "A∈F^(m×n), B∈F^(n×p)\n(AB)ᵀ=BᵀAᵀ",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (transpose), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/33b21afab62ea8df6c7bd241240df60d_MIT18_06SCF11_Ses1.5sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "inverse-reverses-products",
-    "text": "If A and B are invertible n-by-n matrices over the same field, (AB)^(-1)=B^(-1)A^(-1): multiplying either way cancels the adjacent inverse pairs.",
+    "text": "A,B∈GLₙ(F)\n(AB)⁻¹=B⁻¹A⁻¹",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (multiplication), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/1963da71c4d96e5d14e7939780f79bcc_MIT18_06SCF11_Ses1.3sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "row-column-rank",
-    "text": "For any real m-by-n matrix A, its row space and column space have the same dimension, rank(A), even though they lie in R^n and R^m respectively.",
+    "text": "A∈R^(m×n)\ndim row(A)=dim col(A)=rank A",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (subspaces), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/62a9db9eeab190694d40afe4734068ca_MIT18_06SCF11_Ses1.10sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "row-reduction-column-space",
-    "text": "Row reduction preserves row space but can change column space. The matrices [[1,0],[1,0]] and its reduced row echelon form [[1,0],[0,0]] have the same row space; their column spaces are span((1,1)) and span((1,0)).",
+    "text": "A=[[1,0],[1,0]]\nR=rref(A)=[[1,0],[0,0]]\nrow(A)=row(R)=span{(1,0)}\ncol(A)=span{(1,1)}\ncol(R)=span{(1,0)}",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (subspaces), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/62a9db9eeab190694d40afe4734068ca_MIT18_06SCF11_Ses1.10sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "determinant-scalar-scaling",
-    "text": "For an n-by-n matrix A over a field and a scalar c, det(cA)=c^n det(A), since every row is scaled. For example, det(3I_2)=9, although 3 det(I_2)=3.",
+    "text": "A∈F^(n×n), c∈F\ndet(cA)=cⁿ det A",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (determinants), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/5dd3f8ec0a398fd74264fef3fd591f81_MIT18_06SCF11_Ses2.5sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "determinant-not-additive",
-    "text": "The determinant is not additive on matrices: with A=B=I_2, det(A+B)=det(2I_2)=4, while det(A)+det(B)=2.",
+    "text": "A=B=I₂\ndet(A+B)=4\ndet A+det B=2",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (determinants), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/5dd3f8ec0a398fd74264fef3fd591f81_MIT18_06SCF11_Ses2.5sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "trace-cyclic-rectangular",
-    "text": "For A of size m-by-n and B of size n-by-m over the same field, trace(AB)=trace(BA). Both traces equal sum_{i=1}^m sum_{j=1}^n A_{ij}B_{ji}, although AB and BA can have different sizes.",
+    "text": "A∈F^(m×n), B∈F^(n×m)\ntr(AB)=tr(BA)=Σᵢ₌₁ᵐ Σⱼ₌₁ⁿ AᵢⱼBⱼᵢ",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (multiplication), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/1963da71c4d96e5d14e7939780f79bcc_MIT18_06SCF11_Ses1.3sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "distinct-eigenvalues-diagonalizable",
-    "text": "An n-by-n matrix over a field F with n distinct eigenvalues in F is diagonalizable over F. Eigenvectors from distinct eigenvalues are linearly independent and therefore form a basis.",
+    "text": "A∈F^(n×n)\nAvᵢ=λᵢvᵢ, 0≠vᵢ∈Fⁿ, λᵢ∈F (1≤i≤n)\nλᵢ≠λⱼ (i≠j)\nS=[v₁ ⋯ vₙ]\nS⁻¹AS=diag(λ₁,…,λₙ)",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (similarity), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/6e1f793f6c25fd39e002c100e278bf1b_MIT18_06SCF11_Ses3.4sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "same-spectrum-not-similar",
-    "text": "Over R, I_2 and [[1,1],[0,1]] have the same characteristic polynomial (x-1)^2 but are not similar. Every conjugate S^(-1)I_2 S is I_2 itself.",
+    "text": "I=I₂, J=[[1,1],[0,1]]\ndet(tI-I₂)=det(tI-J)=(t-1)²\nS⁻¹IS=I≠J (S∈GL₂(R))",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (similarity), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/6e1f793f6c25fd39e002c100e278bf1b_MIT18_06SCF11_Ses3.4sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "symmetric-spectral-theorem",
-    "text": "Every real symmetric n-by-n matrix A can be written A=Q D Q^T, where Q is real orthogonal and D is real diagonal. Thus even repeated eigenvalues admit an orthonormal basis of eigenvectors.",
+    "text": "A∈R^(n×n), Aᵀ=A\nA=Q diag(λ₁,…,λₙ)Qᵀ\nQᵀQ=I, λᵢ∈R",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (symmetric), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/804ab1e53134741d2044d241b50a285e_MIT18_06SCF11_Ses3.1sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "orthogonal-preserves-inner-product",
-    "text": "A real n-by-n matrix Q is orthogonal when Q^T Q=I. It preserves Euclidean inner products because (Qx)^T(Qy)=x^T y, so it preserves lengths and angles as well.",
+    "text": "Q∈R^(n×n), QᵀQ=I\n(Qx)ᵀ(Qy)=xᵀy\n‖Qx‖₂=‖x‖₂",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (orthogonal), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/7ac32be444c25e48590f47573833ccc6_MIT18_06SCF11_Ses2.4sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "positive-determinant-not-positive-definite",
-    "text": "A positive determinant does not imply positive definiteness, even for a real symmetric matrix. A=diag(-2,-3) has det(A)=6, but x^T A x=-2 for x=(1,0).",
+    "text": "A=diag(-2,-3)\ndet A=6\nx=(1,0)\nxᵀAx=-2",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (symmetric), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/804ab1e53134741d2044d241b50a285e_MIT18_06SCF11_Ses3.1sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "gram-positive-semidefinite",
-    "text": "For a real m-by-n matrix A, its Gram matrix A^T A is symmetric positive semidefinite: x^T A^T A x=||Ax||^2 >= 0. It is positive definite exactly when the columns of A are linearly independent.",
+    "text": "A∈R^(m×n)\nG=AᵀA\nxᵀGx=‖Ax‖₂²≥0\nG≻0 ⇔ ker A={0}",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (similarity), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/6e1f793f6c25fd39e002c100e278bf1b_MIT18_06SCF11_Ses3.4sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   },
   {
     "id": "singular-values-not-eigenvalues",
-    "text": "Singular values of a real square matrix need not be the absolute values of its eigenvalues. N=[[0,2],[0,0]] has eigenvalues 0,0, while N^T N=diag(0,4) gives singular values 2,0.",
+    "text": "N=[[0,2],[0,0]]\neigenvalues=(0,0)\nNᵀN=diag(0,4)\nsingular values=(2,0)",
     "provenance": "Original explanation or example of standard mathematics, checked by derivation or exact arithmetic. Relevant primary reference read: MIT OpenCourseWare, Gilbert Strang, 18.06SC Linear Algebra, Fall 2011, lecture summary (svd), https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/d273f75ee2552a5c3c35ccab37e5edce_MIT18_06SCF11_Ses3.5sum.pdf (accessed 2026-10-13). No source prose reproduced; not a dataset import."
   }
 ]

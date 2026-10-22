@@ -5,12 +5,18 @@ enum Template {
     Affine,
     LinearMoment,
     QuadraticMoment,
+    QuadraticPhase,
+    OscillatingSine,
+    OscillatingCosine,
 }
 
-const TEMPLATES: [Template; 3] = [
+const TEMPLATES: [Template; 6] = [
     Template::Affine,
     Template::LinearMoment,
     Template::QuadraticMoment,
+    Template::QuadraticPhase,
+    Template::OscillatingSine,
+    Template::OscillatingCosine,
 ];
 
 pub fn generate(rng: &mut StdRng) -> String {
@@ -40,10 +46,25 @@ fn fraction(numerator: i32, denominator: i32) -> String {
 }
 
 fn affine(a: i32, b: i32) -> String {
+    let term = match a {
+        1 => "x".to_string(),
+        -1 => "-x".to_string(),
+        _ => format!("{a}*x"),
+    };
     match b.cmp(&0) {
-        std::cmp::Ordering::Greater => format!("({a}*x + {b})"),
-        std::cmp::Ordering::Less => format!("({a}*x - {})", -b),
-        std::cmp::Ordering::Equal => format!("({a}*x)"),
+        std::cmp::Ordering::Greater => format!("({term} + {b})"),
+        std::cmp::Ordering::Less => format!("({term} - {})", -b),
+        std::cmp::Ordering::Equal => format!("({term})"),
+    }
+}
+
+fn product(numerator: i32, denominator: i32, factor: &str) -> String {
+    if numerator == denominator {
+        factor.into()
+    } else if numerator == -denominator {
+        format!("-{factor}")
+    } else {
+        format!("{}*{factor}", fraction(numerator, denominator))
     }
 }
 
@@ -61,49 +82,78 @@ impl Problem {
         let Self { template, a, b, c } = *self;
         let u = affine(a, b);
         let (integrand, answer) = match template {
-            Template::Affine => (format!("{c}*exp{u}"), format!("{}*exp{u}", fraction(c, a))),
+            Template::Affine => (
+                product(c, 1, &format!("exp{u}")),
+                product(c, a, &format!("exp{u}")),
+            ),
             Template::LinearMoment => (
-                format!("{c}*x*exp{u}"),
-                format!("{}*{}*exp{u}", fraction(c, a * a), affine(a, -1)),
+                product(c, 1, &format!("x*exp{u}")),
+                product(c, a * a, &format!("{}*exp{u}", affine(a, -1))),
             ),
             Template::QuadraticMoment => {
                 let sign = if a > 0 { "-" } else { "+" };
                 (
-                    format!("{c}*x^2*exp{u}"),
-                    format!(
-                        "{}*({}*x^2 {sign} {}*x + 2)*exp{u}",
-                        fraction(c, a * a * a),
-                        a * a,
-                        2 * a.abs()
+                    product(c, 1, &format!("x^2*exp{u}")),
+                    product(
+                        c,
+                        a * a * a,
+                        &format!(
+                            "({} {sign} {}*x + 2)*exp{u}",
+                            product(a * a, 1, "x^2"),
+                            2 * a.abs()
+                        ),
                     ),
                 )
             }
+            Template::QuadraticPhase => {
+                let phase = u.replace('x', "x^2");
+                (
+                    product(c, 1, &format!("x*exp{phase}")),
+                    product(c, 2 * a, &format!("exp{phase}")),
+                )
+            }
+            Template::OscillatingSine | Template::OscillatingCosine => {
+                let (function, combination) = match template {
+                    Template::OscillatingSine => ("sin", format!("(sin{u} - cos{u})")),
+                    _ => ("cos", format!("(sin{u} + cos{u})")),
+                };
+                (
+                    product(c, 1, &format!("exp{u}*{function}{u}")),
+                    product(c, 2 * a, &format!("exp{u}*{combination}")),
+                )
+            }
         };
-        format!(
-            "Integral: integral of {integrand} dx\nAnswer: {answer} + C\nDomain: all real x; C is an arbitrary real constant."
-        )
+        format!("integral ({integrand}) dx = {answer} + C")
     }
 
     #[cfg(test)]
     fn integrand(&self, x: f64) -> f64 {
         let (a, b, c) = (f64::from(self.a), f64::from(self.b), f64::from(self.c));
-        let degree = match self.template {
-            Template::Affine => 0,
-            Template::LinearMoment => 1,
-            Template::QuadraticMoment => 2,
-        };
-        c * x.powi(degree) * (a * x + b).exp()
+        let u = a * x + b;
+        match self.template {
+            Template::Affine => c * u.exp(),
+            Template::LinearMoment => c * x * u.exp(),
+            Template::QuadraticMoment => c * x * x * u.exp(),
+            Template::QuadraticPhase => c * x * (a * x * x + b).exp(),
+            Template::OscillatingSine => c * u.exp() * u.sin(),
+            Template::OscillatingCosine => c * u.exp() * u.cos(),
+        }
     }
 
     #[cfg(test)]
     fn antiderivative(&self, x: f64) -> f64 {
         let (a, b, c) = (f64::from(self.a), f64::from(self.b), f64::from(self.c));
-        let polynomial = match self.template {
-            Template::Affine => c / a,
-            Template::LinearMoment => c / (a * a) * (a * x - 1.0),
-            Template::QuadraticMoment => c / a.powi(3) * (a * a * x * x - 2.0 * a * x + 2.0),
-        };
-        polynomial * (a * x + b).exp()
+        let u = a * x + b;
+        match self.template {
+            Template::Affine => c / a * u.exp(),
+            Template::LinearMoment => c / (a * a) * (a * x - 1.0) * u.exp(),
+            Template::QuadraticMoment => {
+                c / a.powi(3) * (a * a * x * x - 2.0 * a * x + 2.0) * u.exp()
+            }
+            Template::QuadraticPhase => c / (2.0 * a) * (a * x * x + b).exp(),
+            Template::OscillatingSine => c / (2.0 * a) * u.exp() * (u.sin() - u.cos()),
+            Template::OscillatingCosine => c / (2.0 * a) * u.exp() * (u.sin() + u.cos()),
+        }
     }
 }
 
@@ -156,7 +206,7 @@ mod tests {
         };
         assert_eq!(
             p.render(),
-            "Integral: integral of 6*x*exp(-2*x + 3) dx\nAnswer: (3/2)*(-2*x - 1)*exp(-2*x + 3) + C\nDomain: all real x; C is an arbitrary real constant."
+            "integral (6*x*exp(-2*x + 3)) dx = (3/2)*(-2*x - 1)*exp(-2*x + 3) + C"
         );
         let p = Problem {
             template: Template::QuadraticMoment,
@@ -166,23 +216,21 @@ mod tests {
         };
         assert!(
             p.render()
-                .contains("Answer: (-3/4)*(4*x^2 + 4*x + 2)*exp(-2*x - 3) + C")
+                .contains("= (-3/4)*(4*x^2 + 4*x + 2)*exp(-2*x - 3) + C")
         );
         let p = Problem { a: 2, ..p };
         assert!(
             p.render()
-                .contains("Answer: (3/4)*(4*x^2 - 4*x + 2)*exp(2*x - 3) + C")
+                .contains("= (3/4)*(4*x^2 - 4*x + 2)*exp(2*x - 3) + C")
         );
     }
 
     #[test]
-    fn sampled_outputs_have_domain_and_constant() {
+    fn sampled_outputs_are_complete() {
         let mut rng = StdRng::seed_from_u64(7);
         for _ in 0..100 {
             let text = generate(&mut rng);
-            assert!(text.contains("Domain: all real x"));
             assert!(text.contains(" + C"));
-            assert!(text.contains("C is an arbitrary real constant."));
             assert!(!text.ends_with('\n'));
         }
     }

@@ -87,29 +87,43 @@ pub fn generate(rng: &mut StdRng) -> String {
     let y = (rng.random_range(0..p), rng.random_range(1..p));
     let trace = (2 * x.0 - b * x.1).rem_euclid(p);
     let defining = polynomial(b, c);
-    let alpha_conjugate = display(((-b).rem_euclid(p), p - 1));
-    format!(
-        "F_{} = F_{p}[t]/({defining}), with α the class of t. The defining quadratic has no roots in F_{p}, so it is irreducible.\n\
-         Each element has a unique form a+dα, where a,d are residues 0 through {}. All coefficient arithmetic is modulo {p}, and α²={}.\n\
-         There are {} elements; characteristic {p}; identity 1; zero 0.\n\
-         For x={} and y={}, x+y={} and xy={}. The inverse of x is {}.\n\
-         Frobenius conjugation sends α to {alpha_conjugate}: x^{p}={}. Trace(x)=x+x^{p}={trace}, and norm(x)=x*x^{p}={}. Both lie in F_{p}.\n\
-         The multiplicative order of x is {}, dividing {}. The nonzero elements form a cyclic group of order {}.",
-        p * p,
-        p - 1,
-        display(((-c).rem_euclid(p), (-b).rem_euclid(p))),
-        p * p,
-        display(x),
-        display(y),
-        display(add(p, x, y)),
-        display(mul(p, b, c, x, y)),
-        display(inverse(p, b, c, x)),
-        display(conjugate(p, b, x)),
-        norm(p, b, c, x),
-        order(p, b, c, x),
-        p * p - 1,
-        p * p - 1,
-    )
+    let model = format!("K = F_{p}[t]/({defining}), α = [t]");
+    match rng.random_range(0..4) {
+        0 => format!(
+            "{model}\n({}) + ({}) = {}\n({})({}) = {}",
+            display(x),
+            display(y),
+            display(add(p, x, y)),
+            display(x),
+            display(y),
+            display(mul(p, b, c, x, y))
+        ),
+        1 => format!(
+            "{model}\nx = {}\nx^{p} = {}\nTr(x) = {trace}\nN(x) = {}",
+            display(x),
+            display(conjugate(p, b, x)),
+            norm(p, b, c, x)
+        ),
+        2 => format!(
+            "{model}\n({})^(-1) = {}\nord({}) = {} in K^× ≅ C_{}",
+            display(x),
+            display(inverse(p, b, c, x)),
+            display(x),
+            order(p, b, c, x),
+            p * p - 1
+        ),
+        _ => {
+            let minimal_linear = (-trace).rem_euclid(p);
+            let minimal_constant = norm(p, b, c, x);
+            format!(
+                "{model}\nx = {}\nmin_{{F_{p}}}(x) = {}\nRoots in K = {{{}, {}}}",
+                display(x),
+                polynomial(minimal_linear, minimal_constant),
+                display(x),
+                display(conjugate(p, b, x))
+            )
+        }
+    }
 }
 
 #[cfg(test)]
@@ -147,6 +161,17 @@ mod tests {
                         ((2 * x.0 - b * x.1).rem_euclid(p), 0)
                     );
                     assert_eq!(pow(p, b, c, x, p + 1), (norm(p, b, c, x), 0));
+                    let trace = (2 * x.0 - b * x.1).rem_euclid(p);
+                    let quadratic = add(
+                        p,
+                        mul(p, b, c, x, x),
+                        mul(p, b, c, ((-trace).rem_euclid(p), 0), x),
+                    );
+                    assert_eq!(add(p, quadratic, (norm(p, b, c, x), 0)), (0, 0));
+                    if x.1 != 0 {
+                        assert_ne!(conjugate(p, b, x), x);
+                    }
+
                     if x != (0, 0) {
                         assert_ne!(norm(p, b, c, x), 0);
                         assert_eq!(mul(p, b, c, x, inverse(p, b, c, x)), (1, 0));

@@ -1,14 +1,16 @@
 use rand::{Rng, rngs::StdRng};
 
 pub fn generate(rng: &mut StdRng) -> String {
-    let (m, n, a, b, c) = sample(rng);
-    format!(
-        "Primitive Pythagorean triple: ({a}, {b}, {c}), with {a}^2 + {b}^2 = {c}^2 = {}.\nEuclid parameters: m={m}, n={n}; m>n>0, gcd(m,n)=1, and m-n is odd. The legs are m^2-n^2 and 2*m*n, listed in increasing order.\nRight triangle: area {}; perimeter {}; inradius {}; circumradius {c}/2. Its three side lengths have gcd 1.",
-        c * c,
-        a * b / 2,
-        a + b + c,
-        (a + b - c) / 2,
-    )
+    let (_, _, a, b, c) = sample(rng);
+    if rng.random_bool(0.5) {
+        format!("{a}^2 + {b}^2 = {c}^2\ngcd({a}, {b}, {c}) = 1")
+    } else {
+        format!(
+            "Right triangle with sides {a}, {b}, {c}\nArea = {}\nInradius = {}",
+            a * b / 2,
+            (a + b - c) / 2,
+        )
+    }
 }
 
 fn gcd(mut a: i64, mut b: i64) -> i64 {

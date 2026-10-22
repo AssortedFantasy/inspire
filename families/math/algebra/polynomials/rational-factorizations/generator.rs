@@ -128,23 +128,7 @@ fn render(p: &Polynomial) -> String {
             factorization.push_str(&format!("^{}", f.multiplicity));
         }
     }
-    let roots: Vec<_> = p
-        .factors
-        .iter()
-        .map(|f| {
-            let root = if f.u == 1 {
-                f.v.to_string()
-            } else {
-                format!("{}/{}", f.v, f.u)
-            };
-            format!("{root} (multiplicity {})", f.multiplicity)
-        })
-        .collect();
-    format!(
-        "p(x) = {}\nComplete factorization over Q: p(x) = {factorization}\nRational roots: {}",
-        polynomial_text(&p.coefficients),
-        roots.join(", ")
-    )
+    format!("{} = {factorization}", polynomial_text(&p.coefficients))
 }
 
 pub fn generate(rng: &mut StdRng) -> String {

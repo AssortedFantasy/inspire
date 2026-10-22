@@ -1,52 +1,52 @@
 [
   {
     "id": "uniform-convergence",
-    "text": "For real-valued functions f_n and f on a common domain D, uniform convergence means: for every epsilon>0 there exists an integer N>=1 such that |f_n(x)-f(x)|<epsilon for every n>=N and every x in D. N may depend on epsilon, but not on x.",
+    "text": "f_n, f: D -> R\nf_n -> f uniformly <=> forall epsilon>0 exists N>=1 forall n>=N forall x in D, |f_n(x)-f(x)|<epsilon",
     "provenance": "Original mathematical exposition, checked against Jiri Lebl, Basic Analysis, Definition 6.1.6: https://www.jirka.org/ra/html/sec_puconv.html. Source consulted directly; no source prose reproduced or dataset imported."
   },
   {
     "id": "pointwise-convergence",
-    "text": "For real-valued functions f_n,f on D, pointwise convergence means that for every x in D and epsilon>0 there exists an integer N>=1 such that |f_n(x)-f(x)|<epsilon for every n>=N. N may depend on x: for f_n(x)=x/n on R and f=0, an integer N>|x|/epsilon suffices.",
+    "text": "f_n, f: D -> R\nf_n -> f pointwise <=> forall x in D forall epsilon>0 exists N>=1 forall n>=N, |f_n(x)-f(x)|<epsilon\nf_n(x)=x/n on R\nf_n(x)->0 for every x, sup_(x in R)|f_n(x)|=infinity",
     "provenance": "Original mathematical exposition and independently checked example, checked against Jiri Lebl, Basic Analysis, Proposition 6.1.5: https://www.jirka.org/ra/html/sec_puconv.html. Source consulted directly; no source prose reproduced or dataset imported."
   },
   {
     "id": "supremum",
-    "text": "Every nonempty set A of real numbers that is bounded above has a finite supremum s. It satisfies a<=s for every a in A, and for each epsilon>0 some a in A satisfies s-epsilon<a. For A=(0,1), s=1, although A has no maximum. The empty set and unbounded-above sets have no finite real supremum.",
+    "text": "A subset R, A != {}, exists M in R forall a in A, a<=M\ns=sup A <=> (forall a in A, a<=s) and (forall epsilon>0 exists a in A, s-epsilon<a)\nsup(0,1)=1, 1 not in (0,1)",
     "provenance": "Original mathematical exposition and interval example, checked against Jiri Lebl, Basic Analysis, Definitions 1.1.2-1.1.3: https://www.jirka.org/ra/html/sec_basicpropsrn.html; epsilon characterization checked against https://www.jirka.org/ra/html/sec_setofreals.html. Sources consulted directly; no source prose reproduced or dataset imported."
   },
   {
     "id": "uniform-approximation",
-    "text": "For n>=1, f_n(x)=sqrt(x^2+1/n) converges uniformly to |x| on [-1,1]. Squaring gives 0<=f_n(x)-|x|<=1/sqrt(n). The maximum error equals 1/sqrt(n), attained at x=0. An integer N>epsilon^(-2) ensures error<epsilon for every n>=N and every x in [-1,1].",
+    "text": "f_n(x)=sqrt(x^2+1/n), x in [-1,1], n>=1\nsup_(x in [-1,1]) |f_n(x)-|x|| = 1/sqrt(n) -> 0",
     "provenance": "Original mathematical exposition of the retained example; the inequality and exact maximum were checked algebraically. Uniform-convergence definition checked against Jiri Lebl, Basic Analysis: https://www.jirka.org/ra/html/sec_puconv.html. Source consulted directly; no source prose reproduced or dataset imported."
   },
   {
     "id": "pointwise-not-uniform",
-    "text": "On [0,1], f_n(x)=x^n has pointwise limit f(x)=0 for x<1 and f(1)=1. Convergence is not uniform: x_n=2^(-1/n) lies below 1, yet |f_n(x_n)-f(x_n)|=1/2 for every n>=1. Thus epsilon=1/2 defeats every candidate tail index N.",
+    "text": "f_n(x)=x^n on [0,1]\nf(x)=0 for 0<=x<1, f(1)=1\nf_n(x)->f(x) for every x\nsup_(x in [0,1]) |f_n(x)-f(x)| = 1 for every n>=1",
     "provenance": "Original mathematical exposition and explicit moving-point witness; the witness was checked by exponentiation. Pointwise power limits and failure of uniform convergence checked against Jiri Lebl, Basic Analysis, Section 6.1: https://www.jirka.org/ra/html/sec_puconv.html. Source consulted directly; no source prose reproduced or dataset imported."
   },
   {
     "id": "bounded-not-convergent",
-    "text": "The real sequence a_n=(-1)^n is bounded by |a_n|=1 but does not converge. Its even subsequence is constantly 1 and its odd subsequence is constantly -1; a convergent sequence would give both subsequences the same limit. Boundedness alone guarantees only a convergent subsequence, by Bolzano-Weierstrass.",
+    "text": "a_n=(-1)^n\n|a_n|=1\nlim_(n->infinity) a_(2n)=1, lim_(n->infinity) a_(2n-1)=-1",
     "provenance": "Original mathematical exposition, checked against Jiri Lebl, Basic Analysis, subsequences in Section 2.1: https://www.jirka.org/ra/html/sec_seqsandlims.html; Bolzano-Weierstrass in Section 2.3: https://www.jirka.org/ra/html/sec_bw.html. Sources consulted directly; no source prose reproduced or dataset imported."
   },
   {
     "id": "cauchy-tail-not-adjacent",
-    "text": "A real sequence a_n converges exactly when it is Cauchy: for every epsilon>0 some integer N>=1 makes |a_m-a_n|<epsilon for all m,n>=N. Small adjacent differences are insufficient. For harmonic partial sums H_n=sum_{k=1}^n 1/k, H_{n+1}-H_n=1/(n+1) tends to 0, but H_{2n}-H_n>=n/(2n)=1/2 for every n>=1.",
+    "text": "a_n in R\na_n converges <=> forall epsilon>0 exists N>=1 forall m,n>=N, |a_m-a_n|<epsilon\nH_n=sum_(k=1)^n 1/k\nH_(n+1)-H_n=1/(n+1)->0, H_(2n)-H_n>=1/2",
     "provenance": "Original mathematical exposition and independently checked harmonic-block inequality. Cauchy quantifiers and completeness of R checked against Jiri Lebl, Basic Analysis, Definition 2.4.1 and Theorem 2.4.5: https://www.jirka.org/ra/html/sec_cauchy.html. Source consulted directly; no source prose reproduced or dataset imported."
   },
   {
     "id": "monotone-limit-as-supremum",
-    "text": "If a real sequence a_n is nondecreasing and bounded above, then a_n converges to s=sup{a_n:n>=1}. For every epsilon>0, the supremum property gives a_k>s-epsilon; monotonicity then gives s-epsilon<a_n<=s for all n>=k. For a_n=1-1/n, the supremum and limit are both 1, which no term attains.",
+    "text": "a_n in R, a_1<=a_2<=...<=M<infinity\nlim_(n->infinity) a_n = sup{a_n: n>=1}\na_n=1-1/n -> 1, a_n<1 for every n>=1",
     "provenance": "Original mathematical exposition and independently checked example, checked against Jiri Lebl, Basic Analysis, Theorem 2.1.10 and its proof: https://www.jirka.org/ra/html/sec_seqsandlims.html. Source consulted directly; no source prose reproduced or dataset imported."
   },
   {
     "id": "tail-extrema-and-oscillation",
-    "text": "For a bounded real sequence a_n, let U_N=sup{a_n:n>=N} and L_N=inf{a_n:n>=N}. The decreasing U_N converges to limsup a_n; the increasing L_N converges to liminf a_n. The sequence converges precisely when these limits agree. For a_n=(-1)^n+1/n, even terms approach 1 and odd terms approach -1, so limsup=1 and liminf=-1.",
+    "text": "a_n in R, sup_n|a_n|<infinity\nlimsup a_n = lim_(N->infinity) sup{a_n: n>=N}\nliminf a_n = lim_(N->infinity) inf{a_n: n>=N}\na_n converges <=> limsup a_n=liminf a_n\na_n=(-1)^n+1/n => limsup a_n=1, liminf a_n=-1",
     "provenance": "Original mathematical exposition and independently checked perturbed oscillating example, checked against Jiri Lebl, Basic Analysis, Definition 2.3.1 and Propositions 2.3.2 and 2.3.5: https://www.jirka.org/ra/html/sec_bw.html. Source consulted directly; no source prose reproduced or dataset imported."
   },
   {
     "id": "uniform-limit-continuity",
-    "text": "If continuous real-valued functions f_n on D, a subset of R, converge uniformly to f, then f is continuous on D. At x_0 in D, choose one index k with |f_k-f|<epsilon/3 throughout D, then choose delta>0 so |f_k(x)-f_k(x_0)|<epsilon/3 whenever x is in D and |x-x_0|<delta. The triangle inequality gives |f(x)-f(x_0)|<epsilon. Compactness of D is unnecessary.",
+    "text": "D subset R, f: D->R\nf_n in C(D), f_n -> f uniformly => f in C(D)",
     "provenance": "Original mathematical exposition, checked against Jiri Lebl, Basic Analysis, Theorem 6.2.2 and its proof: https://www.jirka.org/ra/html/sec_liminter.html. The three-error triangle bound was also checked directly. Source consulted directly; no source prose reproduced or dataset imported."
   }
 ]

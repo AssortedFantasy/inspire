@@ -9,15 +9,17 @@ pub fn generate(rng: &mut StdRng) -> String {
         .join(", ");
     let rows = convergents
         .iter()
-        .enumerate()
-        .map(|(k, (p, q))| format!("k={k}: {p}/{q}"))
+        .map(|(p, q)| {
+            if *q == 1 {
+                p.to_string()
+            } else {
+                format!("{p}/{q}")
+            }
+        })
         .collect::<Vec<_>>()
-        .join("; ");
+        .join(" -> ");
     let (p, q) = convergents[convergents.len() - 1];
-    format!(
-        "Finite simple continued fraction [{0}; {tail}] = {p}/{q}.\nConvergents: {rows}.\nThe expansion means a_0 + 1/(a_1 + 1/(a_2 + ...)); all tail entries are positive and the last is at least 2. Every convergent is reduced. For k >= 1, p_k*q_(k-1) - p_(k-1)*q_k = (-1)^(k-1).",
-        terms[0]
-    )
+    format!("[{0}; {tail}] = {p}/{q}\nConvergents: {rows}", terms[0])
 }
 
 fn sample(rng: &mut StdRng) -> (Vec<i64>, Vec<(i64, i64)>) {

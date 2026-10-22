@@ -88,34 +88,61 @@ pub fn generate(rng: &mut StdRng) -> String {
     p.shuffle(rng);
     q.shuffle(rng);
     let p_cycles = cycles(&p);
-    let cycle_lengths = p_cycles
-        .iter()
-        .map(|c| c.len().to_string())
-        .collect::<Vec<_>>()
-        .join(", ");
-    format!(
-        "S_{n}: all permutations of {{1, ..., {n}}}, a nonabelian group of order {n}! = {}.\n\
-         One-line notation lists the images [p(1), ..., p({n})]. Product p*q means p after q: (p*q)(i) = p(q(i)).\n\
-         Identity: {}.\n\
-         p = {} = {}; q = {} = {}.\n\
-         p*q = {} = {}. The inverse of p is {} = {}.\n\
-         Fixed points are omitted from cycle notation; () denotes the identity.\n\
-         The cycle lengths of p, including fixed points, are [{cycle_lengths}]. Its order is their least common multiple, {}.\n\
-         p has {} parity, since n minus the number of cycles (including fixed points) is {}.",
-        (1..=n).product::<usize>(),
-        one_line(&identity),
-        one_line(&p),
-        cycle_notation(&p_cycles),
-        one_line(&q),
-        cycle_notation(&cycles(&q)),
-        one_line(&compose(&p, &q)),
-        cycle_notation(&cycles(&compose(&p, &q))),
-        one_line(&inverse(&p)),
-        cycle_notation(&cycles(&inverse(&p))),
-        order(&p_cycles),
-        if is_even(&p) { "even" } else { "odd" },
-        n - p_cycles.len()
-    )
+    match rng.random_range(0..4) {
+        0 => format!(
+            "S_{n}\np = {}\nq = {}\np∘q = {}\nq∘p = {}",
+            cycle_notation(&p_cycles),
+            cycle_notation(&cycles(&q)),
+            cycle_notation(&cycles(&compose(&p, &q))),
+            cycle_notation(&cycles(&compose(&q, &p)))
+        ),
+        1 => {
+            let mut power = identity;
+            let powers: Vec<_> = (0..order(&p_cycles))
+                .map(|_| {
+                    let value = cycle_notation(&cycles(&power));
+                    power = compose(&power, &p);
+                    value
+                })
+                .collect();
+            format!(
+                "S_{n}\np = {}\n⟨p⟩ = {{{}}}\nsgn(p) = {}",
+                cycle_notation(&p_cycles),
+                powers.join(", "),
+                if is_even(&p) { "+1" } else { "−1" }
+            )
+        }
+        2 => {
+            let conjugate = compose(&compose(&q, &p), &inverse(&q));
+            format!(
+                "S_{n}\np = {}\nq = {}\nq∘p∘q⁻¹ = {}\nord(p) = ord(q∘p∘q⁻¹) = {}",
+                cycle_notation(&p_cycles),
+                cycle_notation(&cycles(&q)),
+                cycle_notation(&cycles(&conjugate)),
+                order(&p_cycles)
+            )
+        }
+        _ => {
+            let size = rng.random_range(1..n);
+            let mut subset = q[..size].to_vec();
+            subset.sort_unstable();
+            let mut image: Vec<_> = subset.iter().map(|&x| p[x]).collect();
+            image.sort_unstable();
+            let set = |points: &[usize]| {
+                points
+                    .iter()
+                    .map(|x| (x + 1).to_string())
+                    .collect::<Vec<_>>()
+                    .join(", ")
+            };
+            format!(
+                "S_{n}\n[p(1), …, p({n})] = {}\nA = {{{}}}\np(A) = {{{}}}",
+                one_line(&p),
+                set(&subset),
+                set(&image)
+            )
+        }
+    }
 }
 
 #[cfg(test)]

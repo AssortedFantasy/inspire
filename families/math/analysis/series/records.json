@@ -1,52 +1,52 @@
 [
   {
     "id": "geometric-series",
-    "text": "For real r with |r|<1, sum(r^n), n=0 to infinity, equals 1/(1-r). For every integer N>=0, the partial sum through n=N is (1-r^(N+1))/(1-r), with exact remainder r^(N+1)/(1-r). For |r|>=1 the terms fail to tend to zero, so the series diverges.",
+    "text": "|r|<1, N>=0\nsum_(n=0)^infinity r^n = 1/(1-r)\nsum_(n=N+1)^infinity r^n = r^(N+1)/(1-r)",
     "provenance": "Original mathematical exposition, verified against Jiri Lebl, Basic Analysis I, Section 2.5, Proposition 2.5.5 and Example 2.5.10: https://www.jirka.org/ra/html/sec_series.html (accessed 2026-10-13). Finite-sum and remainder identities independently checked algebraically. No source prose reproduced; not an imported dataset."
   },
   {
     "id": "terms-zero-not-summable",
-    "text": "Terms tending to zero do not ensure a series converges. In sum(1/n), n>=1, each block from n=2^k to 2^(k+1)-1 contains 2^k terms, each exceeding 1/2^(k+1). Every block therefore contributes more than 1/2, making the partial sums unbounded.",
+    "text": "1/n -> 0\nsum_(n=1)^infinity 1/n = infinity",
     "provenance": "Original mathematical exposition, verified against Jiri Lebl, Basic Analysis I, Section 2.5, Proposition 2.5.9 and the harmonic-series divergence discussion: https://www.jirka.org/ra/html/sec_series.html (accessed 2026-10-13). Displayed block estimate independently checked. No source prose reproduced; not an imported dataset."
   },
   {
     "id": "conditional-not-absolute",
-    "text": "Convergence need not be absolute: sum((-1)^(n+1)/n), n>=1, converges by the alternating-series test; its absolute-value series is harmonic and diverges.",
+    "text": "sum_(n=1)^infinity (-1)^(n+1)/n converges\nsum_(n=1)^infinity |(-1)^(n+1)/n| = infinity",
     "provenance": "Original mathematical exposition, verified against Jiri Lebl, Basic Analysis I, Section 2.6, Proposition 2.6.2 and Example 2.6.4: https://jirilebl.github.io/ra/html/sec_moreonseries.html (accessed 2026-10-13). No source prose reproduced; not an imported dataset."
   },
   {
     "id": "telescoping-rational-tail",
-    "text": "The series sum(1/[n(n+1)]), n>=1, equals 1. Since 1/[n(n+1)]=1/n-1/(n+1), its first N terms sum to 1-1/(N+1); the remaining tail is exactly 1/(N+1). Cancellation occurs in finite partial sums before the limit is taken.",
+    "text": "sum_(n=1)^infinity 1/(n(n+1)) = 1\nsum_(n=N+1)^infinity 1/(n(n+1)) = 1/(N+1), N>=0",
     "provenance": "Original example, verified by the displayed partial-fraction identity and finite cancellation; consistent with the definition of series in Jiri Lebl, Basic Analysis I, Section 2.5: https://www.jirka.org/ra/html/sec_series.html (accessed 2026-10-13). No source prose reproduced; not an imported dataset."
   },
   {
     "id": "alternating-series-remainder",
-    "text": "If b_n>=0 is nonincreasing and tends to zero, S=sum((-1)^(n+1)b_n), n>=1, exists. Its N-term partial sum S_N satisfies |S-S_N|<=b_(N+1); the remainder has the next term's sign unless it is zero. For b_n=1/n^2, N=100 gives error at most 1/10201.",
+    "text": "b_1>=b_2>=...>=0, b_n->0\nS=sum_(n=1)^infinity (-1)^(n+1)b_n, S_N=sum_(n=1)^N (-1)^(n+1)b_n\n0<=(-1)^N(S-S_N)<=b_(N+1), N>=1",
     "provenance": "Original mathematical exposition. Convergence hypotheses verified against Jiri Lebl, Basic Analysis I, Section 2.6, Proposition 2.6.2: https://jirilebl.github.io/ra/html/sec_moreonseries.html (accessed 2026-10-13). The remainder estimate follows independently by pairing adjacent tail terms; the numerical bound was independently checked. No source prose reproduced; not an imported dataset."
   },
   {
     "id": "ratio-one-inconclusive",
-    "text": "For eventually nonzero real terms a_n, if L=lim |a_(n+1)/a_n| exists, L<1 implies absolute convergence and L>1 implies divergence. L=1 decides neither: a_n=1/n gives a divergent series, while a_n=1/n^2 gives a convergent one; their ratios are n/(n+1) and [n/(n+1)]^2.",
+    "text": "a_n in R, a_n!=0 eventually, L=lim_(n->infinity)|a_(n+1)/a_n|\nL<1 => sum |a_n|<infinity\nL>1 => a_n does not tend to 0\nlim_(n->infinity) n/(n+1) = lim_(n->infinity) (n/(n+1))^2 = 1\nsum_(n=1)^infinity 1/n = infinity, sum_(n=1)^infinity 1/n^2 < infinity",
     "provenance": "Original mathematical exposition, verified against Jiri Lebl, Basic Analysis I, Section 2.5, Propositions 2.5.17 and 2.5.19: https://www.jirka.org/ra/html/sec_series.html (accessed 2026-10-13). Ratio formulas independently checked. No source prose reproduced; not an imported dataset."
   },
   {
     "id": "p-series-threshold",
-    "text": "For real p, sum(n^(-p)), n>=1, converges exactly when p>1. For p>1, the block 2^k<=n<2^(k+1) has sum at most 2^(-k(p-1)), so a geometric series bounds all blocks. For p<=1, n^(-p)>=1/n, forcing divergence by comparison with the harmonic series.",
+    "text": "p in R\nsum_(n=1)^infinity n^(-p) < infinity <=> p>1",
     "provenance": "Original mathematical exposition, verified against Jiri Lebl, Basic Analysis I, Section 2.5, Proposition 2.5.17: https://www.jirka.org/ra/html/sec_series.html (accessed 2026-10-13). Dyadic upper bound and threshold cases independently checked. No source prose reproduced; not an imported dataset."
   },
   {
     "id": "power-series-unequal-endpoints",
-    "text": "For real x, sum(x^n/n), n>=1, has radius of convergence 1. It converges absolutely for |x|<1, conditionally at x=-1, and diverges at x=1 and whenever |x|>1. For x!=0 the ratio limit is |x|; x=0 gives the zero series. Each endpoint requires its own test.",
+    "text": "x in R\nsum_(n=1)^infinity x^n/n converges <=> -1<=x<1\nsum_(n=1)^infinity |x^n/n| < infinity <=> |x|<1\nx=1 => sum_(n=1)^infinity x^n/n=infinity\n|x|>1 => x^n/n does not tend to 0",
     "provenance": "Original mathematical exposition, verified against Jiri Lebl, Basic Analysis I, Section 2.6, Example 2.6.8 and Proposition 2.6.10: https://jirilebl.github.io/ra/html/sec_moreonseries.html (accessed 2026-10-13). No source prose reproduced; not an imported dataset."
   },
   {
     "id": "rearrangement-hypotheses",
-    "text": "Every permutation of an absolutely convergent real series preserves its sum and absolute convergence. A conditionally convergent real series can instead be rearranged to any prescribed real sum. For the alternating harmonic series, take unused positive terms until the target is exceeded, then unused negative terms until it is crossed below, repeating in original order within each sign. Crossing errors shrink because the terms tend to zero.",
+    "text": "a_n in R, sigma: N->N bijective\nsum |a_n|<infinity => sum a_(sigma(n))=sum a_n\nsum a_n in R, sum |a_n|=infinity => forall L in R exists tau: N->N bijective, sum a_(tau(n))=L",
     "provenance": "Original mathematical exposition, verified against Jiri Lebl, Basic Analysis I, Section 2.6, Proposition 2.6.3, Example 2.6.4, and Exercise 2.6.3: https://jirilebl.github.io/ra/html/sec_moreonseries.html (accessed 2026-10-13). No source prose reproduced; not an imported dataset."
   },
   {
     "id": "cauchy-product-needs-care",
-    "text": "If sum(a_n)=A and sum(b_n)=B, n>=0, converge and at least one converges absolutely, their Cauchy product c_n=sum(a_k b_(n-k)), k=0,...,n, sums to AB. Both conditional is insufficient: for a_n=b_n=(-1)^n/sqrt(n+1), |c_n|=sum(1/sqrt((k+1)(n-k+1))), k=0,...,n, is at least 1. Thus the product terms do not tend to zero, although both factor series converge.",
+    "text": "sum_(n=0)^infinity a_n=A, sum_(n=0)^infinity b_n=B\nsum |a_n|<infinity or sum |b_n|<infinity\nc_n=sum_(k=0)^n a_k*b_(n-k) => sum_(n=0)^infinity c_n=A*B\n\na_n=b_n=(-1)^n/sqrt(n+1)\nc_n=(-1)^n sum_(k=0)^n 1/sqrt((k+1)(n-k+1)), |c_n|>=1",
     "provenance": "Original mathematical exposition, verified against Jiri Lebl, Basic Analysis I, Section 2.6, Mertens' theorem 2.6.5 and Example 2.6.6: https://jirilebl.github.io/ra/html/sec_moreonseries.html (accessed 2026-10-13). Lower bound independently checked: every summand is at least 1/(n+1), and there are n+1 summands. No source prose reproduced; not an imported dataset."
   }
 ]

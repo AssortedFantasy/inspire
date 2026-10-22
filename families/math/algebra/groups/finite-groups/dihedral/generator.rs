@@ -30,46 +30,109 @@ fn center(n: usize) -> Vec<Element> {
 }
 
 fn display((a, b): Element) -> String {
-    format!("({a},{b})")
+    match (a, b) {
+        (0, 0) => "e".into(),
+        (0, 1) => "s".into(),
+        (1, 0) => "r".into(),
+        (1, 1) => "rs".into(),
+        (_, 0) => format!("r^{a}"),
+        _ => format!("r^{a}s"),
+    }
 }
 
 pub fn generate(rng: &mut StdRng) -> String {
     let n = rng.random_range(3..=48);
     let x = (rng.random_range(0..n), rng.random_range(0..2));
     let y = (rng.random_range(0..n), rng.random_range(0..2));
-    let z = center(n)
-        .into_iter()
-        .map(display)
-        .collect::<Vec<_>>()
-        .join(", ");
-    let xy = product(n, x, y);
-    let yx = product(n, y, x);
-    let relation = if xy == yx {
-        "commute"
-    } else {
-        "do not commute"
-    };
-    format!(
-        "D_{n} is the symmetry group of a regular {n}-gon, of order {} (the subscript counts vertices).\n\
-         Presentation: r^{n}=e, s^2=e, srs=r^(-1); r is one vertex-step rotation and s a reflection.\n\
-         Each element has a unique coordinate (a,b)=r^a s^b, with 0<=a<{n}, b in {{0,1}}.\n\
-         Law: (a,b)(c,d)=((a+(-1)^b c) mod {n}, (b+d) mod 2); identity (0,0).\n\
-         Example: x={}, y={}; xy={}, yx={}; these elements {relation}.\n\
-         Inverses: x^(-1)={}, y^(-1)={}. Orders: ord(x)={}, ord(y)={}.\n\
-         In general ord((a,0))={n}/gcd({n},a), and every (a,1) has order 2.\n\
-         Noncommuting witness: rs=(1,1), sr=({},1). Hence D_{n} is nonabelian.\n\
-         Center: Z(D_{n})={{{z}}}. The rotations form a normal cyclic subgroup of order {n} and index 2.",
-        2 * n,
-        display(x),
-        display(y),
-        display(xy),
-        display(yx),
-        display(inverse(n, x)),
-        display(inverse(n, y)),
-        order(n, x),
-        order(n, y),
-        n - 1,
-    )
+    let heading = format!("D_{n} = ⟨r,s | r^{n}=s²=e, srs=r⁻¹⟩");
+    match rng.random_range(0..4) {
+        0 => {
+            let xy = product(n, x, y);
+            let yx = product(n, y, x);
+            let calculation = if x == y {
+                format!("({})² = {}", display(x), display(xy))
+            } else if xy == yx {
+                format!(
+                    "({})({}) = ({})({}) = {}",
+                    display(x),
+                    display(y),
+                    display(y),
+                    display(x),
+                    display(xy)
+                )
+            } else {
+                format!(
+                    "({})({}) = {}\n({})({}) = {}",
+                    display(x),
+                    display(y),
+                    display(xy),
+                    display(y),
+                    display(x),
+                    display(yx)
+                )
+            };
+            format!(
+                "{heading}\n{calculation}\n({})⁻¹ = {}",
+                display(x),
+                display(inverse(n, x))
+            )
+        }
+        1 => {
+            let mut class: Vec<_> = (0..n)
+                .map(|k| product(n, product(n, (k, 0), x), inverse(n, (k, 0))))
+                .chain((0..n).map(|k| product(n, product(n, (k, 1), x), inverse(n, (k, 1)))))
+                .collect();
+            class.sort_unstable();
+            class.dedup();
+            format!(
+                "{heading}\nCl({}) = {{{}}}\nZ(D_{n}) = {{{}}}",
+                display(x),
+                class
+                    .into_iter()
+                    .map(display)
+                    .collect::<Vec<_>>()
+                    .join(", "),
+                center(n)
+                    .into_iter()
+                    .map(display)
+                    .collect::<Vec<_>>()
+                    .join(", ")
+            )
+        }
+        2 => {
+            let vertices = (0..n).map(|t| t.to_string()).collect::<Vec<_>>().join(" ");
+            let images = (0..n)
+                .map(|t| ((x.0 + if x.1 == 0 { t } else { (n - t) % n }) % n).to_string())
+                .collect::<Vec<_>>()
+                .join(" ");
+            format!(
+                "D_{n} ↷ Z/{n}Z\nr(t) = t+1\ns(t) = −t\n{} · [{vertices}] = [{images}]\nord({}) = {}",
+                display(x),
+                display(x),
+                order(n, x)
+            )
+        }
+        _ => {
+            let centralizer = (0..n)
+                .flat_map(|a| [(a, 0), (a, 1)])
+                .filter(|&y| product(n, x, y) == product(n, y, x))
+                .map(display)
+                .collect::<Vec<_>>();
+            let members = if centralizer.len() == 2 * n {
+                format!("D_{n}")
+            } else if centralizer.len() > 4 {
+                "⟨r⟩".to_owned()
+            } else {
+                format!("{{{}}}", centralizer.join(", "))
+            };
+            format!(
+                "{heading}\nC_D{n}({}) = {members}\n|C_D{n}({})| = {}",
+                display(x),
+                display(x),
+                centralizer.len()
+            )
+        }
+    }
 }
 
 #[cfg(test)]
@@ -128,6 +191,20 @@ mod tests {
     }
 
     #[test]
+    fn polygon_action_matches_group_product() {
+        for n in 3..=12 {
+            let apply = |(a, b): Element, t| (a + if b == 0 { t } else { (n - t) % n }) % n;
+            for x in elements(n) {
+                for y in elements(n) {
+                    for t in 0..n {
+                        assert_eq!(apply(product(n, x, y), t), apply(x, apply(y, t)));
+                    }
+                }
+            }
+        }
+    }
+
+    #[test]
     fn seeded_outputs_are_varied_and_repeatable() {
         let mut first = StdRng::seed_from_u64(713);
         let mut second = StdRng::seed_from_u64(713);
@@ -136,9 +213,8 @@ mod tests {
             let output = generate(&mut first);
             assert_eq!(output, generate(&mut second));
             assert!(!output.ends_with('\n'));
-            assert!(output.contains("Noncommuting witness"));
             outputs.insert(output);
         }
-        assert!(outputs.len() > 240);
+        assert!(outputs.len() > 200);
     }
 }

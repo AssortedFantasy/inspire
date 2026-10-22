@@ -134,9 +134,7 @@ impl Problem {
                 ]),
             ),
         };
-        format!(
-            "Integral: integral of {integrand} dx\nAnswer: {answer} + C\nDomain: all real x; C is constant on each such interval."
-        )
+        format!("integral ({integrand}) dx = {answer} + C")
     }
 }
 
@@ -213,7 +211,7 @@ mod tests {
         };
         assert_eq!(
             affine.render(),
-            "Integral: integral of -3*(x - 2)^2 dx\nAnswer: -(x - 2)^3 + C\nDomain: all real x; C is constant on each such interval."
+            "integral (-3*(x - 2)^2) dx = -(x - 2)^3 + C"
         );
         let sparse = Problem::SparsePolynomial {
             high_coefficient: -6,
@@ -224,7 +222,7 @@ mod tests {
         };
         assert_eq!(
             sparse.render(),
-            "Integral: integral of -6*x^4 + 3*x^2 - 1 dx\nAnswer: -(6/5)*x^5 + x^3 - x + C\nDomain: all real x; C is constant on each such interval."
+            "integral (-6*x^4 + 3*x^2 - 1) dx = -(6/5)*x^5 + x^3 - x + C"
         );
         assert_eq!(polynomial(&[(1, 1, 1), (0, 1, 0)]), "x");
     }
@@ -236,7 +234,6 @@ mod tests {
         let mut rng = StdRng::seed_from_u64(7);
         for _ in 0..80 {
             let text = generate(&mut rng);
-            assert!(text.contains("Domain: all real x"));
             assert!(text.contains(" + C"));
             assert!(!text.ends_with('\n'));
             assert!(!text.contains(" + -"));

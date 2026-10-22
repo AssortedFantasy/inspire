@@ -39,6 +39,16 @@ fn fraction(numerator: i32, denominator: i32) -> String {
     }
 }
 
+fn product(numerator: i32, denominator: i32, factor: &str) -> String {
+    if numerator == denominator {
+        factor.into()
+    } else if numerator == -denominator {
+        format!("-{factor}")
+    } else {
+        format!("{}*{factor}", fraction(numerator, denominator))
+    }
+}
+
 impl Problem {
     fn sample(rng: &mut StdRng) -> Self {
         Self {
@@ -52,10 +62,11 @@ impl Problem {
 
     fn render(&self) -> String {
         let Self { kind, a, b, c, r } = *self;
+        let term = product(a, 1, "x");
         let u = match b.cmp(&0) {
-            std::cmp::Ordering::Greater => format!("({a}*x + {b})"),
-            std::cmp::Ordering::Less => format!("({a}*x - {})", -b),
-            std::cmp::Ordering::Equal => format!("({a}*x)"),
+            std::cmp::Ordering::Greater => format!("({term} + {b})"),
+            std::cmp::Ordering::Less => format!("({term} - {})", -b),
+            std::cmp::Ordering::Equal => format!("({term})"),
         };
         let argument = if r == 1 {
             u.clone()
@@ -63,30 +74,36 @@ impl Problem {
             format!("({u}/{r})")
         };
         let r2 = r * r;
-        let scale = fraction(c, a);
         let (integrand, answer, domain): (String, String, String) = match kind {
             Kind::ReciprocalQuadratic => (
                 format!("{c}/({r2} + {u}^2)"),
-                format!("{}*atan{argument}", fraction(c, a * r)),
-                "all real x; atan is the principal real arctangent".into(),
+                product(c, a * r, &format!("atan{argument}")),
+                String::new(),
             ),
             Kind::ReciprocalRoot => (
                 format!("{c}/sqrt({r2} - {u}^2)"),
-                format!("{scale}*asin{argument}"),
-                format!("-{r} < {u} < {r}; asin is the principal real arcsine"),
+                product(c, a, &format!("asin{argument}")),
+                format!("-{r} < {u} < {r}"),
             ),
             Kind::ArctangentByParts => (
-                format!("{c}*atan{argument}"),
-                format!(
-                    "{scale}*[{u}*atan{argument} - {}*ln({r2} + {u}^2)]",
-                    fraction(r, 2)
+                product(c, 1, &format!("atan{argument}")),
+                product(
+                    c,
+                    a,
+                    &format!(
+                        "[{u}*atan{argument} - {}]",
+                        product(r, 2, &format!("ln({r2} + {u}^2)"))
+                    ),
                 ),
-                "all real x; atan is the principal real arctangent".into(),
+                String::new(),
             ),
         };
-        format!(
-            "Integral: integral of {integrand} dx\nAnswer: {answer} + C\nDomain: {domain}; C is an arbitrary real constant on each connected interval."
-        )
+        let mut text = format!("integral ({integrand}) dx = {answer} + C");
+        if !domain.is_empty() {
+            text.push('\n');
+            text.push_str(&domain);
+        }
+        text
     }
 
     #[cfg(test)]
@@ -162,9 +179,7 @@ mod tests {
             let mut p = Problem::sample(&mut rng);
             p.kind = kind;
             let text = p.render();
-            assert!(text.contains("Domain:"));
             assert!(text.contains(" + C"));
-            assert!(text.contains("C is an arbitrary real constant on each connected interval."));
         }
     }
 
@@ -179,21 +194,17 @@ mod tests {
         };
         let text = p.render();
         assert!(text.contains("-9/(16 + (6*x - 3)^2)"));
-        assert!(text.contains("Answer: (-3/8)*atan((6*x - 3)/4) + C"));
-        assert!(text.contains("all real x"));
+        assert!(text.contains("= (-3/8)*atan((6*x - 3)/4) + C"));
         p.kind = Kind::ReciprocalRoot;
         let text = p.render();
         assert!(text.contains("-9/sqrt(16 - (6*x - 3)^2)"));
-        assert!(text.contains("Answer: (-3/2)*asin((6*x - 3)/4) + C"));
+        assert!(text.contains("= (-3/2)*asin((6*x - 3)/4) + C"));
         assert!(text.contains("-4 < (6*x - 3) < 4"));
         p.kind = Kind::ArctangentByParts;
         let text = p.render();
         assert!(text.contains("-9*atan((6*x - 3)/4)"));
         assert!(
-            text.contains(
-                "Answer: (-3/2)*[(6*x - 3)*atan((6*x - 3)/4) - 2*ln(16 + (6*x - 3)^2)] + C"
-            )
+            text.contains("= (-3/2)*[(6*x - 3)*atan((6*x - 3)/4) - 2*ln(16 + (6*x - 3)^2)] + C")
         );
-        assert!(text.contains("all real x"));
     }
 }

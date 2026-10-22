@@ -1,7 +1,7 @@
 use rand::{Rng, rngs::StdRng};
 
 pub fn generate(rng: &mut StdRng) -> String {
-    match rng.random_range(0..3) {
+    match rng.random_range(0..6) {
         0 => exponential(rng.random_range(0..=8), rng.random_range(1..=6), 0),
         1 => {
             let shifts = [-3, -2, -1, 1, 2, 3];
@@ -11,11 +11,14 @@ pub fn generate(rng: &mut StdRng) -> String {
                 shifts[rng.random_range(0..shifts.len())],
             )
         }
-        _ => generalized(
+        2 => generalized(
             rng.random_range(0..=5),
             rng.random_range(1..=4),
             rng.random_range(2..=3),
         ),
+        3 => gaussian(rng.random_range(0..=5), rng.random_range(1..=6)),
+        4 => laplace(rng.random_range(0..=4), rng.random_range(1..=6)),
+        _ => logarithmic(rng.random_range(1..=7), rng.random_range(1..=6)),
     }
 }
 
@@ -27,33 +30,72 @@ fn exponential(n: u32, a: i64, b: i64) -> String {
         std::cmp::Ordering::Equal => "x".to_owned(),
         std::cmp::Ordering::Greater => format!("(x-{b})"),
     };
-    let integrand = format!("{}exp(-{a}*{base})", power_factor(&base, n));
-    let title = if b == 0 {
-        "Gamma integral"
-    } else {
-        "Translated exponential moment"
-    };
+    let decay = scaled(&base, a);
+    let integrand = format!("{}exp(-{decay})", power_factor(&base, n));
     format!(
-        "{title}: integral from {b} to infinity of {integrand} dx = {}.\nWith t = {a}*{base}, dx = dt/{a}; the value is Gamma({})/{a}^{} = {n}!/{a}^{}. The integrand is continuous at {b}, and exponential decay makes the infinite tail integrable.",
+        "integral from {b} to infinity of {integrand} dx = {}",
         fraction(factorial(n), a.pow(n + 1)),
-        n + 1,
-        n + 1,
-        n + 1,
     )
 }
 
 // https://dlmf.nist.gov/5.9.E1 with mu=p and nu=p*(n+1).
 fn generalized(n: u32, a: i64, p: u32) -> String {
     let m = p * (n + 1) - 1;
-    let integrand = format!("{}exp(-{a}*x^{p})", power_factor("x", m));
+    let decay = scaled(&format!("x^{p}"), a);
+    let integrand = format!("{}exp(-{decay})", power_factor("x", m));
     format!(
-        "Generalized Gaussian moment: integral from 0 to infinity of {integrand} dx = {}.\nWith t = {a}*x^{p}, x^{m} dx = t^{n} dt/({p}*{a}^{}); the value is Gamma({})/({p}*{a}^{}) = {n}!/({p}*{a}^{}). The integrand is continuous at zero, and exp(-{a}*x^{p}) makes the infinite tail integrable.",
+        "integral from 0 to infinity of {integrand} dx = {}",
         fraction(factorial(n), i64::from(p) * a.pow(n + 1)),
-        n + 1,
-        n + 1,
-        n + 1,
-        n + 1,
     )
+}
+
+fn gaussian(n: u32, a: i64) -> String {
+    let coefficient = fraction(factorial(2 * n), 4_i64.pow(n) * factorial(n) * a.pow(n));
+    let root = if a == 1 {
+        "sqrt(pi)".to_owned()
+    } else {
+        format!("sqrt(pi/{a})")
+    };
+    let value = if coefficient == "1" {
+        root
+    } else {
+        format!("{coefficient}*{root}")
+    };
+    let decay = scaled("x^2", a);
+    format!(
+        "integral from -infinity to infinity of {}exp(-{decay}) dx = {value}",
+        power_factor("x", 2 * n)
+    )
+}
+
+fn laplace(n: u32, a: i64) -> String {
+    let decay = scaled("abs(x)", a);
+    format!(
+        "integral from -infinity to infinity of {}exp(-{decay}) dx = {}",
+        power_factor("x", 2 * n),
+        fraction(2 * factorial(2 * n), a.pow(2 * n + 1))
+    )
+}
+
+fn logarithmic(a: i64, n: u32) -> String {
+    let logarithm = if n == 1 {
+        "(-ln(x))".to_owned()
+    } else {
+        format!("(-ln(x))^{n}")
+    };
+    format!(
+        "integral from 0 to 1 of {}{logarithm} dx = {}",
+        power_factor("x", a as u32 - 1),
+        fraction(factorial(n), a.pow(n + 1))
+    )
+}
+
+fn scaled(base: &str, coefficient: i64) -> String {
+    if coefficient == 1 {
+        base.to_owned()
+    } else {
+        format!("{coefficient}*{base}")
+    }
 }
 
 fn power_factor(base: &str, n: u32) -> String {
@@ -98,11 +140,25 @@ mod tests {
     // Read the answer actually rendered, independently of fraction().
     fn rendered_value(text: &str) -> f64 {
         let answer = text.lines().next().unwrap().split(" = ").nth(1).unwrap();
-        let mut parts = answer.trim_end_matches('.').split('/');
+        let (rational, scale) = if let Some((coefficient, root)) = answer.split_once("*sqrt(pi") {
+            (coefficient, root)
+        } else if let Some(root) = answer.strip_prefix("sqrt(pi") {
+            ("1", root)
+        } else {
+            (answer, "")
+        };
+        let scale = match scale {
+            "" => 1.0,
+            ")" => std::f64::consts::PI.sqrt(),
+            root => (std::f64::consts::PI
+                / root.trim_matches(&['/', ')'][..]).parse::<f64>().unwrap())
+            .sqrt(),
+        };
+        let mut parts = rational.split('/');
         let numerator: f64 = parts.next().unwrap().parse().unwrap();
         let denominator: f64 = parts.next().unwrap_or("1").parse().unwrap();
         assert!(parts.next().is_none());
-        numerator / denominator
+        numerator / denominator * scale
     }
 
     fn close(actual: f64, expected: f64) {
@@ -207,35 +263,84 @@ mod tests {
     }
 
     #[test]
-    fn zero_moments_and_signed_shifts_are_readable() {
-        assert!(
-            exponential(0, 1, 0)
-                .starts_with("Gamma integral: integral from 0 to infinity of exp(-1*x) dx = 1.")
-        );
-        assert!(exponential(0, 2, -3).contains("from -3 to infinity of exp(-2*(x+3)) dx = 1/2."));
-        assert!(exponential(1, 3, 2).contains("(x-2)*exp(-3*(x-2)) dx = 1/9."));
-        assert!(generalized(0, 2, 2).contains("x*exp(-2*x^2) dx = 1/4."));
-        assert!(generalized(0, 2, 3).contains("x^2*exp(-2*x^3) dx = 1/6."));
+    fn zero_moments_and_signed_shifts_preserve_the_integrand() {
+        assert!(exponential(0, 1, 0).contains("exp(-x)"));
+        assert!(exponential(0, 2, -3).contains("exp(-2*(x+3))"));
+        assert!(exponential(1, 3, 2).contains("(x-2)*exp(-3*(x-2))"));
+        assert!(generalized(0, 2, 2).contains("x*exp(-2*x^2)"));
+        assert!(generalized(0, 2, 3).contains("x^2*exp(-2*x^3)"));
+        for n in 0..=8 {
+            assert!(!exponential(n, 1, 0).contains("^0"));
+        }
+    }
+
+    #[test]
+    fn whole_line_and_logarithmic_moments_match_independent_quadrature() {
+        for n in 0..=5 {
+            for a in 1_i64..=6 {
+                let end = (50.0 / a as f64).sqrt();
+                close(
+                    integrate(
+                        |x| x.powi(2 * n as i32) * (-a as f64 * x * x).exp(),
+                        -end,
+                        end,
+                    ),
+                    rendered_value(&gaussian(n, a)),
+                );
+                if n <= 4 {
+                    let end = 50.0 / a as f64;
+                    close(
+                        integrate(
+                            |x| 2.0 * x.powi(2 * n as i32) * (-a as f64 * x).exp(),
+                            0.0,
+                            end,
+                        ),
+                        rendered_value(&laplace(n, a)),
+                    );
+                }
+            }
+        }
+        for a in 1_i64..=7 {
+            for n in 1..=6 {
+                close(
+                    integrate(
+                        |t| {
+                            let x = (-t).exp();
+                            x.powi(a as i32 - 1) * (-x.ln()).powi(n as i32) * x
+                        },
+                        0.0,
+                        50.0 / a as f64,
+                    ),
+                    rendered_value(&logarithmic(a, n)),
+                );
+            }
+        }
     }
 
     #[test]
     fn seeded_output_reaches_every_presentation() {
         let mut rng = StdRng::seed_from_u64(1042);
-        let mut seen = [false; 3];
-        for _ in 0..120 {
+        let mut seen = [false; 6];
+        for _ in 0..300 {
             let text = generate(&mut rng);
             assert!(!text.ends_with('\n'));
             assert!(rendered_value(&text).is_finite());
             assert!(!text.contains("^-"));
-            let presentation = if text.starts_with("Gamma integral:") {
-                0
-            } else if text.starts_with("Translated") {
+            let presentation = if text.contains("ln(x)") {
+                5
+            } else if text.contains("abs(x)") {
+                4
+            } else if text.contains("from -infinity") {
+                3
+            } else if text.contains("*(x") || text.contains("exp(-(x") {
                 1
-            } else {
+            } else if text.contains("exp(-x^") || text.contains("*x^") {
                 2
+            } else {
+                0
             };
             seen[presentation] = true;
         }
-        assert_eq!(seen, [true; 3]);
+        assert_eq!(seen, [true; 6]);
     }
 }

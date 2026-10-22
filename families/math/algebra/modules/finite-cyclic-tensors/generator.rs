@@ -48,21 +48,25 @@ fn tuple(values: &[u32]) -> String {
 }
 
 fn module(moduli: &[u32]) -> String {
-    moduli
+    let factors: Vec<_> = moduli
         .iter()
+        .filter(|&&n| n > 1)
         .map(|n| format!("Z/{n}Z"))
-        .collect::<Vec<_>>()
-        .join(" ⊕ ")
+        .collect();
+    if factors.is_empty() {
+        "0".to_owned()
+    } else {
+        factors.join(" ⊕ ")
+    }
 }
 
-fn matrix(values: &[u32], columns: usize) -> String {
-    format!(
-        "[{}]",
-        values
-            .chunks(columns)
-            .map(tuple)
-            .collect::<Vec<_>>()
-            .join("; ")
+fn coordinates(moduli: &[u32], values: &[u32]) -> String {
+    tuple(
+        &moduli
+            .iter()
+            .zip(values)
+            .filter_map(|(&n, &v)| (n > 1).then_some(v))
+            .collect::<Vec<_>>(),
     )
 }
 
@@ -94,25 +98,31 @@ pub fn generate(rng: &mut StdRng) -> String {
     let k = rng.random_range(2..=9);
     let scaled_a: Vec<_> = a.iter().zip(&m).map(|(&v, &d)| k * v % d).collect();
     let scaled_values = image(&m, &n, &scaled_a, &b);
-    let size: u64 = moduli.iter().map(|&d| u64::from(d)).product();
-    let exponent = moduli.iter().map(|&d| u64::from(d)).fold(1, lcm);
-    format!(
-        "Finite Z-modules M={} and N={}. Addition and integer scalar multiplication act coordinatewise modulo the displayed moduli.\n\
-         M ⊗_Z N ≅ {}. The (i,j) summand has modulus d_ij=gcd(m_i,n_j); Z/1Z denotes the zero module.\n\
-         The modulus matrix, with M coordinates as rows and N coordinates as columns, is {}. The tensor product has {size} elements and exponent {exponent}.\n\
-         Under this isomorphism, a⊗b has (i,j) coordinate a_i*b_j modulo d_ij. For a={} and b={}, its coordinate matrix is {}; this tensor has additive order {}.\n\
-         Bilinearity example: {k}a={} in M, and ({k}a)⊗b={k}(a⊗b) has coordinate matrix {}.",
-        module(&m),
-        module(&n),
-        module(&moduli),
-        matrix(&moduli, n.len()),
-        tuple(&a),
-        tuple(&b),
-        matrix(&values, n.len()),
-        element_order(&moduli, &values),
-        tuple(&scaled_a),
-        matrix(&scaled_values, n.len()),
-    )
+    let context = format!("M = {}\nN = {}", module(&m), module(&n));
+    let tensor = format!("M ⊗_Z N ≅ {}", module(&moduli));
+    match rng.random_range(0..3) {
+        0 => format!(
+            "({}) ⊗_Z ({}) ≅ {}",
+            module(&m),
+            module(&n),
+            module(&moduli)
+        ),
+        1 => format!(
+            "{context}\na = {}, b = {}\n{tensor}\na ⊗ b ↦ {}\nord(a ⊗ b) = {}",
+            tuple(&a),
+            tuple(&b),
+            coordinates(&moduli, &values),
+            element_order(&moduli, &values)
+        ),
+        _ => format!(
+            "{context}\na = {}, b = {}\n{tensor}\n{k}(a ⊗ b) = {} ⊗ {} ↦ {}",
+            tuple(&a),
+            tuple(&b),
+            tuple(&scaled_a),
+            tuple(&b),
+            coordinates(&moduli, &scaled_values)
+        ),
+    }
 }
 
 #[cfg(test)]

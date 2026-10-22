@@ -19,5 +19,6 @@ checks.
 
 These generators use exact bounded arithmetic and the supplied RNG. Runtime
 requires neither a computer-algebra system nor access to online sources.
-Reference notes distinguish original mathematical explanations from imported
-source material; a reference does not imply that prose was downloaded.
+The 77 conceptual records contain canonical equations and concrete examples,
+with their stable IDs and source provenance retained. No explanatory prose or
+paraphrased source text is embedded in these records.

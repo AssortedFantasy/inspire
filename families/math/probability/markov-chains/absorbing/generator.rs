@@ -1,55 +1,158 @@
-use rand::{Rng, rngs::StdRng, seq::SliceRandom};
+use rand::{Rng, rngs::StdRng};
+
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+struct Fraction {
+    n: i64,
+    d: i64,
+}
+
+impl Fraction {
+    fn new(n: i64, d: i64) -> Self {
+        assert_ne!(d, 0);
+        let (mut a, mut b) = (n.abs(), d.abs());
+        while b != 0 {
+            (a, b) = (b, a % b);
+        }
+        let sign = if d < 0 { -1 } else { 1 };
+        Self {
+            n: n / a * sign,
+            d: d / a * sign,
+        }
+    }
+
+    fn sub(self, other: Self) -> Self {
+        Self::new(self.n * other.d - other.n * self.d, self.d * other.d)
+    }
+
+    fn mul(self, other: Self) -> Self {
+        Self::new(self.n * other.n, self.d * other.d)
+    }
+
+    fn div(self, other: Self) -> Self {
+        Self::new(self.n * other.d, self.d * other.n)
+    }
+
+    fn text(self) -> String {
+        if self.d == 1 {
+            self.n.to_string()
+        } else {
+            format!("{}/{}", self.n, self.d)
+        }
+    }
+}
+
+struct Chain {
+    denominator: i64,
+    rows: Vec<Vec<i64>>,
+}
 
 pub fn generate(rng: &mut StdRng) -> String {
-    let (d, a, b) = sample(rng);
-    let (ua, ub, ta, tb, det) = answers(d, a, b);
-    let row = |values: [i64; 4]| values.map(|n| fraction(n, d)).join(", ");
-    format!(
-        "Absorbing Markov chain, states in order [A, B, U, V]; P[i,j] is the probability of the next state j given current state i.\nTransition matrix: [[{}], [{}], [0,0,1,0], [0,0,0,1]].\nU and V are absorbing; A and B are transient. Absorption occurs with probability 1.\nStarting in A: P(final state U)={}; P(final state V)={}; expected steps to absorption={}.\nStarting in B: P(final state U)={}; P(final state V)={}; expected steps to absorption={}.",
-        row(a),
-        row(b),
-        fraction(ua, det),
-        fraction(det - ua, det),
-        fraction(ta, det),
-        fraction(ub, det),
-        fraction(det - ub, det),
-        fraction(tb, det),
-    )
-}
-
-fn sample(rng: &mut StdRng) -> (i64, [i64; 4], [i64; 4]) {
-    let d = rng.random_range(6..=20);
-    let mut composition = || {
-        let mut cuts: Vec<i64> = (1..d).collect();
-        cuts.shuffle(rng);
-        cuts.truncate(3);
-        cuts.sort_unstable();
-        [cuts[0], cuts[1] - cuts[0], cuts[2] - cuts[1], d - cuts[2]]
-    };
-    (d, composition(), composition())
-}
-
-fn answers(d: i64, a: [i64; 4], b: [i64; 4]) -> (i64, i64, i64, i64, i64) {
-    let det = (d - a[0]) * (d - b[1]) - a[1] * b[0];
-    (
-        (d - b[1]) * a[2] + a[1] * b[2],
-        b[0] * a[2] + (d - a[0]) * b[2],
-        d * (d - b[1] + a[1]),
-        d * (b[0] + d - a[0]),
-        det,
-    )
-}
-
-fn fraction(n: i64, d: i64) -> String {
-    let (mut a, mut b) = (n, d);
-    while b != 0 {
-        (a, b) = (b, a % b);
+    let chain = sample(rng);
+    let answers = solve(&chain);
+    let n = chain.rows.len();
+    let names: Vec<_> = (0..n)
+        .map(|i| char::from(b'A' + i as u8).to_string())
+        .chain(["U".into(), "V".into()])
+        .collect();
+    let mut lines = vec![format!("P [{}]", names.join(", "))];
+    for (i, row) in chain.rows.iter().enumerate() {
+        lines.push(format!(
+            "{} [{}]",
+            names[i],
+            row.iter()
+                .map(|&w| Fraction::new(w, chain.denominator).text())
+                .collect::<Vec<_>>()
+                .join(", ")
+        ));
     }
-    if d / a == 1 {
-        (n / a).to_string()
+    for absorbing in 0..2 {
+        lines.push(format!(
+            "{} [{}]",
+            names[n + absorbing],
+            (0..n + 2)
+                .map(|j| if j == n + absorbing { "1" } else { "0" })
+                .collect::<Vec<_>>()
+                .join(", ")
+        ));
+    }
+    if rng.random_bool(0.5) {
+        lines.push("\nAbsorption probabilities [U, V]".into());
+        for (i, answer) in answers.iter().enumerate() {
+            lines.push(format!(
+                "{} [{}, {}]",
+                names[i],
+                answer[0].text(),
+                answer[1].text()
+            ));
+        }
     } else {
-        format!("{}/{}", n / a, d / a)
+        lines.push("\nExpected steps to absorption".into());
+        for (i, answer) in answers.iter().enumerate() {
+            lines.push(format!("{} {}", names[i], answer[2].text()));
+        }
     }
+    lines.join("\n")
+}
+
+fn sample(rng: &mut StdRng) -> Chain {
+    let n = rng.random_range(2..=4);
+    let denominator = rng.random_range(6..=12);
+    let rows = (0..n)
+        .map(|i| {
+            let mut weights = vec![0; n + 2];
+            let exit = rng.random_range(1..=denominator / 2);
+            weights[n + i % 2] = exit;
+            let targets: Vec<_> = (0..n).filter(|_| rng.random_bool(0.5)).collect();
+            let targets = if targets.is_empty() {
+                vec![rng.random_range(0..n)]
+            } else {
+                targets
+            };
+            for _ in exit..denominator {
+                weights[targets[rng.random_range(0..targets.len())]] += 1;
+            }
+            weights
+        })
+        .collect();
+    Chain { denominator, rows }
+}
+
+fn solve(chain: &Chain) -> Vec<Vec<Fraction>> {
+    let n = chain.rows.len();
+    let mut matrix: Vec<Vec<_>> = chain
+        .rows
+        .iter()
+        .enumerate()
+        .map(|(i, row)| {
+            (0..n)
+                .map(|j| Fraction::new(if i == j { chain.denominator } else { 0 } - row[j], 1))
+                .chain([
+                    Fraction::new(row[n], 1),
+                    Fraction::new(row[n + 1], 1),
+                    Fraction::new(chain.denominator, 1),
+                ])
+                .collect()
+        })
+        .collect();
+    for pivot in 0..n {
+        let row = (pivot..n).find(|&i| matrix[i][pivot].n != 0).unwrap();
+        matrix.swap(pivot, row);
+        let divisor = matrix[pivot][pivot];
+        for value in &mut matrix[pivot][pivot..] {
+            *value = value.div(divisor);
+        }
+        let pivot_row = matrix[pivot].clone();
+        for (i, row) in matrix.iter_mut().enumerate() {
+            if i == pivot {
+                continue;
+            }
+            let multiplier = row[pivot];
+            for (value, &source) in row[pivot..].iter_mut().zip(&pivot_row[pivot..]) {
+                *value = value.sub(multiplier.mul(source));
+            }
+        }
+    }
+    matrix.into_iter().map(|row| row[n..].to_vec()).collect()
 }
 
 #[cfg(test)]
@@ -61,35 +164,65 @@ mod tests {
     fn exact_answers_obey_first_step_equations_and_probability_bounds() {
         let mut rng = StdRng::seed_from_u64(296);
         for _ in 0..2_000 {
-            let (d, a, b) = sample(&mut rng);
-            let (ua, ub, ta, tb, det) = answers(d, a, b);
-            assert_eq!(a.iter().sum::<i64>(), d);
-            assert_eq!(b.iter().sum::<i64>(), d);
-            assert!(a.iter().chain(&b).all(|&n| n > 0));
-            assert!(det > 0);
-            assert!(ua > 0 && ua < det && ub > 0 && ub < det);
-            assert!(ta >= det && tb >= det);
-            assert_eq!(d * ua, a[0] * ua + a[1] * ub + a[2] * det);
-            assert_eq!(d * ub, b[0] * ua + b[1] * ub + b[2] * det);
-            assert_eq!(d * ta, d * det + a[0] * ta + a[1] * tb);
-            assert_eq!(d * tb, d * det + b[0] * ta + b[1] * tb);
+            let chain = sample(&mut rng);
+            let n = chain.rows.len();
+            let answers = solve(&chain);
+            for (i, answer) in answers.iter().enumerate() {
+                assert_eq!(chain.rows[i].iter().sum::<i64>(), chain.denominator);
+                assert!(chain.rows[i][n..].iter().sum::<i64>() > 0);
+                assert_eq!(
+                    answer[0].n * answer[1].d + answer[1].n * answer[0].d,
+                    answer[0].d * answer[1].d
+                );
+                assert!(answer[..2].iter().all(|p| 0 <= p.n && p.n <= p.d));
+                assert!(answer[2].n >= answer[2].d);
+                assert!(answer[2].n <= chain.denominator * answer[2].d);
+                for k in 0..3 {
+                    let constant = if k < 2 {
+                        chain.rows[i][n + k]
+                    } else {
+                        chain.denominator
+                    };
+                    let mut residual = answer[k]
+                        .mul(Fraction::new(chain.denominator, 1))
+                        .sub(Fraction::new(constant, 1));
+                    for (j, other) in answers.iter().enumerate() {
+                        residual = residual.sub(other[k].mul(Fraction::new(chain.rows[i][j], 1)));
+                    }
+                    assert_eq!(residual.n, 0);
+                }
+            }
         }
     }
 
     #[test]
-    fn independent_probability_flow_matches_absorption_answer() {
-        let (d, a, b) = (10, [3, 2, 4, 1], [1, 4, 2, 3]);
-        let (ua, _, ta, _, det) = answers(d, a, b);
-        let (mut pa, mut pb, mut absorbed_u, mut steps) = (1.0, 0.0, 0.0, 0.0);
-        for _ in 0..200 {
-            steps += pa + pb;
-            absorbed_u += (pa * a[2] as f64 + pb * b[2] as f64) / d as f64;
-            (pa, pb) = (
-                (pa * a[0] as f64 + pb * b[0] as f64) / d as f64,
-                (pa * a[1] as f64 + pb * b[1] as f64) / d as f64,
-            );
+    fn independent_probability_flow_matches_every_answer() {
+        let mut rng = StdRng::seed_from_u64(319);
+        for _ in 0..100 {
+            let chain = sample(&mut rng);
+            let n = chain.rows.len();
+            let answers = solve(&chain);
+            for (start, answer) in answers.iter().enumerate() {
+                let mut mass = vec![0.0; n];
+                mass[start] = 1.0;
+                let (mut u, mut v, mut steps) = (0.0, 0.0, 0.0);
+                for _ in 0..500 {
+                    steps += mass.iter().sum::<f64>();
+                    let mut next = vec![0.0; n];
+                    for (i, &weight) in mass.iter().enumerate() {
+                        let scale = weight / chain.denominator as f64;
+                        u += scale * chain.rows[i][n] as f64;
+                        v += scale * chain.rows[i][n + 1] as f64;
+                        for (j, value) in next.iter_mut().enumerate() {
+                            *value += scale * chain.rows[i][j] as f64;
+                        }
+                    }
+                    mass = next;
+                }
+                for (actual, expected) in [u, v, steps].iter().zip(answer) {
+                    assert!((actual - expected.n as f64 / expected.d as f64).abs() < 1e-10);
+                }
+            }
         }
-        assert!((absorbed_u - ua as f64 / det as f64).abs() < 1e-12);
-        assert!((steps - ta as f64 / det as f64).abs() < 1e-12);
     }
 }

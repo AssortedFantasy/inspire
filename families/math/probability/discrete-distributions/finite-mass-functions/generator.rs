@@ -5,9 +5,14 @@ pub fn generate(rng: &mut StdRng) -> String {
     let (total, mean_numerator, second_numerator) = moments(&distribution);
     let masses = distribution
         .iter()
-        .map(|(x, w)| format!("P(X={x})={}", fraction(*w, total)))
+        .map(|(_, w)| fraction(*w, total))
         .collect::<Vec<_>>()
-        .join("; ");
+        .join(", ");
+    let support = distribution
+        .iter()
+        .map(|(x, _)| x.to_string())
+        .collect::<Vec<_>>()
+        .join(", ");
     let variance = total * second_numerator - mean_numerator * mean_numerator;
     let positive: i64 = distribution
         .iter()
@@ -21,13 +26,24 @@ pub fn generate(rng: &mut StdRng) -> String {
         .map(|(x, _)| x.to_string())
         .collect::<Vec<_>>()
         .join(", ");
-    format!(
-        "Finite integer-valued random variable X: {masses}; probability zero outside this support.\nE[X]={}; E[X^2]={}; Var(X)={}.\nP(X>0)={}; modes: {modes}. Probabilities come from positive integer masses with total {total}.",
-        fraction(mean_numerator, total),
-        fraction(second_numerator, total),
-        fraction(variance, total * total),
-        fraction(positive, total),
-    )
+    let summary = match rng.random_range(0..3) {
+        0 => format!(
+            "E[X] = {}\nVar(X) = {}",
+            fraction(mean_numerator, total),
+            fraction(variance, total * total)
+        ),
+        1 => format!("P(X > 0) = {}\nModes: {modes}", fraction(positive, total)),
+        _ => {
+            let threshold = distribution[rng.random_range(1..distribution.len() - 1)].0;
+            let weight: i64 = distribution
+                .iter()
+                .filter(|(x, _)| *x <= threshold)
+                .map(|(_, w)| w)
+                .sum();
+            format!("P(X <= {threshold}) = {}", fraction(weight, total))
+        }
+    };
+    format!("x      [{support}]\nP(X=x) [{masses}]\n{summary}")
 }
 
 fn sample(rng: &mut StdRng) -> Vec<(i64, i64)> {

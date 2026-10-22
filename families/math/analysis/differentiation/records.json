@@ -1,52 +1,52 @@
 [
   {
     "id": "smooth-flat-function",
-    "text": "On R, let f(0)=0 and f(x)=exp(-1/x^2) for x!=0. This function is infinitely differentiable, with f^(k)(0)=0 for every integer k>=0. Away from zero each derivative has the form P_k(1/x)exp(-1/x^2), where P_k is a polynomial; the exponential tends to zero faster than every power of 1/|x|. Its Taylor series at zero is identically zero, although f(x)>0 whenever x!=0: smoothness need not imply analyticity.",
+    "text": "f(0)=0, f(x)=exp(-1/x^2) for x!=0\nf in C^infinity(R)\nf^(k)(0)=0 for every integer k>=0\nsum_(k=0)^infinity f^(k)(0)*x^k / k! = 0 < f(x) for x!=0",
     "provenance": "Original mathematical exposition, not an imported record. Direct verification uses P_0(t)=1 and P_{k+1}(t)=2t^3 P_k(t)-t^2 P_k'(t), together with t^m exp(-t^2)->0 as |t|->infinity. Higher-derivative and Taylor-polynomial definitions checked in Jiri Lebl, Basic Analysis, Section 4.3, https://www.jirka.org/ra/html/sec_taylor.html (accessed 2026-10-13); source provides context rather than this exact example. No source prose reproduced."
   },
   {
     "id": "continuous-not-differentiable",
-    "text": "The function f(x)=|x| is continuous on R but is not differentiable at zero. Its difference quotient there is |h|/h, equal to -1 for h<0 and +1 for h>0. The unequal one-sided limits prevent a derivative; continuity alone does not control the slope of nearby secants.",
+    "text": "f(x)=|x| on R\nf continuous on R\nf'_-(0)=-1, f'_+(0)=1\nf'(0) undefined",
     "provenance": "Original mathematical exposition; difference quotients checked directly. Derivative definition checked in Jiri Lebl, Basic Analysis, Definition 4.1.1, https://www.jirka.org/ra/html/sec_der.html (accessed 2026-10-13). No source prose reproduced; not a downloaded dataset."
   },
   {
     "id": "uniform-derivatives",
-    "text": "For positive integers n, let f_n(x)=sin(nx)/n on R. Since sup_{x in R}|f_n(x)|=1/n, the functions converge uniformly to the zero function. Yet f_n'(x)=cos(nx), so f_n'(0)=1 for every n, while the derivative of the limit at zero is 0. At x=pi the derivatives even alternate between -1 and +1. Uniform convergence of functions alone does not justify differentiating their limit.",
+    "text": "f_n(x)=sin(n*x)/n on R\nsup_(x in R)|f_n(x)|=1/n -> 0\nf_n'(x)=cos(n*x)\nf_n'(0)=1 != (lim_(n->infinity) f_n)'(0)=0\nf_n'(pi)=(-1)^n",
     "provenance": "Original exposition of a standard counterexample; supremum bound and derivatives checked directly against Jiri Lebl, Basic Analysis, Example 6.2.8, https://www.jirka.org/ra/html/sec_liminter.html (accessed 2026-10-13). No source prose reproduced; not an imported record."
   },
   {
     "id": "derivative-linear-approximation",
-    "text": "For f:I->R on an open interval I and c in I, a finite derivative f'(c)=L means lim_{h->0}[f(c+h)-f(c)]/h=L. Equivalently, f(c+h)=f(c)+Lh+r(h), where r(h)/|h|->0. Thus the derivative specifies a linear approximation whose error is negligible compared with the displacement. This representation also implies continuity at c.",
+    "text": "I open in R, c in I, f:I->R, L in R\nf'(c)=L <=> f(c+h)=f(c)+L*h+o(|h|) as h->0\nf'(c) exists => lim_(x->c) f(x)=f(c)",
     "provenance": "Original mathematical exposition; equivalence follows directly by subtracting L from the difference quotient. Definition and differentiability-implies-continuity fact checked in Jiri Lebl, Basic Analysis, Section 4.1, https://www.jirka.org/ra/html/sec_der.html (accessed 2026-10-13). No source prose reproduced; not an imported record."
   },
   {
     "id": "discontinuous-derivative",
-    "text": "Let f(0)=0 and f(x)=x^2 sin(1/x) for x!=0 on R. The quotient f(h)/h=h sin(1/h) tends to zero, so f'(0)=0. For x!=0, f'(x)=2x sin(1/x)-cos(1/x). At x_n=1/(2*pi*n), f'(x_n)=-1 for every positive integer n, although x_n->0. Hence a function can be differentiable everywhere while its derivative fails to be continuous.",
+    "text": "f(0)=0, f(x)=x^2*sin(1/x) for x!=0\nf'(0)=0\nf'(x)=2*x*sin(1/x)-cos(1/x) for x!=0\nx_n=1/(2*pi*n) -> 0\nf'(x_n)=-1 != f'(0)",
     "provenance": "Original mathematical exposition and variant example checked directly by differentiation and the displayed sequence. The distinction between differentiability and continuity of the derivative checked in Jiri Lebl, Basic Analysis, Example 4.2.12, https://www.jirka.org/ra/html/sec_mvt.html (accessed 2026-10-13); Lebl uses (x sin(1/x))^2 instead. No source prose reproduced; not an imported record."
   },
   {
     "id": "darboux-derivative-values",
-    "text": "Darboux's theorem: if f:I->R is differentiable on an open interval I, a<b lie in I, and y lies strictly between f'(a) and f'(b), then f'(c)=y for some c in (a,b). Continuity of f' is unnecessary. Consequently, a derivative on an interval cannot have a jump discontinuity, even though oscillatory discontinuities can occur.",
+    "text": "f:I->R differentiable, I an open interval, a<b in I\nmin(f'(a),f'(b))<y<max(f'(a),f'(b))\n=> exists c in (a,b): f'(c)=y",
     "provenance": "Original mathematical exposition; theorem checked in Jiri Lebl, Basic Analysis, Theorem 4.2.11, https://www.jirka.org/ra/html/sec_mvt.html (accessed 2026-10-13). Open-interval formulation avoids endpoint-derivative conventions. No source prose reproduced; not an imported record."
   },
   {
     "id": "stationary-point-not-extremum",
-    "text": "If f:I->R is differentiable at an interior point c of an interval I and has a local maximum or minimum there, then f'(c)=0. The converse fails: f(x)=x^3 on R has f'(0)=0, yet takes both positive and negative values arbitrarily near zero. The interior condition matters too: f(x)=x on [0,1] attains its minimum at the endpoint 0 despite having right derivative 1 there.",
+    "text": "f differentiable at c in the interior of I\nc a local extremum of f => f'(c)=0\n\nf(x)=x^3 on R\nf'(0)=0, f(-h)<f(0)<f(h) for h>0\n\ng(x)=x on [0,1]\nmin g=g(0)=0, g'_+(0)=1",
     "provenance": "Original mathematical exposition with directly checked polynomial examples. Necessary condition checked in Jiri Lebl, Basic Analysis, Lemma 4.2.2, https://www.jirka.org/ra/html/sec_mvt.html (accessed 2026-10-13). No source prose reproduced; not an imported record."
   },
   {
     "id": "mean-value-hypotheses",
-    "text": "For a<b, the mean value theorem requires f:[a,b]->R to be continuous on [a,b] and differentiable on (a,b); it gives c in (a,b) with f'(c)=[f(b)-f(a)]/(b-a). Interior differentiability alone is insufficient: f(0)=1 and f(x)=0 for 0<x<=1 has every interior derivative 0 but secant slope -1. Interior differentiability is also essential: |x| on [-1,1] has secant slope 0 but no existing derivative equal to 0.",
+    "text": "a<b, f:[a,b]->R continuous, f differentiable on (a,b)\nexists c in (a,b): f'(c)=(f(b)-f(a))/(b-a)\n\ng(0)=1, g(x)=0 for 0<x<=1\ng'(x)=0 for 0<x<1, g(1)-g(0)=-1\n\nh(x)=|x| on [-1,1]\n(h(1)-h(-1))/2=0\nh'(x)=-1 for x<0, h'(x)=1 for x>0, h'(0) undefined",
     "provenance": "Original mathematical exposition and directly checked counterexamples. Theorem hypotheses checked in Jiri Lebl, Basic Analysis, Theorem 4.2.4, https://www.jirka.org/ra/html/sec_mvt.html (accessed 2026-10-13). No source prose reproduced; not an imported record."
   },
   {
     "id": "inverse-derivative-nonzero",
-    "text": "Let f:I->J be a continuous strictly monotone bijection between open real intervals, differentiable at x_0 in I with f'(x_0)!=0. Its inverse g is differentiable at y_0=f(x_0), with g'(y_0)=1/f'(x_0). A zero derivative can obstruct this conclusion: f(x)=x^3 is a smooth bijection R->R, but g(y)=the real cube root of y has quotient [g(h)-g(0)]/h=|h|^(-2/3), which diverges at zero.",
+    "text": "f:I->J a continuous strictly monotone bijection, I and J open intervals\nx_0 in I, f'(x_0) exists and f'(x_0)!=0\n(f^(-1))'(f(x_0))=1/f'(x_0)\n\nf(x)=x^3, g(y)=cbrt(y)\n(g(h)-g(0))/h=|h|^(-2/3) -> infinity as h->0",
     "provenance": "Original mathematical exposition; inverse rule checked in Jiri Lebl, Basic Analysis, Lemma 4.4.1, https://www.jirka.org/ra/html/sec_ift.html (accessed 2026-10-13). Cube-root difference quotient checked directly for positive and negative h. No source prose reproduced; not an imported record."
   },
   {
     "id": "uniform-derivative-limit-theorem",
-    "text": "Let a<b and let each f_n be continuously differentiable on [a,b], with one-sided derivatives at the endpoints. If f_n' converges uniformly to g on [a,b] and f_n(c) converges to A at one fixed c in [a,b], then f_n converges uniformly to f(x)=A+integral_c^x g(t) dt and f'=g. The anchoring condition is needed because derivatives lose additive constants: f_n(x)=n has f_n'=0 for every n but no finite function limit.",
+    "text": "a<b, f_n in C^1([a,b]), c in [a,b]\n||f_n'-g||_infinity -> 0, f_n(c)->A\nf(x)=A+integral_c^x g(t) dt\n||f_n-f||_infinity -> 0, f'=g on (a,b)\n\nf_n(x)=n => f_n'=0, f_n(c)->infinity",
     "provenance": "Original mathematical exposition; compact-interval case checked in Jiri Lebl, Basic Analysis, Theorem 6.2.10 and its proof, https://www.jirka.org/ra/html/sec_liminter.html (accessed 2026-10-13). Constant-function counterexample checked directly. No source prose reproduced; not an imported record."
   }
 ]

@@ -11,12 +11,14 @@ RNG, and has substantive invariant tests. No source prose is reproduced.
   determinant identities across 2,000 samples.
 - `diophantine/primitive-pythagorean-triples`: Euclid parameter pairs with
   `2 <= m <= 48`, `0 < n < m`, opposite parity and gcd 1. Uniform over eligible
-  parameter pairs; sorted integer sides, area, perimeter and exact radii.
+  parameter pairs; outputs alternate between the primitive square identity and
+  a triangle with its area and inradius.
   Tests exhaust all allowed pairs for primitiveness and geometric identities.
-- `modular-arithmetic/chinese-remainders`: 2–4 pairwise coprime moduli in 2–40,
-  with canonical residues, least nonnegative solution and explicit inverse
-  reconstruction. Tests cover modular inverses, 2,000 systems and independent
-  enumeration of small complete solution periods.
+- `modular-arithmetic/chinese-remainders`: 2–4 distinct moduli in 2–32,
+  including shared factors. Compatible systems give the exact solution class
+  with least nonnegative representative and LCM period; incompatible systems
+  give a conflicting pair and its gcd. Tests exhaust all two-modulus systems
+  through modulus 12 and check 2,000 larger sampled systems.
 
 Primary reference context, checked during development:
 [NIST DLMF §1.12, continued fractions](https://dlmf.nist.gov/1.12),

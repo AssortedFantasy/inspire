@@ -1,32 +1,32 @@
 [
   {
     "id": "compact",
-    "text": "A space is compact if every open cover admits a finite subcover.",
+    "text": "[0,1]: compact\n(0,1): noncompact\nUₙ=(1/n,1), n≥2\n(0,1)=⋃_{n≥2}Uₙ\n⋃_{n=2}^N Uₙ=(1/N,1)≠(0,1)",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
   },
   {
     "id": "dense",
-    "text": "A subset A is dense in X when its closure equals X; every nonempty open subset of X meets A.",
+    "text": "cl_R(Q)=R\nint_R(Q)=∅\nQ∩(a,b)≠∅ (a<b)",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
   },
   {
     "id": "connected",
-    "text": "A topological space is connected if it cannot be split into two disjoint nonempty open subsets whose union is the space.",
+    "text": "[−1,1]: connected\nX=[−2,−1]∪[1,2]: disconnected\nX∩(−∞,0)=[−2,−1]\nX∩(0,∞)=[1,2]",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
   },
   {
     "id": "cantor-set",
-    "text": "The Cantor set is the intersection of the closed sets left after successive removal of each interval's open middle third, starting with [0,1]. It is compact.",
+    "text": "Cantor set\nC={Σ_{n=1}^∞ 2aₙ/3ⁿ : aₙ∈{0,1}}\nC: compact",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
   },
   {
     "id": "connected-not-compact",
-    "text": "Connected does not imply compact: R is connected, but the open cover {(-n,n): n=1,2,...} has no finite subcover.",
+    "text": "R: connected, noncompact\nR=⋃_{n≥1}(−n,n)\n⋃_{n=1}^N(−n,n)=(−N,N)≠R",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, completeness and compactness, https://www.jirka.org/ra/html/sec_metcompact.html. No source prose reproduced."
   },
   {
     "id": "open-intersection",
-    "text": "An infinite intersection of open sets need not be open: intersect (-1/n,1/n) over positive integers n to get {0} in R.",
+    "text": "⋂_{n≥1}(−1/n,1/n)={0}\n(−1/n,1/n)∈τ_R (n≥1)\n{0}∉τ_R",
     "provenance": "Original formulation and examples of standard mathematics; independently checked from the displayed definition or calculation. Reference context: Jiri Lebl, Basic Analysis, metric spaces, https://www.jirka.org/ra/html/sec_metric.html. No source prose reproduced."
   }
 ]

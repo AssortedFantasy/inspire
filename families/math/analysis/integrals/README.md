@@ -1,20 +1,20 @@
 # Integrals
 
-Eight leaves beneath two equally weighted branches contain 24 original bounded
-templates. Leaves have equal weights among their own siblings, and templates
-within each leaf are sampled uniformly. Every output gives an integrand, its
-evaluated result, and the real domain or convergence conditions.
+Eight leaves beneath two equally weighted branches contain 38 bounded forms.
+Leaves have equal weights among their own siblings, and forms within each leaf
+are sampled uniformly. Outputs are evaluated integral identities, followed by
+nontrivial domain restrictions where needed.
 
 | Branch | Leaf | Templates |
 | --- | --- | --- |
 | Indefinite | `polynomials` | Affine powers; sparse polynomial sums |
 | Indefinite | `logarithms` | Reciprocal; logarithm by parts; logarithmic powers |
-| Indefinite | `exponentials` | Affine exponential; linear and quadratic moments |
-| Indefinite | `trigonometric` | Sine; cosine; sine squared; cosine squared; secant squared |
+| Indefinite | `exponentials` | Affine exponential; linear and quadratic moments; quadratic phase; oscillating exponentials |
+| Indefinite | `trigonometric` | Sine; cosine; their squares and cubes; secant squared; tangent; sine times cosine |
 | Indefinite | `inverse-trigonometric` | Reciprocal quadratic; reciprocal root; arctangent by parts |
-| Definite | `polynomials` | Monomial; three-term polynomial |
-| Definite | `beta-integrals` | Unit interval; affine endpoints; trigonometric |
-| Definite | `gamma-integrals` | Ordinary; translated; generalized moments |
+| Definite | `polynomials` | Monomial; sparse polynomial; factored powers |
+| Definite | `beta-integrals` | Unit interval; affine endpoints; odd and even trigonometric powers; rational improper; square-root endpoints |
+| Definite | `gamma-integrals` | Ordinary; translated; generalized moments; Gaussian; Laplace; logarithmic moments |
 
 The [indefinite notes](indefinite/README.md) give coefficient, affine, power and
 radius bounds. Logarithms use ln|u| on either sign domain; secant poles are
@@ -22,11 +22,11 @@ excluded, and inverse sine uses its principal real branch strictly inside its
 radius. Constants can differ between disconnected domain components.
 
 The [definite notes](definite/README.md) give polynomial endpoint bounds, beta
-parameter ranges and positive gamma decay rates. Values are reduced rationals.
-Beta substitutions include their Jacobians; gamma cases explain convergence of
-the infinite tail. All arithmetic stays within small integer bounds.
+parameter ranges and positive gamma decay rates. Values are exact reduced
+rationals or rational multiples of pi and square roots. All arithmetic stays
+within small integer bounds.
 
-Thirty local tests check numerical derivatives, exact polynomial integration,
+Thirty-three local tests check numerical derivatives, exact polynomial integration,
 quadrature, symmetry cancellation, substitution factors, endpoint behavior,
 gamma-tail bounds, rendered fractions and parameter coverage. Beta and gamma
 invariants cover every parameter combination. Reviewers also inspected actual

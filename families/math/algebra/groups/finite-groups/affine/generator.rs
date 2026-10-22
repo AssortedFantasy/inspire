@@ -36,37 +36,70 @@ fn fixed_point(p: usize, (a, b): Element) -> usize {
 
 pub fn generate(rng: &mut StdRng) -> String {
     let p = PRIMES[rng.random_range(0..PRIMES.len())];
-    let x = (rng.random_range(1..p), rng.random_range(0..p));
+    let mut x = (rng.random_range(1..p), rng.random_range(0..p));
     let y = (rng.random_range(1..p), rng.random_range(0..p));
-    let xy = product(p, x, y);
-    let inv = inverse(p, x);
-    let fixed = if x == (1, 0) {
-        format!("Every one of the {p} field elements is fixed by x.")
-    } else if x.0 == 1 {
-        "The nonzero translation x has no fixed points.".to_string()
-    } else {
-        format!(
-            "The unique fixed point of x is t={}; shifting this point to zero conjugates x to multiplication by {}.",
-            fixed_point(p, x),
-            x.0
-        )
+    let map = |(a, b): Element| match (a, b) {
+        (1, 0) => "t".to_owned(),
+        (1, _) => format!("t+{b}"),
+        (_, 0) => format!("{a}t"),
+        _ => format!("{a}t+{b}"),
     };
-    format!(
-        "The affine group AGL(1,{p}) consists of maps t↦at+b on F_{p}, represented by pairs (a,b) with a≠0. All arithmetic is modulo {p}. Its order is {}, its identity is (1,0), and multiplication means composition with the right-hand map applied first: (a,b)(c,d)=(ac,ad+b).\n\
-         For x=({},{}) and y=({},{}), xy=({},{}), x⁻¹=({},{}), and the order of x is {}. {fixed}\n\
-         Translations (1,b) form a normal cyclic subgroup of order {p}; dilations (a,0) form a cyclic subgroup of order {}. Thus AGL(1,{p})≅(F_{p},+)⋊F_{p}^×, with dilations acting by multiplication. The group is nonabelian: (2,0)(1,1)=(2,2), whereas (1,1)(2,0)=(2,1).",
-        p * (p - 1),
-        x.0,
-        x.1,
-        y.0,
-        y.1,
-        xy.0,
-        xy.1,
-        inv.0,
-        inv.1,
-        order(p, x),
-        p - 1
-    )
+    let heading = format!("AGL(1,{p}) over F_{p}");
+    match rng.random_range(0..4) {
+        0 => format!(
+            "{heading}\nf(t) = {}\ng(t) = {}\n(f∘g)(t) = {}\n(g∘f)(t) = {}\nf⁻¹(t) = {}",
+            map(x),
+            map(y),
+            map(product(p, x, y)),
+            map(product(p, y, x)),
+            map(inverse(p, x))
+        ),
+        1 => {
+            if x == (1, 0) {
+                x.1 = 1;
+            }
+            let start = if x.0 == 1 {
+                rng.random_range(0..p)
+            } else {
+                (fixed_point(p, x) + rng.random_range(1..p)) % p
+            };
+            let mut orbit = vec![start.to_string()];
+            let mut t = start;
+            for _ in 0..order(p, x) {
+                t = (x.0 * t + x.1) % p;
+                orbit.push(t.to_string());
+            }
+            format!(
+                "{heading}\nf(t) = {}\n{}\nord(f) = {}",
+                map(x),
+                orbit.join(" → "),
+                order(p, x)
+            )
+        }
+        2 => {
+            x.0 = rng.random_range(2..p);
+            x.1 = rng.random_range(1..p);
+            let c = fixed_point(p, x);
+            format!(
+                "{heading}\nf(t) = {}\nf({c}) = {c}\nT(t) = t+{c}\n(T⁻¹∘f∘T)(t) = {}t",
+                map(x),
+                x.0
+            )
+        }
+        _ => {
+            let comm = product(
+                p,
+                product(p, product(p, x, y), inverse(p, x)),
+                inverse(p, y),
+            );
+            format!(
+                "{heading}\nf(t) = {}\ng(t) = {}\n(f∘g∘f⁻¹∘g⁻¹)(t) = {}",
+                map(x),
+                map(y),
+                map(comm)
+            )
+        }
+    }
 }
 
 #[cfg(test)]
@@ -132,6 +165,15 @@ mod tests {
                     for t in 0..p {
                         assert_eq!(apply(p, product(p, x, y), t), apply(p, x, apply(p, y, t)));
                     }
+                    let comm = product(
+                        p,
+                        product(p, product(p, x, y), inverse(p, x)),
+                        inverse(p, y),
+                    );
+                    assert_eq!(
+                        comm,
+                        (1, (x.1 + x.0 * y.1 + 2 * p * p - y.0 * x.1 - y.1) % p)
+                    );
                 }
             }
             assert_eq!(product(p, (2, 0), (1, 1)), (2, 2));
@@ -150,7 +192,7 @@ mod tests {
             assert_eq!(text, generate(&mut second));
             assert!(!text.ends_with('\n'));
             for p in PRIMES {
-                if text.starts_with(&format!("The affine group AGL(1,{p})")) {
+                if text.starts_with(&format!("AGL(1,{p}) over F_{p}")) {
                     fields.insert(p);
                 }
             }

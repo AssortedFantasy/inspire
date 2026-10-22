@@ -4,45 +4,51 @@ pub fn generate(rng: &mut StdRng) -> String {
     let relation = sample(rng);
     let n = relation.len();
     let opens = open_sets(&relation);
-    let covers: Vec<_> = (0..n)
-        .flat_map(|i| (0..n).map(move |j| (i, j)))
-        .filter(|&(i, j)| {
-            i != j
-                && relation[i][j]
-                && !(0..n).any(|k| k != i && k != j && relation[i][k] && relation[k][j])
-        })
-        .map(|(i, j)| format!("{i}<{j}"))
-        .collect();
-    let cover_text = if covers.is_empty() {
-        "none".into()
+    let universe = (1 << n) - 1;
+    let mut output = format!("X={}\n", set(universe, n));
+    if rng.random_bool(0.5) {
+        let open_text = opens
+            .iter()
+            .map(|&mask| set(mask, n))
+            .collect::<Vec<_>>()
+            .join(", ");
+        output.push_str(&format!("τ={{{open_text}}}"));
     } else {
-        covers.join(", ")
+        let neighborhoods = relation
+            .iter()
+            .enumerate()
+            .map(|(i, row)| {
+                let mask = row
+                    .iter()
+                    .enumerate()
+                    .fold(0, |mask, (j, &included)| mask | (u32::from(included) << j));
+                format!("U_min({i})={}", set(mask, n))
+            })
+            .collect::<Vec<_>>()
+            .join("\n");
+        output.push_str(&neighborhoods);
+    }
+    if rng.random_bool(0.5) {
+        let subset = rng.random_range(1..universe);
+        let (interior, closure) = interior_and_closure(subset, universe, &opens);
+        output.push_str(&format!(
+            "\nA={}\nint(A)={}\ncl(A)={}",
+            set(subset, n),
+            set(interior, n),
+            set(closure, n)
+        ));
+    }
+    output
+}
+
+fn interior_and_closure(subset: u32, universe: u32, opens: &[u32]) -> (u32, u32) {
+    let interior = |mask: u32| {
+        opens
+            .iter()
+            .filter(|&&open| open & !mask == 0)
+            .fold(0, |union, &open| union | open)
     };
-    let open_text = opens
-        .iter()
-        .map(|&mask| set(mask, n))
-        .collect::<Vec<_>>()
-        .join(", ");
-    let neighborhoods = relation
-        .iter()
-        .enumerate()
-        .map(|(i, row)| {
-            let mask = row
-                .iter()
-                .enumerate()
-                .fold(0, |mask, (j, &included)| mask | (u32::from(included) << j));
-            format!("U({i})={}", set(mask, n))
-        })
-        .collect::<Vec<_>>()
-        .join("; ");
-    let discrete = covers.is_empty();
-    format!(
-        "Finite topology on X={{0,...,{}}} induced by a partial order. Strict covering relations: {cover_text}; the order adds reflexivity and transitive consequences.\nOpen sets are upper sets: x in O and x<=y imply y in O. Complete list: {open_text}.\nMinimal open neighborhoods: {neighborhoods}.\nThe space is T0 and compact. T1: {}; Hausdorff: {}; discrete: {}. In a finite space these latter three properties are equivalent.",
-        n - 1,
-        if discrete { "yes" } else { "no" },
-        if discrete { "yes" } else { "no" },
-        if discrete { "yes" } else { "no" },
-    )
+    (interior(subset), universe ^ interior(universe ^ subset))
 }
 
 fn sample(rng: &mut StdRng) -> Vec<Vec<bool>> {
@@ -80,6 +86,9 @@ fn open_sets(relation: &[Vec<bool>]) -> Vec<u32> {
 }
 
 fn set(mask: u32, n: usize) -> String {
+    if mask == 0 {
+        return "∅".into();
+    }
     format!(
         "{{{}}}",
         (0..n)
@@ -94,6 +103,44 @@ fn set(mask: u32, n: usize) -> String {
 mod tests {
     use super::*;
     use rand::SeedableRng;
+
+    #[test]
+    fn interiors_and_closures_agree_with_neighborhoods_and_closed_sets() {
+        let mut rng = StdRng::seed_from_u64(2_519);
+        for _ in 0..300 {
+            let relation = sample(&mut rng);
+            let n = relation.len();
+            let universe = (1 << n) - 1;
+            let opens = open_sets(&relation);
+            for subset in 0..=universe {
+                let (interior, closure) = interior_and_closure(subset, universe, &opens);
+                let closed_intersection = opens
+                    .iter()
+                    .map(|&open| universe ^ open)
+                    .filter(|&closed| subset & !closed == 0)
+                    .fold(universe, |a, b| a & b);
+                assert_eq!(closure, closed_intersection);
+                assert_eq!(interior & !subset, 0);
+                assert_eq!(subset & !closure, 0);
+                assert_eq!(interior_and_closure(interior, universe, &opens).0, interior);
+                assert_eq!(interior_and_closure(closure, universe, &opens).1, closure);
+                for (i, row) in relation.iter().enumerate() {
+                    assert_eq!(
+                        interior & (1 << i) != 0,
+                        row.iter()
+                            .enumerate()
+                            .all(|(j, &ordered)| !ordered || subset & (1 << j) != 0)
+                    );
+                    assert_eq!(
+                        closure & (1 << i) != 0,
+                        row.iter()
+                            .enumerate()
+                            .any(|(j, &ordered)| ordered && subset & (1 << j) != 0)
+                    );
+                }
+            }
+        }
+    }
 
     #[test]
     fn topology_axioms_and_order_recovery_hold_for_all_printed_subsets() {

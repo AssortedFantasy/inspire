@@ -53,6 +53,19 @@ fn tuple(a: &[usize]) -> String {
     )
 }
 
+fn product_name(moduli: &[usize]) -> String {
+    let factors: Vec<_> = moduli
+        .iter()
+        .filter(|&&n| n > 1)
+        .map(|n| format!("C_{n}"))
+        .collect();
+    if factors.is_empty() {
+        "C_1".into()
+    } else {
+        factors.join(" × ")
+    }
+}
+
 pub fn generate(rng: &mut StdRng) -> String {
     let rank = rng.random_range(2..=4);
     let moduli: Vec<usize> = (0..rank).map(|_| rng.random_range(2..=16)).collect();
@@ -62,43 +75,51 @@ pub fn generate(rng: &mut StdRng) -> String {
         .iter()
         .map(|n| format!("C_{n}"))
         .collect::<Vec<_>>()
-        .join(" x ");
-    let coordinate_orders: Vec<_> = moduli
-        .iter()
-        .zip(&a)
-        .map(|(&n, &x)| n / gcd(n, x))
-        .collect();
-    let cyclicity = if cyclic(&moduli) {
-        format!(
-            "This group is cyclic: the factor orders are pairwise coprime, and {} generates it.",
-            tuple(&vec![1; rank])
-        )
-    } else {
-        "This group is not cyclic: at least two factor orders have a common divisor greater than 1."
-            .to_owned()
-    };
-    format!(
-        "G = {name}, a direct product of cyclic additive groups. A coordinate in C_n is a residue 0..n-1.\n\
-         Law: (x_1,...,x_{rank}) + (y_1,...,y_{rank}) = ((x_1+y_1) mod n_1,...,(x_{rank}+y_{rank}) mod n_{rank}), with factor orders {}.\n\
-         Identity: {}. G is abelian and has {} elements.\n\
-         Example: {} + {} = {}; the additive inverse of {} is {}.\n\
-         The coordinate orders of {} are {}; its element order is their least common multiple, {}.\n\
-         The exponent of G is {} (the least common multiple of the factor orders); {} has this order.\n\
-         {cyclicity}",
-        tuple(&moduli),
-        tuple(&vec![0; rank]),
-        moduli.iter().product::<usize>(),
-        tuple(&a),
-        tuple(&b),
-        tuple(&add(&moduli, &a, &b)),
-        tuple(&a),
-        tuple(&inverse(&moduli, &a)),
-        tuple(&a),
-        tuple(&coordinate_orders),
-        order(&moduli, &a),
-        exponent(&moduli),
-        tuple(&vec![1; rank]),
-    )
+        .join(" × ");
+    match rng.random_range(0..4) {
+        0 => format!(
+            "G = {name}\n{} + {} = {}\n−{} = {}\nord({}) = {}",
+            tuple(&a),
+            tuple(&b),
+            tuple(&add(&moduli, &a, &b)),
+            tuple(&a),
+            tuple(&inverse(&moduli, &a)),
+            tuple(&a),
+            order(&moduli, &a)
+        ),
+        1 => {
+            let k = rng.random_range(2..=16);
+            let torsion: Vec<_> = moduli.iter().map(|&n| gcd(n, k)).collect();
+            format!(
+                "G = {name}\nG[{k}] = {{x ∈ G | {k}x = 0}}\nG[{k}] ≅ {}\n|G[{k}]| = {}",
+                product_name(&torsion),
+                torsion.iter().product::<usize>()
+            )
+        }
+        2 => {
+            let i = rng.random_range(0..rank);
+            let n = moduli[i];
+            let divisors: Vec<_> = (2..=n).filter(|d| n.is_multiple_of(*d)).collect();
+            let d = divisors[rng.random_range(0..divisors.len())];
+            let mut kernel = moduli.clone();
+            kernel[i] /= d;
+            format!(
+                "G = {name}\nπ: G → C_{d}\nπ(x_1, …, x_{rank}) = x_{} mod {d}\nker π ≅ {}\nG/ker π ≅ C_{d}",
+                i + 1,
+                product_name(&kernel)
+            )
+        }
+        _ => {
+            let cardinality = moduli.iter().product::<usize>();
+            let relation = if cyclic(&moduli) { "≅" } else { "≄" };
+            format!(
+                "G = {name}\n|G| = {cardinality}\nmax {{ord(x) | x ∈ G}} = {}\nord({}) = {}\nG {relation} C_{cardinality}",
+                exponent(&moduli),
+                tuple(&vec![1; rank]),
+                exponent(&moduli)
+            )
+        }
+    }
 }
 
 #[cfg(test)]
@@ -176,6 +197,24 @@ mod tests {
                 assert_eq!(exponent(&moduli), observed_exponent);
                 assert_eq!(order(&moduli, &vec![1; rank]), observed_exponent);
                 assert_eq!(cyclic(&moduli), has_generator);
+                for k in 2..=16 {
+                    let actual = values
+                        .iter()
+                        .filter(|a| a.iter().zip(&moduli).all(|(&x, &n)| k * x % n == 0))
+                        .count();
+                    let expected: usize = moduli.iter().map(|&n| gcd(n, k)).product();
+                    assert_eq!(actual, expected);
+                }
+                for i in 0..rank {
+                    for d in (2..=moduli[i]).filter(|d| moduli[i] % d == 0) {
+                        assert_eq!(
+                            values.iter().filter(|a| a[i] % d == 0).count(),
+                            values.len() / d
+                        );
+                        let image: HashSet<_> = values.iter().map(|a| a[i] % d).collect();
+                        assert_eq!(image.len(), d);
+                    }
+                }
             }
         }
     }

@@ -1,8 +1,8 @@
 # Real analysis
 
 Four concept corpora contain ten records each, distinguishing continuity,
-convergence, differentiation and series. Each record states a definition,
-theorem with hypotheses, or a concrete example or counterexample. The original
+convergence, differentiation and series. Records use canonical equations,
+theorem hypotheses, and concrete examples or counterexamples. The original
 fourteen concept IDs are retained within the forty records.
 Domains, endpoint behavior and quantifiers are part of the mathematical content.
 
@@ -19,21 +19,23 @@ Domains, endpoint behavior and quantifiers are part of the mathematical content.
   ratio-test limitations, p-series, endpoint behavior, rearrangements and Cauchy
   products with their convergence hypotheses.
 
-`integrals` has eight generator leaves containing twenty-four bounded templates:
-sixteen real antiderivatives and eight definite forms spanning polynomials,
-beta integrals and gamma integrals. Results are evaluated, with real domains and
-constants stated explicitly; outputs do not ask the reader to solve a problem.
-Thirty local tests check derivatives, exact polynomial arithmetic, quadrature,
+`integrals` has eight generator leaves containing thirty-eight bounded forms:
+twenty-three real antiderivatives and fifteen definite forms spanning polynomials,
+beta integrals and gamma integrals. Outputs are evaluated integral identities,
+with nontrivial domain restrictions printed only where needed. They include
+oscillating exponentials, cubic trigonometric powers, improper beta integrals,
+Gaussian moments and endpoint singularities.
+Thirty-three local tests check derivatives, exact polynomial arithmetic, quadrature,
 substitution factors, endpoint behavior and convergent gamma tails. See its
 README for parameter bounds and tests.
 Each generator contains only its integrand class and leaf-local helpers and
 invariant tests, so an entire leaf can be moved without breaking source paths.
 
-The corpus prose and generators are original mathematical explanations and
-constructions. Primary references used for checking are linked in record
-provenance and integral documentation. These are source-grounded formulations,
-not a downloaded textbook dataset. No source prose is reproduced. Local weights
-balance topics, rather than corpus record counts.
+The concept records retain mathematical facts and notation, without the former
+explanatory paragraphs and proof afterthoughts. Their IDs and provenance preserve
+the original review history and source references. Generators are bounded
+mathematical constructions. No source prose is reproduced. Local weights balance
+topics, rather than corpus record counts.
 
 Primary reference context: Jiri Lebl's [Basic Analysis](https://www.jirka.org/ra/html/)
 for real-function examples and theorem hypotheses; OpenStax's

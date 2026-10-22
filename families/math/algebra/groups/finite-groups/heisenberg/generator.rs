@@ -26,6 +26,14 @@ fn order(p: usize, x: Element) -> usize {
     }
 }
 
+fn matrix((a, b, c): Element) -> String {
+    format!("[[1,{a},{c}],[0,1,{b}],[0,0,1]]")
+}
+
+fn tuple((a, b, c): Element) -> String {
+    format!("({a},{b},{c})")
+}
+
 pub fn generate(rng: &mut StdRng) -> String {
     let p = PRIMES[rng.random_range(0..PRIMES.len())];
     let mut element = || {
@@ -37,32 +45,61 @@ pub fn generate(rng: &mut StdRng) -> String {
     };
     let x = element();
     let y = element();
-    let xy = product(p, x, y);
-    let inv = inverse(p, x);
-    let comm = commutator(p, x, y);
-    let exponent = if p == 2 { 4 } else { p };
-    format!(
-        "The finite Heisenberg group H(F_{p}) consists of matrices [[1,a,c],[0,1,b],[0,0,1]], written as triples (a,b,c) over F_{p}. All arithmetic is modulo {p}. Its order is {}, its identity is (0,0,0), and its multiplication is (a,b,c)(u,v,w)=(a+u,b+v,c+w+av).\n\
-         For x=({},{},{}) and y=({},{},{}), xy=({},{},{}), x⁻¹=({},{},{}), and x has order {}. With the convention [x,y]=xyx⁻¹y⁻¹, [x,y]=({},{},{}); in general this commutator is (0,0,av-ub).\n\
-         The center and commutator subgroup both equal {{(0,0,c): c∈F_{p}}}, a cyclic group of order {p}. The quotient by the center is C_{p}×C_{p}, via (a,b,c)↦(a,b). The group has nilpotency class 2 and exponent {exponent}. It is nonabelian: (1,0,0)(0,1,0)=(1,1,1), whereas (0,1,0)(1,0,0)=(1,1,0).",
-        p.pow(3),
-        x.0,
-        x.1,
-        x.2,
-        y.0,
-        y.1,
-        y.2,
-        xy.0,
-        xy.1,
-        xy.2,
-        inv.0,
-        inv.1,
-        inv.2,
-        order(p, x),
-        comm.0,
-        comm.1,
-        comm.2
-    )
+    let heading = format!("UT₃(F_{p})");
+    match rng.random_range(0..4) {
+        0 => {
+            let xy = product(p, x, y);
+            let yx = product(p, y, x);
+            let products = if xy == yx {
+                format!("XY = YX = {}", matrix(xy))
+            } else {
+                format!("XY = {}\nYX = {}", matrix(xy), matrix(yx))
+            };
+            format!(
+                "{heading}\nX = {}\nY = {}\n{products}",
+                matrix(x),
+                matrix(y)
+            )
+        }
+        1 => format!(
+            "{heading}\nX = {}\nY = {}\nXYX⁻¹Y⁻¹ = {}",
+            matrix(x),
+            matrix(y),
+            matrix(commutator(p, x, y))
+        ),
+        2 => {
+            let class = if x.0 == 0 && x.1 == 0 {
+                vec![x]
+            } else {
+                (0..p).map(|c| (x.0, x.1, c)).collect()
+            };
+            format!(
+                "{heading}\n(a,b,c) ↔ [[1,a,c],[0,1,b],[0,0,1]]\nCl({}) = {{{}}}\n|C({})| = {}",
+                tuple(x),
+                class
+                    .iter()
+                    .copied()
+                    .map(tuple)
+                    .collect::<Vec<_>>()
+                    .join(", "),
+                tuple(x),
+                p.pow(3) / class.len()
+            )
+        }
+        _ => {
+            let mut powers = vec!["X = ".to_owned() + &matrix(x)];
+            let mut power = x;
+            for k in 2..=order(p, x) {
+                power = product(p, power, x);
+                powers.push(format!("X^{k} = {}", matrix(power)));
+            }
+            format!(
+                "{heading}\n{}\nX⁻¹ = {}",
+                powers.join("\n"),
+                matrix(inverse(p, x))
+            )
+        }
+    }
 }
 
 #[cfg(test)]
@@ -148,6 +185,30 @@ mod tests {
     }
 
     #[test]
+    fn conjugacy_classes_and_centralizer_sizes() {
+        for p in [2, 3, 5] {
+            let es = elements(p);
+            for &x in &es {
+                let actual: HashSet<_> = es
+                    .iter()
+                    .map(|&g| product(p, product(p, g, x), inverse(p, g)))
+                    .collect();
+                let expected: HashSet<_> = if x.0 == 0 && x.1 == 0 {
+                    [x].into_iter().collect()
+                } else {
+                    (0..p).map(|c| (x.0, x.1, c)).collect()
+                };
+                assert_eq!(actual, expected);
+                let centralizer = es
+                    .iter()
+                    .filter(|&&g| product(p, x, g) == product(p, g, x))
+                    .count();
+                assert_eq!(actual.len() * centralizer, es.len());
+            }
+        }
+    }
+
+    #[test]
     fn seeded_samples_cover_all_prime_fields() {
         let mut first = StdRng::seed_from_u64(20261013);
         let mut second = StdRng::seed_from_u64(20261013);
@@ -158,7 +219,7 @@ mod tests {
             assert_eq!(text, generate(&mut second));
             assert!(!text.ends_with('\n'));
             for p in PRIMES {
-                if text.starts_with(&format!("The finite Heisenberg group H(F_{p})")) {
+                if text.starts_with(&format!("UT₃(F_{p})")) {
                     fields.insert(p);
                 }
             }

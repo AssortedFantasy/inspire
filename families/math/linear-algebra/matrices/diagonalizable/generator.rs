@@ -4,28 +4,22 @@ type Matrix = [[i64; 2]; 2];
 
 pub fn generate(rng: &mut StdRng) -> String {
     let (a, basis, inverse, eigenvalues) = sample(rng);
-    describe(a, basis, inverse, eigenvalues)
-}
-
-fn describe(a: Matrix, basis: Matrix, inverse: Matrix, eigenvalues: [i64; 2]) -> String {
     let [l, m] = eigenvalues;
-    let square = multiply(a, a);
-    let factor = |n: i64| match n.cmp(&0) {
-        std::cmp::Ordering::Greater => format!("(t - {n})"),
-        std::cmp::Ordering::Less => format!("(t + {})", -n),
-        std::cmp::Ordering::Equal => "t".into(),
-    };
-    format!(
-        "Integer matrix A={a:?}, diagonalizable over Q.\nEigenvalues: {l} and {m}; corresponding eigenvectors: [{},{}] and [{},{}].\nEigenbasis matrix S={basis:?}, with det(S)=1 and S^(-1)={inverse:?}; A=S*diag({l},{m})*S^(-1).\nCharacteristic polynomial: {}*{}; trace {}; determinant {}. A^2={square:?}. For every integer k>=1, A^k=S*diag(({l})^k,({m})^k)*S^(-1), and A^0=I.",
-        basis[0][0],
-        basis[1][0],
-        basis[0][1],
-        basis[1][1],
-        factor(l),
-        factor(m),
-        l + m,
-        l * m,
-    )
+    match rng.random_range(0..3) {
+        0 => format!(
+            "A={a:?}\nA {:?} = {l} {:?}\nA {:?} = {m} {:?}",
+            [basis[0][0], basis[1][0]],
+            [basis[0][0], basis[1][0]],
+            [basis[0][1], basis[1][1]],
+            [basis[0][1], basis[1][1]],
+        ),
+        1 => {
+            let k = rng.random_range(2..=6);
+            let power = multiply(multiply(basis, [[l.pow(k), 0], [0, m.pow(k)]]), inverse);
+            format!("A={a:?}\nA^{k}={power:?}")
+        }
+        _ => format!("A={a:?}\nS={basis:?}\nS^(-1) A S = diag({l}, {m})"),
+    }
 }
 
 fn multiply(a: Matrix, b: Matrix) -> Matrix {
@@ -84,21 +78,6 @@ mod tests {
             }
         }
         assert_eq!(cases, 10_290);
-    }
-
-    #[test]
-    fn emitted_negative_and_zero_powers_have_unambiguous_domain() {
-        let (a, s, inverse, eigenvalues) = construct(3, -3, -6, 0);
-        let text = describe(a, s, inverse, eigenvalues);
-        assert!(
-            text.starts_with("Integer matrix A=[[48, 18], [-144, -54]], diagonalizable over Q.")
-        );
-        assert!(text.contains("Characteristic polynomial: (t + 6)*t; trace -6; determinant 0."));
-        assert!(
-            text.contains("For every integer k>=1, A^k=S*diag((-6)^k,(0)^k)*S^(-1), and A^0=I.")
-        );
-        assert!(!text.ends_with('\n'));
-        assert!(!text.contains('\0'));
     }
 
     #[test]

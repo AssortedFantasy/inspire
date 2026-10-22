@@ -7,6 +7,10 @@ enum Kind {
     SineSquared,
     CosineSquared,
     SecantSquared,
+    Tangent,
+    SineCosine,
+    SineCubed,
+    CosineCubed,
 }
 
 const KINDS: &[Kind] = &[
@@ -15,6 +19,10 @@ const KINDS: &[Kind] = &[
     Kind::SineSquared,
     Kind::CosineSquared,
     Kind::SecantSquared,
+    Kind::Tangent,
+    Kind::SineCosine,
+    Kind::SineCubed,
+    Kind::CosineCubed,
 ];
 
 pub fn generate(rng: &mut StdRng) -> String {
@@ -42,6 +50,16 @@ fn fraction(numerator: i32, denominator: i32) -> String {
     }
 }
 
+fn product(numerator: i32, denominator: i32, factor: &str) -> String {
+    if numerator == denominator {
+        factor.into()
+    } else if numerator == -denominator {
+        format!("-{factor}")
+    } else {
+        format!("{}*{factor}", fraction(numerator, denominator))
+    }
+}
+
 impl Problem {
     fn sample(rng: &mut StdRng) -> Self {
         Self {
@@ -54,22 +72,22 @@ impl Problem {
 
     fn render(&self) -> String {
         let Self { kind, a, b, c } = *self;
+        let term = product(a, 1, "x");
         let u = match b.cmp(&0) {
-            std::cmp::Ordering::Greater => format!("({a}*x + {b})"),
-            std::cmp::Ordering::Less => format!("({a}*x - {})", -b),
-            std::cmp::Ordering::Equal => format!("({a}*x)"),
+            std::cmp::Ordering::Greater => format!("({term} + {b})"),
+            std::cmp::Ordering::Less => format!("({term} - {})", -b),
+            std::cmp::Ordering::Equal => format!("({term})"),
         };
-        let scale = fraction(c, a);
         let (integrand, answer, domain): (String, String, String) = match kind {
             Kind::Sine => (
-                format!("{c}*sin{u}"),
-                format!("{}*cos{u}", fraction(-c, a)),
-                "all real x".into(),
+                product(c, 1, &format!("sin{u}")),
+                product(-c, a, &format!("cos{u}")),
+                String::new(),
             ),
             Kind::Cosine => (
-                format!("{c}*cos{u}"),
-                format!("{scale}*sin{u}"),
-                "all real x".into(),
+                product(c, 1, &format!("cos{u}")),
+                product(c, a, &format!("sin{u}")),
+                String::new(),
             ),
             Kind::SineSquared | Kind::CosineSquared => {
                 let function = if kind == Kind::SineSquared {
@@ -83,24 +101,47 @@ impl Problem {
                     "+"
                 };
                 (
-                    format!("{c}*({function}{u})^2"),
+                    product(c, 1, &format!("({function}{u})^2")),
                     format!(
-                        "{}*x {sign} {}*sin(2*{u})",
-                        fraction(c, 2),
-                        fraction(c.abs(), 4 * a)
+                        "{} {sign} {}",
+                        product(c, 2, "x"),
+                        product(c.abs(), 4 * a, &format!("sin(2*{u})"))
                     ),
-                    "all real x".into(),
+                    String::new(),
                 )
             }
             Kind::SecantSquared => (
-                format!("{c}*(sec{u})^2"),
-                format!("{scale}*tan{u}"),
-                format!("real x with {u} != pi/2 + k*pi for every integer k"),
+                product(c, 1, &format!("(sec{u})^2")),
+                product(c, a, &format!("tan{u}")),
+                format!("cos{u} != 0"),
+            ),
+            Kind::Tangent => (
+                product(c, 1, &format!("tan{u}")),
+                product(-c, a, &format!("ln|cos{u}|")),
+                format!("cos{u} != 0"),
+            ),
+            Kind::SineCosine => (
+                product(c, 1, &format!("sin{u}*cos{u}")),
+                product(c, 2 * a, &format!("(sin{u})^2")),
+                String::new(),
+            ),
+            Kind::SineCubed => (
+                product(c, 1, &format!("(sin{u})^3")),
+                product(c, 3 * a, &format!("[(cos{u})^3 - 3*cos{u}]")),
+                String::new(),
+            ),
+            Kind::CosineCubed => (
+                product(c, 1, &format!("(cos{u})^3")),
+                product(c, 3 * a, &format!("[3*sin{u} - (sin{u})^3]")),
+                String::new(),
             ),
         };
-        format!(
-            "Integral: integral of {integrand} dx\nAnswer: {answer} + C\nDomain: {domain}. Angles are in radians; C is arbitrary and independent on each connected interval."
-        )
+        let mut text = format!("integral ({integrand}) dx = {answer} + C");
+        if !domain.is_empty() {
+            text.push('\n');
+            text.push_str(&domain);
+        }
+        text
     }
 
     #[cfg(test)]
@@ -113,6 +154,10 @@ impl Problem {
             Kind::SineSquared => c * u.sin().powi(2),
             Kind::CosineSquared => c * u.cos().powi(2),
             Kind::SecantSquared => c / u.cos().powi(2),
+            Kind::Tangent => c * u.tan(),
+            Kind::SineCosine => c * u.sin() * u.cos(),
+            Kind::SineCubed => c * u.sin().powi(3),
+            Kind::CosineCubed => c * u.cos().powi(3),
         }
     }
 
@@ -126,6 +171,10 @@ impl Problem {
             Kind::SineSquared => c / 2.0 * x - c / (4.0 * a) * (2.0 * u).sin(),
             Kind::CosineSquared => c / 2.0 * x + c / (4.0 * a) * (2.0 * u).sin(),
             Kind::SecantSquared => c / a * u.tan(),
+            Kind::Tangent => -c / a * u.cos().abs().ln(),
+            Kind::SineCosine => c / (2.0 * a) * u.sin().powi(2),
+            Kind::SineCubed => c / (3.0 * a) * (u.cos().powi(3) - 3.0 * u.cos()),
+            Kind::CosineCubed => c / (3.0 * a) * (3.0 * u.sin() - u.sin().powi(3)),
         }
     }
 }
@@ -169,17 +218,11 @@ mod tests {
         assert_eq!(fraction(-6, 9), "(-2/3)");
         assert_eq!(fraction(0, 4), "0");
         for (kind, expected) in [
-            (Kind::Sine, "Answer: -2*cos(3*x - 2) + C"),
-            (Kind::Cosine, "Answer: 2*sin(3*x - 2) + C"),
-            (
-                Kind::SineSquared,
-                "Answer: 3*x - (1/2)*sin(2*(3*x - 2)) + C",
-            ),
-            (
-                Kind::CosineSquared,
-                "Answer: 3*x + (1/2)*sin(2*(3*x - 2)) + C",
-            ),
-            (Kind::SecantSquared, "Answer: 2*tan(3*x - 2) + C"),
+            (Kind::Sine, "= -2*cos(3*x - 2) + C"),
+            (Kind::Cosine, "= 2*sin(3*x - 2) + C"),
+            (Kind::SineSquared, "= 3*x - (1/2)*sin(2*(3*x - 2)) + C"),
+            (Kind::CosineSquared, "= 3*x + (1/2)*sin(2*(3*x - 2)) + C"),
+            (Kind::SecantSquared, "= 2*tan(3*x - 2) + C"),
         ] {
             assert!(
                 Problem {
@@ -201,15 +244,15 @@ mod tests {
                     c: -6
                 }
                 .render()
-                .contains(&format!("Answer: -3*x {sign} (1/2)*sin(2*(3*x)) + C"))
+                .contains(&format!("= -3*x {sign} (1/2)*sin(2*(3*x)) + C"))
             );
         }
     }
 
     #[test]
-    fn samples_respect_bounds_and_declare_domains_and_independent_constants() {
+    fn samples_respect_bounds_and_include_pole_restrictions() {
         let mut rng = StdRng::seed_from_u64(7);
-        let mut seen = [false; 5];
+        let mut seen = [false; KINDS.len()];
         for _ in 0..500 {
             let p = Problem::sample(&mut rng);
             assert!((1..=6).contains(&p.a));
@@ -217,14 +260,11 @@ mod tests {
             assert!((1..=9).contains(&p.c.abs()));
             seen[KINDS.iter().position(|&kind| kind == p.kind).unwrap()] = true;
             let text = p.render();
-            if p.kind == Kind::SecantSquared {
-                assert!(text.contains("!= pi/2 + k*pi for every integer k"));
-            } else {
-                assert!(text.contains("Domain: all real x."));
+            if matches!(p.kind, Kind::SecantSquared | Kind::Tangent) {
+                assert!(text.contains("cos"));
+                assert!(text.contains(" != 0"));
             }
             assert!(text.contains(" + C"));
-            assert!(text.contains("Angles are in radians"));
-            assert!(text.contains("C is arbitrary and independent on each connected interval."));
             assert!(!text.ends_with('\n'));
         }
         assert!(seen.into_iter().all(|seen| seen));

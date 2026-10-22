@@ -39,6 +39,16 @@ fn fraction(numerator: i32, denominator: i32) -> String {
     }
 }
 
+fn product(numerator: i32, denominator: i32, factor: &str) -> String {
+    if numerator == denominator {
+        factor.into()
+    } else if numerator == -denominator {
+        format!("-{factor}")
+    } else {
+        format!("{}*{factor}", fraction(numerator, denominator))
+    }
+}
+
 impl Problem {
     fn sample(rng: &mut StdRng) -> Self {
         Self {
@@ -52,24 +62,25 @@ impl Problem {
 
     fn render(&self) -> String {
         let Self { kind, a, b, c, n } = *self;
+        let term = product(a, 1, "x");
         let u = match b.cmp(&0) {
-            std::cmp::Ordering::Greater => format!("({a}*x + {b})"),
-            std::cmp::Ordering::Less => format!("({a}*x - {})", -b),
-            std::cmp::Ordering::Equal => format!("({a}*x)"),
+            std::cmp::Ordering::Greater => format!("({term} + {b})"),
+            std::cmp::Ordering::Less => format!("({term} - {})", -b),
+            std::cmp::Ordering::Equal => format!("({term})"),
         };
-        let scale = fraction(c, a);
-        let log = format!("ln|{u}|");
+        let log = format!("ln|{}|", &u[1..u.len() - 1]);
         let (integrand, answer): (String, String) = match kind {
-            Kind::Reciprocal => (format!("{c}/{u}"), format!("{scale}*{log}")),
-            Kind::LogarithmByParts => (format!("{c}*{log}"), format!("{scale}*({u}*{log} - {u})")),
+            Kind::Reciprocal => (format!("{c}/{u}"), product(c, a, &log)),
+            Kind::LogarithmByParts => (
+                product(c, 1, &log),
+                product(c, a, &format!("({u}*{log} - {u})")),
+            ),
             Kind::LogarithmicPower => (
-                format!("{c}*({log})^{n}/{u}"),
-                format!("{}*({log})^{}", fraction(c, a * (n + 1)), n + 1),
+                product(c, 1, &format!("({log})^{n}/{u}")),
+                product(c, a * (n + 1), &format!("({log})^{}", n + 1)),
             ),
         };
-        format!(
-            "Integral: integral of {integrand} dx\nAnswer: {answer} + C\nDomain: {u} != 0 (either sign); C is an independent constant on each connected interval."
-        )
+        format!("integral ({integrand}) dx = {answer} + C\n{u} != 0")
     }
 
     #[cfg(test)]
@@ -138,10 +149,8 @@ mod tests {
             let mut p = Problem::sample(&mut rng);
             p.kind = kind;
             let text = p.render();
-            assert!(text.contains("Domain:"));
             assert!(text.contains(" + C"));
-            assert!(text.contains(" != 0 (either sign)"));
-            assert!(text.contains("C is an independent constant on each connected interval."));
+            assert!(text.contains(" != 0"));
         }
     }
 }

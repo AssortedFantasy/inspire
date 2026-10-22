@@ -6,6 +6,7 @@ pub fn generate(rng: &mut StdRng) -> String {
 
 struct Integral {
     terms: Vec<(i64, u32)>,
+    roots: Option<Vec<i64>>,
     lower: i64,
     upper: i64,
 }
@@ -16,17 +17,48 @@ impl Integral {
         let signed = |rng: &mut StdRng, limit| {
             rng.random_range(1..=limit) * if rng.random() { 1 } else { -1 }
         };
-        let terms = if rng.random() {
-            vec![(signed(rng, 9), rng.random_range(0..=6))]
-        } else {
-            vec![
-                (signed(rng, 5), rng.random_range(2..=4)),
-                (signed(rng, 6), 1),
-                (signed(rng, 9), 0),
-            ]
+        let (terms, roots) = match rng.random_range(0..3) {
+            0 => (vec![(signed(rng, 9), rng.random_range(0..=6))], None),
+            1 => {
+                let count = rng.random_range(2..=4);
+                let mut degrees: Vec<u32> = (0..=6).collect();
+                let mut terms = Vec::new();
+                for _ in 0..count {
+                    let degree = degrees.swap_remove(rng.random_range(0..degrees.len()));
+                    terms.push((signed(rng, 6), degree));
+                }
+                terms.sort_by_key(|&(_, degree)| std::cmp::Reverse(degree));
+                (terms, None)
+            }
+            _ => {
+                let count = rng.random_range(2..=4);
+                let mut available: Vec<i64> = (-2..=2).collect();
+                let mut roots = Vec::new();
+                let mut coefficients = vec![1];
+                for _ in 0..count {
+                    let root = available.swap_remove(rng.random_range(0..available.len()));
+                    roots.push(root);
+                    let mut next = vec![0; coefficients.len() + 1];
+                    for (degree, coefficient) in coefficients.into_iter().enumerate() {
+                        next[degree] -= root * coefficient;
+                        next[degree + 1] += coefficient;
+                    }
+                    coefficients = next;
+                }
+                roots.sort_unstable();
+                let terms = coefficients
+                    .into_iter()
+                    .enumerate()
+                    .rev()
+                    .filter(|&(_, coefficient)| coefficient != 0)
+                    .map(|(degree, coefficient)| (coefficient, degree as u32))
+                    .collect();
+                (terms, Some(roots))
+            }
         };
         Self {
             terms,
+            roots,
             lower,
             upper: lower + rng.random_range(1..=3.min(3 - lower)),
         }
@@ -40,11 +72,25 @@ impl Integral {
             let term_denominator = i64::from(degree + 1);
             numerator = numerator * term_denominator + term_numerator * denominator;
             denominator *= term_denominator;
+            let factor = gcd(numerator, denominator);
+            numerator /= factor;
+            denominator /= factor;
         }
         (numerator, denominator)
     }
 
     fn polynomial(&self) -> String {
+        if let Some(roots) = &self.roots {
+            return roots
+                .iter()
+                .map(|root| match root.cmp(&0) {
+                    std::cmp::Ordering::Less => format!("(x+{})", -root),
+                    std::cmp::Ordering::Equal => "x".to_owned(),
+                    std::cmp::Ordering::Greater => format!("(x-{root})"),
+                })
+                .collect::<Vec<_>>()
+                .join("*");
+        }
         let mut text = String::new();
         for &(coefficient, degree) in &self.terms {
             if text.is_empty() {
@@ -73,7 +119,7 @@ impl Integral {
     fn render(&self) -> String {
         let (numerator, denominator) = self.exact_fraction();
         format!(
-            "Integral: integral from {} to {} of ({}) dx\nAnswer: {}\nDomain: real x; a proper integral of a polynomial.",
+            "integral from {} to {} of ({}) dx = {}",
             self.lower,
             self.upper,
             self.polynomial(),
@@ -83,16 +129,21 @@ impl Integral {
 }
 
 fn fraction(numerator: i64, denominator: i64) -> String {
-    let (mut a, mut b) = (numerator.abs(), denominator);
-    while b != 0 {
-        (a, b) = (b, a % b);
-    }
+    let a = gcd(numerator, denominator);
     let (n, d) = (numerator / a, denominator / a);
     if d == 1 {
         n.to_string()
     } else {
-        format!("({n}/{d})")
+        format!("{n}/{d}")
     }
+}
+
+fn gcd(numerator: i64, denominator: i64) -> i64 {
+    let (mut a, mut b) = (numerator.abs(), denominator);
+    while b != 0 {
+        (a, b) = (b, a % b);
+    }
+    a
 }
 
 #[cfg(test)]
@@ -129,6 +180,7 @@ mod tests {
         for radius in 1..=3 {
             let integral = Integral {
                 terms: vec![(5, 5), (-4, 3), (9, 1)],
+                roots: None,
                 lower: -radius,
                 upper: radius,
             };
@@ -136,6 +188,7 @@ mod tests {
         }
         let integral = Integral {
             terms: vec![(1, 2), (-4, 1), (3, 0)],
+            roots: None,
             lower: 0,
             upper: 3,
         };
@@ -150,6 +203,7 @@ mod tests {
                     for degree in 0..=1 {
                         let integral = Integral {
                             terms: vec![(coefficient, degree)],
+                            roots: None,
                             lower,
                             upper,
                         };
@@ -166,9 +220,9 @@ mod tests {
     }
 
     #[test]
-    fn samples_stay_bounded_and_cover_both_templates_and_interval_signs() {
+    fn samples_stay_bounded_and_cover_polynomial_forms_and_interval_signs() {
         let mut rng = StdRng::seed_from_u64(31);
-        let mut templates = [false; 2];
+        let mut templates = [false; 3];
         let mut degrees = [false; 7];
         let mut signs = [false; 3];
         for _ in 0..2_000 {
@@ -176,8 +230,13 @@ mod tests {
             assert!((-3..=2).contains(&integral.lower));
             assert!(integral.lower < integral.upper && integral.upper <= 3);
             assert!(integral.upper - integral.lower <= 3);
-            assert!(matches!(integral.terms.len(), 1 | 3));
-            templates[usize::from(integral.terms.len() == 3)] = true;
+            assert!((1..=5).contains(&integral.terms.len()));
+            let form = if integral.roots.is_some() {
+                2
+            } else {
+                usize::from(integral.terms.len() > 1)
+            };
+            templates[form] = true;
             signs[if integral.upper <= 0 {
                 0
             } else if integral.lower >= 0 {
@@ -191,9 +250,19 @@ mod tests {
                 degrees[degree as usize] = true;
             }
             let (numerator, denominator) = integral.exact_fraction();
-            assert!((1..=10).contains(&denominator));
-            assert!(numerator.abs() <= 19_683);
-            assert!(numerator.abs() <= 2_812 * denominator);
+            assert!((1..=420).contains(&denominator));
+            assert!(numerator.abs() <= 29_511 * denominator);
+            if let Some(roots) = &integral.roots {
+                for x in [-2.5_f64, -0.5, 0.5, 2.5] {
+                    let factored: f64 = roots.iter().map(|&root| x - root as f64).product();
+                    let expanded: f64 = integral
+                        .terms
+                        .iter()
+                        .map(|&(c, d)| c as f64 * x.powi(d as i32))
+                        .sum();
+                    assert!((factored - expanded).abs() < 1e-10);
+                }
+            }
         }
         assert!(templates.into_iter().all(|seen| seen));
         assert!(degrees.into_iter().all(|seen| seen));
@@ -205,8 +274,7 @@ mod tests {
         for numerator in -400..=400 {
             for denominator in 1..=10 {
                 let text = fraction(numerator, denominator);
-                let (n, d) = if let Some(inner) = text.strip_prefix('(') {
-                    let (n, d) = inner.trim_end_matches(')').split_once('/').unwrap();
+                let (n, d) = if let Some((n, d)) = text.split_once('/') {
                     (n.parse::<i64>().unwrap(), d.parse::<i64>().unwrap())
                 } else {
                     (text.parse::<i64>().unwrap(), 1)
@@ -221,14 +289,18 @@ mod tests {
     }
 
     #[test]
-    fn fractions_reduce_and_outputs_describe_proper_integrals() {
-        assert_eq!(fraction(-6, 9), "(-2/3)");
+    fn rendered_answers_preserve_exact_integrals() {
+        assert_eq!(fraction(-6, 9), "-2/3");
         assert_eq!(fraction(0, 4), "0");
         let mut rng = StdRng::seed_from_u64(7);
         for _ in 0..80 {
-            let output = generate(&mut rng);
-            assert!(output.contains("Answer:"));
-            assert!(output.contains("a proper integral of a polynomial"));
+            let integral = Integral::sample(&mut rng);
+            let output = integral.render();
+            let answer = output.split_once(" = ").unwrap().1;
+            let (n, d) = answer.split_once('/').unwrap_or((answer, "1"));
+            let (n, d) = (n.parse::<i64>().unwrap(), d.parse::<i64>().unwrap());
+            let (expected_n, expected_d) = integral.exact_fraction();
+            assert_eq!(n * expected_d, expected_n * d);
             assert!(!output.ends_with('\n'));
         }
     }

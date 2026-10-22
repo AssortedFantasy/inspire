@@ -32,7 +32,14 @@ fn order(m: usize, (i, j): Element) -> usize {
 }
 
 fn display((i, j): Element) -> String {
-    format!("({i},{j})")
+    match (i, j) {
+        (0, 0) => "e".into(),
+        (0, 1) => "s".into(),
+        (1, 0) => "r".into(),
+        (1, 1) => "rs".into(),
+        (_, 0) => format!("r^{i}"),
+        _ => format!("r^{i}s"),
+    }
 }
 
 pub fn generate(rng: &mut StdRng) -> String {
@@ -40,37 +47,77 @@ pub fn generate(rng: &mut StdRng) -> String {
     let n = 4 * m;
     let a = (rng.random_range(0..2 * m), rng.random_range(0..2));
     let b = (rng.random_range(0..2 * m), rng.random_range(0..2));
-    let special = if m == 2 {
-        " This is the quaternion group Q_8."
-    } else {
-        ""
-    };
-    format!(
-        "Generalized quaternion group Q_{n}, of order {n}; the subscript denotes the group order.{special}\n\
-         Presentation: r^{}=e, s^2=r^{m}, srs^(-1)=r^(-1).\n\
-         Every element has a unique coordinate (i,j)=r^i s^j, with 0<=i<{}, j in {{0,1}}.\n\
-         Law: (i,j)(k,l)=((i+(-1)^j k+{m}jl) mod {}, (j+l) mod 2); identity (0,0).\n\
-         For a={} and b={}, ab={}, ba={}. Inverses: a^(-1)={}, b^(-1)={}.\n\
-         Element orders: ord(a)={}, ord(b)={}; generally ord((i,0))={}/gcd({},i), and ord((i,1))=4.\n\
-         The center is {{(0,0),({m},0)}}. Its nonidentity element ({m},0) is the unique involution.\n\
-         The cyclic subgroup <r> has order {} and index 2. Every element outside it squares to ({m},0).\n\
-         Noncommuting witness: rs=(1,1), sr=({},1); Q_{n} is nonabelian.",
-        2 * m,
-        2 * m,
-        2 * m,
-        display(a),
-        display(b),
-        display(product(m, a, b)),
-        display(product(m, b, a)),
-        display(inverse(m, a)),
-        display(inverse(m, b)),
-        order(m, a),
-        order(m, b),
-        2 * m,
-        2 * m,
-        2 * m,
-        2 * m - 1,
-    )
+    let heading = format!("Q_{n} = ⟨r,s | r^{}=e, s²=r^{m}, srs⁻¹=r⁻¹⟩", 2 * m);
+    match rng.random_range(0..3) {
+        0 => {
+            let ab = product(m, a, b);
+            let ba = product(m, b, a);
+            let calculation = if a == b {
+                format!("({})² = {}", display(a), display(ab))
+            } else if ab == ba {
+                format!(
+                    "({})({}) = ({})({}) = {}",
+                    display(a),
+                    display(b),
+                    display(b),
+                    display(a),
+                    display(ab)
+                )
+            } else {
+                format!(
+                    "({})({}) = {}\n({})({}) = {}",
+                    display(a),
+                    display(b),
+                    display(ab),
+                    display(b),
+                    display(a),
+                    display(ba)
+                )
+            };
+            format!(
+                "{heading}\n{calculation}\n({})⁻¹ = {}\nord({}) = {}",
+                display(a),
+                display(inverse(m, a)),
+                display(a),
+                order(m, a)
+            )
+        }
+        1 => {
+            let mut class: Vec<_> = (0..2 * m)
+                .flat_map(|i| [(i, 0), (i, 1)])
+                .map(|g| product(m, product(m, g, a), inverse(m, g)))
+                .collect();
+            class.sort_unstable();
+            class.dedup();
+            let members = if class.len() > 12 {
+                format!("{}⟨r²⟩", display(a))
+            } else {
+                format!(
+                    "{{{}}}",
+                    class
+                        .into_iter()
+                        .map(display)
+                        .collect::<Vec<_>>()
+                        .join(", ")
+                )
+            };
+            format!(
+                "{heading}\nCl({}) = {members}\nZ(Q_{n}) = {{e, r^{m}}}",
+                display(a),
+            )
+        }
+        _ => {
+            let a = (a.0, 1);
+            let square = product(m, a, a);
+            let cube = product(m, square, a);
+            format!(
+                "{heading}\nx = {}\nx² = {}\nx³ = {}\nx⁴ = e\n⟨x⟩ ∩ ⟨r⟩ = {{e, r^{m}}}",
+                display(a),
+                display(square),
+                display(cube)
+            )
+        }
+    }
 }
 
 #[cfg(test)]
@@ -154,18 +201,10 @@ mod tests {
             let text = generate(&mut first);
             assert_eq!(text, generate(&mut second));
             assert!(!text.ends_with('\n'));
-            orders.insert(
-                text.lines()
-                    .next()
-                    .unwrap()
-                    .split(',')
-                    .next()
-                    .unwrap()
-                    .to_owned(),
-            );
+            orders.insert(text.split(" = ").next().unwrap().to_owned());
             outputs.insert(text);
         }
         assert_eq!(orders.len(), PARAMETERS.len());
-        assert!(outputs.len() > 200);
+        assert!(outputs.len() > 150);
     }
 }
