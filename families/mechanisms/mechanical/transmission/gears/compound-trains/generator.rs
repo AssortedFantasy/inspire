@@ -1,50 +1,113 @@
 use rand::{Rng, rngs::StdRng};
+use std::fmt::Write;
 
-fn speeds(teeth: [u32; 4], input: f64) -> [f64; 3] {
-    [
-        input,
-        -input * teeth[0] as f64 / teeth[1] as f64,
-        input * teeth[0] as f64 * teeth[2] as f64 / (teeth[1] as f64 * teeth[3] as f64),
-    ]
+include!("../../../../number.rs");
+
+#[derive(Clone, Copy)]
+struct Stage {
+    driver: u32,
+    driven: u32,
+    idler: Option<u32>,
+}
+
+fn speeds(stages: &[Stage], input: f64) -> Vec<f64> {
+    let mut values = vec![input];
+    for stage in stages {
+        let direction = if stage.idler.is_some() { 1.0 } else { -1.0 };
+        values.push(values.last().unwrap() * direction * stage.driver as f64 / stage.driven as f64);
+    }
+    values
 }
 
 pub fn generate(rng: &mut StdRng) -> String {
-    let teeth = std::array::from_fn(|_| rng.random_range(3..=12) * 6);
+    let stages: Vec<_> = (0..rng.random_range(2..=4))
+        .map(|_| Stage {
+            driver: rng.random_range(3..=12) * 6,
+            driven: rng.random_range(3..=12) * 6,
+            idler: rng.random_bool(0.3).then(|| rng.random_range(3..=12) * 6),
+        })
+        .collect();
     let input = rng.random_range(2..=12) as f64 * 60.0;
     let torque = rng.random_range(2..=20) as f64;
-    let rpm = speeds(teeth, input);
-    let output_torque = torque * input / rpm[2];
-    format!(
-        "Ideal two-stage compound spur-gear train. A ({} teeth) meshes externally with B ({} teeth); B and C ({} teeth) share a shaft; C meshes externally with D ({} teeth). All gears have the same module, rigid shafts, negligible loss, and no slip.\nInput A: {:.0} rpm, {:.0} N m. Intermediate shaft: {:.3} rpm. Output D: {:.3} rpm, {:.3} N m available load torque. Signed rpm is measured from the same viewing direction; positive is A's direction.\nSpeed ratio D/A = {:.6}; ideal input/output power = {:.3} W.",
-        teeth[0],
-        teeth[1],
-        teeth[2],
-        teeth[3],
-        input,
-        torque,
-        rpm[1],
-        rpm[2],
-        output_torque,
-        rpm[2] / input,
-        torque * input * std::f64::consts::TAU / 60.0
-    )
+    let rpm = speeds(&stages, input);
+    let mut out = "Lossless compound spur train\nLetters identify shafts".to_owned();
+    for (index, stage) in stages.iter().enumerate() {
+        let from = (b'A' + index as u8) as char;
+        let to = (b'B' + index as u8) as char;
+        if let Some(idler) = stage.idler {
+            write!(
+                out,
+                "\n{from} {}T ↔ idler {idler}T ↔ {to} {}T",
+                stage.driver, stage.driven
+            )
+            .unwrap();
+        } else {
+            write!(out, "\n{from} {}T ↔ {to} {}T", stage.driver, stage.driven).unwrap();
+        }
+    }
+    let last = *rpm.last().unwrap();
+    if rng.random_bool(0.5) {
+        out.push_str("\n\nShaft | rpm");
+        for (index, speed) in rpm.iter().enumerate() {
+            write!(out, "\n{} | {}", (b'A' + index as u8) as char, n(*speed)).unwrap();
+        }
+        write!(
+            out,
+            "\n\nInput torque {} N·m\nOutput torque {} N·m",
+            n(torque),
+            n(torque * input / last.abs())
+        )
+        .unwrap();
+    } else {
+        write!(
+            out,
+            "\n\nωout/ωin = {}\n{} rpm → {} rpm\n{} N·m → {} N·m",
+            n(last / input),
+            n(input),
+            n(last),
+            n(torque),
+            n(torque * input / last.abs())
+        )
+        .unwrap();
+    }
+    out
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
+
     #[test]
-    fn both_meshes_and_power_balance() {
-        for a in 3..=12 {
-            for b in 3..=12 {
-                for c in 3..=12 {
-                    for d in 3..=12 {
-                        let t = [a * 6, b * 6, c * 6, d * 6];
-                        let r = speeds(t, 360.0);
-                        assert!((r[0] * t[0] as f64 + r[1] * t[1] as f64).abs() < 1e-8);
-                        assert!((r[1] * t[2] as f64 + r[2] * t[3] as f64).abs() < 1e-8);
-                        let out = 7.0 * r[0] / r[2];
-                        assert!((out * r[2] - 7.0 * r[0]).abs() < 1e-8);
+    fn meshes_and_power_balance_with_optional_idlers() {
+        for driver in 3..=12 {
+            for driven in 3..=12 {
+                for idler in [None, Some(18), Some(72)] {
+                    let stage = Stage {
+                        driver: driver * 6,
+                        driven: driven * 6,
+                        idler,
+                    };
+                    for count in 2..=4 {
+                        let stages = vec![stage; count];
+                        let rpm = speeds(&stages, 360.0);
+                        for pair in rpm.windows(2) {
+                            if let Some(teeth) = idler {
+                                let middle = -pair[0] * stage.driver as f64 / teeth as f64;
+                                assert!(
+                                    (middle * teeth as f64 + pair[1] * stage.driven as f64).abs()
+                                        < 1e-8
+                                );
+                            } else {
+                                assert!(
+                                    (pair[0] * stage.driver as f64 + pair[1] * stage.driven as f64)
+                                        .abs()
+                                        < 1e-8
+                                );
+                            }
+                        }
+                        let last = rpm.last().unwrap();
+                        let out = 7.0 * 360.0 / last.abs();
+                        assert!((out * last.abs() - 7.0 * 360.0).abs() < 1e-8);
                     }
                 }
             }

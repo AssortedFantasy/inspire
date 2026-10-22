@@ -1,22 +1,22 @@
 [
   {
     "id": "underdamped",
-    "text": "An underdamped oscillator crosses equilibrium repeatedly as its motion fades.",
-    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 15.5; https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+    "text": "m x″ + c x′ + kx = 0\n0 < c < 2√(mk)\nx(t) = A exp[−ct/(2m)] cos(ω_d t + φ)\nω_d = √[k/m − c²/(4m²)]",
+    "provenance": "Factual relations and notation. Source: OpenStax, University Physics Volume 1, section 15.5; https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations. Consulted 2026-10-13."
   },
   {
     "id": "critical-damping",
-    "text": "In an ideal linear spring-and-mass system, critical damping returns the mass to equilibrium as quickly as possible without oscillation.",
-    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 15.5; https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+    "text": "m x″ + c x′ + kx = 0\nc = 2√(mk)\nx(t) = (C₁ + C₂t) exp[−√(k/m)t]",
+    "provenance": "Factual relations and notation. Source: OpenStax, University Physics Volume 1, section 15.5; https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations. Consulted 2026-10-13."
   },
   {
     "id": "overdamped",
-    "text": "More damping is not always faster: an overdamped spring-and-mass system returns without oscillating but more slowly than a critically damped one.",
-    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 15.5; https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+    "text": "m x″ + c x′ + kx = 0\nc > 2√(mk)\nx(t) = C₁ exp(λ₊t) + C₂ exp(λ₋t)\nλ₊, λ₋ = [−c ± √(c² − 4mk)]/(2m)",
+    "provenance": "Factual relations and notation. Source: OpenStax, University Physics Volume 1, section 15.5; https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations. Consulted 2026-10-13."
   },
   {
     "id": "viscous-damper",
-    "text": "A viscous damping model makes the resisting force proportional to velocity and opposite to motion, removing mechanical energy.",
-    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 15.5; https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+    "text": "F_damping = −cv\ndE/dt = −cv²\nc > 0",
+    "provenance": "Factual relations and notation. Source: OpenStax, University Physics Volume 1, section 15.5; https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations. Consulted 2026-10-13."
   }
 ]

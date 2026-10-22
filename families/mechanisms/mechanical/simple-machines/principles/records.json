@@ -1,37 +1,37 @@
 [
   {
     "id": "lever",
-    "text": "A lever rotates about a fulcrum. Changing the positions of the pivot, effort, and load changes how force and travel are exchanged.",
-    "provenance": "Original factual paraphrase. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13."
+    "text": "F_in r_in = F_out r_out\nF_out/F_in = r_in/r_out\nLever equilibrium with perpendicular forces",
+    "provenance": "Factual relations and notation. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13. Additional source: OpenStax, College Physics 2e, section 9.5; https://openstax.org/books/college-physics-2e/pages/9-5-simple-machines."
   },
   {
     "id": "inclined-plane",
-    "text": "An inclined plane spreads a rise in height over a longer path. A ramp lets the lifting task be performed with a smaller force over more distance.",
-    "provenance": "Original factual paraphrase. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13."
+    "text": "F_pull/W = h/L = sinθ\nF_pull L = Wh\nFrictionless incline, pull parallel to the slope",
+    "provenance": "Factual relations and notation. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13. Additional source: OpenStax, College Physics 2e, section 9.5; https://openstax.org/books/college-physics-2e/pages/9-5-simple-machines."
   },
   {
     "id": "wedge",
-    "text": "A wedge turns force along its length into forces against its sloping sides, separating material or holding parts apart.",
-    "provenance": "Original factual paraphrase. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13."
+    "text": "Symmetric frictionless wedge\nHalf-angle α measured from the drive axis\nF_separating_per_side = F_drive/(2 tanα)",
+    "provenance": "Factual relations and notation. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13. Additional source: OpenStax, College Physics 2e, section 9.5; https://openstax.org/books/college-physics-2e/pages/9-5-simple-machines."
   },
   {
     "id": "screw",
-    "text": "A screw wraps an inclined path around an axis. Turning it advances the thread through a matching surface.",
-    "provenance": "Original factual paraphrase. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13. Additional source: NASA Glenn, The Screw; https://www.grc.nasa.gov/www/k-12/Summer_Training/KaeAvenueES/The_Screw.html."
+    "text": "Lead = thread starts × pitch\nAxial advance per revolution = lead\nF_axial = 2πτ/lead\nIdeal frictionless screw",
+    "provenance": "Factual relations and notation. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13. Additional source: NASA Glenn, The Screw; https://www.grc.nasa.gov/www/k-12/Summer_Training/KaeAvenueES/The_Screw.html. Additional source: OpenStax, College Physics 2e, section 9.5; https://openstax.org/books/college-physics-2e/pages/9-5-simple-machines."
   },
   {
     "id": "pulley-direction",
-    "text": "A fixed pulley redirects a rope's force, allowing a downward pull to lift a load.",
-    "provenance": "Original factual paraphrase. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13."
+    "text": "Ideal fixed pulley\nF_pull = W_load\n|Δx_pull| = |Δx_load|",
+    "provenance": "Factual relations and notation. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13. Additional source: OpenStax, College Physics 2e, section 9.5; https://openstax.org/books/college-physics-2e/pages/9-5-simple-machines."
   },
   {
     "id": "wheel-and-axle",
-    "text": "A wheel and its axle rotate together; applying force at different radii exchanges force for motion.",
-    "provenance": "Original factual paraphrase. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13."
+    "text": "F_load/F_effort = R_wheel/r_axle\nx_effort/x_load = R_wheel/r_axle\nIdeal wheel and axle",
+    "provenance": "Factual relations and notation. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13. Additional source: OpenStax, College Physics 2e, section 9.5; https://openstax.org/books/college-physics-2e/pages/9-5-simple-machines."
   },
   {
     "id": "compound-machine",
-    "text": "A compound machine combines simple machines, such as a lever and a pulley, into a mechanism for a more specific task.",
-    "provenance": "Original factual paraphrase. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13."
+    "text": "Ideal machines in series\nMA_total = MA₁ × MA₂ × ⋯ × MA_n\nF_in d_in = F_out d_out",
+    "provenance": "Factual relations and notation. Source: NASA, STEMonstrations Simple Machines classroom guide; https://www.nasa.gov/wp-content/uploads/2023/03/simple-machines-classroom-connection-508.pdf. Consulted 2026-10-13. Additional source: OpenStax, College Physics 2e, section 9.5; https://openstax.org/books/college-physics-2e/pages/9-5-simple-machines."
   }
 ]

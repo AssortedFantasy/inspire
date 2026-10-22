@@ -1,17 +1,17 @@
 [
   {
     "id": "integral-windup",
-    "text": "When an actuator stays at its limit, accumulated integral error can keep the controller saturated after conditions change. Anti-windup methods limit this accumulation.",
-    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
+    "text": "Conditional integration, K_I > 0\ndI/dt = 0 when u_raw ≥ u_max and e > 0\ndI/dt = 0 when u_raw ≤ u_min and e < 0\ndI/dt = K_I e otherwise",
+    "provenance": "Factual relations and notation. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
   },
   {
     "id": "sampled-pid",
-    "text": "A digital PID controller replaces a continuous integral with a sum and estimates rate of change from successive samples. The sample interval is part of the calculation.",
-    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
+    "text": "e_k = r_k − y_k\nI_k = I_(k−1) + K_I Δt e_k\nD_k = −K_D(y_k − y_(k−1))/Δt\nu_k = b + K_P e_k + I_k + D_k",
+    "provenance": "Factual relations and notation. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
   },
   {
     "id": "actuator-limits",
-    "text": "A controller can request more output than an actuator can supply. Clipping the command at the physical limits changes the behavior of the feedback loop.",
-    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
+    "text": "u_applied = min(u_max, max(u_min, u_requested))\nu_min ≤ u_applied ≤ u_max",
+    "provenance": "Factual relations and notation. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
   }
 ]

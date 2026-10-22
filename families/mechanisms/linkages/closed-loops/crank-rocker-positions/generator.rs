@@ -1,3 +1,5 @@
+include!("../../../number.rs");
+
 use rand::{Rng, rngs::StdRng};
 use std::fmt::Write;
 
@@ -31,22 +33,36 @@ pub fn generate(rng: &mut StdRng) -> String {
     let [rb, rc, rd] = SHAPES[rng.random_range(0..SHAPES.len())];
     let (b, c, d) = (a * rb, a * rc, a * rd);
     let mut out = format!(
-        "Planar crank-rocker four-bar, ideal pin joints. Fixed pivots O=(0,0), D=({d:.1},0) mm. OA={a:.0} mm is the input crank; AB={b:.1} mm is the coupler; BD={c:.1} mm is the rocker. Strict Grashof: shortest + longest < sum of the other links; the shortest link adjoins the fixed link.\nThe selected assembly uses the circle intersection lying to the left of directed A-to-D.\nInput angle (degrees) | A(x,y) mm | B(x,y) mm | rocker angle (degrees)"
+        "Four-bar O—A—B—D\nO = (0, 0), D = ({}, 0) mm\nOA = {} mm, AB = {} mm, BD = {} mm\nB lies left of directed A→D\nθ = arg(A)",
+        n(d),
+        n(a),
+        n(b),
+        n(c)
     );
-    for deg in [0, 45, 90, 135, 180, 225, 270, 315] {
-        let t = (deg as f64).to_radians();
-        let (x, y) = joint(a, b, c, d, t);
+    if rng.random_bool(0.5) {
+        out.push_str("\n\nθ (°) | Bx (mm) | By (mm)");
+        for deg in [0, 45, 90, 135, 180, 225, 270, 315] {
+            let (x, y) = joint(a, b, c, d, (deg as f64).to_radians());
+            write!(out, "\n{deg} | {} | {}", n(x), n(y)).unwrap();
+        }
+    } else {
+        let deg = rng.random_range(0..360);
+        let theta = (deg as f64).to_radians();
+        let (x, y) = joint(a, b, c, d, theta);
         write!(
             out,
-            "\n{deg:3} | ({:.3},{:.3}) | ({x:.3},{y:.3}) | {:.3}",
-            a * t.cos(),
-            a * t.sin(),
-            y.atan2(x - d).to_degrees()
+            "\n\nθ = {deg}°\nA = ({}, {}) mm\nB = ({}, {}) mm\n∠(D→B, +x) = {}°",
+            n(a * theta.cos()),
+            n(a * theta.sin()),
+            n(x),
+            n(y),
+            n(y.atan2(x - d).to_degrees())
         )
         .unwrap();
     }
     out
 }
+
 #[cfg(test)]
 mod tests {
     use super::*;

@@ -1,3 +1,5 @@
+include!("../../../../number.rs");
+
 use rand::{Rng, rngs::StdRng};
 use std::fmt::Write;
 fn response(k: f64, tau: f64, kp: f64, r: f64, t: f64) -> f64 {
@@ -11,17 +13,36 @@ pub fn generate(rng: &mut StdRng) -> String {
     let r = rng.random_range(2..=10) as f64;
     let closed = tau / (1.0 + k * kp);
     let steady = r * k * kp / (1.0 + k * kp);
-    let mut out = format!(
-        "Dimensionless first-order process: tau dy/dt + y = K u, with tau={tau:.1} s, K={k:.1}. Negative unity feedback uses u=Kp(r-y), Kp={kp:.1}; target steps from 0 to r={r:.1} at t=0, initial y=0. Ideal measurement, no delay or actuator saturation.\nClosed-loop time constant {closed:.4} s; steady output {steady:.4}, persistent error {:.4}.\nTime s | output y | command u",
-        r - steady
-    );
-    for multiple in [0.0, 0.5, 1.0, 2.0, 4.0] {
-        let t = closed * multiple;
-        let y = response(k, tau, kp, r, t);
-        write!(out, "\n{t:.4} | {y:.5} | {:.5}", kp * (r - y)).unwrap();
+    if rng.random_bool(0.5) {
+        format!(
+            "G(s) = {}/({}s + 1)\nu = {}(r − y)\n\ny/r = {}/({}s + {})\nPole −{} s⁻¹\nStep r = {} → y(∞) = {}",
+            n(k),
+            n(tau),
+            n(kp),
+            n(k * kp),
+            n(tau),
+            n(1.0 + k * kp),
+            n(1.0 / closed),
+            n(r),
+            n(steady)
+        )
+    } else {
+        let mut out = format!(
+            "{}y′ + y = {}u\nu = {}(r − y)\nr: 0 → {} at t = 0, y(0) = 0\n\nt (s) | y | u",
+            n(tau),
+            n(k),
+            n(kp),
+            n(r)
+        );
+        for multiple in [0.0, 0.5, 1.0, 2.0, 4.0] {
+            let t = closed * multiple;
+            let y = response(k, tau, kp, r, t);
+            write!(out, "\n{} | {} | {}", n(t), n(y), n(kp * (r - y))).unwrap();
+        }
+        out
     }
-    out
 }
+
 #[cfg(test)]
 mod tests {
     use super::*;

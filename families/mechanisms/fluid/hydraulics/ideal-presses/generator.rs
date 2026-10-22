@@ -1,3 +1,5 @@
+include!("../../../number.rs");
+
 use rand::{Rng, rngs::StdRng};
 use std::f64::consts::PI;
 fn press(d1: f64, d2: f64, force: f64, travel: f64) -> (f64, f64, f64) {
@@ -11,14 +13,32 @@ pub fn generate(rng: &mut StdRng) -> String {
     let f = rng.random_range(1..=12) as f64 * 100.0;
     let x = rng.random_range(2..=10) as f64 * 10.0;
     let (p, out, travel) = press(d1 / 1000.0, d2 / 1000.0, f, x / 1000.0);
-    format!(
-        "Ideal hydraulic press: incompressible liquid, pistons at equal elevation, no friction or leakage, quasistatic motion. Input piston diameter {d1:.0} mm; output diameter {d2:.0} mm.\nInput force {f:.0} N and input travel {x:.0} mm produce pressure {:.3} MPa, output force {out:.3} N and output travel {:.3} mm.\nDisplaced volume {:.3} cm^3; equal ideal input/output work {:.3} J. The volume and work balances trade travel for force.",
-        p / 1e6,
-        travel * 1000.0,
-        PI * d1 * d1 / 4.0 * x / 1000.0,
-        f * x / 1000.0
-    )
+    if rng.random_bool(0.5) {
+        format!(
+            "Lossless hydraulic press\nQuantity | input | output\nPiston Ø (mm) | {} | {}\nForce (N) | {} | {}\nTravel (mm) | {} | {}\n\np = {} MPa",
+            n(d1),
+            n(d2),
+            n(f),
+            n(out),
+            n(x),
+            n(travel * 1000.0),
+            n(p / 1e6)
+        )
+    } else {
+        format!(
+            "Lossless hydraulic press\nØ{} mm → Ø{} mm\n{} N × {} mm → {} N × {} mm\n\nDisplacement {} cm³\nWork {} J",
+            n(d1),
+            n(d2),
+            n(f),
+            n(x),
+            n(out),
+            n(travel * 1000.0),
+            n(PI * d1 * d1 / 4.0 * x / 1000.0),
+            n(f * x / 1000.0)
+        )
+    }
 }
+
 #[cfg(test)]
 mod tests {
     use super::*;

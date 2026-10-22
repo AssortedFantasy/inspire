@@ -56,12 +56,15 @@ def produce(cache, download=False):
             text = text[text.index(entry["start"]):]
         if entry["end"]:
             text = text[:text.index(entry["end"])]
-        text = text.rstrip(" ;")
-        if text[-1] not in ".?!":
-            text += "."
+        text = text.rstrip()
+        if not text or text[-1] not in ".?!":
+            raise ValueError(f"Movement {number} must end at a complete sentence")
         groups[entry["path"]].append({
             "id": f"brown-1908-movement-{number:03}",
-            "text": f"Henry T. Brown (1908), movement {number}:\n{text}",
+            "text": (
+                f"{text}\n\n— Henry T. Brown, Five Hundred and Seven Mechanical "
+                f"Movements (1908), no. {number}"
+            ),
             "provenance": (
                 "Henry T. Brown, Five Hundred and Seven Mechanical Movements, "
                 f"21st edition (1908), movement {number}; public-domain excerpt. "

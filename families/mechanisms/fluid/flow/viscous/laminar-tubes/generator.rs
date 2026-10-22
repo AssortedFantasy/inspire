@@ -1,3 +1,5 @@
+include!("../../../../number.rs");
+
 use rand::{Rng, rngs::StdRng};
 use std::f64::consts::PI;
 fn flow(r: f64, length: f64, mu: f64, dp: f64) -> f64 {
@@ -7,20 +9,37 @@ pub fn generate(rng: &mut StdRng) -> String {
     let radius = rng.random_range(1..=4) as f64 / 1000.0;
     let length = rng.random_range(1..=4) as f64;
     let mu = rng.random_range(2..=8) as f64 / 100.0;
-    let density = 900.0;
     let dp = rng.random_range(1..=6) as f64 * 100.0;
     let q = flow(radius, length, mu, dp);
     let velocity = q / (PI * radius * radius);
-    let re = density * velocity * 2.0 * radius / mu;
-    format!(
-        "Steady, fully developed laminar flow of a Newtonian liquid through a straight circular tube. No-slip wall, rigid tube; entrance effects neglected. Radius {:.1} mm, length {length:.1} m, viscosity {mu:.3} Pa s, density {density:.0} kg/m^3; pressure drop {dp:.0} Pa.\nPoiseuille flow Q = pi r^4 DeltaP/(8 mu L) = {:.6} mL/s. Mean speed {:.6} m/s; Reynolds number {re:.3} (within the assumed laminar range). Centerline speed {:.6} m/s.\nVelocity profile v(s) = DeltaP(r^2-s^2)/(4 mu L), where s is radial distance from the axis. Pressure power dissipated = {:.8} W.",
-        radius * 1000.0,
-        q * 1e6,
-        velocity,
-        2.0 * velocity,
-        dp * q
-    )
+    let mut out = format!(
+        "Laminar Newtonian tube flow\nRadius {} mm, length {} m\nViscosity {} Pa·s\nPressure drop {} Pa\nQ = {} mL/s",
+        n(radius * 1000.0),
+        n(length),
+        n(mu),
+        n(dp),
+        n(q * 1e6)
+    );
+    if rng.random_bool(0.5) {
+        out.push_str("\n\nr/radius | velocity (mm/s)");
+        for fraction in [0.0, 0.25, 0.5, 0.75, 1.0] {
+            out.push_str(&format!(
+                "\n{} | {}",
+                n(fraction),
+                n(2.0 * velocity * (1.0 - fraction * fraction) * 1000.0)
+            ));
+        }
+    } else {
+        out.push_str(&format!(
+            "\nMean speed {} mm/s\nWall shear {} Pa\nDensity 900 kg/m³\nRe = {}",
+            n(velocity * 1000.0),
+            n(dp * radius / (2.0 * length)),
+            n(900.0 * velocity * 2.0 * radius / mu)
+        ));
+    }
+    out
 }
+
 #[cfg(test)]
 mod tests {
     use super::*;

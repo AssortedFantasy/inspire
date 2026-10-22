@@ -1,3 +1,5 @@
+include!("../../../number.rs");
+
 use rand::{Rng, rngs::StdRng};
 use std::{f64::consts::TAU, fmt::Write};
 fn state(h: f64, beta: f64, omega: f64, theta: f64) -> (f64, f64, f64) {
@@ -14,15 +16,25 @@ pub fn generate(rng: &mut StdRng) -> String {
     let beta = (deg as f64).to_radians();
     let omega = rpm as f64 * TAU / 60.0;
     let mut out = format!(
-        "Ideal translating cam follower: cycloidal rise of {h:.0} mm over {deg} degrees at constant {rpm} rpm. Only the rise segment is specified; dwell and return are outside this segment.\nu = theta/beta; displacement s = h[u - sin(2 pi u)/(2 pi)].\nRise fraction u | displacement mm | velocity mm/s | acceleration mm/s^2"
+        "Cycloidal cam rise\nLift {} mm over {deg}°, {rpm} rpm\ns = {}[u − sin(2πu)/(2π)] mm, u = θ/{deg}°",
+        n(h),
+        n(h)
     );
-    for q in 0..=4 {
-        let u = q as f64 / 4.0;
-        let (s, v, a) = state(h, beta, omega, u * beta);
-        write!(out, "\n{u:.2} | {s:.4} | {v:.4} | {a:.4}").unwrap();
+    if rng.random_bool(0.5) {
+        out.push_str("\n\nθ (°) | s (mm) | v (mm/s)");
+        for q in 0..=8 {
+            let u = q as f64 / 8.0;
+            let (s, v, _) = state(h, beta, omega, u * beta);
+            write!(out, "\n{} | {} | {}", n(u * deg as f64), n(s), n(v)).unwrap();
+        }
+    } else {
+        let (_, v, _) = state(h, beta, omega, beta / 2.0);
+        let (_, _, a) = state(h, beta, omega, beta / 4.0);
+        write!(out,"\n\nRise duration {} s\nPeak speed {} mm/s at {}°\nAcceleration extrema ±{} mm/s² at {}° and {}°",n(beta/omega),n(v),n(deg as f64/2.0),n(a),n(deg as f64/4.0),n(3.0*deg as f64/4.0)).unwrap();
     }
     out
 }
+
 #[cfg(test)]
 mod tests {
     use super::*;

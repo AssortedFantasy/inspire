@@ -1,12 +1,12 @@
 [
   {
     "id": "slider-crank",
-    "text": "A slider-crank uses a connecting rod to exchange rotary motion and reciprocating linear motion. The same geometry can drive a piston or be driven by one.",
-    "provenance": "Original factual paraphrase. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
+    "text": "Inline slider–crank\nx(θ) = r cosθ + √(l² − r² sin²θ)\nCrank radius r\nConnecting-rod length l > r\nStroke = 2r",
+    "provenance": "Factual relations and notation. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
   },
   {
     "id": "dead-center",
-    "text": "A slider-crank reaches dead centers at the ends of piston travel. A flywheel helps carry rotation through positions where the piston cannot produce useful turning torque.",
-    "provenance": "Original factual paraphrase. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
+    "text": "Inline slider–crank, l > r\nθ = 0 → x = l + r\nθ = π → x = l − r\ndx/dθ = 0 at both dead centers\nAxial piston force → zero crank torque at dead center",
+    "provenance": "Factual relations and notation. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
   }
 ]

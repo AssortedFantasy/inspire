@@ -1,17 +1,17 @@
 [
   {
     "id": "derivative-action",
-    "text": "Derivative action responds to how quickly a measured process variable is changing. It can damp oscillation but also magnify measurement noise.",
-    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
+    "text": "u_D(t) = −K_D dy/dt\ny(t) = measured process variable",
+    "provenance": "Factual relations and notation. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
   },
   {
     "id": "derivative-filter",
-    "text": "Filtering a derivative estimate reduces its sensitivity to rapid measurement noise, at the cost of adding lag.",
-    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
+    "text": "Filtered derivative on measurement\nU_D(s)/Y(s) = −K_D s/(1 + τ_f s)\nτ_f > 0\nHigh-frequency gain magnitude → |K_D|/τ_f",
+    "provenance": "Factual relations and notation. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13. Additional source: MathWorks, pid parallel-form controller model; https://www.mathworks.com/help/control/ref/pid.html. Consulted 2026-10-22."
   },
   {
     "id": "derivative-kick",
-    "text": "A sudden target change can create a large derivative response if the controller differentiates error. Differentiating the measured variable instead avoids this target-induced kick.",
-    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
+    "text": "e = r − y\nD_error = K_D(dr/dt − dy/dt)\nD_measurement = −K_D dy/dt\nSetpoint step Δr → K_D Δr δ(t) in D_error",
+    "provenance": "Factual relations and notation. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PID lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralDerivative. Consulted 2026-10-13."
   }
 ]

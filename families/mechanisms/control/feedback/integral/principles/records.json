@@ -1,17 +1,17 @@
 [
   {
     "id": "integral-control",
-    "text": "Integral action accumulates error over time. It can keep changing the control output even when the instantaneous error is small.",
-    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PI lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralControl. Consulted 2026-10-13."
+    "text": "I(t) = I(0) + K_I ∫₀ᵗ e(τ) dτ\ndI/dt = K_I e(t)",
+    "provenance": "Factual relations and notation. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PI lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralControl. Consulted 2026-10-13."
   },
   {
     "id": "pi-controller",
-    "text": "A PI controller combines a response to present error with a response to accumulated error, often removing the offset left by proportional control.",
-    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PI lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralControl. Consulted 2026-10-13."
+    "text": "e(t) = r(t) − y(t)\nu(t) = u_bias + K_P e(t) + K_I ∫₀ᵗ e(τ) dτ\nK_I = K_P/τ_I",
+    "provenance": "Factual relations and notation. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PI lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralControl. Consulted 2026-10-13."
   },
   {
     "id": "bumpless-transfer",
-    "text": "When switching from manual operation to automatic control, matching the controller's initial output to the current output can avoid an abrupt jump.",
-    "provenance": "Original factual paraphrase. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PI lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralControl. Consulted 2026-10-13."
+    "text": "u = b + K_P e + I\nI(t_switch) = u_manual − b − K_P e(t_switch)\nu(t_switch⁺) = u_manual",
+    "provenance": "Factual relations and notation. Source: John D. Hedengren, APMonitor Process Dynamics and Control, PI lesson; https://apmonitor.com/pdc/index.php/Main/ProportionalIntegralControl. Consulted 2026-10-13."
   }
 ]

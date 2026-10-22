@@ -1,3 +1,5 @@
+include!("../../../../number.rs");
+
 use rand::{Rng, rngs::StdRng};
 use std::fmt::Write;
 
@@ -40,25 +42,41 @@ pub fn generate(rng: &mut StdRng) -> String {
     let protected = simulate(kp, ki, tau, true);
     let plain = simulate(kp, ki, tau, false);
     let mut out = format!(
-        "Sampled PI loop with actuator limits 0 <= u <= 1 and unit-gain plant tau y' + y = u, tau={tau:.1} s. Kp={kp:.2}, Ki={ki:.2}/s; sample interval 0.2 s; y and integral contribution initially zero. Target 1.5 for 0 <= t < 10 s, then 0.35. The first target exceeds actuator capacity.\nAt each sample: u=clip(Kp(r-y)+I); freeze I when a saturated command and error would push farther into saturation, otherwise I_next=I+Ki*0.2*(r-y). A held command advances the plant exactly. The comparison uses the same loop without freezing.\nTime s | protected y | protected u | integral frozen | unprotected y | unprotected I"
+        "PI saturation recovery\n{}y′ + y = u, 0 ≤ u ≤ 1\nKp = {}, Ki = {} s⁻¹, Δt = 0.2 s\ny(0) = I(0) = 0\nr = 1.5 until 10 s, then 0.35\nAnti-windup: freeze I while error drives u past a limit",
+        n(tau),
+        n(kp),
+        n(ki)
     );
-    for index in [0, 5, 25, 49, 50, 55, 75, 100, 159] {
-        let a = protected[index];
-        let b = plain[index];
-        write!(
-            out,
-            "\n{:.1} | {:.5} | {:.5} | {} | {:.5} | {:.5}",
-            index as f64 * 0.2,
-            a.y,
-            a.command,
-            a.blocked,
-            b.y,
-            b.integral
-        )
-        .unwrap();
+    if rng.random_bool(0.5) {
+        out.push_str("\n\nt (s) | y (anti-windup) | y (free I)");
+        for index in [0, 25, 49, 50, 55, 75, 100, 159] {
+            write!(
+                out,
+                "\n{} | {} | {}",
+                n(index as f64 * 0.2),
+                n(protected[index].y),
+                n(plain[index].y)
+            )
+            .unwrap();
+        }
+    } else {
+        out.push_str("\n\nt (s) | u | I | freeze");
+        for index in [45, 49, 50, 51, 55, 60, 75, 100] {
+            let row = protected[index];
+            write!(
+                out,
+                "\n{} | {} | {} | {}",
+                n(index as f64 * 0.2),
+                n(row.command),
+                n(row.integral),
+                if row.blocked { "yes" } else { "no" }
+            )
+            .unwrap();
+        }
     }
     out
 }
+
 #[cfg(test)]
 mod tests {
     use super::*;

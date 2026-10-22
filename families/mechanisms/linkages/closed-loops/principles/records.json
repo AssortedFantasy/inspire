@@ -1,32 +1,32 @@
 [
   {
     "id": "four-bar-loop",
-    "text": "A planar four-bar linkage connects four rigid links in a closed loop, one fixed as the frame. The joint geometry constrains how the remaining links move.",
-    "provenance": "Original factual paraphrase. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
+    "text": "a cosθ₂ + b cosθ₃ = d + c cosθ₄\na sinθ₂ + b sinθ₃ = c sinθ₄\nFrame d along the x-axis\nInput a, coupler b, output c",
+    "provenance": "Factual relations and notation. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
   },
   {
     "id": "crank-rocker",
-    "text": "A crank-rocker linkage combines an input capable of full rotation with an output that swings through a limited arc.",
-    "provenance": "Original factual paraphrase. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
+    "text": "Four-bar crank–rocker\ns + l < p + q\nShortest link s adjacent to the fixed link\ns = shortest, l = longest, p and q = remaining lengths",
+    "provenance": "Factual relations and notation. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
   },
   {
     "id": "double-rocker",
-    "text": "In a double-rocker four-bar mechanism, both links attached to the frame have limited angular travel.",
-    "provenance": "Original factual paraphrase. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
+    "text": "Non-Grashof four-bar\ns + l > p + q\nAll four choices of fixed link → double-rocker\ns = shortest, l = longest, p and q = remaining lengths",
+    "provenance": "Factual relations and notation. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
   },
   {
     "id": "grashof-test",
-    "text": "For a four-bar loop, compare the shortest-plus-longest link lengths with the other two lengths. Grashof's test helps classify which links can make complete rotations.",
-    "provenance": "Original factual paraphrase. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
+    "text": "Four-bar link lengths s ≤ p ≤ q ≤ l\ns + l < p + q → Grashof\ns + l = p + q → change-point\ns + l > p + q → non-Grashof",
+    "provenance": "Factual relations and notation. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
   },
   {
     "id": "change-point",
-    "text": "A four-bar linkage at the equality case of Grashof's condition can reach a collinear configuration where it may change assembly branch.",
-    "provenance": "Original factual paraphrase. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
+    "text": "Four-bar change-point\ns + l = p + q\nCollinear configuration\nTwo assembly branches meet\ns = shortest, l = longest, p and q = remaining lengths",
+    "provenance": "Factual relations and notation. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
   },
   {
     "id": "kinematic-inversion",
-    "text": "Fixing a different link in the same linkage changes the mechanism's motion while retaining the link lengths and joint connections.",
-    "provenance": "Original factual paraphrase. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
+    "text": "Grashof four-bar, s + l < p + q\nFixed shortest link → double-crank\nFixed neighbor of shortest link → crank–rocker\nFixed link opposite shortest link → double-rocker",
+    "provenance": "Factual relations and notation. Source: Robert L. Williams II, Ohio University, ME 3011 Kinematics and Dynamics of Machines notes; https://people.ohio.edu/williams/html/PDF/NotesBook3011.pdf. Consulted 2026-10-13."
   }
 ]

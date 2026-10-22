@@ -1,12 +1,12 @@
 [
   {
     "id": "moment-arm",
-    "text": "Torque depends on force and the perpendicular distance from the rotation axis to the force's line of action. A long handle is useful only if the force is applied in a useful direction.",
-    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 10.6; https://openstax.org/books/university-physics-volume-1/pages/10-6-torque. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+    "text": "τ = r × F\n|τ| = rF sinθ = Fd_perpendicular\nθ = angle between r and F",
+    "provenance": "Factual relations and notation. Source: OpenStax, University Physics Volume 1, section 10.6; https://openstax.org/books/university-physics-volume-1/pages/10-6-torque. Consulted 2026-10-13."
   },
   {
     "id": "radial-force",
-    "text": "A force directed straight toward or away from a pivot produces no torque about that pivot, even if the force is large.",
-    "provenance": "Original factual paraphrase. Source: OpenStax, University Physics Volume 1, section 10.6; https://openstax.org/books/university-physics-volume-1/pages/10-6-torque. Consulted 2026-10-13. Independently worded factual explanation; no OpenStax prose is reproduced."
+    "text": "F ∥ r\nτ = r × F = 0",
+    "provenance": "Factual relations and notation. Source: OpenStax, University Physics Volume 1, section 10.6; https://openstax.org/books/university-physics-volume-1/pages/10-6-torque. Consulted 2026-10-13."
   }
 ]
