@@ -1,0 +1,53 @@
+[
+  {
+    "id": 216,
+    "path": "scripture/wisdom/tao-te-ching/legge",
+    "parser": "tao",
+    "author": "Laozi (traditional attribution)",
+    "title": "Tao Te Ching",
+    "edition": "1891",
+    "translator": "James Legge",
+    "rights": "Legge died 1897; translation published 1891. Public domain in the USA and Canada.",
+    "url": "https://www.gutenberg.org/cache/epub/216/pg216-images.html",
+    "catalog_url": "https://www.gutenberg.org/ebooks/216",
+    "sha256": "2e90738a0501c5ff7253ef24b982edb9d5819e20365736e16160d1a424e072e9"
+  },
+  {
+    "id": 2017,
+    "path": "scripture/wisdom/dhammapada/muller",
+    "parser": "dhammapada",
+    "author": "Dhammapada",
+    "title": "Dhammapada",
+    "edition": "1881",
+    "translator": "F. Max Müller",
+    "rights": "Müller died 1900; translation published in Sacred Books of the East X, Part I (1881). Public domain in the USA and Canada.",
+    "url": "https://www.gutenberg.org/cache/epub/2017/pg2017-images.html",
+    "catalog_url": "https://www.gutenberg.org/ebooks/2017",
+    "sha256": "cd355d553c1cc6c532968dbe823393f9e2000e53562528b06505839278953733"
+  },
+  {
+    "id": 18947,
+    "path": "mythology/norse/edda/anderson",
+    "parser": "edda",
+    "author": "Snorri Sturluson",
+    "title": "The Younger Edda",
+    "edition": "1901",
+    "translator": "Rasmus Björn Anderson",
+    "rights": "Snorri died 1241; Anderson died 1936; this edition published 1901. Public domain in the USA and Canada.",
+    "url": "https://www.gutenberg.org/cache/epub/18947/pg18947-images.html",
+    "catalog_url": "https://www.gutenberg.org/ebooks/18947",
+    "sha256": "2292c629922d67c024f73b5d52890308f77fb4b15871103f8a14362745feff9f"
+  },
+  {
+    "id": 3327,
+    "path": "mythology/greek/bulfinch/age-of-fable",
+    "parser": "bulfinch",
+    "author": "Thomas Bulfinch",
+    "title": "The Age of Fable",
+    "edition": "Edward Everett Hale revision",
+    "rights": "Bulfinch died 1867; reviser Edward Everett Hale died 1909. Nineteenth-century text, public domain in the USA and Canada.",
+    "url": "https://www.gutenberg.org/cache/epub/3327/pg3327-images.html",
+    "catalog_url": "https://www.gutenberg.org/ebooks/3327",
+    "sha256": "3784019431a34242818a9e8c12a38f2b479c947e86c2ce7d49582a38303636cf"
+  }
+]
