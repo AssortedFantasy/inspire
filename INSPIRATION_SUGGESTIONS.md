@@ -6,6 +6,49 @@ entry outlines how to achieve **within-niche structural diversity** so samples
 vary in topology, regime, mechanism, or perspective rather than just swapping
 numbers or names into a rigid template.
 
+## Integration status
+
+Existing coverage sometimes lives at a different path. Extend these implementations
+instead of creating duplicate branches. The proposals below retain ideas that go
+beyond their current scope.
+
+| Proposal | Existing implementation and remaining scope |
+| --- | --- |
+| `mechanisms/gears/trains` | `mechanisms/mechanical/transmission/gears/{compound-trains,epicyclic-trains}` |
+| `mechanisms/cams/profiles` | `mechanisms/linkages/cams/{motion-programs,cycloidal-rise}`; pressure-angle bounds remain open |
+| `procedures/weaving/drafts` | `design/textiles/weaving/{plain,basket,twill,satin}`; huck and overshot remain open |
+| `procedures/household/historical` | `history/material-practices/households/britain/beeton-1861` |
+| `procedures/printing/letterpress` | `history/material-practices/printing/united-states/stewart-1919` |
+| `random/graphs/small-topologies` | `math/discrete-mathematics/graph-theory/atlas/{forests,bipartite-cyclic,nonbipartite}`; 3–7 vertices, including disconnected graphs |
+| `math/abstract-algebra/cayley-tables` | `math/algebra/groups/finite-groups/`; focused views of seven group classes, without complete subgroup lattices |
+| `random/permutations/cycles` | `math/algebra/groups/finite-groups/symmetric`; inversion-table view remains open |
+| `procedures/algorithms/sorting/traces` | `procedures/algorithms/sequences/sorting/`; stable merge, insertion and selection traces; quicksort and radix remain open |
+| `procedures/algorithms/strings` | `procedures/algorithms/sequences/alignment/levenshtein-distance`; KMP and Huffman remain open |
+| `language/word-histories/doublets` | `language/word-histories` includes sourced Weekley passages on doublets |
+
+New implementations and their exact model limits are documented in the
+[physics](families/physics/README.md), [society](families/society/README.md),
+[computing](families/computing/README.md) and [transport](families/transport/README.md)
+family READMEs. A leaf's presence does not imply every proposed variant is implemented.
+
+This integration adds:
+
+| Implemented leaf | Coverage |
+| --- | --- |
+| `physics/mechanics/collisions` | Collinear and oblique smooth impacts, grazing contact, coalescence, lab/COM frames |
+| `physics/optics/lens-systems` | Single lenses, relays, telephoto pairs, afocal telescopes and focal boundaries |
+| `physics/waves/standing` | Strings, light-touch harmonics, open and stopped pipes, spectra and mode shapes |
+| `society/voting/elections` | Plurality, Borda, tie-aware IRV and pairwise comparisons, including cycles and center squeeze |
+| `society/economics/matching` | Both deferred-acceptance extremes and enumerated stable assignments |
+| `society/economics/game-theory` | Five 2×2 regimes and weighted cyclic zero-sum games, exact equilibria and pure-cell Pareto sets |
+| `computing/automata/cellular` | Elementary rules, finite boundaries, contrasting starts and perturbation comparisons |
+| `computing/concurrency/schedules` | Split-increment lost updates, lock-order deadlocks, SC/TSO store-buffer litmus witnesses |
+| `computing/floating-point/ieee754` | Binary32 fields, neighbors, rounding ties, underflow, association and special encodings |
+| `transport/aviation/airports/*` | 1,248 pinned OurAirports sites in six type leaves, with source codes, elevation and longest listed surface |
+
+Existing stable-merge traces now mix tied, separated, interleaved and unequal
+runs. The backlog's remaining variants are proposals, not claims about current output.
+
 ## New top-level families
 
 ### physics
@@ -35,10 +78,10 @@ numbers or names into a rigid template.
   - Span LEO-to-GEO ascent, lunar capture, and heliocentric planetary transfers.
 - `physics/dimensional/buckingham-pi` *(gen)*: a physical relation reduced to its dimensionless Pi groups from a nullspace basis of the unit matrix.
   - Span fluid drag (Reynolds/Mach), hull resistance (Froude/Weber), natural convection (Nusselt/Rayleigh/Prandtl), and blast scaling (Taylor-Sedov).
-  - Show the $[M, L, T, \Theta]$ dimensional matrix, repeating variables, and resulting orthogonal $\Pi$-groups.
-- `physics/constants`: CODATA constants with value, uncertainty, and the experiment that pins them down.
+  - Show the $[M, L, T, \Theta]$ dimensional matrix, repeating variables, and resulting independent $\Pi$-groups.
+- `physics/constants`: CODATA constants with value, uncertainty, and measurement or unit-realization context.
   - Span exact SI defining constants ($c, h, e, k_B$), low-uncertainty QED constants ($\alpha, R_\infty$), and macroscopic invariants ($G$).
-  - Pair values with the primary apparatus (Kibble balance, cold-atom recoil, Penning trap, torsion pendulum).
+  - Pair measured values with the primary apparatus (cold-atom recoil, Penning trap, torsion pendulum). For exact SI defining constants, describe unit realization (such as a Kibble balance), not a new measurement of a fixed numerical value.
 - `physics/units/obsolete`: furlongs, barleycorns, grains, and ells with exact SI conversions and where they were used.
   - Cover textile commerce (Flemish/Scottish ells), surveyor chains and rods, apothecary weights (scruples, drachms), maritime fathoms, and regional systems (French *toise*, Russian *verst/pood*, German mining *Lachter*).
 - `physics/thought-experiments`: Maxwell's demon, Newton's bucket, the twin paradox, stated in a few sentences each.
@@ -69,7 +112,7 @@ numbers or names into a rigid template.
   - Span medieval English grain (Beveridge), 16th-century Spanish silver inflation (Hamilton), Edo-period Osaka rice, and 19th-century industrial staples, including both stable decades and famine/blockade shocks.
 - `society/economics/market-clearing` *(gen)*: linear supply and demand, equilibrium, and the effect of a tax or price ceiling.
   - Vary regimes: undisturbed clearing, per-unit tax incidence across inelastic vs. elastic curves, binding price ceilings (shortages), and non-binding vs. binding price floors.
-- `society/economics/auctions` *(gen)*: bidders' valuations and the outcome under English, Dutch, and Vickrey rules.
+- `society/economics/auctions` *(gen)*: bidder valuations, submitted bids or an explicit strategy and information model, and outcomes under English, Dutch, and Vickrey rules.
   - Contrast independent private values against common-value auctions with the winner's curse, and include all-pay or reserve-price edge cases where a high-valuation item goes unsold.
 - `society/economics/game-theory` *(gen)*: a 2x2 or 3x3 normal-form payoff matrix with its pure and mixed Nash equilibria and Pareto frontier.
   - Rotate across Prisoner's Dilemma, Stag Hunt (payoff- vs. risk-dominant equilibria), Hawk-Dove, Battle of the Sexes, and zero-sum cyclic games with unique mixed equilibria.
@@ -342,7 +385,7 @@ numbers or names into a rigid template.
 - `systems/queues/kendall` *(gen)*: an M/M/1 or M/M/c queue with arrival and service rates, utilization, mean wait time, and queue length distribution.
   - Contrast light traffic, heavy-traffic near-saturation ($\rho \to 1$), multi-server pooling ($M/M/c$ vs. $c$ separate $M/M/1$ queues), and finite-buffer $M/M/1/K$ loss regimes.
 - `systems/ecology/lotka-volterra` *(gen)*: predator-prey or competing-species parameters with equilibrium points, Jacobian eigenvalues, and phase-portrait regime.
-  - Vary across neutral predator-prey cycles, damped spirals to a stable coexistence node, Hopf limit cycles, and two-species competitive exclusion vs. bistability.
+  - Keep classic Lotka–Volterra predator-prey neutral cycles distinct from competitive exclusion and bistability in competition models. State logistic-growth and saturating-response extensions explicitly when generating damped spirals or Hopf limit cycles; distinguish stable nodes from stable foci.
 - `systems/epidemiology/compartments` *(gen)*: an SIR or SEIR model with R0, herd-immunity threshold, peak infectious fraction, and final epidemic size.
   - Contrast subcritical fadeout ($R_0 < 1$), sharp high-$R_0$ outbreaks, long-latent SEIR waves, and endemic SIRS equilibria with waning immunity.
 - `systems/cybernetics/feedback-archetypes`: limits to growth, shifting the burden, tragedy of the commons, and bullwhip effect as causal loop structures.
@@ -391,6 +434,7 @@ numbers or names into a rigid template.
   - Span transit icons, ISO hazard triangles/circles, topographic map symbols, and hobo/trail markers.
 - `design/origami/tessellations` *(gen)*: Kawasaki and Maekawa flat-foldability vertex assignments on a small grid.
   - Vary between Miura-ori rigid folds, waterbomb bases, square-twist tessellations, and single-vertex mountain/valley parity assignments.
+  - Distinguish local vertex conditions from global flat-foldability and nonintersection. Use verified constructions for complete tessellations; local angle/parity checks alone do not certify a whole grid.
 
 ### games
 - `games/board/go-openings`: joseki with sequences.
@@ -729,7 +773,7 @@ numbers or names into a rigid template.
   - Contrast convex polygons, star-shaped polygons, rectilinear orthogonal polygons, and deep-bay non-convex polygons.
 - `random/sounds/frequencies` *(gen)*: a chord or frequency set given in Hz, cents, and MIDI.
   - Mix standard 12-TET triads/voicings with harmonic-series overtone clusters, sub-bass intervals, and microtonal dyads.
-- `random/graphs/small-topologies` *(gen)*: a non-isomorphic connected graph on 5–8 vertices with its adjacency list, degree sequence, girth, and chromatic number.
+- `random/graphs/small-topologies` *(gen)*: an unlabeled connected graph on 5–7 vertices from the existing atlas, with adjacency list and selected invariants. Eight-vertex coverage needs a separate source or generation method.
   - Sample uniformly across non-isomorphic graph atlas classes (trees, unicyclic graphs, bipartite graphs, planar cages, and dense cliques).
 - `random/orders/posets` *(gen)*: a finite partially ordered set given by covering relations, its linear extensions count, and its antichains.
   - Contrast chains, flat antichains, Boolean lattices, series-parallel posets, and N-free vs. crown posets.

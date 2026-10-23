@@ -73,7 +73,7 @@ Use `inspire` before making a decision.
 
 ## Dataset
 
-Fifteen top-level families combine downloaded corpora with bounded procedural
+Nineteen top-level families combine downloaded corpora with bounded procedural
 generators. `inspire --list` shows the tree embedded in the current build;
 `python scripts/review_content.py` reports source record and generator counts.
 
@@ -82,6 +82,7 @@ Select any branch or leaf with `--family`. Omit it to sample the whole tree.
 | Family | Material |
 | --- | --- |
 | `chemistry` | Chemical compounds and balanced equations |
+| `computing` | Cellular automata, concurrent executions, and exact binary32 artifacts |
 | `design` | Coordinated wardrobes, SPICE circuits, and textile weave drafts |
 | `games` | Legal board positions, opening books, card deals, dice, and puzzles |
 | `geography` | Settlements, administrative regions, countries, landforms, and waters |
@@ -94,15 +95,18 @@ Select any branch or leaf with `--family`. Omit it to sample the whole tree.
 | `natural-world` | Species and biological traits, adaptations, plants, astronomical bodies, and natural processes |
 | `objects` | Historical museum artifacts and actual car make, model, and year combinations |
 | `people` | Notable people grouped by field |
+| `physics` | Collisions, thin-lens systems, and standing-wave modes |
 | `procedures` | Algorithms, crafts, cooking, and experimental methods |
 | `random` | Dates and times, colors, and UUIDs |
+| `society` | Elections, stable matchings, and exact game equilibria |
+| `transport` | Real airports, heliports, seaplane bases, and balloonports |
 
 Weights are local to siblings: a larger corpus does not automatically receive
 more samples. Broad top-level families have weight 2; raw random values have
 weight 1. Names within `people`,
 `objects/cars`, museum artifacts, animal and plant profiles, geographic topics,
-chemical identities, and instrument catalogues have equal per-record shares
-within their collections. Other branches balance subjects rather than corpus
+chemical identities, instrument catalogues, and airport types have equal
+per-record shares within their collections. Other branches balance subjects rather than corpus
 size; family READMEs explain their local choices. Colors and dates
 each have twice UUID's share. `--list` shows the
 effective probabilities. Calls are independent, so repeats are possible.

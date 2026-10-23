@@ -1,8 +1,58 @@
 # Content maintenance - 2026-10-22
 
-The tree contains 76,353 records in 563 corpora and 156 generators across 15
-families. This pass adds 1,374 records and 15 generators overall while merging
-small collections and removing duplicate or weak material.
+The tree contains 77,601 records in 569 corpora and 165 generators across 19
+families.
+
+## Suggestion integration
+
+The [suggestion backlog](../INSPIRATION_SUGGESTIONS.md) now distinguishes existing
+coverage, this integration and unimplemented extensions. Existing gears, cams,
+weaves, group objects, graph atlas and historical manual passages are indexed
+under their current paths instead of duplicated.
+
+Nine generators add physical, computational and social-choice artifacts:
+collisions, thin-lens systems, standing waves, cellular automata, concurrency
+schedules, binary32 arithmetic, elections, stable matchings and normal-form
+games. Their family READMEs document model boundaries and primary references.
+Regime construction mixes ordinary cases with conservation limits, focal
+singularities, changing boundary conditions, majority cycles, competing stable
+assignments, deadlocks, buffered reads and rounding transitions. Stable-merge
+traces also gain tied, separated, interleaved and unequal input runs.
+
+Transport adds 1,248 public-domain OurAirports sites in six leaves. A pinned
+three-file importer verifies checksums, joins landing surfaces by source ID and
+balances countries within each site type. It mixes ordinary sites with elevation
+extremes, omits unavailable fields, retains source surface codes, and gives every
+selected site equal sampling probability. Independent source checks cover every selected
+ID, name, elevation, code and local weight; replay reproduces all records.
+
+Dogfooding used the existing CLI during implementation, then targeted each new
+leaf. Election seed 3 produces Borda A versus majority/IRV B; matching seed 3 has
+four stable assignments; stable-merge seed 3 alternates runs and seed 456 exercises
+all-equal ties. These seeds describe this build, not a permanent seed contract.
+Contrasting current names, objects, verse and procedural samples helped retain
+ordinary material alongside technical constructions.
+
+The source scan finds no normalized exact duplicate records. The probability of
+two root draws selecting the same corpus record is now 0.007497%; this excludes
+generator collisions and does not measure structural variety or correctness.
+
+The final release review exercised 128 seeds for every generator and 128 root
+draws; those root draws covered all 19 families. All 351 Rust tests and nine
+review-tool tests pass. All 165 generators pass individual rustfmt checks, and
+Clippy passes with warnings denied. Airport import
+replay and independent source checks pass. The release review command is:
+
+```sh
+python -B scripts/review_content.py --binary target/release/inspire.exe --samples 4 --seeds 128 --weighted-samples 128 --seed 20261022 --output target/suggestions-review.json
+```
+
+## Earlier maintenance
+
+The preceding pass contained 76,353 records in 563 corpora and 156 generators
+across 15 families. It added 1,374 records and 15 generators while merging small
+collections and removing duplicate or weak material. The following notes record
+that earlier review.
 
 ## Output quality
 
