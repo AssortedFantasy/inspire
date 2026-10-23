@@ -251,9 +251,9 @@ mod tests {
                     borda.iter().sum::<u32>(),
                     total * (e.n * (e.n - 1) / 2) as u32
                 );
-                for a in 0..e.n {
-                    for b in a + 1..e.n {
-                        assert_eq!(pairwise[a][b] + pairwise[b][a], total);
+                for (a, row) in pairwise.iter().enumerate() {
+                    for (b, &votes) in row.iter().enumerate().skip(a + 1) {
+                        assert_eq!(votes + pairwise[b][a], total);
                         let direct: u32 = e
                             .ballots
                             .iter()
@@ -262,7 +262,7 @@ mod tests {
                             })
                             .map(|b| b.0)
                             .sum();
-                        assert_eq!(pairwise[a][b], direct);
+                        assert_eq!(votes, direct);
                     }
                 }
                 let cw: Vec<_> = (0..e.n)
