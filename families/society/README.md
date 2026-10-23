@@ -1,8 +1,10 @@
 # Society
 
-Three procedural leaves emit computed social-choice objects. The family has
-local weight 2; its `economics` branch also has weight 2, giving each leaf one
-third of this family's samples. Other nodes use weight 1.
+Seven procedural leaves emit computed social-choice and market objects. The
+family has local weight 2. Within it, elections, matching and game theory each
+receive 20% of samples; the four newer leaves each receive 10%. The economics
+and voting branches have weights 7 and 3, and the three established leaves
+have weight 2. Other nodes use weight 1.
 
 - `voting/elections`: complete strict rankings over three or four candidates.
   Equal shares of decisive consensus, three-way majority cycles, center squeeze,
@@ -23,14 +25,49 @@ third of this family's samples. Other nodes use weight 1.
   Nash equilibria are exact. These constructions have no other equilibria.
   Pareto comparisons concern displayed pure cells, not lotteries. Stag hunt
   spans both sides of risk dominance and its equality boundary.
+- `economics/market-clearing`: linear inverse demand and marginal cost with
+  exact clearing, tax incidence and transfers, price ceilings and floors.
+  Equal shares of ordinary clearing, taxes with asymmetric/equal incidence,
+  ceilings, floors, shutdown thresholds, and hard-capacity tax transitions.
+  Controls include binding, nonbinding and equality cases. Capacity samples
+  cross the tax level at which scarcity rent disappears. Prices, quantities
+  and welfare use reduced fractions. [Model and sources](economics/market-clearing/README.md).
+- `economics/fair-division`: additive common-scale values for indivisible
+  goods. Exhaustive search compares maximum total value with maximum total
+  value subject to EF1, and counts exactly envy-free allocations separately.
+  Seven regimes include aligned specialties, a utilitarian monopoly,
+  identical goods with a division remainder, a dominant trophy, cyclic
+  interests, unrestricted values, and a one-point EF1 boundary.
+  [Model and sources](economics/fair-division/README.md).
+- `economics/auctions`: one item and three to six bidders with explicit
+  private values, submitted bids, a reserve and announced tie priority.
+  Each profile is evaluated under first-price, second-price and all-pay
+  payment rules. Nine regimes include inefficient awards, reserve failures,
+  reserve equality, ties, overbidding and negative all-pay utility.
+  [Model and sources](economics/auctions/README.md).
+- `voting/apportionment`: Hamilton, Jefferson, Webster, Huntington–Hill and
+  Adams seat allocations for three to six states. Five equal regimes cover
+  ordinary populations, constructive Alabama paradoxes, divisor disagreements,
+  equal populations and integral quotas. Alabama cases show both house sizes.
+  Exact integer priorities decide seats, with an explicit label tie rule.
+  [Model and sources](voting/apportionment/README.md).
 
 These are small synthetic models, not forecasts or historical observations.
 Matching omits ties, unacceptable partners, quotas and transfers. Elections
 omit truncated ballots and strategic behavior. Game payoffs are utility units;
 the equilibrium solver is specialized to these nondegenerate constructions.
+Fair division has no transfers or divisible goods, and EF1 permits envy.
+Auction bids are fixed inputs, not asserted equilibrium strategies. Its
+all-pay reserve is an allocation threshold with no refund of losing bids.
+Price-control welfare depends on unspecified rationing and is not reported.
 Tests independently enumerate stable assignments, verify both optimality
 extremes, check vote conservation and promised election regimes, and verify
-mixed equilibria through exact action-payoff indifference.
+mixed equilibria through exact action-payoff indifference. New leaves check
+market complementarity and surplus accounting, exhaust small valuation
+matrices with explicit single-good removal, and check auction outcomes
+against sorted order statistics and truthful second-price deviations.
+Apportionment tests check quotas, common divisor intervals, house monotonicity,
+constructive paradoxes and an external Census fixture.
 
 Sources for the algorithms and model conventions:
 
