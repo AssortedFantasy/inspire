@@ -1,10 +1,11 @@
 # Computing
 
-Three generators emit cellular-automaton grids, executable two-thread traces,
-and exact binary32 arithmetic. The family has weight 2. Its three branches and
-their single leaves have equal weights, so each leaf has one third of the
-family's share. Existing sorting, graph, and dynamic-programming traces remain
-under `procedures/algorithms`.
+Nine generators emit state machines, data-structure operations, executable
+queries, encodings, networks, two-thread traces, and exact binary32 arithmetic.
+The family has weight 2. Its seven branches have equal local weights;
+`automata` and `data-structures` each divide their share equally between two
+leaves. Existing sorting, graph, and dynamic-programming traces remain under
+`procedures/algorithms`.
 
 - `automata/cellular` mixes extinction, shifts and oscillation, additive rules,
   irregular evolution, Rule 54/110, and traffic/majority dynamics. Initial rows
@@ -13,6 +14,27 @@ under `procedures/algorithms`.
   runs compare a single-cell perturbation side by side. Rows show t=0 through
   t=15, stopping at a detected repeat for unpaired runs. Boundaries are finite
   rings or a fixed zero exterior, not a claim about an infinite-lattice class.
+- [`automata/dfa`](automata/dfa/README.md) computes recognizers, minimization,
+  Boolean products, shortest witnesses, finite codebooks, and NFA subset
+  construction. Binary-language topologies include overlapping patterns,
+  residue cycles, bounded balances, and suffix memory.
+- [`data-structures/heaps`](data-structures/README.md) mixes binary, ternary, and 4-ary min/max heaps,
+  stable duplicate priorities, sift cascades, key changes, and paired Floyd
+  versus incremental builds. Arrays and actual sift paths follow operations.
+- `data-structures/hash-tables` mixes linear and quadratic probing with
+  tombstones, Robin Hood displacement and backshift deletion, and separate
+  chaining with optional move-to-front lookup. Probe paths include wraparound,
+  collision clusters, and bounded unsuccessful insertion.
+- [`sql/queries`](sql/README.md) emits complete SQLite inputs, queries, and
+  computed result sets. Seven forms cover outer joins, nullable anti-joins,
+  aggregates, peer windows, set/bag operations, recursive graphs, and relational
+  division, including empty-set boundaries.
+- [`networking/subnets`](networking/subnets/README.md) computes equal splits,
+  VLSM LAN allocations, /31 links, minimal range covers, and prefix subtraction.
+  Prefix lengths include non-byte boundaries and one-host capacity crossings.
+- [`encoding/utf8`](encoding/utf8/README.md) mixes pinned Unicode names with
+  exact scalar encodings, width boundaries, offsets, malformed inputs, and
+  incremental decoding across partial byte sequences.
 - `concurrency/schedules` enumerates legal executions before choosing a result
   and witness. Split increments use sequentially consistent atomic loads and
   stores with local arithmetic. Mutex traces use blocking acquisition and
@@ -34,6 +56,12 @@ traffic conservation, enumerate split-increment outcomes and lock deadlocks,
 and distinguish SC from buffered store-buffer outcomes. Binary32 tests compare
 exact decoding, adjacent gaps, midpoint rounding, and arithmetic constructions
 with Rust's floating-point operations.
+
+New leaf tests compare heap operations with sorted reference queues, hash
+operations with independent maps, DFA minimization with pair-graph searches,
+SQL reachability with exhaustive graph closure, CIDR cover sizes with dynamic
+programming, and UTF-8 validity with Rust's standard decoder. Model limits,
+sources, and development-time verification are recorded beside the leaves.
 
 ## References
 
