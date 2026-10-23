@@ -1,9 +1,12 @@
 # Procedures
 
-140 public-domain procedure excerpts and eleven tested execution generators.
+140 public-domain procedure excerpts and seventeen tested execution generators.
 Algorithms emit actual sort passes, searches, alignments, graph traversals,
 shortest paths, spanning trees, component stack pops, dependency queues and
-knapsack tables. Edit alignments include spelling pairs and nucleotide strings.
+knapsack tables. Quicksort partitions, stable radix buckets, overlapping KMP
+searches, Huffman codes, Newton iterates and quadrature refinements include
+duplicate, degenerate and nonconvergent cases. Edit alignments include spelling
+pairs and nucleotide strings.
 
 Cooking separates measuring/mixing and historical recipes by food and
 preparation. Needlework includes sewing, mending and embroidery. Experiments
@@ -14,7 +17,9 @@ survive only in the unsampled migration archive `baseline_records.json`.
 The four main topics have weights algorithms 3, cooking 3, craft 2, experiments
 2. Corpus descendants are weighted by record count within cooking, craft and
 experiments, giving each source excerpt equal exposure within its topic.
-Algorithm weights remain graphs 3, sequences 3, optimization 2.
+Algorithm weights are graphs 3, sequences 3, optimization 2 and numerical 2.
 
 See [sources and replay](SOURCES.md) for pinned primary texts, filtering,
 historical terminology, redistribution notices, and independent generator checks.
+See [execution generators](algorithms/README.md) for the new algorithms' regimes,
+model scope, primary references and independent checks.

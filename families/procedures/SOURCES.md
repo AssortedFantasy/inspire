@@ -51,7 +51,7 @@ python -B families/procedures/import_data.py --source-dir target/imports/procedu
 python -B -m unittest discover -s families/procedures
 ```
 
-The eleven Rust generators are original bounded implementations, with no
+The seventeen Rust generators are original bounded implementations, with no
 runtime I/O. Sorting traces test every pass, permutations and stable identity
 ordering; lower-bound search checks interval invariants against linear scan.
 Graph distances are checked against independent Floyd–Warshall matrices, and
