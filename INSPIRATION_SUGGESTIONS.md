@@ -49,6 +49,31 @@ This integration adds:
 Existing stable-merge traces now mix tied, separated, interleaved and unequal
 runs. The backlog's remaining variants are proposals, not claims about current output.
 
+### Expanded coverage
+
+The larger pass adds 57 generators and 12,294 source records. Current family
+READMEs define each implementation's exact scope; the detailed proposals below
+still include extensions beyond those models.
+
+| Area | Added coverage |
+| --- | --- |
+| [Physics](families/physics/README.md) | Projectiles, RC/RL switching, ideal heat cycles, room modes, orbital transfers, Buckingham Pi |
+| [Computing](families/computing/README.md) | Heaps, hash tables, DFA, checked SQL, IPv4 subnetting and UTF encodings |
+| [Cryptography](families/cryptography/README.md) | Four classical cipher architectures, RSA specimens, Shamir interpolation, Hamming/SECDED |
+| [Society](families/society/README.md) | Explicit-bid auctions, EF1/utilitarian allocations, five apportionment methods, market boundaries |
+| [Math](families/math/README.md) | Triangle centers, partitions, magic squares, higher finite fields, Latin squares, equal-summary datasets |
+| [Systems](families/systems/README.md) | Queue regimes, ecological dynamics, shared-event fault trees, project slack, max-flow/min-cut |
+| [Games](families/games/README.md) | Mazes, unique/minimal logic grids, unique Kakuro, exact cribbage, Kayles, normal/misère Nim |
+| [Algorithms](families/procedures/algorithms/README.md) | Quicksort, radix sort, KMP, Huffman, Newton and quadrature traces |
+| [Random](families/random/README.md) | Checked identifiers, Haar/Hadamard signals, contingency tables, finite orders, simple polygons |
+| [Design](families/design/README.md) | Exact page grids, knitting repeats, verified two-up imposition, constrained blazons |
+| [Philosophy](families/philosophy/README.md) | All syllogistic forms, propositional tables, modal frames and countermodels |
+| [Transport](families/transport/README.md) | Consistent railway timetables, ideal navigation legs, synthetic IALA mark configurations |
+| [Food](families/food/README.md) | 7,793 USDA profiles plus 1,587 culinary names, including 1,000 apple cultivars |
+| [Materials](families/materials/README.md) | 483 sourced material and textile labels |
+| [Belief](families/belief/README.md) | 566 complete mythology and wisdom-text units from four attributed editions |
+| [Arts](families/arts/README.md) | 1,800 painting/drawing/print catalogue works and 65 original stage-direction blocks |
+
 ## New top-level families
 
 ### physics

@@ -1,9 +1,61 @@
 # Content maintenance - 2026-10-22
 
-The tree contains 77,601 records in 569 corpora and 165 generators across 19
+The tree contains 89,895 records in 622 corpora and 222 generators across 26
 families.
 
+## Expanded integration
+
+The ambitious follow-up adds 57 generators, 53 corpus leaves and 12,294 source
+records. Seven new families cover cryptography, systems, philosophy, food,
+materials, belief and arts. Existing physics, computing, math, society, games,
+procedures, random, design and transport branches gain substantial new models.
+The [backlog index](../INSPIRATION_SUGGESTIONS.md#expanded-coverage) records exact
+coverage and links to model limits instead of marking entire proposals complete.
+
+Generator regimes include grazing and dragged trajectories, circuit switching,
+ideal heat cycles, degenerate room modes, orbital tradeoffs, independent Pi groups,
+hash collisions, equivalent automata, SQL joins and nulls, UTF decoding boundaries,
+finite-field substructures, equal-summary datasets, fair-division conflicts,
+apportionment paradoxes, queue overload, shared-event failure, ecological
+bifurcations, multiple critical paths, max-flow bottlenecks and modal countermodels.
+Puzzles use actual uniqueness/minimality checks; knitting and imposition verify
+stitch and page conservation. Output remains the artifact itself.
+
+Independent standalone checks precede integrated Cargo checks. They include
+SQLite comparisons, exhaustive small interpretations and game states, alternate
+solvers, exact probability sums, conservation identities and source replays.
+Actual release CLI review covers every added generator, with additional targeted
+boundary seeds. All 538 Rust tests, nine review-tool tests, 222 individual generator
+format checks and strict Clippy pass.
+
+New data preserve their original texture: 7,793 USDA food profiles, 1,587 culinary
+labels, 483 material names, 566 complete mythology/wisdom units, 65 original stage
+blocks and 1,800 painting/drawing/print catalogue works. Importers pin source
+checksums, keep original IDs and avoid inferred facts or authored paraphrases.
+Every USDA name, printed nutrient amount, unit and local weight was independently
+compared against its source table. Museum additions have no overlap with existing
+object IDs. Complete cultural passage bodies were checked against existing
+literature. All added source corpora replay exactly.
+
+The museum additions broaden arts beyond its small stage collection. Four arts
+topics share weight equally, with uniform records inside each topic. The source
+scan still finds no normalized exact duplicate records; same-corpus-record
+probability for two root draws is 0.005153%, down from 0.007497% before this pass.
+This excludes generator collisions and is not a factual-quality score.
+
+The final run samples all 222 generators across 128 seeds (28,416 outputs) and
+512 default weighted draws. Independent reviewers read all weighted draws and
+found no actionable output issues; all 26 families appear.
+
+Final weighted review is reproducible with:
+
+```sh
+python -B scripts/review_content.py --binary target/release/inspire.exe --samples 6 --seeds 128 --weighted-samples 512 --seed 20261022 --output target/expansion-review.json
+```
+
 ## Suggestion integration
+
+The following notes describe the preceding, smaller integration.
 
 The [suggestion backlog](../INSPIRATION_SUGGESTIONS.md) now distinguishes existing
 coverage, this integration and unimplemented extensions. Existing gears, cams,

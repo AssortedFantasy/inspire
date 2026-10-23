@@ -73,7 +73,7 @@ Use `inspire` before making a decision.
 
 ## Dataset
 
-Nineteen top-level families combine downloaded corpora with bounded procedural
+26 top-level families combine downloaded corpora with bounded procedural
 generators. `inspire --list` shows the tree embedded in the current build;
 `python scripts/review_content.py` reports source record and generator counts.
 
@@ -81,25 +81,32 @@ Select any branch or leaf with `--family`. Omit it to sample the whole tree.
 
 | Family | Material |
 | --- | --- |
+| `arts` | Painting, drawing and print catalogues, and original dramatic stage directions |
+| `belief` | Attributed mythology episodes and complete wisdom-text units |
 | `chemistry` | Chemical compounds and balanced equations |
-| `computing` | Cellular automata, concurrent executions, and exact binary32 artifacts |
-| `design` | Coordinated wardrobes, SPICE circuits, and textile weave drafts |
+| `computing` | Data structures, automata, SQL, networking, encodings, concurrency, and binary32 |
+| `cryptography` | Classical ciphers, modular arithmetic, secret shares, and error-correcting codes |
+| `design` | Wardrobes, circuits, weave and knitting drafts, page grids, imposition, and blazons |
+| `food` | Actual food composition, ingredients, cultivar names, and culinary vocabulary |
 | `games` | Legal board positions, opening books, card deals, dice, and puzzles |
 | `geography` | Settlements, administrative regions, countries, landforms, and waters |
 | `history` | Customs, inventions, and everyday practices |
 | `language` | Idioms, proverbs, etymologies, grammatical constructions |
 | `literature` | Public-domain quotations and passages, literary forms |
 | `math` | Exact algebra, analysis, geometry, graph objects, topology, and probability |
+| `materials` | Building materials, stones, textiles, metals, fibres, and packaging |
 | `mechanisms` | Mechanical, fluid, and control mechanisms |
 | `music` | Classical works, instruments, scales, harmony, rhythms, and melodic phrases |
 | `natural-world` | Species and biological traits, adaptations, plants, astronomical bodies, and natural processes |
 | `objects` | Historical museum artifacts and actual car make, model, and year combinations |
 | `people` | Notable people grouped by field |
-| `physics` | Collisions, thin-lens systems, and standing-wave modes |
+| `philosophy` | Syllogisms, truth tables, modal frames, and concrete countermodels |
+| `physics` | Mechanics, optics, waves, circuits, heat cycles, acoustics, orbits, and scaling |
 | `procedures` | Algorithms, crafts, cooking, and experimental methods |
-| `random` | Dates and times, colors, and UUIDs |
-| `society` | Elections, stable matchings, and exact game equilibria |
-| `transport` | Real airports, heliports, seaplane bases, and balloonports |
+| `random` | Dates, colors, identifiers, signals, contingency tables, orders, and polygons |
+| `society` | Elections, matchings, games, auctions, allocations, and market regimes |
+| `systems` | Queues, ecology, reliability, project schedules, and network flows |
+| `transport` | Real airfields, railway timetables, navigation legs, and maritime marks |
 
 Weights are local to siblings: a larger corpus does not automatically receive
 more samples. Broad top-level families have weight 2; raw random values have
