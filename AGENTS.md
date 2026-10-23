@@ -25,6 +25,7 @@ Keep this up to date; list only important files and directories.
 - `tests/`: build-tree and CLI integration tests.
 - `scripts/review_content.py`: counts, probabilities, duplicate checks, and output samples.
 - [DATA_SOURCES.md](DATA_SOURCES.md): embedded dataset redistribution notices.
+- [INSPIRATION_SUGGESTIONS.md](INSPIRATION_SUGGESTIONS.md): backlog of proposed leaves and families.
 - [docs/architecture.md](docs/architecture.md): build and runtime details.
 
 # Tips
