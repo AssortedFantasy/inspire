@@ -76,6 +76,17 @@ of the pinned source and may be dated. Common country/territory names normalize
 [Macao](https://www.macaotourism.gov.mo/en/article/about-macao/location-and-time)
 against primary references.
 
+North Macedonia's 84 pinned features follow the older municipality framework;
+72 incorrectly carry Natural Earth's `Statistical Region` type. The
+[official regional and municipal breakdown](https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf)
+supports their municipal classification. Drugovo, Oslomej, Vraneštica and Zajas
+are labeled former municipalities following the
+[statistical office's merger note](https://makstat.stat.gov.mk/PXWeb/pxweb/en/MakStat/MakStat__Naselenie__Vitalna/685_VitStat_Umr_Pol_ops_ml.px/).
+The feature mislabeled Skopje (`NE_ID 1159314409`) has explicit Petrovec municipal
+identifiers; its name is corrected against [Petrovec's municipal profile](https://petrovec.gov.mk/profil/).
+All feature IDs and dated geometry remain intact. The eight actual statistical
+regions are not separate features in this snapshot.
+
 Country and continent labels follow source mapping conventions, not statements
 of recognition or territorial claims. Ocean-island grouping comes from Natural
 Earth's `Seven seas (open ocean)` category. Settlement grouping separately uses

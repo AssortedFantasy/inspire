@@ -226,8 +226,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314449",
-    "text": "Aračinovo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2919; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314449; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Aračinovo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2919; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314449; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159316801",
@@ -581,8 +581,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314569",
-    "text": "Berovo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-3004; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314569; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Berovo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-3004; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314569; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159317691",
@@ -646,8 +646,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314401",
-    "text": "Bitola - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2896; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314401; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Bitola - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2896; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314401; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159317785",
@@ -696,13 +696,13 @@
   },
   {
     "id": "geography-subdivision-ne-1159314555",
-    "text": "Bogdanci - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2996; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314555; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Bogdanci - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2996; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314555; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159314539",
-    "text": "Bogovinje - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2960; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314539; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Bogovinje - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2960; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314539; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159310823",
@@ -746,8 +746,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314557",
-    "text": "Bosilovo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2997; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314557; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Bosilovo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2997; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314557; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159314617",
@@ -901,8 +901,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314505",
-    "text": "Brod - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2944; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314505; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Brod - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2944; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314505; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159312921",
@@ -916,8 +916,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314541",
-    "text": "Brvenica - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2961; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314541; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Brvenica - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2961; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314541; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159313153",
@@ -1186,8 +1186,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314519",
-    "text": "Centar župa - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2951; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314519; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Centar župa - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2951; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314519; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159312875",
@@ -1581,13 +1581,13 @@
   },
   {
     "id": "geography-subdivision-ne-1159314521",
-    "text": "Debar - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2952; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314521; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Debar - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2952; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314521; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159314407",
-    "text": "Debarca - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2899; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314407; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Debarca - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2899; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314407; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159316079",
@@ -1596,18 +1596,18 @@
   },
   {
     "id": "geography-subdivision-ne-1159314571",
-    "text": "Delčevo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-3005; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314571; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Delčevo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-3005; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314571; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159314403",
-    "text": "Demir Hisar - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2897; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314403; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Demir Hisar - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2897; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314403; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159314467",
-    "text": "Demir Kapija - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2927; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314467; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Demir Kapija - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2927; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314467; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159312719",
@@ -1716,8 +1716,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314565",
-    "text": "Dojran - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-3000; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314565; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Dojran - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-3000; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314565; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159310683",
@@ -1736,8 +1736,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314469",
-    "text": "Dolneni - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2928; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314469; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Dolneni - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2928; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314469; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159315997",
@@ -1816,8 +1816,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314523",
-    "text": "Drugovo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2953; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314523; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Drugovo - former municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2953; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314523; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions. Former status verified against https://makstat.stat.gov.mk/PXWeb/pxweb/en/MakStat/MakStat__Naselenie__Vitalna/685_VitStat_Umr_Pol_ops_ml.px/."
   },
   {
     "id": "geography-subdivision-ne-1159316831",
@@ -2256,8 +2256,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314559",
-    "text": "Gevgelija - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2998; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314559; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Gevgelija - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2998; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314559; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159317787",
@@ -2361,8 +2361,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314545",
-    "text": "Gostivar - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2962; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314545; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Gostivar - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2962; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314545; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159308725",
@@ -2391,8 +2391,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314475",
-    "text": "Gradsko - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2930; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314475; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Gradsko - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2930; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314475; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159317827",
@@ -2846,8 +2846,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314481",
-    "text": "Ilinden - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2933; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314481; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Ilinden - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2933; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314481; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159310701",
@@ -3176,8 +3176,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314483",
-    "text": "Karbinci - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2934; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314483; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Karbinci - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2934; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314483; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159312479",
@@ -3216,8 +3216,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314487",
-    "text": "Kavadartsi - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2936; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314487; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Kavadartsi - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2936; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314487; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159317939",
@@ -3361,8 +3361,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314527",
-    "text": "Kičevo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2954; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314527; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Kičevo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2954; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314527; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159311025",
@@ -3436,8 +3436,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314479",
-    "text": "Konče - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2932; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314479; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Konče - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2932; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314479; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159310873",
@@ -3491,8 +3491,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314495",
-    "text": "Kočani - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2939; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314495; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Kočani - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2939; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314495; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159310947",
@@ -3531,8 +3531,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314497",
-    "text": "Kratovo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2940; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314497; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Kratovo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2940; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314497; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159317661",
@@ -3546,13 +3546,13 @@
   },
   {
     "id": "geography-subdivision-ne-1159314421",
-    "text": "Kriva Palanka - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2906; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314421; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Kriva Palanka - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2906; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314421; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159314499",
-    "text": "Krivogaštani - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2941; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314499; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Krivogaštani - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2941; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314499; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159308691",
@@ -3576,8 +3576,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314501",
-    "text": "Kruševo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2942; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314501; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Kruševo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2942; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314501; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159312683",
@@ -3601,8 +3601,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314503",
-    "text": "Kumanovo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2943; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314503; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Kumanovo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2943; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314503; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159315863",
@@ -3896,8 +3896,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314451",
-    "text": "Lipkovo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2920; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314451; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Lipkovo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2920; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314451; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159317905",
@@ -4016,8 +4016,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314477",
-    "text": "Lozovo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2931; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314477; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Lozovo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2931; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314477; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159316857",
@@ -4171,8 +4171,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314573",
-    "text": "Makedonska Kamenica - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-3006; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314573; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Makedonska Kamenica - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-3006; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314573; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159317919",
@@ -4281,8 +4281,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314529",
-    "text": "Mavrovo and Rostusa - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2955; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314529; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Mavrovo and Rostusa - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2955; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314529; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159316763",
@@ -4471,8 +4471,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314509",
-    "text": "Mogila - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2945; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314509; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Mogila - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2945; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314509; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159312997",
@@ -4701,8 +4701,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314511",
-    "text": "Negotino - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2946; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314511; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Negotino - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2946; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314511; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159313117",
@@ -4946,8 +4946,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314513",
-    "text": "Novaci - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2947; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314513; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Novaci - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2947; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314513; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159316909",
@@ -4971,8 +4971,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314563",
-    "text": "Novo Selo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2999; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314563; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Novo Selo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2999; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314563; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159313249",
@@ -5041,8 +5041,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314405",
-    "text": "Ohrid - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2898; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314405; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Ohrid - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2898; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314405; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159313575",
@@ -5166,8 +5166,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314531",
-    "text": "Oslomej - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2956; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314531; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Oslomej - former municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2956; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314531; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions. Former status verified against https://makstat.stat.gov.mk/PXWeb/pxweb/en/MakStat/MakStat__Naselenie__Vitalna/685_VitStat_Umr_Pol_ops_ml.px/."
   },
   {
     "id": "geography-subdivision-ne-1159314837",
@@ -5261,8 +5261,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314575",
-    "text": "Pehčevo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-3007; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314575; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Pehčevo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-3007; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314575; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159314217",
@@ -5330,6 +5330,11 @@
     "provenance": "Natural Earth, source ID GBR-2760; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314767; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
+    "id": "geography-subdivision-ne-1159314409",
+    "text": "Petrovec - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2901; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314409; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions. Source name Skopje corrected to Petrovec using the source's municipal identifiers and https://petrovec.gov.mk/profil/."
+  },
+  {
     "id": "geography-subdivision-ne-1159309477",
     "text": "Peć - district, Kosovo",
     "provenance": "Natural Earth, source ID KOS-5886; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159309477; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -5381,8 +5386,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314411",
-    "text": "Plasnica - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2902; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314411; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Plasnica - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2902; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314411; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159310609",
@@ -5576,8 +5581,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314413",
-    "text": "Prilep - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2903; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314413; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Prilep - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2903; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314413; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159313539",
@@ -5601,8 +5606,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314415",
-    "text": "Probištip - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2904; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314415; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Probištip - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2904; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314415; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159313151",
@@ -5696,8 +5701,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314419",
-    "text": "Radoviš - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2905; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314419; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Radoviš - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2905; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314419; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159310839",
@@ -5711,8 +5716,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159315921",
-    "text": "Rankovce - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-4846; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315921; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Rankovce - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-4846; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315921; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159313091",
@@ -5781,8 +5786,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314395",
-    "text": "Resen - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2894; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314395; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Resen - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2894; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314395; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159316485",
@@ -5901,8 +5906,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314423",
-    "text": "Rosoman - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2907; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314423; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Rosoman - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2907; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314423; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159313169",
@@ -6385,11 +6390,6 @@
     "provenance": "Natural Earth, source ID DNK-3420; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315453; mapped admin-1 snapshot, not a claim of present-day legal level."
   },
   {
-    "id": "geography-subdivision-ne-1159314409",
-    "text": "Skopje - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2901; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314409; mapped admin-1 snapshot, not a claim of present-day legal level."
-  },
-  {
     "id": "geography-subdivision-ne-1159317605",
     "text": "Skriveru - municipality, Latvia",
     "provenance": "Natural Earth, source ID LVA-5731; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317605; mapped admin-1 snapshot, not a claim of present-day legal level."
@@ -6506,8 +6506,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314427",
-    "text": "Sopište - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2909; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314427; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Sopište - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2909; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314427; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159316033",
@@ -6626,8 +6626,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314429",
-    "text": "Staro Nagoričane - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2910; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314429; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Staro Nagoričane - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2910; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314429; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159310795",
@@ -6691,13 +6691,13 @@
   },
   {
     "id": "geography-subdivision-ne-1159315919",
-    "text": "Struga - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-4845; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315919; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Struga - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-4845; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315919; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159314549",
-    "text": "Strumitsa - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2993; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314549; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Strumitsa - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2993; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314549; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159312623",
@@ -6706,8 +6706,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314433",
-    "text": "Studeničani - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2912; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314433; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Studeničani - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2912; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314433; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159311143",
@@ -6796,8 +6796,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314439",
-    "text": "Sveti Nikole - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2914; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314439; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Sveti Nikole - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2914; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314439; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159312717",
@@ -7011,8 +7011,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314535",
-    "text": "Tetovo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2958; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314535; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Tetovo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2958; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314535; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159314263",
@@ -7321,8 +7321,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314551",
-    "text": "Valandovo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2994; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314551; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Valandovo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2994; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314551; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159312713",
@@ -7396,8 +7396,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314553",
-    "text": "Vasilevo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2995; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314553; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Vasilevo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2995; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314553; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159308847",
@@ -7436,8 +7436,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314441",
-    "text": "Veles - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2915; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314441; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Veles - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2915; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314441; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159308701",
@@ -7526,8 +7526,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314397",
-    "text": "Vevčani - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2895; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314397; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Vevčani - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2895; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314397; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159310563",
@@ -7596,8 +7596,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314567",
-    "text": "Vinica - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-3003; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314567; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Vinica - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-3003; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314567; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159309619",
@@ -7706,8 +7706,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314443",
-    "text": "Vraneštica - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2916; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314443; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Vraneštica - former municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2916; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314443; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions. Former status verified against https://makstat.stat.gov.mk/PXWeb/pxweb/en/MakStat/MakStat__Naselenie__Vitalna/685_VitStat_Umr_Pol_ops_ml.px/."
   },
   {
     "id": "geography-subdivision-ne-1159308641",
@@ -7716,8 +7716,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314537",
-    "text": "Vrapcište - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2959; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314537; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Vrapcište - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2959; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314537; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159312499",
@@ -7996,8 +7996,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314517",
-    "text": "Zajas - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2950; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314517; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Zajas - former municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2950; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314517; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions. Former status verified against https://makstat.stat.gov.mk/PXWeb/pxweb/en/MakStat/MakStat__Naselenie__Vitalna/685_VitStat_Umr_Pol_ops_ml.px/."
   },
   {
     "id": "geography-subdivision-ne-1159309529",
@@ -8051,8 +8051,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314445",
-    "text": "Zelenikovo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2917; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314445; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Zelenikovo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2917; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314445; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159314611",
@@ -8086,8 +8086,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314461",
-    "text": "Zrnovci - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2924; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314461; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Zrnovci - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2924; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314461; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159317895",
@@ -8161,13 +8161,13 @@
   },
   {
     "id": "geography-subdivision-ne-1159314457",
-    "text": "Čaška - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2922; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314457; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Čaška - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2922; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314457; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159314463",
-    "text": "Češinovo-Obleševo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2925; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314463; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Češinovo-Obleševo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2925; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314463; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159308685",
@@ -8181,8 +8181,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314465",
-    "text": "Čučer Sandevo - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2926; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314465; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Čučer Sandevo - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2926; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314465; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159317929",
@@ -8296,8 +8296,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314431",
-    "text": "Štip - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2911; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314431; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Štip - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2911; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314431; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159310797",
@@ -8351,8 +8351,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314447",
-    "text": "Želino - statistical region, North Macedonia",
-    "provenance": "Natural Earth, source ID MKD-2918; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314447; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Želino - municipality, North Macedonia",
+    "provenance": "Natural Earth, source ID MKD-2918; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314447; mapped admin-1 snapshot, not a claim of present-day legal level. Municipality type corrected against https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf; the pinned features use the older 84-municipality framework, not statistical regions."
   },
   {
     "id": "geography-subdivision-ne-1159308617",

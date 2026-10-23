@@ -195,6 +195,12 @@ CITY_STATIONS = {
     1159147247: "https://www.dmi.dk/fileadmin/Rapporter/TR/tr12-15.pdf",
 }
 
+# The pinned MKD polygons are the old 84 municipalities, not the eight statistical
+# regions. Four municipalities were later merged into Kičevo.
+MACEDONIA_MUNICIPALITIES_SOURCE = "https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf"
+MACEDONIA_MERGER_SOURCE = "https://makstat.stat.gov.mk/PXWeb/pxweb/en/MakStat/MakStat__Naselenie__Vitalna/685_VitStat_Umr_Pol_ops_ml.px/"
+MACEDONIA_FORMER_MUNICIPALITIES = {1159314523, 1159314531, 1159314443, 1159314517}
+
 def source_features(name, source_dir):
     data = ((source_dir / name).read_bytes() if source_dir else
             urllib.request.urlopen(BASE + name, timeout=60).read())
@@ -388,11 +394,26 @@ def administrative_geography(source_dir):
         country = COUNTRY_LABELS.get(p["admin"], p["admin"])
         group = slug(by_code[p["adm0_a3"]]["CONTINENT"])
         kind = p["type_en"] or "Administrative unit"
+        correction = ""
+        if p["adm0_a3"] == "MKD" and kind == "Statistical Region":
+            kind = "Municipality"
+            correction = (f" Municipality type corrected against {MACEDONIA_MUNICIPALITIES_SOURCE}; "
+                          "the pinned features use the older 84-municipality framework, not statistical regions.")
+            if p["ne_id"] in MACEDONIA_FORMER_MUNICIPALITIES:
+                kind = "Former municipality"
+                correction += f" Former status verified against {MACEDONIA_MERGER_SOURCE}."
+            if p["ne_id"] == 1159314409:
+                # Explicit source gn_name/gns_name/woe_label identify Petrovec;
+                # the Skopje name and statistical-region type are inconsistent.
+                name = "Petrovec"
+                correction += (" Source name Skopje corrected to Petrovec using the source's "
+                               "municipal identifiers and https://petrovec.gov.mk/profil/.")
         grouped[group].append({
             "id": f"geography-subdivision-ne-{p['ne_id']}",
             "text": f"{name} - {kind.lower()}, {country}",
             "provenance": pinned_provenance(filename, p["adm1_code"])
-                          + f" Natural Earth NE_ID {p['ne_id']}; mapped admin-1 snapshot, not a claim of present-day legal level.",
+                          + f" Natural Earth NE_ID {p['ne_id']}; mapped admin-1 snapshot, not a claim of present-day legal level."
+                          + correction,
         })
     for group, records in sorted(grouped.items()):
         write(f"subdivisions/{group}", records)
