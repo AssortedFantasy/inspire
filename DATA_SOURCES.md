@@ -21,6 +21,7 @@ and the relevant family license files with redistributed source datasets.
 | Material | Source and reuse terms | Import and editorial notes |
 | --- | --- | --- |
 | Geographic places and physical features | [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/), public domain | [Geography](families/geography/README.md) |
+| Airports and landing surfaces | [OurAirports](https://ourairports.com/data/), public domain | [Transport](families/transport/README.md); pinned country-balanced selection, with historical source codes and dimensions |
 | Small graph atlas | [NetworkX 3.4.2](https://github.com/networkx/networkx/tree/networkx-3.4.2), BSD-3-Clause | [Graph atlas](families/math/discrete-mathematics/graph-theory/atlas/README.md) |
 | Classical work metadata | [Open Opus](https://www.openopus.org/), public-domain/CC0 data | [Music](families/music/README.md); its API software license is separate |
 | Instrument names | [Corpora](https://github.com/dariusk/corpora), CC0 | [Music](families/music/README.md), with documented spelling corrections |
