@@ -3,6 +3,122 @@
 Candidate leaves and families, one per line. Paths are proposals. *(gen)* marks a
 Rust generator; everything else is records from public-domain or open data.
 
+## Codex review: coverage and inspiration quality
+
+The release-binary review of seeds 1–20 found strong material in the weave,
+voiced chords, fan-blower, Indian-made cloth in a Japanese garment, and Tagore's
+cobweb. Each supplied a concrete structure, relationship, or image. The instrument
+name, brief Saramago biography, two timestamps, and coefficient-driven integral
+offered less to work with. These are observations about one small batch, not
+estimates of the whole collection. Seeds reproduce only against the same build.
+
+### Improve existing payloads first
+
+- Enrich names with a distinctive sourced detail. An instrument's construction or
+  playing technique offers more than its category; a person's specific work or
+  decision offers more than an award. Prefer fewer substantial records to a large
+  directory of lookup targets. Preserve bare names where choosing a name is the
+  point of the leaf.
+- Select fields for what they reveal. The garment's material crossing between
+  India and Japan was more evocative than its precise length. Retain dimensions
+  when scale or proportion matters, rather than printing every available field.
+- Keep excerpts intact enough to contain an event, argument, or image. A complete
+  short anecdote can outperform both an isolated sentence and a chapter. Repair
+  extraction boundaries; do not rewrite human prose into an explanatory summary.
+- Preserve technical artifacts such as netlists and scores. Add only necessary
+  units, assumptions, and notation. Do not append a lesson or a suggested use.
+- Keep raw dates, identifiers, and numeric specimens available. Judge their
+  default sampling share separately from whether they are valid outputs.
+
+### Measure coverage by encounters
+
+The backlog is much broader than the current tree, but more directories alone
+will not guarantee broader draws. Audit coverage along several independent axes:
+subject, region and language, period, source, and form of output. Useful forms
+include images in words, incidents, objects, processes, patterns, constraints,
+and executable artifacts. Keep these as review metadata outside corpus records;
+they need not become another runtime taxonomy.
+
+- Report probability mass as well as record counts. A thousand records hidden
+  under a low-weight branch barely change the experience. Adding a top-level
+  family also changes every existing family's share unless weights compensate.
+- Group related encounters across paths. Textiles appeared in design and history;
+  splitting one source into many leaves should not make it look like independent
+  coverage. Track source and motif repetition alongside exact duplicates.
+- Within a topic, look beyond the easiest English-language historical source.
+  Seek regional archives, everyday records, and contemporary openly licensed
+  material. Compare whose activities and perspectives appear, not just countries
+  mentioned. Verify the particular edition or dataset's redistribution terms.
+- Give ordinary life room alongside famous people and exceptional achievements:
+  maintenance, household logistics, correspondence, local exchange, and workarounds.
+  These offer different material from another catalogue of named masterpieces.
+- Prefer one coherent home per subject and review tags for overlaps. Physics,
+  mechanisms, systems, and computing can share concepts without duplicating the
+  same oscillator or graph under several roots.
+
+### Make generators vary in consequential ways
+
+Before implementing a generator, sketch several outputs that differ in topology,
+constraint, behavior, or composition. If erasing the numbers makes every output
+identical, explain why the remaining variation is worth sampling.
+
+- For the proposed room plans, vary adjacency and circulation, then verify doors,
+  access, and dimensions. Merely resizing the same arrangement is thin variation.
+- For the proposed timetables, vary connections, passing opportunities, and
+  bottlenecks. Show a schedule whose relationships matter, with explicit model
+  assumptions and checked consistency.
+- For the proposed queues, matching, and elections, include contrasts where a
+  small change alters the outcome. Select a regime first, then construct a valid
+  instance; do not depend on unbounded rejection sampling to find an interesting one.
+- Keep ordinary, elegant examples alongside boundary cases. If every output is a
+  paradox, failure, or near-collapse, that becomes its own repetitive template.
+- Treat claimed properties as implementation work. Unique puzzles, solvable
+  deals, optimal moves, and valid folding patterns need appropriate verification.
+  A solver timeout means unknown, not impossible. Prefer a smaller verified
+  generator to an impressive description its implementation cannot support.
+
+### Additional candidates worth investigating
+
+These are acquisition or generator proposals, not claims that a suitable licensed
+source has already been found. Check overlap with existing leaves before adding.
+
+- `objects/repair/visible-mends`: documented repairs with material, join, and the
+  surviving original part; objects with a history of continued use.
+- `history/everyday/letters-and-petitions`: complete short requests, complaints,
+  and negotiations from archives, retaining the writer's words and attribution.
+- `history/commerce/reuse-and-substitution`: sourced instances of packaging,
+  buildings, tools, or materials acquiring a second use.
+- `natural-world/ecology/interactions`: specific documented relationships among
+  organisms, including the behavior and conditions rather than only species names.
+- `materials/aging-and-failure`: observed wear, cracking, fading, swelling, and
+  repair from conservation records, with the material and environment attached.
+- `design/patterns/local-rules` *(gen)*: compact tilings or stitch patterns whose
+  local construction rules yield visibly different global arrangements.
+- `systems/flows/bottlenecks` *(gen)*: a small capacitated network with a checked
+  feasible flow and limiting cut; vary redundancy and the location of constraints.
+- `language/correspondence/forms`: actual salutations, requests, refusals, and
+  closings in attributed letters across languages and periods, with licensed
+  translations where needed.
+
+### Evaluate the next batch
+
+Use the existing content-review script for both weighted root draws and targeted
+leaf samples. Preserve the binary hash, seeds, paths, and actual text with review
+results. Keep a fixed comparison batch and a fresh batch so improvements do not
+merely fit the examples already discussed.
+
+Review correctness, substance, structural variety, and standalone usability
+separately. A technically valid output can still be dull; an unfamiliar technical
+artifact can still be excellent. Read batches for repeated motifs and source
+dominance. As a spot check, try samples on a writing, design, and engineering task
+and record the specific useful connection, including when there is none. Keep
+those interpretations in the review, not in the emitted output.
+
+First repair the thinnest existing records, then pilot a few additions that fill
+different coverage gaps. Review their outputs before importing entire catalogues.
+Adjust weights after that review; the two dates and three textile-related draws
+in this batch are reasons to investigate, not sufficient evidence for reweighting.
+
 ## New top-level families
 
 ### physics
