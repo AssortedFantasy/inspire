@@ -1,0 +1,432 @@
+[
+  {
+    "id": "corpora-food-e7b2c5199b708394",
+    "text": "Aonori",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 0. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-8611bcad9890137d",
+    "text": "Ajwain",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 1. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-82d68a121058172f",
+    "text": "Allspice",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 2. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-ea84c8aa7ffc0b68",
+    "text": "Amchoor",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 3. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-a56fc8aaf1dbedc2",
+    "text": "Anise",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 4. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-aab8b8d556820d47",
+    "text": "Star Anise",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 5. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-08069a5d034399fa",
+    "text": "Asafoetida",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 6. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-d1792cab63db0f1c",
+    "text": "Camphor",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 7. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-8d92bcadd135be00",
+    "text": "Caraway",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 8. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-30b65263d03e2743",
+    "text": "Cardamom",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 9. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-7e90ce9ca169bcac",
+    "text": "Black Cardamom",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 10. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-cfd7ec061252f208",
+    "text": "Cassia",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 11. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-e38e6746377a8c58",
+    "text": "Celery powder",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 12. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-c64dd89632b986b1",
+    "text": "Celery seed",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 13. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-4862ca0ae89b03a7",
+    "text": "Charoli",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 14. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-17d5f7d199f7d40c",
+    "text": "Chenpi",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 15. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-6011d7a8f33ed8ec",
+    "text": "Cinnamon",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 16. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-9e8c9731465cd632",
+    "text": "Clove",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 17. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-3ceb6dae84860661",
+    "text": "Coriander seed",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 18. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-a6c406395869765e",
+    "text": "Cubeb",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 19. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-86119140b8973dcc",
+    "text": "Cumin",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 20. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-7cb3631512dd1f43",
+    "text": "Nigella sativa",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 21. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-d04b0a2a39a9b45e",
+    "text": "Bunium persicum",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 22. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-a54ec19419dcf297",
+    "text": "Dill seed",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 24. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-1e36798f67707f29",
+    "text": "Fennel",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 25. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-80c9f2ab74d1b2a1",
+    "text": "Fenugreek",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 26. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-7417ae0403c0f3a5",
+    "text": "Fingerroot",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 27. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-e6398006280fac87",
+    "text": "Greater Galangal",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 28. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-ab7d0ec20a758cf7",
+    "text": "Lesser Galangal",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 29. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-41024084d2e27b7d",
+    "text": "Garlic",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 30. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-08ddff4ebe39249a",
+    "text": "Ginger",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 31. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-6980555b59ac593c",
+    "text": "Aromatic Ginger",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 32. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-6ca3da0dcbd34f7a",
+    "text": "Golpar",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 33. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-4df01be6dbabcdb9",
+    "text": "Grains of Paradise",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 34. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-79841c0ee7a25994",
+    "text": "Grains of Selim",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 35. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-8083c0d540315c4c",
+    "text": "Horseradish",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 36. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-342cd12b14448b36",
+    "text": "Juniper berry",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 37. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-02b975c5cc0b9e97",
+    "text": "Kokum",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 38. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-340524c86079e33a",
+    "text": "Korarima",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 39. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-e10382df5fc2b24d",
+    "text": "Dried Lime",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 40. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-fe0bf5ce8d25464f",
+    "text": "Liquorice",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 41. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-c0c3051482eda4b0",
+    "text": "Litsea cubeba",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 42. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-20613c35da218fd8",
+    "text": "Mace",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 43. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-009884b8021e769e",
+    "text": "Mango-ginger",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 44. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-572bb62c00d0ba33",
+    "text": "Mastic",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 45. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-379d284e7a3e28f1",
+    "text": "Mahlab",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 46. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-0061c8226c826093",
+    "text": "Black Mustard",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 47. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-1a5109edb30aa5dc",
+    "text": "Brown Mustard",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 48. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-bff8d772cf7b3704",
+    "text": "White Mustard",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 49. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-71445cb1f3d07d79",
+    "text": "Nigella",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 50. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-d7f19d2e8aa22214",
+    "text": "Njangsa",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 51. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-749b0454b89226f5",
+    "text": "Nutmeg",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 52. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-6892a6a154bf9f42",
+    "text": "Alligator Pepper",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 53. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-317e4f01891406b9",
+    "text": "Brazilian Pepper",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 54. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-4a7ce928c59008dd",
+    "text": "Chili Pepper",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 55. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-8373450a5ab5593e",
+    "text": "Cayenne pepper",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 56. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-67aa6b6c143c6683",
+    "text": "Paprika",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 57. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-09aa3329a405de06",
+    "text": "Long Pepper",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 58. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-bfdd4efeb5ac91ed",
+    "text": "Peruvian Pepper",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 59. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-922922bf4bb9aa40",
+    "text": "East Asian Pepper",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 60. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-119d1b7527df7c83",
+    "text": "Sichuan Pepper",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 61. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-ba85967f4ed34648",
+    "text": "Tasmanian Pepper",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 63. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-5983f8410d9b743c",
+    "text": "Black Peppercorn",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 64. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-b591855b2b712562",
+    "text": "Green Peppercorn",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 65. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-3f0a29379585a07b",
+    "text": "White Peppercorn",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 66. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-40a153ebcd0dd8d0",
+    "text": "Pomegranate seed",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 67. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-ea4302d71bb388b7",
+    "text": "Poppy seed",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 68. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-32d8a9fc32e9f988",
+    "text": "Radhuni",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 69. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-618d663af0f1ec88",
+    "text": "Rose",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 70. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-822f39a2cb650732",
+    "text": "Saffron",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 71. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-63479ad69a090b25",
+    "text": "Salt",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 72. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-8bcc3d24e8f96526",
+    "text": "Sarsaparilla",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 73. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-e4ea08a73f68c007",
+    "text": "Sassafras",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 74. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-d0c04f4b1951e4ae",
+    "text": "Sesame",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 75. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-7ca208799b0f34d9",
+    "text": "Sumac",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 77. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-f898cb1f16b1e45f",
+    "text": "Tamarind",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 78. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-fa06faad3cd2adb7",
+    "text": "Tonka bean",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 79. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-2ccfaf0f1e83e4fe",
+    "text": "Turmeric",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 80. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-037362ff0428d1a0",
+    "text": "Uzazi",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 81. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-5296c024e03e439b",
+    "text": "Vanilla",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 82. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-1b001aefb607b09c",
+    "text": "Voatsiperifery",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 83. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-0b32f06a18e4aa61",
+    "text": "Wasabi",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 84. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-cfe1ad9ec0024032",
+    "text": "Yuzu",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 85. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-9c182023793ea370",
+    "text": "Zedoary",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 86. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-28bd839c4580652c",
+    "text": "Zereshk",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 87. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-ee6a2830c22dda4f",
+    "text": "Zest",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json; field spices, index 88. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  }
+]

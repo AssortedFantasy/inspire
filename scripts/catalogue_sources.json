@@ -1,0 +1,82 @@
+{
+  "README.md": {
+    "cache": "corpora/README.md",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/README.md",
+    "sha256": "f8504882bc5168f8f664bb36b11d0e6614b0df9009ef29b7e9bd7bb724196437"
+  },
+  "data/foods/fruits.json": {
+    "cache": "corpora/data/foods/fruits.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/fruits.json",
+    "sha256": "d912db8514048d55982781be15d76c251d66d770c09f4748da33be5f712e8c51"
+  },
+  "data/foods/vegetables.json": {
+    "cache": "corpora/data/foods/vegetables.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/vegetables.json",
+    "sha256": "10fca14ea6bd0a7171529cb5e6ead60fae1d9f977e49452b284acb552fbbc293"
+  },
+  "data/foods/herbs_n_spices.json": {
+    "cache": "corpora/data/foods/herbs_n_spices.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/herbs_n_spices.json",
+    "sha256": "453580279f24120564f6c004e28a0d3524d4be8e828734e6c1ac664f215c3354"
+  },
+  "data/foods/breads_and_pastries.json": {
+    "cache": "corpora/data/foods/breads_and_pastries.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json",
+    "sha256": "847d22899906a91ce8fb566f6c91c7db6426d7e00390f73f5fb3a2c2e92a93c6"
+  },
+  "data/foods/apple_cultivars.json": {
+    "cache": "corpora/data/foods/apple_cultivars.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/apple_cultivars.json",
+    "sha256": "95b4ce553ed23076ab41585a8f9b34d572db46f91b83be7b59cfbc068a3427a2"
+  },
+  "data/foods/condiments.json": {
+    "cache": "corpora/data/foods/condiments.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/condiments.json",
+    "sha256": "3c28e0e2bb2fed0ba2d168bc7ba1dbe06a82484e9029ffb573e82a6ada30f5d7"
+  },
+  "data/foods/iba_cocktails.json": {
+    "cache": "corpora/data/foods/iba_cocktails.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json",
+    "sha256": "3d34897aa29a8a8f46d176581d5dedd6c3de6cb388c81759a08fd03a0c48c0bf"
+  },
+  "data/materials/building-materials.json": {
+    "cache": "corpora/data/materials/building-materials.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/materials/building-materials.json",
+    "sha256": "7ff3b45cba8da4ea192e5a1f4913a591d946f069e083438550db0cae6a7b952b"
+  },
+  "data/materials/decorative-stones.json": {
+    "cache": "corpora/data/materials/decorative-stones.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/materials/decorative-stones.json",
+    "sha256": "1aaa93f3b282fa16916ee685104e1bedf7b2d9eaada6eb0c940fa3d3592c078e"
+  },
+  "data/materials/fabrics.json": {
+    "cache": "corpora/data/materials/fabrics.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/materials/fabrics.json",
+    "sha256": "6f4314342350c91f1457f3c20c0f37cf0c2149c12306c556302798a3ccae9684"
+  },
+  "data/materials/fibers.json": {
+    "cache": "corpora/data/materials/fibers.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/materials/fibers.json",
+    "sha256": "73ac64be1f8ba219de028dc041bf08d9c37cf90e538ce6b09207eb1c35a699ae"
+  },
+  "data/materials/metals.json": {
+    "cache": "corpora/data/materials/metals.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/materials/metals.json",
+    "sha256": "7f3a6a1d3c7c764c438f3b21d2bf1905c60a69cc229ae6fbc3df9c768b856b16"
+  },
+  "data/materials/packaging.json": {
+    "cache": "corpora/data/materials/packaging.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/materials/packaging.json",
+    "sha256": "503fd324f85100cf32ea1d3e78895da8d02161eb07d73358239d5bdd837f8c95"
+  },
+  "data/materials/technical-fabrics.json": {
+    "cache": "corpora/data/materials/technical-fabrics.json",
+    "url": "https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/materials/technical-fabrics.json",
+    "sha256": "01cfd10b04806bea1a9ccbca84331d40d16b76f7317029b5d176a700b57b6e3d"
+  },
+  "usda-sr-legacy": {
+    "cache": "usda/sr-legacy-2018-04.zip",
+    "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+    "sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+  }
+}

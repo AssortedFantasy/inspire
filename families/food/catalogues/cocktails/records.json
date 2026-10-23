@@ -1,0 +1,382 @@
+[
+  {
+    "id": "corpora-food-9f2a08fde416cef2",
+    "text": "Alexander",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 0. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-054baec40b27344f",
+    "text": "Americano",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 1. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-e0bb76ff313f80bd",
+    "text": "Angel Face",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 2. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-ab97542e73d2ca45",
+    "text": "Aviation",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 3. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-f0a36448c29c8438",
+    "text": "Bacardi",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 4. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-411b5067dac9c205",
+    "text": "Between the Sheets",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 5. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-405e6e0273215dab",
+    "text": "Casino",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 6. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-1285d151367f3574",
+    "text": "Clover Club",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 7. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-afd82ae102f9e09e",
+    "text": "Daiquiri",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 8. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-57d6f7c06e35a3a3",
+    "text": "Derby",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 9. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-b1438f6e46ac1778",
+    "text": "Dry Martini",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 10. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-d0cb9cf93308b7e2",
+    "text": "Gin Fizz",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 11. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-f164bb3cebeeaa43",
+    "text": "John Collins",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 12. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-fdb827d1a99796cd",
+    "text": "Manhattan",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 13. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-966f7720c2d1e86d",
+    "text": "Mary Pickford",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 14. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-64f96b7bc042f21d",
+    "text": "Monkey Gland",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 15. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-16cebbd0c9735d93",
+    "text": "Negroni",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 16. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-966c8b909412b3a6",
+    "text": "Old Fashioned",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 17. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-8b591cc313c07621",
+    "text": "Paradise",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 18. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-a2eeb52d6db9cf67",
+    "text": "Planter's Punch",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 19. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-9e439f51f916339d",
+    "text": "Porto flip",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 20. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-a4918d0c6e9286ac",
+    "text": "Ramos Gin Fizz",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 21. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-69dd0e7f22388b5e",
+    "text": "Rusty Nail",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 22. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-47b548d77a5cc84c",
+    "text": "Sazerac",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 23. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-2f2d4a8891231d90",
+    "text": "Screwdriver",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 24. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-6c8b4535ccc87f19",
+    "text": "Sidecar",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 25. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-781e1ba88473ef02",
+    "text": "Stinger",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 26. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-01a9f91f2791ea9a",
+    "text": "Tuxedo",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 27. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-9b19b6d1012e090e",
+    "text": "Whiskey sour",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 28. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-52ecf819e76df1a3",
+    "text": "White Lady",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 29. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-7477c6479a518474",
+    "text": "Bellini",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 30. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-aaac923cd193484b",
+    "text": "Black Russian",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 31. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-45d948c7f7086f7b",
+    "text": "Bloody Mary",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 32. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-178f81a017f31f7c",
+    "text": "Caipirinha",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 33. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-8d88db3a816fa03e",
+    "text": "Champagne Cocktail",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 34. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-b8da82a495e6ea58",
+    "text": "Cosmopolitan",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 35. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-9c82e0396eb13aaa",
+    "text": "Cuba Libre",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 36. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-ec883a1ce8a2b68e",
+    "text": "French 75",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 37. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-23968fb016514916",
+    "text": "French Connection",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 38. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-509c959fd7c6061e",
+    "text": "God Father",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 39. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-05715f8caa31a11f",
+    "text": "God Mother",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 40. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-ab410d9453b51014",
+    "text": "Golden Dream",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 41. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-b7f22419aacf0eae",
+    "text": "Grasshopper",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 42. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-bac2aaf63b546f65",
+    "text": "Harvey Wallbanger",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 43. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-c9cde9fbdeae2303",
+    "text": "Hemingway Special",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 44. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-8f31b207092fdf1e",
+    "text": "Horse's Neck",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 45. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-bc2f63346e27f1eb",
+    "text": "Irish Coffee",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 46. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-5d51e086b4433d86",
+    "text": "Kir",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 47. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-825921b962a0b065",
+    "text": "Long Island Iced Tea",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 48. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-72e2fa0fba9f64da",
+    "text": "Mai Tai",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 49. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-f1be6354b41828a0",
+    "text": "Margarita",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 50. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-ad05996cb45010bf",
+    "text": "Mimosa",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 51. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-9f105bef18bc6707",
+    "text": "Mint Julep",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 52. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-09d8516dbf1a3e04",
+    "text": "Mojito",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 53. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-9da53de37db9354d",
+    "text": "Moscow Mule",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 54. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-99c69b11190615ba",
+    "text": "Piña Colada",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 55. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-c9b196667594f4c7",
+    "text": "Sea-Breeze",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 57. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-225248aae2ea148e",
+    "text": "Sex on the Beach",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 58. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-9f0291ca27bb6559",
+    "text": "Singapore Sling",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 59. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-ab4897af5fb822b1",
+    "text": "Tequila Sunrise",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 60. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-5055e104eed6f3be",
+    "text": "B-52",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 61. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-f2743cb33eb192cc",
+    "text": "Barracuda",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 62. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-8f564af39fab12a4",
+    "text": "Bramble",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 63. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-3a29c4d9037a098f",
+    "text": "Dark 'N' Stormy",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 64. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-9ffd5b2997a56ed4",
+    "text": "Dirty Martini",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 65. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-61bfc1b5cd81f3a6",
+    "text": "Espresso Martini",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 66. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-e7d0b4eee7e9c3ba",
+    "text": "French Martini",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 67. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-82280bb7b30905f9",
+    "text": "Kamikaze",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 68. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-d466fc953d012ff8",
+    "text": "Lemon Drop Martini",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 69. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-1a822eaf72ae00c5",
+    "text": "Pisco Sour",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 70. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-8129033e8417d20c",
+    "text": "Russian Spring Punch",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 71. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-21ba30ec9aac9d24",
+    "text": "Spritz Veneziano",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 72. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-065fc3968807db6e",
+    "text": "Tommy's Margarita",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 73. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-bf30ab566e130df5",
+    "text": "Vampiro",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 74. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-ecc9bddb65dc4451",
+    "text": "Vesper",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 75. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-02d60493448bad46",
+    "text": "Yellow Bird",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/iba_cocktails.json; field cocktails, index 76. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  }
+]

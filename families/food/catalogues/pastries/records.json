@@ -1,0 +1,102 @@
+[
+  {
+    "id": "corpora-food-979ecea91a6b0b4d",
+    "text": "baklava",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 0. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-21a599994a45aa11",
+    "text": "bomboloni",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 1. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-15630d6cac3b932b",
+    "text": "canelé",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 2. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-63f2f2d25478a724",
+    "text": "cinnamon roll",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 3. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-fbb1eeb89d064f26",
+    "text": "croissant",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 4. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-cbfcbf2ad43cfb97",
+    "text": "cronut",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 5. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-b6f8ff77a4786fdb",
+    "text": "doughnut",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 6. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-0ebe6cb10ee48b34",
+    "text": "éclair",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 7. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-9f5e8d7362659d5b",
+    "text": "gulab jamun",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 8. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-0dcbbb5976e02774",
+    "text": "kouign-amann",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 9. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-3412b6f5ac427e99",
+    "text": "mille-feuille",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 10. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-79c95149b14cc74c",
+    "text": "morning bun",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 11. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-e84d32f2728526b3",
+    "text": "pain au chocolat",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 12. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-73f88a75585bea3e",
+    "text": "pastel de nata",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 13. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-c0f55ff42709d6da",
+    "text": "profiterole",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 14. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-8fc1ad4ff4288a4f",
+    "text": "rugelach",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 15. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-a439529bc65725a9",
+    "text": "shortcake",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 16. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-d31bc4ee3fc4a6e6",
+    "text": "stollen",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 17. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-0d90e0e579352b85",
+    "text": "strudel",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 18. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  },
+  {
+    "id": "corpora-food-cd2cd76d77adf80a",
+    "text": "toaster strudel",
+    "provenance": "Darius Kazemi and Corpora contributors, revision 2e7adec11a0561696c236ae1fca82e88be173d42; https://raw.githubusercontent.com/dariusk/corpora/2e7adec11a0561696c236ae1fca82e88be173d42/data/foods/breads_and_pastries.json; field pastries, index 19. CC0 1.0. Whitespace normalized and duplicate labels routed to the first listed topic; apple cultivar names gain the noun apple. Vocabulary labels only; source scope and exclusions in family README."
+  }
+]

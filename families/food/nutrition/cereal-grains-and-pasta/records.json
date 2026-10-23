@@ -1,0 +1,907 @@
+[
+  {
+    "id": "usda-fdc-168147",
+    "text": "Vital wheat gluten\nPer 100 g edible portion\nEnergy 370 kcal\nProtein 75.16 g\nFat 1.85 g\nCarbohydrate 13.79 g\nFibre 0.6 g\nSodium 29 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168147; https://fdc.nal.usda.gov/food-details/168147/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168867",
+    "text": "Cornmeal, degermed, enriched, yellow\nPer 100 g edible portion\nEnergy 370 kcal\nProtein 7.11 g\nFat 1.75 g\nCarbohydrate 79.45 g\nFibre 3.9 g\nSodium 7 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168867; https://fdc.nal.usda.gov/food-details/168867/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168868",
+    "text": "Cornmeal, yellow, self-rising, bolted, plain, enriched\nPer 100 g edible portion\nEnergy 334 kcal\nProtein 8.28 g\nFat 3.4 g\nCarbohydrate 70.28 g\nFibre 6.7 g\nSodium 1247 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168868; https://fdc.nal.usda.gov/food-details/168868/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168869",
+    "text": "Cornmeal, yellow, self-rising, bolted, with wheat flour added, enriched\nPer 100 g edible portion\nEnergy 348 kcal\nProtein 8.41 g\nFat 2.85 g\nCarbohydrate 73.43 g\nFibre 6.3 g\nSodium 1319 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168869; https://fdc.nal.usda.gov/food-details/168869/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168870",
+    "text": "Cornmeal, yellow, self-rising, degermed, enriched\nPer 100 g edible portion\nEnergy 355 kcal\nProtein 8.41 g\nFat 1.72 g\nCarbohydrate 74.79 g\nFibre 7.1 g\nSodium 1348 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168870; https://fdc.nal.usda.gov/food-details/168870/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168871",
+    "text": "Millet, cooked\nPer 100 g edible portion\nEnergy 119 kcal\nProtein 3.51 g\nFat 1 g\nCarbohydrate 23.67 g\nFibre 1.3 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168871; https://fdc.nal.usda.gov/food-details/168871/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168872",
+    "text": "Oat bran, raw\nPer 100 g edible portion\nEnergy 246 kcal\nProtein 17.3 g\nFat 7.03 g\nCarbohydrate 66.22 g\nFibre 15.4 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168872; https://fdc.nal.usda.gov/food-details/168872/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168873",
+    "text": "Oat bran, cooked\nPer 100 g edible portion\nEnergy 40 kcal\nProtein 3.21 g\nFat 0.86 g\nCarbohydrate 11.44 g\nFibre 2.6 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168873; https://fdc.nal.usda.gov/food-details/168873/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168874",
+    "text": "Quinoa, uncooked\nPer 100 g edible portion\nEnergy 368 kcal\nProtein 14.12 g\nFat 6.07 g\nCarbohydrate 64.16 g\nFibre 7 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168874; https://fdc.nal.usda.gov/food-details/168874/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168875",
+    "text": "Rice, brown, medium-grain, cooked (Includes foods for USDA's Food Distribution Program)\nPer 100 g edible portion\nEnergy 112 kcal\nProtein 2.32 g\nFat 0.83 g\nCarbohydrate 23.51 g\nFibre 1.8 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168875; https://fdc.nal.usda.gov/food-details/168875/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168876",
+    "text": "Rice, brown, parboiled, dry, UNCLE BEN'S\nPer 100 g edible portion\nEnergy 370 kcal\nProtein 7.6 g\nFat 2.75 g\nCarbohydrate 78.68 g\nFibre 3.5 g\nSodium 6 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168876; https://fdc.nal.usda.gov/food-details/168876/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168877",
+    "text": "Rice, white, long-grain, regular, raw, enriched\nPer 100 g edible portion\nEnergy 365 kcal\nProtein 7.13 g\nFat 0.66 g\nCarbohydrate 79.95 g\nFibre 1.3 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168877; https://fdc.nal.usda.gov/food-details/168877/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168878",
+    "text": "Rice, white, long-grain, regular, enriched, cooked\nPer 100 g edible portion\nEnergy 130 kcal\nProtein 2.69 g\nFat 0.28 g\nCarbohydrate 28.17 g\nFibre 0.4 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168878; https://fdc.nal.usda.gov/food-details/168878/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168879",
+    "text": "Rice, white, medium-grain, raw, enriched\nPer 100 g edible portion\nEnergy 360 kcal\nProtein 6.61 g\nFat 0.58 g\nCarbohydrate 79.34 g\nFibre 1.4 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168879; https://fdc.nal.usda.gov/food-details/168879/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168880",
+    "text": "Rice, white, medium-grain, enriched, cooked\nPer 100 g edible portion\nEnergy 130 kcal\nProtein 2.38 g\nFat 0.21 g\nCarbohydrate 28.59 g\nFibre 0.3 g\nSodium 0 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168880; https://fdc.nal.usda.gov/food-details/168880/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168881",
+    "text": "Rice, white, short-grain, enriched, uncooked\nPer 100 g edible portion\nEnergy 358 kcal\nProtein 6.5 g\nFat 0.52 g\nCarbohydrate 79.15 g\nFibre 2.8 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168881; https://fdc.nal.usda.gov/food-details/168881/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168882",
+    "text": "Rice, white, short-grain, enriched, cooked\nPer 100 g edible portion\nEnergy 130 kcal\nProtein 2.36 g\nFat 0.19 g\nCarbohydrate 28.73 g\nSodium 0 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168882; https://fdc.nal.usda.gov/food-details/168882/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168883",
+    "text": "Rice, white, glutinous, unenriched, uncooked\nPer 100 g edible portion\nEnergy 370 kcal\nProtein 6.81 g\nFat 0.55 g\nCarbohydrate 81.68 g\nFibre 2.8 g\nSodium 7 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168883; https://fdc.nal.usda.gov/food-details/168883/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168884",
+    "text": "Rye grain\nPer 100 g edible portion\nEnergy 338 kcal\nProtein 10.34 g\nFat 1.63 g\nCarbohydrate 75.86 g\nFibre 15.1 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168884; https://fdc.nal.usda.gov/food-details/168884/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168885",
+    "text": "Rye flour, dark\nPer 100 g edible portion\nEnergy 325 kcal\nProtein 15.91 g\nFat 2.22 g\nCarbohydrate 68.63 g\nFibre 23.8 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168885; https://fdc.nal.usda.gov/food-details/168885/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168886",
+    "text": "Rye flour, medium\nPer 100 g edible portion\nEnergy 349 kcal\nProtein 10.88 g\nFat 1.52 g\nCarbohydrate 75.43 g\nFibre 11.8 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168886; https://fdc.nal.usda.gov/food-details/168886/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168887",
+    "text": "Rye flour, light\nPer 100 g edible portion\nEnergy 357 kcal\nProtein 9.82 g\nFat 1.33 g\nCarbohydrate 76.68 g\nFibre 8 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168887; https://fdc.nal.usda.gov/food-details/168887/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168888",
+    "text": "Triticale flour, whole-grain\nPer 100 g edible portion\nEnergy 338 kcal\nProtein 13.18 g\nFat 1.81 g\nCarbohydrate 73.14 g\nFibre 14.6 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168888; https://fdc.nal.usda.gov/food-details/168888/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168889",
+    "text": "Wheat, hard red spring\nPer 100 g edible portion\nEnergy 329 kcal\nProtein 15.4 g\nFat 1.92 g\nCarbohydrate 68.03 g\nFibre 12.2 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168889; https://fdc.nal.usda.gov/food-details/168889/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168890",
+    "text": "Wheat, hard red winter\nPer 100 g edible portion\nEnergy 327 kcal\nProtein 12.61 g\nFat 1.54 g\nCarbohydrate 71.18 g\nFibre 12.2 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168890; https://fdc.nal.usda.gov/food-details/168890/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168891",
+    "text": "Wheat, soft red winter\nPer 100 g edible portion\nEnergy 331 kcal\nProtein 10.35 g\nFat 1.56 g\nCarbohydrate 74.24 g\nFibre 12.5 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168891; https://fdc.nal.usda.gov/food-details/168891/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168892",
+    "text": "Wheat germ, crude\nPer 100 g edible portion\nEnergy 360 kcal\nProtein 23.15 g\nFat 9.72 g\nCarbohydrate 51.8 g\nFibre 13.2 g\nSodium 12 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168892; https://fdc.nal.usda.gov/food-details/168892/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168893",
+    "text": "Wheat flour, whole-grain (Includes foods for USDA's Food Distribution Program)\nPer 100 g edible portion\nEnergy 340 kcal\nProtein 13.21 g\nFat 2.5 g\nCarbohydrate 71.97 g\nFibre 10.7 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168893; https://fdc.nal.usda.gov/food-details/168893/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168894",
+    "text": "Wheat flour, white, all-purpose, enriched, bleached\nPer 100 g edible portion\nEnergy 364 kcal\nProtein 10.33 g\nFat 0.98 g\nCarbohydrate 76.31 g\nFibre 2.7 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168894; https://fdc.nal.usda.gov/food-details/168894/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168895",
+    "text": "Wheat flour, white, all-purpose, self-rising, enriched\nPer 100 g edible portion\nEnergy 354 kcal\nProtein 9.89 g\nFat 0.97 g\nCarbohydrate 74.22 g\nFibre 2.7 g\nSodium 1193 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168895; https://fdc.nal.usda.gov/food-details/168895/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168896",
+    "text": "Wheat flour, white, bread, enriched\nPer 100 g edible portion\nEnergy 361 kcal\nProtein 11.98 g\nFat 1.66 g\nCarbohydrate 72.53 g\nFibre 2.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168896; https://fdc.nal.usda.gov/food-details/168896/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168897",
+    "text": "Wild rice, cooked\nPer 100 g edible portion\nEnergy 101 kcal\nProtein 3.99 g\nFat 0.34 g\nCarbohydrate 21.34 g\nFibre 1.8 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168897; https://fdc.nal.usda.gov/food-details/168897/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168898",
+    "text": "Rice flour, brown\nPer 100 g edible portion\nEnergy 363 kcal\nProtein 7.23 g\nFat 2.78 g\nCarbohydrate 76.48 g\nFibre 4.6 g\nSodium 8 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168898; https://fdc.nal.usda.gov/food-details/168898/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168899",
+    "text": "Pasta, gluten-free, corn, dry\nPer 100 g edible portion\nEnergy 357 kcal\nProtein 7.46 g\nFat 2.08 g\nCarbohydrate 79.26 g\nFibre 11 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168899; https://fdc.nal.usda.gov/food-details/168899/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168900",
+    "text": "Pasta, gluten-free, corn, cooked\nPer 100 g edible portion\nEnergy 126 kcal\nProtein 2.63 g\nFat 0.73 g\nCarbohydrate 27.91 g\nFibre 4.8 g\nSodium 0 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168900; https://fdc.nal.usda.gov/food-details/168900/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168901",
+    "text": "Pasta, homemade, made with egg, cooked\nPer 100 g edible portion\nEnergy 130 kcal\nProtein 5.28 g\nFat 1.74 g\nCarbohydrate 23.54 g\nSodium 83 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168901; https://fdc.nal.usda.gov/food-details/168901/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168902",
+    "text": "Pasta, homemade, made without egg, cooked\nPer 100 g edible portion\nEnergy 124 kcal\nProtein 4.37 g\nFat 0.98 g\nCarbohydrate 25.12 g\nSodium 74 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168902; https://fdc.nal.usda.gov/food-details/168902/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168903",
+    "text": "Macaroni, vegetable, enriched, dry\nPer 100 g edible portion\nEnergy 367 kcal\nProtein 13.14 g\nFat 1.04 g\nCarbohydrate 74.88 g\nFibre 4.3 g\nSodium 43 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168903; https://fdc.nal.usda.gov/food-details/168903/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168904",
+    "text": "Macaroni, vegetable, enriched, cooked\nPer 100 g edible portion\nEnergy 128 kcal\nProtein 4.53 g\nFat 0.11 g\nCarbohydrate 26.61 g\nFibre 4.3 g\nSodium 6 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168904; https://fdc.nal.usda.gov/food-details/168904/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168905",
+    "text": "Noodles, chinese, chow mein\nPer 100 g edible portion\nEnergy 471 kcal\nProtein 10.88 g\nFat 21.24 g\nCarbohydrate 63.64 g\nFibre 6.7 g\nSodium 866 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168905; https://fdc.nal.usda.gov/food-details/168905/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168906",
+    "text": "Noodles, japanese, soba, dry\nPer 100 g edible portion\nEnergy 336 kcal\nProtein 14.38 g\nFat 0.71 g\nCarbohydrate 74.62 g\nSodium 792 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168906; https://fdc.nal.usda.gov/food-details/168906/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168907",
+    "text": "Noodles, japanese, soba, cooked\nPer 100 g edible portion\nEnergy 99 kcal\nProtein 5.06 g\nFat 0.1 g\nCarbohydrate 21.44 g\nSodium 60 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168907; https://fdc.nal.usda.gov/food-details/168907/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168908",
+    "text": "Noodles, japanese, somen, dry\nPer 100 g edible portion\nEnergy 356 kcal\nProtein 11.35 g\nFat 0.81 g\nCarbohydrate 74.1 g\nFibre 4.3 g\nSodium 1840 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168908; https://fdc.nal.usda.gov/food-details/168908/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168909",
+    "text": "Noodles, japanese, somen, cooked\nPer 100 g edible portion\nEnergy 131 kcal\nProtein 4 g\nFat 0.18 g\nCarbohydrate 27.54 g\nSodium 161 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168909; https://fdc.nal.usda.gov/food-details/168909/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168910",
+    "text": "Pasta, whole-wheat, cooked (Includes foods for USDA's Food Distribution Program)\nPer 100 g edible portion\nEnergy 149 kcal\nProtein 5.99 g\nFat 1.71 g\nCarbohydrate 30.07 g\nFibre 3.9 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168910; https://fdc.nal.usda.gov/food-details/168910/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168911",
+    "text": "Spaghetti, spinach, dry\nPer 100 g edible portion\nEnergy 372 kcal\nProtein 13.35 g\nFat 1.57 g\nCarbohydrate 74.81 g\nFibre 10.6 g\nSodium 36 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168911; https://fdc.nal.usda.gov/food-details/168911/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168912",
+    "text": "Spaghetti, spinach, cooked\nPer 100 g edible portion\nEnergy 130 kcal\nProtein 4.58 g\nFat 0.63 g\nCarbohydrate 26.15 g\nSodium 14 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168912; https://fdc.nal.usda.gov/food-details/168912/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168913",
+    "text": "Wheat flours, bread, unenriched\nPer 100 g edible portion\nEnergy 361 kcal\nProtein 11.98 g\nFat 1.66 g\nCarbohydrate 72.53 g\nFibre 2.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168913; https://fdc.nal.usda.gov/food-details/168913/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168914",
+    "text": "Rice noodles, cooked\nPer 100 g edible portion\nEnergy 108 kcal\nProtein 1.79 g\nFat 0.2 g\nCarbohydrate 24.01 g\nFibre 1 g\nSodium 19 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168914; https://fdc.nal.usda.gov/food-details/168914/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168915",
+    "text": "Pasta, whole grain, 51% whole wheat, remaining unenriched semolina, dry\nPer 100 g edible portion\nEnergy 362 kcal\nProtein 13.51 g\nFat 2.68 g\nCarbohydrate 73.1 g\nFibre 10.1 g\nSodium 11 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168915; https://fdc.nal.usda.gov/food-details/168915/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168916",
+    "text": "Pasta, whole grain, 51% whole wheat, remaining unenriched semolina, cooked\nPer 100 g edible portion\nEnergy 159 kcal\nProtein 5.82 g\nFat 1.5 g\nCarbohydrate 31.51 g\nFibre 4.6 g\nSodium 6 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168916; https://fdc.nal.usda.gov/food-details/168916/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168917",
+    "text": "Quinoa, cooked\nPer 100 g edible portion\nEnergy 120 kcal\nProtein 4.4 g\nFat 1.92 g\nCarbohydrate 21.3 g\nFibre 2.8 g\nSodium 7 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168917; https://fdc.nal.usda.gov/food-details/168917/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168918",
+    "text": "Teff, cooked\nPer 100 g edible portion\nEnergy 101 kcal\nProtein 3.87 g\nFat 0.65 g\nCarbohydrate 19.86 g\nFibre 2.8 g\nSodium 8 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168918; https://fdc.nal.usda.gov/food-details/168918/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168919",
+    "text": "Noodles, egg, cooked, enriched, with added salt\nPer 100 g edible portion\nEnergy 138 kcal\nProtein 4.54 g\nFat 2.07 g\nCarbohydrate 25.16 g\nFibre 1.2 g\nSodium 165 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168919; https://fdc.nal.usda.gov/food-details/168919/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168920",
+    "text": "Corn grain, white\nPer 100 g edible portion\nEnergy 365 kcal\nProtein 9.42 g\nFat 4.74 g\nCarbohydrate 74.26 g\nSodium 35 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168920; https://fdc.nal.usda.gov/food-details/168920/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168921",
+    "text": "Corn flour, whole-grain, blue (harina de maiz morado)\nPer 100 g edible portion\nEnergy 364 kcal\nProtein 8.75 g\nFat 5.09 g\nCarbohydrate 73.89 g\nFibre 8.4 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168921; https://fdc.nal.usda.gov/food-details/168921/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168922",
+    "text": "Cornmeal, degermed, enriched, white\nPer 100 g edible portion\nEnergy 370 kcal\nProtein 7.11 g\nFat 1.75 g\nCarbohydrate 79.45 g\nFibre 3.9 g\nSodium 7 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168922; https://fdc.nal.usda.gov/food-details/168922/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168923",
+    "text": "Cornmeal, white, self-rising, bolted, plain, enriched\nPer 100 g edible portion\nEnergy 334 kcal\nProtein 8.28 g\nFat 3.4 g\nCarbohydrate 70.28 g\nFibre 6.7 g\nSodium 1247 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168923; https://fdc.nal.usda.gov/food-details/168923/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168924",
+    "text": "Cornmeal, white, self-rising, bolted, with wheat flour added, enriched\nPer 100 g edible portion\nEnergy 348 kcal\nProtein 8.41 g\nFat 2.85 g\nCarbohydrate 73.43 g\nFibre 6.3 g\nSodium 1319 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168924; https://fdc.nal.usda.gov/food-details/168924/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168925",
+    "text": "Cornmeal, white, self-rising, degermed, enriched\nPer 100 g edible portion\nEnergy 355 kcal\nProtein 8.41 g\nFat 1.72 g\nCarbohydrate 74.79 g\nFibre 7.1 g\nSodium 1348 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168925; https://fdc.nal.usda.gov/food-details/168925/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168926",
+    "text": "Noodles, egg, unenriched, cooked, without added salt\nPer 100 g edible portion\nEnergy 138 kcal\nProtein 4.54 g\nFat 2.07 g\nCarbohydrate 25.16 g\nFibre 1.2 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168926; https://fdc.nal.usda.gov/food-details/168926/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168927",
+    "text": "Pasta, dry, unenriched\nPer 100 g edible portion\nEnergy 371 kcal\nProtein 13.04 g\nFat 1.51 g\nCarbohydrate 74.67 g\nFibre 3.2 g\nSodium 6 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168927; https://fdc.nal.usda.gov/food-details/168927/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168928",
+    "text": "Pasta, cooked, unenriched, without added salt\nPer 100 g edible portion\nEnergy 158 kcal\nProtein 5.8 g\nFat 0.93 g\nCarbohydrate 30.86 g\nFibre 1.8 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168928; https://fdc.nal.usda.gov/food-details/168928/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168929",
+    "text": "Cornmeal, degermed, unenriched, yellow\nPer 100 g edible portion\nEnergy 370 kcal\nProtein 7.11 g\nFat 1.75 g\nCarbohydrate 79.45 g\nFibre 3.9 g\nSodium 7 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168929; https://fdc.nal.usda.gov/food-details/168929/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168930",
+    "text": "Rice, white, medium-grain, cooked, unenriched\nPer 100 g edible portion\nEnergy 130 kcal\nProtein 2.38 g\nFat 0.21 g\nCarbohydrate 28.59 g\nSodium 0 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168930; https://fdc.nal.usda.gov/food-details/168930/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168931",
+    "text": "Rice, white, short-grain, raw, unenriched\nPer 100 g edible portion\nEnergy 358 kcal\nProtein 6.5 g\nFat 0.52 g\nCarbohydrate 79.15 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168931; https://fdc.nal.usda.gov/food-details/168931/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168932",
+    "text": "Rice, white, short-grain, cooked, unenriched\nPer 100 g edible portion\nEnergy 130 kcal\nProtein 2.36 g\nFat 0.19 g\nCarbohydrate 28.73 g\nSodium 0 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168932; https://fdc.nal.usda.gov/food-details/168932/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168933",
+    "text": "Semolina, unenriched\nPer 100 g edible portion\nEnergy 360 kcal\nProtein 12.68 g\nFat 1.05 g\nCarbohydrate 72.83 g\nFibre 3.9 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168933; https://fdc.nal.usda.gov/food-details/168933/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168934",
+    "text": "Spaghetti, protein-fortified, cooked, enriched (n x 6.25)\nPer 100 g edible portion\nEnergy 164 kcal\nProtein 8.86 g\nFat 0.21 g\nCarbohydrate 30.88 g\nFibre 2 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168934; https://fdc.nal.usda.gov/food-details/168934/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168935",
+    "text": "Rice, white, long-grain, regular, cooked, unenriched, with salt\nPer 100 g edible portion\nEnergy 130 kcal\nProtein 2.69 g\nFat 0.28 g\nCarbohydrate 28.17 g\nFibre 0.4 g\nSodium 382 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168935; https://fdc.nal.usda.gov/food-details/168935/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168936",
+    "text": "Wheat flour, white, all-purpose, enriched, unbleached\nPer 100 g edible portion\nEnergy 364 kcal\nProtein 10.33 g\nFat 0.98 g\nCarbohydrate 76.31 g\nFibre 2.7 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168936; https://fdc.nal.usda.gov/food-details/168936/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168937",
+    "text": "Spaghetti, protein-fortified, dry, enriched (n x 6.25)\nPer 100 g edible portion\nEnergy 374 kcal\nProtein 21.78 g\nFat 2.23 g\nCarbohydrate 65.65 g\nFibre 2.4 g\nSodium 8 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168937; https://fdc.nal.usda.gov/food-details/168937/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168938",
+    "text": "Wheat flour, white (industrial), 10% protein, unbleached, enriched\nPer 100 g edible portion\nEnergy 366 kcal\nProtein 9.71 g\nFat 1.48 g\nCarbohydrate 76.22 g\nFibre 2.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168938; https://fdc.nal.usda.gov/food-details/168938/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168939",
+    "text": "Wheat flour, white (industrial), 11.5% protein, bleached, enriched\nPer 100 g edible portion\nEnergy 363 kcal\nProtein 11.5 g\nFat 1.45 g\nCarbohydrate 73.81 g\nFibre 2.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168939; https://fdc.nal.usda.gov/food-details/168939/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168940",
+    "text": "Wheat flour, white (industrial), 11.5% protein, bleached, unenriched\nPer 100 g edible portion\nEnergy 363 kcal\nProtein 11.5 g\nFat 1.45 g\nCarbohydrate 73.81 g\nFibre 2.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168940; https://fdc.nal.usda.gov/food-details/168940/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168941",
+    "text": "Wheat flour, white (industrial), 11.5% protein, unbleached, enriched\nPer 100 g edible portion\nEnergy 363 kcal\nProtein 11.5 g\nFat 1.45 g\nCarbohydrate 73.81 g\nFibre 2.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168941; https://fdc.nal.usda.gov/food-details/168941/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168942",
+    "text": "Wheat flour, white (industrial), 13% protein, bleached, enriched\nPer 100 g edible portion\nEnergy 362 kcal\nProtein 13.07 g\nFat 1.38 g\nCarbohydrate 72.2 g\nFibre 2.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168942; https://fdc.nal.usda.gov/food-details/168942/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168943",
+    "text": "Sorghum flour, whole-grain\nPer 100 g edible portion\nEnergy 359 kcal\nProtein 8.43 g\nFat 3.34 g\nCarbohydrate 76.64 g\nFibre 6.6 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168943; https://fdc.nal.usda.gov/food-details/168943/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168944",
+    "text": "Wheat flour, whole-grain, soft wheat\nPer 100 g edible portion\nEnergy 332 kcal\nProtein 9.61 g\nFat 1.95 g\nCarbohydrate 74.48 g\nFibre 13.1 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168944; https://fdc.nal.usda.gov/food-details/168944/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169694",
+    "text": "Corn flour, masa, enriched, white\nPer 100 g edible portion\nEnergy 363 kcal\nProtein 8.46 g\nFat 3.69 g\nCarbohydrate 76.59 g\nFibre 6.4 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169694; https://fdc.nal.usda.gov/food-details/169694/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169695",
+    "text": "Corn flour, yellow, degermed, unenriched\nPer 100 g edible portion\nEnergy 375 kcal\nProtein 5.59 g\nFat 1.39 g\nCarbohydrate 82.75 g\nFibre 1.9 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169695; https://fdc.nal.usda.gov/food-details/169695/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169696",
+    "text": "Corn flour, masa, unenriched, white\nPer 100 g edible portion\nEnergy 363 kcal\nProtein 8.46 g\nFat 3.69 g\nCarbohydrate 76.59 g\nFibre 6.4 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169696; https://fdc.nal.usda.gov/food-details/169696/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169697",
+    "text": "Cornmeal, whole-grain, yellow\nPer 100 g edible portion\nEnergy 362 kcal\nProtein 8.12 g\nFat 3.59 g\nCarbohydrate 76.89 g\nFibre 7.3 g\nSodium 35 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169697; https://fdc.nal.usda.gov/food-details/169697/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169698",
+    "text": "Cornstarch\nPer 100 g edible portion\nEnergy 381 kcal\nProtein 0.26 g\nFat 0.05 g\nCarbohydrate 91.27 g\nFibre 0.9 g\nSodium 9 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169698; https://fdc.nal.usda.gov/food-details/169698/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169699",
+    "text": "Couscous, dry\nPer 100 g edible portion\nEnergy 376 kcal\nProtein 12.76 g\nFat 0.64 g\nCarbohydrate 77.43 g\nFibre 5 g\nSodium 10 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169699; https://fdc.nal.usda.gov/food-details/169699/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169700",
+    "text": "Couscous, cooked\nPer 100 g edible portion\nEnergy 112 kcal\nProtein 3.79 g\nFat 0.16 g\nCarbohydrate 23.22 g\nFibre 1.4 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169700; https://fdc.nal.usda.gov/food-details/169700/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169701",
+    "text": "Hominy, canned, white\nPer 100 g edible portion\nEnergy 72 kcal\nProtein 1.48 g\nFat 0.88 g\nCarbohydrate 14.26 g\nFibre 2.5 g\nSodium 267 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169701; https://fdc.nal.usda.gov/food-details/169701/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169702",
+    "text": "Millet, raw\nPer 100 g edible portion\nEnergy 378 kcal\nProtein 11.02 g\nFat 4.22 g\nCarbohydrate 72.85 g\nFibre 8.5 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169702; https://fdc.nal.usda.gov/food-details/169702/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169703",
+    "text": "Rice, brown, long-grain, raw (Includes foods for USDA's Food Distribution Program)\nPer 100 g edible portion\nEnergy 367 kcal\nProtein 7.54 g\nFat 3.2 g\nCarbohydrate 76.25 g\nFibre 3.6 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169703; https://fdc.nal.usda.gov/food-details/169703/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169704",
+    "text": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)\nPer 100 g edible portion\nEnergy 123 kcal\nProtein 2.74 g\nFat 0.97 g\nCarbohydrate 25.58 g\nFibre 1.6 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169704; https://fdc.nal.usda.gov/food-details/169704/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169705",
+    "text": "Oats (Includes foods for USDA's Food Distribution Program)\nPer 100 g edible portion\nEnergy 389 kcal\nProtein 16.89 g\nFat 6.9 g\nCarbohydrate 66.27 g\nFibre 10.6 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169705; https://fdc.nal.usda.gov/food-details/169705/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169706",
+    "text": "Rice, brown, medium-grain, raw (Includes foods for USDA's Food Distribution Program)\nPer 100 g edible portion\nEnergy 362 kcal\nProtein 7.5 g\nFat 2.68 g\nCarbohydrate 76.17 g\nFibre 3.4 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169706; https://fdc.nal.usda.gov/food-details/169706/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169707",
+    "text": "Rice, white, long-grain, parboiled, enriched, dry\nPer 100 g edible portion\nEnergy 374 kcal\nProtein 7.51 g\nFat 1.03 g\nCarbohydrate 80.89 g\nFibre 1.8 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169707; https://fdc.nal.usda.gov/food-details/169707/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169708",
+    "text": "Rice, white, long-grain, parboiled, enriched, cooked\nPer 100 g edible portion\nEnergy 123 kcal\nProtein 2.91 g\nFat 0.37 g\nCarbohydrate 26.05 g\nFibre 0.9 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169708; https://fdc.nal.usda.gov/food-details/169708/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169709",
+    "text": "Rice, white, long-grain, precooked or instant, enriched, dry\nPer 100 g edible portion\nEnergy 380 kcal\nProtein 7.82 g\nFat 0.94 g\nCarbohydrate 82.32 g\nFibre 1.9 g\nSodium 10 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169709; https://fdc.nal.usda.gov/food-details/169709/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169710",
+    "text": "Rice, white, long-grain, precooked or instant, enriched, prepared\nPer 100 g edible portion\nEnergy 124 kcal\nProtein 2.18 g\nFat 0.5 g\nCarbohydrate 26.76 g\nFibre 0.6 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169710; https://fdc.nal.usda.gov/food-details/169710/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169711",
+    "text": "Rice, white, glutinous, unenriched, cooked\nPer 100 g edible portion\nEnergy 97 kcal\nProtein 2.02 g\nFat 0.19 g\nCarbohydrate 21.09 g\nFibre 1 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169711; https://fdc.nal.usda.gov/food-details/169711/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169712",
+    "text": "Rice, white, steamed, Chinese restaurant\nPer 100 g edible portion\nEnergy 151 kcal\nProtein 3.2 g\nFat 0.27 g\nCarbohydrate 33.88 g\nFibre 0.9 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169712; https://fdc.nal.usda.gov/food-details/169712/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169713",
+    "text": "Rice bran, crude\nPer 100 g edible portion\nEnergy 316 kcal\nProtein 13.35 g\nFat 20.85 g\nCarbohydrate 49.69 g\nFibre 21 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169713; https://fdc.nal.usda.gov/food-details/169713/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169714",
+    "text": "Rice flour, white, unenriched\nPer 100 g edible portion\nEnergy 366 kcal\nProtein 5.95 g\nFat 1.42 g\nCarbohydrate 80.13 g\nFibre 2.4 g\nSodium 0 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169714; https://fdc.nal.usda.gov/food-details/169714/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169715",
+    "text": "Semolina, enriched\nPer 100 g edible portion\nEnergy 360 kcal\nProtein 12.68 g\nFat 1.05 g\nCarbohydrate 72.83 g\nFibre 3.9 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169715; https://fdc.nal.usda.gov/food-details/169715/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169716",
+    "text": "Sorghum grain\nPer 100 g edible portion\nEnergy 329 kcal\nProtein 10.62 g\nFat 3.46 g\nCarbohydrate 72.09 g\nFibre 6.7 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169716; https://fdc.nal.usda.gov/food-details/169716/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169717",
+    "text": "Tapioca, pearl, dry\nPer 100 g edible portion\nEnergy 358 kcal\nProtein 0.19 g\nFat 0.02 g\nCarbohydrate 88.69 g\nFibre 0.9 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169717; https://fdc.nal.usda.gov/food-details/169717/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169718",
+    "text": "Triticale\nPer 100 g edible portion\nEnergy 336 kcal\nProtein 13.05 g\nFat 2.09 g\nCarbohydrate 72.13 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169718; https://fdc.nal.usda.gov/food-details/169718/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169719",
+    "text": "Wheat, hard white\nPer 100 g edible portion\nEnergy 342 kcal\nProtein 11.31 g\nFat 1.71 g\nCarbohydrate 75.9 g\nFibre 12.2 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169719; https://fdc.nal.usda.gov/food-details/169719/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169720",
+    "text": "Wheat, soft white\nPer 100 g edible portion\nEnergy 340 kcal\nProtein 10.69 g\nFat 1.99 g\nCarbohydrate 75.36 g\nFibre 12.7 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169720; https://fdc.nal.usda.gov/food-details/169720/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169721",
+    "text": "Wheat, durum\nPer 100 g edible portion\nEnergy 339 kcal\nProtein 13.68 g\nFat 2.47 g\nCarbohydrate 71.13 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169721; https://fdc.nal.usda.gov/food-details/169721/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169722",
+    "text": "Wheat bran, crude\nPer 100 g edible portion\nEnergy 216 kcal\nProtein 15.55 g\nFat 4.25 g\nCarbohydrate 64.51 g\nFibre 42.8 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169722; https://fdc.nal.usda.gov/food-details/169722/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169723",
+    "text": "Wheat flour, white, cake, enriched\nPer 100 g edible portion\nEnergy 362 kcal\nProtein 8.2 g\nFat 0.86 g\nCarbohydrate 78.03 g\nFibre 1.7 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169723; https://fdc.nal.usda.gov/food-details/169723/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169724",
+    "text": "Wheat flour, white, tortilla mix, enriched\nPer 100 g edible portion\nEnergy 405 kcal\nProtein 9.66 g\nFat 10.63 g\nCarbohydrate 67.14 g\nSodium 677 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169724; https://fdc.nal.usda.gov/food-details/169724/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169725",
+    "text": "Wheat, sprouted\nPer 100 g edible portion\nEnergy 198 kcal\nProtein 7.49 g\nFat 1.27 g\nCarbohydrate 42.53 g\nFibre 1.1 g\nSodium 16 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169725; https://fdc.nal.usda.gov/food-details/169725/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169726",
+    "text": "Wild rice, raw\nPer 100 g edible portion\nEnergy 357 kcal\nProtein 14.73 g\nFat 1.08 g\nCarbohydrate 74.9 g\nFibre 6.2 g\nSodium 7 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169726; https://fdc.nal.usda.gov/food-details/169726/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169727",
+    "text": "Pasta, fresh-refrigerated, plain, as purchased\nPer 100 g edible portion\nEnergy 288 kcal\nProtein 11.31 g\nFat 2.3 g\nCarbohydrate 54.73 g\nSodium 26 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169727; https://fdc.nal.usda.gov/food-details/169727/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169728",
+    "text": "Pasta, fresh-refrigerated, plain, cooked\nPer 100 g edible portion\nEnergy 131 kcal\nProtein 5.15 g\nFat 1.05 g\nCarbohydrate 24.93 g\nSodium 6 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169728; https://fdc.nal.usda.gov/food-details/169728/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169729",
+    "text": "Pasta, fresh-refrigerated, spinach, as purchased\nPer 100 g edible portion\nEnergy 289 kcal\nProtein 11.26 g\nFat 2.1 g\nCarbohydrate 55.72 g\nSodium 27 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169729; https://fdc.nal.usda.gov/food-details/169729/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169730",
+    "text": "Pasta, fresh-refrigerated, spinach, cooked\nPer 100 g edible portion\nEnergy 130 kcal\nProtein 5.06 g\nFat 0.94 g\nCarbohydrate 25.04 g\nSodium 6 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169730; https://fdc.nal.usda.gov/food-details/169730/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169731",
+    "text": "Noodles, egg, dry, enriched\nPer 100 g edible portion\nEnergy 384 kcal\nProtein 14.16 g\nFat 4.44 g\nCarbohydrate 71.27 g\nFibre 3.3 g\nSodium 21 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169731; https://fdc.nal.usda.gov/food-details/169731/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169732",
+    "text": "Noodles, egg, enriched, cooked\nPer 100 g edible portion\nEnergy 138 kcal\nProtein 4.54 g\nFat 2.07 g\nCarbohydrate 25.16 g\nFibre 1.2 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169732; https://fdc.nal.usda.gov/food-details/169732/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169733",
+    "text": "Noodles, egg, spinach, enriched, dry\nPer 100 g edible portion\nEnergy 382 kcal\nProtein 14.61 g\nFat 4.55 g\nCarbohydrate 70.32 g\nFibre 6.8 g\nSodium 72 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169733; https://fdc.nal.usda.gov/food-details/169733/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169734",
+    "text": "Noodles, egg, spinach, enriched, cooked\nPer 100 g edible portion\nEnergy 132 kcal\nProtein 5.04 g\nFat 1.57 g\nCarbohydrate 24.25 g\nFibre 2.3 g\nSodium 12 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169734; https://fdc.nal.usda.gov/food-details/169734/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169735",
+    "text": "Noodles, flat, crunchy, Chinese restaurant\nPer 100 g edible portion\nEnergy 521 kcal\nProtein 10.33 g\nFat 31.72 g\nCarbohydrate 51.9 g\nFibre 1.9 g\nSodium 378 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169735; https://fdc.nal.usda.gov/food-details/169735/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169736",
+    "text": "Pasta, dry, enriched\nPer 100 g edible portion\nEnergy 371 kcal\nProtein 13.04 g\nFat 1.51 g\nCarbohydrate 74.67 g\nFibre 3.2 g\nSodium 6 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169736; https://fdc.nal.usda.gov/food-details/169736/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169737",
+    "text": "Pasta, cooked, enriched, without added salt\nPer 100 g edible portion\nEnergy 158 kcal\nProtein 5.8 g\nFat 0.93 g\nCarbohydrate 30.86 g\nFibre 1.8 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169737; https://fdc.nal.usda.gov/food-details/169737/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169738",
+    "text": "Pasta, whole-wheat, dry (Includes foods for USDA's Food Distribution Program)\nPer 100 g edible portion\nEnergy 352 kcal\nProtein 13.87 g\nFat 2.93 g\nCarbohydrate 73.37 g\nFibre 9.2 g\nSodium 6 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169738; https://fdc.nal.usda.gov/food-details/169738/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169739",
+    "text": "Barley flour or meal\nPer 100 g edible portion\nEnergy 345 kcal\nProtein 10.5 g\nFat 1.6 g\nCarbohydrate 74.52 g\nFibre 10.1 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169739; https://fdc.nal.usda.gov/food-details/169739/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169740",
+    "text": "Barley malt flour\nPer 100 g edible portion\nEnergy 361 kcal\nProtein 10.28 g\nFat 1.84 g\nCarbohydrate 78.3 g\nFibre 7.1 g\nSodium 11 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169740; https://fdc.nal.usda.gov/food-details/169740/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169741",
+    "text": "Oat flour, partially debranned\nPer 100 g edible portion\nEnergy 404 kcal\nProtein 14.66 g\nFat 9.12 g\nCarbohydrate 65.7 g\nFibre 6.5 g\nSodium 19 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169741; https://fdc.nal.usda.gov/food-details/169741/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169742",
+    "text": "Rice noodles, dry\nPer 100 g edible portion\nEnergy 364 kcal\nProtein 5.95 g\nFat 0.56 g\nCarbohydrate 80.18 g\nFibre 1.6 g\nSodium 182 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169742; https://fdc.nal.usda.gov/food-details/169742/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169743",
+    "text": "Wheat, KAMUT khorasan, uncooked\nPer 100 g edible portion\nEnergy 337 kcal\nProtein 14.54 g\nFat 2.13 g\nCarbohydrate 70.58 g\nFibre 11.1 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169743; https://fdc.nal.usda.gov/food-details/169743/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169744",
+    "text": "Wheat, KAMUT khorasan, cooked\nPer 100 g edible portion\nEnergy 132 kcal\nProtein 5.71 g\nFat 0.83 g\nCarbohydrate 27.6 g\nFibre 4.3 g\nSodium 8 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169744; https://fdc.nal.usda.gov/food-details/169744/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169745",
+    "text": "Spelt, uncooked\nPer 100 g edible portion\nEnergy 338 kcal\nProtein 14.57 g\nFat 2.43 g\nCarbohydrate 70.19 g\nFibre 10.7 g\nSodium 8 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169745; https://fdc.nal.usda.gov/food-details/169745/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169746",
+    "text": "Spelt, cooked\nPer 100 g edible portion\nEnergy 127 kcal\nProtein 5.5 g\nFat 0.85 g\nCarbohydrate 26.44 g\nFibre 3.9 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169746; https://fdc.nal.usda.gov/food-details/169746/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169747",
+    "text": "Teff, uncooked\nPer 100 g edible portion\nEnergy 367 kcal\nProtein 13.3 g\nFat 2.38 g\nCarbohydrate 73.13 g\nFibre 8 g\nSodium 12 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169747; https://fdc.nal.usda.gov/food-details/169747/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169748",
+    "text": "Corn flour, whole-grain, white\nPer 100 g edible portion\nEnergy 361 kcal\nProtein 6.93 g\nFat 3.86 g\nCarbohydrate 76.85 g\nFibre 7.3 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169748; https://fdc.nal.usda.gov/food-details/169748/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169749",
+    "text": "Corn flour, yellow, masa, enriched\nPer 100 g edible portion\nEnergy 363 kcal\nProtein 8.46 g\nFat 3.69 g\nCarbohydrate 76.59 g\nFibre 6.4 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169749; https://fdc.nal.usda.gov/food-details/169749/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169750",
+    "text": "Cornmeal, whole-grain, white\nPer 100 g edible portion\nEnergy 362 kcal\nProtein 8.12 g\nFat 3.59 g\nCarbohydrate 76.89 g\nFibre 7.3 g\nSodium 35 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169750; https://fdc.nal.usda.gov/food-details/169750/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169751",
+    "text": "Pasta, cooked, enriched, with added salt\nPer 100 g edible portion\nEnergy 157 kcal\nProtein 5.8 g\nFat 0.93 g\nCarbohydrate 30.59 g\nFibre 1.8 g\nSodium 131 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169751; https://fdc.nal.usda.gov/food-details/169751/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169752",
+    "text": "Hominy, canned, yellow\nPer 100 g edible portion\nEnergy 72 kcal\nProtein 1.48 g\nFat 0.88 g\nCarbohydrate 14.26 g\nFibre 2.5 g\nSodium 345 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169752; https://fdc.nal.usda.gov/food-details/169752/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169753",
+    "text": "Rice, white, long-grain, regular, cooked, enriched, with salt\nPer 100 g edible portion\nEnergy 130 kcal\nProtein 2.69 g\nFat 0.28 g\nCarbohydrate 28.17 g\nFibre 0.4 g\nSodium 382 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169753; https://fdc.nal.usda.gov/food-details/169753/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169754",
+    "text": "Wheat flour, white, all-purpose, enriched, calcium-fortified\nPer 100 g edible portion\nEnergy 364 kcal\nProtein 10.33 g\nFat 0.98 g\nCarbohydrate 76.31 g\nFibre 2.7 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169754; https://fdc.nal.usda.gov/food-details/169754/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169755",
+    "text": "Noodles, egg, dry, unenriched\nPer 100 g edible portion\nEnergy 384 kcal\nProtein 14.16 g\nFat 4.44 g\nCarbohydrate 71.27 g\nFibre 3.3 g\nSodium 21 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169755; https://fdc.nal.usda.gov/food-details/169755/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169756",
+    "text": "Rice, white, long-grain, regular, raw, unenriched\nPer 100 g edible portion\nEnergy 365 kcal\nProtein 7.13 g\nFat 0.66 g\nCarbohydrate 79.95 g\nFibre 1.3 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169756; https://fdc.nal.usda.gov/food-details/169756/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169757",
+    "text": "Rice, white, long-grain, regular, unenriched, cooked without salt\nPer 100 g edible portion\nEnergy 130 kcal\nProtein 2.69 g\nFat 0.28 g\nCarbohydrate 28.17 g\nFibre 0.4 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169757; https://fdc.nal.usda.gov/food-details/169757/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169758",
+    "text": "Rice, white, long-grain, parboiled, unenriched, dry\nPer 100 g edible portion\nEnergy 374 kcal\nProtein 7.51 g\nFat 1.03 g\nCarbohydrate 80.89 g\nFibre 1.8 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169758; https://fdc.nal.usda.gov/food-details/169758/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169759",
+    "text": "Rice, white, long-grain, parboiled, unenriched, cooked\nPer 100 g edible portion\nEnergy 123 kcal\nProtein 2.91 g\nFat 0.37 g\nCarbohydrate 26.05 g\nFibre 0.9 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169759; https://fdc.nal.usda.gov/food-details/169759/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169760",
+    "text": "Rice, white, medium-grain, raw, unenriched\nPer 100 g edible portion\nEnergy 360 kcal\nProtein 6.61 g\nFat 0.58 g\nCarbohydrate 79.34 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169760; https://fdc.nal.usda.gov/food-details/169760/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169761",
+    "text": "Wheat flour, white, all-purpose, unenriched\nPer 100 g edible portion\nEnergy 364 kcal\nProtein 10.33 g\nFat 0.98 g\nCarbohydrate 76.31 g\nFibre 2.7 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169761; https://fdc.nal.usda.gov/food-details/169761/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169762",
+    "text": "Noodles, egg, cooked, unenriched, with added salt\nPer 100 g edible portion\nEnergy 138 kcal\nProtein 4.54 g\nFat 2.07 g\nCarbohydrate 25.16 g\nFibre 1.2 g\nSodium 165 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169762; https://fdc.nal.usda.gov/food-details/169762/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170283",
+    "text": "Barley, hulled\nPer 100 g edible portion\nEnergy 354 kcal\nProtein 12.48 g\nFat 2.3 g\nCarbohydrate 73.48 g\nFibre 17.3 g\nSodium 12 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170283; https://fdc.nal.usda.gov/food-details/170283/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170284",
+    "text": "Barley, pearled, raw\nPer 100 g edible portion\nEnergy 352 kcal\nProtein 9.91 g\nFat 1.16 g\nCarbohydrate 77.72 g\nFibre 15.6 g\nSodium 9 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170284; https://fdc.nal.usda.gov/food-details/170284/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170285",
+    "text": "Barley, pearled, cooked\nPer 100 g edible portion\nEnergy 123 kcal\nProtein 2.26 g\nFat 0.44 g\nCarbohydrate 28.22 g\nFibre 3.8 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170285; https://fdc.nal.usda.gov/food-details/170285/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170286",
+    "text": "Buckwheat\nPer 100 g edible portion\nEnergy 343 kcal\nProtein 13.25 g\nFat 3.4 g\nCarbohydrate 71.5 g\nFibre 10 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170286; https://fdc.nal.usda.gov/food-details/170286/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170287",
+    "text": "Bulgur, cooked\nPer 100 g edible portion\nEnergy 83 kcal\nProtein 3.08 g\nFat 0.24 g\nCarbohydrate 18.58 g\nFibre 4.5 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170287; https://fdc.nal.usda.gov/food-details/170287/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170288",
+    "text": "Corn grain, yellow\nPer 100 g edible portion\nEnergy 365 kcal\nProtein 9.42 g\nFat 4.74 g\nCarbohydrate 74.26 g\nFibre 7.3 g\nSodium 35 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170288; https://fdc.nal.usda.gov/food-details/170288/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170289",
+    "text": "Corn bran, crude\nPer 100 g edible portion\nEnergy 224 kcal\nProtein 8.36 g\nFat 0.92 g\nCarbohydrate 85.64 g\nFibre 79 g\nSodium 7 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170289; https://fdc.nal.usda.gov/food-details/170289/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170290",
+    "text": "Corn flour, whole-grain, yellow\nPer 100 g edible portion\nEnergy 361 kcal\nProtein 6.93 g\nFat 3.86 g\nCarbohydrate 76.85 g\nFibre 7.3 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170290; https://fdc.nal.usda.gov/food-details/170290/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170682",
+    "text": "Amaranth grain, uncooked\nPer 100 g edible portion\nEnergy 371 kcal\nProtein 13.56 g\nFat 7.02 g\nCarbohydrate 65.25 g\nFibre 6.7 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170682; https://fdc.nal.usda.gov/food-details/170682/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170683",
+    "text": "Amaranth grain, cooked\nPer 100 g edible portion\nEnergy 102 kcal\nProtein 3.8 g\nFat 1.58 g\nCarbohydrate 18.69 g\nFibre 2.1 g\nSodium 6 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170683; https://fdc.nal.usda.gov/food-details/170683/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170684",
+    "text": "Arrowroot flour\nPer 100 g edible portion\nEnergy 357 kcal\nProtein 0.3 g\nFat 0.1 g\nCarbohydrate 88.15 g\nFibre 3.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170684; https://fdc.nal.usda.gov/food-details/170684/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170685",
+    "text": "Buckwheat groats, roasted, dry\nPer 100 g edible portion\nEnergy 346 kcal\nProtein 11.73 g\nFat 2.71 g\nCarbohydrate 74.95 g\nFibre 10.3 g\nSodium 11 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170685; https://fdc.nal.usda.gov/food-details/170685/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170686",
+    "text": "Buckwheat groats, roasted, cooked\nPer 100 g edible portion\nEnergy 92 kcal\nProtein 3.38 g\nFat 0.62 g\nCarbohydrate 19.94 g\nFibre 2.7 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170686; https://fdc.nal.usda.gov/food-details/170686/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170687",
+    "text": "Buckwheat flour, whole-groat\nPer 100 g edible portion\nEnergy 335 kcal\nProtein 12.62 g\nFat 3.1 g\nCarbohydrate 70.59 g\nFibre 10 g\nSodium 11 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170687; https://fdc.nal.usda.gov/food-details/170687/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170688",
+    "text": "Bulgur, dry\nPer 100 g edible portion\nEnergy 342 kcal\nProtein 12.29 g\nFat 1.33 g\nCarbohydrate 75.87 g\nFibre 12.5 g\nSodium 17 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170688; https://fdc.nal.usda.gov/food-details/170688/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172014",
+    "text": "Pasta, cooked, unenriched, with added salt\nPer 100 g edible portion\nEnergy 157 kcal\nProtein 5.8 g\nFat 0.93 g\nCarbohydrate 30.59 g\nFibre 1.8 g\nSodium 131 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172014; https://fdc.nal.usda.gov/food-details/172014/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172015",
+    "text": "Cornmeal, degermed, unenriched, white\nPer 100 g edible portion\nEnergy 370 kcal\nProtein 7.11 g\nFat 1.75 g\nCarbohydrate 79.45 g\nFibre 3.9 g\nSodium 7 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172015; https://fdc.nal.usda.gov/food-details/172015/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172016",
+    "text": "Wheat flour, white (industrial), 9% protein, bleached, enriched\nPer 100 g edible portion\nEnergy 367 kcal\nProtein 8.89 g\nFat 1.43 g\nCarbohydrate 77.32 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172016; https://fdc.nal.usda.gov/food-details/172016/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172017",
+    "text": "Wheat flour, white (industrial), 9% protein, bleached, unenriched\nPer 100 g edible portion\nEnergy 367 kcal\nProtein 8.89 g\nFat 1.43 g\nCarbohydrate 77.32 g\nFibre 2.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172017; https://fdc.nal.usda.gov/food-details/172017/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172018",
+    "text": "Wheat flour, white (industrial), 10% protein, bleached, enriched\nPer 100 g edible portion\nEnergy 366 kcal\nProtein 9.71 g\nFat 1.48 g\nCarbohydrate 76.22 g\nFibre 2.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172018; https://fdc.nal.usda.gov/food-details/172018/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172019",
+    "text": "Wheat flour, white (industrial), 10% protein, bleached, unenriched\nPer 100 g edible portion\nEnergy 366 kcal\nProtein 9.71 g\nFat 1.48 g\nCarbohydrate 76.22 g\nFibre 2.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172019; https://fdc.nal.usda.gov/food-details/172019/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172020",
+    "text": "Wheat flour, white (industrial), 13% protein, bleached, unenriched\nPer 100 g edible portion\nEnergy 362 kcal\nProtein 13.07 g\nFat 1.38 g\nCarbohydrate 72.2 g\nFibre 2.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172020; https://fdc.nal.usda.gov/food-details/172020/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172021",
+    "text": "Wheat flour, white (industrial), 15% protein, bleached, enriched\nPer 100 g edible portion\nEnergy 362 kcal\nProtein 15.33 g\nFat 1.41 g\nCarbohydrate 69.88 g\nFibre 2.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172021; https://fdc.nal.usda.gov/food-details/172021/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172022",
+    "text": "Wheat flour, white (industrial), 15% protein, bleached, unenriched\nPer 100 g edible portion\nEnergy 362 kcal\nProtein 15.33 g\nFat 1.41 g\nCarbohydrate 69.88 g\nFibre 2.4 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172022; https://fdc.nal.usda.gov/food-details/172022/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172023",
+    "text": "Millet flour\nPer 100 g edible portion\nEnergy 382 kcal\nProtein 10.75 g\nFat 4.25 g\nCarbohydrate 75.12 g\nFibre 3.5 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172023; https://fdc.nal.usda.gov/food-details/172023/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172024",
+    "text": "Pasta, whole grain, 51% whole wheat, remaining enriched semolina, cooked (Includes foods for USDA's Food Distribution Program)\nPer 100 g edible portion\nEnergy 156 kcal\nProtein 5.67 g\nFat 1.48 g\nCarbohydrate 30.87 g\nFibre 4.5 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172024; https://fdc.nal.usda.gov/food-details/172024/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172025",
+    "text": "Pasta, whole grain, 51% whole wheat, remaining enriched semolina, dry (Includes foods for USDA's Food Distribution Program)\nPer 100 g edible portion\nEnergy 361 kcal\nProtein 13.2 g\nFat 2.55 g\nCarbohydrate 73.3 g\nFibre 11.3 g\nSodium 12 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172025; https://fdc.nal.usda.gov/food-details/172025/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172026",
+    "text": "Pasta, gluten-free, brown rice flour, cooked, TINKYADA\nPer 100 g edible portion\nEnergy 138 kcal\nProtein 3.46 g\nFat 1.67 g\nCarbohydrate 32.2 g\nFibre 1.7 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172026; https://fdc.nal.usda.gov/food-details/172026/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-172027",
+    "text": "Pasta, gluten-free, corn flour and quinoa flour, cooked, ANCIENT HARVEST\nPer 100 g edible portion\nEnergy 152 kcal\nProtein 3.23 g\nFat 2.07 g\nCarbohydrate 31.11 g\nFibre 3.3 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 172027; https://fdc.nal.usda.gov/food-details/172027/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-173262",
+    "text": "Sorghum flour, refined, unenriched\nPer 100 g edible portion\nEnergy 357 kcal\nProtein 9.53 g\nFat 1.24 g\nCarbohydrate 76.85 g\nFibre 1.9 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 173262; https://fdc.nal.usda.gov/food-details/173262/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-173263",
+    "text": "Rice, brown, parboiled, cooked, UNCLE BENS\nPer 100 g edible portion\nEnergy 147 kcal\nProtein 3.09 g\nFat 0.85 g\nCarbohydrate 31.33 g\nFibre 1.7 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 173263; https://fdc.nal.usda.gov/food-details/173263/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-173264",
+    "text": "Pasta, gluten-free, rice flour and rice bran extract, cooked, DE BOLES\nPer 100 g edible portion\nEnergy 200 kcal\nProtein 4.21 g\nFat 1.7 g\nCarbohydrate 40.75 g\nFibre 1.9 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 173264; https://fdc.nal.usda.gov/food-details/173264/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-173265",
+    "text": "Pasta, gluten-free, corn and rice flour, cooked\nPer 100 g edible portion\nEnergy 179 kcal\nProtein 3.2 g\nFat 1 g\nCarbohydrate 38.05 g\nFibre 1.4 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 173265; https://fdc.nal.usda.gov/food-details/173265/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Cereal Grains and Pasta. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  }
+]

@@ -22,6 +22,10 @@ and the relevant family license files with redistributed source datasets.
 | --- | --- | --- |
 | Geographic places and physical features | [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/), public domain | [Geography](families/geography/README.md) |
 | Airports and landing surfaces | [OurAirports](https://ourairports.com/data/), public domain | [Transport](families/transport/README.md); pinned country-balanced selection, with historical source codes and dimensions |
+| Food composition | [USDA FoodData Central SR Legacy](https://fdc.nal.usda.gov/download-datasets/), public domain | [Food](families/food/README.md); 2018 descriptions, preparation states and per-100-g nutrients |
+| Food and material vocabulary | [Corpora](https://github.com/dariusk/corpora), CC0 | [Food](families/food/README.md), [materials](families/materials/README.md); literal labels, reviewed exclusions and reproducible deduplication |
+| Unicode scalar names | [Unicode Character Database 15.0.0](https://www.unicode.org/versions/Unicode15.0.0/), Unicode-DFS-2016 | [UTF encodings](families/computing/encoding/utf8/README.md); pinned name subset and full bundled notice |
+| Classical-cipher plaintext | Lewis Carroll, *Alice's Adventures in Wonderland*, public-domain edition | [Ciphers](families/cryptography/classical/ciphers/README.md); verified exact source spans, not invented proverbs |
 | Small graph atlas | [NetworkX 3.4.2](https://github.com/networkx/networkx/tree/networkx-3.4.2), BSD-3-Clause | [Graph atlas](families/math/discrete-mathematics/graph-theory/atlas/README.md) |
 | Classical work metadata | [Open Opus](https://www.openopus.org/), public-domain/CC0 data | [Music](families/music/README.md); its API software license is separate |
 | Instrument names | [Corpora](https://github.com/dariusk/corpora), CC0 | [Music](families/music/README.md), with documented spelling corrections |

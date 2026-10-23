@@ -1,0 +1,687 @@
+[
+  {
+    "id": "usda-fdc-168585",
+    "text": "Nuts, coconut meat, dried (desiccated), creamed\nPer 100 g edible portion\nEnergy 684 kcal\nProtein 5.3 g\nFat 69.08 g\nCarbohydrate 21.52 g\nSodium 37 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168585; https://fdc.nal.usda.gov/food-details/168585/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168586",
+    "text": "Nuts, coconut meat, dried (desiccated), sweetened, shredded\nPer 100 g edible portion\nEnergy 501 kcal\nProtein 2.88 g\nFat 35.49 g\nCarbohydrate 47.67 g\nFibre 4.5 g\nSodium 262 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168586; https://fdc.nal.usda.gov/food-details/168586/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168587",
+    "text": "Seeds, sisymbrium sp. seeds, whole, dried\nPer 100 g edible portion\nEnergy 318 kcal\nProtein 12.14 g\nFat 4.6 g\nCarbohydrate 58.26 g\nSodium 92 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168587; https://fdc.nal.usda.gov/food-details/168587/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168588",
+    "text": "Nuts, almond butter, plain, without salt added\nPer 100 g edible portion\nEnergy 614 kcal\nProtein 20.96 g\nFat 55.5 g\nCarbohydrate 18.82 g\nFibre 10.3 g\nSodium 7 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168588; https://fdc.nal.usda.gov/food-details/168588/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168589",
+    "text": "Nuts, chestnuts, japanese, boiled and steamed\nPer 100 g edible portion\nEnergy 56 kcal\nProtein 0.82 g\nFat 0.19 g\nCarbohydrate 12.64 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168589; https://fdc.nal.usda.gov/food-details/168589/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168590",
+    "text": "Nuts, chestnuts, japanese, roasted\nPer 100 g edible portion\nEnergy 201 kcal\nProtein 2.97 g\nFat 0.8 g\nCarbohydrate 45.13 g\nSodium 19 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168590; https://fdc.nal.usda.gov/food-details/168590/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168591",
+    "text": "Seeds, lotus seeds, raw\nPer 100 g edible portion\nEnergy 89 kcal\nProtein 4.13 g\nFat 0.53 g\nCarbohydrate 17.28 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168591; https://fdc.nal.usda.gov/food-details/168591/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168592",
+    "text": "Nuts, almonds, honey roasted, unblanched\nPer 100 g edible portion\nEnergy 594 kcal\nProtein 18.17 g\nFat 49.9 g\nCarbohydrate 27.9 g\nFibre 13.7 g\nSodium 130 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168592; https://fdc.nal.usda.gov/food-details/168592/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168593",
+    "text": "Seeds, sunflower seed kernels, oil roasted, with salt added\nPer 100 g edible portion\nEnergy 592 kcal\nProtein 20.06 g\nFat 51.3 g\nCarbohydrate 22.89 g\nFibre 10.6 g\nSodium 303 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168593; https://fdc.nal.usda.gov/food-details/168593/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168594",
+    "text": "Seeds, sunflower seed kernels, toasted, with salt added\nPer 100 g edible portion\nEnergy 619 kcal\nProtein 17.21 g\nFat 56.8 g\nCarbohydrate 20.59 g\nFibre 11.5 g\nSodium 613 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168594; https://fdc.nal.usda.gov/food-details/168594/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168595",
+    "text": "Seeds, sunflower seed butter, with salt added (Includes foods for USDA's Food Distribution Program)\nPer 100 g edible portion\nEnergy 617 kcal\nProtein 17.28 g\nFat 55.2 g\nCarbohydrate 23.32 g\nFibre 5.7 g\nSodium 331 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168595; https://fdc.nal.usda.gov/food-details/168595/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168596",
+    "text": "Nuts, almonds, dry roasted, with salt added\nPer 100 g edible portion\nEnergy 598 kcal\nProtein 20.96 g\nFat 52.54 g\nCarbohydrate 21.01 g\nFibre 10.9 g\nSodium 234 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168596; https://fdc.nal.usda.gov/food-details/168596/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168597",
+    "text": "Nuts, cashew butter, plain, with salt added\nPer 100 g edible portion\nEnergy 609 kcal\nProtein 12.12 g\nFat 53.03 g\nCarbohydrate 30.3 g\nFibre 3 g\nSodium 295 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168597; https://fdc.nal.usda.gov/food-details/168597/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168598",
+    "text": "Nuts, macadamia nuts, dry roasted, with salt added\nPer 100 g edible portion\nEnergy 716 kcal\nProtein 7.79 g\nFat 76.08 g\nCarbohydrate 12.83 g\nFibre 8 g\nSodium 353 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168598; https://fdc.nal.usda.gov/food-details/168598/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168599",
+    "text": "Nuts, mixed nuts, dry roasted, with peanuts, with salt added\nPer 100 g edible portion\nEnergy 594 kcal\nProtein 17.3 g\nFat 51.45 g\nCarbohydrate 25.35 g\nFibre 9 g\nSodium 345 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168599; https://fdc.nal.usda.gov/food-details/168599/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168600",
+    "text": "Nuts, mixed nuts, oil roasted, with peanuts, with salt added\nPer 100 g edible portion\nEnergy 607 kcal\nProtein 20.04 g\nFat 53.95 g\nCarbohydrate 21.05 g\nFibre 7 g\nSodium 273 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168600; https://fdc.nal.usda.gov/food-details/168600/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168601",
+    "text": "Seeds, pumpkin and squash seeds, whole, roasted, with salt added\nPer 100 g edible portion\nEnergy 446 kcal\nProtein 18.55 g\nFat 19.4 g\nCarbohydrate 53.75 g\nFibre 18.4 g\nSodium 2541 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168601; https://fdc.nal.usda.gov/food-details/168601/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168602",
+    "text": "Nuts, almonds, oil roasted, lightly salted\nPer 100 g edible portion\nEnergy 607 kcal\nProtein 21.23 g\nFat 55.17 g\nCarbohydrate 17.68 g\nFibre 10.5 g\nSodium 143 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168602; https://fdc.nal.usda.gov/food-details/168602/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168603",
+    "text": "Nuts, almond butter, plain, with salt added\nPer 100 g edible portion\nEnergy 614 kcal\nProtein 20.96 g\nFat 55.5 g\nCarbohydrate 18.82 g\nFibre 10.3 g\nSodium 227 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168603; https://fdc.nal.usda.gov/food-details/168603/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-168604",
+    "text": "Seeds, sesame butter, tahini, type of kernels unspecified\nPer 100 g edible portion\nEnergy 592 kcal\nProtein 17.4 g\nFat 53.01 g\nCarbohydrate 21.5 g\nFibre 4.7 g\nSodium 35 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 168604; https://fdc.nal.usda.gov/food-details/168604/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169406",
+    "text": "Seeds, sesame butter, tahini, from unroasted kernels (non-chemically removed seed coat)\nPer 100 g edible portion\nEnergy 607 kcal\nProtein 17.95 g\nFat 56.44 g\nCarbohydrate 17.89 g\nFibre 9.3 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169406; https://fdc.nal.usda.gov/food-details/169406/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169407",
+    "text": "Seeds, watermelon seed kernels, dried\nPer 100 g edible portion\nEnergy 557 kcal\nProtein 28.33 g\nFat 47.37 g\nCarbohydrate 15.31 g\nSodium 99 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169407; https://fdc.nal.usda.gov/food-details/169407/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169408",
+    "text": "Nuts, chestnuts, japanese, dried\nPer 100 g edible portion\nEnergy 360 kcal\nProtein 5.25 g\nFat 1.24 g\nCarbohydrate 81.43 g\nSodium 34 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169408; https://fdc.nal.usda.gov/food-details/169408/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169409",
+    "text": "Nuts, coconut milk, frozen (liquid expressed from grated meat and water)\nPer 100 g edible portion\nEnergy 202 kcal\nProtein 1.61 g\nFat 20.8 g\nCarbohydrate 5.58 g\nSodium 12 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169409; https://fdc.nal.usda.gov/food-details/169409/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169410",
+    "text": "Seeds, sesame butter, tahini, from raw and stone ground kernels\nPer 100 g edible portion\nEnergy 570 kcal\nProtein 17.81 g\nFat 48 g\nCarbohydrate 26.19 g\nFibre 9.3 g\nSodium 74 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169410; https://fdc.nal.usda.gov/food-details/169410/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169411",
+    "text": "Nuts, formulated, wheat-based, all flavors except macadamia, without salt\nPer 100 g edible portion\nEnergy 647 kcal\nProtein 13.11 g\nFat 62.3 g\nCarbohydrate 20.79 g\nFibre 5.2 g\nSodium 91 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169411; https://fdc.nal.usda.gov/food-details/169411/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169412",
+    "text": "Seeds, sesame seed kernels, dried (decorticated)\nPer 100 g edible portion\nEnergy 631 kcal\nProtein 20.45 g\nFat 61.21 g\nCarbohydrate 11.73 g\nFibre 11.6 g\nSodium 47 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169412; https://fdc.nal.usda.gov/food-details/169412/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169413",
+    "text": "Nuts, chestnuts, japanese, raw\nPer 100 g edible portion\nEnergy 154 kcal\nProtein 2.25 g\nFat 0.53 g\nCarbohydrate 34.91 g\nSodium 14 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169413; https://fdc.nal.usda.gov/food-details/169413/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169414",
+    "text": "Seeds, flaxseed\nPer 100 g edible portion\nEnergy 534 kcal\nProtein 18.29 g\nFat 42.16 g\nCarbohydrate 28.88 g\nFibre 27.3 g\nSodium 30 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169414; https://fdc.nal.usda.gov/food-details/169414/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169415",
+    "text": "Seeds, pumpkin and squash seed kernels, roasted, with salt added\nPer 100 g edible portion\nEnergy 574 kcal\nProtein 29.84 g\nFat 49.05 g\nCarbohydrate 14.71 g\nFibre 6.5 g\nSodium 256 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169415; https://fdc.nal.usda.gov/food-details/169415/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169416",
+    "text": "Seeds, sesame seed kernels, toasted, with salt added (decorticated)\nPer 100 g edible portion\nEnergy 567 kcal\nProtein 16.96 g\nFat 48 g\nCarbohydrate 26.04 g\nFibre 16.9 g\nSodium 588 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169416; https://fdc.nal.usda.gov/food-details/169416/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169417",
+    "text": "Seeds, sunflower seed kernels from shell, dry roasted, with salt added\nPer 100 g edible portion\nEnergy 546 kcal\nProtein 19.33 g\nFat 49.8 g\nCarbohydrate 15.31 g\nFibre 9 g\nSodium 6008 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169417; https://fdc.nal.usda.gov/food-details/169417/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169418",
+    "text": "Seeds, sunflower seed kernels, dry roasted, with salt added\nPer 100 g edible portion\nEnergy 582 kcal\nProtein 19.33 g\nFat 49.8 g\nCarbohydrate 24.07 g\nFibre 9 g\nSodium 655 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169418; https://fdc.nal.usda.gov/food-details/169418/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169419",
+    "text": "Nuts, almonds, oil roasted, with salt added\nPer 100 g edible portion\nEnergy 607 kcal\nProtein 21.23 g\nFat 55.17 g\nCarbohydrate 17.68 g\nFibre 10.5 g\nSodium 339 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169419; https://fdc.nal.usda.gov/food-details/169419/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169420",
+    "text": "Nuts, almonds, oil roasted, with salt added, smoke flavor\nPer 100 g edible portion\nEnergy 607 kcal\nProtein 21.43 g\nFat 55.89 g\nCarbohydrate 17.86 g\nFibre 10.7 g\nSodium 548 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169420; https://fdc.nal.usda.gov/food-details/169420/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169421",
+    "text": "Nuts, cashew nuts, dry roasted, with salt added\nPer 100 g edible portion\nEnergy 574 kcal\nProtein 15.31 g\nFat 46.35 g\nCarbohydrate 32.69 g\nFibre 3 g\nSodium 640 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169421; https://fdc.nal.usda.gov/food-details/169421/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169422",
+    "text": "Nuts, cashew nuts, oil roasted, with salt added\nPer 100 g edible portion\nEnergy 581 kcal\nProtein 16.84 g\nFat 47.77 g\nCarbohydrate 30.16 g\nFibre 3.3 g\nSodium 308 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169422; https://fdc.nal.usda.gov/food-details/169422/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169423",
+    "text": "Nuts, mixed nuts, oil roasted, without peanuts, with salt added\nPer 100 g edible portion\nEnergy 615 kcal\nProtein 15.52 g\nFat 56.17 g\nCarbohydrate 22.27 g\nFibre 5.5 g\nSodium 306 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169423; https://fdc.nal.usda.gov/food-details/169423/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169424",
+    "text": "Nuts, pecans, dry roasted, with salt added\nPer 100 g edible portion\nEnergy 710 kcal\nProtein 9.5 g\nFat 74.27 g\nCarbohydrate 13.55 g\nFibre 9.4 g\nSodium 383 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169424; https://fdc.nal.usda.gov/food-details/169424/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169425",
+    "text": "Nuts, pecans, oil roasted, with salt added\nPer 100 g edible portion\nEnergy 715 kcal\nProtein 9.2 g\nFat 75.23 g\nCarbohydrate 13.01 g\nFibre 9.5 g\nSodium 393 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169425; https://fdc.nal.usda.gov/food-details/169425/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169426",
+    "text": "Nuts, pistachio nuts, dry roasted, with salt added\nPer 100 g edible portion\nEnergy 569 kcal\nProtein 21.05 g\nFat 45.82 g\nCarbohydrate 27.55 g\nFibre 10.3 g\nSodium 428 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169426; https://fdc.nal.usda.gov/food-details/169426/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169427",
+    "text": "Nuts, mixed nuts, oil roasted, with peanuts, lightly salted\nPer 100 g edible portion\nEnergy 607 kcal\nProtein 20.04 g\nFat 53.95 g\nCarbohydrate 21.05 g\nFibre 7 g\nSodium 161 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169427; https://fdc.nal.usda.gov/food-details/169427/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-169428",
+    "text": "Nuts, mixed nuts, oil roasted, without peanuts, lightly salted\nPer 100 g edible portion\nEnergy 607 kcal\nProtein 17.86 g\nFat 50 g\nCarbohydrate 25 g\nFibre 7.1 g\nSodium 143 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 169428; https://fdc.nal.usda.gov/food-details/169428/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170144",
+    "text": "Seeds, breadfruit seeds, raw\nPer 100 g edible portion\nEnergy 191 kcal\nProtein 7.4 g\nFat 5.59 g\nCarbohydrate 29.24 g\nFibre 5.2 g\nSodium 25 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170144; https://fdc.nal.usda.gov/food-details/170144/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170145",
+    "text": "Seeds, breadfruit seeds, boiled\nPer 100 g edible portion\nEnergy 168 kcal\nProtein 5.3 g\nFat 2.3 g\nCarbohydrate 32 g\nFibre 4.8 g\nSodium 23 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170145; https://fdc.nal.usda.gov/food-details/170145/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170146",
+    "text": "Seeds, cottonseed flour, low fat (glandless)\nPer 100 g edible portion\nEnergy 332 kcal\nProtein 49.83 g\nFat 1.41 g\nCarbohydrate 36.1 g\nSodium 35 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170146; https://fdc.nal.usda.gov/food-details/170146/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170147",
+    "text": "Seeds, cottonseed meal, partially defatted (glandless)\nPer 100 g edible portion\nEnergy 367 kcal\nProtein 49.1 g\nFat 4.77 g\nCarbohydrate 38.43 g\nSodium 37 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170147; https://fdc.nal.usda.gov/food-details/170147/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170148",
+    "text": "Seeds, hemp seed, hulled\nPer 100 g edible portion\nEnergy 553 kcal\nProtein 31.56 g\nFat 48.75 g\nCarbohydrate 8.67 g\nFibre 4 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170148; https://fdc.nal.usda.gov/food-details/170148/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170149",
+    "text": "Seeds, lotus seeds, dried\nPer 100 g edible portion\nEnergy 332 kcal\nProtein 15.41 g\nFat 1.97 g\nCarbohydrate 64.47 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170149; https://fdc.nal.usda.gov/food-details/170149/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170150",
+    "text": "Seeds, sesame seeds, whole, dried\nPer 100 g edible portion\nEnergy 573 kcal\nProtein 17.73 g\nFat 49.67 g\nCarbohydrate 23.45 g\nFibre 11.8 g\nSodium 11 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170150; https://fdc.nal.usda.gov/food-details/170150/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170151",
+    "text": "Seeds, sesame seeds, whole, roasted and toasted\nPer 100 g edible portion\nEnergy 565 kcal\nProtein 16.96 g\nFat 48 g\nCarbohydrate 25.74 g\nFibre 14 g\nSodium 11 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170151; https://fdc.nal.usda.gov/food-details/170151/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170152",
+    "text": "Seeds, sesame seed kernels, toasted, without salt added (decorticated)\nPer 100 g edible portion\nEnergy 567 kcal\nProtein 16.96 g\nFat 48 g\nCarbohydrate 26.04 g\nFibre 16.9 g\nSodium 39 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170152; https://fdc.nal.usda.gov/food-details/170152/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170153",
+    "text": "Seeds, sesame flour, partially defatted\nPer 100 g edible portion\nEnergy 382 kcal\nProtein 40.32 g\nFat 11.89 g\nCarbohydrate 35.14 g\nSodium 41 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170153; https://fdc.nal.usda.gov/food-details/170153/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170154",
+    "text": "Seeds, sunflower seed kernels, toasted, without salt\nPer 100 g edible portion\nEnergy 619 kcal\nProtein 17.21 g\nFat 56.8 g\nCarbohydrate 20.59 g\nFibre 11.5 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170154; https://fdc.nal.usda.gov/food-details/170154/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170155",
+    "text": "Seeds, sunflower seed butter, without salt\nPer 100 g edible portion\nEnergy 617 kcal\nProtein 17.28 g\nFat 55.2 g\nCarbohydrate 23.32 g\nFibre 5.7 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170155; https://fdc.nal.usda.gov/food-details/170155/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170156",
+    "text": "Seeds, sunflower seed flour, partially defatted\nPer 100 g edible portion\nEnergy 326 kcal\nProtein 48.06 g\nFat 1.61 g\nCarbohydrate 35.83 g\nFibre 5.2 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170156; https://fdc.nal.usda.gov/food-details/170156/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170157",
+    "text": "Nuts, acorns, raw\nPer 100 g edible portion\nEnergy 387 kcal\nProtein 6.15 g\nFat 23.86 g\nCarbohydrate 40.75 g\nSodium 0 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170157; https://fdc.nal.usda.gov/food-details/170157/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170158",
+    "text": "Nuts, almonds, dry roasted, without salt added\nPer 100 g edible portion\nEnergy 598 kcal\nProtein 20.96 g\nFat 52.54 g\nCarbohydrate 21.01 g\nFibre 10.9 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170158; https://fdc.nal.usda.gov/food-details/170158/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170159",
+    "text": "Nuts, almonds, oil roasted, without salt added\nPer 100 g edible portion\nEnergy 607 kcal\nProtein 21.23 g\nFat 55.17 g\nCarbohydrate 17.68 g\nFibre 10.5 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170159; https://fdc.nal.usda.gov/food-details/170159/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170160",
+    "text": "Nuts, almond paste\nPer 100 g edible portion\nEnergy 458 kcal\nProtein 9 g\nFat 27.74 g\nCarbohydrate 47.81 g\nFibre 4.8 g\nSodium 9 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170160; https://fdc.nal.usda.gov/food-details/170160/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170161",
+    "text": "Nuts, beechnuts, dried\nPer 100 g edible portion\nEnergy 576 kcal\nProtein 6.2 g\nFat 50 g\nCarbohydrate 33.5 g\nSodium 38 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170161; https://fdc.nal.usda.gov/food-details/170161/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170162",
+    "text": "Nuts, cashew nuts, raw\nPer 100 g edible portion\nEnergy 553 kcal\nProtein 18.22 g\nFat 43.85 g\nCarbohydrate 30.19 g\nFibre 3.3 g\nSodium 12 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170162; https://fdc.nal.usda.gov/food-details/170162/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170163",
+    "text": "Nuts, cashew butter, plain, without salt added\nPer 100 g edible portion\nEnergy 587 kcal\nProtein 17.56 g\nFat 49.41 g\nCarbohydrate 27.57 g\nFibre 2 g\nSodium 15 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170163; https://fdc.nal.usda.gov/food-details/170163/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170164",
+    "text": "Nuts, chestnuts, chinese, raw\nPer 100 g edible portion\nEnergy 224 kcal\nProtein 4.2 g\nFat 1.11 g\nCarbohydrate 49.07 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170164; https://fdc.nal.usda.gov/food-details/170164/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170165",
+    "text": "Nuts, chestnuts, chinese, dried\nPer 100 g edible portion\nEnergy 363 kcal\nProtein 6.82 g\nFat 1.81 g\nCarbohydrate 79.76 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170165; https://fdc.nal.usda.gov/food-details/170165/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170166",
+    "text": "Nuts, chestnuts, chinese, boiled and steamed\nPer 100 g edible portion\nEnergy 153 kcal\nProtein 2.88 g\nFat 0.76 g\nCarbohydrate 33.64 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170166; https://fdc.nal.usda.gov/food-details/170166/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170167",
+    "text": "Nuts, chestnuts, european, dried, peeled\nPer 100 g edible portion\nEnergy 369 kcal\nProtein 5.01 g\nFat 3.91 g\nCarbohydrate 78.43 g\nSodium 37 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170167; https://fdc.nal.usda.gov/food-details/170167/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170168",
+    "text": "Nuts, chestnuts, european, boiled and steamed\nPer 100 g edible portion\nEnergy 131 kcal\nProtein 2 g\nFat 1.38 g\nCarbohydrate 27.76 g\nSodium 27 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170168; https://fdc.nal.usda.gov/food-details/170168/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170169",
+    "text": "Nuts, coconut meat, raw\nPer 100 g edible portion\nEnergy 354 kcal\nProtein 3.33 g\nFat 33.49 g\nCarbohydrate 15.23 g\nFibre 9 g\nSodium 20 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170169; https://fdc.nal.usda.gov/food-details/170169/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170170",
+    "text": "Nuts, coconut meat, dried (desiccated), not sweetened\nPer 100 g edible portion\nEnergy 660 kcal\nProtein 6.88 g\nFat 64.53 g\nCarbohydrate 23.65 g\nFibre 16.3 g\nSodium 37 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170170; https://fdc.nal.usda.gov/food-details/170170/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170171",
+    "text": "Nuts, coconut cream, canned, sweetened\nPer 100 g edible portion\nEnergy 357 kcal\nProtein 1.17 g\nFat 16.31 g\nCarbohydrate 53.21 g\nFibre 0.2 g\nSodium 36 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170171; https://fdc.nal.usda.gov/food-details/170171/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170172",
+    "text": "Nuts, coconut milk, raw (liquid expressed from grated meat and water)\nPer 100 g edible portion\nEnergy 230 kcal\nProtein 2.29 g\nFat 23.84 g\nCarbohydrate 5.54 g\nFibre 2.2 g\nSodium 15 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170172; https://fdc.nal.usda.gov/food-details/170172/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170173",
+    "text": "Nuts, coconut milk, canned (liquid expressed from grated meat and water)\nPer 100 g edible portion\nEnergy 197 kcal\nProtein 2.02 g\nFat 21.33 g\nCarbohydrate 2.81 g\nSodium 13 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170173; https://fdc.nal.usda.gov/food-details/170173/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170174",
+    "text": "Nuts, coconut water (liquid from coconuts)\nPer 100 g edible portion\nEnergy 19 kcal\nProtein 0.72 g\nFat 0.2 g\nCarbohydrate 3.71 g\nFibre 1.1 g\nSodium 105 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170174; https://fdc.nal.usda.gov/food-details/170174/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170175",
+    "text": "Nuts, ginkgo nuts, dried\nPer 100 g edible portion\nEnergy 348 kcal\nProtein 10.35 g\nFat 2 g\nCarbohydrate 72.45 g\nSodium 13 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170175; https://fdc.nal.usda.gov/food-details/170175/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170176",
+    "text": "Nuts, ginkgo nuts, canned\nPer 100 g edible portion\nEnergy 111 kcal\nProtein 2.29 g\nFat 1.62 g\nCarbohydrate 22.1 g\nFibre 9.3 g\nSodium 307 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170176; https://fdc.nal.usda.gov/food-details/170176/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170177",
+    "text": "Nuts, hickorynuts, dried\nPer 100 g edible portion\nEnergy 657 kcal\nProtein 12.72 g\nFat 64.37 g\nCarbohydrate 18.25 g\nFibre 6.4 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170177; https://fdc.nal.usda.gov/food-details/170177/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170178",
+    "text": "Nuts, macadamia nuts, raw\nPer 100 g edible portion\nEnergy 718 kcal\nProtein 7.91 g\nFat 75.77 g\nCarbohydrate 13.82 g\nFibre 8.6 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170178; https://fdc.nal.usda.gov/food-details/170178/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170179",
+    "text": "Nuts, macadamia nuts, dry roasted, without salt added\nPer 100 g edible portion\nEnergy 718 kcal\nProtein 7.79 g\nFat 76.08 g\nCarbohydrate 13.38 g\nFibre 8 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170179; https://fdc.nal.usda.gov/food-details/170179/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170180",
+    "text": "Nuts, formulated, wheat-based, unflavored, with salt added\nPer 100 g edible portion\nEnergy 622 kcal\nProtein 13.82 g\nFat 57.7 g\nCarbohydrate 23.68 g\nFibre 5.2 g\nSodium 505 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170180; https://fdc.nal.usda.gov/food-details/170180/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170181",
+    "text": "Nuts, mixed nuts, dry roasted, with peanuts, salt added, CHOSEN ROASTER\nPer 100 g edible portion\nEnergy 608 kcal\nProtein 18 g\nFat 53.2 g\nCarbohydrate 24.62 g\nFibre 7.1 g\nSodium 113 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170181; https://fdc.nal.usda.gov/food-details/170181/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170182",
+    "text": "Nuts, pecans\nPer 100 g edible portion\nEnergy 691 kcal\nProtein 9.17 g\nFat 71.97 g\nCarbohydrate 13.86 g\nFibre 9.6 g\nSodium 0 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170182; https://fdc.nal.usda.gov/food-details/170182/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170183",
+    "text": "Nuts, pecans, dry roasted, without salt added\nPer 100 g edible portion\nEnergy 710 kcal\nProtein 9.5 g\nFat 74.27 g\nCarbohydrate 13.55 g\nFibre 9.4 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170183; https://fdc.nal.usda.gov/food-details/170183/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170184",
+    "text": "Nuts, pistachio nuts, raw\nPer 100 g edible portion\nEnergy 560 kcal\nProtein 20.16 g\nFat 45.32 g\nCarbohydrate 27.17 g\nFibre 10.6 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170184; https://fdc.nal.usda.gov/food-details/170184/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170185",
+    "text": "Nuts, pistachio nuts, dry roasted, without salt added\nPer 100 g edible portion\nEnergy 572 kcal\nProtein 21.05 g\nFat 45.82 g\nCarbohydrate 28.28 g\nFibre 10.3 g\nSodium 6 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170185; https://fdc.nal.usda.gov/food-details/170185/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170186",
+    "text": "Nuts, walnuts, black, dried\nPer 100 g edible portion\nEnergy 619 kcal\nProtein 24.06 g\nFat 59.33 g\nCarbohydrate 9.58 g\nFibre 6.8 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170186; https://fdc.nal.usda.gov/food-details/170186/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170187",
+    "text": "Nuts, walnuts, english\nPer 100 g edible portion\nEnergy 654 kcal\nProtein 15.23 g\nFat 65.21 g\nCarbohydrate 13.71 g\nFibre 6.7 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170187; https://fdc.nal.usda.gov/food-details/170187/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170188",
+    "text": "Seeds, pumpkin and squash seeds, whole, roasted, without salt\nPer 100 g edible portion\nEnergy 446 kcal\nProtein 18.55 g\nFat 19.4 g\nCarbohydrate 53.75 g\nFibre 18.4 g\nSodium 18 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170188; https://fdc.nal.usda.gov/food-details/170188/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170189",
+    "text": "Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)\nPer 100 g edible portion\nEnergy 595 kcal\nProtein 17 g\nFat 53.76 g\nCarbohydrate 21.19 g\nFibre 9.3 g\nSodium 115 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170189; https://fdc.nal.usda.gov/food-details/170189/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170190",
+    "text": "Nuts, chestnuts, european, roasted\nPer 100 g edible portion\nEnergy 245 kcal\nProtein 3.17 g\nFat 2.2 g\nCarbohydrate 52.96 g\nFibre 5.1 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170190; https://fdc.nal.usda.gov/food-details/170190/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170191",
+    "text": "Seeds, sesame butter, paste\nPer 100 g edible portion\nEnergy 586 kcal\nProtein 18.08 g\nFat 50.87 g\nCarbohydrate 24.05 g\nFibre 5.5 g\nSodium 12 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170191; https://fdc.nal.usda.gov/food-details/170191/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170192",
+    "text": "Seeds, sesame flour, high-fat\nPer 100 g edible portion\nEnergy 526 kcal\nProtein 30.78 g\nFat 37.1 g\nCarbohydrate 26.62 g\nSodium 41 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170192; https://fdc.nal.usda.gov/food-details/170192/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170552",
+    "text": "Seeds, breadnut tree seeds, raw\nPer 100 g edible portion\nEnergy 217 kcal\nProtein 5.97 g\nFat 0.99 g\nCarbohydrate 46.28 g\nSodium 31 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170552; https://fdc.nal.usda.gov/food-details/170552/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170553",
+    "text": "Seeds, breadnut tree seeds, dried\nPer 100 g edible portion\nEnergy 367 kcal\nProtein 8.62 g\nFat 1.68 g\nCarbohydrate 79.39 g\nFibre 14.9 g\nSodium 53 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170553; https://fdc.nal.usda.gov/food-details/170553/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170554",
+    "text": "Seeds, chia seeds, dried\nPer 100 g edible portion\nEnergy 486 kcal\nProtein 16.54 g\nFat 30.74 g\nCarbohydrate 42.12 g\nFibre 34.4 g\nSodium 16 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170554; https://fdc.nal.usda.gov/food-details/170554/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170555",
+    "text": "Seeds, cottonseed flour, partially defatted (glandless)\nPer 100 g edible portion\nEnergy 359 kcal\nProtein 40.96 g\nFat 6.2 g\nCarbohydrate 40.54 g\nFibre 3 g\nSodium 35 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170555; https://fdc.nal.usda.gov/food-details/170555/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170556",
+    "text": "Seeds, pumpkin and squash seed kernels, dried\nPer 100 g edible portion\nEnergy 559 kcal\nProtein 30.23 g\nFat 49.05 g\nCarbohydrate 10.71 g\nFibre 6 g\nSodium 7 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170556; https://fdc.nal.usda.gov/food-details/170556/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170557",
+    "text": "Seeds, pumpkin and squash seed kernels, roasted, without salt\nPer 100 g edible portion\nEnergy 574 kcal\nProtein 29.84 g\nFat 49.05 g\nCarbohydrate 14.71 g\nFibre 6.5 g\nSodium 18 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170557; https://fdc.nal.usda.gov/food-details/170557/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170558",
+    "text": "Seeds, safflower seed kernels, dried\nPer 100 g edible portion\nEnergy 517 kcal\nProtein 16.18 g\nFat 38.45 g\nCarbohydrate 34.29 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170558; https://fdc.nal.usda.gov/food-details/170558/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170559",
+    "text": "Seeds, safflower seed meal, partially defatted\nPer 100 g edible portion\nEnergy 342 kcal\nProtein 35.62 g\nFat 2.39 g\nCarbohydrate 48.73 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170559; https://fdc.nal.usda.gov/food-details/170559/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170560",
+    "text": "Seeds, sesame flour, low-fat\nPer 100 g edible portion\nEnergy 333 kcal\nProtein 50.14 g\nFat 1.75 g\nCarbohydrate 35.51 g\nSodium 39 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170560; https://fdc.nal.usda.gov/food-details/170560/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170561",
+    "text": "Seeds, sesame meal, partially defatted\nPer 100 g edible portion\nEnergy 567 kcal\nProtein 16.96 g\nFat 48 g\nCarbohydrate 26.04 g\nSodium 39 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170561; https://fdc.nal.usda.gov/food-details/170561/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170562",
+    "text": "Seeds, sunflower seed kernels, dried\nPer 100 g edible portion\nEnergy 584 kcal\nProtein 20.78 g\nFat 51.46 g\nCarbohydrate 20 g\nFibre 8.6 g\nSodium 9 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170562; https://fdc.nal.usda.gov/food-details/170562/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170563",
+    "text": "Seeds, sunflower seed kernels, dry roasted, without salt\nPer 100 g edible portion\nEnergy 582 kcal\nProtein 19.33 g\nFat 49.8 g\nCarbohydrate 24.07 g\nFibre 11.1 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170563; https://fdc.nal.usda.gov/food-details/170563/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170564",
+    "text": "Seeds, sunflower seed kernels, oil roasted, without salt\nPer 100 g edible portion\nEnergy 592 kcal\nProtein 20.06 g\nFat 51.3 g\nCarbohydrate 22.89 g\nFibre 10.6 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170564; https://fdc.nal.usda.gov/food-details/170564/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170565",
+    "text": "Nuts, acorns, dried\nPer 100 g edible portion\nEnergy 509 kcal\nProtein 8.1 g\nFat 31.41 g\nCarbohydrate 53.66 g\nSodium 0 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170565; https://fdc.nal.usda.gov/food-details/170565/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170566",
+    "text": "Nuts, acorn flour, full fat\nPer 100 g edible portion\nEnergy 501 kcal\nProtein 7.49 g\nFat 30.17 g\nCarbohydrate 54.65 g\nSodium 0 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170566; https://fdc.nal.usda.gov/food-details/170566/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170567",
+    "text": "Nuts, almonds\nPer 100 g edible portion\nEnergy 579 kcal\nProtein 21.15 g\nFat 49.93 g\nCarbohydrate 21.55 g\nFibre 12.5 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170567; https://fdc.nal.usda.gov/food-details/170567/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170568",
+    "text": "Nuts, almonds, blanched\nPer 100 g edible portion\nEnergy 590 kcal\nProtein 21.4 g\nFat 52.52 g\nCarbohydrate 18.67 g\nFibre 9.9 g\nSodium 19 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170568; https://fdc.nal.usda.gov/food-details/170568/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170569",
+    "text": "Nuts, brazilnuts, dried, unblanched\nPer 100 g edible portion\nEnergy 659 kcal\nProtein 14.32 g\nFat 67.1 g\nCarbohydrate 11.74 g\nFibre 7.5 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170569; https://fdc.nal.usda.gov/food-details/170569/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170570",
+    "text": "Nuts, butternuts, dried\nPer 100 g edible portion\nEnergy 612 kcal\nProtein 24.9 g\nFat 56.98 g\nCarbohydrate 12.05 g\nFibre 4.7 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170570; https://fdc.nal.usda.gov/food-details/170570/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170571",
+    "text": "Nuts, cashew nuts, dry roasted, without salt added\nPer 100 g edible portion\nEnergy 574 kcal\nProtein 15.31 g\nFat 46.35 g\nCarbohydrate 32.69 g\nFibre 3 g\nSodium 16 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170571; https://fdc.nal.usda.gov/food-details/170571/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170572",
+    "text": "Nuts, cashew nuts, oil roasted, without salt added\nPer 100 g edible portion\nEnergy 580 kcal\nProtein 16.84 g\nFat 47.77 g\nCarbohydrate 29.87 g\nFibre 3.3 g\nSodium 13 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170572; https://fdc.nal.usda.gov/food-details/170572/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170573",
+    "text": "Nuts, chestnuts, chinese, roasted\nPer 100 g edible portion\nEnergy 239 kcal\nProtein 4.48 g\nFat 1.19 g\nCarbohydrate 52.36 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170573; https://fdc.nal.usda.gov/food-details/170573/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170574",
+    "text": "Nuts, chestnuts, european, raw, unpeeled\nPer 100 g edible portion\nEnergy 213 kcal\nProtein 2.42 g\nFat 2.26 g\nCarbohydrate 45.54 g\nFibre 8.1 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170574; https://fdc.nal.usda.gov/food-details/170574/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170575",
+    "text": "Nuts, chestnuts, european, raw, peeled\nPer 100 g edible portion\nEnergy 196 kcal\nProtein 1.63 g\nFat 1.25 g\nCarbohydrate 44.17 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170575; https://fdc.nal.usda.gov/food-details/170575/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170576",
+    "text": "Nuts, chestnuts, european, dried, unpeeled\nPer 100 g edible portion\nEnergy 374 kcal\nProtein 6.39 g\nFat 4.45 g\nCarbohydrate 77.31 g\nFibre 11.7 g\nSodium 37 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170576; https://fdc.nal.usda.gov/food-details/170576/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170577",
+    "text": "Nuts, coconut meat, dried (desiccated), sweetened, flaked, packaged\nPer 100 g edible portion\nEnergy 456 kcal\nProtein 3.13 g\nFat 27.99 g\nCarbohydrate 51.85 g\nFibre 9.9 g\nSodium 285 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170577; https://fdc.nal.usda.gov/food-details/170577/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170578",
+    "text": "Nuts, coconut meat, dried (desiccated), sweetened, flaked, canned\nPer 100 g edible portion\nEnergy 443 kcal\nProtein 3.35 g\nFat 31.69 g\nCarbohydrate 40.91 g\nFibre 4.5 g\nSodium 20 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170578; https://fdc.nal.usda.gov/food-details/170578/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170579",
+    "text": "Nuts, coconut meat, dried (desiccated), toasted\nPer 100 g edible portion\nEnergy 592 kcal\nProtein 5.3 g\nFat 47 g\nCarbohydrate 44.4 g\nSodium 37 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170579; https://fdc.nal.usda.gov/food-details/170579/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170580",
+    "text": "Nuts, coconut cream, raw (liquid expressed from grated meat)\nPer 100 g edible portion\nEnergy 330 kcal\nProtein 3.63 g\nFat 34.68 g\nCarbohydrate 6.65 g\nFibre 2.2 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170580; https://fdc.nal.usda.gov/food-details/170580/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170581",
+    "text": "Nuts, hazelnuts or filberts\nPer 100 g edible portion\nEnergy 628 kcal\nProtein 14.95 g\nFat 60.75 g\nCarbohydrate 16.7 g\nFibre 9.7 g\nSodium 0 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170581; https://fdc.nal.usda.gov/food-details/170581/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170582",
+    "text": "Nuts, hazelnuts or filberts, blanched\nPer 100 g edible portion\nEnergy 629 kcal\nProtein 13.7 g\nFat 61.15 g\nCarbohydrate 17 g\nFibre 11 g\nSodium 0 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170582; https://fdc.nal.usda.gov/food-details/170582/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170583",
+    "text": "Nuts, hazelnuts or filberts, dry roasted, without salt added\nPer 100 g edible portion\nEnergy 646 kcal\nProtein 15.03 g\nFat 62.4 g\nCarbohydrate 17.6 g\nFibre 9.4 g\nSodium 0 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170583; https://fdc.nal.usda.gov/food-details/170583/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170584",
+    "text": "Nuts, ginkgo nuts, raw\nPer 100 g edible portion\nEnergy 182 kcal\nProtein 4.32 g\nFat 1.68 g\nCarbohydrate 37.6 g\nSodium 7 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170584; https://fdc.nal.usda.gov/food-details/170584/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170585",
+    "text": "Nuts, mixed nuts, dry roasted, with peanuts, without salt added\nPer 100 g edible portion\nEnergy 607 kcal\nProtein 19.5 g\nFat 53.5 g\nCarbohydrate 22.42 g\nFibre 6.4 g\nSodium 4 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170585; https://fdc.nal.usda.gov/food-details/170585/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170586",
+    "text": "Nuts, mixed nuts, dry roasted, with peanuts, salt added, PLANTERS pistachio blend\nPer 100 g edible portion\nEnergy 572 kcal\nProtein 23.28 g\nFat 47.52 g\nCarbohydrate 23.07 g\nFibre 8.1 g\nSodium 232 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170586; https://fdc.nal.usda.gov/food-details/170586/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170587",
+    "text": "Nuts, mixed nuts, oil roasted, with peanuts, without salt added\nPer 100 g edible portion\nEnergy 607 kcal\nProtein 20.04 g\nFat 53.95 g\nCarbohydrate 21.05 g\nFibre 7 g\nSodium 5 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170587; https://fdc.nal.usda.gov/food-details/170587/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170588",
+    "text": "Nuts, mixed nuts, oil roasted, without peanuts, without salt added\nPer 100 g edible portion\nEnergy 615 kcal\nProtein 15.52 g\nFat 56.17 g\nCarbohydrate 22.27 g\nFibre 5.5 g\nSodium 11 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170588; https://fdc.nal.usda.gov/food-details/170588/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170589",
+    "text": "Nuts, pecans, oil roasted, without salt added\nPer 100 g edible portion\nEnergy 715 kcal\nProtein 9.2 g\nFat 75.23 g\nCarbohydrate 13.01 g\nFibre 9.5 g\nSodium 1 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170589; https://fdc.nal.usda.gov/food-details/170589/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170590",
+    "text": "Nuts, pilinuts, dried\nPer 100 g edible portion\nEnergy 719 kcal\nProtein 10.8 g\nFat 79.55 g\nCarbohydrate 3.98 g\nSodium 3 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170590; https://fdc.nal.usda.gov/food-details/170590/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170591",
+    "text": "Nuts, pine nuts, dried\nPer 100 g edible portion\nEnergy 673 kcal\nProtein 13.69 g\nFat 68.37 g\nCarbohydrate 13.08 g\nFibre 3.7 g\nSodium 2 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170591; https://fdc.nal.usda.gov/food-details/170591/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170592",
+    "text": "Nuts, pine nuts, pinyon, dried\nPer 100 g edible portion\nEnergy 629 kcal\nProtein 11.57 g\nFat 60.98 g\nCarbohydrate 19.3 g\nFibre 10.7 g\nSodium 72 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170592; https://fdc.nal.usda.gov/food-details/170592/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170593",
+    "text": "Nuts, walnuts, glazed\nPer 100 g edible portion\nEnergy 500 kcal\nProtein 8.28 g\nFat 35.71 g\nCarbohydrate 47.59 g\nFibre 3.6 g\nSodium 446 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170593; https://fdc.nal.usda.gov/food-details/170593/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170594",
+    "text": "Nuts, walnuts, dry roasted, with salt added\nPer 100 g edible portion\nEnergy 643 kcal\nProtein 14.29 g\nFat 60.71 g\nCarbohydrate 17.86 g\nFibre 7.1 g\nSodium 643 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170594; https://fdc.nal.usda.gov/food-details/170594/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170595",
+    "text": "Seeds, breadfruit seeds, roasted\nPer 100 g edible portion\nEnergy 207 kcal\nProtein 6.2 g\nFat 2.7 g\nCarbohydrate 40.1 g\nFibre 6 g\nSodium 28 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170595; https://fdc.nal.usda.gov/food-details/170595/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  },
+  {
+    "id": "usda-fdc-170596",
+    "text": "Seeds, cottonseed kernels, roasted (glandless)\nPer 100 g edible portion\nEnergy 506 kcal\nProtein 32.59 g\nFat 36.29 g\nCarbohydrate 21.9 g\nFibre 5.5 g\nSodium 25 mg",
+    "provenance": "USDA FoodData Central SR Legacy (April 2018), FDC ID 170596; https://fdc.nal.usda.gov/food-details/170596/nutrients; https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip; SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0. Source food category: Nut and Seed Products. Public-domain USDA data. Food descriptions and nutrient units retained; numeric trailing zeros removed. Nutrient IDs 1008/1003/1004/1005/1079/1093, amounts per 100 g edible portion; missing optional fibre or sodium omitted, never treated as zero."
+  }
+]

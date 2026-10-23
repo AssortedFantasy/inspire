@@ -24,6 +24,7 @@ Keep this up to date; list only important files and directories.
 - `scripts/review_dashboard.py`, `review-dashboard/`: external human review UI; feedback appends to `reviews/human-feedback.md`.
 - `tests/`: build-tree and CLI integration tests.
 - `scripts/review_content.py`: counts, probabilities, duplicate checks, and output samples.
+- `scripts/import_catalogues.py`, `scripts/catalogue_sources.json`: pinned food and material imports.
 - [DATA_SOURCES.md](DATA_SOURCES.md): embedded dataset redistribution notices.
 - [INSPIRATION_SUGGESTIONS.md](INSPIRATION_SUGGESTIONS.md): backlog of proposed leaves and families.
 - [docs/architecture.md](docs/architecture.md): build and runtime details.
