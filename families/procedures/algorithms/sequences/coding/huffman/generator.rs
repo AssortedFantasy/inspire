@@ -215,7 +215,10 @@ mod tests {
                 assert_eq!(cost, optimal_cost(&weights));
                 assert_eq!(
                     cost,
-                    merges.iter().map(|m| m.left_weight + m.right_weight).sum()
+                    merges
+                        .iter()
+                        .map(|m| m.left_weight + m.right_weight)
+                        .sum::<usize>()
                 );
                 let max_len = codes.iter().map(|item| item.1.len()).max().unwrap();
                 assert_eq!(

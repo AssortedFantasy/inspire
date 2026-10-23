@@ -401,7 +401,10 @@ mod tests {
             (Some(Family::Oblique), 5, vec![(3, 1), (6, 3), (9, 3)]),
         ] {
             let modes = room.lowest(count, family);
-            assert_eq!(modes.len(), shells.iter().map(|(_, count)| count).sum());
+            assert_eq!(
+                modes.len(),
+                shells.iter().map(|(_, count)| count).sum::<usize>()
+            );
             for (shell, multiplicity) in shells {
                 assert_eq!(
                     modes
