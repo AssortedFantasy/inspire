@@ -16,6 +16,8 @@ checks.
   root multiplicities.
 - `rings/`: ring facts, quadratic finite fields, and composite residue rings.
 - `modules/`: module facts and tensor products of finite sums of cyclic modules.
+- `galois-fields/`: degree-three and higher finite fields, primitive and
+  nonprimitive elements, Frobenius orbits and proper subfields.
 
 These generators use exact bounded arithmetic and the supplied RNG. Runtime
 requires neither a computer-algebra system nor access to online sources.

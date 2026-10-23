@@ -9,6 +9,8 @@ Concept corpora retain concise definitions, examples and counterexamples.
 - `algebra`: finite groups, rings, modules and polynomials; outputs include
   permutations, subgroup and quotient calculations, CRT idempotents, tensor
   images, finite-field arithmetic and expression-tree polynomial identities.
+  Higher-degree Galois fields add primitive and nonprimitive elements,
+  Frobenius orbits and proper subfields through order 125.
 - `analysis`: convergence, continuity, differentiation, series and integrals.
   Definite integration is separate from five kinds of real antiderivatives.
 - `linear-algebra`: exact eigenbases, powers, line and plane projections, and
@@ -18,6 +20,16 @@ Concept corpora retain concise definitions, examples and counterexamples.
 - `number-theory`: continued fractions, primitive Pythagorean triples and Chinese
   remainder systems with shared factors, exact periods and incompatibility
   witnesses.
+- `geometry/triangle-centers`: exact circumcenters, orthocenters, Euler lines
+  and nine-point circles across acute, obtuse, right, Heronian, thin and
+  collinear boundaries.
+- `combinatorics`: partitions with conjugation, Durfee decompositions and
+  odd/distinct bijections; Latin squares from noncyclic groups, orthogonal
+  field pairs and intercalate trades.
+- `recreational/magic-squares`: odd, doubly even, singly even and pandiagonal
+  constructions with exact normal-square checks.
+- `statistics/datasets`: pairs with identical exact regression summaries and
+  different point configurations, including unit-leverage and clustered designs.
 - `probability`: finite mass functions and absorbing Markov chains, with complete
   distributions and exact moments; sparse absorbing chains vary their state
   counts and transition graphs and give absorption probabilities or hitting times.
@@ -35,7 +47,10 @@ files. The graph atlas retains its full BSD notice.
 Generators use only the supplied RNG and bounded local computation. Their tests
 check mathematical content: laws, eigenpairs, idempotence, coprimality, exact
 congruences, stochastic first-step equations, topology axioms and metric
-properties. See each branch README for parameter bounds and references.
+properties. New construction tests also check orthogonality, primitive element
+counts, partition bijections, magic sums, triangle-center equations and exact
+preservation of regression moments. See each branch README for parameter bounds
+and references.
 
 Path migrations: former `math/algebra` identities now live at
 `math/algebra/polynomials/identities`; `math/finite-groups` moved under
