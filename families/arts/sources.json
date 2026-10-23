@@ -1,0 +1,48 @@
+[
+  {
+    "id": 2542,
+    "path": "theatre/stage-directions/ibsen/a-dolls-house",
+    "author": "Henrik Ibsen",
+    "title": "A Doll’s House",
+    "translator": "R. Farquharson Sharp",
+    "edition": "Sharp translation",
+    "rights": "Ibsen died 1906; Sharp died 1945. This early twentieth-century translation is public domain in the USA and Canada.",
+    "url": "https://www.gutenberg.org/cache/epub/2542/pg2542-images.html",
+    "catalog_url": "https://www.gutenberg.org/ebooks/2542",
+    "sha256": "25a7fcdb63a12c51504c5a384a904c6b35bfa31f7a8ab77214f9b6debc8d6a4c"
+  },
+  {
+    "id": 2446,
+    "path": "theatre/stage-directions/ibsen/an-enemy-of-the-people",
+    "author": "Henrik Ibsen",
+    "title": "An Enemy of the People",
+    "translator": "R. Farquharson Sharp",
+    "edition": "Sharp translation",
+    "rights": "Ibsen died 1906; Sharp died 1945. This early twentieth-century translation is public domain in the USA and Canada.",
+    "url": "https://www.gutenberg.org/cache/epub/2446/pg2446-images.html",
+    "catalog_url": "https://www.gutenberg.org/ebooks/2446",
+    "sha256": "08ad5790de0aae00529f63ab0e4e43a64632e51c793454744424dd8ff5eefe10"
+  },
+  {
+    "id": 3618,
+    "path": "theatre/stage-directions/shaw/arms-and-the-man",
+    "author": "George Bernard Shaw",
+    "title": "Arms and the Man",
+    "edition": "1898",
+    "rights": "Shaw died 1950; play first published 1898. Public domain in the USA and Canada.",
+    "url": "https://www.gutenberg.org/cache/epub/3618/pg3618-images.html",
+    "catalog_url": "https://www.gutenberg.org/ebooks/3618",
+    "sha256": "84b85a32cf1cb0ac907c9dbfff1b33bbe53ebc0d716e7dab3b8ffedce418def7"
+  },
+  {
+    "id": 3825,
+    "path": "theatre/stage-directions/shaw/pygmalion",
+    "author": "George Bernard Shaw",
+    "title": "Pygmalion",
+    "edition": "1916",
+    "rights": "Shaw died 1950; English play first published 1916. Public domain in the USA and Canada.",
+    "url": "https://www.gutenberg.org/cache/epub/3825/pg3825-images.html",
+    "catalog_url": "https://www.gutenberg.org/ebooks/3825",
+    "sha256": "cf423cc54c7d7e40ba2451df79d94958470ac4b0436890e2eb1febf6427c7ceb"
+  }
+]
