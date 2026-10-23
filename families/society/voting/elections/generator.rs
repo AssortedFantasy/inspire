@@ -63,13 +63,13 @@ pub fn generate(rng: &mut StdRng) -> String {
     ));
     lines.push(format!("Condorcet {}", names(&condorcet)));
     lines.push("\nHead-to-head".into());
-    for a in 0..n {
-        for b in a + 1..n {
+    for (a, row) in pairwise.iter().enumerate() {
+        for (b, votes) in row.iter().enumerate().skip(a + 1) {
             lines.push(format!(
                 "{}–{}  {}–{}",
                 name(a),
                 name(b),
-                pairwise[a][b],
+                votes,
                 pairwise[b][a]
             ));
         }
