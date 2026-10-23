@@ -18,7 +18,7 @@ pub struct Options {
     pub json: bool,
 }
 
-pub const HELP: &str = "Generates a bit of inspiration";
+pub const HELP: &str = "Generates a bit of inspirational text.";
 
 pub const FULL_HELP: &str = "
 Usage: inspire [--family PATH] [--seed INTEGER] [--json]

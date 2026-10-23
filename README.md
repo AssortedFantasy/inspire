@@ -2,10 +2,6 @@
 
 A small, offline CLI that creates a bit of entropy for agents.
 
-Samples come from a categorized tree of factual records, public-domain excerpts,
-and procedural generators. The tree and data are embedded in one executable;
-sampling needs no network or source files.
-
 ## Build and use
 
 Install with Rust:
