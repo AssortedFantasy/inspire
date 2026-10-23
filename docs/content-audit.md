@@ -33,6 +33,12 @@ all-equal ties. These seeds describe this build, not a permanent seed contract.
 Contrasting current names, objects, verse and procedural samples helped retain
 ordinary material alongside technical constructions.
 
+The final weighted review also exposed Lipkovo mislabeled as a statistical
+region. Official-source corrections repair 72 North Macedonia records, recover
+Petrovec's name from conflicting source labels, and distinguish four former
+municipalities. All source IDs and weights remain unchanged; the geography
+importer reproduces the corrected records exactly.
+
 The source scan finds no normalized exact duplicate records. The probability of
 two root draws selecting the same corpus record is now 0.007497%; this excludes
 generator collisions and does not measure structural variety or correctness.
