@@ -62,7 +62,16 @@ def dump(path, value):
     data = encoded(value) + b"\n"
     temporary = path.with_suffix(path.suffix + ".tmp")
     temporary.write_bytes(data)
-    temporary.replace(path)
+    # Windows readers can briefly deny atomic replacement. Retrying this local
+    # write never repeats a paid request and preserves the exact prepared bytes.
+    for attempt in range(20):
+        try:
+            temporary.replace(path)
+            break
+        except PermissionError:
+            if attempt == 19:
+                raise
+            time.sleep(.05)
     return sha(data)
 
 
@@ -88,6 +97,26 @@ def request(model, prompt, developer=DEVELOPER, json_output=False):
     return body
 
 
+def validate_runner_provenance(base, manifest):
+    original = manifest["fixed"]["runner_sha256"]
+    current = sha(Path(__file__).read_bytes())
+    if current == original:
+        return
+    path = base / "runner-amendments.json"
+    if not path.exists():
+        raise ValueError("Runner changed without a recorded implementation amendment")
+    provenance = load(path)
+    if provenance["manifest_sha256"] != sha((base / "manifest.json").read_bytes()):
+        raise ValueError("Runner amendment belongs to another frozen manifest")
+    previous = original
+    for amendment in provenance["amendments"]:
+        if amendment["previous_runner_sha256"] != previous:
+            raise ValueError("Broken runner amendment chain")
+        previous = amendment["runner_sha256"]
+    if previous != current:
+        raise ValueError("Current runner is absent from the amendment chain")
+
+
 def prepare(base, binary, seed):
     base = Path(base)
     subprocess.run(["cargo", "build", "--release", "--locked"], cwd=ROOT, check=True)
@@ -104,8 +133,10 @@ def prepare(base, binary, seed):
     path = base / "manifest.json"
     if path.exists():
         manifest = load(path)
-        if manifest["fixed"] != fixed:
+        original_fixed = dict(fixed, runner_sha256=manifest["fixed"]["runner_sha256"])
+        if manifest["fixed"] != original_fixed:
             raise ValueError("Cannot resume with changed source, binary, runner, prompts, or seed")
+        validate_runner_provenance(base, manifest)
         validate_manifest(manifest)
         return manifest
     jobs = []
@@ -246,7 +277,13 @@ class Budget:
                 raise RuntimeError("Hard USD budget cap would be exceeded")
             self.entries[call_id] = {"request_sha256": digest, "status": "reserved",
                                      "reserved_usd": amount, "accounted_usd": amount, "utc": now()}
-            self.save()
+            try:
+                self.save()
+            except OSError:
+                # No record or HTTP call can exist yet. Do not let a later
+                # worker's ledger save persist this failed local reservation.
+                del self.entries[call_id]
+                raise
             return True
 
     def settle(self, call_id, status, cost=None):
@@ -373,6 +410,7 @@ def run_jobs(base, jobs, workers, folder, limit=None):
 
 def run_generation(base, workers=4, limit=None):
     manifest = load(base / "manifest.json")
+    validate_runner_provenance(base, manifest)
     validate_manifest(manifest)
     run_jobs(base, manifest["jobs"], workers, "records", limit)
 

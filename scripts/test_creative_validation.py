@@ -7,7 +7,7 @@ from pathlib import Path
 import struct
 import tempfile
 import unittest
-from unittest.mock import Mock
+from unittest.mock import Mock, patch
 
 import requests
 
@@ -76,6 +76,63 @@ class CreativeTrialTests(unittest.TestCase):
         usage["input_tokens_details"]["cached_tokens"] = 1000
         with self.assertRaises(ValueError):
             trial.usage_cost(trial.GENERATOR, usage)
+
+    def test_atomic_write_retries_transient_windows_read_lock(self):
+        path = self.base / "atomic.json"
+        trial.dump(path, {"old": True})
+        original = Path.replace
+        attempts = []
+
+        def replace(source, destination):
+            attempts.append(source.read_bytes())
+            if len(attempts) < 3:
+                raise PermissionError("Synthetic Windows reader")
+            return original(source, destination)
+
+        with patch.object(Path, "replace", replace), patch.object(trial.time, "sleep") as sleep:
+            trial.dump(path, {"new": True})
+        self.assertEqual(len(attempts), 3)
+        self.assertTrue(all(data == attempts[0] for data in attempts))
+        self.assertEqual(sleep.call_count, 2)
+        self.assertEqual(trial.load(path), {"new": True})
+
+    def test_atomic_write_retry_is_bounded_and_preserves_old_file(self):
+        path = self.base / "atomic.json"
+        trial.dump(path, {"old": True})
+        with patch.object(Path, "replace", side_effect=PermissionError("Persistent lock")) as replace, patch.object(trial.time, "sleep") as sleep:
+            with self.assertRaises(PermissionError):
+                trial.dump(path, {"new": True})
+        self.assertEqual(replace.call_count, 20)
+        self.assertEqual(sleep.call_count, 19)
+        self.assertEqual(trial.load(path), {"old": True})
+
+    def test_failed_reservation_write_never_calls_http_or_leaves_ghost_entry(self):
+        body = trial.request(trial.GENERATOR, "Task")
+        budget = trial.Budget(self.base)
+        post = Mock()
+        with patch.object(budget, "save", side_effect=PermissionError("Persistent lock")):
+            with self.assertRaises(PermissionError):
+                trial.paid_call(self.base, "unstarted", body, "secret", budget, post=post)
+        self.assertEqual(budget.entries, {})
+        self.assertFalse((self.base / "records/unstarted.json").exists())
+        post.assert_not_called()
+        budget.reserve("next", body)
+        self.assertEqual(set(trial.load(self.base / "ledger.json")["entries"]), {"next"})
+
+    def test_runner_amendment_is_bound_to_frozen_manifest_and_hash_chain(self):
+        manifest = {"fixed": {"runner_sha256": "0" * 64}}
+        trial.dump(self.base / "manifest.json", manifest)
+        with self.assertRaisesRegex(ValueError, "without a recorded"):
+            trial.validate_runner_provenance(self.base, manifest)
+        provenance = {"manifest_sha256": trial.sha((self.base / "manifest.json").read_bytes()),
+                      "amendments": [{"previous_runner_sha256": "0" * 64,
+                                      "runner_sha256": trial.sha(Path(trial.__file__).read_bytes())}]}
+        trial.dump(self.base / "runner-amendments.json", provenance)
+        trial.validate_runner_provenance(self.base, manifest)
+        provenance["amendments"][0]["previous_runner_sha256"] = "1" * 64
+        trial.dump(self.base / "runner-amendments.json", provenance)
+        with self.assertRaisesRegex(ValueError, "Broken runner"):
+            trial.validate_runner_provenance(self.base, manifest)
 
     def test_reservations_are_atomic_across_workers(self):
         body = trial.request(trial.GENERATOR, "Task")
