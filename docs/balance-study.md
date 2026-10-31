@@ -4,6 +4,10 @@ Combining an exact-repeat penalty with embedding affinity improved both measured
 objectives. Optimizing either alone produced substantial failure modes. These are
 counterfactual weights; no family, payload, or compiled weight was changed.
 
+A subsequent [blind 32-output trial](blind-stream-study.md) preferred current
+sampling over both tested candidates in all four independent pairs per matchup,
+despite improved embedding metrics on the judged streams. Keep current weights.
+
 The study used source revision `e180dd3748ba73dc959b098d40ef1466db10b45c`:
 844 leaves, 622 corpora containing 89,895 records, and 222 generators. All corpus
 texts are distinct, including after NFKC normalization, case folding, and whitespace
@@ -116,9 +120,9 @@ makes that particular corrected mixed matrix PSD; convexity is checked per objec
 
 Validation was used to compare 28 variants, not reserved as a pristine final test.
 Two seed banks do not provide distribution-free confidence intervals. No blinded
-human quality study was performed. The next useful test is a blinded comparison
-of current, the conservative observed cap, and λ=.03/τ=.03, with explicit editorial
-decisions about family shares before applying weights.
+human quality study was performed. A subsequent [model-judge trial](blind-stream-study.md)
+compared current, unregularized λ=.03, and λ=.03/τ=.03; current won both matchups.
+The conservative observed cap was not tested in that trial.
 
 Reproduce from the repository root with Python, NumPy, SciPy, requests, and
 CVXPY with Clarabel/OSQP. This run used NumPy 1.26.4, SciPy 1.16.2, CVXPY 1.7.2,

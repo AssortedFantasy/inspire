@@ -1,0 +1,4 @@
+first_method,second_method,independent_pairs,judgments,wins_first,wins_second,ties,mean_score_favors_second,mirror_sign_agreements,mirror_exact_agreements,mean_offdiag_rbf_fine_first,mean_offdiag_rbf_fine_second,mean_offdiag_cosine_first,mean_offdiag_cosine_second,mean_nearest_neighbor_cosine_first,mean_nearest_neighbor_cosine_second,max_pair_cosine_first,max_pair_cosine_second,distinct_families_first,distinct_families_second,exact_matching_pairs_first,exact_matching_pairs_second
+current,rbf_exact_0.03,4,8,4,0,0,-2.125,4,3,0.154772405,0.136008166,0.687433288,0.664818287,0.778742552,0.77787903,0.91646114,0.928983614,18.75,13.25,0,0
+current,rbf_exact_0.03_kl_0.03,4,8,4,0,0,-2,4,4,0.158515517,0.144627959,0.691046372,0.676438749,0.781920478,0.769499138,0.911920756,0.877652958,18,15.75,0,0
+rbf_exact_0.03,rbf_exact_0.03_kl_0.03,4,8,1,3,0,1.5,4,2,0.140129257,0.144549452,0.668681949,0.676660255,0.782537252,0.76336202,0.961597055,0.927631348,15,17.75,0.25,0
