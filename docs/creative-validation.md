@@ -6,6 +6,86 @@ unselected root sample plus an explicit optional-inspiration prefix. The control
 receives the same creative task alone. Both receive the same short developer
 instruction and start with an empty conversation.
 
+## Measured result
+
+**Inspire won 11 of 12 independent batch comparisons for diversity.** It won
+9 of 12 on the separate quality score, with 3 ties and no aggregate quality
+losses. Each comparison contains ten works per condition and averages two
+fresh, oppositely ordered judge calls.
+
+| Task | Diversity wins / losses / ties | Mean diversity | Quality wins / losses / ties | Mean quality |
+| --- | --- | ---: | --- | ---: |
+| Poem | 3 / 0 / 0 | +2.33 | 3 / 0 / 0 | +1.00 |
+| Video-game pitch | 3 / 0 / 0 | +2.33 | 2 / 0 / 1 | +0.67 |
+| SVG artwork | 3 / 0 / 0 | +3.00 | 3 / 0 / 0 | +0.67 |
+| Microfiction | 2 / 1 / 0 | +0.83 | 1 / 0 / 2 | +0.17 |
+
+Scores are ordinal, from −3 to +3, with positive favoring Inspire. These means
+describe the judgments; they are not percentage improvements. The overall means
+are +2.125 for diversity and +0.625 for quality. Diversity preference directions
+agree under A/B reversal in all 12 pairs; exact score magnitudes agree in 11.
+Quality direction agrees in 9 pairs; the remaining 3 combine a slight Inspire
+preference with a tie. Both randomly selected identical-batch controls tied on
+both scores. Both controls happened to use microfiction.
+
+Browse the complete, initially blinded comparison at
+`target/creative-validation/review.html`. It contains all 240 works, rendered
+SVGs, optional condition and inspiration reveals, and both judge assessments.
+Retained [results and verdicts](data/creative-validation-results.json) and the
+[independent audit](data/creative-validation-audit.json) record the evidence.
+
+### What changed
+
+The following observations explain the frozen results; they are subsequent
+inspection rather than additional independent judgments.
+
+- Baseline poems repeatedly use laundromats, bakers, buses, rain, and small acts
+  of care. In replicate 1, baseline items 01, 06, and 10 all feature a folding
+  woman and revolving laundry. Inspired items introduce a vacuum demonstration
+  (06), competing electoral outcomes (08), and beaver physiology (05), while
+  often retaining an elegiac, domestic voice.
+- Baseline game pitches repeatedly use drowned cities, disappearing districts,
+  and memories spent as fuel. Replicate 1 baseline items 04, 07, and 08 share
+  the title "The Last Lighthouse." Inspired items add railway dispatching (04),
+  a Ragnarok cobbler (07), floating-point rounding (08), and cryptographic
+  vulnerabilities (10). Some still use the drowned-city framework.
+- SVGs show the strongest judged effect. Baselines cluster around nocturnal
+  lighthouses, observatories, and mountain lakes. Inspired replicate 2 includes
+  a monochord (01), amulet (03), cooking pot (07), and coat (10). Teal/gold
+  palettes, celestial disks, and decorative framing often persist: subject
+  breadth improves more than stylistic breadth.
+- Microfiction replicate 2 is the counterexample: both judges slightly prefer
+  baseline diversity. Inspired stories about a harbor radio (06), lamp chimney
+  (05), and speaking radiators (01) repeat sacrificing contact with a dead
+  relative to protect someone living. Baseline alternatives include a communal
+  dragon story (06), dementia rescue (07), and ecological fable (03). New props
+  do not reliably produce new plot structures.
+
+For inspection, start with replicate 1 of each task, then microfiction replicate
+2 for the counterexample. Replicate 1 is a fixed first-replicate choice, not a
+selection of the largest effect. IDs above are original generation positions;
+the review reveals these IDs because judge-visible item order was shuffled.
+
+### Integrity and cost
+
+All 240 generations completed without refusals, truncation, or blank outputs.
+All 180 text works met the requested word range under whitespace counting,
+including titles. All 60 SVGs rendered and passed the separate source/viewBox
+checks. All 26 judge responses were valid; none reported task failures.
+
+The independent audit replayed all 120 sampled CLI payloads exactly, verified
+all 1,898 frozen source files, checked fresh contexts and exact model/reasoning
+settings, recomputed all costs, and reconstructed the pair assignments and
+score orientations. Sampling weights remain unchanged.
+
+Returned token usage gives **$1.9587325 for generation + $0.7468335 for judging
+= $2.705566 estimated API cost**, matching the local ledger. No API request was
+retried. A Windows file-lock error interrupted local bookkeeping after 46
+completed calls. A recorded implementation-only amendment added atomic-write
+retries and released one reservation proven to precede HTTP dispatch. All 46
+completed records and all 240 frozen request bodies remained byte-identical;
+none was regenerated. The incident and hash chain are retained with the run.
+
 ## Frozen protocol
 
 - Generator: `gpt-6.1-terra`, high reasoning, standard service tier, no tools.

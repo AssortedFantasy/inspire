@@ -1,0 +1,193 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "cli_replays_exact": 120,
+  "generation_completed": 240,
+  "judgments_valid": 26,
+  "effective_models": {
+    "gpt-6.1-terra": 240,
+    "gpt-6.1-sol": 26
+  },
+  "reasoning_effort": "high for every generation and judgment",
+  "history_or_tools_used": false,
+  "frozen_source_files_unchanged": 1898,
+  "sampling_weights_unchanged": true,
+  "svg_rendered": 60,
+  "svg_source_or_render_issues": [],
+  "refusals": [],
+  "truncations": [],
+  "empty_outputs": [],
+  "api_retries": [],
+  "word_counts": {
+    "poem/control": {
+      "n": 30,
+      "min": 89,
+      "max": 115,
+      "mean": 102.2,
+      "outside_requested_range": 0
+    },
+    "poem/inspire": {
+      "n": 30,
+      "min": 94,
+      "max": 118,
+      "mean": 105.8,
+      "outside_requested_range": 0
+    },
+    "game/control": {
+      "n": 30,
+      "min": 142,
+      "max": 166,
+      "mean": 154.7,
+      "outside_requested_range": 0
+    },
+    "game/inspire": {
+      "n": 30,
+      "min": 145,
+      "max": 168,
+      "mean": 154.9,
+      "outside_requested_range": 0
+    },
+    "microfiction/control": {
+      "n": 30,
+      "min": 135,
+      "max": 176,
+      "mean": 160.8,
+      "outside_requested_range": 0
+    },
+    "microfiction/inspire": {
+      "n": 30,
+      "min": 145,
+      "max": 179,
+      "mean": 159.0,
+      "outside_requested_range": 0
+    }
+  },
+  "word_count_method": "Whitespace-separated words, including all returned titles/text",
+  "generation_failures": {},
+  "invalid_or_missing_judgments": {},
+  "judge_task_failure_mentions": 0,
+  "cost_usd": {
+    "generation": 1.9587325,
+    "judge": 0.7468335,
+    "total": 2.705566,
+    "ledger": 2.705566,
+    "cap": 40
+  },
+  "results": {
+    "diversity_score": {
+      "inspire_wins": 11,
+      "control_wins": 1,
+      "ties": 0,
+      "mean": 2.125,
+      "mirror_sign_agreements": 12,
+      "total_independent_pairs": 12
+    },
+    "quality_score": {
+      "inspire_wins": 9,
+      "control_wins": 0,
+      "ties": 3,
+      "mean": 0.625,
+      "mirror_sign_agreements": 9,
+      "total_independent_pairs": 12
+    }
+  },
+  "tasks": {
+    "game": {
+      "complete_pairs": 3,
+      "diversity_score": {
+        "control_wins": 0,
+        "inspire_wins": 3,
+        "mean": 2.3333333333333335,
+        "mirror_sign_agreements": 3,
+        "ties": 0
+      },
+      "expected_pairs": 3,
+      "quality_score": {
+        "control_wins": 0,
+        "inspire_wins": 2,
+        "mean": 0.6666666666666666,
+        "mirror_sign_agreements": 3,
+        "ties": 1
+      }
+    },
+    "microfiction": {
+      "complete_pairs": 3,
+      "diversity_score": {
+        "control_wins": 1,
+        "inspire_wins": 2,
+        "mean": 0.8333333333333334,
+        "mirror_sign_agreements": 3,
+        "ties": 0
+      },
+      "expected_pairs": 3,
+      "quality_score": {
+        "control_wins": 0,
+        "inspire_wins": 1,
+        "mean": 0.16666666666666666,
+        "mirror_sign_agreements": 2,
+        "ties": 2
+      }
+    },
+    "poem": {
+      "complete_pairs": 3,
+      "diversity_score": {
+        "control_wins": 0,
+        "inspire_wins": 3,
+        "mean": 2.3333333333333335,
+        "mirror_sign_agreements": 3,
+        "ties": 0
+      },
+      "expected_pairs": 3,
+      "quality_score": {
+        "control_wins": 0,
+        "inspire_wins": 3,
+        "mean": 1.0,
+        "mirror_sign_agreements": 3,
+        "ties": 0
+      }
+    },
+    "svg": {
+      "complete_pairs": 3,
+      "diversity_score": {
+        "control_wins": 0,
+        "inspire_wins": 3,
+        "mean": 3.0,
+        "mirror_sign_agreements": 3,
+        "ties": 0
+      },
+      "expected_pairs": 3,
+      "quality_score": {
+        "control_wins": 0,
+        "inspire_wins": 3,
+        "mean": 0.6666666666666666,
+        "mirror_sign_agreements": 1,
+        "ties": 0
+      }
+    }
+  },
+  "identical_controls": [
+    {
+      "case_id": "case025",
+      "diversity_score": 0,
+      "quality_score": 0
+    },
+    {
+      "case_id": "case026",
+      "diversity_score": 0,
+      "quality_score": 0
+    }
+  ],
+  "runner_amendment": [
+    {
+      "runner_sha256": "89c027c0bfb4d10133fe01585187300fe2945286ed9efe0b5277c32b2b3706eb",
+      "reason": "Implementation-only Windows atomic replace retry and rollback of failed pre-request reservation persistence. Frozen tasks, prompts, models, settings, request hashes and all completed records remain unchanged.",
+      "released_pre_http_call": "poem-r1-control-02",
+      "released_usd": 0.084845,
+      "previous_completed_records_preserved": 46,
+      "incident_sha256": "6a7cf3990d0e3426310511609d469d167ef1191f74fd56191f5f2f07445b9026"
+    }
+  ],
+  "full_audit_sha256": "cc59098c0f1451ee1f7817fc24446bb2b3e0e7357f969b8a7de12280f35ac3dc",
+  "independence_note": "12 independent batch pairs, 3/task; mirrored judgments are repeated assessments of the same works."
+}
