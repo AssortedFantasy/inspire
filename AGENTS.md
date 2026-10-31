@@ -26,6 +26,7 @@ Keep this up to date; list only important files and directories.
 - `scripts/review_content.py`: counts, probabilities, duplicate checks, and output samples.
 - `scripts/balance_*.py`, [docs/balance-study.md](docs/balance-study.md): counterfactual sampling experiments and measured results.
 - `scripts/balance_blind_trial.py`, [docs/blind-stream-study.md](docs/blind-stream-study.md): frozen blinded stream comparisons and judge audit.
+- `scripts/creative_validation.py`, `scripts/creative_render.py`, `scripts/creative_review.py`, [docs/creative-validation.md](docs/creative-validation.md): paid creative-task validation, SVG rendering, and blinded review.
 - `scripts/import_catalogues.py`, `scripts/catalogue_sources.json`: pinned food and material imports.
 - [DATA_SOURCES.md](DATA_SOURCES.md): embedded dataset redistribution notices.
 - [INSPIRATION_SUGGESTIONS.md](INSPIRATION_SUGGESTIONS.md): backlog of proposed leaves and families.
