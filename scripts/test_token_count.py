@@ -72,6 +72,7 @@ class TokenCountTests(unittest.TestCase):
             report = token_count.audit(fetch, self.encoding, 2, 3, 10, "demo", root)
             self.assertEqual(report["totals"], {"leaves": 2, "samples": 5, "tokens": 14,
                                                "over_limit": 4, "corpus_leaves": 1, "generator_leaves": 1})
+            self.assertEqual(report["token_histogram"], {2: 1, 3: 4})
             long_record = report["over_limit"][0]
             self.assertEqual((long_record["record_id"], long_record["record"]), ("long", 2))
             generated = [row for row in report["over_limit"] if row["kind"] == "generator"]

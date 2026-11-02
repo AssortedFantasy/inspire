@@ -142,8 +142,9 @@ one temporary dashboard process. `--seeds` and `--seed` set the generator range.
 Build first: corpora come from the current source tree, generators from the
 binary. Leaf paths and corpus counts are checked for mismatch; this does not
 detect stale content with unchanged paths/counts. Disabled leaves are included.
-The report ranks leaves by maximum length and retains all over-limit texts with
-source IDs or CLI reproduction seeds. Generator maxima describe the sampled
+The report includes exact token-count frequencies, ranks leaves by maximum
+length, and retains all over-limit texts with source IDs or CLI reproduction
+seeds. Generator maxima describe the sampled
 seeds, not a proven bound. `--max-tokens` defaults to a review threshold of 256.
 Exit codes are 0 within the threshold, 1 when exceeded, and 2 for invalid input
 or operational errors. For `count`, the threshold is optional.

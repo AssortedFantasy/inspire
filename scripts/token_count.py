@@ -9,6 +9,7 @@ Only initial dependency/encoding downloads need network access.
 """
 
 import argparse
+from collections import Counter
 from contextlib import nullcontext
 import json
 import os
@@ -75,12 +76,14 @@ def audit(fetch, encoding, max_tokens, seeds, seed, family="", root=ROOT):
         raise ValueError("source/binary leaf paths differ; rebuild the binary")
 
     leaves, over_limit = [], []
+    histogram = Counter()
     total_tokens = 0
     for node in nodes:
         samples, longest, token_sum, long_count = 0, 0, 0, 0
         kind = "corpus" if node["kind"] == "dataset" else "generator"
         for sample in leaf_samples(node, fetch, seeds, seed, root):
             tokens = len(encoding.encode_ordinary(sample["text"]))
+            histogram[tokens] += 1
             samples += 1
             token_sum += tokens
             longest = max(longest, tokens)
@@ -99,6 +102,7 @@ def audit(fetch, encoding, max_tokens, seeds, seed, family="", root=ROOT):
                        "tokens": total_tokens, "over_limit": len(over_limit),
                        "corpus_leaves": sum(row["kind"] == "corpus" for row in leaves),
                        "generator_leaves": sum(row["kind"] == "generator" for row in leaves)},
+            "token_histogram": dict(sorted(histogram.items())),
             "leaves": leaves, "over_limit": over_limit}
 
 
