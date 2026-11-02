@@ -1,7 +1,7 @@
 # Literature
 
-The collection contains 3,413 records in 50 leaves: 36 retained literary
-passages, 12 compact form patterns, and 3,365 source-derived literary units from
+The collection contains 3,480 records in 50 leaves: 36 retained literary
+passages, 12 compact form patterns, and 3,432 source-derived literary units from
 25 checksum-pinned editions. Every passage
 names its writer, work, edition and location; translated material names its
 particular English translator. Fictional speakers and historical attitudes are
@@ -9,9 +9,9 @@ the cited work's, rather than factual assertions by Inspire.
 
 - `verse/`: English sonnet excerpts, Wheatley and four Dunbar collections;
   Indic, Chinese and Persian translations. Whole short poems retain line order.
-- `narrative/`: whole classical and French fables; Japanese folktales; British,
+- `narrative/`: classical and French fables and excerpts; Japanese folktales; British,
   French, Russian and Chinese diaspora fiction; Douglass and Du Bois nonfiction;
-  complete numbered anecdotes from Sa’di's Gulistan in James Ross's translation.
+  numbered anecdotes and excerpts from Sa’di's Gulistan in James Ross's translation.
 - `prose-poetry/`: consecutive paragraph groups from Gibran's The Prophet.
 - `aphorisms/`: complete numbered units from Tagore's Stray Birds.
 - `dialogue/`, `quotations/`: original verified passages, grouped by author.
@@ -34,13 +34,19 @@ data on 2026-10-22.
 
 Extraction excludes metadata, introductions by other writers, illustrations,
 notes, page numbers, licensing boilerplate and duplicate complete units. Long
-poems and fables are omitted rather than cut mid-sentence or mid-line. Narrative
+poems and fables outside the import character bounds are omitted. Within those
+bounds, 67 units exceeding 512 o200k_base tokens are divided into consecutive
+excerpts at reviewed paragraph, stanza or verse-sentence boundaries recorded in
+`excerpt_splits.json`. Every source line survives; each excerpt repeats its title
+and attribution and identifies its position. The importer does no runtime token
+clipping and needs no tokenizer. All 3,480 final stimuli were audited against
+the 512-token cap, including their credits. Narrative
 excerpts use complete paragraphs of 230-1,500 characters, spread across chapters
 and stories, with a per-section cap. This is a deliberate bounded selection,
 not a claim to reproduce complete books. Chapter locators count original HTML
 paragraphs before filtering. Gibran groups preserve consecutive paragraph order.
 Gulistan anecdotes retain every paragraph of the numbered unit, including its
-conclusion. Units outside 90–2,400 characters and sections marked by omission
+conclusion; four long anecdotes are represented by paired paragraph excerpts. Units outside 90–2,400 characters and sections marked by omission
 asterisks are excluded; the anthology's introduction is never sampled.
 
 These particular published versions are public domain in the USA and Canada;

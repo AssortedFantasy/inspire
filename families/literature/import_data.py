@@ -1,4 +1,4 @@
-"""Import complete literary units from checksum-pinned development downloads.
+"""Import literary units and reviewed excerpts from checksum-pinned downloads.
 
 Development dependency: beautifulsoup4==4.12.3. No runtime dependencies.
 """
@@ -16,6 +16,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).parent
 MANIFEST = ROOT / "sources.json"
+EXCERPT_SPLITS = json.loads((ROOT / "excerpt_splits.json").read_text(encoding="utf-8"))
 
 
 def clean(node, verse=False):
@@ -289,6 +290,29 @@ def narrative(source, soup):
 PARSERS = {f.__name__: f for f in (numbered, aesop, gulistan, quatrains, kabir, chinese, dunbar, pre_poems, narrative, prophet)}
 
 
+def excerpts(row):
+    """Reviewed boundaries in the imported body, counting physical lines from one.
+
+    Preserve every source line; repeated titles and credits keep either excerpt
+    attributable when sampled alone. Cuts follow paragraphs, stanzas or complete
+    verse sentences, rather than a token or character truncation.
+    """
+    cut = EXCERPT_SPLITS.get(row["id"])
+    if cut is None:
+        yield row
+        return
+    body, _, credit = row["text"].rpartition("\n- ")
+    lines = body.splitlines()
+    # Verse titles precede a blank line; prose anecdotes have no separate title.
+    title = lines[:2] if not row["id"].startswith("pg-13060-") else []
+    for index, part in enumerate((lines[:cut], title + lines[cut:]), 1):
+        excerpt = dict(row)
+        excerpt["id"] += f"-excerpt-{index}"
+        excerpt["text"] = "\n".join(part).strip() + f"\n- {credit}, excerpt {index} of 2"
+        excerpt["provenance"] += f" Consecutive excerpt {index} of 2; split after imported body line {cut}."
+        yield excerpt
+
+
 def build(cache):
     outputs, seen = defaultdict(list), set()
     retained_ids = {row["id"] for row in json.loads((ROOT / "baseline_manifest.json").read_text(encoding="utf-8"))}
@@ -304,12 +328,13 @@ def build(cache):
         soup = BeautifulSoup(raw, "html.parser")
         for node in soup.select("#pg-header,#pg-footer"):
             node.decompose()
-        for path, row in PARSERS[source["parser"]](source, soup):
-            key = body_key(row["text"])
-            if key in seen:
-                continue
-            seen.add(key)
-            outputs[path].append(row)
+        for path, original in PARSERS[source["parser"]](source, soup):
+            for row in excerpts(original):
+                key = body_key(row["text"])
+                if key in seen:
+                    continue
+                seen.add(key)
+                outputs[path].append(row)
     return outputs
 
 

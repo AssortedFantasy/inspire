@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent
 CACHE = ROOT.parents[1] / "target/imports/cultural"
+EXCERPTS = json.loads((ROOT / "excerpts.json").read_text(encoding="utf-8"))
 
 
 def clean(node):
@@ -44,6 +45,27 @@ def record(source, locator, body):
         "provenance": f"{source['catalog_url']}. {locator}. "
         f"Pinned HTML SHA-256 {source['sha256']}. {source['rights']}",
     }
+
+
+def passages(item):
+    """Replay reviewed paragraph/sentence spans, preserving every selected word."""
+    if item["id"] not in EXCERPTS:
+        return [item]
+    body, credit = item["text"].rsplit("\n\n— ", 1)
+    result = []
+    previous_end = 0
+    for n, (start, end) in enumerate(EXCERPTS[item["id"]], 1):
+        assert previous_end <= start < end <= len(body)
+        assert not body[previous_end:start].strip()
+        result.append({
+            "id": f"{item['id']}-excerpt-{n}",
+            "text": body[start:end] + "\n\n— " + credit,
+            "provenance": item["provenance"]
+            + f" Excerpt {n}, source-body characters {start + 1}–{end}.",
+        })
+        previous_end = end
+    assert not body[previous_end:].strip()
+    return result
 
 
 def tao(source, soup):
@@ -148,6 +170,11 @@ def bulfinch(source, soup):
             if node.name == "p" and (text := clean(node)):
                 paragraphs.append(text)
                 last_id = node.get("id")
+        if paragraphs and paragraphs[-1].startswith(
+            "The following are other celebrated mythical poets and musicians,"
+        ):
+            # A bridge to the next named section, not part of this story.
+            paragraphs.pop()
         body = "\n\n".join(paragraphs)
         if not 400 <= len(body) <= 9000:
             continue
@@ -184,6 +211,7 @@ def main():
         raw = path.read_bytes()
         assert hashlib.sha256(raw).hexdigest() == source["sha256"], f"checksum: {path}"
         records = PARSERS[source["parser"]](source, BeautifulSoup(raw, "html.parser"))
+        records = [part for item in records for part in passages(item)]
         assert len({item["id"] for item in records}) == len(records)
         for item in records:
             assert item["text"] not in all_texts

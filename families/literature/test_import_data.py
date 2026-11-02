@@ -53,13 +53,35 @@ class LiteratureTests(unittest.TestCase):
         self.assertEqual(len(quatrains), 75)
         self.assertTrue(all(len(importer.body_text(row['text']).splitlines()) == 4 for row in quatrains))
         self.assertEqual(len(outputs['verse/translations/indic/tagore/gitanjali']), 103)
-        self.assertEqual(len(outputs['narrative/anecdotes/persian/sadi/gulistan']), 191)
+        self.assertEqual(len(outputs['narrative/anecdotes/persian/sadi/gulistan']), 195)
         for rows in outputs.values():
             for row in rows:
                 body = importer.body_text(row['text'])
                 self.assertNotIn('Project Gutenberg', body)
                 self.assertNotIn('\x00', body)
                 self.assertNotIn('Illustration:', body)
+
+    def test_reviewed_excerpts_preserve_every_source_line(self):
+        splits = json.loads((importer.ROOT / 'excerpt_splits.json').read_text(encoding='utf-8'))
+        reviewed = set()
+        for source in json.loads(importer.MANIFEST.read_text(encoding='utf-8')):
+            soup = BeautifulSoup(Path(f"target/imports/literature/pg{source['id']}.html").read_bytes(), 'html.parser')
+            for _path, original in importer.PARSERS[source['parser']](source, soup):
+                if original['id'] not in splits:
+                    continue
+                reviewed.add(original['id'])
+                excerpts = list(importer.excerpts(original))
+                self.assertEqual(len(excerpts), 2)
+                body = importer.body_text(original['text'])
+                first, second = (importer.body_text(row['text']) for row in excerpts)
+                if not original['id'].startswith('pg-13060-'):
+                    title = body.split('\n\n', 1)[0] + '\n\n'
+                    self.assertTrue(second.startswith(title))
+                    second = second[len(title):]
+                # Layout-only blank lines at the boundary may be stripped.
+                self.assertEqual((first + '\n' + second).split(), body.split())
+                self.assertTrue(all(row['provenance'].startswith(original['provenance']) for row in excerpts))
+        self.assertEqual(reviewed, set(splits))
 
     def test_schema_unique_ids_and_baseline_retention(self):
         all_rows = []
