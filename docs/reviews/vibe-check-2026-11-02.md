@@ -184,3 +184,130 @@ diverse human perspectives or ten evaluations of each item. The prompt explicitl
 solicited strengths, weaknesses, experiential breadth, and gaps. Agreement may
 reflect shared model preferences. The study measures neither downstream creative
 benefit nor coverage of a formally defined latent space.
+
+---
+
+## Follow-up: Four Gemini 4 Argon (Medium) reviews (IDs 501–700)
+
+Four independent **Gemini 4 Argon (Medium)** reviewers (`review-11.md` through
+`review-14.md`) subsequently evaluated the next 200 sequential draws from the
+same `random.Random(20261102500)` stream (IDs `501`–`700`, 50 per reviewer)
+under the identical blinded-first-impressions and source-verification protocol.
+
+### Argon sample and verdict summary
+
+- **200 draws** across all 26 root families and 137 distinct leaves (`107`
+  corpus records, `93` generator outputs, `200` distinct texts).
+- **Pooled Argon judgments:** `81` strong (`40.5%`), `76` okay (`38.0%`), and
+  `43` weak (`21.5%`) — slightly more critical on the weak tail (`21.5%` vs.
+  `9.2%` in batches 01–10), primarily penalizing leaf-level template collisions,
+  unpruned random logic ASTs, and bare homework/UUID draws.
+
+| Batch | IDs | Strong | Okay | Weak | Standout favorites |
+| --- | --- | --- | --- | --- | --- |
+| 11 | `501–550` | 15 | 23 | 12 | `507` equal-summary OLS pair, `504` Montagu Vienna stairs, `509` de Dillmont linen darning, `517` Rosenzweig–MacArthur thresholds, `529` Hearn *nazoraëru*, `532` M/M/4 pooled vs. split wait |
+| 12 | `551–600` | 21 | 22 | 7 | `577` Vitruvius two-summer stone seasoning, `574` 14 kn vessel pushed 1 kn astern by 15 kn current, `570` M/M/3 pooled vs. split, `586` vertical-stack + outlier OLS pair, `590` Shamir on constant $f(x)=3$ |
+| 13 | `601–650` | 12 | 25 | 13 | `629` Du Bois color-line cartography, `618` Tissandier walnut-shell *ludion*, `646` degenerate Lotka–Volterra equilibrium line ($x+y=1, \lambda=0$), `650` parabolic vs. perturbed OLS pair |
+| 14 | `651–700` | 23 | 18 | 9 | `694` Mars projectile hitting upslope while still rising ($v_y > 0$), `667` mod-7 quadratic probing orbit saturation with tombstones, `653` walnut/flax 2/1 twill drawdown, `699` Meketre tomb bakery/brewery model |
+
+### Concrete code, generator, and corpus findings surfaced by Argon
+
+Every Argon reviewer inspected the relevant `generator.rs` and corpus files to
+distinguish sampling luck from code/data defects:
+
+| ID(s) | Root seed(s) | Leaf path | Finding | Actionable fix |
+| --- | --- | --- | --- | --- |
+| `512`, `536`, `593`, `688` | `14620060181762999689`, `8297691499053210432`, `8992086442858998809`, `11851236082833746207` | `philosophy/logic/truth-tables`, `philosophy/logic/modal-kripke` | Confirmed AST generator flaw: `random_expr` / `random_formula` draw left and right operands of binary connectives independently without pruning identical subformulas, emitting degenerate `(q ∧ q)`, `◇¬(p ∧ p)`, and `□(q ∨ q)`. | Disallow identical left/right child expressions in binary connectives (`And`, `Or`, `Imp`, `Iff`) in both generators; compactly format dense Kripke relations `R`. |
+| `626` | `9544776720666203506` | `cryptography/secret-sharing/shamir` | Re-confirmed pluralization bug at `generator.rs:54` when $k=2$: prints `"Two polynomials through these 1 shares"`. | Branch on `k - 1 == 1` (`"through this 1 share"`). |
+| `676` | `1771844156593791866` | `games/abstract/impartial/subtraction` | Confirmed generator omission: `subtraction/generator.rs` computes `outcomes(40, &moves)` to balance N/P sampling, but prints only `Subtraction / Heap: 18 / Removals: 3 5 6`—discarding the N/P outcome, period, and winning moves that sibling leaves `nim` and `kayles` output. | Emit `N-position`/`P-position`, period, and winning removals in `subtraction/generator.rs`. |
+| `634` | `9495404086545031986` | `design/textiles/knitting` | Un-staggered cable repeat prints 11 identical consecutive lines (`Round 2` through `Round 12: [p3, k6, p3, k6, p3]`). | Collapse consecutive identical plain rounds (e.g., `Rounds 2–12  [p3, k6, p3, k6, p3]`) or stagger cable crossings. |
+| `575` | `13343442330048418717` | `cryptography/error-correction/hamming` | `mode == 0` in `hamming/generator.rs` emits an all-clean 5-word table where every syndrome is `000` and no error occurs. | Drop or sharply downweight `mode == 0` so every draw shows single-bit correction, parity-bit flip, double-error SECDED rejection, or burst interleaving. |
+| `539`, `611` | `15651157310407989756`, `3636184415906016052` | `math/linear-algebra/.../orthogonal-projections` | Prints a raw $3\times 3$ rational projection matrix and vector product (`-152/17`), omitting the complementary orthogonal decomposition ($x = x_\parallel + x_\perp$) that its own test suite verifies. | Include the complementary subspace decomposition or geometric invariant in the output. |
+| `502`, `534`, `557`, `565`, `604`, `617`, `647`, `657`, `665`, `681` | Multiple | `chemistry/reactions/*`, `chemistry/formulas/.../empirical-formulas`, `math/analysis/integrals/indefinite/logarithms`, `math/probability/.../finite-mass-functions` | Static 12–13 item arrays (`oxygenated-fuels`, `neutralization`, `metal-displacement`), GCD subscript reductions (`empirical-formulas`, 3 hits in Batch 14), and uniform constant-substitution drills (`logarithms`, `finite-mass-functions`) lack regime boundaries. | Upgrade to boundary/comparative regimes (e.g., oxygen-limited vs. excess combustion, titration equivalence/buffer cliffs, parameter-bifurcating integrals) or lower leaf weights. |
+| `560`, `592`, `636`, `655`, `695` | `10722680462749208932`, `16996609619189405362`, `10912476706340342031`, `1834688937045230856`, `14618586432034031902` | `materials/catalogues/textiles`, `geography/.../rivers`, `language/lexicon/*`, `mechanisms/.../escapements/historical` | Corpus blemishes: `zorbeez` (infomercial brand noise in textiles); `Map extent center` GIS phrasing (`592`); circular antonym glosses (`636` `unfair — not fair`); unillustrated diagram letters `piece, B`, `lever, E, C`, `notch, E` (`655`, Brown no. 296); trivial ordinal definition `third (n.)` (`695`). | Add exclusions for `zorbeez`, ordinal/cardinal numerals, and circular `not X` antonym glosses; filter diagram-dependent Brown passages; soften `Map extent center` label. |
+
+### Where Argon agreed with — and sharpened — the GPT-6.1-sol findings
+
+1. **Zero-slop discipline and boundary-seeking generators are the core strength:**
+   All four Argon reviewers independently praised the complete absence of LLM
+   preamble and highlighted the exact same class of high-leverage outputs:
+   equal-summary OLS pairs (`507`, `567`, `586`, `650`), pooled vs. split
+   queues (`532`, `570`), ecological invasion/Hopf thresholds (`517`, `646`,
+   `682`), physical/navigation reversals (`574`, `694`), hash-table probe orbit
+   saturation (`667`), railway loop/overtake schedules (`514`, `541`, `591`,
+   `606`), and tactile primary sources (Montagu, Equiano, Du Bois, Vitruvius,
+   de Dillmont, Farmer, Tissandier, Hearn, Weekley).
+2. **Shallow top-level branches create leaf-level hotspots:**
+   While the balance study's atom cap (`0.02451%`) prevents any single *exact
+   corpus string* from dominating, shallow top-level branches still funnel
+   `0.98%`–`1.66%` of root probability into single generator leaves or tiny
+   single-book corpora:
+   - `philosophy/logic/*`: 3 leaves at `1.31%` each (`11` draws across the 200
+     Argon samples).
+   - `cryptography/*`: 4 leaves at `0.98%` each (`13` draws across the 200
+     Argon samples, including four `Hamming(8,4)` tables in Batch 12 alone and
+     three `rsa-toy` traces in Batch 14).
+   - `transport/rail/timetables` and `transport/navigation/dead-reckoning`:
+     `0.98%` each.
+   - `procedures/craft`: `0.784%` across 36 records from a single book
+     (de Dillmont's *Encyclopedia of Needlework*, 3 hits in Batch 11).
+   - `procedures/experiments`: `0.784%` across 16 Tissandier records (`0.049%`
+     per record, 3 hits in Batch 14).
+3. **Expanding `society`, `philosophy`, and `procedures/craft`:**
+   Like the first ten reviewers, all four Argon reviewers noted that `society`
+   (7 economics/voting generators) and `philosophy` (3 formal-logic generators)
+   are 100% formal generators in `tree.txt`, and recommended adding sourced
+   legal/institutional/charter/paradox leaves alongside non-needlework crafts
+   (joinery, dyeing, ceramics, bookbinding) and material failure/repair.
+
+### Argon artifacts for Astra
+
+All raw batches, frozen first impressions, full reviews, per-sample verdicts,
+and summaries are stored in `target/vibe-check-2026-11-02/`:
+
+- Batches & seeds: `batch-11.txt`..`batch-14.txt`, `batch-11.jsonl`..`batch-14.jsonl`, `samples-argon.jsonl`, `manifest-argon.json`
+- Frozen first impressions: `first-impressions-11.md`..`first-impressions-14.md`
+- Full reviews: `review-11.md`..`review-14.md`
+- Verdicts & summaries: `assessments-11.json`..`assessments-14.json`, `summary-11.json`..`summary-14.json`, `aggregate-argon.json`
+
+## Addendum: single Opus review
+
+One Claude Opus reviewer read 60 fresh root draws (seeds `9000000 + 7919·i`,
+`i = 1..60`, same binary), then checked suspicions with 200 seeds per leaf. The
+broad verdict agrees with the panels. The truth-table flaw repeats Argon's
+finding, and the panel noted inert bottleneck probes; the rates below are new.
+
+Confirmed defects:
+
+- Bulfinch OCR: `hy` for "by" (3), `bo your bees`, and seven broken hyphens
+  (`sea- calves`, `sharp- pointed`, `death- warrant`, `daughters-in- law`).
+  Fix in the importer if one exists, otherwise in `records.json`.
+- `philosophy/logic/truth-tables`: 45/200 formulas contain an idempotent
+  subterm such as `(s ∧ s)`. `¬((s ∧ s) ∨ ¬(s ∧ s))` reads as noise, not a
+  boundary case.
+- `random/geometry/shapes`: 47/200 are triangles that still print
+  `Reflex vertices = 0`. Some are needles (`M 25 0 L 35 1 L 0 1 Z`, height 1).
+  Omit the reflex line for triangles and reject extreme aspect ratios.
+- `systems/flows/bottlenecks`: the capacity probe left maximum flow unchanged
+  in 119/200 seeds. One nonbinding probe teaches something; at 60% it is the
+  default. Probe a cut edge most of the time.
+
+Polish:
+
+- Attribution lines use three styles: `— Author`, `- Author`, and bare
+  `Author, Title`. Pick one.
+- Degenerate grid ranges (`rows 1–1`, `columns 6–6`) should print one index.
+- Math definition records mix ASCII (`f:I->R`, `=>`) with Unicode (`∈`, `Σₖ`).
+
+Breadth observation: every human-voiced passage in the 60 draws dates from
+1716–1922, and non-European sources arrive through 19th-century English
+translators. That follows from public-domain sourcing. US federal works offer
+modern first-person voices without licensing trouble: NASA ASRS incident
+narratives, Apollo air-to-ground transcripts, NTSB docket interviews, WPA and
+Library of Congress oral histories, and NPS ranger field notes. ASRS fits the
+project's taste especially well: short, procedural, mundane, with a near miss.
+`literature/dialogue` currently has 0.11% effective weight.
+
+Elections agree on every method in 57/200 seeds. That is a reasonable baseline
+rate and needs no change. Seed 9007919 shows the generator at its best:
+plurality, Borda, and IRV choose different winners, and Borda matches Condorcet.
