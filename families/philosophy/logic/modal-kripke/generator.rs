@@ -1,6 +1,6 @@
 use rand::{Rng, rngs::StdRng, seq::SliceRandom};
 
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, PartialEq, Eq)]
 enum Expr {
     Atom(usize),
     Not(Box<Expr>),
@@ -73,6 +73,17 @@ impl Frame {
 }
 
 impl Expr {
+    fn swap_atoms(&mut self) {
+        match self {
+            Self::Atom(i) => *i ^= 1,
+            Self::Not(a) | Self::Box(a) | Self::Diamond(a) => a.swap_atoms(),
+            Self::And(a, b) | Self::Or(a, b) | Self::Imp(a, b) => {
+                a.swap_atoms();
+                b.swap_atoms();
+            }
+        }
+    }
+
     fn variables(&self) -> u8 {
         match self {
             Self::Atom(i) => 1 << i,
@@ -229,7 +240,12 @@ fn random_formula(rng: &mut StdRng, depth: usize) -> Expr {
         2 => diamond(random_formula(rng, depth - 1)),
         kind => {
             let a = Box::new(random_formula(rng, depth - 1));
-            let b = Box::new(random_formula(rng, depth - 1));
+            let mut b = Box::new(random_formula(rng, depth - 1));
+            // Preserve the sampled shape, but avoid accidental A ∧ A, A ∨ A,
+            // or A → A. Swapping both atoms always changes a colliding tree.
+            if a == b {
+                b.swap_atoms();
+            }
             match kind {
                 3 => Expr::And(a, b),
                 4 => Expr::Or(a, b),
@@ -254,25 +270,12 @@ fn set(mask: u8, n: usize) -> String {
 pub fn generate(rng: &mut StdRng) -> String {
     let frame = sample_frame(rng);
     let n = frame.edges.len();
-    let edges = (0..n)
-        .flat_map(|i| {
-            let frame = &frame;
-            (0..n)
-                .filter(move |j| frame.edges[i] & (1 << j) != 0)
-                .map(move |j| format!("w{i}→w{j}"))
-        })
+    let mut lines = frame
+        .edges
+        .iter()
+        .enumerate()
+        .map(|(w, &successors)| format!("R(w{w}) = {}", set(successors, n)))
         .collect::<Vec<_>>();
-    let mut lines = vec![
-        format!("W = {}", set(frame.universe(), n)),
-        format!(
-            "R = {}",
-            if edges.is_empty() {
-                "∅".into()
-            } else {
-                format!("{{{}}}", edges.join(", "))
-            }
-        ),
-    ];
     if rng.random_bool(0.5) {
         let valuation = [
             rng.random_range(0..=frame.universe()),
@@ -338,7 +341,7 @@ pub fn generate(rng: &mut StdRng) -> String {
             lines.push(format!("{}: {}", names[property], properties[property]));
         }
         lines.push(format!(
-            "{}: {}",
+            "{}: φ = {}",
             ["K", "D", "T", "B", "4", "5", "S4 (T ∧ 4)", "S5 (T ∧ 5)"][index],
             formula.text()
         ));
@@ -348,7 +351,7 @@ pub fn generate(rng: &mut StdRng) -> String {
             if index == 0 {
                 lines.push(format!("q = {}", set(valuation[1], n)));
             }
-            lines.push(format!("w{world} ⊭ {}", formula.text()));
+            lines.push(format!("w{world} ⊭ φ"));
         } else {
             let valuations = 1usize << (if index == 0 { 2 * n } else { n });
             lines.push(format!(
@@ -363,6 +366,27 @@ pub fn generate(rng: &mut StdRng) -> String {
 mod tests {
     use super::*;
     use rand::SeedableRng;
+
+    fn distinct_operands(expr: &Expr) -> bool {
+        match expr {
+            Expr::Atom(_) => true,
+            Expr::Not(a) | Expr::Box(a) | Expr::Diamond(a) => distinct_operands(a),
+            Expr::And(a, b) | Expr::Or(a, b) | Expr::Imp(a, b) => {
+                a != b && distinct_operands(a) && distinct_operands(b)
+            }
+        }
+    }
+
+    #[test]
+    fn random_modal_trees_avoid_accidental_identical_operands() {
+        let mut rng = StdRng::seed_from_u64(9_173_021);
+        for depth in 0..=4 {
+            for _ in 0..1_000 {
+                let expr = random_formula(&mut rng, depth);
+                assert!(distinct_operands(&expr), "{expr:?}");
+            }
+        }
+    }
 
     fn at(frame: &Frame, expr: &Expr, valuation: [u8; 2], w: usize) -> bool {
         match expr {

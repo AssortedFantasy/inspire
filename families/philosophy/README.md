@@ -1,8 +1,14 @@
 # Philosophy
 
-`logic` contains three equally weighted generators. The family has local weight
-2. Outputs are generated formal artifacts, with no attributed quotations or
-synthetic reconstructions of historical arguments.
+The family has local weight 2. `logic` receives three quarters of its draws and
+contains three equally weighted generators. `primary-texts` receives one quarter
+and contains 44 attributed, verbatim paragraph units from Hume, Wollstonecraft
+and William James. Its author weights match record counts, so those source units
+are equally likely. There are no synthetic reconstructions of historical arguments.
+
+The [source branch](primary-texts/README.md) adds arguments about experience,
+testimony, education, authority and affection alongside the formal artifacts.
+Its pinned importer preserves complete paragraphs rather than extracting slogans.
 
 ## Categorical syllogisms
 
@@ -38,8 +44,9 @@ condition here, rather than an unspecified historical interpretation.
 
 ## Propositional tables
 
-`logic/truth-tables` uses classical two-valued semantics with negation,
-conjunction, disjunction, material implication, biconditional and exclusive or.
+[`logic/truth-tables`](logic/truth-tables/README.md) uses classical two-valued
+semantics with negation, conjunction, disjunction, material implication,
+biconditional and exclusive or.
 Every displayed variable receives a column and every valuation receives a row.
 The generator chooses equally among tautologies, contradictions, formulas with
 one satisfying valuation, formulas with one falsifying valuation, and arbitrary
@@ -52,22 +59,27 @@ can produce deeper final trees. Tautologies vary across excluded middle,
 Peirce's law, contraposition, De Morgan, distributivity, biconditional/parity
 duality and hypothetical syllogism, with sampled subexpressions. Unique-model
 constructions vary literal polarities, order, association and connective
-representation. Contingent outputs include a sampled satisfying valuation and
-a sampled falsifying valuation. Tests compare scalar recursion against an
-independent 16-bit truth-vector evaluator and check the intended regimes.
+representation. Random binary operands are kept syntactically distinct through
+bounded construction; deliberate identities retain repeated subexpressions.
+Tests compare scalar recursion against an independent 16-bit truth-vector
+evaluator and check the intended regimes.
 
 The author-maintained [forall x: Calgary](https://openlogicproject.org/wp-content/uploads/2017/10/forallxyyc.pdf),
 chapters 8–12, supplies the classical truth-table semantics.
 
 ## Kripke frames
 
-`logic/modal-kripke` has two to four worlds, a directed accessibility relation
-including explicit self-loops, and arbitrary propositional valuations. Frames
+[`logic/modal-kripke`](logic/modal-kripke/README.md) has two to four worlds, a
+directed accessibility relation including explicit self-loops, and arbitrary
+propositional valuations. Frames
 mix arbitrary relations, empty relations, directed cycles, equivalence
 relations, reflexive partial orders, serial irreflexive graphs, reflexive
 nontransitive paths, symmetric stars, strict partial orders and nonreflexive
 Euclidean successor cliques. Labels are permuted. The properties printed are
 computed from the resulting graph, including coincidences between regimes.
+The relation prints one successor set `R(w)` for each world, including dead ends.
+Random binary formula operands remain syntactically distinct through bounded
+construction; explicit axiom constructors retain intentional repetitions.
 
 Half the outputs evaluate a sampled modal formula in a sampled model, giving
 its complete truth set and its truth value at one world. Formula construction

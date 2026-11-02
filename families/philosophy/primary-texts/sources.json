@@ -1,0 +1,396 @@
+[
+  {
+    "ebook": 9662,
+    "path": "hume",
+    "author": "David Hume",
+    "title": "An Enquiry Concerning Human Understanding",
+    "edition": "1777 text, Selby-Bigge edition, 1902",
+    "rights": "David Hume died 1776. Text published 1777; this edition published 1902. Public domain in the USA.",
+    "catalog_url": "https://www.gutenberg.org/ebooks/9662",
+    "url": "https://www.gutenberg.org/cache/epub/9662/pg9662.txt",
+    "sha256": "024eb4c26ddd09931cd72dd82096fcfa4a04e67d2f48d16249634f47a091d71d",
+    "selections": [
+      {
+        "id": "heat-and-memory",
+        "location": "section II",
+        "paragraphs": [
+          30
+        ],
+        "opening": "11. Every one will readily allow, that there is a considerable difference between the perc"
+      },
+      {
+        "id": "missing-shade",
+        "location": "section II",
+        "paragraphs": [
+          37
+        ],
+        "opening": "16. There is, however, one contradictory phenomenon, which may prove that it is not absolu"
+      },
+      {
+        "id": "water-and-fire",
+        "location": "section IV, part I",
+        "paragraphs": [
+          59
+        ],
+        "opening": "I shall venture to affirm, as a general proposition, which admits of no exception, that th"
+      },
+      {
+        "id": "marble-and-nourishment",
+        "location": "section IV, part I",
+        "paragraphs": [
+          60
+        ],
+        "opening": "24. This proposition, _that causes and effects are discoverable, not by reason but by expe"
+      },
+      {
+        "id": "eggs-and-experience",
+        "location": "section IV, part II",
+        "paragraphs": [
+          74
+        ],
+        "opening": "31. In reality, all arguments from experience are founded on the similarity which we disco"
+      },
+      {
+        "id": "child-and-candle",
+        "location": "section IV, part II",
+        "paragraphs": [
+          77
+        ],
+        "opening": "It is certain that the most ignorant and stupid peasants--nay infants, nay even brute beas"
+      },
+      {
+        "id": "fiction-and-belief",
+        "location": "section V, part II",
+        "paragraphs": [
+          98
+        ],
+        "opening": "It follows, therefore, that the difference between _fiction_ and _belief_ lies in some sen"
+      },
+      {
+        "id": "portrait-of-a-friend",
+        "location": "section V, part II",
+        "paragraphs": [
+          102
+        ],
+        "opening": "We may, therefore, observe, as the first experiment to our present purpose, that, upon the"
+      },
+      {
+        "id": "palsy-and-volition",
+        "location": "section VII, part I",
+        "paragraphs": [
+          136
+        ],
+        "opening": "A man, suddenly struck with palsy in the leg or arm, or who had newly lost those members, "
+      },
+      {
+        "id": "custom-and-character",
+        "location": "section VIII, part I",
+        "paragraphs": [
+          175
+        ],
+        "opening": "Are the manners of men different in different ages and countries? We learn thence the grea"
+      },
+      {
+        "id": "purse-at-charing-cross",
+        "location": "section VIII, part I",
+        "paragraphs": [
+          184
+        ],
+        "opening": "Were a man, whom I know to be honest and opulent, and with whom I live in intimate friends"
+      },
+      {
+        "id": "repentance-and-blame",
+        "location": "section VIII, part II",
+        "paragraphs": [
+          197
+        ],
+        "opening": "Men are not blamed for such actions as they perform ignorantly and casually, whatever may "
+      },
+      {
+        "id": "horse-and-greyhound",
+        "location": "section IX",
+        "paragraphs": [
+          207
+        ],
+        "opening": "83. _First_, It seems evident, that animals as well as men learn many things from experien"
+      },
+      {
+        "id": "contrary-witnesses",
+        "location": "section X, part I",
+        "paragraphs": [
+          233
+        ],
+        "opening": "89. This contrariety of evidence, in the present case, may be derived from several differe"
+      },
+      {
+        "id": "conflicting-experiences",
+        "location": "section X, part I",
+        "paragraphs": [
+          234
+        ],
+        "opening": "Suppose, for instance, that the fact, which the testimony endeavours to establish, partake"
+      }
+    ]
+  },
+  {
+    "ebook": 3420,
+    "path": "wollstonecraft",
+    "author": "Mary Wollstonecraft",
+    "title": "A Vindication of the Rights of Woman",
+    "edition": "1792",
+    "rights": "Mary Wollstonecraft died 1797. Work published 1792. Public domain in the USA.",
+    "catalog_url": "https://www.gutenberg.org/ebooks/3420",
+    "url": "https://www.gutenberg.org/cache/epub/3420/pg3420.txt",
+    "sha256": "7d79652f43541759d8ff0ce467372fa4a534d3f9dc32013e01ca99ea04b286a8",
+    "selections": [
+      {
+        "id": "education-and-common-truth",
+        "location": "dedication",
+        "paragraphs": [
+          41
+        ],
+        "opening": "Contending for the rights of women, my main argument is built on this simple principle, th"
+      },
+      {
+        "id": "who-judges-happiness",
+        "location": "dedication",
+        "paragraphs": [
+          44
+        ],
+        "opening": "Consider, I address you as a legislator, whether, when men contend for their freedom, and "
+      },
+      {
+        "id": "perpetual-childhood",
+        "location": "introduction",
+        "paragraphs": [
+          65
+        ],
+        "opening": "My own sex, I hope, will excuse me, if I treat them like rational creatures, instead of fl"
+      },
+      {
+        "id": "reason-and-prejudice",
+        "location": "chapter 1",
+        "paragraphs": [
+          84
+        ],
+        "opening": "Men, in general, seem to employ their reason to justify prejudices, which they have imbibe"
+      },
+      {
+        "id": "profession-and-character",
+        "location": "chapter 1",
+        "paragraphs": [
+          104
+        ],
+        "opening": "It is of great importance to observe, that the character of every man is, in some degree, "
+      },
+      {
+        "id": "learning-to-think",
+        "location": "chapter 2",
+        "paragraphs": [
+          121
+        ],
+        "opening": "By individual education, I mean--for the sense of the word is not precisely defined--such "
+      },
+      {
+        "id": "limits-of-private-education",
+        "location": "chapter 2",
+        "paragraphs": [
+          122
+        ],
+        "opening": "To prevent any misconstruction, I must add, that I do not believe that a private education"
+      },
+      {
+        "id": "soldiers-and-women",
+        "location": "chapter 2",
+        "paragraphs": [
+          128
+        ],
+        "opening": "As a proof that education gives this appearance of weakness to females, we may instance th"
+      },
+      {
+        "id": "indulgence-and-affection",
+        "location": "chapter 4",
+        "paragraphs": [
+          301
+        ],
+        "opening": "To fulfil domestic duties much resolution is necessary, and a serious kind of perseverance"
+      },
+      {
+        "id": "love-and-friendship",
+        "location": "chapter 4",
+        "paragraphs": [
+          320
+        ],
+        "opening": "Friendship is a serious affection; the most sublime of all affections, because it is found"
+      },
+      {
+        "id": "parental-authority",
+        "location": "chapter 10",
+        "paragraphs": [
+          642
+        ],
+        "opening": "Parental affection, indeed, in many minds, is but a pretext to tyrannize where it can be d"
+      },
+      {
+        "id": "reasoning-with-children",
+        "location": "chapter 11",
+        "paragraphs": [
+          666
+        ],
+        "opening": "It is easier, I grant, to command than reason; but it does not follow from hence, that chi"
+      },
+      {
+        "id": "citizens-and-affections",
+        "location": "chapter 12",
+        "paragraphs": [
+          692
+        ],
+        "opening": "It is not for the benefit of society that a few brilliant men should be brought forward at"
+      },
+      {
+        "id": "humanity-to-animals",
+        "location": "chapter 12",
+        "paragraphs": [
+          732
+        ],
+        "opening": "Humanity to animals should be particularly inculcated as a part of national education, for"
+      },
+      {
+        "id": "servants-and-children",
+        "location": "chapter 13",
+        "paragraphs": [
+          825
+        ],
+        "opening": "One striking instance of the folly of women must not be omitted. The manner in which they "
+      }
+    ]
+  },
+  {
+    "ebook": 32547,
+    "path": "james",
+    "author": "William James",
+    "title": "Essays in Radical Empiricism",
+    "edition": "1912",
+    "rights": "William James died 1910. Collected edition published 1912; no editor's preface or editorial footnotes sampled. Public domain in the USA.",
+    "catalog_url": "https://www.gutenberg.org/ebooks/32547",
+    "url": "https://www.gutenberg.org/cache/epub/32547/pg32547.txt",
+    "sha256": "57b57c4a77c4def90d18793d8aaba6f348baa91cffee217d944c89c34f0b7db0",
+    "selections": [
+      {
+        "id": "extended-thought",
+        "location": "Does 'Consciousness' Exist?, VI",
+        "paragraphs": [
+          87
+        ],
+        "opening": "Descartes for the first time defined thought as the absolutely unextended, and later philo"
+      },
+      {
+        "id": "ambiguous-valuations",
+        "location": "Does 'Consciousness' Exist?, VII",
+        "paragraphs": [
+          90,
+          91
+        ],
+        "opening": "There is a peculiar class of experiences to which, whether we take them as subjective or a"
+      },
+      {
+        "id": "experienced-relations",
+        "location": "A World of Pure Experience, I",
+        "paragraphs": [
+          127
+        ],
+        "opening": "To be radical, an empiricism must neither admit into its constructions any element that is"
+      },
+      {
+        "id": "grammatical-particles",
+        "location": "A World of Pure Experience, II",
+        "paragraphs": [
+          132
+        ],
+        "opening": "Philosophy has always turned on grammatical particles. With, near, next, like, from, towar"
+      },
+      {
+        "id": "continuous-transition",
+        "location": "A World of Pure Experience, II",
+        "paragraphs": [
+          135
+        ],
+        "opening": "What I do feel simply when a later moment of my experience succeeds an earlier one is that"
+      },
+      {
+        "id": "knowing-memorial-hall",
+        "location": "A World of Pure Experience, III",
+        "paragraphs": [
+          143,
+          144,
+          145
+        ],
+        "opening": "Suppose me to be sitting here in my library at Cambridge, at ten minutes' walk from 'Memor"
+      },
+      {
+        "id": "uncompleted-knowing",
+        "location": "A World of Pure Experience, V",
+        "paragraphs": [
+          160
+        ],
+        "opening": "Now the immensely greater part of all our knowing never gets beyond this virtual stage. It"
+      },
+      {
+        "id": "meeting-in-a-body",
+        "location": "A World of Pure Experience, VI",
+        "paragraphs": [
+          173
+        ],
+        "opening": "In that perceptual part of _my_ universe which I call _your_ body, your mind and my mind m"
+      },
+      {
+        "id": "shared-objects",
+        "location": "A World of Pure Experience, VI",
+        "paragraphs": [
+          175
+        ],
+        "opening": "Practically, then, our minds meet in a world of objects which they share in common, which "
+      },
+      {
+        "id": "flux-and-language",
+        "location": "The Thing and Its Relations, I",
+        "paragraphs": [
+          212
+        ],
+        "opening": "'Pure experience' is the name which I gave to the immediate flux of life which furnishes t"
+      },
+      {
+        "id": "intellect-and-survival",
+        "location": "The Thing and Its Relations, II",
+        "paragraphs": [
+          218
+        ],
+        "opening": "The naturalist answer is that the environment kills as well as sustains us, and that the t"
+      },
+      {
+        "id": "rubber-and-many-pulls",
+        "location": "How Two Minds Can Know One Thing, I",
+        "paragraphs": [
+          276
+        ],
+        "opening": "In the physical world we make with impunity the assumption that one and the same material "
+      },
+      {
+        "id": "beauty-and-physical-force",
+        "location": "The Place of Affectional Facts in a World of Pure Experience",
+        "paragraphs": [
+          324
+        ],
+        "opening": "We soon learn to separate the ways in which things appeal to our interests and emotions fr"
+      },
+      {
+        "id": "ambiguous-body",
+        "location": "The Place of Affectional Facts in a World of Pure Experience",
+        "paragraphs": [
+          329
+        ],
+        "opening": "Our body itself is the palmary instance of the ambiguous. Sometimes I treat my body purely"
+      }
+    ]
+  }
+]

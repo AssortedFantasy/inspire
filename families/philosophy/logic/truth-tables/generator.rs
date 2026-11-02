@@ -1,6 +1,6 @@
 use rand::{Rng, rngs::StdRng, seq::SliceRandom};
 
-#[derive(Clone, Copy, Debug)]
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 enum Op {
     And,
     Or,
@@ -9,7 +9,7 @@ enum Op {
     Xor,
 }
 
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, PartialEq, Eq)]
 enum Expr {
     Atom(usize),
     Not(Box<Expr>),
@@ -29,6 +29,17 @@ fn binary(op: Op, a: Expr, b: Expr) -> Expr {
 }
 
 impl Expr {
+    fn rotate_atoms(&mut self, n: usize) {
+        match self {
+            Self::Atom(i) => *i = (*i + 1) % n,
+            Self::Not(a) => a.rotate_atoms(n),
+            Self::Binary(_, a, b) => {
+                a.rotate_atoms(n);
+                b.rotate_atoms(n);
+            }
+        }
+    }
+
     fn eval(&self, valuation: u8) -> bool {
         match self {
             Self::Atom(i) => valuation & (1 << i) != 0,
@@ -82,17 +93,36 @@ fn random_expr(rng: &mut StdRng, depth: usize, n: usize) -> Expr {
         return not(random_expr(rng, depth - 1, n));
     }
     let op = [Op::And, Op::Or, Op::Imp, Op::Iff, Op::Xor][rng.random_range(0..5)];
-    binary(
-        op,
-        random_expr(rng, depth - 1, n),
-        random_expr(rng, depth - 1, n),
-    )
+    let (a, b) = random_pair(rng, depth - 1, n);
+    binary(op, a, b)
+}
+
+fn random_pair(rng: &mut StdRng, depth: usize, n: usize) -> (Expr, Expr) {
+    let a = random_expr(rng, depth, n);
+    let mut b = random_expr(rng, depth, n);
+    // Every expression contains an atom; this changes a colliding tree without
+    // rejection or extra depth. Intentional identities use binary() directly.
+    if a == b {
+        b.rotate_atoms(n);
+    }
+    (a, b)
 }
 
 fn law(rng: &mut StdRng, n: usize) -> Expr {
-    let a = random_expr(rng, 1, n);
-    let b = random_expr(rng, 1, n);
-    let c = random_expr(rng, 1, n);
+    let (mut a, mut b) = random_pair(rng, 1, n);
+    // Otherwise contraposition can collapse to the literal identity A ↔ A.
+    if b == not(a.clone()) {
+        b.rotate_atoms(n);
+    }
+    let mut c = random_expr(rng, 1, n);
+    if c == a || c == b {
+        // Two exclusions cannot exhaust the at least four available literals.
+        let alternatives = (0..n)
+            .flat_map(|i| [Expr::Atom(i), not(Expr::Atom(i))])
+            .filter(|expr| expr != &a && expr != &b)
+            .collect::<Vec<_>>();
+        c = alternatives[rng.random_range(0..alternatives.len())].clone();
+    }
     match rng.random_range(0..7) {
         0 => binary(Op::Or, a.clone(), not(a)),
         1 => binary(
@@ -110,11 +140,18 @@ fn law(rng: &mut StdRng, n: usize) -> Expr {
             not(binary(Op::And, a.clone(), b.clone())),
             binary(Op::Or, not(a), not(b)),
         ),
-        4 => binary(
-            Op::Iff,
-            binary(Op::And, a.clone(), binary(Op::Or, b.clone(), c.clone())),
-            binary(Op::Or, binary(Op::And, a.clone(), b), binary(Op::And, a, c)),
-        ),
+        4 => {
+            // With depth-one substitutions, this collision requires b and c
+            // to be atoms, so rotating a cannot collide with either of them.
+            if a == binary(Op::Or, b.clone(), c.clone()) {
+                a.rotate_atoms(n);
+            }
+            binary(
+                Op::Iff,
+                binary(Op::And, a.clone(), binary(Op::Or, b.clone(), c.clone())),
+                binary(Op::Or, binary(Op::And, a.clone(), b), binary(Op::And, a, c)),
+            )
+        }
         5 => binary(
             Op::Iff,
             binary(Op::Iff, a.clone(), b.clone()),
@@ -173,9 +210,9 @@ fn sample(rng: &mut StdRng, regime: usize) -> Expr {
         _ => {
             // A single polarity switch can turn the surrounding arbitrary
             // subformula into an implication, equivalence, or parity boundary.
-            let a = random_expr(rng, 2, n);
+            let (a, b) = random_pair(rng, 2, n);
             let op = [Op::Imp, Op::Iff, Op::Xor][rng.random_range(0..3)];
-            binary(op, a, random_expr(rng, 2, n))
+            binary(op, a, b)
         }
     }
 }
@@ -233,6 +270,47 @@ pub fn generate(rng: &mut StdRng) -> String {
 mod tests {
     use super::*;
     use rand::SeedableRng;
+
+    fn distinct_operands(expr: &Expr) -> bool {
+        match expr {
+            Expr::Atom(_) => true,
+            Expr::Not(a) => distinct_operands(a),
+            Expr::Binary(_, a, b) => a != b && distinct_operands(a) && distinct_operands(b),
+        }
+    }
+
+    #[test]
+    fn sampled_trees_avoid_accidental_identical_operands() {
+        let mut rng = StdRng::seed_from_u64(20_261_102);
+        for n in 2..=4 {
+            for depth in 0..=3 {
+                for _ in 0..500 {
+                    let expr = random_expr(&mut rng, depth, n);
+                    assert!(distinct_operands(&expr), "{expr:?}");
+                    assert_eq!(expr.variables() >> n, 0);
+                }
+            }
+        }
+        for regime in 0..5 {
+            for _ in 0..500 {
+                let expr = sample(&mut rng, regime);
+                assert!(distinct_operands(&expr), "{expr:?}");
+            }
+        }
+    }
+
+    #[test]
+    fn explicit_identities_remain_available() {
+        let a = binary(Op::Imp, Expr::Atom(0), Expr::Atom(1));
+        for valuation in 0..4 {
+            assert!(binary(Op::Iff, a.clone(), a.clone()).eval(valuation));
+            assert!(!binary(Op::Xor, a.clone(), a.clone()).eval(valuation));
+            assert_eq!(
+                binary(Op::And, a.clone(), a.clone()).eval(valuation),
+                a.eval(valuation)
+            );
+        }
+    }
 
     // A second evaluator represents the 16 valuations as bits and builds
     // implication and equivalence from Boolean algebra rather than booleans.
