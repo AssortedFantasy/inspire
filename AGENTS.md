@@ -25,7 +25,7 @@ Keep this up to date; list only important files and directories.
 - `scripts/review_dashboard.py`, `scripts/review-dashboard/`: human review tool; feedback appends to `docs/reviews/human-feedback.md`.
 - `tests/`: build-tree and CLI integration tests.
 - `scripts/review_content.py`: counts, probabilities, duplicate checks, and output samples.
-- `scripts/token_count.py`: fast text/JSONL token counts and per-leaf length audits.
+- `scripts/token_count.py`: fast text/JSONL token counts and per-leaf length audits; [cleanup results](docs/token-length-audit.md).
 - `scripts/balance_*.py`, [docs/balance-study.md](docs/balance-study.md): counterfactual sampling experiments and measured results.
 - `scripts/balance_blind_trial.py`, [docs/blind-stream-study.md](docs/blind-stream-study.md): frozen blinded stream comparisons and judge audit.
 - `scripts/creative_validation.py`, `scripts/creative_render.py`, `scripts/creative_review.py`, [docs/creative-validation.md](docs/creative-validation.md): paid creative-task validation, SVG rendering, and blinded review.
