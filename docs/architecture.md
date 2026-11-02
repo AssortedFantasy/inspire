@@ -145,7 +145,7 @@ detect stale content with unchanged paths/counts. Disabled leaves are included.
 The report includes exact token-count frequencies, ranks leaves by maximum
 length, and retains all over-limit texts with source IDs or CLI reproduction
 seeds. Generator maxima describe the sampled
-seeds, not a proven bound. `--max-tokens` defaults to a review threshold of 256.
+seeds, not a proven bound. `--max-tokens` defaults to the 512-token content cap.
 Exit codes are 0 within the threshold, 1 when exceeded, and 2 for invalid input
 or operational errors. For `count`, the threshold is optional.
 

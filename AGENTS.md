@@ -47,8 +47,9 @@ uv run --cache-dir target/uv-cache scripts/token_count.py audit --binary target/
 
 Omit `--family` for the whole tree; on Unix use `target/release/inspire`.
 This checks every corpus record and 128 seeds per generator. The default
-`--max-tokens 256` flags samples for review, not automatic truncation. Inspect
-long outputs for unnecessary scaffolding while preserving useful artifacts.
+`--max-tokens 512` is the sample length cap. Simplify overlong generators to
+their structural core; use complete, distinctive excerpts for corpora. Do not
+truncate outputs mechanically or paraphrase human sources to fit.
 Exit 1 means over-limit samples were found; the JSON report retains their texts
 and record IDs or reproduction seeds. Use `--seeds N` for deeper generator review.
 For one text file use `count FILE`; for CLI JSON or sample banks use

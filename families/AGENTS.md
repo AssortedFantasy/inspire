@@ -7,6 +7,13 @@ See [human feedback](../docs/reviews/human-feedback.md) for concrete review note
 
 Focus on the **entropic core**—the actual artifact, fact, or quotation—and strip away scaffolding, defensive clarifications, and GPT prose patterns.
 
+Keep each output within **512 `o200k_base` tokens**. Audit with
+`scripts/token_count.py` as described in the root agent instructions. For
+generators, bound the artifact's dimensions and remove redundant traces or
+representations. For corpora, choose complete, distinctive passages or stanzas
+from the human source, retaining attribution. Do not fit the cap by arbitrary
+truncation or LLM paraphrasing.
+
 - **No CYA definitions or rulebook explanations.** Assume a competent reader. Do not explain how Sudoku or Nim works, that poker uses a 52-card deck with no jokers, what an atomic number means (`29 protons per nucleus and 29 electrons in a neutral atom`), that ionic solids form lattices, that MIDI puts `C4 = 60` in 12-TET, or that a SPICE netlist uses ideal sources and SI units. Print the puzzle, hand, reaction, or netlist directly.
 - **No tree-path or category scaffolding.** Do not leak the directory taxonomy into the output as a header (`Experiment protocol: Blind spot card`, `Word history: apron`, `Poetic form: Shakespearean sonnet`, `Algorithm: Kruskal tree`, `Type: Drums`). And never double-introduce an item (`Algorithm: Kruskal tree` followed by `Kruskal's minimum spanning tree:`). Start directly with the material.
 - **No semicolon/colon key-value sludge.** Avoid the GPT habit of chaining terse clauses with colons and semicolons (`Ideal hydraulic press: incompressible liquid... Input piston diameter 17 mm; output diameter 68 mm...`). When presenting multiple fields (like biological taxonomy and trait estimates), use clean line breaks instead of a semicolon wall.

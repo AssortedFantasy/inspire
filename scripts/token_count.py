@@ -132,7 +132,7 @@ def main():
     reviewer = commands.add_parser("audit", parents=[common], help="Check all records and sample every generator")
     reviewer.add_argument("--binary", type=Path, required=True, help="Freshly built inspire executable")
     reviewer.add_argument("--family", default="", help="Limit to a family, branch, or leaf path")
-    reviewer.add_argument("--max-tokens", type=nonnegative, default=256, help="Review threshold (default: 256)")
+    reviewer.add_argument("--max-tokens", type=nonnegative, default=512, help="Sample length cap (default: 512)")
     reviewer.add_argument("--seeds", type=positive, default=128, help="Samples per generator (default: 128)")
     reviewer.add_argument("--seed", type=nonnegative, default=0, help="First generator seed (default: 0)")
     reviewer.add_argument("--output", type=Path, help="Write full JSON report, including over-limit texts")
