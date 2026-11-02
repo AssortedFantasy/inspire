@@ -15,7 +15,7 @@ import uuid
 import webbrowser
 
 ROOT = Path(__file__).resolve().parents[1]
-ASSETS = ROOT / "review-dashboard"
+ASSETS = Path(__file__).resolve().parent / "review-dashboard"
 FEEDBACK_HEADER = "# Inspire human feedback\n\nSamples use the CLI's weighted tree and embedded payloads.\n"
 
 
@@ -191,7 +191,7 @@ def handler_for(review):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--binary", type=Path, help="Use an existing binary; skip rebuilding")
-    parser.add_argument("--feedback", type=Path, default=ROOT / "reviews" / "human-feedback.md")
+    parser.add_argument("--feedback", type=Path, default=ROOT / "docs" / "reviews" / "human-feedback.md")
     parser.add_argument("--port", type=int, default=8766, help="Local port; 0 picks an available port")
     parser.add_argument("--no-open", action="store_true", help="Do not open the browser automatically")
     args = parser.parse_args()

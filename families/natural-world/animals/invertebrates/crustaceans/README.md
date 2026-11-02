@@ -39,4 +39,3 @@ All 181 emitted profiles were reviewed and matched to source classifications,
 positive confidence codes and Aphia IDs; independent family selection agrees.
 Replay with networking blocked reproduces all output files byte-for-byte.
 Corrupting or removing either pinned input fails before output mutation.
-`review_manifest.json` records the completed leaf review and payload hashes.

@@ -9,7 +9,7 @@ The ambitious follow-up adds 57 generators, 53 corpus leaves and 12,294 source
 records. Seven new families cover cryptography, systems, philosophy, food,
 materials, belief and arts. Existing physics, computing, math, society, games,
 procedures, random, design and transport branches gain substantial new models.
-The [backlog index](../INSPIRATION_SUGGESTIONS.md#expanded-coverage) records exact
+The [backlog index](INSPIRATION_SUGGESTIONS.md#expanded-coverage) records exact
 coverage and links to model limits instead of marking entire proposals complete.
 
 Generator regimes include grazing and dragged trajectories, circuit switching,
@@ -57,7 +57,7 @@ python -B scripts/review_content.py --binary target/release/inspire.exe --sample
 
 The following notes describe the preceding, smaller integration.
 
-The [suggestion backlog](../INSPIRATION_SUGGESTIONS.md) now distinguishes existing
+The [suggestion backlog](INSPIRATION_SUGGESTIONS.md) now distinguishes existing
 coverage, this integration and unimplemented extensions. Existing gears, cams,
 weaves, group objects, graph atlas and historical manual passages are indexed
 under their current paths instead of duplicated.
@@ -193,5 +193,5 @@ importer comparisons. Source coverage remains curated and inherits historical an
 geographic biases.
 
 Historical review manifests are records of earlier work; they are not fabricated
-or expanded into new reviewer histories. See [family guidance](../families/AGENTS.md)
-and [architecture](architecture.md) for maintenance and runtime details.
+or expanded into new reviewer histories. See [family guidance](../../families/AGENTS.md)
+and [architecture](../architecture.md) for maintenance and runtime details.

@@ -12,6 +12,7 @@ Keep documentation and code up to date without being asked.
 Refactor as needed implicitly.
 Commit often without being asked.
 Keep documentation and code concise.
+Keep scratch output and agent session state under ignored `target/`.
 
 # Project Map
 
@@ -20,8 +21,8 @@ Keep this up to date; list only important files and directories.
 - `families/`: sampling tree; see [family rules](families/AGENTS.md) for extensions.
 - `build.rs`, `build_support.rs`: tree validation and code generation.
 - `src/`: CLI, packed layouts, sampling, and chunk retrieval.
-- `src/dashboard.rs`, `dashboard/`: embedded local server and output explorer.
-- `scripts/review_dashboard.py`, `review-dashboard/`: external human review UI; feedback appends to `reviews/human-feedback.md`.
+- `src/dashboard.rs`, `src/dashboard/`: embedded local server and output explorer.
+- `scripts/review_dashboard.py`, `scripts/review-dashboard/`: human review tool; feedback appends to `docs/reviews/human-feedback.md`.
 - `tests/`: build-tree and CLI integration tests.
 - `scripts/review_content.py`: counts, probabilities, duplicate checks, and output samples.
 - `scripts/balance_*.py`, [docs/balance-study.md](docs/balance-study.md): counterfactual sampling experiments and measured results.
@@ -29,7 +30,7 @@ Keep this up to date; list only important files and directories.
 - `scripts/creative_validation.py`, `scripts/creative_render.py`, `scripts/creative_review.py`, [docs/creative-validation.md](docs/creative-validation.md): paid creative-task validation, SVG rendering, and blinded review.
 - `scripts/import_catalogues.py`, `scripts/catalogue_sources.json`: pinned food and material imports.
 - [DATA_SOURCES.md](DATA_SOURCES.md): embedded dataset redistribution notices.
-- [INSPIRATION_SUGGESTIONS.md](INSPIRATION_SUGGESTIONS.md): backlog of proposed leaves and families.
+- `docs/archive/`: historical research, planning, and agent review artifacts; not current maintenance instructions.
 - [docs/architecture.md](docs/architecture.md): build and runtime details.
 
 # Tips

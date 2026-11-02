@@ -51,7 +51,7 @@ sample invokes the CLI with a random seed and uses its weighted tree and embedde
 payloads, exactly as ordinary CLI sampling does. Selecting a family passes that
 branch to `--family`.
 
-Feedback appends to `reviews/human-feedback.md`, including the rating, time, sample,
+Feedback appends to `docs/reviews/human-feedback.md`, including the rating, time, sample,
 source path, record ID (or index), and reproduction command. Notes are included
 only when provided, in literal Markdown code blocks for later AI review.
 Feedback survives restarts;
@@ -135,7 +135,7 @@ and transforming them with reproducible importers; spot-check the emitted text.
 Generators print the artifact directly: a puzzle, score, circuit, trace, or
 mathematical construction. Formatting and structure vary alongside the values.
 
-See [the content audit](docs/content-audit.md) for the weighting rationale,
+See [the content audit](docs/archive/content-audit.md) for the weighting rationale,
 corrected issues, and remaining coverage limitations.
 
 See [family rules and sourcing workflow](families/AGENTS.md) to extend the dataset and

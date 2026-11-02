@@ -26,7 +26,7 @@ class ReviewTests(unittest.TestCase):
                                        "provenance": "A source"}]), encoding="utf-8")
         binary = self.root / "inspire"
         binary.write_bytes(b"test binary")
-        self.feedback = self.root / "reviews" / "feedback.md"
+        self.feedback = self.root / "docs" / "reviews" / "feedback.md"
         self.sample_data = {"path": "demo/leaf", "kind": "record", "record_index": 0,
                             "text": "Unicode α\n```\n# sample"}
         self.invoke_patch = patch.object(Review, "invoke", side_effect=self.invoke_fixture)
@@ -141,6 +141,14 @@ class ReviewTests(unittest.TestCase):
         self.addCleanup(server.server_close)
         self.addCleanup(server.shutdown)
         base = f"http://127.0.0.1:{server.server_port}"
+        for path, content_type, marker in (
+            ("/", "text/html", b"<html"),
+            ("/review.js", "text/javascript", b"/api/"),
+            ("/review.css", "text/css", b"{"),
+        ):
+            with urlopen(base + path) as response:
+                self.assertEqual(response.headers.get_content_type(), content_type)
+                self.assertIn(marker, response.read())
         with urlopen(base + "/api/sample") as response:
             sample = json.load(response)
         body = json.dumps({"id": sample["id"], "rating": "JANK", "notes": "HTTP note"}).encode()

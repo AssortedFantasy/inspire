@@ -122,13 +122,11 @@ CLI draws and their exact reproduction seeds alongside the per-leaf samples.
 Use both views: leaf review finds local problems, while weighted draws reveal
 what ordinary use repeatedly exposes.
 
-`scripts/check_reviews.py` compares each family's `review_manifest.json` with
-its current leaves. It rejects missing or stale paths, repeated leaf reviewers,
-unfinished statuses, and entries without review notes. `--family PATH` can
-check a completed branch while other reviews are still underway. The ledger
-records historical editorial work; it is optional for routine content maintenance.
-Focused edits use representative output inspection and checks at integration
-points rather than a separate reviewer and test run for every leaf.
+Historical agent review ledgers and their checker live under `docs/archive/`.
+Current maintenance uses representative output inspection and checks at
+integration points. The human review tool in `scripts/review_dashboard.py`
+serves assets from `scripts/review-dashboard/` and appends feedback to
+`docs/reviews/human-feedback.md` by default.
 
 Chess opening integration tests use the `shakmaty` development dependency for
 complete legal, canonical SAN move histories. This dependency is confined to
@@ -137,7 +135,7 @@ tests and does not enter the release executable.
 ## Dashboard
 
 `--dashboard [--port INTEGER]` starts a loopback HTTP server in
-`src/dashboard.rs`. Its HTML, CSS, and JavaScript under `dashboard/` are embedded
+`src/dashboard.rs`. Its HTML, CSS, and JavaScript under `src/dashboard/` are embedded
 with `include_str!`; there is no separate build or runtime dependency. The server
 prints its URL, accepts GET requests at that loopback address, and closes each
 connection after a response. Requests have bounded headers and socket timeouts.

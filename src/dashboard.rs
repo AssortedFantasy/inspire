@@ -144,15 +144,15 @@ fn route(target: &str) -> Response {
     let (content_type, body) = match path {
         "/" => (
             "text/html; charset=utf-8",
-            include_str!("../dashboard/index.html"),
+            include_str!("dashboard/index.html"),
         ),
         "/dashboard.css" => (
             "text/css; charset=utf-8",
-            include_str!("../dashboard/dashboard.css"),
+            include_str!("dashboard/dashboard.css"),
         ),
         "/dashboard.js" => (
             "text/javascript; charset=utf-8",
-            include_str!("../dashboard/dashboard.js"),
+            include_str!("dashboard/dashboard.js"),
         ),
         "/api/tree" => return Response::json(Ok(node_json(0, String::new(), 1.0))),
         "/api/outputs" => return Response::json(output_query(query)),

@@ -14,7 +14,6 @@ universal species properties. Each leaf documents its selection, exact inputs,
 replay procedure, and source limitations. Full GBIF CC BY 4.0 and AnimalTraits
 CC0 notices are in [the animal branch](../../LICENSE.txt).
 
-Both actual leaf agents reviewed their outputs, verified byte-identical offline
-replay, and checked rejection of corrupted input before payload changes.
-`review_manifest.json` records their coverage and substantive checks. Local
-weights equal descendant counts: 66, 59, and branch weight 125.
+Offline replay reproduces the payloads byte-for-byte and rejects corrupted
+inputs before changing outputs. Local weights equal descendant counts:
+66, 59, and branch weight 125.

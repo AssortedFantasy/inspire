@@ -1,7 +1,7 @@
 # Adding and maintaining the family tree
 
 Add or move directories under `families/` and rebuild to change the sampling tree.
-See [reviews/human-feedback.md](../reviews/human-feedback.md) for concrete review notes.
+See [human feedback](../docs/reviews/human-feedback.md) for concrete review notes.
 
 ## Output quality (no AI slop)
 
