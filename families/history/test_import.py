@@ -1,11 +1,19 @@
 """Source replay and corruption rejection for history."""
 
 import json
+import importlib.util
 from pathlib import Path
 import tempfile
 import unittest
 
 from import_data import ROOT, Paragraphs, render
+
+
+def branch_importer(branch):
+    spec = importlib.util.spec_from_file_location(branch.replace("-", "_"), ROOT / branch / "import_data.py")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 class SourceTests(unittest.TestCase):
@@ -26,6 +34,10 @@ class SourceTests(unittest.TestCase):
 
     def test_all_records_replay(self):
         outputs = render(Path("target/imports/history"))
+        voices = branch_importer("everyday-voices").render(Path("target/imports/everyday-voices"))
+        outputs.update({"everyday-voices/" + leaf: rows for leaf, rows in voices.items()})
+        work = branch_importer("work-observations").render(Path("target/imports/work-observations"))
+        outputs["work-observations/apollo-12"] = json.loads(work)
         for leaf, expected in outputs.items():
             actual = json.loads((ROOT / leaf / "records.json").read_text(encoding="utf-8"))
             self.assertEqual(actual, expected, leaf)

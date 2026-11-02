@@ -2,9 +2,13 @@
 
 Eleven public-domain primary texts supply 1,088 excerpts. Eleven additional
 records contain museum catalog and material facts. The family has 1,099 records
-in 45 leaves.
+in 45 leaves. Two independently imported collections add 42 everyday passages
+from Sancho, Austen and Dorothy Wordsworth, and 30 Apollo 12 work exchanges.
+The family now contains 1,171 records in 49 leaves.
 
-Broader sources retain their established shares. Topic leaves within one text
+The five established branches retain their relative shares with weight 4 each.
+`everyday-voices` and `work-observations` each have weight 1, receiving 1/22 of
+history draws. Topic leaves within one text
 are weighted by record count so tiny chapters do not repeat disproportionately.
 
 The sources cover Babylonian law, Faxian's pilgrimage, Polo's travels, Morse's
@@ -44,3 +48,10 @@ A changed upstream download fails its checksum rather than silently changing
 the corpus. `LICENSE.txt` preserves the full Project Gutenberg redistribution
 notice. Required historical credit is also present in every sampled excerpt;
 runtime needs only the executable.
+
+[Everyday voices](everyday-voices/README.md) and
+[work observations](work-observations/README.md) have separate pinned importers,
+manifests and licenses. Their outputs participate in the family-wide replay and
+duplicate checks. The Apollo importer needs `pymupdf==1.28.2` for reproducible PDF
+text extraction. Source text, speaker turns and scan-checked OCR corrections
+remain distinguishable in provenance.

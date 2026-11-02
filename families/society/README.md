@@ -1,10 +1,13 @@
 # Society
 
-Seven procedural leaves emit computed social-choice and market objects. The
-family has local weight 2. Within it, elections, matching and game theory each
-receive 20% of samples; the four newer leaves each receive 10%. The economics
-and voting branches have weights 7 and 3, and the three established leaves
-have weight 2. Other nodes use weight 1.
+Seven procedural leaves emit computed social-choice and market objects, and
+three corpus leaves contain 46 historical institutional clauses and court
+entries. The family has local weight 2. Economics, voting and institutions
+have sibling weights 7, 3 and 2. Elections, matching and game theory each
+receive one sixth of society draws; the four newer generators each receive
+one twelfth. Institutions receive the remaining one sixth, with corpus leaf
+weights proportional to record counts. The three established generator leaves
+have weight 2; other generator nodes use weight 1.
 
 - `voting/elections`: complete strict rankings over three or four candidates.
   Equal shares of decisive consensus, three-way majority cycles, center squeeze,
@@ -51,8 +54,13 @@ have weight 2. Other nodes use weight 1.
   equal populations and integral quotas. Alabama cases show both house sizes.
   Exact integer priorities decide seats, with an explicit label tie rule.
   [Model and sources](voting/apportionment/README.md).
+- `institutions`: complete selected clauses and court entries concerning
+  commons, borough property, mutual aid, work, inspection and everyday disputes.
+  Sources include London tawyers, Bristol dyers, Bradford court rolls,
+  Wimeswould common fields, Tewkesbury's charter and Leicester grievances.
+  [Collection, sources and reproduction](institutions/README.md).
 
-These are small synthetic models, not forecasts or historical observations.
+The procedural outputs are small synthetic models, not forecasts or historical observations.
 Matching omits ties, unacceptable partners, quotas and transfers. Elections
 omit truncated ballots and strategic behavior. Game payoffs are utility units;
 the equilibrium solver is specialized to these nondegenerate constructions.
@@ -76,5 +84,6 @@ Sources for the algorithms and model conventions:
 - [Daskalakis and Farina, *Setting and equilibria: the Nash equilibrium*, MIT 6.7980](https://www.mit.edu/~6.7980/nfgs_nash.html).
 - [MIT 14.126 game-theory slides (2016), stag hunt and risk dominance](https://ocw.mit.edu/courses/14-126-game-theory-spring-2016/bba04a523a1daeeeffee6c9f2377af17_MIT14_126S16_gametheory.pdf).
 
-No source text or implementation is embedded. All instances and code are
-original constructions.
+The algorithm references supply no embedded text or implementation; procedural
+instances and code are original constructions. The institutional corpus embeds
+public-domain primary text with source and edition attribution.

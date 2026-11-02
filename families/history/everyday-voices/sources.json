@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sancho",
+    "url": "https://www.gutenberg.org/cache/epub/66908/pg66908-images.html",
+    "catalogue": "https://www.gutenberg.org/ebooks/66908",
+    "sha256": "9719fc50a7363a39848464b3295d6cd346c19783a30296fa60ad525fa3e63b94",
+    "encoding": "utf-8-sig",
+    "credit": "Ignatius Sancho, Letters",
+    "citation": "Ignatius Sancho, Letters of the Late Ignatius Sancho, an African (J. Nichols, 1784)",
+    "rights": "Public domain in the USA (Project Gutenberg catalogue)."
+  },
+  {
+    "id": "austen",
+    "url": "https://www.gutenberg.org/cache/epub/42078/pg42078-images.html",
+    "catalogue": "https://www.gutenberg.org/ebooks/42078",
+    "sha256": "074581877e87d44328384676edd62fbc6ccc0f545c2bc1a053b18d86ac734da9",
+    "encoding": "utf-8-sig",
+    "credit": "Jane Austen, Letters",
+    "citation": "Jane Austen, The Letters of Jane Austen, selected by Sarah Chauncey Woolsey (Little, Brown, 1908)",
+    "rights": "Public domain in the USA (Project Gutenberg catalogue)."
+  },
+  {
+    "id": "wordsworth",
+    "url": "https://www.gutenberg.org/cache/epub/42856/pg42856-images.html",
+    "catalogue": "https://www.gutenberg.org/ebooks/42856",
+    "sha256": "ecc63ed4c4af811cd7c47bb8064741abcda7f33a8f88bf2a46a3ecb8167aba38",
+    "encoding": "utf-8-sig",
+    "credit": "Dorothy Wordsworth, Journals, vol. I",
+    "citation": "Dorothy Wordsworth, Journals, vol. I, edited by William Knight (Macmillan, 1897)",
+    "rights": "Public domain in the USA (Project Gutenberg catalogue)."
+  }
+]

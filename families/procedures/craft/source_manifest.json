@@ -1,0 +1,330 @@
+{
+  "snapshot_date": "2026-11-02",
+  "parser": "beautifulsoup4==4.12.3",
+  "sources": {
+    "cockerell": {
+      "file": "cockerell.html",
+      "url": "https://www.gutenberg.org/cache/epub/26672/pg26672-images.html",
+      "sha256": "d0ecc0c9bff37ea264a561b2cfabce5a9d03e454ad5dd623533e4a7ef5230455",
+      "credit": "Douglas Cockerell, Bookbinding, and the Care of Books (1910; copyright 1901).",
+      "catalogue": "https://www.gutenberg.org/ebooks/26672"
+    },
+    "white": {
+      "file": "white.html",
+      "url": "https://www.gutenberg.org/cache/epub/64281/pg64281-images.html",
+      "sha256": "4fa5cb0bb6a8a16ff3b4fc0e590e9dfda762026d9845f75ae84c3a89dfccf091",
+      "credit": "Mary White, How to Make Pottery (1904).",
+      "catalogue": "https://www.gutenberg.org/ebooks/64281"
+    }
+  },
+  "selections": [
+    {
+      "source": "cockerell",
+      "path": "bookbinding/paper-repair",
+      "id": "guard-torn-fold",
+      "start": "To mend the torn back of a pair of leaves, a guard should be selected a little longer than the heigh",
+      "paragraphs": 2
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/paper-repair",
+      "id": "pare-paper",
+      "start": "For paring the edge of paper for mending or guarding, take a very sharp knife, and holding the blade",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/paper-repair",
+      "id": "soak-off-proof",
+      "start": "Place a piece of well-sized paper in a pan of warm water, then lay the mounted India proof, face dow",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/paper-repair",
+      "id": "mount-thin-paper",
+      "start": "Very thin paper, such as that of some “India” proofs, may be safely mounted as follows:—The mount, r",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/paper-repair",
+      "id": "split-paper",
+      "start": "It is sometimes desirable to split pieces of paper when the matter on one side only is needed, or wh",
+      "paragraphs": 2
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/paper-repair",
+      "id": "inlay-leaf",
+      "start": "When a small plate or leaf has to be inserted into a larger book, it is best to “inlay it”; that is ",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/paper-repair",
+      "id": "replace-corner",
+      "start": "For mending torn sheets of an old book, some paper that matches as nearly as possible must be found.",
+      "paragraphs": 2
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/paper-repair",
+      "id": "mend-tear",
+      "start": "In the case of a tear across the page, if there are any overlapping edges, they may merely be pasted",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/paper-repair",
+      "id": "fill-worm-holes",
+      "start": "Sometimes it is thought necessary to fill up worm-holes in the paper. This may be done by boiling do",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/construction",
+      "id": "collate-pages",
+      "start": "To collate a modern book the paging must be examined to see that the leaves are in order, and that n",
+      "paragraphs": 2
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/construction",
+      "id": "knock-out-joints",
+      "start": "The old “joints” must be knocked out of the sections of books that have been previously backed. To d",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/construction",
+      "id": "press-sections",
+      "start": "While the end papers are being made, the sections of the book should be pressed. To do this a pressi",
+      "paragraphs": 2
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/construction",
+      "id": "sew-on-tapes",
+      "start": "Books that are very thin or are to be bound in vellum, are best sewn on tapes or vellum slips. The e",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/construction",
+      "id": "fray-slips",
+      "start": "The ends of the cords should next be cut off to within about two inches of the book on each side, an",
+      "paragraphs": 2
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/construction",
+      "id": "glue-back",
+      "start": "The book is now ready for glueing up. A piece of waste mill-board or an old cloth cover is put on ea",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/construction",
+      "id": "round-back",
+      "start": "The amount of rounding on the back of a book should be determined by the necessities of the case; th",
+      "paragraphs": 2
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/construction",
+      "id": "make-boards",
+      "start": "For large books a “made” board, that is, two boards pasted together, is better than a single board o",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/construction",
+      "id": "line-head-and-tail",
+      "start": "After the headband is worked, a piece of brown or other stout paper should be well glued on at the h",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/construction",
+      "id": "scrapbook-spacing",
+      "start": "Scrap-books, into which autograph letters, sketches, or other papers can be pasted, may be made as f",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/construction",
+      "id": "make-hollow-back",
+      "start": "To make a hollow back, a piece of stout paper is taken which measures once the length of the back an",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/finishing",
+      "id": "colour-edges",
+      "start": "If the edges are to be coloured, they should be slightly scraped, and the colour put on with a spong",
+      "paragraphs": 3
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/finishing",
+      "id": "crush-leather-grain",
+      "start": "If the grain of the leather is to be “crushed,” it may be done at this stage. To do this, one board ",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/finishing",
+      "id": "dry-covered-book",
+      "start": "A book that has been covered should be left under a light weight until the next day, with waterproof",
+      "paragraphs": 1,
+      "stop": " A section of a good joint is shown"
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/finishing",
+      "id": "line-vellum",
+      "start": "When the book is ready for covering, the vellum should be cut out and lined with paper. In lining ve",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/finishing",
+      "id": "repair-double-impression",
+      "start": "To mend double or burnt impressions the leather should be wetted and left to soak a short time, and ",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/finishing",
+      "id": "lift-misplaced-impression",
+      "start": "If a tool is put down in the wrong place by mistake, it is difficult to get the impression out entir",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/finishing",
+      "id": "close-springing-boards",
+      "start": "If, on removing from the press, the boards will not keep shut, the book should be pressed again with",
+      "paragraphs": 1
+    },
+    {
+      "source": "cockerell",
+      "path": "bookbinding/finishing",
+      "id": "leather-inlays",
+      "start": "Inlaying or onlaying is adding a different leather from that of the cover, as decoration. Thus on a ",
+      "paragraphs": 1,
+      "begin": "For inlaying a panel or other large surface"
+    },
+    {
+      "source": "white",
+      "path": "pottery/preparation-and-repair",
+      "id": "knead-clay",
+      "start": "When ready to begin work, take a good-sized lump of clay, say about ten pounds; pound and knead it u",
+      "paragraphs": 1
+    },
+    {
+      "source": "white",
+      "path": "pottery/preparation-and-repair",
+      "id": "mend-green-clay",
+      "start": "To mend a crack in clay that is only partially dry, put a little slip into the crack and then work i",
+      "paragraphs": 1
+    },
+    {
+      "source": "white",
+      "path": "pottery/preparation-and-repair",
+      "id": "mend-bone-dry-clay",
+      "start": "In case of the piece cracking when it is bone dry—that is, after it has dried for several days and i",
+      "paragraphs": 1
+    },
+    {
+      "source": "white",
+      "path": "pottery/shaping-and-finishing",
+      "id": "true-rim-and-cut-foot",
+      "start": "The edge of the jar is cut as even as possible with a tool, and then made perfectly true by the foll",
+      "paragraphs": 1
+    },
+    {
+      "source": "white",
+      "path": "pottery/shaping-and-finishing",
+      "id": "mount-wheel-clay",
+      "start": "In beginning your piece, a lump of clay, say about two pounds, well worked, is made into a ball. Wet",
+      "paragraphs": 1
+    },
+    {
+      "source": "white",
+      "path": "pottery/shaping-and-finishing",
+      "id": "hollow-centred-clay",
+      "start": "The thumbs, held close together above the clay, are aimed at the exact centre of it, and their ends ",
+      "paragraphs": 1
+    },
+    {
+      "source": "white",
+      "path": "pottery/shaping-and-finishing",
+      "id": "soften-wheel-rim",
+      "start": "To soften the edge, hold the forefinger and middle finger of the right hand apart (see Fig. 16 ). We",
+      "paragraphs": 1
+    },
+    {
+      "source": "white",
+      "path": "pottery/shaping-and-finishing",
+      "id": "undercut-base",
+      "start": "The hoe-shaped tool is used for cutting away the extra clay under the bottom. Set the wheel in motio",
+      "paragraphs": 2
+    },
+    {
+      "source": "white",
+      "path": "pottery/shaping-and-finishing",
+      "id": "smooth-wheel-form",
+      "start": "After an hour or two, when the piece has stiffened somewhat, it may be smoothed, and the form refine",
+      "paragraphs": 1
+    },
+    {
+      "source": "white",
+      "path": "pottery/shaping-and-finishing",
+      "id": "centre-and-finish-foot",
+      "start": "The next day, or as soon as the piece is stiff, it is removed to a plaster tile. In finishing the bo",
+      "paragraphs": 2
+    },
+    {
+      "source": "white",
+      "path": "pottery/shaping-and-finishing",
+      "id": "pack-for-kiln",
+      "start": "In packing to send pieces to a far-off kiln by express, use a wooden box, and, after lining it with ",
+      "paragraphs": 1
+    },
+    {
+      "source": "white",
+      "path": "pottery/decoration",
+      "id": "incise-maple-seeds",
+      "start": "Suppose we choose for this a winged maple-seed, the simple outlines of which any one can draw. From ",
+      "paragraphs": 3
+    },
+    {
+      "source": "white",
+      "path": "pottery/decoration",
+      "id": "cut-low-relief",
+      "start": "A decoration that is left in low relief by cutting away the background is admirable for some pieces.",
+      "paragraphs": 1,
+      "omit": [
+        "The moth design on the rose-bowl in Chapter VI. is made in this way. "
+      ]
+    },
+    {
+      "source": "white",
+      "path": "pottery/decoration",
+      "id": "pierce-decoration",
+      "start": "In planning a pierced decoration for the top of a piece, take care not to start it too close to the ",
+      "paragraphs": 3,
+      "stop": " Decorations in high relief are made as follows:"
+    },
+    {
+      "source": "white",
+      "path": "pottery/decoration",
+      "id": "apply-high-relief",
+      "start": "When the whole design has been pierced, moisten the finger with water and soften the edges of the de",
+      "paragraphs": 1,
+      "begin": "Decorations in high relief are made as follows:"
+    }
+  ]
+}

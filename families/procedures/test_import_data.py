@@ -7,6 +7,13 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 import import_data
+from craft import import_craft
+
+
+def all_corpora():
+    original = import_data.imported(Path("target/imports/procedures"))
+    additional = import_craft.imported(Path("target/imports/craft"))
+    return {**original, **{"craft/" + path: rows for path, rows in additional.items()}}
 
 
 class ImportTests(unittest.TestCase):
@@ -19,7 +26,7 @@ class ImportTests(unittest.TestCase):
         cache = Path("target/imports/procedures")
         for name in import_data.SOURCES:
             import_data.source(cache, name)
-        expected = import_data.imported(cache)
+        expected = all_corpora()
         corpus_paths = {p.parent.relative_to(import_data.ROOT).as_posix() for p in import_data.ROOT.rglob("records.json")}
         self.assertEqual(corpus_paths, set(expected))
         records = []
@@ -66,7 +73,7 @@ class ImportTests(unittest.TestCase):
             self.assertIn("Verbatim public-domain", row["provenance"])
 
     def test_record_weights_are_uniform_within_each_corpus_topic(self):
-        output = import_data.imported(Path("target/imports/procedures"))
+        output = all_corpora()
         weights = import_data.corpus_weights(output)
         self.assertTrue(all(not path.startswith("algorithms/") for path in weights))
         for path, weight in weights.items():

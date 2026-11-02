@@ -1,0 +1,422 @@
+[
+  {
+    "id": "sancho-joe-delivers-letter",
+    "source": "sancho",
+    "paragraph": 69,
+    "paragraph_end": 70,
+    "start": 0,
+    "end": 523,
+    "locator": "letter I, to Mr. J— W——e, 14 February 1768",
+    "text_sha256": "680e6669288cedafeaa6e5d724984112718997d05a43fc48b5a2ba899e13ebb2"
+  },
+  {
+    "id": "sancho-clothes-request",
+    "source": "sancho",
+    "paragraph": 85,
+    "paragraph_end": 87,
+    "start": 0,
+    "end": 1077,
+    "locator": "letter III, to Mr. M——, 17 September 1768",
+    "text_sha256": "77251ffde4ce571aa5969fef228be44bac19c451a5976a4da070b70da7b0c1f3"
+  },
+  {
+    "id": "sancho-autumn-invitation",
+    "source": "sancho",
+    "paragraph": 100,
+    "paragraph_end": 102,
+    "start": 0,
+    "end": 1158,
+    "locator": "letter VI, to Mrs. F——, 20 October 1769",
+    "text_sha256": "6aa7c9d54658e1056b0ee7bceaf8371771ca806f26419a6fecf66de0aa6fa9b3"
+  },
+  {
+    "id": "sancho-postage-potatoes",
+    "source": "sancho",
+    "paragraph": 151,
+    "paragraph_end": 153,
+    "start": 0,
+    "end": 610,
+    "locator": "letter XIV, to Mr. S——e, 11 October 1772",
+    "text_sha256": "f70e1a75493e86f5a7b238210a900ee1134c9e579e3af90ecc7b46272d7e30b3"
+  },
+  {
+    "id": "sancho-missing-wife",
+    "source": "sancho",
+    "paragraph": 156,
+    "paragraph_end": 157,
+    "start": 1224,
+    "end": 1398,
+    "locator": "letter XV, to Mr. M——, 8 November 1772",
+    "text_sha256": "116b770068f470812e05fff50a8f3876348e1eb16bdcd487e9ce8827999616ce"
+  },
+  {
+    "id": "sancho-birth-announcement",
+    "source": "sancho",
+    "paragraph": 269,
+    "paragraph_end": 271,
+    "start": 0,
+    "end": 716,
+    "locator": "letter XXXII, to Mr. L——, 20 October 1774 (date as printed)",
+    "text_sha256": "88bccbdcb75b404027468d2bf8cd2b8070b948b9d7d98c34fc492993598296e7"
+  },
+  {
+    "id": "sancho-newspapers-request",
+    "source": "sancho",
+    "paragraph": 315,
+    "paragraph_end": 316,
+    "start": 0,
+    "end": 445,
+    "locator": "letter XL, to Mr. M——, 4 December 1776",
+    "text_sha256": "6b57a4ffeb95dee178f68a0aa6e31b0f54794a8696c7179f9a0431a95268a105"
+  },
+  {
+    "id": "sancho-shop-door-bell",
+    "source": "sancho",
+    "paragraph": 333,
+    "paragraph_end": 334,
+    "start": 0,
+    "end": 136,
+    "locator": "letter XLII, to Mr. M——, 9 February 1777",
+    "text_sha256": "1c48be3a3b7d8b8066aa7b2209aa8e06e3724010dd3ef09c008cb2d71586ea27"
+  },
+  {
+    "id": "sancho-tamarinds",
+    "source": "sancho",
+    "paragraph": 381,
+    "paragraph_end": 382,
+    "start": 0,
+    "end": 535,
+    "locator": "letter XLVIII, to Mr. M——, 25 August 1777",
+    "text_sha256": "ba9c5ff1d064afb137c0347ed7090833300bf1669df185fae681a66268862ae5"
+  },
+  {
+    "id": "sancho-first-play",
+    "source": "sancho",
+    "paragraph": 382,
+    "paragraph_end": 383,
+    "start": 0,
+    "end": 593,
+    "locator": "letter XLVIII, to Mr. M——, 25 August 1777",
+    "text_sha256": "e49a1a577fdd0018b84c1dce49daef9b6aca1bbafe6352307d53115cff4f6ae7"
+  },
+  {
+    "id": "sancho-wax-and-dates",
+    "source": "sancho",
+    "paragraph": 421,
+    "paragraph_end": 422,
+    "start": 0,
+    "end": 291,
+    "locator": "letter LIV, to Mr. S——, 24 October 1777",
+    "text_sha256": "f68ee3c006c96b7b1f55a0a0d9e7686dcecc79649f28a332737497f52868ae47"
+  },
+  {
+    "id": "sancho-unwanted-publicity",
+    "source": "sancho",
+    "paragraph": 497,
+    "paragraph_end": 498,
+    "start": 0,
+    "end": 520,
+    "locator": "letter LXIII, to Mr. R——",
+    "text_sha256": "ba5dbcf287fdc2b9e52267dfdbbadb8ac9aab302b420fb3651d16a578100e4a7"
+  },
+  {
+    "id": "sancho-declining-inspection",
+    "source": "sancho",
+    "paragraph": 993,
+    "paragraph_end": 994,
+    "start": 797,
+    "end": 1211,
+    "locator": "letter CXXVII, to Mr. S——, 11 January 1780",
+    "text_sha256": "803936c219e6fcb23ed8dcd0098eba985c665163d44d10098307fd33cfc764f1"
+  },
+  {
+    "id": "sancho-declining-lodging",
+    "source": "sancho",
+    "paragraph": 1173,
+    "paragraph_end": 1174,
+    "start": 0,
+    "end": 203,
+    "locator": "letter CXLVIII, to J—— S——, Esq., 23 September 1780",
+    "text_sha256": "3f3f3856f8b514c0f82637ec7c2613af7295f0d26c93cc1650bc61751eadd583"
+  },
+  {
+    "id": "austen-ball-report",
+    "source": "austen",
+    "paragraph": 49,
+    "paragraph_end": 50,
+    "start": 0,
+    "end": 712,
+    "locator": "letter III, to Cassandra",
+    "text_sha256": "b21a9e5bf533a310df0466746f2af1edb55d5e5c72038154df663fad3cb0d418"
+  },
+  {
+    "id": "austen-tip-advice",
+    "source": "austen",
+    "paragraph": 55,
+    "paragraph_end": 56,
+    "start": 0,
+    "end": 192,
+    "locator": "letter III, to Cassandra",
+    "text_sha256": "169754efb39b9774b476296d829679b2e54d70ba454c8ee0b794c769860d4208"
+  },
+  {
+    "id": "austen-gown-bargain",
+    "source": "austen",
+    "paragraph": 68,
+    "paragraph_end": 69,
+    "start": 0,
+    "end": 164,
+    "locator": "letter IV, to Cassandra",
+    "text_sha256": "66ad79cade7b9a490dce3d84c0df4925a82c99327ffe62ff03189e6476ca880b"
+  },
+  {
+    "id": "austen-stage-coach",
+    "source": "austen",
+    "paragraph": 69,
+    "paragraph_end": 70,
+    "start": 0,
+    "end": 414,
+    "locator": "letter IV, to Cassandra",
+    "text_sha256": "b4fac8ca08c62642f9e08777d051b300ae0e10c5346ccededfa126fc835ea08a"
+  },
+  {
+    "id": "austen-missing-writing-box",
+    "source": "austen",
+    "paragraph": 84,
+    "paragraph_end": 85,
+    "start": 0,
+    "end": 680,
+    "locator": "letter VI, to Cassandra",
+    "text_sha256": "0248ca834723eb2b0c59fa39b64c89f7a9e777b20d769b3396875ca56e34f02b"
+  },
+  {
+    "id": "austen-shopping-and-hat",
+    "source": "austen",
+    "paragraph": 93,
+    "paragraph_end": 94,
+    "start": 0,
+    "end": 631,
+    "locator": "letter VII, to Cassandra",
+    "text_sha256": "511205578ef66f16956ff3e0cb0f2a5bf78b95be37d8f3dcde1d5a32f2c90521"
+  },
+  {
+    "id": "austen-unpacked-gloves",
+    "source": "austen",
+    "paragraph": 95,
+    "paragraph_end": 96,
+    "start": 0,
+    "end": 243,
+    "locator": "letter VII, to Cassandra",
+    "text_sha256": "753bb8c073c3d8b520659acd4fc76e9be3fe29cf93e83d906bcaf0d31f0f659a"
+  },
+  {
+    "id": "austen-undictated-generosity",
+    "source": "austen",
+    "paragraph": 294,
+    "paragraph_end": 295,
+    "start": 0,
+    "end": 262,
+    "locator": "letter XIX, to Cassandra",
+    "text_sha256": "7d14769dad50776a720efc4d277597f1d9da3c69e5946752e6f3411fd33b6f81"
+  },
+  {
+    "id": "austen-lavender-water",
+    "source": "austen",
+    "paragraph": 301,
+    "paragraph_end": 302,
+    "start": 0,
+    "end": 381,
+    "locator": "letter XX, to Cassandra",
+    "text_sha256": "0560db1f4f9660a46323a010f9c35459816ab3f37a8c95360d59f70b60eccbe6"
+  },
+  {
+    "id": "austen-house-search",
+    "source": "austen",
+    "paragraph": 305,
+    "paragraph_end": 306,
+    "start": 0,
+    "end": 603,
+    "locator": "letter XX, to Cassandra",
+    "text_sha256": "065b0a546d102a5e97e123027b75c957ae292d3c9c54252d773292bb6ea53bdd"
+  },
+  {
+    "id": "austen-guests-depart",
+    "source": "austen",
+    "paragraph": 320,
+    "paragraph_end": 321,
+    "start": 0,
+    "end": 266,
+    "locator": "letter XXII, to Cassandra",
+    "text_sha256": "c3ed7569a6c95177d381d8d0b0ab5d5f2b08d375a96d9e5138dd1ba299bfec58"
+  },
+  {
+    "id": "austen-underdone-mutton",
+    "source": "austen",
+    "paragraph": 328,
+    "paragraph_end": 329,
+    "start": 0,
+    "end": 594,
+    "locator": "letter XXII, to Cassandra",
+    "text_sha256": "5b5abe1dd4ba292c7372909be245453c21f638ffb514d1277df8735a703756ab"
+  },
+  {
+    "id": "austen-household-accounts",
+    "source": "austen",
+    "paragraph": 335,
+    "paragraph_end": 336,
+    "start": 0,
+    "end": 410,
+    "locator": "letter XXII, to Cassandra",
+    "text_sha256": "39f1ed918194db813a6460a4fb0def2b7cd1617b4270599be51f97ffc617e164"
+  },
+  {
+    "id": "austen-missing-cook",
+    "source": "austen",
+    "paragraph": 336,
+    "paragraph_end": 337,
+    "start": 0,
+    "end": 655,
+    "locator": "letter XXII, to Cassandra",
+    "text_sha256": "53ed3d6beef48eb46529a2f22fb3b7328351dd6508cd4eb7592aa16e7504aea4"
+  },
+  {
+    "id": "wordsworth-winter-garden",
+    "source": "wordsworth",
+    "paragraph": 68,
+    "paragraph_end": 69,
+    "start": 0,
+    "end": 878,
+    "locator": "Alfoxden journal, 20 January 1798",
+    "text_sha256": "14a75db9ac62b48c0bf80521f46478a34f9e15b2683126a533d2dbe317519aa5"
+  },
+  {
+    "id": "wordsworth-ivy-and-hollies",
+    "source": "wordsworth",
+    "paragraph": 70,
+    "paragraph_end": 71,
+    "start": 0,
+    "end": 229,
+    "locator": "Alfoxden journal, 22 January 1798",
+    "text_sha256": "d7e23fd5955e27fae7d55add02a57a53d782bd4a3fdc134a6c652b9b0aeba912"
+  },
+  {
+    "id": "wordsworth-howling-dog",
+    "source": "wordsworth",
+    "paragraph": 75,
+    "paragraph_end": 76,
+    "start": 0,
+    "end": 641,
+    "locator": "Alfoxden journal, 27 January 1798",
+    "text_sha256": "21b509bcd34330f0ccb5ec635b3fbd3c87360086d7fb73ebccb0158160dbfb82"
+  },
+  {
+    "id": "wordsworth-moon-and-errands",
+    "source": "wordsworth",
+    "paragraph": 78,
+    "paragraph_end": 79,
+    "start": 0,
+    "end": 342,
+    "locator": "Alfoxden journal, 30 January 1798",
+    "text_sha256": "156e20534d630bd31538c4fc579d8f9d2d957109be6adfdfd40b9be1de75b409"
+  },
+  {
+    "id": "wordsworth-spiders-threads",
+    "source": "wordsworth",
+    "paragraph": 87,
+    "paragraph_end": 88,
+    "start": 0,
+    "end": 556,
+    "locator": "Alfoxden journal, 8 February 1798",
+    "text_sha256": "cee4500264983ae775ca06ef3435e9e541daf56ab111a70dc8cd82e537c0075a"
+  },
+  {
+    "id": "wordsworth-eggs-and-firewood",
+    "source": "wordsworth",
+    "paragraph": 95,
+    "paragraph_end": 96,
+    "start": 0,
+    "end": 204,
+    "locator": "Alfoxden journal, 16 February 1798",
+    "text_sha256": "cebcf2674be12ba325ad81fd12e473721a478141b9e3111b017336b24af5be7c"
+  },
+  {
+    "id": "wordsworth-razor-grinder",
+    "source": "wordsworth",
+    "paragraph": 102,
+    "paragraph_end": 103,
+    "start": 0,
+    "end": 357,
+    "locator": "Alfoxden journal, 22 February 1798",
+    "text_sha256": "45539118b954512a4c955b13032c49c7fb5dd92020196f4b2c0837b6682b57fc"
+  },
+  {
+    "id": "wordsworth-birds-in-mist",
+    "source": "wordsworth",
+    "paragraph": 109,
+    "paragraph_end": 110,
+    "start": 0,
+    "end": 398,
+    "locator": "Alfoxden journal, 1 March 1798",
+    "text_sha256": "57019045ea979b1e5b3d134d088a1658a144345512b4e049f57d13d402ea16fc"
+  },
+  {
+    "id": "wordsworth-last-leaf",
+    "source": "wordsworth",
+    "paragraph": 115,
+    "paragraph_end": 116,
+    "start": 0,
+    "end": 245,
+    "locator": "Alfoxden journal, 7 March 1798",
+    "text_sha256": "1d32269c83705cadfb7f27bf990444fad8bf13c716672d8a56c4b80c24ca1c78"
+  },
+  {
+    "id": "wordsworth-sunday-blacksmith",
+    "source": "wordsworth",
+    "paragraph": 119,
+    "paragraph_end": 120,
+    "start": 0,
+    "end": 228,
+    "locator": "Alfoxden journal, 11 March 1798",
+    "text_sha256": "02db62b5ff103e6c4eb12ebfe33807d476550e53e87cb86a8c5a16c4cd101f98"
+  },
+  {
+    "id": "wordsworth-peas-and-papers",
+    "source": "wordsworth",
+    "paragraph": 226,
+    "paragraph_end": 227,
+    "start": 0,
+    "end": 547,
+    "locator": "Grasmere journal, 10 June 1800",
+    "text_sha256": "bf879e9949fc0866887f10e081b52759065d71fad756cb2e5aaa97b3e00f0df3"
+  },
+  {
+    "id": "wordsworth-linen-peas-and-sewing",
+    "source": "wordsworth",
+    "paragraph": 255,
+    "paragraph_end": 256,
+    "start": 0,
+    "end": 309,
+    "locator": "Grasmere journal, 5 August 1800",
+    "text_sha256": "33e9345cba5629527c58952bebdb1b63a0ba69d483aac5556ba465bff51c93c9"
+  },
+  {
+    "id": "wordsworth-bread-and-cake",
+    "source": "wordsworth",
+    "paragraph": 356,
+    "paragraph_end": 357,
+    "start": 0,
+    "end": 292,
+    "locator": "Grasmere journal, Friday after 3 December 1800",
+    "text_sha256": "765ea1b31875ebd89dc897ed4429e3c46f161f0d46072d57ae2b67c2e88db028"
+  },
+  {
+    "id": "wordsworth-storm-and-visitors",
+    "source": "wordsworth",
+    "paragraph": 390,
+    "paragraph_end": 391,
+    "start": 0,
+    "end": 654,
+    "locator": "Grasmere journal, 25 November 1801",
+    "text_sha256": "05645fcabac6f002ec29f7612b6953b3daa5b1fbcdbf1e78e7575f4afe4b4b7a"
+  }
+]

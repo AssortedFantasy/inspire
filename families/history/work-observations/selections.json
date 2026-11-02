@@ -1,0 +1,1211 @@
+[
+  {
+    "id": "apollo12-window-water",
+    "page": 26,
+    "mission_time": "003:13:41",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "start": 233,
+        "end": 290,
+        "sha256": "483654f3fd90eab29dbe768d75d73f3922f3a5bd2c866a4709def8141edfa5c7",
+        "corrections": []
+      },
+      {
+        "speaker": "Conrad",
+        "start": 307,
+        "end": 448,
+        "sha256": "1e2c36842c9603a31d509ec1990475c06dbf1e7d7382875a877c4533529289aa",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 464,
+        "end": 479,
+        "sha256": "ca151543b08eae5b9cef92e9006ba4b7d1cc749184722f5fcf10f205a703f8e6",
+        "corrections": []
+      },
+      {
+        "speaker": "Conrad",
+        "start": 496,
+        "end": 564,
+        "sha256": "bf6f09852c870f1f3ae7091be158ae4b922f0ad9ee1515783baff979f3c2ceda",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-camera-aperture",
+    "page": 28,
+    "mission_time": "003:29:27",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "start": 340,
+        "end": 443,
+        "sha256": "607a18c91c8c43b27583e52013315e5145ac01d1bc011bb6482dc21319c59ffa",
+        "corrections": [
+          [
+            "f:ll",
+            "f:11"
+          ]
+        ]
+      },
+      {
+        "speaker": "Bean",
+        "start": 460,
+        "end": 493,
+        "sha256": "a6d4d262d5d1af50b5d1904745c6002aec03039b1af52abb3adc42e8ff46ef05",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 509,
+        "end": 515,
+        "sha256": "728aa724653c7d322f25ee29ba987c6ca23277cfdb92b55a0ea81ad2d8f1bb0e",
+        "corrections": []
+      },
+      {
+        "speaker": "Bean",
+        "start": 533,
+        "end": 564,
+        "sha256": "5f85854970c67e6993783ed06a61c53215d1441de828576b4de78735f86b0586",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 580,
+        "end": 662,
+        "sha256": "64f662da9de00930f5710b14839212cf0035afa1819ec91e70a6171b95ac52e0",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-vox-adjustment",
+    "page": 32,
+    "mission_time": "003:51:51",
+    "turns": [
+      {
+        "speaker": "Conrad",
+        "start": 123,
+        "end": 160,
+        "sha256": "46c9d203680c48a294d1605d9a507e8d22f18574ae02e928d01402a33dc4909f",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 176,
+        "end": 229,
+        "sha256": "14e64663beb788cc3cc9aa8796b70d19b835b298469c7d16b7921c072b3a83bc",
+        "corrections": []
+      },
+      {
+        "speaker": "Conrad",
+        "start": 246,
+        "end": 266,
+        "sha256": "13a2a97c7425873aafeeb8c20df85ffa7086140ed4ae23789dac5528fdf04da9",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 282,
+        "end": 319,
+        "sha256": "117c2372065459d99c2c0c534d951b2004eb079d1201a6b171abdcd26d9f0a6e",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-docking-handle",
+    "page": 32,
+    "mission_time": "003:52:23",
+    "turns": [
+      {
+        "speaker": "Conrad",
+        "start": 800,
+        "end": 931,
+        "sha256": "c9b660bfb7c19a4858b421fad69c305bd3551ac9a287b4c39c4e4381c1210836",
+        "corrections": []
+      },
+      {
+        "speaker": "Bean",
+        "start": 948,
+        "end": 974,
+        "sha256": "08e7c2e59ad890910d7e31a11be76da15fb3f44892da0448734b967f54ffd631",
+        "corrections": []
+      },
+      {
+        "speaker": "Conrad",
+        "start": 991,
+        "end": 1012,
+        "sha256": "bb165c336e2764c0436e8ee73a82372adaaac0d7b4d5eea7f782fd195431a1b7",
+        "corrections": []
+      },
+      {
+        "speaker": "Bean",
+        "start": 1029,
+        "end": 1039,
+        "sha256": "16fcce77b7d160a55173d529c80d3344a0ba399161ca7035a41547db87aceab3",
+        "corrections": []
+      },
+      {
+        "speaker": "Conrad",
+        "start": 1056,
+        "end": 1061,
+        "sha256": "03b25bed61dad2fc92bb7ca539a0f5abb89e97a767e3ca68789d47009f9fa5c3",
+        "corrections": []
+      },
+      {
+        "speaker": "Bean",
+        "start": 1078,
+        "end": 1119,
+        "sha256": "35264a6c3c74e4999cb53bc4567ac01d01593d758efed4599c90cadb2352a49b",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-timer-crosscheck",
+    "page": 48,
+    "mission_time": "004:37:54",
+    "turns": [
+      {
+        "speaker": "Gordon",
+        "start": 784,
+        "end": 941,
+        "sha256": "ef5cacf92266b481f615357ef264c77eb03023e92ee879976bade9f82e9176d6",
+        "corrections": [
+          [
+            "nuission",
+            "mission"
+          ]
+        ]
+      },
+      {
+        "speaker": "Houston",
+        "start": 955,
+        "end": 967,
+        "sha256": "7040fda87c5dcaaa7ed6fea85c965189b1a0cfbf6b2620d699f1550906dd6fac",
+        "corrections": []
+      },
+      {
+        "speaker": "Gordon",
+        "start": 984,
+        "end": 1163,
+        "sha256": "23f87dea5ef98afb9d1109e4b9b2981422aace6d40a0695e8462b73c35a49892",
+        "corrections": [
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Houston",
+        "start": 1179,
+        "end": 1432,
+        "sha256": "c6624bc9a2623ee072e50f49cf0ab0bd35a9b09e2fd7fc4c0f28eec72b3382b1",
+        "corrections": [
+          [
+            "dowla",
+            "down"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apollo12-sandwiches",
+    "page": 51,
+    "mission_time": "004:59:00",
+    "turns": [
+      {
+        "speaker": "Bean",
+        "start": 60,
+        "end": 152,
+        "sha256": "1dce8e1cad691219c455b17dd85500c1f6f83b51122760c8a27cbf2444a30177",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 167,
+        "end": 173,
+        "sha256": "728aa724653c7d322f25ee29ba987c6ca23277cfdb92b55a0ea81ad2d8f1bb0e",
+        "corrections": []
+      },
+      {
+        "speaker": "Bean",
+        "start": 190,
+        "end": 218,
+        "sha256": "d02d8c23ba0d0cac40268c87cc3a29ce0699371d9a8257889e55c46d06a56da5",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 234,
+        "end": 268,
+        "sha256": "a1aa43890288b902053a02eaf27bf12c04f4b217b3d4cbb570ee123ccb79ee8b",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-extra-charge",
+    "page": 80,
+    "mission_time": "011:30:27",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "start": 471,
+        "end": 1016,
+        "sha256": "522b394c82ed8e03b8704873955d5ce8e781b2b8b052551dd8d5518adabb0e6a",
+        "corrections": [
+          [
+            "_ld",
+            "and"
+          ],
+          [
+            "02 fuel",
+            "O2 fuel"
+          ]
+        ]
+      },
+      {
+        "speaker": "Conrad",
+        "start": 1033,
+        "end": 1044,
+        "sha256": "57e3c106f0a91414fc867c881732cb8300b876c999c471d612292f1412ccb25d",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-sleep-checks",
+    "page": 92,
+    "mission_time": "016:06:57",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "start": 138,
+        "end": 695,
+        "sha256": "1a8471b561700f3100f3ea712f8b6d0fbc80e53af2d2b027c3e0290a104ded8e",
+        "corrections": [
+          [
+            "suggestion:",
+            "suggestions"
+          ],
+          [
+            "an( we",
+            "and we"
+          ],
+          [
+            "H 2",
+            "H2"
+          ]
+        ]
+      },
+      {
+        "speaker": "Bean",
+        "start": 712,
+        "end": 934,
+        "sha256": "0d2899c70bcfe428a3bbae2d7a78900923a4cd261e9b3d410cb145d3254815d2",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 950,
+        "end": 1043,
+        "sha256": "cc7da7c7dad7dc10245e062944dca307e0df66a5a16c547e9ff18295ad8d76bb",
+        "corrections": [
+          [
+            "under- stand",
+            "understand"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apollo12-breakfast-antennas",
+    "page": 101,
+    "mission_time": "028:13:39",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "start": 771,
+        "end": 929,
+        "sha256": "6b1838f6cc22b246917063fa01f3f8c4bb74a5f46e93a2c1a8b054bdd5193da6",
+        "corrections": [
+          [
+            "antenn_T",
+            "antennas"
+          ]
+        ]
+      },
+      {
+        "speaker": "Conrad",
+        "start": 946,
+        "end": 1067,
+        "sha256": "c07b5196706e5a91425b1705c76e42ba13bf93698bac6eeb5df6eafca172554d",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-tv-bandwidth",
+    "page": 108,
+    "mission_time": "030:18:20",
+    "turns": [
+      {
+        "speaker": "Conrad",
+        "start": 702,
+        "end": 773,
+        "sha256": "50546bfd470ffac77d01c741784b4a804f64d2a3f4baca74d0c283163fe5d554",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 789,
+        "end": 798,
+        "sha256": "bf4529ab062e2a5a4cb767316b87b56edbd7c716fabe1eb3dab487891f198ba5",
+        "corrections": []
+      },
+      {
+        "speaker": "Bean",
+        "start": 815,
+        "end": 878,
+        "sha256": "89aedf4da7cb1b4daac08f1ae8a5c97eff79920a38ce57018b2baaaea89cad62",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 894,
+        "end": 948,
+        "sha256": "9cf31c83ee87dd019b36e9d225045071775d412774a3406c923d3d0514c33723",
+        "corrections": []
+      },
+      {
+        "speaker": "Gordon",
+        "start": 966,
+        "end": 971,
+        "sha256": "03b25bed61dad2fc92bb7ca539a0f5abb89e97a767e3ca68789d47009f9fa5c3",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-water-gun-stowage",
+    "page": 109,
+    "mission_time": "030:19:26",
+    "turns": [
+      {
+        "speaker": "Gordon",
+        "start": 306,
+        "end": 392,
+        "sha256": "ab6916df81ce40b9a56419e0e20271ef446d380c8d9a52f96727806ef9bcad5f",
+        "corrections": []
+      },
+      {
+        "speaker": "Conrad",
+        "start": 409,
+        "end": 444,
+        "sha256": "415d8c473f1cb49a3e645d8aae74919cf859fa769b263638ac78231d958dd937",
+        "corrections": []
+      },
+      {
+        "speaker": "Gordon",
+        "start": 461,
+        "end": 519,
+        "sha256": "be9a3e4bc8d9e18cb5165436f78b7011277a1e5c825e7e87dffc2e3f4a74b963",
+        "corrections": []
+      },
+      {
+        "speaker": "Conrad",
+        "start": 536,
+        "end": 549,
+        "sha256": "e6e1d304b7e461f1ce39ad3cd354398dad2ad9bb41447a1c503708f184204647",
+        "corrections": []
+      },
+      {
+        "speaker": "Gordon",
+        "start": 566,
+        "end": 579,
+        "sha256": "92b5cbf0b4f469931dc8951619d584261880a40cc2d327e068c637a9e55cbf44",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-quiet-time",
+    "page": 153,
+    "mission_time": "040:02:03",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "start": 478,
+        "end": 522,
+        "sha256": "66c0139f87fe5373fcaff5d4b5ff0911862bf01510f8974f119245e379181c5a",
+        "corrections": []
+      },
+      {
+        "speaker": "Conrad",
+        "start": 539,
+        "end": 677,
+        "sha256": "9eb21ea0c0c39affb5ee9e9313e7d4ce4aae382ee2ac6d8cde1a1447d031d8a9",
+        "corrections": [
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Houston",
+        "start": 695,
+        "end": 753,
+        "sha256": "b501faab7a5b2a5daa0f0f8e4a056ebdff88ca9cbb4cc11804626eb12d91b14e",
+        "corrections": []
+      },
+      {
+        "speaker": "Conrad",
+        "start": 772,
+        "end": 868,
+        "sha256": "65492fd2dc220097e35fd46a823697b2f321d660ebd0f22e37f8519f70ff7fe2",
+        "corrections": []
+      },
+      {
+        "speaker": "Bean",
+        "start": 885,
+        "end": 953,
+        "sha256": "a951a94b4908c84d755b1db2cdac818cb74c4323d8411d79d29cfd22bb04278f",
+        "corrections": [
+          [
+            "_ith",
+            "with"
+          ],
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apollo12-navigation-practice",
+    "page": 166,
+    "mission_time": "054:46:39",
+    "turns": [
+      {
+        "speaker": "Conrad",
+        "start": 488,
+        "end": 802,
+        "sha256": "96ae96a00fe75d797ec2e2ddafe842353e4ddeb639e7f9ff9e755b10f6bd4755",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 819,
+        "end": 882,
+        "sha256": "321cd2d54f6451f8bbdb868edc788100f8fd446476724daf76c3c590f63b4cce",
+        "corrections": []
+      },
+      {
+        "speaker": "Conrad",
+        "start": 899,
+        "end": 980,
+        "sha256": "6dbb5e823f8eaa793c4a71a76497a5cf535acefcdac6aa4dc92591647b4150a0",
+        "corrections": [
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apollo12-hatch-reflector",
+    "page": 188,
+    "mission_time": "062:56:29",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "start": 133,
+        "end": 155,
+        "sha256": "41c1e022fbdfec034cfc1eb88aa27d2a4171a50a23d033275dded8dff52320e7",
+        "corrections": [
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Bean",
+        "start": 172,
+        "end": 185,
+        "sha256": "92b5cbf0b4f469931dc8951619d584261880a40cc2d327e068c637a9e55cbf44",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 201,
+        "end": 337,
+        "sha256": "aea14d51e5562c0995d706aded5cd3294d93b471d0751e038311821d58b5a2dc",
+        "corrections": []
+      },
+      {
+        "speaker": "Gordon",
+        "start": 354,
+        "end": 393,
+        "sha256": "0c284f7b8c49b9fb7a95714cf17856d0da06d881bca51d0e75d309df16303bc0",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 409,
+        "end": 450,
+        "sha256": "ccaed2df4b38020d729c7861d11ada5b9a839914b6dcf9fc27240beb45c5f40c",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-camera-contrast",
+    "page": 188,
+    "mission_time": "062:57:33",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "start": 983,
+        "end": 1068,
+        "sha256": "05177cd9b75e50cd65832014f9bdb255c5fa263b4d3c3e2ae5dab92f0f5b66ef",
+        "corrections": [
+          [
+            "T._ke",
+            "make"
+          ],
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Bean",
+        "start": 1085,
+        "end": 1129,
+        "sha256": "a37575b212f43f2033938a77353078f2af0ffd3f299c3db6da7996d9e84c1b2a",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 1145,
+        "end": 1151,
+        "sha256": "728aa724653c7d322f25ee29ba987c6ca23277cfdb92b55a0ea81ad2d8f1bb0e",
+        "corrections": []
+      },
+      {
+        "speaker": "Bean",
+        "start": 1168,
+        "end": 1319,
+        "sha256": "ca4f307c16996aacfbf8437f5e9d8a4e993dbc7af7ff94af95710a5bdd3ea8f6",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-comm-cable-reach",
+    "page": 192,
+    "mission_time": "063:07:20",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "start": 497,
+        "end": 584,
+        "sha256": "05af2c00d7e257880e4fe510c1259149399d0fc861c62dd09e563e203573d648",
+        "corrections": [
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Conrad",
+        "start": 601,
+        "end": 753,
+        "sha256": "aa309307050e68701220b20ca9f406e6bdf122e6bb2b2934218abf2af8180bb2",
+        "corrections": [
+          [
+            " )",
+            ""
+          ],
+          [
+            "Ai's",
+            "Al's"
+          ]
+        ]
+      },
+      {
+        "speaker": "Houston",
+        "start": 769,
+        "end": 812,
+        "sha256": "af2d6c95508003fe4cbdaa384ff8a7b7a0c9a262733aaf8129245ea76d2179b5",
+        "corrections": []
+      },
+      {
+        "speaker": "Conrad",
+        "start": 829,
+        "end": 871,
+        "sha256": "d5a5edd6fa2e59a04db7a5932deb306f64bc5ba73fb7eab3cbc618cd1ff6565b",
+        "corrections": [
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apollo12-clean-hatch-seal",
+    "page": 202,
+    "mission_time": "063:30:20",
+    "turns": [
+      {
+        "speaker": "Bean",
+        "start": 567,
+        "end": 678,
+        "sha256": "fb9bf19dd523c053f9fe80a6263859b7b28ecbf826786e539729417480900205",
+        "corrections": [
+          [
+            "Junk",
+            "junk"
+          ]
+        ]
+      },
+      {
+        "speaker": "Bean",
+        "start": 696,
+        "end": 780,
+        "sha256": "2d541ee90e35acd4107c9868189e06bb37e8d53399eb6a2dafb052a00bb012fd",
+        "corrections": [
+          [
+            "Th,nk",
+            "Thank"
+          ],
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Conrad",
+        "start": 797,
+        "end": 814,
+        "sha256": "386adb3cd4b1700f59285e12d8e5f4429e308d8d80a813e24e9cbc79720f3246",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-hatch-clearance",
+    "page": 404,
+    "mission_time": "115:16:17",
+    "turns": [
+      {
+        "speaker": "Conrad",
+        "start": 1214,
+        "end": 1311,
+        "sha256": "ead085d9861447f584ad7176114229acab77f2e59924a33533e3bc0eba707ccd",
+        "corrections": [
+          [
+            "Am !",
+            "Am I"
+          ]
+        ]
+      },
+      {
+        "speaker": "Bean",
+        "start": 1331,
+        "end": 1384,
+        "sha256": "8bb7cafc4f49d54f0723e255fd6b0f01223d28de083b8294041e5ef18fc7fd44",
+        "corrections": [
+          [
+            "For- ward.",
+            "Forward."
+          ]
+        ]
+      },
+      {
+        "speaker": "Conrad",
+        "start": 1404,
+        "end": 1427,
+        "sha256": "09aa6a66ad3f8c693944556d78b5429b3dd32cf23d5af3c5417887de9234cfb1",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-safe-pace",
+    "page": 511,
+    "mission_time": "118:46:31",
+    "turns": [
+      {
+        "speaker": "Conrad",
+        "start": 763,
+        "end": 804,
+        "sha256": "e15d1285958fe451e23ca40e679939899d75da8276b6569b5d8dec7d8668bbfb",
+        "corrections": []
+      },
+      {
+        "speaker": "Bean",
+        "start": 825,
+        "end": 861,
+        "sha256": "43eb2a0a1acac12ee79a46b874132722ae46bdbca6d88f70cc5888128d1f0dae",
+        "corrections": [
+          [
+            "hag",
+            "bag"
+          ],
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Houston",
+        "start": 877,
+        "end": 1073,
+        "sha256": "1878e332f4079072cdfe8197509104ecd1135faf78a81c3670d5a1779ef4d6b0",
+        "corrections": [
+          [
+            "_\"ash",
+            "rush"
+          ],
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Conrad",
+        "start": 1094,
+        "end": 1112,
+        "sha256": "081e162c09b0dc18bdc2730dda9bc137dfb02bb8418625d5d71ff2dd08fa2b6b",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-water-in-hoses",
+    "page": 551,
+    "mission_time": "122:17:07",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "page": 550,
+        "start": 1668,
+        "end": 1787,
+        "sha256": "0a882491ea1000aaeafa060cec1fc23539f72031389288d267454d2a9828dd2d",
+        "corrections": [
+          [
+            "Invrepid",
+            "Intrepid"
+          ]
+        ]
+      },
+      {
+        "speaker": "Conrad",
+        "start": 38,
+        "end": 592,
+        "sha256": "61b626030ccd965e2df99b12d6ca0a5a23187e77a51a61b3c101fb7b59ee8ea1",
+        "corrections": [
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Houston",
+        "start": 608,
+        "end": 624,
+        "sha256": "27a7fd8b1cebdac18f55862a370e0bbe359a21aaceb8deeccf002dee2b5df9e8",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-blow-out-water",
+    "page": 551,
+    "mission_time": "122:20:29",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "start": 1598,
+        "end": 1735,
+        "sha256": "57307f6091267c39036be69c7a7a6cce100677155172ce4f142bbffbb13fdeb7",
+        "corrections": [
+          [
+            "A1",
+            "Al"
+          ]
+        ]
+      },
+      {
+        "speaker": "Bean",
+        "start": 1755,
+        "end": 1790,
+        "sha256": "f01d0e4b812f793f6a45753992df561cd2cdaf94338073fcdb0718ce608f27b7",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-velcro-brace",
+    "page": 589,
+    "mission_time": "131:36:25",
+    "turns": [
+      {
+        "speaker": "Conrad",
+        "start": 746,
+        "end": 768,
+        "sha256": "b6861a380ee0b52405e0a91024cbee2ccf38930658e8705c7bac4e752a110c0f",
+        "corrections": [
+          [
+            "go,",
+            "go."
+          ]
+        ]
+      },
+      {
+        "speaker": "Bean",
+        "start": 788,
+        "end": 808,
+        "sha256": "9a71290725d81f4e00bcfc0a8e7249ce6cffc7e4bf969b8b9fb369da980c54f2",
+        "corrections": [
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Conrad",
+        "start": 828,
+        "end": 914,
+        "sha256": "8c162669abe02ebe3c6d5317a6ee16a925951eb122a68f118531f011df294f61",
+        "corrections": []
+      },
+      {
+        "speaker": "Bean",
+        "start": 933,
+        "end": 950,
+        "sha256": "82a02e68603c18f9be1c142a9573021d922a4004f067f319b48eeb883a16526d",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-exhaust-rock",
+    "page": 595,
+    "mission_time": "131:53:01",
+    "turns": [
+      {
+        "speaker": "Conrad",
+        "start": 1156,
+        "end": 1729,
+        "sha256": "b96c82db43451d3ffefd2dd12efe8cf56256c53bdb721eb54bee0e2f6c1b78fb",
+        "corrections": [
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apollo12-relay-hearing",
+    "page": 601,
+    "mission_time": "132:04:53",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "start": 227,
+        "end": 287,
+        "sha256": "a4b492bd5a0d30346f7595704c47ac1b67464475c9d5fba10894d1fb36b8da67",
+        "corrections": []
+      },
+      {
+        "speaker": "Gordon",
+        "start": 305,
+        "end": 352,
+        "sha256": "0718139b7ff48bc5ddd984beecfe1a6201f5b696faa03c569a7d759b5c7236c1",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-contrast-chart",
+    "page": 601,
+    "mission_time": "132:04:43",
+    "turns": [
+      {
+        "speaker": "Bean",
+        "start": 1186,
+        "end": 1516,
+        "sha256": "afdbe42025ea623df009fa48acf9bee1f11e9b3cc7bb6d9f653a57ecb8d26baa",
+        "corrections": [
+          [
+            ",11",
+            "all"
+          ],
+          [
+            "Tn the shadow",
+            "In the shadow"
+          ],
+          [
+            "_11",
+            "all"
+          ],
+          [
+            "I'] take",
+            "I'l take"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apollo12-local-experts",
+    "page": 651,
+    "mission_time": "133:20:59",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "start": 734,
+        "end": 861,
+        "sha256": "b73df6291ab06c15cf37298fc43577a66291b06c73210015a2f52c510f78a049",
+        "corrections": [
+          [
+            "the : local",
+            "the local"
+          ]
+        ]
+      },
+      {
+        "speaker": "Conrad",
+        "start": 882,
+        "end": 942,
+        "sha256": "df0d4b27e7c8796a14b53ee3a0f0eb6d16fd6334ef770a59d907609fa23b647a",
+        "corrections": []
+      },
+      {
+        "speaker": "Bean",
+        "start": 963,
+        "end": 1158,
+        "sha256": "8d10f6fea4da10b9838c4b1191aa4916e452f8b73287f5d3322c35ef86a2f8f4",
+        "corrections": [
+          [
+            " ! ,",
+            ""
+          ],
+          [
+            " !",
+            ""
+          ],
+          [
+            " i those",
+            " those"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apollo12-floodlight-breaker",
+    "page": 742,
+    "mission_time": "138:50:11",
+    "turns": [
+      {
+        "speaker": "Conrad",
+        "start": 548,
+        "end": 1074,
+        "sha256": "ac5caaf207d598208924870ae7f017b55b9a2fcb1d5cd3657121dcd417d890f3",
+        "corrections": [
+          [
+            "microswiteh",
+            "microswitch"
+          ],
+          [
+            "and i we",
+            "and we"
+          ],
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Houston",
+        "start": 1092,
+        "end": 1112,
+        "sha256": "f50ba65f55d36a85469a8bf32f61410b3404eccc06ef1ccf5c67aa882d560c7b",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-lost-hotfire-data",
+    "page": 751,
+    "mission_time": "140:12:53",
+    "turns": [
+      {
+        "speaker": "Conrad",
+        "start": 75,
+        "end": 158,
+        "sha256": "9ee4bef954ec10468e73e5b3c21f036cc3902295644ab710a9495496aa5a4d5d",
+        "corrections": [
+          [
+            "_ust",
+            "just"
+          ]
+        ]
+      },
+      {
+        "speaker": "Houston",
+        "start": 174,
+        "end": 261,
+        "sha256": "e398a4e1debadc17fba5cf6e54338bc7794b60c7ca590fc5abb49b13a0c16854",
+        "corrections": [
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Conrad",
+        "start": 282,
+        "end": 321,
+        "sha256": "8b3fda3da7c4c3503faebe900f84f2dfb11e4a59b496fb28005916b50fb008f1",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 337,
+        "end": 374,
+        "sha256": "85e8c173c9a14753d17ac512c60c122441c66a281797ef8a9433b963c127485d",
+        "corrections": []
+      },
+      {
+        "speaker": "Conrad",
+        "start": 394,
+        "end": 422,
+        "sha256": "7dd8894f2a9acd6541733d609f50f096c9a01795d33c2a13a669d818812c0bb5",
+        "corrections": []
+      },
+      {
+        "speaker": "Houston",
+        "start": 438,
+        "end": 487,
+        "sha256": "53819d5003d1def806fe8b9ce6dae49ea8edacfec3429a1438e48f6f2a202d57",
+        "corrections": [
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Conrad",
+        "start": 507,
+        "end": 512,
+        "sha256": "03b25bed61dad2fc92bb7ca539a0f5abb89e97a767e3ca68789d47009f9fa5c3",
+        "corrections": []
+      }
+    ]
+  },
+  {
+    "id": "apollo12-procedure-gap",
+    "page": 901,
+    "mission_time": "190:20:01",
+    "turns": [
+      {
+        "speaker": "Conrad",
+        "start": 1075,
+        "end": 1184,
+        "sha256": "d4515b9d90caf59cf87934139fc28eac87520f482b349e147eeaf57ce411d26c",
+        "corrections": []
+      },
+      {
+        "speaker": "Bean",
+        "start": 1201,
+        "end": 1815,
+        "sha256": "fbedfbcd71512bef8f29acc72bc6e90461e0e9c846cd779793ad3c90001f1d40",
+        "corrections": [
+          [
+            "knr_",
+            "knew"
+          ],
+          [
+            "lookJd",
+            "looked"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apollo12-foil-recovery",
+    "page": 955,
+    "mission_time": "197:14:39",
+    "turns": [
+      {
+        "speaker": "Houston",
+        "start": 1593,
+        "end": 1739,
+        "sha256": "784f724b055e15c2dd8d96e9e5efe62356f7110674668c1f3794af3c1157b289",
+        "corrections": [
+          [
+            "switehover",
+            "switchover"
+          ],
+          [
+            "Al, you \" were",
+            "Al, you were"
+          ],
+          [
+            " Just ",
+            " just "
+          ]
+        ]
+      },
+      {
+        "speaker": "Bean",
+        "start": 1756,
+        "end": 2140,
+        "sha256": "074cd5ad8c27543d9139060fbe4104c46ebc6bccd16ebc069a138b9779c79f30",
+        "corrections": [
+          [
+            "_,ith",
+            "with"
+          ],
+          [
+            "what- ever",
+            "whatever"
+          ]
+        ]
+      }
+    ]
+  }
+]

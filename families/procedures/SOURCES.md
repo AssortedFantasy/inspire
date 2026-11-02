@@ -10,6 +10,13 @@ ingredient boundaries remain visible. Output carries author/work credit without
 category introductions.
 The importer also reproduces descendant record-count weights within each corpus
 topic; incoming topic weights and procedural generator branches are preserved.
+The separate [craft importer](craft/README.md) adds 28 bookbinding and 15 pottery
+excerpts, for 183 records overall. It pins Douglas Cockerell's *Bookbinding, and
+the Care of Books* (1910 edition) and Mary White's *How to Make Pottery* (1904).
+Run `python -B families/procedures/craft/import_craft.py --check` alongside the
+original replay. Source URLs, hashes, explicit excerpt selections and bundled
+notices live under `craft/`. Craft descendants retain uniform record exposure
+across all 79 needlework, bookbinding and pottery records.
 
 - Fannie Merritt Farmer, *The Boston Cooking-School Cook Book*, revised 1910
   edition: [Gutenberg 65061](https://www.gutenberg.org/ebooks/65061). Selects

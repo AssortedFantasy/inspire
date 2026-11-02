@@ -1,0 +1,518 @@
+{
+  "source": {
+    "url": "https://www.gutenberg.org/cache/epub/43211/pg43211.txt",
+    "catalogue": "https://www.gutenberg.org/ebooks/43211",
+    "sha256": "ed1a7e4dc7af7d3803a8b1a501bc77e915928d1834ce44c14c68cffe2382fe19",
+    "cache": "economic-history.txt",
+    "credit": "A. E. Bland, P. A. Brown and R. H. Tawney, English Economic History: Select Documents (first published 1914)",
+    "license": "Public domain in the USA; original Project Gutenberg license bundled in LICENSE.txt"
+  },
+  "selections": [
+    {
+      "id": "bradford-debt-executor",
+      "leaf": "court-decisions",
+      "lines": [
+        3693,
+        3703
+      ],
+      "starts_with": "Henry son of William the Clerk of Bradford, executor of the will of the\nsai",
+      "citation": "Court rolls of Bradford (1349–1358)",
+      "document": "Court Rolls, 129, 1957; Part I, section IV, document 2"
+    },
+    {
+      "id": "bradford-daughter-inheritance",
+      "leaf": "court-decisions",
+      "lines": [
+        3711,
+        3716
+      ],
+      "starts_with": "Amice, daughter and heir of Roger de Oulesnape, came here into Court and\nto",
+      "citation": "Court rolls of Bradford (1349–1358)",
+      "document": "Court Rolls, 129, 1957; Part I, section IV, document 2"
+    },
+    {
+      "id": "bradford-widow-tenure",
+      "leaf": "court-decisions",
+      "lines": [
+        3771,
+        3775
+      ],
+      "starts_with": "John Barne of Manningham, who held a messuage and a bovate of bondage\nland ",
+      "citation": "Court rolls of Bradford (1349–1358)",
+      "document": "Court Rolls, 129, 1957; Part I, section IV, document 2"
+    },
+    {
+      "id": "bradford-land-surrender",
+      "leaf": "court-decisions",
+      "lines": [
+        3815,
+        3821
+      ],
+      "starts_with": "John son of Richard Gillesson came here into Court and rendered into the\nha",
+      "citation": "Court rolls of Bradford (1349–1358)",
+      "document": "Court Rolls, 129, 1957; Part I, section IV, document 2"
+    },
+    {
+      "id": "bradford-runaway-inheritance",
+      "leaf": "court-decisions",
+      "lines": [
+        3845,
+        3849
+      ],
+      "starts_with": "William Tompsey of Bradford, the lord's bondman, who held a messuage and\na ",
+      "citation": "Court rolls of Bradford (1349–1358)",
+      "document": "Court Rolls, 129, 1957; Part I, section IV, document 2"
+    },
+    {
+      "id": "bradford-widow-charters",
+      "leaf": "court-decisions",
+      "lines": [
+        3853,
+        3862
+      ],
+      "starts_with": "William Clerk of Clayton, who held a messuage and 2 bovates of land in\nClay",
+      "citation": "Court rolls of Bradford (1349–1358)",
+      "document": "Court Rolls, 129, 1957; Part I, section IV, document 2"
+    },
+    {
+      "id": "bradford-trade-licence",
+      "leaf": "court-decisions",
+      "lines": [
+        3924,
+        3926
+      ],
+      "starts_with": "William Iveson came into Court and made fine with the lord by 1/2 mark\nfor ",
+      "citation": "Court rolls of Bradford (1349–1358)",
+      "document": "Court Rolls, 129, 1957; Part I, section IV, document 2"
+    },
+    {
+      "id": "bradford-sureties-poverty",
+      "leaf": "court-decisions",
+      "lines": [
+        3948,
+        3961
+      ],
+      "starts_with": "John Abbot, William son of Henry de Allerton, John Dughti, Robert de\nOldfel",
+      "citation": "Court rolls of Bradford (1349–1358)",
+      "document": "Court Rolls, 129, 1957; Part I, section IV, document 2"
+    },
+    {
+      "id": "bradford-mobility-chevage",
+      "leaf": "court-decisions",
+      "lines": [
+        3984,
+        3987
+      ],
+      "starts_with": "Agnes daughter of Adam atte Yate, the lord's bondwoman, has made fine\nfor h",
+      "citation": "Court rolls of Bradford (1349–1358)",
+      "document": "Court Rolls, 129, 1957; Part I, section IV, document 2"
+    },
+    {
+      "id": "bradford-fence-false-claim",
+      "leaf": "court-decisions",
+      "lines": [
+        4049,
+        4060
+      ],
+      "starts_with": "Roger son of Roger makes plaint of Alice de Bollyng [in a plea] of\ntrespass",
+      "citation": "Court rolls of Bradford (1349–1358)",
+      "document": "Court Rolls, 129, 1957; Part I, section IV, document 2"
+    },
+    {
+      "id": "bradford-millstones-unlicensed",
+      "leaf": "court-decisions",
+      "lines": [
+        4080,
+        4082
+      ],
+      "starts_with": "Again it is presented that Richard Milner of Idel (6d.), Richard Baillif\n(2",
+      "citation": "Court rolls of Bradford (1349–1358)",
+      "document": "Court Rolls, 129, 1957; Part I, section IV, document 2"
+    },
+    {
+      "id": "leyburn-enclosure-allowed",
+      "leaf": "court-decisions",
+      "lines": [
+        4721,
+        4744
+      ],
+      "starts_with": "The assize comes to recognise if Elias of Leyburn unjustly etc.\ndisseised W",
+      "citation": "Leyburn enclosure suit (1236–1237)",
+      "document": "Bracton's Note-Book, III, no. 1198; Part I, section IV, document 12"
+    },
+    {
+      "id": "woodhouse-enclosure-disallowed",
+      "leaf": "court-decisions",
+      "lines": [
+        4754,
+        4769
+      ],
+      "starts_with": "The assize comes to recognise if Robert de Fislake unjustly etc. raised\na d",
+      "citation": "Woodhouse enclosure suit (1236–1237)",
+      "document": "Bracton's Note-Book, III, no. 1196; Part I, section IV, document 13"
+    },
+    {
+      "id": "tawyers-candle-box",
+      "leaf": "guild-rules",
+      "lines": [
+        6697,
+        6700
+      ],
+      "starts_with": "In the first place, they have ordained that they will find a wax candle,\nto",
+      "citation": "Ordinances of the White Tawyers of London (1346)",
+      "document": "Guildhall Letter-Book F, f. 126; Part I, section V, document 15"
+    },
+    {
+      "id": "tawyers-poverty-widow",
+      "leaf": "guild-rules",
+      "lines": [
+        6702,
+        6708
+      ],
+      "starts_with": "Also, if by chance any one of the said trade shall fall into poverty,\nwheth",
+      "citation": "Ordinances of the White Tawyers of London (1346)",
+      "document": "Guildhall Letter-Book F, f. 126; Part I, section V, document 15"
+    },
+    {
+      "id": "tawyers-franchise-work",
+      "leaf": "guild-rules",
+      "lines": [
+        6710,
+        6712
+      ],
+      "starts_with": "And that no stranger shall work in the said trade, or keep house [for\nthe s",
+      "citation": "Ordinances of the White Tawyers of London (1346)",
+      "document": "Guildhall Letter-Book F, f. 126; Part I, section V, document 15"
+    },
+    {
+      "id": "tawyers-servant-term",
+      "leaf": "guild-rules",
+      "lines": [
+        6714,
+        6715
+      ],
+      "starts_with": "And that no one shall take the serving man of another to work with him,\ndur",
+      "citation": "Ordinances of the White Tawyers of London (1346)",
+      "document": "Guildhall Letter-Book F, f. 126; Part I, section V, document 15"
+    },
+    {
+      "id": "tawyers-work-mutual-aid",
+      "leaf": "guild-rules",
+      "lines": [
+        6717,
+        6720
+      ],
+      "starts_with": "And if any one of the said trade shall have work in his house that he\ncanno",
+      "citation": "Ordinances of the White Tawyers of London (1346)",
+      "document": "Guildhall Letter-Book F, f. 126; Part I, section V, document 15"
+    },
+    {
+      "id": "tawyers-burial",
+      "leaf": "guild-rules",
+      "lines": [
+        6722,
+        6725
+      ],
+      "starts_with": "And if any one of the said trade shall depart this life, and have not\nwhere",
+      "citation": "Ordinances of the White Tawyers of London (1346)",
+      "document": "Guildhall Letter-Book F, f. 126; Part I, section V, document 15"
+    },
+    {
+      "id": "tawyers-servant-redress",
+      "leaf": "guild-rules",
+      "lines": [
+        6727,
+        6731
+      ],
+      "starts_with": "And if any serving-man shall conduct himself in any other manner than\nprope",
+      "citation": "Ordinances of the White Tawyers of London (1346)",
+      "document": "Guildhall Letter-Book F, f. 126; Part I, section V, document 15"
+    },
+    {
+      "id": "tawyers-graduated-penalty",
+      "leaf": "guild-rules",
+      "lines": [
+        6739,
+        6743
+      ],
+      "starts_with": "And if any one of the said trade shall do to the contrary of any point\nof t",
+      "citation": "Ordinances of the White Tawyers of London (1346)",
+      "document": "Guildhall Letter-Book F, f. 126; Part I, section V, document 15"
+    },
+    {
+      "id": "tawyers-elected-overseers",
+      "leaf": "guild-rules",
+      "lines": [
+        6745,
+        6760
+      ],
+      "starts_with": "Also, that the good folks of the same trade shall once in the year be\nassem",
+      "citation": "Ordinances of the White Tawyers of London (1346)",
+      "document": "Guildhall Letter-Book F, f. 126; Part I, section V, document 15"
+    },
+    {
+      "id": "tawyers-skill-admission",
+      "leaf": "guild-rules",
+      "lines": [
+        6779,
+        6783
+      ],
+      "starts_with": "Also, that no one who has not been an apprentice, and has not finished\nhis ",
+      "citation": "Ordinances of the White Tawyers of London (1346)",
+      "document": "Guildhall Letter-Book F, f. 126; Part I, section V, document 15"
+    },
+    {
+      "id": "bristol-dyers-damages-arbitration",
+      "leaf": "guild-rules",
+      "lines": [
+        6931,
+        6952
+      ],
+      "starts_with": "First, be it ordained and assented that each year two masters of the\nsaid c",
+      "citation": "Ordinances of the Dyers of Bristol (1407)",
+      "document": "Patent Roll, 13 Henry IV, p. 2, m. 31; Part I, section V, document 17"
+    },
+    {
+      "id": "bristol-dyers-apprentice-test",
+      "leaf": "guild-rules",
+      "lines": [
+        6954,
+        6968
+      ],
+      "starts_with": "Further, that no servant or apprentice of the said mistery be henceforth\nad",
+      "citation": "Ordinances of the Dyers of Bristol (1407)",
+      "document": "Patent Roll, 13 Henry IV, p. 2, m. 31; Part I, section V, document 17"
+    },
+    {
+      "id": "bristol-dyers-household-exemption",
+      "leaf": "guild-rules",
+      "lines": [
+        6970,
+        6993
+      ],
+      "starts_with": "Further, forasmuch as often before these times divers folk, as well\nthose w",
+      "citation": "Ordinances of the Dyers of Bristol (1407)",
+      "document": "Patent Roll, 13 Henry IV, p. 2, m. 31; Part I, section V, document 17"
+    },
+    {
+      "id": "wimeswould-horse-boundary",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        4249,
+        4251
+      ],
+      "starts_with": "Also, if any man tie his horse or reach on any headlands or by brookside\nin",
+      "citation": "Regulation of the common fields of Wimeswould (c. 1425)",
+      "document": "Historical Manuscripts Commission, Middleton MSS., p. 106; Part I, section IV, document 4"
+    },
+    {
+      "id": "wimeswould-peas-gleaning",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        4256,
+        4266
+      ],
+      "starts_with": "Also, all manner of men that have any pease in the field when codding\ntime ",
+      "citation": "Regulation of the common fields of Wimeswould (c. 1425)",
+      "document": "Historical Manuscripts Commission, Middleton MSS., p. 106; Part I, section IV, document 4"
+    },
+    {
+      "id": "wimeswould-hay-removal",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        4268,
+        4272
+      ],
+      "starts_with": "Also, no man with common herd nor with shed herd [shall] come on the\nwold a",
+      "citation": "Regulation of the common fields of Wimeswould (c. 1425)",
+      "document": "Historical Manuscripts Commission, Middleton MSS., p. 106; Part I, section IV, document 4"
+    },
+    {
+      "id": "wimeswould-night-harvest",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        4280,
+        4285
+      ],
+      "starts_with": "Also, if any man may be taken at nighttime in the field with cart or\nwith b",
+      "citation": "Regulation of the common fields of Wimeswould (c. 1425)",
+      "document": "Historical Manuscripts Commission, Middleton MSS., p. 106; Part I, section IV, document 4"
+    },
+    {
+      "id": "wimeswould-local-labour",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        4287,
+        4291
+      ],
+      "starts_with": "Also, all manner labourers that dwell in the town and have commons among\nus",
+      "citation": "Regulation of the common fields of Wimeswould (c. 1425)",
+      "document": "Historical Manuscripts Commission, Middleton MSS., p. 106; Part I, section IV, document 4"
+    },
+    {
+      "id": "wimeswould-sheaves-permission",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        4293,
+        4296
+      ],
+      "starts_with": "Also, no man or woman that works harvest work bear home no sheaves of no\nma",
+      "citation": "Regulation of the common fields of Wimeswould (c. 1425)",
+      "document": "Historical Manuscripts Commission, Middleton MSS., p. 106; Part I, section IV, document 4"
+    },
+    {
+      "id": "wimeswould-gleaning-work",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        4298,
+        4302
+      ],
+      "starts_with": "Also, no man or woman glean no manner of corn that is able to work for\nhis ",
+      "citation": "Regulation of the common fields of Wimeswould (c. 1425)",
+      "document": "Historical Manuscripts Commission, Middleton MSS., p. 106; Part I, section IV, document 4"
+    },
+    {
+      "id": "wimeswould-herd-withdrawal",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        4309,
+        4313
+      ],
+      "starts_with": "Also, that no man take away his beasts from the common herd from\nMichaelmas",
+      "citation": "Regulation of the common fields of Wimeswould (c. 1425)",
+      "document": "Historical Manuscripts Commission, Middleton MSS., p. 106; Part I, section IV, document 4"
+    },
+    {
+      "id": "wimeswould-hayward-fees",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        4315,
+        4316
+      ],
+      "starts_with": "Also, if our hayward pen a flock of neat of the country, he shall take\nsix ",
+      "citation": "Regulation of the common fields of Wimeswould (c. 1425)",
+      "document": "Historical Manuscripts Commission, Middleton MSS., p. 106; Part I, section IV, document 4"
+    },
+    {
+      "id": "tewkesbury-inheritance",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        5860,
+        5869
+      ],
+      "starts_with": "First, that the burgesses of the borough aforesaid should have and hold\nthe",
+      "citation": "Charter of liberties to Tewkesbury (1314)",
+      "document": "Confirmation in Charter Roll, 11 Edward III, m. 10, no. 21; Part I, section V, document 2"
+    },
+    {
+      "id": "tewkesbury-sale-registration",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        5871,
+        5877
+      ],
+      "starts_with": "And to the same burgesses, each of them, that they might sell, pledge or\nlo",
+      "citation": "Charter of liberties to Tewkesbury (1314)",
+      "document": "Confirmation in Charter Roll, 11 Edward III, m. 10, no. 21; Part I, section V, document 2"
+    },
+    {
+      "id": "tewkesbury-poverty-sale",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        5893,
+        5898
+      ],
+      "starts_with": "And if it should happen that any of them were impoverished whereby he\nmust ",
+      "citation": "Charter of liberties to Tewkesbury (1314)",
+      "document": "Confirmation in Charter Roll, 11 Edward III, m. 10, no. 21; Part I, section V, document 2"
+    },
+    {
+      "id": "tewkesbury-bread-and-ale",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        5900,
+        5902
+      ],
+      "starts_with": "And to the same burgesses, that they might make bread for sale in their\nown",
+      "citation": "Charter of liberties to Tewkesbury (1314)",
+      "document": "Confirmation in Charter Roll, 11 Edward III, m. 10, no. 21; Part I, section V, document 2"
+    },
+    {
+      "id": "tewkesbury-new-burgess",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        5911,
+        5914
+      ],
+      "starts_with": "And if a foreigner, who should not be a burgess nor the son of a\nburgess, s",
+      "citation": "Charter of liberties to Tewkesbury (1314)",
+      "document": "Confirmation in Charter Roll, 11 Edward III, m. 10, no. 21; Part I, section V, document 2"
+    },
+    {
+      "id": "tewkesbury-absent-summons",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        5941,
+        5943
+      ],
+      "starts_with": "And if any burgess should be out of the borough at the time of summons\nof t",
+      "citation": "Charter of liberties to Tewkesbury (1314)",
+      "document": "Confirmation in Charter Roll, 11 Edward III, m. 10, no. 21; Part I, section V, document 2"
+    },
+    {
+      "id": "tewkesbury-officer-election",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        5951,
+        5954
+      ],
+      "starts_with": "And that they, the burgesses, should be bailiffs and catch-polls[156] of\nth",
+      "citation": "Charter of liberties to Tewkesbury (1314)",
+      "document": "Confirmation in Charter Roll, 11 Edward III, m. 10, no. 21; Part I, section V, document 2"
+    },
+    {
+      "id": "leicester-christmas-court",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        6498,
+        6503
+      ],
+      "starts_with": "Further, in the time of Edmund, for four days at Christmas no court of\nplea",
+      "citation": "Complaints of the men of Leicester (1322)",
+      "document": "Inquisitions Miscellaneous, 87, no. 46; Part I, section V, document 12"
+    },
+    {
+      "id": "leicester-dung-lanes",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        6512,
+        6516
+      ],
+      "starts_with": "Further, in the time of Edmund, the farmers of the demesne lands of the\nsam",
+      "citation": "Complaints of the men of Leicester (1322)",
+      "document": "Inquisitions Miscellaneous, 87, no. 46; Part I, section V, document 12"
+    },
+    {
+      "id": "leicester-fish-retailing",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        6562,
+        6567
+      ],
+      "starts_with": "Further, in the time of Edmund the vendors of salt herrings and fish\ncould ",
+      "citation": "Complaints of the men of Leicester (1322)",
+      "document": "Inquisitions Miscellaneous, 87, no. 46; Part I, section V, document 12"
+    },
+    {
+      "id": "marlborough-southampton-tolls",
+      "leaf": "commons-and-boroughs",
+      "lines": [
+        6264,
+        6282
+      ],
+      "starts_with": "The King to archbishops, etc. greeting. Know ye that whereas a dispute\nwas ",
+      "citation": "Marlborough–Southampton toll agreement (1239)",
+      "document": "Charter Roll, 23 Henry III, m. 3; Part I, section V, document 8"
+    }
+  ]
+}
