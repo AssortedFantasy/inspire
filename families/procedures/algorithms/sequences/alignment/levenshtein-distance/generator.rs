@@ -106,23 +106,9 @@ pub fn generate(rng: &mut StdRng) -> String {
     }
     let (table, a, b) = execute(left.as_bytes(), right.as_bytes());
     let mut text = format!(
-        "{left} → {right}\nEdit distance {}\n\n     ∅",
+        "{left} → {right}\nEdit distance {}",
         table[left.len()][right.len()]
     );
-    for letter in right.chars() {
-        write!(text, " {letter:>2}").unwrap();
-    }
-    for (i, row) in table.iter().enumerate() {
-        let label = if i == 0 {
-            '∅'
-        } else {
-            left.as_bytes()[i - 1] as char
-        };
-        write!(text, "\n{label}  ").unwrap();
-        for value in row {
-            write!(text, " {value:>2}").unwrap();
-        }
-    }
     let marks: String = a
         .chars()
         .zip(b.chars())

@@ -6,7 +6,10 @@ once. The answer is omitted.
 
 A secret is sampled uniformly from all 1,296 codes. Random probe pools narrow the
 consistent candidates, with an additional non-answer candidate probe guaranteeing
-progress. Clues are then pruned until every remaining clue is necessary for the
+progress. After eight probes, any remaining ambiguity is resolved by four
+non-answer probes, each changing a different secret position. Clues are then
+pruned until every remaining clue is necessary for the
 unique solution. Output varies in both the number and structure of its clues.
 All work is local and bounded by the finite code space. Tests independently
-exhaust the code space for each sampled puzzle and each single-clue deletion.
+exhaust the code space for each sampled puzzle and each single-clue deletion,
+and verify the four-probe construction for every secret. At most 12 clues print.

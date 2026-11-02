@@ -9,7 +9,10 @@ residue constraints; state expansion introduces equivalent states and an
 unreachable component. Finite codebooks share tails as well as prefixes.
 
 Tables, reachability, quotient classes, witnesses, and acceptance results are
-computed. Partition refinement removes unreachable states before constructing
+computed. Minimization displays the original machine and quotient classes;
+the quotient table is derivable from those classes. Equivalence comparisons
+specify B as a change to A. Subset tables use at most three bits of suffix
+memory (eight states). Partition refinement removes unreachable states before constructing
 the quotient. Witness searches traverse the state or pair graph in breadth
 first order. Subset construction starts from a nondeterministic machine that
 guesses the selected bit and counts the remaining symbols.

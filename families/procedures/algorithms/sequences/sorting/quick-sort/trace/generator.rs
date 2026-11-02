@@ -15,6 +15,7 @@ struct Partition {
     pivot: i32,
     #[cfg(test)]
     before: Vec<i32>,
+    #[cfg(test)]
     after: Vec<i32>,
 }
 
@@ -73,6 +74,7 @@ fn sort(data: &mut [i32], scheme: Scheme) -> (Vec<Partition>, usize) {
             pivot,
             #[cfg(test)]
             before,
+            #[cfg(test)]
             after: data.to_vec(),
         });
         recurse(data, lo, left, scheme, trace, comparisons);
@@ -116,13 +118,8 @@ pub fn generate(rng: &mut StdRng) -> String {
         let (left, right) = step.equal;
         write!(
             text,
-            "\n[{}, {}) pivot {} → {:?} | {:?} | {:?}",
-            step.lo,
-            step.hi,
-            step.pivot,
-            &step.after[step.lo..left],
-            &step.after[left..right],
-            &step.after[right..step.hi]
+            "\n[{}, {}) pivot {} → equal [{left}, {right})",
+            step.lo, step.hi, step.pivot
         )
         .unwrap();
     }

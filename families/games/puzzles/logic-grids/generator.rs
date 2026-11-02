@@ -97,7 +97,7 @@ fn puzzle(rng: &mut StdRng, n: usize, categories: usize) -> (Assignment, Vec<Clu
     let mut remaining: Vec<_> = all.iter().collect();
     let mut clues = Vec::new();
     for clue in pool {
-        if remaining.len() == 1 {
+        if remaining.len() == 1 || clues.len() == 12 {
             break;
         }
         let before = remaining.len();
@@ -106,7 +106,15 @@ fn puzzle(rng: &mut StdRng, n: usize, categories: usize) -> (Assignment, Vec<Clu
             clues.push(clue);
         }
     }
-    assert_eq!(remaining.len(), 1);
+    if remaining.len() > 1 {
+        // Finish with at most one positional fact per item, then remove all
+        // redundant clues below. The puzzle stays complete at a bounded size.
+        clues.extend(
+            items
+                .iter()
+                .map(|&item| Clue::At(item, answer[item.0][item.1])),
+        );
+    }
     // Removing other constraints can only enlarge the solution set. One pass
     // therefore proves deletion-minimality, without claiming fewest clues.
     clues.shuffle(rng);
@@ -210,6 +218,7 @@ mod tests {
             let all = universe(n, categories);
             for _ in 0..40 {
                 let (answer, clues) = puzzle(&mut rng, n, categories);
+                assert!(clues.len() <= 12 + n * categories);
                 let solutions: Vec<_> = all
                     .iter()
                     .filter(|a| clues.iter().all(|c| c.holds(a)))

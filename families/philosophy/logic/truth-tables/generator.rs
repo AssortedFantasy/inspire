@@ -184,20 +184,6 @@ fn truth(value: bool) -> &'static str {
     if value { "T" } else { "F" }
 }
 
-fn valuation_text(valuation: u8, variables: &[usize]) -> String {
-    variables
-        .iter()
-        .map(|&i| {
-            format!(
-                "{}={}",
-                ["p", "q", "r", "s"][i],
-                truth(valuation & (1 << i) != 0)
-            )
-        })
-        .collect::<Vec<_>>()
-        .join(", ")
-}
-
 pub fn generate(rng: &mut StdRng) -> String {
     let regime = rng.random_range(0..5);
     let expr = sample(rng, regime);
@@ -227,34 +213,19 @@ pub fn generate(rng: &mut StdRng) -> String {
             .join(" ");
         lines.push(format!("{values} | {}", truth(expr.eval(valuation))));
     }
-    let satisfying = valuations
-        .iter()
-        .copied()
-        .filter(|&v| expr.eval(v))
-        .collect::<Vec<_>>();
-    let falsifying = valuations
-        .iter()
-        .copied()
-        .filter(|&v| !expr.eval(v))
-        .collect::<Vec<_>>();
-    let classification = if falsifying.is_empty() {
+    let satisfying = valuations.iter().filter(|&&v| expr.eval(v)).count();
+    let classification = if satisfying == valuations.len() {
         "Tautology"
-    } else if satisfying.is_empty() {
+    } else if satisfying == 0 {
         "Contradiction"
     } else {
         "Contingent"
     };
     lines.push(format!(
         "{classification} ({}/{} rows true)",
-        satisfying.len(),
+        satisfying,
         valuations.len()
     ));
-    if !satisfying.is_empty() && !falsifying.is_empty() {
-        let yes = satisfying[rng.random_range(0..satisfying.len())];
-        let no = falsifying[rng.random_range(0..falsifying.len())];
-        lines.push(format!("φ=T at {}", valuation_text(yes, &variables)));
-        lines.push(format!("φ=F at {}", valuation_text(no, &variables)));
-    }
     lines.join("\n")
 }
 

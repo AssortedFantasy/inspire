@@ -8,7 +8,8 @@ Dependencies are finish-to-start with zero lag. Time starts at day zero, all
 tasks are required, and parallel tasks have unlimited resources. Durations are
 fixed. A forward longest-path pass finds earliest starts; a backward pass finds
 latest starts against the earliest possible project finish. Slack is total
-float. Every critical source-to-terminal path is enumerated. A selected task is
+float. Output shows earliest and latest starts, the critical-path count and one
+path witness. Finish times follow from starts and durations. A selected task is
 then shortened by one day and the entire schedule is recomputed.
 
 Tests independently enumerate all source-to-terminal paths and certify project

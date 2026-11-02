@@ -38,12 +38,20 @@ fn solutions(all: &[Code], clues: &[(Code, Feedback)]) -> Vec<Code> {
         .collect()
 }
 
+fn resolving_probes(secret: &Code) -> [(Code, Feedback); 4] {
+    std::array::from_fn(|position| {
+        let mut guess = *secret;
+        guess[position] = secret[position] % 6 + 1;
+        (guess, score(secret, &guess))
+    })
+}
+
 fn puzzle(rng: &mut StdRng) -> (Code, Vec<(Code, Feedback)>) {
     let all = codes();
     let secret = all[rng.random_range(0..all.len())];
     let mut remaining = all.clone();
     let mut clues = Vec::new();
-    while remaining.len() > 1 {
+    while remaining.len() > 1 && clues.len() < 8 {
         let mut probes = all.clone();
         probes.shuffle(rng);
         probes.truncate(48);
@@ -72,6 +80,11 @@ fn puzzle(rng: &mut StdRng) -> (Code, Vec<(Code, Feedback)>) {
         let (guess, feedback, survivors) = best.unwrap();
         clues.push((guess, feedback));
         remaining = survivors;
+    }
+    if remaining.len() > 1 {
+        // Four probes each differ from the answer at one different position.
+        // Their exact-match counts uniquely fix the answer without printing it.
+        clues.extend(resolving_probes(&secret));
     }
     // A clue survives only if removing it would allow a second answer.
     clues.shuffle(rng);
@@ -110,12 +123,23 @@ mod tests {
     }
 
     #[test]
+    fn four_nonanswer_probes_resolve_every_code() {
+        let all = codes();
+        for secret in &all {
+            let clues = resolving_probes(secret);
+            assert!(clues.iter().all(|(guess, _)| guess != secret));
+            assert_eq!(solutions(&all, &clues), [*secret]);
+        }
+    }
+
+    #[test]
     fn puzzles_have_one_answer_and_no_redundant_clue() {
         let all = codes();
         let mut rng = StdRng::seed_from_u64(5811);
         let mut distinct = std::collections::HashSet::new();
         for _ in 0..100 {
             let (secret, clues) = puzzle(&mut rng);
+            assert!(clues.len() <= 12);
             assert_eq!(solutions(&all, &clues), [secret]);
             assert!(!clues.iter().any(|(guess, _)| *guess == secret));
             for i in 0..clues.len() {

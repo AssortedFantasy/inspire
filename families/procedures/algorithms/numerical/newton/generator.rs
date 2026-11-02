@@ -155,17 +155,16 @@ pub fn generate(rng: &mut StdRng) -> String {
     let (values, stop) = iterate(problem, initial, limit);
     let root = problem.root();
     let mut text = format!(
-        "{}\nNewton iterates\nReference root ≈ {}\n\nn   x_n              f(x_n)           |x_n - root|",
+        "{}\nNewton iterates\nReference root ≈ {}\n\nn   x_n              f(x_n)",
         problem.description(),
         compact(root)
     );
     for (i, &x) in values.iter().enumerate() {
         write!(
             text,
-            "\n{i:<2}  {:<15}  {:<15}  {}",
+            "\n{i:<2}  {:<15}  {}",
             compact(x),
-            compact(problem.value(x)),
-            compact((x - root).abs())
+            compact(problem.value(x))
         )
         .unwrap();
     }

@@ -40,19 +40,12 @@ pub fn generate(rng: &mut StdRng) -> String {
         )
         .unwrap();
     }
-    write!(text, "\nBest value by capacity\n       ").unwrap();
-    for c in 0..=capacity {
-        write!(text, " {c:>2}").unwrap();
-    }
-    for (i, row) in table.iter().enumerate() {
-        let label = if i == 0 {
-            "—".to_string()
-        } else {
-            (0..i).map(|j| (b'A' + j as u8) as char).collect()
-        };
-        write!(text, "\n{label:<7}").unwrap();
-        for value in row {
-            write!(text, " {value:>2}").unwrap();
+    // The final frontier retains each capacity threshold where the optimum
+    // changes, without repeating unchanged cells for every item prefix.
+    write!(text, "\nCapacity → best value").unwrap();
+    for (c, &value) in table[items.len()].iter().enumerate() {
+        if c == 0 || value != table[items.len()][c - 1] {
+            write!(text, "\n{c} → {value}").unwrap();
         }
     }
     let names: Vec<_> = selected.iter().map(|&i| (b'A' + i as u8) as char).collect();

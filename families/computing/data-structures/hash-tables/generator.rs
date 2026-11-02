@@ -362,7 +362,7 @@ fn put_operation(rng: &mut StdRng, key: u32) -> Operation {
 }
 
 fn mixed_tail(rng: &mut StdRng, keys: &[u32], capacity: usize) -> Vec<Operation> {
-    (0..rng.random_range(5..=9))
+    (0..rng.random_range(0..=1))
         .map(|_| {
             let key = if rng.random_bool(0.75) {
                 keys[rng.random_range(0..keys.len())]
@@ -401,7 +401,7 @@ fn write_text(write: &Write, failure: &str) -> String {
 }
 
 fn open_artifact(rng: &mut StdRng, probing: Probing) -> String {
-    let hash = random_hash(rng, &[7, 11, 13]);
+    let hash = random_hash(rng, &[5, 7]);
     let home = if rng.random_bool(0.65) {
         hash.capacity - rng.random_range(1..=2)
     } else {
@@ -448,14 +448,25 @@ fn open_artifact(rng: &mut StdRng, probing: Probing) -> String {
             "probe orbit full",
         ),
     };
-    let mut lines = vec![
-        name.into(),
-        hash.description(),
-        formula,
-        "Initially empty".into(),
-    ];
+    let mut lines = vec![name.into(), hash.description(), formula];
     let mut table = OpenTable::new(hash, probing);
+    let initial_count = count;
     for (step, operation) in operations.into_iter().enumerate() {
+        if step == initial_count {
+            lines.push(format!(
+                "Initial [{}]",
+                table
+                    .slots
+                    .iter()
+                    .map(|slot| match slot {
+                        Slot::Empty => "_".into(),
+                        Slot::Deleted => "×".into(),
+                        Slot::Live(e) => format!("{}={}", e.key, e.value),
+                    })
+                    .collect::<Vec<_>>()
+                    .join(" ")
+            ));
+        }
         let text = match operation {
             Operation::Put(key, value) => {
                 let write = table.put(key, value);
@@ -482,7 +493,9 @@ fn open_artifact(rng: &mut StdRng, probing: Probing) -> String {
                 )
             }
         };
-        lines.push(format!("{}. {text}", step + 1));
+        if step >= initial_count {
+            lines.push(format!("{}. {text}", step + 1 - initial_count));
+        }
     }
     lines.push(format!("Slots ({} live)", table.len));
     for (index, slot) in table.slots.iter().enumerate() {
@@ -502,7 +515,7 @@ fn open_artifact(rng: &mut StdRng, probing: Probing) -> String {
 }
 
 fn robin_artifact(rng: &mut StdRng) -> String {
-    let hash = random_hash(rng, &[7, 11, 13]);
+    let hash = random_hash(rng, &[5, 7]);
     let home = if rng.random_bool(0.7) {
         hash.capacity - 2
     } else {
@@ -535,9 +548,21 @@ fn robin_artifact(rng: &mut StdRng) -> String {
     let mut lines = vec![
         "Robin Hood insertion, backward-shift deletion".into(),
         hash.description(),
-        "Initially empty".into(),
     ];
+    let initial_count = 5;
     for (step, operation) in operations.into_iter().enumerate() {
+        if step == initial_count {
+            lines.push(format!(
+                "Initial [{}]",
+                table
+                    .slots
+                    .iter()
+                    .map(|slot| slot
+                        .map_or_else(|| "_".into(), |e| format!("{}={}", e.key, e.value)))
+                    .collect::<Vec<_>>()
+                    .join(" ")
+            ));
+        }
         let text = match operation {
             Operation::Put(key, value) => {
                 let write = table.put(key, value);
@@ -574,7 +599,9 @@ fn robin_artifact(rng: &mut StdRng) -> String {
                 text
             }
         };
-        lines.push(format!("{}. {text}", step + 1));
+        if step >= initial_count {
+            lines.push(format!("{}. {text}", step + 1 - initial_count));
+        }
     }
     lines.push(format!("Slots ({} live)", table.len));
     for (index, slot) in table.slots.iter().enumerate() {
@@ -598,12 +625,12 @@ fn robin_artifact(rng: &mut StdRng) -> String {
 fn chain_artifact(rng: &mut StdRng) -> String {
     let hash = random_hash(rng, &[5, 7]);
     let home = rng.random_range(0..hash.capacity);
-    let count = rng.random_range(4..=7);
+    let count = rng.random_range(3..=5);
     let first = rng.random_range(1..=5);
     let mut keys: Vec<_> = (0..count)
         .map(|i| hash.key_at(home, first + i as u32))
         .collect();
-    for i in 1..=rng.random_range(1..=3) {
+    for i in 1..=rng.random_range(1..=2) {
         keys.push(hash.key_at((home + i) % hash.capacity, first + count as u32 + i as u32));
     }
     let mut operations: Vec<_> = keys.iter().map(|&key| put_operation(rng, key)).collect();
@@ -623,9 +650,27 @@ fn chain_artifact(rng: &mut StdRng) -> String {
         "Separate chaining, new entries at the head".into(),
         hash.description(),
         policy.into(),
-        "Initially empty".into(),
     ];
+    let initial_count = keys.len();
     for (step, operation) in operations.into_iter().enumerate() {
+        if step == initial_count {
+            lines.push(format!(
+                "Initial [{}]",
+                table
+                    .buckets
+                    .iter()
+                    .map(|bucket| format!(
+                        "[{}]",
+                        bucket
+                            .iter()
+                            .map(|e| format!("{}={}", e.key, e.value))
+                            .collect::<Vec<_>>()
+                            .join(" ")
+                    ))
+                    .collect::<Vec<_>>()
+                    .join(" ")
+            ));
+        }
         let text = match operation {
             Operation::Put(key, value) => {
                 let (old, visited) = table.put(key, value);
@@ -656,7 +701,9 @@ fn chain_artifact(rng: &mut StdRng) -> String {
                 )
             }
         };
-        lines.push(format!("{}. {text}", step + 1));
+        if step >= initial_count {
+            lines.push(format!("{}. {text}", step + 1 - initial_count));
+        }
     }
     lines.push(format!("Buckets ({} live)", table.len));
     for (index, bucket) in table.buckets.iter().enumerate() {

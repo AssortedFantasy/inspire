@@ -214,7 +214,7 @@ fn sequence(rng: &mut StdRng) -> Vec<u32> {
         ],
         2 => vec![0x61, 0x00e9, 0x20ac, 0x1d11e],
         3 => vec![named(rng), 0x200b, named(rng), 0xfeff],
-        _ => (0..rng.random_range(3..=6)).map(|_| named(rng)).collect(),
+        _ => (0..rng.random_range(3..=4)).map(|_| named(rng)).collect(),
     }
 }
 

@@ -31,12 +31,14 @@ pub fn generate(rng: &mut StdRng) -> String {
         format!("Shares (x, f(x))\n{}", points(shares)),
         format!("\nReconstruct with x = {}", coordinates(chosen)),
     ];
-    lines.extend(
-        chosen
+    lines.push(format!(
+        "λ(0) = [{}]",
+        weights
             .iter()
-            .zip(&weights)
-            .map(|((x, _), weight)| format!("λ_{x}(0) = {weight}")),
-    );
+            .map(u64::to_string)
+            .collect::<Vec<_>>()
+            .join(", ")
+    ));
     lines.push(format!("s = ({terms}) mod {p} = {}", recover(chosen, *p)));
 
     if rng.random_bool(0.5) {

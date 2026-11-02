@@ -182,23 +182,12 @@ fn movement(path: &[usize]) -> String {
 
 fn insert_line(text: &mut String, heap: &mut Heap, item: Item) {
     let path = heap.push(item);
-    write!(
-        text,
-        "\ninsert {item} → {}{}",
-        array(&heap.items),
-        movement(&path)
-    )
-    .unwrap();
+    write!(text, "\ninsert {item}{}", movement(&path)).unwrap();
 }
 
 fn pop_line(text: &mut String, heap: &mut Heap) {
     match heap.pop() {
-        Some((item, path)) => write!(
-            text,
-            "\npop → {item}  {}{}",
-            array(&heap.items),
-            movement(&path)
-        ),
+        Some((item, path)) => write!(text, "\npop → {item}{}", movement(&path)),
         None => write!(text, "\npop → empty  []"),
     }
     .unwrap();
@@ -206,14 +195,7 @@ fn pop_line(text: &mut String, heap: &mut Heap) {
 
 fn change_line(text: &mut String, heap: &mut Heap, ticket: usize, key: i32) {
     let (old, path) = heap.change(ticket, key);
-    write!(
-        text,
-        "\nchange {} to {key} → {}{}",
-        old,
-        array(&heap.items),
-        movement(&path)
-    )
-    .unwrap();
+    write!(text, "\nchange {} to {key}{}", old, movement(&path)).unwrap();
 }
 
 fn header(arity: usize, order: Order) -> String {
@@ -249,7 +231,7 @@ fn random_keys(rng: &mut StdRng, count: usize) -> Vec<i32> {
 }
 
 fn compare_builds(rng: &mut StdRng, arity: usize, order: Order) -> String {
-    let count = rng.random_range(7..=13);
+    let count = rng.random_range(7..=8);
     let input = items(&random_keys(rng, count));
     let (mut floyd, floyd_swaps) = Heap::floyd(input.clone(), arity, order);
     let (mut inserts, insert_swaps) = Heap::inserted(&input, arity, order);
@@ -266,13 +248,7 @@ fn compare_builds(rng: &mut StdRng, arity: usize, order: Order) -> String {
         let (a, _) = floyd.pop().unwrap();
         let (b, _) = inserts.pop().unwrap();
         debug_assert_eq!(a, b);
-        write!(
-            text,
-            "\npop → {a}\n  Floyd {}\n  Insert {}",
-            array(&floyd.items),
-            array(&inserts.items)
-        )
-        .unwrap();
+        write!(text, "\npop → {a}").unwrap();
     }
     let item = Item {
         ticket: count,
@@ -282,7 +258,7 @@ fn compare_builds(rng: &mut StdRng, arity: usize, order: Order) -> String {
     inserts.push(item);
     write!(
         text,
-        "\ninsert {item}\n  Floyd {}\n  Insert {}",
+        "\ninsert {item}\nFinal Floyd {}\nFinal Insert {}",
         array(&floyd.items),
         array(&inserts.items)
     )
@@ -313,6 +289,7 @@ pub fn generate(rng: &mut StdRng) -> String {
         }
         pop_line(&mut text, &mut heap);
         pop_line(&mut text, &mut heap);
+        write!(text, "\nFinal {}", array(&heap.items)).unwrap();
         return text;
     }
     let count = match arity {
@@ -391,7 +368,7 @@ pub fn generate(rng: &mut StdRng) -> String {
         pop_line(&mut text, &mut heap);
     } else {
         let mut ticket = count;
-        for _ in 0..rng.random_range(7..=10) {
+        for _ in 0..rng.random_range(7..=8) {
             match rng.random_range(0..3) {
                 0 if !heap.items.is_empty() => pop_line(&mut text, &mut heap),
                 1 if !heap.items.is_empty() => {
@@ -412,6 +389,7 @@ pub fn generate(rng: &mut StdRng) -> String {
             }
         }
     }
+    write!(text, "\nFinal {}", array(&heap.items)).unwrap();
     text
 }
 

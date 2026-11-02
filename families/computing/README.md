@@ -11,8 +11,8 @@ leaves. Existing sorting, graph, and dynamic-programming traces remain under
   irregular evolution, Rule 54/110, and traffic/majority dynamics. Initial rows
   include impulses, perturbed repeating backgrounds, domain walls, and random
   configurations. Traffic and majority rows start near half occupancy. Some
-  runs compare a single-cell perturbation side by side. Rows show t=0 through
-  t=15, stopping at a detected repeat for unpaired runs. Boundaries are finite
+  runs compare a single-cell perturbation side by side. Unpaired runs show up to 14 rows of 25–31 cells, stopping at a detected
+  repeat. Paired runs show eight rows; traffic uses 30 cells. Boundaries are finite
   rings or a fixed zero exterior, not a claim about an infinite-lattice class.
 - [`automata/dfa`](automata/dfa/README.md) computes recognizers, minimization,
   Boolean products, shortest witnesses, finite codebooks, and NFA subset
@@ -20,7 +20,7 @@ leaves. Existing sorting, graph, and dynamic-programming traces remain under
   residue cycles, bounded balances, and suffix memory.
 - [`data-structures/heaps`](data-structures/README.md) mixes binary, ternary, and 4-ary min/max heaps,
   stable duplicate priorities, sift cascades, key changes, and paired Floyd
-  versus incremental builds. Arrays and actual sift paths follow operations.
+  versus incremental builds. Initial/final arrays and actual sift paths retain the operation history.
 - `data-structures/hash-tables` mixes linear and quadratic probing with
   tombstones, Robin Hood displacement and backshift deletion, and separate
   chaining with optional move-to-front lookup. Probe paths include wraparound,

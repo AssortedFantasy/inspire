@@ -561,17 +561,19 @@ fn qualified(candidates: &[i32], required: &[i32], skills: &[(i32, i32)]) -> Vec
 }
 
 fn division(rng: &mut StdRng) -> Sample {
-    let count = rng.random_range(3..=6);
+    let count = rng.random_range(3..=5);
     let candidates: Vec<_> = (1..=count).collect();
-    let skill_count = rng.random_range(0..=4);
+    let skill_count = rng.random_range(0..=3);
     let required: Vec<_> = (1..=skill_count).collect();
     let mut skills = Vec::new();
     for &candidate in &candidates {
+        let mut duplicated = false;
         for skill in 1..=skill_count + 1 {
             if candidate == 1 || (candidate != count && rng.random_bool(0.65)) {
                 skills.push((candidate, skill));
-                if rng.random_bool(0.25) {
+                if !duplicated && rng.random_bool(0.25) {
                     skills.push((candidate, skill));
+                    duplicated = true;
                 }
             }
         }

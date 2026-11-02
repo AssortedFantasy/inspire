@@ -74,22 +74,11 @@ pub fn generate(rng: &mut StdRng) -> String {
         )
         .unwrap();
     }
-    write!(text, "\nSettle {order:?}\nVertex  Distance  Path").unwrap();
+    write!(text, "\nSettle {order:?}\nVertex  Distance  Parent").unwrap();
     for (v, distance) in distances.iter().enumerate() {
         if let Some(distance) = distance {
-            let mut path = vec![v];
-            let mut current = v;
-            while let Some(previous) = predecessors[current] {
-                path.push(previous);
-                current = previous;
-            }
-            path.reverse();
-            let path = path
-                .iter()
-                .map(usize::to_string)
-                .collect::<Vec<_>>()
-                .join(" → ");
-            write!(text, "\n{v:>3}     {distance:>3}     {path}").unwrap();
+            let parent = predecessors[v].map_or_else(|| "—".into(), |p| p.to_string());
+            write!(text, "\n{v:>3}     {distance:>3}     {parent}").unwrap();
         } else {
             write!(text, "\n{v:>3}      ∞      —").unwrap();
         }

@@ -4,7 +4,8 @@
 order. Six regimes cover paired Floyd/incremental builds, insertion and root
 removal cascades, duplicate priorities, priority changes, and mixed workloads.
 Stable ties retain each item's original insertion ticket, including after a
-priority change. Arrays follow operations; sift paths use array indexes.
+priority change. Initial/final arrays bound traces without repeating the full
+queue after each operation; sift paths use array indexes.
 Build costs count swaps rather than comparisons. Tests compare pops and key
 changes with independently sorted queues and verify every parent/child edge.
 
@@ -12,8 +13,10 @@ changes with independently sorted queues and verify every parent/child edge.
 quadratic probing, Robin Hood hashing, and separate chaining. Integer keys
 include zero. Affine hashes permute the residues modulo a small prime, while
 constructed colliders expose clusters, wraparound, and lookup termination.
-Every operation includes its actual probe or chain path and the final physical
-layout. There is no resizing or concurrency.
+A compact initial layout precedes the consequential operations, with their
+actual probe or chain paths, followed by the final physical layout. Probing
+tables have five or seven slots; chained examples have at most seven initial
+entries. A mixed tail adds at most one operation. There is no resizing or concurrency.
 
 Linear and quadratic tables preserve tombstones until reuse. Quadratic probing
 uses distinct offsets i² for i=0 through floor(p/2), so its orbit can exhaust

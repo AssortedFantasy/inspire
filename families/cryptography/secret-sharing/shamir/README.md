@@ -7,7 +7,8 @@ Sampling mixes threshold two, unanimous thresholds, redundant shares,
 and every available nonzero coordinate in a small field.
 
 Each artifact includes the polynomial, all shares, a random k-share reconstruction
-subset, its Lagrange weights at zero, and the recovered secret. Half also exhibit
+subset, its Lagrange weights at zero in subset order, and the recovered secret.
+Weights print as one vector, followed by the weighted reconstruction. Half also exhibit
 a second polynomial through k−1 of those shares with a different secret. That
 polynomial is constructed by adding a scaled product of the observed linear
 factors, preserving the shares while selecting any other constant term.

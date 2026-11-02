@@ -187,9 +187,8 @@ pub fn generate(rng: &mut StdRng) -> String {
     let mode = rng.random_range(0..6);
     let mut project = make(rng, mode);
     let s = project.schedule();
-    let mut out = String::from(
-        "Project DAG, durations in days\nTask  Days  After       ES  EF  LS  LF  Slack",
-    );
+    let mut out =
+        String::from("Project DAG, durations in days\nTask  Days  After       ES  LS  Slack");
     for i in 0..project.durations.len() {
         let previous = if project.predecessors[i].is_empty() {
             "—".into()
@@ -203,36 +202,35 @@ pub fn generate(rng: &mut StdRng) -> String {
         let duration = project.durations[i];
         write!(
             out,
-            "\n{:<4}  {:>4}  {:<10}  {:>2}  {:>2}  {:>2}  {:>2}  {:>5}",
+            "\n{:<4}  {:>4}  {:<10}  {:>2}  {:>2}  {:>5}",
             name(i),
             duration,
             previous,
             s.start[i],
-            s.start[i] + duration,
             s.latest[i],
-            s.latest[i] + duration,
             s.latest[i] - s.start[i]
         )
         .unwrap();
     }
+    // A path witness plus the count retains tied alternatives without
+    // expanding a potentially branching critical subgraph into every path.
     write!(
         out,
-        "\n\nCompletion = day {}\nCritical {}",
+        "\n\nCompletion = day {}\n{} critical {}\n{}",
         s.finish,
-        if s.paths.len() == 1 { "path" } else { "paths" }
+        s.paths.len(),
+        if s.paths.len() == 1 {
+            "path"
+        } else {
+            "paths, one shown"
+        },
+        s.paths[0]
+            .iter()
+            .map(|&i| name(i).to_string())
+            .collect::<Vec<_>>()
+            .join(" → ")
     )
     .unwrap();
-    for path in &s.paths {
-        write!(
-            out,
-            "\n{}",
-            path.iter()
-                .map(|&i| name(i).to_string())
-                .collect::<Vec<_>>()
-                .join(" → ")
-        )
-        .unwrap();
-    }
     let candidates: Vec<_> = (0..project.durations.len())
         .filter(|&i| project.durations[i] > 1)
         .collect();

@@ -2,8 +2,8 @@
 
 140 public-domain procedure excerpts and seventeen tested execution generators.
 Algorithms emit actual sort passes, searches, alignments, graph traversals,
-shortest paths, spanning trees, component stack pops, dependency queues and
-knapsack tables. Quicksort partitions, stable radix buckets, overlapping KMP
+shortest-path trees, spanning trees, component stack pops, dependency queues and
+knapsack frontiers. Quicksort partitions, stable radix buckets, overlapping KMP
 searches, Huffman codes, Newton iterates and quadrature refinements include
 duplicate, degenerate and nonconvergent cases. Edit alignments include spelling
 pairs and nucleotide strings.

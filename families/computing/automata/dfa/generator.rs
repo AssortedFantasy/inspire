@@ -435,16 +435,9 @@ fn table(text: &mut String, dfa: &Dfa, labels: Option<&[String]>) {
         .collect::<Vec<_>>()
         .join(", ");
     writeln!(text, "Accept {{{finals}}}").unwrap();
-    writeln!(text, "state          0              1").unwrap();
+    writeln!(text, "state 0 1").unwrap();
     for (q, row) in dfa.next.iter().enumerate() {
-        writeln!(
-            text,
-            "{:<14} {:<14} {}",
-            name(q),
-            name(row[0]),
-            name(row[1])
-        )
-        .unwrap();
+        writeln!(text, "{} {} {}", name(q), name(row[0]), name(row[1])).unwrap();
     }
 }
 
@@ -523,10 +516,6 @@ pub fn generate(rng: &mut StdRng) -> String {
                 minimal.next.len()
             )
             .unwrap();
-            let labels = (0..minimal.next.len())
-                .map(|q| format!("m{q}"))
-                .collect::<Vec<_>>();
-            table(&mut text, &minimal, Some(&labels));
         }
         2 => {
             let (title_a, a, title_b, b) = if rng.random_bool(0.45) {
@@ -599,7 +588,9 @@ pub fn generate(rng: &mut StdRng) -> String {
             writeln!(text, "A: {title}").unwrap();
             table(&mut text, &a, None);
             writeln!(text, "B: {change}").unwrap();
-            table(&mut text, &b, None);
+            if change == "state expansion" {
+                writeln!(text, "B states (q,m): on 0 → (δ(q,0),1-m), on 1 → (δ(q,1),m).\nStart (q{},0), acceptance inherited from q.\nExtra unreachable sink has opposite acceptance to the start.", a.start).unwrap();
+            }
             if let Some(word) = distinguish(&a, a.start, &b, b.start) {
                 writeln!(text, "Shortest distinguishing word {}", word_label(&word)).unwrap();
                 trace(&mut text, &a, &word, "A");
@@ -649,7 +640,7 @@ pub fn generate(rng: &mut StdRng) -> String {
             trace(&mut text, &minimal, &format!("{word}0"), "Extension");
         }
         _ => {
-            let distance = rng.random_range(2..=4);
+            let distance = rng.random_range(2..=3);
             let bit = rng.random_range(0..=1);
             let (dfa, subsets) = nth_from_end(distance, bit);
             writeln!(

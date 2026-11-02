@@ -124,7 +124,7 @@ pub fn generate(rng: &mut StdRng) -> String {
     let table = prefix(&pattern);
     let (matches, trace) = search(&text, &pattern, &table);
     let mut out = format!(
-        "Text    {}\nPattern {}\nKMP prefix lengths {table:?}\n\ni  char  matched length  fallback to  match start",
+        "Text    {}\nPattern {}\nKMP prefix lengths {table:?}\n\ni char matched length / fallback / resume after match",
         String::from_utf8_lossy(&text),
         String::from_utf8_lossy(&pattern)
     );
@@ -137,10 +137,10 @@ pub fn generate(rng: &mut StdRng) -> String {
             .join("→");
         let found = step
             .found
-            .map(|start| format!("{start} (resume {})", step.resume))
+            .map(|_| format!("resume {}", step.resume))
             .unwrap_or_default();
         let row = format!(
-            "{:<2}  {}     {}→{:<2}            {:<9}  {}",
+            "{} {} {}→{}  {}  {}",
             step.index, text[step.index] as char, step.before, step.reached, fallbacks, found
         );
         write!(out, "\n{}", row.trim_end()).unwrap();

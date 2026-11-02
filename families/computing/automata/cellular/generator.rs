@@ -68,9 +68,9 @@ pub fn generate(rng: &mut StdRng) -> String {
     };
     let rule = rules[rng.random_range(0..rules.len())];
     let n = if regime == 7 {
-        40
+        30
     } else {
-        rng.random_range(33..=47)
+        rng.random_range(25..=31)
     };
     let ring = regime == 7 || rng.random_bool(0.6);
     let mut cells = initial(rng, n);
@@ -92,7 +92,7 @@ pub fn generate(rng: &mut StdRng) -> String {
     }
     let mut history = Vec::new();
     let mut recurrence = None;
-    for t in 0..16 {
+    for t in 0..if paired { 8 } else { 14 } {
         if recurrence.is_none() {
             recurrence = history
                 .iter()

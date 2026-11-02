@@ -16,7 +16,8 @@ result. Seven equally likely scenarios vary query structure as well as data:
 - Recursive queries compute set reachability through cycles or bounded walk
   multiplicities through parallel edges, diamonds, loops, and disconnected parts.
 - Relational division includes duplicate skills, near misses, extra skills, and
-  an empty requirement set.
+  an empty requirement set. Division inputs have at most five candidates, three
+  required skills, and one duplicate skill row per candidate.
 
 The small evaluators implement these selected query forms, not an SQL parser or
 database. All cells are bounded integers or NULL; every result has an explicit

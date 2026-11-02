@@ -3,7 +3,8 @@
 Three construction regimes: noncyclic-group Cayley tables, pairs of orthogonal
 field-linear squares, and a single intercalate trade in a group table. Rows and
 columns are independently shuffled with their mathematical labels retained.
-The grids show the constructed squares rather than completion puzzles.
+The grid shows a constructed square rather than a completion puzzle. Numeric
+symbols refer to one group/field legend; trade references use those same symbols.
 
 Standalone tables use C2×C2, C2×C4, C2³, C3×C3 and the order-eight dihedral
 group. Trades also use cyclic groups of orders four, six and eight. The cyclic
@@ -14,7 +15,8 @@ remain in the invariant checks as odd-order examples with no intercalates.
 
 Orthogonal pairs use L_a(r,c)=r+ac with distinct nonzero a,b in F3, F4, F5, F7,
 F8 or F9. The extension-field models use t²+t+1 over F2, t³+t+1 over F2, and
-t²+1 over F3. Entries display polynomial representatives directly. Arithmetic
+t²+1 over F3. The legend gives polynomial representatives. The orthogonal mate
+is specified by its exact formula rather than a second grid. Arithmetic
 is polynomial reduction over the prime field, never integer arithmetic modulo
 4, 8 or 9. No claim of uniform sampling over Latin squares or isotopy classes
 is made. All construction and candidate enumeration is bounded by order nine.

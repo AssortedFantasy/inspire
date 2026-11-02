@@ -80,7 +80,8 @@ pub fn generate(rng: &mut StdRng) -> String {
         "LSD radix sort, base {base}, width {width}\nInput {}",
         display(&data, base, width)
     );
-    for pass in radix_sort(&data, base, width) {
+    let passes = radix_sort(&data, base, width);
+    for pass in &passes {
         write!(text, "\n\nDigit at place {}", pass.place).unwrap();
         for (digit, bucket) in pass
             .buckets
@@ -94,12 +95,21 @@ pub fn generate(rng: &mut StdRng) -> String {
                 char::from_digit(digit as u32, base)
                     .unwrap()
                     .to_ascii_uppercase(),
-                display(bucket, base, width)
+                bucket
+                    .iter()
+                    .map(|item| item.1.to_string())
+                    .collect::<Vec<_>>()
+                    .join(" ")
             )
             .unwrap();
         }
-        write!(text, "\n→ {}", display(&pass.result, base, width)).unwrap();
     }
+    write!(
+        text,
+        "\nSorted {}",
+        display(&passes.last().unwrap().result, base, width)
+    )
+    .unwrap();
     text
 }
 

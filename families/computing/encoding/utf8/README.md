@@ -2,7 +2,8 @@
 
 Five forms emit named scalars, encoding-boundary tables, scalar byte offsets,
 malformed byte sequences, and incremental decoding through arbitrary chunk
-boundaries. Samples cover all four UTF-8 widths, combining marks, a zero-width
+boundaries. Streams contain at most four scalars, keeping even one-byte chunks
+compact. Samples cover all four UTF-8 widths, combining marks, a zero-width
 joiner sequence, mathematical and technical symbols, music symbols, and emoji.
 Boundary tables include the surrogate gap and U+10FFFF. Malformed inputs mix
 overlong encodings, surrogate encodings, out-of-range values, stray continuation

@@ -274,28 +274,41 @@ fn trade(square: &mut Square, selected: Trade) {
     }
 }
 
-fn grid(square: &Square, labels: &[String], rows: &[usize], columns: &[usize]) -> String {
-    let width = labels
+fn legend(labels: &[String]) -> String {
+    if labels
         .iter()
-        .map(|label| label.chars().count())
-        .max()
-        .unwrap();
+        .enumerate()
+        .all(|(i, label)| *label == i.to_string())
+    {
+        String::new()
+    } else {
+        format!(
+            "\nSymbols {}",
+            labels
+                .iter()
+                .enumerate()
+                .map(|(i, label)| format!("{i}={label}"))
+                .collect::<Vec<_>>()
+                .join(", ")
+        )
+    }
+}
+
+fn grid(square: &Square, rows: &[usize], columns: &[usize]) -> String {
     let mut lines = vec![format!(
-        "{:>width$} | {}",
-        "",
+        "  | {}",
         columns
             .iter()
-            .map(|&c| format!("{:>width$}", labels[c]))
+            .map(usize::to_string)
             .collect::<Vec<_>>()
             .join(" ")
     )];
     for &r in rows {
         lines.push(format!(
-            "{:>width$} | {}",
-            labels[r],
+            "{r} | {}",
             columns
                 .iter()
-                .map(|&c| format!("{:>width$}", labels[square[r][c]]))
+                .map(|&c| square[r][c].to_string())
                 .collect::<Vec<_>>()
                 .join(" ")
         ));
@@ -318,9 +331,10 @@ pub fn generate(rng: &mut StdRng) -> String {
             let labels: Vec<_> = (0..group.size()).map(|x| group.element(x)).collect();
             let (rows, columns) = indices(rng, group.size());
             format!(
-                "{}\n{}",
+                "{}{}\n{}",
                 group.name(),
-                grid(&group.square(), &labels, &rows, &columns)
+                legend(&labels),
+                grid(&group.square(), &rows, &columns)
             )
         }
         1 => {
@@ -340,12 +354,12 @@ pub fn generate(rng: &mut StdRng) -> String {
                 }
             };
             format!(
-                "{}\nL(r,c) = {}\n{}\nM(r,c) = {}\n{}\nL ⟂ M",
+                "{}{}\nL(r,c) = {}\n{}\nM(r,c) = {}\nL ⟂ M",
                 field.model(),
+                legend(&labels),
                 formula(a),
-                grid(&field_square(field, a), &labels, &rows, &columns),
-                formula(b),
-                grid(&field_square(field, b), &labels, &rows, &columns)
+                grid(&field_square(field, a), &rows, &columns),
+                formula(b)
             )
         }
         _ => {
@@ -362,18 +376,18 @@ pub fn generate(rng: &mut StdRng) -> String {
             let labels: Vec<_> = (0..group.size()).map(|x| group.element(x)).collect();
             let [r, s] = selected.rows;
             let [c, d] = selected.columns;
-            let (a, b) = (&labels[square[r][c]], &labels[square[r][d]]);
+            let (a, b) = (square[r][c], square[r][d]);
             let context = format!(
-                "{} with a Latin trade\nRows {}, {} and columns {}, {}\n[{a} {b} / {b} {a}] → [{b} {a} / {a} {b}]",
-                group.name(),
-                labels[r],
-                labels[s],
-                labels[c],
-                labels[d]
+                "{} with a Latin trade\nRows {r}, {s} and columns {c}, {d}\n[{a} {b} / {b} {a}] → [{b} {a} / {a} {b}]",
+                group.name()
             );
             trade(&mut square, selected);
             let (rows, columns) = indices(rng, group.size());
-            format!("{context}\n{}", grid(&square, &labels, &rows, &columns))
+            format!(
+                "{context}{}\n{}",
+                legend(&labels),
+                grid(&square, &rows, &columns)
+            )
         }
     }
 }

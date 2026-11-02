@@ -7,7 +7,9 @@ positions, associations, exclusions, order, immediate order, and exact distance.
 The ordering direction is printed with each puzzle; solutions are omitted.
 
 All 36, 216, or 576 possible assignments are enumerated. True clues reduce that
-set to the sampled answer, then a deletion pass removes redundant clues. The
+set to the sampled answer. After 12 clues, remaining ambiguity is resolved with
+at most one positional fact per item, then a deletion pass removes redundant
+clues. No puzzle exceeds 21 clues. The
 remaining set is irredundant, not necessarily globally smallest. Tests enumerate
 every answer and every single-clue deletion across all three sizes.
 

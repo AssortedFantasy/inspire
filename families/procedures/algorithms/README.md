@@ -11,8 +11,7 @@ execution shapes rather than changing only the input magnitudes.
 `sequences/sorting/quick-sort/trace` chooses between last-pivot Lomuto partition
 (`<=` on the left) and a three-way partition around the same last-element pivot.
 The inputs mix ordinary keys, ascending and descending runs, all-equal keys,
-three-key duplicates and organ-pipe shapes. A trace lists the partitioned
-subrange as left, pivot block and right. Lomuto's middle block contains the
+three-key duplicates and organ-pipe shapes. A trace lists each subrange, pivot value and placed pivot-block bounds. Lomuto's middle block contains the
 single placed pivot; equal keys may remain on its left. A key comparison counts
 one `<=` or one three-way comparison, including the pivot's own inspection in
 the three-way variant. No shuffle or insertion-sort cutoff hides the deliberately
@@ -22,7 +21,8 @@ quadratic ordered and equal-key Lomuto cases. Inputs have at most eleven items.
 with two or three unsigned digits. Identity letters expose stability across
 passes and equal complete keys. Inputs include ordinary mixed digits, leading
 zero columns, a shared low digit, duplicate keys and values at digit boundaries.
-Only occupied buckets are printed; every pass is still performed.
+Only occupied buckets are printed, using identity letters to avoid repeating
+complete keys. The final sorted keys are shown once; every pass is performed.
 
 Quicksort tests enumerate all ternary arrays through length seven and compare
 the result with an independent sort. Every partition preserves its subrange's
@@ -37,6 +37,10 @@ References: Sedgewick and Wayne's
 partition and LSD principles; this generator's Lomuto convention, unshuffled
 inputs and small integer radices are explicit local choices. No implementation
 code is copied.
+
+The other sequence leaves show one optimal edit alignment and the knapsack
+capacity/value frontier at thresholds where the optimum changes. Dijkstra
+prints distances and a predecessor tree rather than repeating path prefixes.
 
 ## String search and coding
 
@@ -75,8 +79,8 @@ the generated data and code are original.
 `cos(x)-x` with fast local convergence, roots of multiplicity two through five
 with linear convergence, the exact `0 ↔ 1` cycle of `x³-2x+2`, a nonroot with
 zero derivative for `x³-a`, and a divergent cube-root orbit. Newton updates are
-undamped. The latter obeys `x[n+1] = -2x[n]` away from zero. The root error column
-is measured against a separate reference root, not inferred from the residual.
+undamped. The latter obeys `x[n+1] = -2x[n]` away from zero. Each row shows the
+iterate and residual, with a separate reference root above the table.
 Square roots and cube roots use library references; the cosine and cycle
 polynomial reference roots are fixed double-precision constants. Successful
 stopping requires residual at most `1e-10` and a step at most
