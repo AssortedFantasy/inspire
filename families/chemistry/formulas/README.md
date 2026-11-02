@@ -1,8 +1,11 @@
 # Formula and structure relationships
 
-`composition/empirical-formulas` contains 34 named molecules whose molecular and
-empirical formulas actually differ. Subscripts are reduced by their greatest
-common divisor; no random molecule counts inflate the output space.
+`composition/empirical-formulas` contains 17 ordinary molecular/empirical formula
+comparisons and four shared-composition groups. The latter replace repetitive
+reductions with named molecules that have the same element ratios at different
+molecular sizes, including distinct structures at the same size. Source formulas
+are grouped by exact atom ratios, independently checked by cross multiplication;
+no random molecule counts inflate the output space.
 
 `isomers/constitutional` has 15 comparisons of source structures sharing a formula,
 including three-member groups. `isomers/stereochemical` has 26 pairs distinguishing

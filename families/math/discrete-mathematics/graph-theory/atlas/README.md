@@ -11,7 +11,7 @@ omitted. Vertices retain source labels; an edge `u-v` is undirected.
 
 Leaves have equal local weight to balance graph classes rather than uniform
 selection over the atlas. Every graph includes its vertex and edge sets. Three
-compact views rotate by stable atlas number: degrees/components/cycle rank,
+compact views rotate by stable atlas number: sorted degree sequence/components/cycle rank,
 minimum coloring/maximum independent set, or triangles/spanning trees/independence
 number. The importer computes all invariants for every graph and retains its
 independent checks. Spanning-tree counts are zero for disconnected graphs.

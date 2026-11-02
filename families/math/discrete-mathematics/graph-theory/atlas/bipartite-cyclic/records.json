@@ -21,12 +21,12 @@
   },
   {
     "id": "networkx-3.4.2-G63",
-    "text": "V = {0, 1, 2, 3, 4, 5}\nE = {0-3, 0-4, 3-5, 4-5}\nDegrees = [2, 2, 2, 2, 0, 0]\nComponents = [[0, 3, 4, 5], [1], [2]]\nCycle rank = 1",
+    "text": "V = {0, 1, 2, 3, 4, 5}\nE = {0-3, 0-4, 3-5, 4-5}\nSorted degree sequence = [2, 2, 2, 2, 0, 0]\nComponents = [[0, 3, 4, 5], [1], [2]]\nCycle rank = 1",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G63; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
     "id": "networkx-3.4.2-G75",
-    "text": "V = {0, 1, 2, 3, 4, 5}\nE = {0-4, 1-2, 1-4, 2-3, 3-4}\nDegrees = [3, 2, 2, 2, 1, 0]\nComponents = [[0, 1, 2, 3, 4], [5]]\nCycle rank = 1",
+    "text": "V = {0, 1, 2, 3, 4, 5}\nE = {0-4, 1-2, 1-4, 2-3, 3-4}\nSorted degree sequence = [3, 2, 2, 2, 1, 0]\nComponents = [[0, 1, 2, 3, 4], [5]]\nCycle rank = 1",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G75; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "id": "networkx-3.4.2-G96",
-    "text": "V = {0, 1, 2, 3, 4, 5}\nE = {0-2, 0-3, 0-4, 0-5, 1-2, 1-3}\nDegrees = [4, 2, 2, 2, 1, 1]\nComponents = [[0, 1, 2, 3, 4, 5]]\nCycle rank = 1",
+    "text": "V = {0, 1, 2, 3, 4, 5}\nE = {0-2, 0-3, 0-4, 0-5, 1-2, 1-3}\nSorted degree sequence = [4, 2, 2, 2, 1, 1]\nComponents = [[0, 1, 2, 3, 4, 5]]\nCycle rank = 1",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G96; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "id": "networkx-3.4.2-G99",
-    "text": "V = {0, 1, 2, 3, 4, 5}\nE = {0-2, 1-3, 2-4, 2-5, 3-4, 3-5}\nDegrees = [3, 3, 2, 2, 1, 1]\nComponents = [[0, 1, 2, 3, 4, 5]]\nCycle rank = 1",
+    "text": "V = {0, 1, 2, 3, 4, 5}\nE = {0-2, 1-3, 2-4, 2-5, 3-4, 3-5}\nSorted degree sequence = [3, 3, 2, 2, 1, 1]\nComponents = [[0, 1, 2, 3, 4, 5]]\nCycle rank = 1",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G99; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -61,7 +61,7 @@
   },
   {
     "id": "networkx-3.4.2-G105",
-    "text": "V = {0, 1, 2, 3, 4, 5}\nE = {0-1, 0-5, 1-2, 2-3, 3-4, 4-5}\nDegrees = [2, 2, 2, 2, 2, 2]\nComponents = [[0, 1, 2, 3, 4, 5]]\nCycle rank = 1",
+    "text": "V = {0, 1, 2, 3, 4, 5}\nE = {0-1, 0-5, 1-2, 2-3, 3-4, 4-5}\nSorted degree sequence = [2, 2, 2, 2, 2, 2]\nComponents = [[0, 1, 2, 3, 4, 5]]\nCycle rank = 1",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G105; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -96,7 +96,7 @@
   },
   {
     "id": "networkx-3.4.2-G219",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {1-2, 1-4, 2-5, 4-5}\nDegrees = [2, 2, 2, 2, 0, 0, 0]\nComponents = [[0], [1, 2, 4, 5], [3], [6]]\nCycle rank = 1",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {1-2, 1-4, 2-5, 4-5}\nSorted degree sequence = [2, 2, 2, 2, 0, 0, 0]\nComponents = [[0], [1, 2, 4, 5], [3], [6]]\nCycle rank = 1",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G219; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -121,7 +121,7 @@
   },
   {
     "id": "networkx-3.4.2-G261",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {1-2, 2-3, 2-5, 3-6, 4-5, 5-6}\nDegrees = [3, 3, 2, 2, 1, 1, 0]\nComponents = [[0], [1, 2, 3, 4, 5, 6]]\nCycle rank = 1",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {1-2, 2-3, 2-5, 3-6, 4-5, 5-6}\nSorted degree sequence = [3, 3, 2, 2, 1, 1, 0]\nComponents = [[0], [1, 2, 3, 4, 5, 6]]\nCycle rank = 1",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G261; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -146,7 +146,7 @@
   },
   {
     "id": "networkx-3.4.2-G288",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-1, 0-4, 2-3, 2-5, 3-6, 5-6}\nDegrees = [2, 2, 2, 2, 2, 1, 1]\nComponents = [[0, 1, 4], [2, 3, 5, 6]]\nCycle rank = 1",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-1, 0-4, 2-3, 2-5, 3-6, 5-6}\nSorted degree sequence = [2, 2, 2, 2, 2, 1, 1]\nComponents = [[0, 1, 4], [2, 3, 5, 6]]\nCycle rank = 1",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G288; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -161,7 +161,7 @@
   },
   {
     "id": "networkx-3.4.2-G312",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {1-2, 1-4, 2-3, 2-5, 3-6, 4-5, 5-6}\nDegrees = [3, 3, 2, 2, 2, 2, 0]\nComponents = [[0], [1, 2, 3, 4, 5, 6]]\nCycle rank = 2",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {1-2, 1-4, 2-3, 2-5, 3-6, 4-5, 5-6}\nSorted degree sequence = [3, 3, 2, 2, 2, 2, 0]\nComponents = [[0], [1, 2, 3, 4, 5, 6]]\nCycle rank = 2",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G312; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -181,7 +181,7 @@
   },
   {
     "id": "networkx-3.4.2-G327",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-3, 0-4, 1-2, 1-3, 1-4, 3-6, 4-5}\nDegrees = [3, 3, 3, 2, 1, 1, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 1",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-3, 0-4, 1-2, 1-3, 1-4, 3-6, 4-5}\nSorted degree sequence = [3, 3, 3, 2, 1, 1, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 1",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G327; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -211,7 +211,7 @@
   },
   {
     "id": "networkx-3.4.2-G348",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-3, 0-4, 1-2, 2-5, 2-6, 3-6, 4-5}\nDegrees = [3, 2, 2, 2, 2, 2, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 1",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-3, 0-4, 1-2, 2-5, 2-6, 3-6, 4-5}\nSorted degree sequence = [3, 2, 2, 2, 2, 2, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 1",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G348; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -226,7 +226,7 @@
   },
   {
     "id": "networkx-3.4.2-G378",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-1, 0-5, 0-6, 1-2, 2-5, 2-6, 4-5, 4-6}\nDegrees = [3, 3, 3, 3, 2, 2, 0]\nComponents = [[0, 1, 2, 4, 5, 6], [3]]\nCycle rank = 3",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-1, 0-5, 0-6, 1-2, 2-5, 2-6, 4-5, 4-6}\nSorted degree sequence = [3, 3, 3, 3, 2, 2, 0]\nComponents = [[0, 1, 2, 4, 5, 6], [3]]\nCycle rank = 3",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G378; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -236,17 +236,17 @@
   },
   {
     "id": "networkx-3.4.2-G396",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-3, 0-4, 1-3, 1-4, 2-3, 2-4, 3-6, 4-5}\nDegrees = [4, 4, 2, 2, 2, 1, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 2",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-3, 0-4, 1-3, 1-4, 2-3, 2-4, 3-6, 4-5}\nSorted degree sequence = [4, 4, 2, 2, 2, 1, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 2",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G396; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
     "id": "networkx-3.4.2-G405",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-3, 0-4, 1-3, 1-4, 2-3, 2-4, 2-6, 4-5}\nDegrees = [4, 3, 3, 2, 2, 1, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 2",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-3, 0-4, 1-3, 1-4, 2-3, 2-4, 2-6, 4-5}\nSorted degree sequence = [4, 3, 3, 2, 2, 1, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 2",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G405; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
     "id": "networkx-3.4.2-G411",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-3, 0-4, 1-3, 1-4, 2-3, 2-4, 2-5, 2-6}\nDegrees = [4, 3, 3, 2, 2, 1, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 2",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-3, 0-4, 1-3, 1-4, 2-3, 2-4, 2-5, 2-6}\nSorted degree sequence = [4, 3, 3, 2, 2, 1, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 2",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G411; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -276,7 +276,7 @@
   },
   {
     "id": "networkx-3.4.2-G444",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-1, 0-5, 1-6, 2-3, 2-6, 3-4, 4-6, 5-6}\nDegrees = [4, 2, 2, 2, 2, 2, 2]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 2",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-1, 0-5, 1-6, 2-3, 2-6, 3-4, 4-6, 5-6}\nSorted degree sequence = [4, 2, 2, 2, 2, 2, 2]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 2",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G444; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -291,12 +291,12 @@
   },
   {
     "id": "networkx-3.4.2-G507",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-4, 0-5, 1-4, 1-5, 2-4, 2-5, 3-4, 3-5, 4-6}\nDegrees = [5, 4, 2, 2, 2, 2, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 3",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-4, 0-5, 1-4, 1-5, 2-4, 2-5, 3-4, 3-5, 4-6}\nSorted degree sequence = [5, 4, 2, 2, 2, 2, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 3",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G507; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
     "id": "networkx-3.4.2-G525",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-4, 0-5, 1-4, 1-5, 1-6, 2-4, 2-5, 3-4, 3-5}\nDegrees = [4, 4, 3, 2, 2, 2, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 3",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-4, 0-5, 1-4, 1-5, 1-6, 2-4, 2-5, 3-4, 3-5}\nSorted degree sequence = [4, 4, 3, 2, 2, 2, 1]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 3",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G525; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
@@ -331,12 +331,12 @@
   },
   {
     "id": "networkx-3.4.2-G708",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-3, 0-4, 1-2, 1-3, 1-4, 2-5, 3-5, 3-6, 4-5, 4-6}\nDegrees = [4, 4, 3, 3, 2, 2, 2]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 4",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-3, 0-4, 1-2, 1-3, 1-4, 2-5, 3-5, 3-6, 4-5, 4-6}\nSorted degree sequence = [4, 4, 3, 3, 2, 2, 2]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 4",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G708; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {
     "id": "networkx-3.4.2-G723",
-    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-2, 0-3, 0-5, 1-2, 1-3, 1-6, 2-4, 3-4, 4-5, 4-6}\nDegrees = [4, 3, 3, 3, 3, 2, 2]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 4",
+    "text": "V = {0, 1, 2, 3, 4, 5, 6}\nE = {0-2, 0-3, 0-5, 1-2, 1-3, 1-6, 2-4, 3-4, 4-5, 4-6}\nSorted degree sequence = [4, 3, 3, 3, 3, 2, 2]\nComponents = [[0, 1, 2, 3, 4, 5, 6]]\nCycle rank = 4",
     "provenance": "NetworkX 3.4.2 atlas.dat.gz, graph G723; https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/generators/atlas.dat.gz; SHA256 73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d. BSD-3-Clause, Copyright (C) 2004-2024 NetworkX Developers; full license in ../LICENSE.txt. Original invariant calculations and rendering by Inspire importer."
   },
   {

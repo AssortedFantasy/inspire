@@ -8,18 +8,23 @@ offline; PubChem downloads happen only during development.
 - `compounds/`: 146 PubChem compounds organized by structure, functional group
   and inorganic class. Outputs contain a name, formula, molar mass and molecular
   SMILES. Ionic solids use familiar formula-unit notation without molecular SMILES.
-- `formulas/`: 34 empirical reductions, 15 constitutional-isomer comparison sets
+- `formulas/`: 17 empirical reductions and four shared-composition groups,
+  15 constitutional-isomer comparison sets
   and 26 stereochemical pairs from pinned source structures.
 - `reactions/`: 87 reviewed equation templates in ten leaves: two combustion
   classes, neutralization, weak equilibria, ionic precipitation, carbonate gas
   evolution, metal displacement, aqueous electron transfer, thermal decomposition
   and gas equilibria. Outputs contain the equation, with a fuel identity or a
-  concise heating/catalyst condition where useful.
+  concise heating/catalyst condition where useful. Weak equilibria also compare
+  weak and strong titrations across buffer/equivalence boundaries; ionic salts
+  also compare silver-halide saturation order and selective precipitation.
 
 Top-level weights balance chemical topics. Within `elements` and `compounds`,
 weights follow descendant record counts so each identity samples uniformly.
-Within `reactions`, descendant equation counts likewise give all 87 equations
-equal probability.
+Within `reactions`, descendant weights retain the original equation counts.
+Weak-equilibrium and ionic-salt leaves retain equations in 35% of their draws
+and use the new computed comparisons otherwise. The former global equality
+between individual equation probabilities therefore no longer applies.
 
 ## Reproduction
 

@@ -25,54 +25,9 @@
     "provenance": "PubChem CID 356, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
   },
   {
-    "id": "empirical-6325",
-    "text": "ethylene — C2H4\nEmpirical formula: CH2",
-    "provenance": "PubChem CID 6325, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-8252",
-    "text": "propylene — C3H6\nEmpirical formula: CH2",
-    "provenance": "PubChem CID 8252, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-7844",
-    "text": "1-butene — C4H8\nEmpirical formula: CH2",
-    "provenance": "PubChem CID 7844, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-6326",
-    "text": "acetylene — C2H2\nEmpirical formula: CH",
-    "provenance": "PubChem CID 6326, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
     "id": "empirical-7846",
     "text": "1-butyne — C4H6\nEmpirical formula: C2H3",
     "provenance": "PubChem CID 7846, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-6351",
-    "text": "cyclopropane — C3H6\nEmpirical formula: CH2",
-    "provenance": "PubChem CID 6351, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-9250",
-    "text": "cyclobutane — C4H8\nEmpirical formula: CH2",
-    "provenance": "PubChem CID 9250, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-9253",
-    "text": "cyclopentane — C5H10\nEmpirical formula: CH2",
-    "provenance": "PubChem CID 9253, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-8078",
-    "text": "cyclohexane — C6H12\nEmpirical formula: CH2",
-    "provenance": "PubChem CID 8078, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-241",
-    "text": "benzene — C6H6\nEmpirical formula: CH",
-    "provenance": "PubChem CID 241, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
   },
   {
     "id": "empirical-7500",
@@ -100,16 +55,6 @@
     "provenance": "PubChem CID 174, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
   },
   {
-    "id": "empirical-176",
-    "text": "acetic acid — C2H4O2\nEmpirical formula: CH2O",
-    "provenance": "PubChem CID 176, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-264",
-    "text": "butyric acid — C4H8O2\nEmpirical formula: C2H4O",
-    "provenance": "PubChem CID 264, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
     "id": "empirical-971",
     "text": "oxalic acid — C2H2O4\nEmpirical formula: CHO2",
     "provenance": "PubChem CID 971, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
@@ -118,21 +63,6 @@
     "id": "empirical-1110",
     "text": "succinic acid — C4H6O4\nEmpirical formula: C2H3O2",
     "provenance": "PubChem CID 1110, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-7865",
-    "text": "methyl formate — C2H4O2\nEmpirical formula: CH2O",
-    "provenance": "PubChem CID 7865, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-8857",
-    "text": "ethyl acetate — C4H8O2\nEmpirical formula: C2H4O",
-    "provenance": "PubChem CID 8857, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-31275",
-    "text": "dioxane — C4H8O2\nEmpirical formula: C2H4O",
-    "provenance": "PubChem CID 31275, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
   },
   {
     "id": "empirical-9260",
@@ -150,23 +80,28 @@
     "provenance": "PubChem CID 5962, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
   },
   {
-    "id": "empirical-5793",
-    "text": "D-glucose — C6H12O6\nEmpirical formula: CH2O",
-    "provenance": "PubChem CID 5793, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-2723872",
-    "text": "D-fructose — C6H12O6\nEmpirical formula: CH2O",
-    "provenance": "PubChem CID 2723872, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
-    "id": "empirical-10975657",
-    "text": "D-ribose — C5H10O5\nEmpirical formula: CH2O",
-    "provenance": "PubChem CID 10975657, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
-  },
-  {
     "id": "empirical-784",
     "text": "hydrogen peroxide — H2O2\nEmpirical formula: HO",
     "provenance": "PubChem CID 784, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts."
+  },
+  {
+    "id": "empirical-shared-ch2",
+    "text": "CH2 — shared empirical formula\nethylene — C2H4\ncyclopropane — C3H6\npropylene — C3H6\n1-butene — C4H8\ncyclobutane — C4H8\ncyclopentane — C5H10\ncyclohexane — C6H12",
+    "provenance": "PubChem CIDs 6325, 6351, 8252, 7844, 9250, 9253, 8078, molecular formulas from chemistry/source_manifest.json. Equal element ratios verified by cross multiplication; distinct molecular formulas retained alongside distinct named structures."
+  },
+  {
+    "id": "empirical-shared-ch",
+    "text": "CH — shared empirical formula\nacetylene — C2H2\nbenzene — C6H6",
+    "provenance": "PubChem CIDs 6326, 241, molecular formulas from chemistry/source_manifest.json. Equal element ratios verified by cross multiplication; distinct molecular formulas retained alongside distinct named structures."
+  },
+  {
+    "id": "empirical-shared-ch2o",
+    "text": "CH2O — shared empirical formula\nformaldehyde — CH2O\nacetic acid — C2H4O2\nmethyl formate — C2H4O2\nD-ribose — C5H10O5\nD-glucose — C6H12O6\nD-fructose — C6H12O6",
+    "provenance": "PubChem CIDs 712, 176, 7865, 10975657, 5793, 2723872, molecular formulas from chemistry/source_manifest.json. Equal element ratios verified by cross multiplication; distinct molecular formulas retained alongside distinct named structures."
+  },
+  {
+    "id": "empirical-shared-c2h4o",
+    "text": "C2H4O — shared empirical formula\nacetaldehyde — C2H4O\nbutyric acid — C4H8O2\nethyl acetate — C4H8O2\ndioxane — C4H8O2",
+    "provenance": "PubChem CIDs 177, 264, 8857, 31275, molecular formulas from chemistry/source_manifest.json. Equal element ratios verified by cross multiplication; distinct molecular formulas retained alongside distinct named structures."
   }
 ]

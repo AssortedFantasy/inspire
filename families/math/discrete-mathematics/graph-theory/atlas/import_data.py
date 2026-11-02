@@ -146,7 +146,7 @@ def import_records(raw):
         edge_text = ", ".join(f"{u}-{v}" for u, v in edges)
         color_classes = [[v for v, c in enumerate(colors) if c == color] for color in range(chi)]
         views = [
-            [f"Degrees = {degree}", f"Components = {parts}", f"Cycle rank = {rank}"],
+            [f"Sorted degree sequence = {degree}", f"Components = {parts}", f"Cycle rank = {rank}"],
             [f"Chromatic number = {chi}", f"Color classes = {color_classes}",
              f"Maximum independent set = {list(independent_set)}"],
             [f"Triangles = {triangles}", f"Spanning trees = {spanning}",

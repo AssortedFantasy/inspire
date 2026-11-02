@@ -2,7 +2,9 @@
 
 Exact orthogonal projections onto a line or its perpendicular plane in R^3,
 selected with equal probability. Each output contains the target subspace, the
-rational matrix, and one projected integer vector.
+exact decomposition of an integer vector into its projection and orthogonal
+residual. The matrix stays internal rather than repeating the same map in
+another representation.
 
 Direction coordinates start in [-6,6]; an all-zero draw gets a nonzero pivot.
 The direction is reduced to a primitive integer vector with positive first

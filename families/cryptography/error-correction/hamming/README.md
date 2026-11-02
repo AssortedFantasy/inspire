@@ -11,7 +11,9 @@ decoder's double-error miscorrection beside SECDED rejection. Burst traces
 compare row-major transmission with column interleaving at lengths one below,
 equal to, and one above the lane count. `WRONG` marks decoded data that differs
 from the transmitted payload, including failures beyond SECDED's two-error
-regime. Payloads contain 4–8 independent nibbles.
+regime. Payloads contain 4–8 independent nibbles. Clean blocks retain a 1/12
+share of draws and print the codewords and shared zero syndrome in one compact
+specimen instead of repeating identical decoder rows.
 
 Tests enumerate both codebooks from independent parity constraints, check
 minimum distances 3 and 4, compare every possible received word against its

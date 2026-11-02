@@ -1,6 +1,6 @@
 use rand::{Rng, rngs::StdRng};
 
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, PartialEq, Eq)]
 enum Op {
     Knit(usize),
     Purl(usize),
@@ -214,6 +214,31 @@ fn pattern(rng: &mut StdRng) -> Pattern {
     }
 }
 
+struct RoundRun<'a> {
+    first: usize,
+    last: usize,
+    row: &'a [Op],
+}
+
+fn round_runs(rounds: &[Vec<Op>]) -> Vec<RoundRun<'_>> {
+    let mut runs: Vec<RoundRun<'_>> = Vec::new();
+    for (i, row) in rounds.iter().enumerate() {
+        if let Some(last) = runs
+            .last_mut()
+            .filter(|last| last.row == row && row.iter().map(Op::change).sum::<isize>() == 0)
+        {
+            last.last = i + 1;
+        } else {
+            runs.push(RoundRun {
+                first: i + 1,
+                last: i + 1,
+                row,
+            });
+        }
+    }
+    runs
+}
+
 pub fn generate(rng: &mut StdRng) -> String {
     let p = pattern(rng);
     let mut lines = vec![
@@ -225,13 +250,18 @@ pub fn generate(rng: &mut StdRng) -> String {
         .rounds
         .iter()
         .any(|row| row.iter().map(Op::change).sum::<isize>() != 0);
-    for (i, row) in p.rounds.iter().enumerate() {
-        live += row.iter().map(Op::change).sum::<isize>();
-        let text = row.iter().map(Op::text).collect::<Vec<_>>().join(", ");
-        lines.push(if shaped {
-            format!("Round {}  [{text}]  ({live} sts)", i + 1)
+    for run in round_runs(&p.rounds) {
+        live += run.row.iter().map(Op::change).sum::<isize>() * (run.last - run.first + 1) as isize;
+        let label = if run.first == run.last {
+            format!("Round {}", run.first)
         } else {
-            format!("Round {}  [{text}]", i + 1)
+            format!("Rounds {}–{}", run.first, run.last)
+        };
+        let text = run.row.iter().map(Op::text).collect::<Vec<_>>().join(", ");
+        lines.push(if shaped {
+            format!("{label}  [{text}]  ({live} sts)")
+        } else {
+            format!("{label}  [{text}]")
         });
     }
     lines.join("\n")
@@ -242,6 +272,38 @@ mod tests {
     use super::*;
     use rand::SeedableRng;
     use std::collections::HashSet;
+
+    #[test]
+    fn compressed_rounds_expand_to_the_same_working_instructions() {
+        let mut compressed = HashSet::new();
+        for seed in 0..512 {
+            let p = pattern(&mut StdRng::seed_from_u64(seed));
+            let runs = round_runs(&p.rounds);
+            let mut expanded = Vec::new();
+            for run in &runs {
+                assert_eq!(run.first, expanded.len() + 1);
+                assert!(run.last >= run.first);
+                expanded.extend((run.first..=run.last).map(|_| run.row.to_vec()));
+            }
+            assert_eq!(expanded, p.rounds);
+            assert!(runs.windows(2).all(|pair| pair[0].row != pair[1].row));
+            if runs.len() < p.rounds.len() {
+                compressed.insert(p.name);
+            }
+        }
+        assert!(compressed.contains("Opposed cables"));
+        assert!(compressed.contains("Three-strand braid"));
+        assert!(compressed.contains("Knit-purl blocks"));
+
+        // Neither the holding direction nor distinct live counts can disappear.
+        let rounds = vec![
+            vec![Op::Cable(2, true)],
+            vec![Op::Cable(2, false)],
+            vec![Op::Kfb],
+            vec![Op::Kfb],
+        ];
+        assert_eq!(round_runs(&rounds).len(), rounds.len());
+    }
 
     // Interpret each row against an actual needle, consuming every old loop.
     // The pairs carried by a decreased loop retain both source positions.

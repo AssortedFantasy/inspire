@@ -5,6 +5,7 @@ editorial pages with marginalia, and asymmetric posters. Column and row spans
 describe layout zones, including the gutters inside a span. Manuscript margins
 are inner/top/outer/bottom 2:3:4:6 units on a 2:3 page; the other regimes allocate
 the remaining space by largest remainders. Every axis closes exactly.
+Zones use inclusive track ranges, with a single index for a one-track span.
 
 Tests reconstruct both axes and rasterize every zone onto grid cells, checking
 that the cells are covered once. Grids specify geometry, without typography,

@@ -32,13 +32,20 @@ pub fn generate(rng: &mut StdRng) -> String {
             ) < 0
         })
         .count();
-    format!(
-        "<path d=\"{path} Z\"/>\nArea = {area}\nPerimeter ≈ {perimeter}\nReflex vertices = {reflex}"
-    )
+    let mut text = format!("<path d=\"{path} Z\"/>\nArea = {area}\nPerimeter ≈ {perimeter}");
+    if polygon.len() > 3 {
+        text.push_str(&format!("\nReflex vertices = {reflex}"));
+    }
+    text
 }
 
 fn sample(rng: &mut StdRng) -> Vec<Point> {
-    let mut polygon = match rng.random_range(0..5) {
+    let regime = rng.random_range(0..5);
+    sample_regime(rng, regime)
+}
+
+fn sample_regime(rng: &mut StdRng, regime: usize) -> Vec<Point> {
+    let mut polygon = match regime {
         0 => {
             let points: Vec<_> = (0..rng.random_range(8..=24))
                 .map(|_| (rng.random_range(0..=30), rng.random_range(0..=30)))
@@ -78,9 +85,9 @@ fn sample(rng: &mut StdRng) -> Vec<Point> {
                 .enumerate()
                 .map(|(i, &(x, y))| {
                     let radius = if i % 2 == 0 {
-                        rng.random_range(12..=20)
+                        rng.random_range(12..=18)
                     } else {
-                        rng.random_range(1..=3)
+                        rng.random_range(4..=5)
                     };
                     (x * radius, y * radius)
                 })
@@ -132,9 +139,14 @@ fn sample(rng: &mut StdRng) -> Vec<Point> {
             ]
         }
         _ => {
-            let width = rng.random_range(15..=50);
+            let width: i64 = rng.random_range(12..=30);
             let tip = rng.random_range(1..width);
-            vec![(0, 0), (width, 0), (tip, 1)]
+            let height = if rng.random_bool(0.5) {
+                rng.random_range((width + 5) / 6..=(width + 2) / 3)
+            } else {
+                rng.random_range((width + 1) / 2..=width)
+            };
+            vec![(0, 0), (width, 0), (tip, height)]
         }
     };
     let rotation = rng.random_range(0..4);
@@ -247,8 +259,8 @@ mod tests {
         let mut rng = StdRng::seed_from_u64(401);
         let mut vertex_counts = HashSet::new();
         let mut concave = 0;
-        for _ in 0..10_000 {
-            let p = sample(&mut rng);
+        for i in 0..10_000 {
+            let p = sample_regime(&mut rng, i % 5);
             let n = p.len();
             vertex_counts.insert(n);
             assert_eq!(p.iter().collect::<HashSet<_>>().len(), n);
@@ -267,6 +279,39 @@ mod tests {
         }
         assert!(concave > 4000);
         assert!(vertex_counts.len() >= 8);
+    }
+
+    #[test]
+    fn thin_triangles_and_star_tips_have_bounded_acute_angles() {
+        let mut rng = StdRng::seed_from_u64(919);
+        let mut thin = 0;
+        let mut ordinary = 0;
+        for regime in [1, 4] {
+            for _ in 0..4096 {
+                let p = sample_regime(&mut rng, regime);
+                if regime == 4 {
+                    let width = p.iter().map(|p| p.0).max().unwrap();
+                    let height = p.iter().map(|p| p.1).max().unwrap();
+                    let (short, long) = (width.min(height), width.max(height));
+                    assert!(short >= 2 && long <= 6 * short);
+                    thin += usize::from(long >= 3 * short);
+                    ordinary += usize::from(long <= 2 * short);
+                }
+                for i in 0..p.len() {
+                    let a = p[(i + p.len() - 1) % p.len()];
+                    let b = p[i];
+                    let c = p[(i + 1) % p.len()];
+                    let turn = cross(a, b, c);
+                    if turn > 0 {
+                        let dot = (a.0 - b.0) * (c.0 - b.0) + (a.1 - b.1) * (c.1 - b.1);
+                        // For acute interior angles, cot(angle) = dot / cross.
+                        // Thus no convex tip is sharper than atan(1/6).
+                        assert!(dot <= 6 * turn);
+                    }
+                }
+            }
+        }
+        assert!(thin > 1000 && ordinary > 1000);
     }
 
     #[test]

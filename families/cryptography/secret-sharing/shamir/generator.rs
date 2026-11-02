@@ -51,8 +51,12 @@ pub fn generate(rng: &mut StdRng) -> String {
         let other_secret = (coefficients[0] + rng.random_range(1..*p)) % p;
         let alternative = compatible_polynomial(coefficients, &observed, other_secret, *p);
         lines.push(format!(
-            "\nTwo polynomials through these {} shares\n{}",
-            k - 1,
+            "\nTwo polynomials through {}\n{}",
+            if observed.len() == 1 {
+                "this share"
+            } else {
+                "these shares"
+            },
             points(&observed)
         ));
         lines.push(format!("g(x) = {}", polynomial(&alternative)));

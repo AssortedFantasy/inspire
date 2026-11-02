@@ -51,12 +51,14 @@ def constitutional_records(compounds):
 
 def empirical_records(compounds):
     records = []
+    groups = defaultdict(list)
     for entry in compounds:
         if not (entry["category"].startswith("organic/") or entry["category"] == "inorganic/molecules"):
             continue
         formula = entry["MolecularFormula"]
         atoms = composition(formula)
         divisor = math.gcd(*atoms.values())
+        groups[empirical(atoms)].append(entry)
         if divisor == 1:
             continue
         reduced = empirical(atoms)
@@ -67,6 +69,31 @@ def empirical_records(compounds):
             "text": f'{entry["name"]} — {formula}\nEmpirical formula: {reduced}',
             "provenance": f'PubChem CID {entry["CID"]}, molecular formula from chemistry/source_manifest.json. Empirical formula reduced by the greatest common divisor of the atom counts.',
         })
+    # Replace repeated reductions within a shared ratio by a single comparison.
+    # A single empirical formula can hide both different molecular sizes and
+    # different structures at the same size. Keep ordinary ungrouped reductions.
+    covered = set()
+    comparisons = []
+    for reduced, group in groups.items():
+        if len({entry["MolecularFormula"] for entry in group}) < 2:
+            continue
+        group.sort(key=lambda entry: (sum(composition(entry["MolecularFormula"]).values()), entry["CID"]))
+        unit = composition(reduced)
+        for entry in group:
+            atoms = composition(entry["MolecularFormula"])
+            assert atoms.keys() == unit.keys()
+            # Cross multiplication checks common ratios independently of GCD.
+            assert all(atoms[a] * unit[b] == atoms[b] * unit[a] for a in unit for b in unit)
+            covered.add(f'empirical-{entry["CID"]}')
+        cids = ", ".join(str(entry["CID"]) for entry in group)
+        lines = [f'{entry["name"]} — {entry["MolecularFormula"]}' for entry in group]
+        comparisons.append({
+            "id": "empirical-shared-" + reduced.lower(),
+            "text": f'{reduced} — shared empirical formula\n' + "\n".join(lines),
+            "provenance": f'PubChem CIDs {cids}, molecular formulas from chemistry/source_manifest.json. Equal element ratios verified by cross multiplication; distinct molecular formulas retained alongside distinct named structures.',
+        })
+    records = [record for record in records if record["id"] not in covered]
+    records.extend(comparisons)
     return records
 
 

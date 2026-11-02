@@ -126,27 +126,42 @@ fn trace(rng: &mut StdRng, mode: u8) -> String {
     let width = if extended { 8 } else { 7 };
     let count = rng.random_range(4..=8);
     let data = random_data(rng, count);
+    if mode == 0 {
+        let words = data
+            .iter()
+            .map(|&value| bits(encode(value, extended), width))
+            .collect::<Vec<_>>()
+            .join(" ");
+        return format!(
+            "Hamming({width},4), even parity\nbit positions {}\nreceived {words}\nsyndrome 000 throughout{}\ndecoded {}",
+            if extended { "12345678" } else { "1234567" },
+            if extended {
+                ", overall parity even"
+            } else {
+                ""
+            },
+            payload(&data),
+        );
+    }
     let mut masks: Vec<u8> = (0..count)
         .map(|_| {
-            if mode == 0 || rng.random_bool(0.45) {
+            if rng.random_bool(0.45) {
                 0
             } else {
                 bit(rng.random_range(1..=width))
             }
         })
         .collect();
-    if mode != 0 {
-        let focus = rng.random_range(0..count);
-        masks[focus] = match mode {
-            1 => bit([1, 2, 4][rng.random_range(0..3)]),
-            2 => bit([3, 5, 6, 7][rng.random_range(0..4)]),
-            3 => bit(rng.random_range(1..=width)),
-            4 => bit(8),
-            5 => bit(8) | bit(rng.random_range(1..=7)),
-            _ => random_pair(rng, 7),
-        };
-        masks[(focus + 1) % count] = 0;
-    }
+    let focus = rng.random_range(0..count);
+    masks[focus] = match mode {
+        1 => bit([1, 2, 4][rng.random_range(0..3)]),
+        2 => bit([3, 5, 6, 7][rng.random_range(0..4)]),
+        3 => bit(rng.random_range(1..=width)),
+        4 => bit(8),
+        5 => bit(8) | bit(rng.random_range(1..=7)),
+        _ => random_pair(rng, 7),
+    };
+    masks[(focus + 1) % count] = 0;
     let mut output = format!(
         "Hamming({width},4), even parity\nbit positions {}\npayload {}\n\nword  received  syndrome{}  decoder",
         if extended { "12345678" } else { "1234567" },

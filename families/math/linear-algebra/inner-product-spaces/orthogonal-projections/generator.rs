@@ -5,25 +5,19 @@ pub fn generate(rng: &mut StdRng) -> String {
     let d = dot(u, u);
     let plane = rng.random_bool(0.5);
     let numerators = projection(u, plane);
-    let matrix = (0..3)
-        .map(|i| {
-            format!(
-                "  [{}]",
-                (0..3)
-                    .map(|j| fraction(numerators[i][j], d))
-                    .collect::<Vec<_>>()
-                    .join(", ")
-            )
-        })
-        .collect::<Vec<_>>()
-        .join("\n");
-    let image = numerators.map(|row| fraction(dot(row, x), d)).join(", ");
+    let along = numerators.map(|row| dot(row, x));
+    let across = std::array::from_fn(|i| d * x[i] - along[i]);
+    let vector = |v: [i64; 3]| format!("[{}]", v.map(|n| fraction(n, d)).join(", "));
     let target = if plane {
-        format!("{{v in R^3 : {u:?} dot v = 0}}")
+        format!("L = {{v in R^3 : {u:?} dot v = 0}}")
     } else {
-        format!("span{{{u:?}}}")
+        format!("L = span{{{u:?}}}")
     };
-    format!("Orthogonal projection onto {target}\nP=[\n{matrix}\n]\nP {x:?} = [{image}]")
+    format!(
+        "{target}\nx = x_parallel + x_perp\n{x:?} = {} + {}\nx_parallel dot x_perp = 0",
+        vector(along),
+        vector(across)
+    )
 }
 
 fn projection(u: [i64; 3], plane: bool) -> [[i64; 3]; 3] {
@@ -115,6 +109,10 @@ mod tests {
             }
             let along = line.map(|row| dot(row, x));
             let across = plane.map(|row| dot(row, x));
+            assert_eq!(
+                std::array::from_fn::<_, 3, _>(|i| along[i] + across[i]),
+                x.map(|v| d * v)
+            );
             assert_eq!(dot(along, across), 0);
             assert_eq!(dot(u, across), 0);
             assert_eq!(dot(along, along) + dot(across, across), d * d * dot(x, x));

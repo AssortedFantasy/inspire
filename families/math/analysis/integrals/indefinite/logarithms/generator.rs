@@ -56,7 +56,7 @@ impl Problem {
             a: rng.random_range(1..=6),
             b: rng.random_range(-5..=5),
             c: rng.random_range(1..=9) * if rng.random() { 1 } else { -1 },
-            n: rng.random_range(1..=4),
+            n: [-1, -1, 1, 2, 3, 4][rng.random_range(0..6)],
         }
     }
 
@@ -75,12 +75,21 @@ impl Problem {
                 product(c, 1, &log),
                 product(c, a, &format!("({u}*{log} - {u})")),
             ),
+            Kind::LogarithmicPower if n == -1 => (
+                format!("{c}/({u}*{log})"),
+                product(c, a, &format!("ln(|{log}|)")),
+            ),
             Kind::LogarithmicPower => (
                 product(c, 1, &format!("({log})^{n}/{u}")),
                 product(c, a * (n + 1), &format!("({log})^{}", n + 1)),
             ),
         };
-        format!("integral ({integrand}) dx = {answer} + C\n{u} != 0")
+        let domain = if matches!(kind, Kind::LogarithmicPower) && n == -1 {
+            format!("{u} not in {{-1, 0, 1}}")
+        } else {
+            format!("{u} != 0")
+        };
+        format!("integral ({integrand}) dx = {answer} + C\n{domain}")
     }
 
     #[cfg(test)]
@@ -101,6 +110,7 @@ impl Problem {
         match self.kind {
             Kind::Reciprocal => c / a * u.abs().ln(),
             Kind::LogarithmByParts => c / a * (u * u.abs().ln() - u),
+            Kind::LogarithmicPower if self.n == -1 => c / a * u.abs().ln().abs().ln(),
             Kind::LogarithmicPower => {
                 c / (a * f64::from(self.n + 1)) * u.abs().ln().powi(self.n + 1)
             }
@@ -119,9 +129,15 @@ mod tests {
             for a in 1..=6 {
                 for b in -5..=5 {
                     for c in (-9..=9).filter(|&c| c != 0) {
-                        for n in 1..=4 {
+                        for n in [-1, 1, 2, 3, 4] {
                             let p = Problem { kind, a, b, c, n };
                             for u in [-3.0_f64, -1.0, -0.75, -0.25, 0.25, 0.75, 1.0, 3.0] {
+                                if matches!(kind, Kind::LogarithmicPower)
+                                    && n == -1
+                                    && u.abs() == 1.0
+                                {
+                                    continue;
+                                }
                                 let x = (u - f64::from(b)) / f64::from(a);
                                 let h = 1e-6;
                                 let derivative =
@@ -150,7 +166,8 @@ mod tests {
             p.kind = kind;
             let text = p.render();
             assert!(text.contains(" + C"));
-            assert!(text.contains(" != 0"));
+            let nested = matches!(kind, Kind::LogarithmicPower) && p.n == -1;
+            assert!(text.contains(if nested { "not in {-1, 0, 1}" } else { " != 0" }));
         }
     }
 }

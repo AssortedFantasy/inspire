@@ -15,14 +15,15 @@ impartial games, and puzzles. Branches balance topics rather than corpus size.
   cribbage hands and cribs with exact show-point breakdowns.
 - `chance/dice`: seven mechanisms using compact roll notation.
 - `abstract/impartial`: normal and misère Nim, normal Kayles, and finite
-  subtraction positions. Nim and Kayles report exact outcomes and every winning
-  move; only normal play reports Sprague–Grundy values.
+  subtraction positions. All report exact outcomes and every winning move;
+  subtraction also reports its eventual N/P cycle, proved by a repeated complete
+  recurrence state. Normal Nim and Kayles report Sprague–Grundy values.
 - `puzzles`: unique Sudoku, nonograms, Kakuro, and irredundant Mastermind and
   logic-grid clue sets, plus solvable eight-puzzles and ASCII tree mazes from
   three spanning-tree algorithms.
 
 Procedural leaves are original code and text, using only bounded local work and
-one supplied RNG. They sample legal objects; Nim and Kayles have exact analyses.
+one supplied RNG. They sample legal objects; impartial games have exact analyses.
 Board-state sampling is biased by random trajectories; puzzle generation has no asserted
 human difficulty level. Board positions retain move histories; puzzle outputs
 show the puzzle directly. Card outputs do not model betting or bidding.

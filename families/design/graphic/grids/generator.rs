@@ -153,6 +153,14 @@ fn list(values: &[usize]) -> String {
         .join(" + ")
 }
 
+fn span(axis: &str, (first, last): (usize, usize)) -> String {
+    if first == last {
+        format!("{axis} {first}")
+    } else {
+        format!("{axis}s {first}–{last}")
+    }
+}
+
 pub fn generate(rng: &mut StdRng) -> String {
     let g = grid(rng);
     let [left, right, top, bottom] = g.margins;
@@ -170,8 +178,10 @@ pub fn generate(rng: &mut StdRng) -> String {
         ));
         for a in &g.areas {
             lines.push(format!(
-                "{}  columns {}–{}, rows {}–{}",
-                a.name, a.columns.0, a.columns.1, a.rows.0, a.rows.1
+                "{}  {}, {}",
+                a.name,
+                span("column", a.columns),
+                span("row", a.rows)
             ));
         }
     }

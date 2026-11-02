@@ -21,6 +21,13 @@ hot products. Fuel names distinguish isomers that share a molecular formula.
 Outputs use primitive integer coefficients, with no randomly scaled extents or
 repeated consumption/production calculations.
 
+Two leaves also expose equilibrium contrasts, retaining their ordinary equations
+in 35% of draws. Weak equilibria compare strong and weak titration curves across
+buffering, equivalence and overshoot. Ionic salts compare selective silver-halide
+precipitation, including reversed and coincident onsets. Their hand-maintained
+`modes.rs` files and leaf READMEs contain bounded models, assumptions and sources;
+regeneration preserves them. Existing equation-count weights remain unchanged.
+
 Rust tests independently parse displayed formulas, parentheses and charges, and
 check every complete equation rather than sampled outputs alone. Balance is
 necessary but does not establish feasibility; the source catalog contains

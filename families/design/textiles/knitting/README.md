@@ -4,6 +4,9 @@ Original circular stitch patterns cover moving paired eyelets, opposed cables,
 three-strand braids, diagonal or block knit-purl textures, and panels that grow then
 return to their original width. Every printed round is one horizontal repeat.
 Shaping counts are per repeat, not for the entire circumference.
+Consecutive identical rounds share an inclusive round range; each round in the
+range works the bracketed instructions once. Stitch-changing rounds remain
+separate so their live-stitch counts stay explicit.
 
 Notation follows US knitting usage. C4F/C6F hold 2/3 stitches in front, knit the
 next 2/3, then knit the held stitches; B holds them behind. Cable crossings
@@ -16,6 +19,8 @@ Tests work two vertical repeats against a symbolic needle, consume every input
 loop exactly once, retain source ancestry through decreases, check increases and
 cable permutations, and recover the initial live-stitch count. They establish
 workability and stitch accounting, not a physically knitted fabric review.
+Compression tests expand every round range back to the original operations,
+including cable directions and shaping boundaries.
 
 Primary terminology references, checked 2026-10-22:
 
