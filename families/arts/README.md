@@ -1,6 +1,6 @@
 # Arts
 
-1,865 records across four equally weighted topics: painting, drawing, printmaking
+1,867 records across four equally weighted topics: painting, drawing, printmaking
 and theatre. The three museum topics each contain 600 CC0 catalogue works from
 the Cleveland Museum of Art. Selection cycles through source culture groups,
 with deterministic ID-hash ordering within each group. Titles, dates, creators,
@@ -25,12 +25,14 @@ The standard-library importer shares `target/imports/cleveland/data.csv` with
 objects. The three museum topics have equal shares; every record within each
 topic is equally likely. `painting/LICENSE.md` records their common reuse notice.
 
-65 verbatim stage-direction blocks from four checksum-pinned public-domain
+67 verbatim stage-direction passages from four checksum-pinned public-domain
 plays: five from Ibsen's A Doll's House, twelve from An Enemy of the People,
-twenty from Shaw's Arms and the Man, and twenty-eight from Pygmalion. Both
+twenty-one from Shaw's Arms and the Man, and twenty-nine from Pygmalion. Both
 Ibsen plays use R. Farquharson Sharp's English translation.
 
-Each block retains consecutive standalone direction paragraphs within an act.
+Each passage retains consecutive standalone direction paragraphs within an act.
+Two long Shaw openings are split between complete paragraphs, separating the
+setting from the characters while preserving all source text.
 Complete blocks of 120–8,000 characters are included, preserving room layouts,
 costume descriptions, entrances, movement and pantomime. Short cues and large
 blocks are omitted whole. Inline cues within spoken dialogue are excluded.
@@ -54,5 +56,5 @@ The ignored cache lives under `target/imports/cultural`. Upstream changes fail
 checksum validation. `sources.json` identifies editions and rights; `LICENSE.txt`
 includes the source notice and ebook license. The underlying English texts are
 public domain in the USA and Canada. The family has weight 2. Writer and play
-weights match descendant record counts, so all 65 blocks have equal probability
+weights match descendant record counts, so all 67 passages have equal probability
 within the stage-direction collection, including the five-block leaf.

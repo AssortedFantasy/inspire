@@ -1,4 +1,4 @@
-"""Replay whole stage-direction blocks. Development: beautifulsoup4==4.12.3."""
+"""Replay stage-direction blocks and explicitly selected paragraph excerpts. Development: beautifulsoup4==4.12.3."""
 
 import argparse
 import hashlib
@@ -28,12 +28,22 @@ def extract(source, soup):
         nonlocal block
         if not block:
             return
-        body = "\n\n".join(block)
+        paragraphs = block
         block = []
+        # Preserve the two long Shaw openings as complete source paragraphs:
+        # setting followed by characters, with no sentence clipping.
+        splits = {
+            (3618, "ACT I", 1, 3): [(1, 1), (2, 3)],
+            (3825, "ACT II", 1, 5): [(1, 4), (5, 5)],
+        }
+        for lo, hi in splits.get((source["id"], act, first, last), [(first, last)]):
+            append_record("\n\n".join(paragraphs[lo - first:hi - first + 1]), lo, hi)
+
+    def append_record(body, lo, hi):
         # Tiny movement cues and oversize openings are omitted in full.
         if not 120 <= len(body) <= 8000:
             return
-        locator = f"{act}, stage block {first}–{last}"
+        locator = f"{act}, stage block {lo}–{hi}"
         credit = f"{source['author']}, {source['title']}, {act}"
         if translator := source.get("translator"):
             credit += f" ({translator} translation)"
@@ -45,6 +55,9 @@ def extract(source, soup):
             "provenance": f"{source['catalog_url']}. {locator}. "
             "Ordinals count every source paragraph in the act, including dialogue; "
             "consecutive standalone direction paragraphs form one complete block. "
+            + ("This excerpt retains complete paragraphs from the opening block. "
+               if (lo, hi) != (first, last) else "")
+            +
             f"Pinned HTML SHA-256 {source['sha256']}. {source['rights']}",
         })
 
@@ -112,7 +125,7 @@ def main():
         raw = path.read_bytes()
         assert hashlib.sha256(raw).hexdigest() == source["sha256"], f"checksum: {path}"
         records = extract(source, BeautifulSoup(raw, "html.parser"))
-        assert len(records) == {2542: 5, 2446: 12, 3618: 20, 3825: 28}[source["id"]]
+        assert len(records) == {2542: 5, 2446: 12, 3618: 21, 3825: 29}[source["id"]]
         emit(ROOT / source["path"] / "records.json",
              json.dumps(records, ensure_ascii=False, indent=2) + "\n", args.check)
         counts[ROOT / source["path"]] = len(records)
