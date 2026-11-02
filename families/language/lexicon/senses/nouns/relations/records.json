@@ -30,11 +30,6 @@
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {
-    "id": "wn30-n-13846900",
-    "text": "third (n.)\nfollowing the second position in an ordering or series",
-    "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
-  },
-  {
     "id": "wn30-n-13837200",
     "text": "price competition (n.)\nintense competition in which competitors cut retail prices to gain business",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
@@ -282,11 +277,6 @@
   {
     "id": "wn30-n-13831176",
     "text": "north (n.)\nthe cardinal compass point that is at 0 or 360 degrees",
-    "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
-  },
-  {
-    "id": "wn30-n-13846199",
-    "text": "first (n.)\nthe first or highest in an ordering or series",
     "provenance": "Princeton WordNet 3.0 (2006), https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz; archive SHA256 640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52. Redistributed under its permissive WordNet license; full notice in lexicon/LICENSE. Definitions extracted verbatim, usage quotations omitted. IDs preserve POS and byte offset. Development-time filtering and selection: families/language/import_wordnet.py."
   },
   {

@@ -39,7 +39,8 @@ summits, surveyed coordinates or geographic centroids. Capes and waterfalls use
 GeoJSON point geometry: stale latitude/longitude attributes put several Antarctic
 capes near New Zealand and place Victoria Falls incorrectly. Mountains' coordinate
 attributes agree with their geometry. Lake and river text labels the mapped
-extent center; a bounding-box center can fall outside the feature.
+bounding-box center as `Mapped bounds center`; this position can fall outside
+the feature.
 All pieces sharing a river dissolve ID contribute to its extent, including the
 split Loire and Maas geometries. Conflicting names for one dissolve ID fail import.
 Records sharing a name can still represent distinct features or mapped river

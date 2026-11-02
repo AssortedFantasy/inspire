@@ -12,6 +12,8 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parent
 CACHE = ROOT.parents[1] / "target/imports/cultural"
 EXCERPTS = json.loads((ROOT / "excerpts.json").read_text(encoding="utf-8"))
+# Reviewed transcription repairs only; see transcription-corrections.md.
+CORRECTIONS = json.loads((ROOT / "transcription-corrections.json").read_text(encoding="utf-8"))
 
 
 def clean(node):
@@ -66,6 +68,20 @@ def passages(item):
         previous_end = end
     assert not body[previous_end:].strip()
     return result
+
+
+def correct_transcription(item):
+    changes = CORRECTIONS.get(item["id"], [])
+    for old, new in changes:
+        assert item["text"].count(old) == 1, (item["id"], old)
+        item["text"] = item["text"].replace(old, new, 1)
+    if changes:
+        item["provenance"] += (
+            " Reviewed transcription repairs: families/belief/transcription-corrections.json; "
+            "corroborated against https://www.gutenberg.org/ebooks/56644. "
+            "Character spans refer to the pinned source before these repairs."
+        )
+    return item
 
 
 def tao(source, soup):
@@ -203,6 +219,7 @@ def main():
     args = parser.parse_args()
     sources = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))
     all_texts = set()
+    all_ids = set()
     for source in sources:
         path = CACHE / f"pg{source['id']}.html"
         if args.download:
@@ -211,14 +228,16 @@ def main():
         raw = path.read_bytes()
         assert hashlib.sha256(raw).hexdigest() == source["sha256"], f"checksum: {path}"
         records = PARSERS[source["parser"]](source, BeautifulSoup(raw, "html.parser"))
-        records = [part for item in records for part in passages(item)]
+        records = [correct_transcription(part) for item in records for part in passages(item)]
         assert len({item["id"] for item in records}) == len(records)
         for item in records:
             assert item["text"] not in all_texts
             all_texts.add(item["text"])
+            all_ids.add(item["id"])
         emit(ROOT / source["path"] / "records.json",
              json.dumps(records, ensure_ascii=False, indent=2) + "\n", args.check)
         print(f"{source['path']}: {len(records)}")
+    assert CORRECTIONS.keys() <= all_ids, "unused transcription repair"
 
 
 if __name__ == "__main__":

@@ -66,8 +66,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314143",
-    "text": "Ajdabiya - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2983; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314143; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Ajdabiya - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2983; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314143; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159313767",
@@ -86,8 +86,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314153",
-    "text": "Al Butnan - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2987; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314153; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Al Butnan - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2987; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314153; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159310471",
@@ -111,13 +111,13 @@
   },
   {
     "id": "geography-subdivision-ne-1159314141",
-    "text": "Al Jabal al Akhdar - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2982; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314141; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Al Jabal al Akhdar - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2982; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314141; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159314127",
-    "text": "Al Jifarah - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2973; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314127; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Al Jifarah - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2973; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314127; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159310477",
@@ -126,23 +126,23 @@
   },
   {
     "id": "geography-subdivision-ne-1159314109",
-    "text": "Al Jufrah - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2964; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314109; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Al Jufrah - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2964; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314109; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159314113",
-    "text": "Al Kufrah - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2965; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314113; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Al Kufrah - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2965; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314113; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159314139",
-    "text": "Al Marj - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2981; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314139; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Al Marj - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2981; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314139; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159314115",
-    "text": "Al Marqab - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2966; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314115; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Al Marqab - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2966; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314115; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159310451",
@@ -166,8 +166,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314151",
-    "text": "Al Qubbah - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2986; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314151; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Al Qubbah - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2986; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314151; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159310489",
@@ -231,8 +231,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314131",
-    "text": "An Nuqat al Khams - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2974; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314131; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "An Nuqat al Khams - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2974; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314131; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159317851",
@@ -316,8 +316,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314117",
-    "text": "Ash Shati' - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2967; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314117; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Ash Shati' - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2967; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314117; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159311457",
@@ -366,8 +366,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314133",
-    "text": "Az Zawiyah - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2975; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314133; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Az Zawiyah - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2975; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314133; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159311935",
@@ -511,8 +511,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314145",
-    "text": "Benghazi - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2984; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314145; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Benghazi - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2984; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314145; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159311253",
@@ -1391,8 +1391,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314107",
-    "text": "Ghadamis - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2882; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314107; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Ghadamis - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2882; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314107; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159309801",
@@ -1411,8 +1411,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314119",
-    "text": "Ghat - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2968; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314119; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Ghat - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2968; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314119; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159313321",
@@ -2661,8 +2661,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314123",
-    "text": "Misratah - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2970; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314123; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Misratah - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2970; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314123; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159317365",
@@ -2676,8 +2676,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314135",
-    "text": "Mizdah - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2976; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314135; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Mizdah - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2976; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314135; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159309711",
@@ -2806,8 +2806,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314121",
-    "text": "Murzuq - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2969; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314121; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Murzuq - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2969; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314121; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159313331",
@@ -3516,8 +3516,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314125",
-    "text": "Sabha - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2971; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314125; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Sabha - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2971; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314125; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159317179",
@@ -3846,8 +3846,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314149",
-    "text": "Surt - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2985; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314149; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Surt - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2985; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314149; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159316323",
@@ -3931,8 +3931,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159314137",
-    "text": "Tajura' wa an Nawahi al Arba - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-2978; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314137; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Tajura' wa an Nawahi al Arba - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-2978; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159314137; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159311945",
@@ -4171,8 +4171,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159317121",
-    "text": "Wadi al Hayaa - municipality|governarate, Libya",
-    "provenance": "Natural Earth, source ID LBY-5488; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317121; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Wadi al Hayaa - municipality or governarate, Libya",
+    "provenance": "Natural Earth, source ID LBY-5488; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159317121; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Governarate' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159310381",

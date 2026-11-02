@@ -393,7 +393,7 @@ def administrative_geography(source_dir):
             continue
         country = COUNTRY_LABELS.get(p["admin"], p["admin"])
         group = slug(by_code[p["adm0_a3"]]["CONTINENT"])
-        kind = p["type_en"] or "Administrative unit"
+        kind = (p["type_en"] or "Administrative unit").replace("|", " or ")
         correction = ""
         if p["adm0_a3"] == "MKD" and kind == "Statistical Region":
             kind = "Municipality"
@@ -413,6 +413,8 @@ def administrative_geography(source_dir):
             "text": f"{name} - {kind.lower()}, {country}",
             "provenance": pinned_provenance(filename, p["adm1_code"])
                           + f" Natural Earth NE_ID {p['ne_id']}; mapped admin-1 snapshot, not a claim of present-day legal level."
+                          + (f" Combined source type '{p['type_en']}' displays its alternatives with 'or'."
+                             if "|" in (p["type_en"] or "") else "")
                           + correction,
         })
     for group, records in sorted(grouped.items()):

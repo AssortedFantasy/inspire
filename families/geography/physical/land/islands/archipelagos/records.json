@@ -216,7 +216,7 @@
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159104643",
-    "text": "Islands Revillagigedo - archipelago\nMap extent center 18.7°N, 113°W",
+    "text": "Islands Revillagigedo - archipelago\nMapped bounds center 18.7°N, 113°W",
     "provenance": "Natural Earth, source ID 1159104643; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
@@ -226,12 +226,12 @@
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102569",
-    "text": "Islas Desventuradas - archipelago\nMap extent center 26.3°S, 80°W",
+    "text": "Islas Desventuradas - archipelago\nMapped bounds center 26.3°S, 80°W",
     "provenance": "Natural Earth, source ID 1159102569; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159102571",
-    "text": "Islas Juan Fernandez - archipelago\nMap extent center 33.7°S, 79.7°W",
+    "text": "Islas Juan Fernandez - archipelago\nMapped bounds center 33.7°S, 79.7°W",
     "provenance": "Natural Earth, source ID 1159102571; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {

@@ -91,13 +91,13 @@
   },
   {
     "id": "geography-subdivision-ne-1159307853",
-    "text": "Aileu - district|regencies, Timor-Leste",
-    "provenance": "Natural Earth, source ID TLS-544; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307853; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Aileu - district or regencies, Timor-Leste",
+    "provenance": "Natural Earth, source ID TLS-544; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307853; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'District|Regencies' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159307855",
-    "text": "Ainaro - district|regencies, Timor-Leste",
-    "provenance": "Natural Earth, source ID TLS-545; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307855; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Ainaro - district or regencies, Timor-Leste",
+    "provenance": "Natural Earth, source ID TLS-545; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307855; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'District|Regencies' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159314341",
@@ -321,8 +321,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159307845",
-    "text": "Ambeno - district|regencies, Timor-Leste",
-    "provenance": "Natural Earth, source ID TLS-543; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307845; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Ambeno - district or regencies, Timor-Leste",
+    "provenance": "Natural Earth, source ID TLS-543; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307845; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'District|Regencies' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159309317",
@@ -761,8 +761,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159307857",
-    "text": "Baucau - district|regencies, Timor-Leste",
-    "provenance": "Natural Earth, source ID TLS-546; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307857; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Baucau - district or regencies, Timor-Leste",
+    "provenance": "Natural Earth, source ID TLS-546; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307857; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'District|Regencies' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159314673",
@@ -861,8 +861,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159307859",
-    "text": "Bobonaro - district|regencies, Timor-Leste",
-    "provenance": "Natural Earth, source ID TLS-547; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307859; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Bobonaro - district or regencies, Timor-Leste",
+    "provenance": "Natural Earth, source ID TLS-547; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307859; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'District|Regencies' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159313375",
@@ -1226,8 +1226,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159307861",
-    "text": "Cova Lima - district|regencies, Timor-Leste",
-    "provenance": "Natural Earth, source ID TLS-548; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307861; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Cova Lima - district or regencies, Timor-Leste",
+    "provenance": "Natural Earth, source ID TLS-548; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307861; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'District|Regencies' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159312127",
@@ -1361,8 +1361,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159307849",
-    "text": "Dili - district|regencies, Timor-Leste",
-    "provenance": "Natural Earth, source ID TLS-541; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307849; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Dili - district or regencies, Timor-Leste",
+    "provenance": "Natural Earth, source ID TLS-541; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307849; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'District|Regencies' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159314247",
@@ -1456,8 +1456,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159307863",
-    "text": "Ermera - district|regencies, Timor-Leste",
-    "provenance": "Natural Earth, source ID TLS-549; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307863; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Ermera - district or regencies, Timor-Leste",
+    "provenance": "Natural Earth, source ID TLS-549; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307863; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'District|Regencies' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159312351",
@@ -1981,8 +1981,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159308033",
-    "text": "Hồ Chí Minh city - city|municipality|thanh pho, Vietnam",
-    "provenance": "Natural Earth, source ID VNM-501; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308033; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Hồ Chí Minh city - city or municipality or thanh pho, Vietnam",
+    "provenance": "Natural Earth, source ID VNM-501; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308033; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'City|Municipality|Thanh Pho' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159309423",
@@ -2751,8 +2751,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159307873",
-    "text": "Lautém - district|regencies, Timor-Leste",
-    "provenance": "Natural Earth, source ID TLS-553; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307873; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Lautém - district or regencies, Timor-Leste",
+    "provenance": "Natural Earth, source ID TLS-553; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307873; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'District|Regencies' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159308475",
@@ -2786,8 +2786,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159307851",
-    "text": "Liquica - district|regencies, Timor-Leste",
-    "provenance": "Natural Earth, source ID TLS-542; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307851; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Liquica - district or regencies, Timor-Leste",
+    "provenance": "Natural Earth, source ID TLS-542; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307851; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'District|Regencies' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159308255",
@@ -2956,8 +2956,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159307867",
-    "text": "Manatuto - district|regencies, Timor-Leste",
-    "provenance": "Natural Earth, source ID TLS-550; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307867; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Manatuto - district or regencies, Timor-Leste",
+    "provenance": "Natural Earth, source ID TLS-550; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307867; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'District|Regencies' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159314043",
@@ -3001,8 +3001,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159307869",
-    "text": "Manufahi - district|regencies, Timor-Leste",
-    "provenance": "Natural Earth, source ID TLS-551; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307869; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Manufahi - district or regencies, Timor-Leste",
+    "provenance": "Natural Earth, source ID TLS-551; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307869; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'District|Regencies' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159314379",
@@ -5031,13 +5031,13 @@
   },
   {
     "id": "geography-subdivision-ne-1159315181",
-    "text": "Vientiane [prefecture] - municipality|prefecture, Laos",
-    "provenance": "Natural Earth, source ID LAO-3283; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315181; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Vientiane [prefecture] - municipality or prefecture, Laos",
+    "provenance": "Natural Earth, source ID LAO-3283; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159315181; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'Municipality|Prefecture' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159307871",
-    "text": "Viqueque - district|regencies, Timor-Leste",
-    "provenance": "Natural Earth, source ID TLS-552; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307871; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Viqueque - district or regencies, Timor-Leste",
+    "provenance": "Natural Earth, source ID TLS-552; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159307871; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'District|Regencies' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159308397",
@@ -5361,8 +5361,8 @@
   },
   {
     "id": "geography-subdivision-ne-1159308317",
-    "text": "Đà Nẵng - city|municipality|thanh pho, Vietnam",
-    "provenance": "Natural Earth, source ID VNM-491; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308317; mapped admin-1 snapshot, not a claim of present-day legal level."
+    "text": "Đà Nẵng - city or municipality or thanh pho, Vietnam",
+    "provenance": "Natural Earth, source ID VNM-491; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Natural Earth NE_ID 1159308317; mapped admin-1 snapshot, not a claim of present-day legal level. Combined source type 'City|Municipality|Thanh Pho' displays its alternatives with 'or'."
   },
   {
     "id": "geography-subdivision-ne-1159308323",

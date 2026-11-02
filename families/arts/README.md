@@ -4,8 +4,9 @@
 and theatre. The three museum topics each contain 600 CC0 catalogue works from
 the Cleveland Museum of Art. Selection cycles through source culture groups,
 with deterministic ID-hash ordering within each group. Titles, dates, creators,
-techniques and cultures remain literal catalogue metadata; images, essays and
-ownership histories are excluded. Only source records marked CC0 are selected.
+techniques and cultures retain catalogue wording, with the formatting and spelling
+correction below; images, essays and ownership histories are excluded. Only
+source records marked CC0 are selected.
 Duplicate metadata signatures, incomplete records, labelled forgeries and
 fragments are excluded. The source's regional, period and attribution uncertainty
 is retained; culture is a catalogue field, not a precise ethnic classification.
@@ -15,6 +16,15 @@ Museum metadata reuses the pinned source documented under
 `d8dd744bc29e7986df428341133c14e18eb56b3f`, SHA-256
 `137ddfab3264555d52c0211f804544cab1c62170ce3d753d924c9d464d74e449`.
 No new claims about authorship or physical location are inferred.
+
+Creator credits occupy separate lines. Missing `None` roles are omitted while
+the credited names remain; predicate roles become equivalent nouns (`published
+by` becomes `publisher`, for example). No missing role is guessed. One explicit
+editorial correction changes work 106525's culture from `Itay, 16th century` to
+`Italy, 16th century`. The [museum's record](https://www.clevelandart.org/art/1924.586.b)
+still contains that typo and places the work in its Italian Drawings collection.
+The original culture and correction remain in record provenance. Selection uses
+the original fields, so this correction does not change the 600 selected works.
 
 ```sh
 python -B families/arts/import_paintings.py --download

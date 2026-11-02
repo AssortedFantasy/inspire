@@ -76,6 +76,10 @@ of the pinned source and may be dated. Common country/territory names normalize
 [Macao](https://www.macaotourism.gov.mo/en/article/about-macao/location-and-time)
 against primary references.
 
+Combined source types such as `Commune|Municipality` display their alternatives
+as `commune or municipality`; this retains the source's mixed classification
+without exposing its field separator or choosing an unsupported legal type.
+
 North Macedonia's 84 pinned features follow the older municipality framework;
 72 incorrectly carry Natural Earth's `Statistical Region` type. The
 [official regional and municipal breakdown](https://www.stat.gov.mk/publikacii/2020/Regionite-Regions-2020.pdf)
@@ -106,7 +110,7 @@ includes [Caatinga](https://www.gov.br/insa/pt-br/semiarido-brasileiro),
 [Makgadikgadi](https://www.botswanatourism.co.bw/index.php/explore/makgadikgadi-and-nxai-pans).
 Coordinates for point features are
 rounded to 0.1°; trailing zeroes are omitted. Inland-water locations are centers of
-mapped bounding boxes, labelled accordingly; they are not centroids, sources,
+mapped bounding boxes, labelled `Mapped bounds center`; they are not centroids, sources,
 mouths, navigational positions, or precise surveyed locations. Rivers with
 absent geometry or identifiers are excluded.
 

@@ -351,11 +351,11 @@ def import_physical(source_dir=None):
                              if x and x != "Seven seas (open ocean)"
                              and x.casefold() != name.casefold())
         if not location:
-            location = f"Map extent center {coordinate_label(*extent_center(feature['geometry']))}"
+            location = f"Mapped bounds center {coordinate_label(*extent_center(feature['geometry']))}"
         repeated_range_id = p["NE_ID"] in {1159103969, 1159103971}
         if kind == "Range/mtn" and p["NE_ID"] != 1159104505 and (
                 repeated_range_id or labels[(p["NAME"], kind, p["REGION"], p["SUBREGION"])] > 1):
-            location += f"\nMap extent center {coordinate_label(*extent_center(feature['geometry']))}"
+            location += f"\nMapped bounds center {coordinate_label(*extent_center(feature['geometry']))}"
         identifier = p["NE_ID"]
         if repeated_range_id:
             latitude, _ = extent_center(feature["geometry"])
@@ -411,7 +411,7 @@ def import_physical(source_dir=None):
                 "Alkaline Lake": "water/inland/alkaline-lakes"}[p["featurecla"]]
         location = coordinate_label(*extent_center(feature["geometry"]))
         add(path, filename, p["ne_id"], p["name"], p["featurecla"].lower(),
-            f"Map extent center {location}")
+            f"Mapped bounds center {location}")
 
     filename = "ne_10m_rivers_lake_centerlines.geojson"
     rivers = defaultdict(list)
@@ -430,7 +430,7 @@ def import_physical(source_dir=None):
         geometry = {"coordinates": [feature["geometry"]["coordinates"] for feature in parts]}
         location = coordinate_label(*extent_center(geometry))
         add("water/inland/rivers", filename, identifier, names.pop(), "river",
-            f"Map extent center {location}")
+            f"Mapped bounds center {location}")
 
     for path, records in sorted(grouped.items()):
         shared["write"](f"physical/{path}", records)

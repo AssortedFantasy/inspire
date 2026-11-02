@@ -1,6 +1,6 @@
 # Materials
 
-483 literal labels from the CC0 Corpora collection, revision
+482 literal labels from the CC0 Corpora collection, revision
 `2e7adec11a0561696c236ae1fca82e88be173d42`. Seven leaves cover building materials,
 decorative stones, textile vocabulary, fibres, metals, packaging and technical
 textiles. All leaves use record-count weights, so each retained label has the
@@ -15,7 +15,11 @@ Duplicate labels go to their first listed topic. Incomplete adjectives,
 manufacturing operations and a place-name entry are excluded: `conductive`,
 `carding`, `desizing`, `lenzing, grimsby`, `modified atmosphere`, `cushioning`
 and `natural fiber`. The duplicate `hemp` remains in food's herb catalogue.
-Other source spellings are retained. Missing properties remain absent.
+`zorbeez` is also excluded as a finished household cleaning-product brand rather
+than a textile material name. Its manufacturer's [contemporaneous filing](https://www.sec.gov/Archives/edgar/data/1125532/000135448807002011/vertical10qsbv5a.htm)
+identifies a product line of chamois-like cloths. This is a specific scope
+exclusion, not a general ban on trade names or unfamiliar terms. Other source
+spellings are retained. Missing properties remain absent.
 
 ```sh
 python -B scripts/import_catalogues.py --family materials --download

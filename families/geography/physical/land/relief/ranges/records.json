@@ -266,12 +266,12 @@
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103971-northern-andes",
-    "text": "Cordillera Central - mountain range\nSouth America\nMap extent center 2.5°N, 76.7°W",
+    "text": "Cordillera Central - mountain range\nSouth America\nMapped bounds center 2.5°N, 76.7°W",
     "provenance": "Natural Earth, source ID 1159103971; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Source NE_ID reused for distinct Peruvian and northern Andean ranges; geographic suffix and map extent preserve both identities; verified against https://portal.gestiondelriesgo.gov.co/Paginas/Noticias/2020/Colombia-un-pais-con-multiples-amenazas-geologicas-pero-por-que-sucede-esto-en-la-UNGRD-se-lo-explicamos.aspx."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103971-peru",
-    "text": "Cordillera Central - mountain range\nSouth America\nMap extent center 9.4°S, 75.8°W",
+    "text": "Cordillera Central - mountain range\nSouth America\nMapped bounds center 9.4°S, 75.8°W",
     "provenance": "Natural Earth, source ID 1159103971; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Source NE_ID reused for distinct Peruvian and northern Andean ranges; geographic suffix and map extent preserve both identities; verified against https://app4.ign.gob.pe/capitulos/tres/relieve.php."
   },
   {
@@ -281,22 +281,22 @@
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103969-peru",
-    "text": "Cordillera Occidental - mountain range\nSouth America\nMap extent center 13.7°S, 73.6°W",
+    "text": "Cordillera Occidental - mountain range\nSouth America\nMapped bounds center 13.7°S, 73.6°W",
     "provenance": "Natural Earth, source ID 1159103969; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Source NE_ID reused for distinct Peruvian and northern Andean ranges; geographic suffix and map extent preserve both identities; verified against https://app4.ign.gob.pe/capitulos/tres/relieve.php."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103969-northern-andes",
-    "text": "Cordillera Occidental - mountain range\nSouth America\nMap extent center 3.3°N, 77.4°W",
+    "text": "Cordillera Occidental - mountain range\nSouth America\nMapped bounds center 3.3°N, 77.4°W",
     "provenance": "Natural Earth, source ID 1159103969; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md. Source NE_ID reused for distinct Peruvian and northern Andean ranges; geographic suffix and map extent preserve both identities; verified against https://portal.gestiondelriesgo.gov.co/Paginas/Noticias/2020/Colombia-un-pais-con-multiples-amenazas-geologicas-pero-por-que-sucede-esto-en-la-UNGRD-se-lo-explicamos.aspx."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1730073491",
-    "text": "Cordillera Oriental - mountain range\nSouth America\nMap extent center 12.9°S, 70.9°W",
+    "text": "Cordillera Oriental - mountain range\nSouth America\nMapped bounds center 12.9°S, 70.9°W",
     "provenance": "Natural Earth, source ID 1730073491; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {
     "id": "geography-physical-10m_geography_regions_polys-1159103973",
-    "text": "Cordillera Oriental - mountain range\nSouth America\nMap extent center 6.2°N, 69.6°W",
+    "text": "Cordillera Oriental - mountain range\nSouth America\nMapped bounds center 6.2°N, 69.6°W",
     "provenance": "Natural Earth, source ID 1159103973; https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_geography_regions_polys.geojson; public domain: https://www.naturalearthdata.com/about/terms-of-use/. Reproducible curated transformation; see geography/README.md."
   },
   {

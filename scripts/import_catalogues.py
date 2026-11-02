@@ -40,8 +40,10 @@ MATERIAL_LISTS = [
     ("technical-fabrics.json", "technical fabrics", "technical-textiles"),
 ]
 # Source lists mix material names with processes, places and incomplete adjectives.
+# Zorbeez names a finished cleaning-product line; see the manufacturer's filing
+# linked in materials/README.md. Retain material trade names in general.
 EXCLUDED = {"carding", "desizing", "lenzing, grimsby", "conductive",
-            "modified atmosphere", "cushioning", "natural fiber", "hemp"}
+            "modified atmosphere", "cushioning", "natural fiber", "hemp", "zorbeez"}
 NUTRIENTS = [("1008", "Energy", "kcal"), ("1003", "Protein", "g"),
              ("1004", "Fat", "g"), ("1005", "Carbohydrate", "g"),
              ("1079", "Fibre", "g"), ("1093", "Sodium", "mg")]

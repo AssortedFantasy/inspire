@@ -195,6 +195,12 @@ def main():
     records = []
     for sha in selections["weekley"]:
         text = histories[sha]
+        context = selections.get("weekley_context", {}).get(sha)
+        if context:
+            # A comparison may depend on the immediately preceding paragraph.
+            keys = list(histories)
+            assert keys.index(context) + 1 == keys.index(sha)
+            text = histories[context] + "\n\n" + text
         records.append({
             "id": "weekley-" + sha[:12],
             "text": text + "\n— Ernest Weekley, The Romance of Words (1922)",
@@ -206,6 +212,11 @@ def main():
                 "Selection and source checksums: families/language/historical-selections.json."
             ),
         })
+        if context:
+            records[-1]["provenance"] += (
+                " Two consecutive source paragraphs retained together for comparison context; "
+                "both paragraph checksums are in weekley_context."
+            )
     write("word-histories/records.json", records, args.check)
     footer = next(node for node in books["preston"].root.walk()
                   if node.attrs.get("id") == "pg-footer")

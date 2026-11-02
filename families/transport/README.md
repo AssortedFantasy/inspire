@@ -10,6 +10,8 @@ bases and balloonports. Names, municipality served, codes, elevation and landing
 surface dimensions retain their source meaning. Missing codes and surfaces are
 omitted. Only explicit IATA and ICAO fields receive those labels; the site's
 internal identifier is never presented as an aviation code.
+Specialist facilities whose names do not already identify them retain a short
+heliport, seaplane-base or balloonport designation in the name line.
 
 Each type has at most 240 sites. Selection takes one site per country per round,
 with a deterministic hash ordering of countries and ordinary sites. An ordinary

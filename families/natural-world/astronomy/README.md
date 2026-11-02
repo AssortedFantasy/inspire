@@ -14,6 +14,13 @@ mass/radius infill from the composite table. Only parameters with limit flag
 than printed as central estimates. Of 6,445 rows, three contain no remaining
 selected numerical property and are omitted.
 
+`discovery-corrections.json` records a source-backed exception: the snapshot
+labels HAT-P-47 b as discovered in 2026, but the discovering team's
+[2016 paper](https://arxiv.org/abs/1606.04556v1) and
+[HATNet discovery catalogue](https://hatnet.org/planets/) establish 2016.
+The numerical literature solution remains unchanged. The importer checks the
+original value before applying the correction and preserves both in provenance.
+
 Reported mass and projected minimum mass `m·sin(i)` are distinct. Missing values
 are omitted. No equilibrium-temperature value is substituted for a measured
 surface temperature, and no habitability inference is made. Orbital eccentricity

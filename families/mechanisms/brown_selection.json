@@ -23,7 +23,7 @@
     "file": "mm_163.html",
     "url": "https://507movements.com/mm_163.html",
     "sha256": "dfc1af99f74cf44fa0fe875ec461b54109d078618f26043988382e8fdf9bcbb8",
-    "start": null,
+    "start": "The belt runs",
     "end": null
   },
   {
@@ -900,22 +900,14 @@
     "end": null
   },
   {
-    "number": 296,
+    "number": 294,
     "path": "oscillators/clocks/escapements/historical",
-    "file": "mm_296.html",
-    "url": "https://507movements.com/mm_296.html",
-    "sha256": "b22bef8d85fc29cdcdbdacfc03118fb8a4e72182e7d185f6b71eb6a0fd5ef324",
-    "start": null,
-    "end": null
-  },
-  {
-    "number": 303,
-    "path": "oscillators/clocks/escapements/historical",
-    "file": "mm_303.html",
-    "url": "https://507movements.com/mm_303.html",
-    "sha256": "272a6650f853b62c77cdb3b6bfda47f8b912c807c3940c43d49387b898df5145",
-    "start": null,
-    "end": null
+    "file": "mm_294.html",
+    "url": "https://507movements.com/mm_294.html",
+    "sha256": "9a0745edbfed5aa09e1f5a5485932e87b371b96d07807a1b5930ff2c9bf0e0a9",
+    "start": "The pallets",
+    "end": null,
+    "number_label": "294 and 295"
   },
   {
     "number": 305,
@@ -927,6 +919,15 @@
     "end": null
   },
   {
+    "number": 306,
+    "path": "oscillators/clocks/escapements/historical",
+    "file": "mm_306.html",
+    "url": "https://507movements.com/mm_306.html",
+    "sha256": "12c6831d4821489603c07ae7797d049a04d8ff971b7c634f69d2b6836189aa4b",
+    "start": null,
+    "end": " One tooth is shown"
+  },
+  {
     "number": 308,
     "path": "oscillators/clocks/escapements/historical",
     "file": "mm_308.html",
@@ -936,21 +937,12 @@
     "end": null
   },
   {
-    "number": 310,
+    "number": 309,
     "path": "oscillators/clocks/escapements/historical",
-    "file": "mm_310.html",
-    "url": "https://507movements.com/mm_310.html",
-    "sha256": "25332d0c2b6256987e48d30697e3ba4a78bc39f27ab8b64029a320e456c16866",
-    "start": null,
-    "end": null
-  },
-  {
-    "number": 312,
-    "path": "oscillators/clocks/escapements/historical",
-    "file": "mm_312.html",
-    "url": "https://507movements.com/mm_312.html",
-    "sha256": "c4a3fff823f47486a6a452c952c2438d5b0e9d57727db3dd00ce19f7378ac069",
-    "start": null,
+    "file": "mm_309.html",
+    "url": "https://507movements.com/mm_309.html",
+    "sha256": "4f709e08d09929b7772241f102f95a79815d2ab698d451aa3a55304f26e73022",
+    "start": "The pendulum plays",
     "end": null
   }
 ]

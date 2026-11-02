@@ -41,6 +41,9 @@ BAD = re.compile(
     r"masturbat\w*|genital\w*|penis|vagina|intercourse|rape|raping|rapist|"
     r"killing|murder\w*|suicide|suicidal|drug addict|mental retardation|cathode|anode)\b", re.I
 )
+# A reviewed source synonym makes this uncommon tagged usage intelligible without
+# replacing its historical gloss. Every displayed word still belongs to the synset.
+SENSE_LEMMAS = {("a", "00922439"): ("tickling", "tingling")}
 
 
 def clean_word(raw):
@@ -110,17 +113,24 @@ def record(synset):
     part = {"n": "n.", "v": "v.", "a": "adj.", "r": "adv."}[synset["pos"]]
     words = sorted({word for word in synset["words"] if synset["counts"][word.lower()]},
                    key=lambda word: (-synset["counts"][word.lower()], word))[:6]
+    reviewed = SENSE_LEMMAS.get((synset["pos"], synset["offset"]))
+    if reviewed:
+        if not set(reviewed) <= set(synset["words"]):
+            raise ValueError("Reviewed display lemma is absent from its source synset")
+        words = reviewed
     wording = " / ".join(words)
     return {
         "id": f"wn30-{synset['pos']}-{synset['offset']}",
         "text": f"{wording} ({part})\n{synset['definition']}",
-        "provenance": PROVENANCE,
+        "provenance": PROVENANCE + (
+            " Reviewed display includes the source synonym tickling to identify the sense of tingling."
+            if reviewed else ""
+        ),
     }
 
 
-def write(path, records):
+def write(path, records, check=False):
     destination = ROOT / "lexicon" / path
-    destination.mkdir(parents=True, exist_ok=True)
     exclusions = {}
     for exclusion_file in (ROOT / "lexicon").rglob("exclusions.json"):
         for item in json.loads(exclusion_file.read_text(encoding="utf-8")):
@@ -140,22 +150,30 @@ def write(path, records):
     records = [item for item in records if not excluded(item)]
     assert records, path
     assert len({record["id"] for record in records}) == len(records), path
-    (destination / "records.json").write_text(
-        json.dumps(records, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    text = json.dumps(records, ensure_ascii=False, indent=2) + "\n"
+    write_text(destination / "records.json", text, check)
     print(f"{path}: {len(records)}")
 
 
-def import_records(archive):
+def write_text(path, text, check):
+    if check:
+        if not path.exists() or path.read_text(encoding="utf-8") != text:
+            raise ValueError("Generated file differs: " + str(path))
+    else:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(text, encoding="utf-8")
+
+
+def import_records(archive, check=False):
     synsets, license_text = load(archive)
     accepted = {key: value for key, value in synsets.items() if usable(value)}
     for domain, path in DOMAINS.items():
         candidates = sorted((value for value in accepted.values() if value["domain"] == domain), key=score)
-        write("senses/" + path, [record(value) for value in candidates[:160]])
+        write("senses/" + path, [record(value) for value in candidates[:160]], check)
     # Adjectives and adverbs have no native topical lexical-file subdivisions.
     for pos, path in (("a", "adjectives"), ("r", "adverbs")):
         candidates = sorted((value for value in accepted.values() if value["pos"] == pos), key=score)
-        write("senses/" + path, [record(value) for value in candidates[:240]])
+        write("senses/" + path, [record(value) for value in candidates[:240]], check)
     for pos, path in (("n", "nouns"), ("v", "verbs"), ("a", "adjectives")):
         pairs = {}
         for key, value in accepted.items():
@@ -184,23 +202,24 @@ def import_records(archive):
                     "provenance": PROVENANCE + " Direct lexical ! pointer with exact source/target word numbers; unordered pairs deduplicated.",
                 }
         chosen = sorted(pairs.values(), key=lambda value: hashlib.sha256(value["id"].encode()).hexdigest())[:160]
-        write("relations/antonyms/" + path, chosen)
-    (ROOT / "lexicon" / "LICENSE").write_text(
+        write("relations/antonyms/" + path, chosen, check)
+    write_text(ROOT / "lexicon" / "LICENSE",
         "\n".join(line.rstrip() for line in license_text.splitlines()) + "\n",
-        encoding="utf-8",
+        check,
     )
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--archive", type=Path, default=ROOT.parents[1] / "target/imports/wordnet/WordNet-3.0.tar.gz")
+    parser.add_argument("--check", action="store_true", help="Verify generated files without rewriting them")
     args = parser.parse_args()
     if not args.archive.exists():
         args.archive.parent.mkdir(parents=True, exist_ok=True)
         urllib.request.urlretrieve(URL, args.archive)
     if hashlib.sha256(args.archive.read_bytes()).hexdigest() != SHA256:
         raise ValueError("WordNet archive checksum mismatch")
-    import_records(args.archive)
+    import_records(args.archive, args.check)
 
 
 if __name__ == "__main__":

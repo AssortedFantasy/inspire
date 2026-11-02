@@ -34,6 +34,30 @@ class Paragraphs(HTMLParser):
             self.current.append(data)
 
 
+def excerpt(paragraphs, entry):
+    number = entry["number"]
+    label = entry.get("number_label", str(number))
+    prefix = f"{label}. "
+    matches = [p for p in paragraphs if p.startswith(prefix)]
+    if len(matches) != 1:
+        raise ValueError(f"Expected one original paragraph for movement {label}")
+    text = matches[0][len(prefix):]
+    for boundary in (entry["start"], entry["end"]):
+        if boundary is not None and text.count(boundary) != 1:
+            raise ValueError(f"Movement {label} needs one exact excerpt boundary: {boundary}")
+    if entry["start"]:
+        offset = text.index(entry["start"])
+        if offset and not re.search(r"(?:[.?!]\s+|:—\s*)$", text[:offset]):
+            raise ValueError(f"Movement {label} must start at a complete sentence")
+        text = text[offset:]
+    if entry["end"]:
+        text = text[:text.index(entry["end"])]
+    text = text.rstrip()
+    if not text or text[-1] not in ".?!":
+        raise ValueError(f"Movement {label} must end at a complete sentence")
+    return text
+
+
 def produce(cache, download=False):
     groups = defaultdict(list)
     selection = json.loads((ROOT / "brown_selection.json").read_text(encoding="utf-8"))
@@ -48,26 +72,19 @@ def produce(cache, download=False):
         parser = Paragraphs()
         parser.feed(raw.decode("utf-8"))
         number = entry["number"]
-        matches = [p for p in parser.paragraphs if p.startswith(f"{number}. ")]
-        if len(matches) != 1:
-            raise ValueError(f"Expected one original paragraph for movement {number}")
-        text = re.sub(r"^\d+\.\s*", "", matches[0])
-        if entry["start"]:
-            text = text[text.index(entry["start"]):]
-        if entry["end"]:
-            text = text[:text.index(entry["end"])]
-        text = text.rstrip()
-        if not text or text[-1] not in ".?!":
-            raise ValueError(f"Movement {number} must end at a complete sentence")
+        label = entry.get("number_label", str(number))
+        designation = f"nos. {label}" if "number_label" in entry else f"no. {number}"
+        movement = "movements" if "number_label" in entry else "movement"
+        text = excerpt(parser.paragraphs, entry)
         groups[entry["path"]].append({
             "id": f"brown-1908-movement-{number:03}",
             "text": (
                 f"{text}\n\n— Henry T. Brown, Five Hundred and Seven Mechanical "
-                f"Movements (1908), no. {number}"
+                f"Movements (1908), {designation}"
             ),
             "provenance": (
                 "Henry T. Brown, Five Hundred and Seven Mechanical Movements, "
-                f"21st edition (1908), movement {number}; public-domain excerpt. "
+                f"21st edition (1908), {movement} {label}; public-domain excerpt. "
                 f"Transcription: {entry['url']}."
             ),
         })

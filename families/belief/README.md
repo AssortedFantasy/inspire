@@ -1,6 +1,6 @@
 # Belief
 
-688 verbatim units from four checksum-pinned public-domain English editions:
+688 source units from four checksum-pinned public-domain English editions:
 
 - 81 complete chapters of the Tao Te Ching, James Legge's 1891 translation.
 - All 423 Dhammapada verses in 414 printed numbered units, F. Max Müller's
@@ -23,7 +23,8 @@ section is excluded.
 Every output, including its source credit, fits within 512 `o200k_base` tokens.
 Fourteen Edda chapters and 35 Bulfinch sections are divided into consecutive
 excerpts at paragraph or complete sentence boundaries. All selected words
-remain in source order; verse lines are preserved. `excerpts.json` freezes the
+remain in source order; verse lines are preserved. A question and its verse
+answer in the creation chapter stay in the same excerpt. `excerpts.json` freezes the
 reviewed character spans, so import replay needs no tokenizer. Each excerpt's
 provenance gives its span in the cleaned source body, and its ID adds an excerpt
 ordinal to the original section ID. The 22 shorter mythology units and both
@@ -31,7 +32,9 @@ scripture corpora remain intact.
 
 Source numbering, paragraph breaks and verse lines remain intact, apart from
 removing chapter numbers repeated in the credit, HTML layout whitespace,
-page numbers and footnote links. Translators and locations appear in output;
+page numbers and footnote links. [Transcription repairs](transcription-corrections.md) correct
+four Bulfinch letter errors and eight broken hyphen spaces; repairs are explicit
+in the importer and affected records' provenance. Translators and locations appear in output;
 exact source locators and checksums stay in provenance. These historical
 translations and retellings represent their particular editions.
 

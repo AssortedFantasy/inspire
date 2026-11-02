@@ -129,6 +129,20 @@ def first_number(cell):
     return float(match.group(1)) if match else None
 
 
+def discovery_year(name, year):
+    """Keep narrow, primary-source corrections separate from numerical solutions."""
+    corrections = json.loads((ROOT / "discovery-corrections.json").read_text(encoding="utf-8"))
+    if not (correction := corrections.get(name)):
+        return year, ""
+    if year != correction["snapshot_year"]:
+        raise ValueError(f"Recheck discovery correction for {name}: {year}")
+    return correction["discovery_year"], (
+        f" Discovery year corrected from snapshot {correction['snapshot_year']} to "
+        f"{correction['discovery_year']}: {correction['reference']}; {correction['url']}; "
+        f"confirmed by {correction['confirmation']}. Numerical solution and its reference are unchanged."
+    )
+
+
 def exoplanets(cache, groups):
     filename = "nasa-exoplanets-with-references.json"
     rows = json.loads(source_bytes(cache, filename))
@@ -154,7 +168,7 @@ def exoplanets(cache, groups):
             continue
         method = row["discoverymethod"]
         leaf = DISCOVERY_LEAVES[method]
-        year = row["disc_year"]
+        year, correction_note = discovery_year(row["pl_name"], row["disc_year"])
         raw_reference = row["pl_refname"] or ""
         reference = " ".join(unescape(re.sub(r"<[^>]+>", "", raw_reference)).split())
         urls = re.findall(r"href\s*=\s*[\"']?([^\"'\s>]+)", raw_reference)
@@ -171,7 +185,7 @@ def exoplanets(cache, groups):
                 "Only source limit flag=0 estimates emitted; upper/lower limits and unspecified flags omitted. "
                 "Four significant figures; uncertainties are not inferred or invented. "
                 "Column definitions: https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html.",
-            ) + f" Default literature reference: {reference}; " + "; ".join(urls) + ".",
+            ) + f" Default literature reference: {reference}; " + "; ".join(urls) + "." + correction_note,
         })
 
 

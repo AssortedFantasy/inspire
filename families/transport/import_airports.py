@@ -129,6 +129,12 @@ def build(airports, countries, runways):
                 if re.fullmatch(pattern, row[field]):
                     codes.append(f"{label} {row[field]}")
             name = clean(row["name"])
+            facility = {"heliport": "heliport", "seaplane_base": "seaplane base",
+                        "balloonport": "balloonport"}.get(kind)
+            if facility and not re.search(
+                    {"heliport": r"heli(?:port|pad)", "seaplane_base": r"seaplane|water aerodrome|hydrobase",
+                     "balloonport": r"balloon"}[kind], name, re.I):
+                name += f" — {facility}"
             lines = [name + (f" ({', '.join(codes)})" if codes else "")]
             country = country_names[row["iso_country"]]
             town = clean(row["municipality"])

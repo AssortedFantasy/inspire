@@ -1,0 +1,18 @@
+[
+  {
+    "id": "wn30-r-00102986",
+    "reason": "The ordinal third sense only restates in the third place; literal numbered positions add no distinct lexical material."
+  },
+  {
+    "id": "wn30-r-00344771",
+    "reason": "The ordinal fourth sense only restates in the fourth place; literal numbered positions add no distinct lexical material."
+  },
+  {
+    "id": "wn30-r-00476680",
+    "reason": "Three times is only defined as by a factor of three; exclude this literal numeric multiplier rather than treating numeral substitutions as distinct lexical material."
+  },
+  {
+    "id": "wn30-r-00344500",
+    "reason": "Four times is only defined as by a factor of four; exclude this literal numeric multiplier rather than treating numeral substitutions as distinct lexical material."
+  }
+]

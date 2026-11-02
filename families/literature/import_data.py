@@ -218,6 +218,9 @@ def pre_poems(source, soup):
         serial += 1
         h = tag.find_previous(["h2", "h4"])
         body = clean(tag, True)
+        if source["id"] == 7241:
+            # This edition prints note references as plain text inside PRE.
+            body = re.sub(r"\[\d+\]", "", body)
         if 70 <= len(body) <= 2400:
             anchor = h.find("a", id=True)
             title = heading(h)
