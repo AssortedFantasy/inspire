@@ -429,12 +429,17 @@ impl Clamp {
     }
 
     fn current(self, t: f64) -> f64 {
-        if t >= self.extinction() {
+        let end = self.extinction();
+        if t >= end {
             0.0
-        } else {
+        } else if t <= end / 2.0 {
             self.initial
                 + (self.initial + self.voltage / self.resistance)
                     * (-t * self.resistance / self.inductance).exp_m1()
+        } else {
+            // Evaluate backward from zero to avoid cancellation near extinction.
+            self.voltage / self.resistance
+                * ((end - t) * self.resistance / self.inductance).exp_m1()
         }
     }
 
@@ -777,6 +782,50 @@ mod tests {
             let high_charge = c.capacitance * (top - bottom);
             let low_charge = c.capacitance * (bottom - top);
             near(high_charge + low_charge, 0.0);
+        }
+    }
+
+    #[test]
+    fn clamp_current_stays_nonnegative_at_extinction_roundoff_boundaries() {
+        for resistance in [2.2, 4.7, 10.0, 22.0] {
+            for inductance in [1e-3, 4.7e-3, 22e-3, 100e-3, 220e-3] {
+                for initial in 1..=8 {
+                    for voltage in [0.7, 12.0, 24.0, 36.0, 48.0] {
+                        let c = Clamp {
+                            resistance,
+                            inductance,
+                            initial: initial as f64 / 10.0,
+                            voltage,
+                        };
+                        let end = c.extinction();
+                        let mut times = [
+                            0.0,
+                            end * 0.99,
+                            end.next_down().next_down(),
+                            end.next_down(),
+                            end * 100.0 / 100.0,
+                            end,
+                            end.next_up(),
+                            end * 2.0,
+                        ];
+                        times.sort_by(f64::total_cmp);
+                        let mut previous = c.initial;
+                        for t in times {
+                            let i = c.current(t);
+                            assert!(
+                                i >= 0.0 && i <= previous,
+                                "R={resistance}, L={inductance}, i0={}, V={voltage}, \
+                                 t={t:.17e}, end={end:.17e}, i={i:.17e}, previous={previous:.17e}",
+                                c.initial,
+                            );
+                            if t >= end {
+                                assert_eq!(i, 0.0);
+                            }
+                            previous = i;
+                        }
+                    }
+                }
+            }
         }
     }
 

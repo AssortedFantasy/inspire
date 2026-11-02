@@ -143,3 +143,16 @@ uv run --offline --cache-dir target/uv-cache scripts/token_count.py audit --bina
 Raw source downloads, agent handoffs, focused harnesses and verification logs
 remain under ignored `target/improvement-pass-2026-11-02/` and source-specific
 `target/imports/` caches. Existing review batches remain unchanged.
+
+## CI numerical follow-up
+
+Ubuntu CI exposed cancellation in clamped-coil current immediately before
+extinction. The response now evaluates backward from zero in its second half,
+preserving nonnegative decay without subtracting nearly equal currents. A new
+regression checks adjacent floating-point times around extinction for all 800
+generated parameter combinations, alongside the existing energy-balance tests.
+The regression reproduced the bug on Windows; an Ubuntu math-library probe also
+found negative boundary currents in the old formula and none with the fix.
+All 533 unit tests and 21 integration tests pass, with the dashboard socket test
+rerun outside the restricted sandbox. Formatting, Clippy with warnings denied,
+and the release build also pass.
