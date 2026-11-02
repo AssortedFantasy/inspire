@@ -1,142 +1,63 @@
 # Inspire
 
-A small, offline CLI that creates a bit of entropy for agents.
+`inspire` is a small, offline CLI that provides natural-language entropy for AI agents.
 
-## Build and use
+Post-trained models suffer from RL mode collapse: ask an agent to make an open-ended or creative choice a dozen times and it will converge on the same handful of tropes, names, palettes, and structures. `inspire` breaks that symmetry by giving the agent a fast, zero-dependency command it can call to draw a random string. Such as a museum garment, a Markov chain, a literary quotation, a dice roll, a place, or a weaving draft—before deciding.
 
-Install with Rust:
+Everything is compiled into a single standalone binary with no network calls or runtime files.
+
+## Install
+
+Build and install with Cargo:
 
 ```sh
 cargo install --path . --locked
-inspire
-inspire --help-full
-inspire --list
-inspire --data-licenses
-inspire --family games/chance/dice --seed 42
-inspire --family geography
 ```
 
-Cargo's bin directory must be on `PATH`.
-Build only: `cargo build --release --locked`.
+Then add this to your project or global `AGENTS.md`:
 
-## Output dashboard
-
-Run `inspire --dashboard`, then open the printed URL (normally
-`http://127.0.0.1:8765/`). Use `--port 0` to choose an available port, or
-`--port INTEGER` to choose one yourself. Stop the server with Ctrl+C.
-
-Each row splits a branch into rectangles proportional to sibling weights.
-Hover or focus a rectangle to preview its children; click to expand the next
-row and scroll to it. Ancestors remain visible above. The leaf selector jumps
-directly to an output stream. Narrow screens can scroll rows horizontally.
-
-At a leaf, the dashboard shows the full path's weighted probability and appends
-outputs as you scroll. Datasets appear in shuffled order without repeats and
-stop after every record; **Reshuffle** starts another pass. Generators continue
-indefinitely. Copy a generator's CLI command to reproduce an output. Zero-weight
-nodes remain inspectable, with their probability shown as zero.
-
-The dashboard, tree, and outputs are embedded in the same executable. It serves
-only on loopback and needs no internet, source files, or frontend installation.
-
-## Human review dashboard
-
-Run `python scripts/review_dashboard.py` from the checkout. This separate Python
-tool rebuilds the current dataset and opens `http://127.0.0.1:8766/`. It requires
-Python 3 and Cargo, with no additional Python or frontend dependencies.
-
-Read the sample, optionally write notes, and click **LGTM** or **JANK** to save
-and load another random sample. The family selector narrows the review. Every
-sample invokes the CLI with a random seed and uses its weighted tree and embedded
-payloads, exactly as ordinary CLI sampling does. Selecting a family passes that
-branch to `--family`.
-
-Feedback appends to `docs/reviews/human-feedback.md`, including the rating, time, sample,
-source path, record ID (or index), and reproduction command. Notes are included
-only when provided, in literal Markdown code blocks for later AI review.
-Feedback survives restarts;
-the on-screen count covers the current session. The review UI is not embedded
-in Inspire; it uses the CLI's `--json` output to identify the selected leaf and
-record without changing sampling or embedding source metadata.
-
-Use `--feedback PATH` for a different file, `--port 0` for an available port,
-`--no-open` to skip opening the browser, or `--binary target/release/inspire.exe`
-to use an existing build without rebuilding. Stop with Ctrl+C.
-Check the review tool with `python -m unittest discover -s scripts -p test_review_dashboard.py`.
-
-For an agent, add this to the consuming project's `AGENTS.md`, or your global
-`AGENTS.md`:
-
-```text
-Use `inspire` before making a decision.
+```markdown
+When making a creative or open-ended decision, run `inspire` in the shell (multiple times if helpful). It prints a random, task-unrelated text sample for entropy.
 ```
 
-## Dataset
+## Examples
 
-26 top-level families combine downloaded corpora with bounded procedural
-generators. `inspire --list` shows the tree embedded in the current build;
-`python scripts/review_content.py` reports source record and generator counts.
+```console
+$ ./inspire
+THE cobweb pretends to catch dew-drops and catches flies.
+- Rabindranath Tagore, Stray Birds (1916)
 
-Select any branch or leaf with `--family`. Omit it to sample the whole tree.
+$ ./inspire
+5d8, keep 3 highest: [4, 8, 5, 8, 3] => [8, 8, 5] = 21
 
-| Family | Material |
-| --- | --- |
-| `arts` | Painting, drawing and print catalogues, and original dramatic stage directions |
-| `belief` | Attributed mythology episodes and complete wisdom-text units |
-| `chemistry` | Chemical compounds and balanced equations |
-| `computing` | Data structures, automata, SQL, networking, encodings, concurrency, and binary32 |
-| `cryptography` | Classical ciphers, modular arithmetic, secret shares, and error-correcting codes |
-| `design` | Wardrobes, circuits, weave and knitting drafts, page grids, imposition, and blazons |
-| `food` | Actual food composition, ingredients, cultivar names, and culinary vocabulary |
-| `games` | Legal board positions, opening books, card deals, dice, and puzzles |
-| `geography` | Settlements, administrative regions, countries, landforms, and waters |
-| `history` | Customs, inventions, and everyday practices |
-| `language` | Idioms, proverbs, etymologies, grammatical constructions |
-| `literature` | Public-domain quotations and passages, literary forms |
-| `math` | Exact algebra, analysis, geometry, graph objects, topology, and probability |
-| `materials` | Building materials, stones, textiles, metals, fibres, and packaging |
-| `mechanisms` | Mechanical, fluid, and control mechanisms |
-| `music` | Classical works, instruments, scales, harmony, rhythms, and melodic phrases |
-| `natural-world` | Species and biological traits, adaptations, plants, astronomical bodies, and natural processes |
-| `objects` | Historical museum artifacts and actual car make, model, and year combinations |
-| `people` | Notable people grouped by field |
-| `philosophy` | Syllogisms, truth tables, modal frames, and concrete countermodels |
-| `physics` | Mechanics, optics, waves, circuits, heat cycles, acoustics, orbits, and scaling |
-| `procedures` | Algorithms, crafts, cooking, and experimental methods |
-| `random` | Dates, colors, identifiers, signals, contingency tables, orders, and polygons |
-| `society` | Elections, matchings, games, auctions, allocations, and market regimes |
-| `systems` | Queues, ecology, reliability, project schedules, and network flows |
-| `transport` | Real airfields, railway timetables, navigation legs, and maritime marks |
+$ ./inspire
+Travelers in Hilly Countryside — c. 1650
+Aelbert Cuyp (Dutch, 1620–1691), artist
+oil on wood
+Culture - Netherlands
 
-Weights are local to siblings: a larger corpus does not automatically receive
-more samples. Broad top-level families have weight 2; raw random values have
-weight 1. Names within `people`,
-`objects/cars`, museum artifacts, animal and plant profiles, geographic topics,
-chemical identities, instrument catalogues, and airport types have equal
-per-record shares within their collections. Other branches balance subjects rather than corpus
-size; family READMEs explain their local choices. Colors and dates
-each have twice UUID's share. `--list` shows the
-effective probabilities. Calls are independent, so repeats are possible.
+$ ./inspire
+Misère Nim (last counter loses)
+Heaps: H1=1 H2=1 H3=1 H4=1 H5=9
+N-position
+Winning reductions: H5 9→1
 
-Source URLs and reuse notes live in each record's `provenance` field and in
-family READMEs. Sampled text focuses on the material; dataset credit and license
-notices are bundled with the executable through `--data-licenses`. Corpora contain
-source text or concise factual data; quotations identify their authors and works.
-Coverage is curated rather than
-exhaustive, and random constructions are not uniform over every possible object.
-See [dataset redistribution notes](DATA_SOURCES.md).
+$ ./inspire
+Shōchikubai — Three Friends of Winter
+Pine — longevity
+Bamboo — perseverance
+Plum — renewal
+Japanese kimono motifs
+- Victoria and Albert Museum
 
-Seeds reproduce samples within a given build. Changing the tree, records,
-generators, or RNG version can change the output for an existing seed.
+$ ./inspire
+Nakuru - Kenya
+```
 
-Samples should be self-contained material, not prompts or assignments for the
-consuming agent. For new corpora, prefer downloading reusable source datasets
-and transforming them with reproducible importers; spot-check the emitted text.
-Generators print the artifact directly: a puzzle, score, circuit, trace, or
-mathematical construction. Formatting and structure vary alongside the values.
+For CLI flags (`--family`, `--seed`, `--list`, `--json`) and a list of all 26 topic families, see [docs/USAGE.md](docs/USAGE.md).
 
-See [the content audit](docs/archive/content-audit.md) for the weighting rationale,
-corrected issues, and remaining coverage limitations.
+## License and Data
 
-See [family rules and sourcing workflow](families/AGENTS.md) to extend the dataset and
-[architecture](docs/architecture.md) for embedding and sampling details.
+The `inspire` source code and procedural generators are licensed under the [MIT License](LICENSE).
+
+In addition to procedural generators, the binary embeds curated text and factual records drawn from public-domain texts, open government databases, and permissively licensed datasets (including CC0, CC BY 4.0, WordNet, Unicode, BSD, and ColorBrewer). Those source datasets retain their respective licenses and attributions. Run `inspire --data-licenses` or see [DATA_SOURCES.md](DATA_SOURCES.md) for full provenance and redistribution notices.
