@@ -1,5 +1,11 @@
 # Sample length audit
 
+The subsequent [content improvement pass](reviews/improvement-pass-2026-11-02.md)
+adds sourced material and changes 15 generators. Its rebuilt release audit
+checks 90,270 corpus records plus 128 seeds for each of 222 generators:
+118,686 samples across 860 leaves, none above 512 tokens (maximum 509).
+The earlier deeper generator study below describes the pre-expansion revision.
+
 Content is capped at 512 `o200k_base` tokens, including source credits. The
 2026-11-02 cleanup used tiktoken 0.12.0 and reviewed all 844 leaves with nine
 GPT-6.1-sol agents at medium reasoning effort.

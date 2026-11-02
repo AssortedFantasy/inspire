@@ -238,8 +238,8 @@ distinguish sampling luck from code/data defects:
    `606`), and tactile primary sources (Montagu, Equiano, Du Bois, Vitruvius,
    de Dillmont, Farmer, Tissandier, Hearn, Weekley).
 2. **Shallow top-level branches create leaf-level hotspots:**
-   While the balance study's atom cap (`0.02451%`) prevents any single *exact
-   corpus string* from dominating, shallow top-level branches still funnel
+   The balance study's atom cap (`0.02451%`) was counterfactual, not deployed
+   (corrected during implementation). Shallow top-level branches still funnel
    `0.98%`–`1.66%` of root probability into single generator leaves or tiny
    single-book corpora:
    - `philosophy/logic/*`: 3 leaves at `1.31%` each (`11` draws across the 200

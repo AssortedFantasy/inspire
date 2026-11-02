@@ -23,7 +23,8 @@ Keep this up to date; list only important files and directories.
 - `src/`: CLI, packed layouts, sampling, and chunk retrieval.
 - `src/dashboard.rs`, `src/dashboard/`: embedded local server and output explorer.
 - `scripts/review_dashboard.py`, `scripts/review-dashboard/`: human review tool; feedback appends to `docs/reviews/human-feedback.md`.
-- [docs/reviews/vibe-check-2026-11-02.md](docs/reviews/vibe-check-2026-11-02.md): ten-agent review of 500 root draws, strengths, gaps, and cleanup candidates.
+- [docs/reviews/vibe-check-2026-11-02.md](docs/reviews/vibe-check-2026-11-02.md): multi-model sample reviews, strengths, gaps, and cleanup candidates.
+- [docs/reviews/improvement-pass-2026-11-02.md](docs/reviews/improvement-pass-2026-11-02.md): implemented review fixes, sourced expansions and validation.
 - `tests/`: build-tree and CLI integration tests.
 - `scripts/review_content.py`: counts, probabilities, duplicate checks, and output samples.
 - `scripts/token_count.py`: fast text/JSONL token counts and per-leaf length audits; [cleanup results](docs/token-length-audit.md).
