@@ -8,14 +8,17 @@ Dependencies are finish-to-start with zero lag. Time starts at day zero, all
 tasks are required, and parallel tasks have unlimited resources. Durations are
 fixed. A forward longest-path pass finds earliest starts; a backward pass finds
 latest starts against the earliest possible project finish. Slack is total
-float. Output shows earliest and latest starts, the critical-path count and one
-path witness. Finish times follow from starts and durations. A selected task is
-then shortened by one day and the entire schedule is recomputed.
+float. Fork/join output shows earliest and latest starts, the critical-path count
+and one path witness. Serial projects use a compact chain of tasks and durations.
+A selected task is then shortened by one day and the entire schedule is
+recomputed.
 
 Tests independently enumerate all source-to-terminal paths and certify project
 duration, the complete critical-path set, and each task's slack from the longest
 path through that task. They also verify precedence in both schedules and check
-the effect of a one-day delay to every task.
+the effect of a one-day delay or reduction to every eligible task. A reduction
+helps only when the task belongs to every critical path; tests distinguish this
+from merely having zero slack.
 
 Source: C. Hendrickson and T. Au, Carnegie Mellon University,
 [Project Management for Construction, chapter 10](https://www.cmu.edu/cee/projects/PMbook/10_Fundamental_Scheduling_Procedures.html),

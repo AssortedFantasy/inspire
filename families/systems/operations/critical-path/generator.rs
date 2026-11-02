@@ -187,50 +187,64 @@ pub fn generate(rng: &mut StdRng) -> String {
     let mode = rng.random_range(0..6);
     let mut project = make(rng, mode);
     let s = project.schedule();
-    let mut out =
-        String::from("Project DAG, durations in days\nTask  Days  After       ES  LS  Slack");
-    for i in 0..project.durations.len() {
-        let previous = if project.predecessors[i].is_empty() {
-            "—".into()
-        } else {
-            project.predecessors[i]
-                .iter()
-                .map(|&j| name(j).to_string())
-                .collect::<Vec<_>>()
-                .join(",")
-        };
-        let duration = project.durations[i];
+    let mut out = if s.paths.len() == 1 && s.paths[0].len() == project.durations.len() {
+        let chain = project
+            .durations
+            .iter()
+            .enumerate()
+            .map(|(i, duration)| format!("{} ({duration})", name(i)))
+            .collect::<Vec<_>>()
+            .join(" → ");
+        format!(
+            "Serial project, durations in days\n{chain}\nCompletion = day {}",
+            s.finish
+        )
+    } else {
+        let mut table =
+            String::from("Project DAG, durations in days\nTask  Days  After       ES  LS  Slack");
+        for i in 0..project.durations.len() {
+            let previous = if project.predecessors[i].is_empty() {
+                "—".into()
+            } else {
+                project.predecessors[i]
+                    .iter()
+                    .map(|&j| name(j).to_string())
+                    .collect::<Vec<_>>()
+                    .join(",")
+            };
+            let duration = project.durations[i];
+            write!(
+                table,
+                "\n{:<4}  {:>4}  {:<10}  {:>2}  {:>2}  {:>5}",
+                name(i),
+                duration,
+                previous,
+                s.start[i],
+                s.latest[i],
+                s.latest[i] - s.start[i]
+            )
+            .unwrap();
+        }
+        // Retain tied alternatives without listing every critical path.
         write!(
-            out,
-            "\n{:<4}  {:>4}  {:<10}  {:>2}  {:>2}  {:>5}",
-            name(i),
-            duration,
-            previous,
-            s.start[i],
-            s.latest[i],
-            s.latest[i] - s.start[i]
+            table,
+            "\n\nCompletion = day {}\n{} critical {}\n{}",
+            s.finish,
+            s.paths.len(),
+            if s.paths.len() == 1 {
+                "path"
+            } else {
+                "paths, one shown"
+            },
+            s.paths[0]
+                .iter()
+                .map(|&i| name(i).to_string())
+                .collect::<Vec<_>>()
+                .join(" → ")
         )
         .unwrap();
-    }
-    // A path witness plus the count retains tied alternatives without
-    // expanding a potentially branching critical subgraph into every path.
-    write!(
-        out,
-        "\n\nCompletion = day {}\n{} critical {}\n{}",
-        s.finish,
-        s.paths.len(),
-        if s.paths.len() == 1 {
-            "path"
-        } else {
-            "paths, one shown"
-        },
-        s.paths[0]
-            .iter()
-            .map(|&i| name(i).to_string())
-            .collect::<Vec<_>>()
-            .join(" → ")
-    )
-    .unwrap();
+        table
+    };
     let candidates: Vec<_> = (0..project.durations.len())
         .filter(|&i| project.durations[i] > 1)
         .collect();
@@ -314,8 +328,48 @@ mod tests {
                         u32::from(s.latest[i] == s.start[i])
                     );
                     p.durations[i] -= 1;
+                    if p.durations[i] > 1 {
+                        p.durations[i] -= 1;
+                        let shortened = p.schedule();
+                        assert_eq!(
+                            s.finish - shortened.finish,
+                            u32::from(critical.iter().all(|path| path.contains(&i)))
+                        );
+                        p.durations[i] += 1;
+                    }
                 }
             }
+        }
+    }
+
+    #[test]
+    fn serial_and_cocritical_regimes_have_different_shortening_effects() {
+        for seed in 0..100 {
+            let mut rng = StdRng::seed_from_u64(seed);
+            let mut serial = make(&mut rng, 0);
+            let s = serial.schedule();
+            assert_eq!(s.paths.len(), 1);
+            assert_eq!(s.finish, serial.durations.iter().sum::<u32>());
+            assert_eq!(s.start, s.latest);
+            serial.durations[2] -= 1;
+            assert_eq!(serial.schedule().finish, s.finish - 1);
+
+            let mut tied = make(&mut rng, 2);
+            let s = tied.schedule();
+            assert_eq!(s.paths.len(), 3);
+            assert_eq!(s.start, s.latest);
+            let branch = if tied.durations[1] > 1 { 1 } else { 2 };
+            tied.durations[branch] -= 1;
+            assert_eq!(tied.schedule().finish, s.finish);
+            tied.durations[0] -= 1;
+            assert_eq!(tied.schedule().finish, s.finish - 1);
+
+            let near = make(&mut rng, 1);
+            let s = near.schedule();
+            let gap = near.durations[1] + near.durations[2] - near.durations[3] - near.durations[4];
+            assert_eq!(s.latest[3] - s.start[3], gap);
+            assert_eq!(s.latest[4] - s.start[4], gap);
+            assert_eq!(s.paths.len(), if gap == 0 { 2 } else { 1 });
         }
     }
 }

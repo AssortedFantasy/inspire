@@ -203,18 +203,67 @@ fn name(i: usize, count: usize) -> char {
     }
 }
 
+#[derive(Debug)]
+struct Upgrade {
+    from: usize,
+    to: usize,
+    increase: i64,
+    value: i64,
+}
+
+fn upgrade(rng: &mut StdRng, graph: &mut Network, s: &Solution) -> Upgrade {
+    let increase = rng.random_range(1..=5);
+    let mut effective = Vec::new();
+    let mut competing = Vec::new();
+    let mut nonbinding = Vec::new();
+    for u in 0..graph.capacity.len() {
+        for v in 0..graph.capacity.len() {
+            if graph.capacity[u][v] == 0 {
+                continue;
+            }
+            graph.capacity[u][v] += increase;
+            let candidate = Upgrade {
+                from: u,
+                to: v,
+                increase,
+                value: graph.solve().value,
+            };
+            graph.capacity[u][v] -= increase;
+            if candidate.value > s.value {
+                effective.push(candidate);
+            } else if s.reachable[u] && !s.reachable[v] {
+                competing.push(candidate);
+            } else {
+                nonbinding.push(candidate);
+            }
+        }
+    }
+    // A cut edge need not belong to every minimum cut. Prefer actual gains,
+    // but retain both competing cuts and upgrades outside the displayed cut.
+    let want_gain = rng.random_bool(0.75);
+    let want_competing = rng.random_bool(0.5);
+    let choices = if want_gain && !effective.is_empty() {
+        &mut effective
+    } else if !competing.is_empty() && (want_competing || nonbinding.is_empty()) {
+        &mut competing
+    } else if !nonbinding.is_empty() {
+        &mut nonbinding
+    } else {
+        &mut effective
+    };
+    choices.swap_remove(rng.random_range(0..choices.len()))
+}
+
 pub fn generate(rng: &mut StdRng) -> String {
     let mode = rng.random_range(0..6);
     let mut graph = make(rng, mode);
     let s = graph.solve();
     let count = graph.capacity.len();
     let mut out = String::from("Directed network s → t, units/h\nEdge  Capacity  Flow");
-    let mut edges = Vec::new();
     let mut cut_edges = Vec::new();
     for u in 0..count {
         for v in 0..count {
             if graph.capacity[u][v] > 0 {
-                edges.push((u, v));
                 write!(
                     out,
                     "\n{}→{}   {:>7}  {:>4}",
@@ -243,32 +292,34 @@ pub fn generate(rng: &mut StdRng) -> String {
     let cuts = graph.cuts();
     let minimum = cuts.iter().filter(|(_, cap)| *cap == s.value).count();
     write!(out, "\n\nMaximum flow = {}\nMinimum cut S = {{{source_side}}}\n{} = {}\nMinimum cuts = {minimum}", s.value, cut_edges.join(" + "), s.value).unwrap();
-    // Re-solve every single-edge upgrade; choose both useful and ineffective edges when available.
-    let increase = rng.random_range(1..=5);
-    let mut outcomes = Vec::new();
-    for &(u, v) in &edges {
-        graph.capacity[u][v] += increase;
-        outcomes.push((u, v, graph.solve().value));
-        graph.capacity[u][v] -= increase;
-    }
-    let want_gain = rng.random_bool(0.5);
-    let preferred: Vec<_> = outcomes
-        .iter()
-        .filter(|(_, _, value)| (*value > s.value) == want_gain)
-        .collect();
-    let chosen = if preferred.is_empty() {
-        &outcomes[rng.random_range(0..outcomes.len())]
-    } else {
-        preferred[rng.random_range(0..preferred.len())]
-    };
+    let chosen = upgrade(rng, &mut graph, &s);
     write!(
         out,
-        "\n\nAdd {increase} capacity to {}→{} → maximum flow {}",
-        name(chosen.0, count),
-        name(chosen.1, count),
-        chosen.2
+        "\n\nAdd {} capacity to {}→{} → maximum flow {}",
+        chosen.increase,
+        name(chosen.from, count),
+        name(chosen.to, count),
+        chosen.value
     )
     .unwrap();
+    if chosen.value == s.value && s.reachable[chosen.from] && !s.reachable[chosen.to] {
+        let (mask, capacity) = cuts
+            .iter()
+            .find(|(mask, cap)| {
+                *cap == s.value && !(mask & (1 << chosen.from) != 0 && mask & (1 << chosen.to) == 0)
+            })
+            .unwrap();
+        let competing_side = (0..count)
+            .filter(|i| mask & (1 << i) != 0)
+            .map(|i| name(i, count).to_string())
+            .collect::<Vec<_>>()
+            .join(", ");
+        write!(
+            out,
+            "\nUnchanged competing cut S = {{{competing_side}}}, capacity {capacity}"
+        )
+        .unwrap();
+    }
     out
 }
 
@@ -356,5 +407,58 @@ mod tests {
         assert_eq!(s.flow[1][3], 0);
         assert_eq!(s.flow[1][4], 1);
         assert_eq!(s.flow[2][3], 1);
+    }
+
+    #[test]
+    fn effective_upgrades_cross_every_minimum_cut() {
+        let mut categories = [0; 3];
+        for seed in 0..240 {
+            let mut rng = StdRng::seed_from_u64(seed);
+            for mode in 0..6 {
+                let mut graph = make(&mut rng, mode);
+                let s = graph.solve();
+                let cuts = graph.cuts();
+                let original = graph.capacity.clone();
+                let chosen = upgrade(&mut rng, &mut graph, &s);
+                assert_eq!(graph.capacity, original);
+                let crosses =
+                    |mask: u32| mask & (1 << chosen.from) != 0 && mask & (1 << chosen.to) == 0;
+                let expected = cuts
+                    .iter()
+                    .map(|&(mask, cap)| cap + if crosses(mask) { chosen.increase } else { 0 })
+                    .min()
+                    .unwrap();
+                assert_eq!(chosen.value, expected);
+                let all_minimum_cuts = cuts
+                    .iter()
+                    .filter(|(_, cap)| *cap == s.value)
+                    .all(|&(mask, _)| crosses(mask));
+                assert_eq!(chosen.value > s.value, all_minimum_cuts);
+                let category = if chosen.value > s.value {
+                    assert!(s.reachable[chosen.from] && !s.reachable[chosen.to]);
+                    0
+                } else if s.reachable[chosen.from] && !s.reachable[chosen.to] {
+                    1
+                } else {
+                    2
+                };
+                categories[category] += 1;
+            }
+        }
+        // Effective interventions predominate without erasing either reason
+        // an individual upgrade can fail to improve throughput.
+        assert!(categories[0] > categories[1] + categories[2]);
+        assert!(categories[1] > 0 && categories[2] > 0);
+    }
+
+    #[test]
+    fn a_cut_edge_upgrade_can_be_blocked_or_only_partly_useful() {
+        for (second_capacity, expected) in [(4, 4), (5, 5), (9, 7)] {
+            let mut graph = Network::new(3, &[(0, 1, 4), (1, 2, second_capacity)]);
+            let s = graph.solve();
+            assert!(s.reachable[0] && !s.reachable[1]);
+            graph.capacity[0][1] += 3;
+            assert_eq!(graph.solve().value, expected);
+        }
     }
 }
