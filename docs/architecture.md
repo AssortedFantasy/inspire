@@ -128,6 +128,34 @@ integration points. The human review tool in `scripts/review_dashboard.py`
 serves assets from `scripts/review-dashboard/` and appends feedback to
 `docs/reviews/human-feedback.md` by default.
 
+`scripts/token_count.py` uses pinned [tiktoken](https://github.com/openai/tiktoken)
+for local token counts. Run it with `uv run --cache-dir target/uv-cache` to install
+its inline dependency. `count [FILE]` counts a UTF-8 file or stdin as one text;
+`count --jsonl [FILE]` adds `tokens` to each object's decoded `text`, preserving
+other fields. It preserves whitespace and treats special-token spellings as
+ordinary text. Counts cover sample text only, excluding chat framing and JSON
+metadata. `--encoding` defaults to `o200k_base`; counts differ across encodings.
+
+`audit --binary PATH [--family PATH] --output target/token-audit.json` checks
+every source corpus record and samples 128 adjacent seeds per generator through
+one temporary dashboard process. `--seeds` and `--seed` set the generator range.
+Build first: corpora come from the current source tree, generators from the
+binary. Leaf paths and corpus counts are checked for mismatch; this does not
+detect stale content with unchanged paths/counts. Disabled leaves are included.
+The report ranks leaves by maximum length and retains all over-limit texts with
+source IDs or CLI reproduction seeds. Generator maxima describe the sampled
+seeds, not a proven bound. `--max-tokens` defaults to a review threshold of 256.
+Exit codes are 0 within the threshold, 1 when exceeded, and 2 for invalid input
+or operational errors. For `count`, the threshold is optional.
+
+Initial dependency and encoding downloads need network access; cached runs need
+no network or API key. Encoding data stays in `target/tiktoken-cache` unless
+`TIKTOKEN_CACHE_DIR` is set. To run the focused tests:
+
+```sh
+uv run --cache-dir target/uv-cache --with tiktoken==0.12.0 python -B -m unittest discover -s scripts -p test_token_count.py
+```
+
 Chess opening integration tests use the `shakmaty` development dependency for
 complete legal, canonical SAN move histories. This dependency is confined to
 tests and does not enter the release executable.

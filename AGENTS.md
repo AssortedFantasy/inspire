@@ -25,6 +25,7 @@ Keep this up to date; list only important files and directories.
 - `scripts/review_dashboard.py`, `scripts/review-dashboard/`: human review tool; feedback appends to `docs/reviews/human-feedback.md`.
 - `tests/`: build-tree and CLI integration tests.
 - `scripts/review_content.py`: counts, probabilities, duplicate checks, and output samples.
+- `scripts/token_count.py`: fast text/JSONL token counts and per-leaf length audits.
 - `scripts/balance_*.py`, [docs/balance-study.md](docs/balance-study.md): counterfactual sampling experiments and measured results.
 - `scripts/balance_blind_trial.py`, [docs/blind-stream-study.md](docs/blind-stream-study.md): frozen blinded stream comparisons and judge audit.
 - `scripts/creative_validation.py`, `scripts/creative_render.py`, `scripts/creative_review.py`, [docs/creative-validation.md](docs/creative-validation.md): paid creative-task validation, SVG rendering, and blinded review.
@@ -37,6 +38,23 @@ Keep this up to date; list only important files and directories.
 
 Run checks at integration points after a coherent batch, not after each leaf.
 Commit finished leaves promptly; avoid reopening completed reviews for wording edits.
+
+Audit sample lengths after adding or substantially expanding content (build first):
+
+```sh
+uv run --cache-dir target/uv-cache scripts/token_count.py audit --binary target/release/inspire.exe --family PATH --output target/token-audit.json
+```
+
+Omit `--family` for the whole tree; on Unix use `target/release/inspire`.
+This checks every corpus record and 128 seeds per generator. The default
+`--max-tokens 256` flags samples for review, not automatic truncation. Inspect
+long outputs for unnecessary scaffolding while preserving useful artifacts.
+Exit 1 means over-limit samples were found; the JSON report retains their texts
+and record IDs or reproduction seeds. Use `--seeds N` for deeper generator review.
+For one text file use `count FILE`; for CLI JSON or sample banks use
+`count --jsonl FILE` (omit FILE to read stdin). Counts use `o200k_base`; override
+with `--encoding NAME`. Initial setup downloads tiktoken and encoding data;
+subsequent runs work offline from cache. No API key is needed.
 
 ```sh
 cargo fmt --all --check
