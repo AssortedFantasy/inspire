@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">A fox on a skateboard</title>
+  <desc id="desc">A cheerful orange fox rides a teal skateboard through a sunny landscape.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#f8e9cd"/>
+      <stop offset="1" stop-color="#fff8e9"/>
+    </linearGradient>
+    <linearGradient id="fur" x2="0.8" y2="1">
+      <stop stop-color="#f7a54b"/>
+      <stop offset="1" stop-color="#e97832"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" rx="28" fill="url(#sky)"/>
+  <circle cx="303" cy="91" r="31" fill="#f7c96a" opacity=".7"/>
+  <path d="M0 264 Q78 228 148 262 T290 255 T400 249 V400 H0Z" fill="#e9e5c9"/>
+  <path d="M0 300 Q72 275 146 296 T291 290 T400 284 V400 H0Z" fill="#d7e1c6"/>
+  <path d="M0 344 Q109 329 207 342 T400 334 V400 H0Z" fill="#c3d5b8"/>
+  <g fill="none" stroke="#fffaf0" stroke-linecap="round" opacity=".8">
+    <path d="M64 112h39m-29 10h23" stroke-width="5"/>
+    <path d="M287 154h44m-33 10h25" stroke-width="5"/>
+    <path d="M55 210h27m-39 12h30" stroke-width="4"/>
+  </g>
+  <g fill="#e8ad54">
+    <path d="M104 158l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/>
+    <path d="M289 214l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/>
+  </g>
+
+  <ellipse cx="207" cy="338" rx="122" ry="10" fill="#789a80" opacity=".25"/>
+
+  <!-- Skateboard and wheels -->
+  <g stroke="#394942" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M132 300l7 15h19l6-15m91 0 6 15h19l7-15" fill="none" stroke-width="6"/>
+    <circle cx="149" cy="319" r="13" fill="#f4b661" stroke-width="4"/>
+    <circle cx="270" cy="319" r="13" fill="#f4b661" stroke-width="4"/>
+    <circle cx="149" cy="319" r="4" fill="#fff5da" stroke="none"/>
+    <circle cx="270" cy="319" r="4" fill="#fff5da" stroke="none"/>
+    <path d="M96 287q4-1 8 4 3 3 11 3h178q12 0 17-10 2-4 6-2 4 2 2 7l-4 10q-3 7-14 7H114q-12 0-16-8l-5-7q-2-3 3-4z" fill="#4e9f91" stroke-width="4"/>
+    <path d="M107 297h197" fill="none" stroke="#a9ded0" stroke-width="3"/>
+  </g>
+
+  <!-- Tail -->
+  <path d="M181 230q-24 3-43-10-21-14-39-9-8 2-12 9 4 35 34 46 29 11 63-4l18-17z" fill="url(#fur)" stroke="#7d4935" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M87 220q4-7 12-9 14-4 29 4l-8 6 7 5-10 5 5 7-11 2 4 9q-23-9-28-29z" fill="#fff1d8"/>
+
+  <!-- Back leg -->
+  <path d="M190 239q-5 21-18 37-5 6 0 11 4 4 18 4h12q6-1 6-6l-3-10 18-21z" fill="#df7736" stroke="#7d4935" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M171 282q7-5 15-3l3 6h18q1 6-6 6h-24q-8 0-8-5z" fill="#5b493d"/>
+
+  <!-- Body -->
+  <path d="M185 183q-16 13-19 38-3 25 12 38 17 15 46 11 28-4 33-24 3-17-8-39l-14-24z" fill="url(#fur)" stroke="#7d4935" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M196 205q-12 10-12 28 0 21 19 27 17 5 29-7 10-11 5-29-5-17-20-22z" fill="#fff0d6"/>
+
+  <!-- Arms -->
+  <path d="M175 207q-13 5-22 16l-13-5q-7-3-10 2-3 5 4 9l20 10q5 2 9-2l18-14" fill="#ef8b3b" stroke="#7d4935" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M237 211q12 6 18 16l15-14q5-5 9-1 4 4-1 9l-19 20q-4 4-9 1l-18-12" fill="#ef8b3b" stroke="#7d4935" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Front leg -->
+  <path d="M218 249q16 1 22 11l10 19q4 8-2 11h-26q-7-1-7-7l-8-15" fill="#f19442" stroke="#7d4935" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M217 281q7-4 14-2l3 5h15q3 6-5 7h-22q-8-1-7-7z" fill="#5b493d"/>
+
+  <!-- Scarf ends -->
+  <path d="M179 190q-19 5-35-5l5 12-12 4q19 10 43 4z" fill="#4e9f91" stroke="#396e69" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Ears -->
+  <path d="M160 148l-6-45q-1-8 6-4l31 25m34-2 24-22q7-6 7 3l-5 46" fill="#ed8b3f" stroke="#7d4935" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M162 110l4 27 18-12zm83-1-15 17 16 11z" fill="#d76d5e"/>
+
+  <!-- Head -->
+  <path d="M156 140q8-16 31-20 28-5 49 7 17 10 17 29 0 22-20 34-21 14-45 4-25-10-32-29-5-14 0-25z" fill="url(#fur)" stroke="#7d4935" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M156 157q10 8 21 6 8-1 15 5 10 9 19 4 9-7 17-7 14 0 25-9 0 21-20 34-21 14-45 4-25-10-32-29z" fill="#fff1d9"/>
+  <ellipse cx="181" cy="153" rx="4" ry="5.5" fill="#49382e"/>
+  <ellipse cx="226" cy="153" rx="4" ry="5.5" fill="#49382e"/>
+  <circle cx="182" cy="151.5" r="1.3" fill="#fff"/>
+  <circle cx="227" cy="151.5" r="1.3" fill="#fff"/>
+  <ellipse cx="169" cy="166" rx="7" ry="4" fill="#ed9c82" opacity=".65"/>
+  <ellipse cx="239" cy="166" rx="7" ry="4" fill="#ed9c82" opacity=".65"/>
+  <path d="M199 174q5-4 10 0-1 5-5 5t-5-5z" fill="#49382e"/>
+  <path d="M204 179q0 6-6 7m6-7q0 6 6 7" fill="none" stroke="#7d4935" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Scarf collar -->
+  <path d="M182 191q23 12 49 0l3 9q-24 14-53 1z" fill="#4e9f91" stroke="#396e69" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M187 198q19 7 39 0" fill="none" stroke="#a8dfcf" stroke-width="2" stroke-linecap="round"/>
+</svg>

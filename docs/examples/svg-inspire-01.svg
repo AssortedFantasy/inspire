@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9f3ef"/>
+      <stop offset="1" stop-color="#f7e9cf"/>
+    </linearGradient>
+    <linearGradient id="deck" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ef8063"/>
+      <stop offset="1" stop-color="#cf5c4b"/>
+    </linearGradient>
+    <clipPath id="tail-clip">
+      <path d="M223 211c22 2 32-10 35-29 3-17 15-27 28-22 14 5 17 21 8 39-12 26-36 41-63 40z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="400" height="400" rx="30" fill="url(#sky)"/>
+  <circle cx="307" cy="79" r="25" fill="#ffd990"/>
+  <g fill="none" stroke="#fff9e9" stroke-linecap="round" opacity=".8">
+    <path d="M49 112h43M60 124h25M305 129h42M321 141h31" stroke-width="4"/>
+    <path d="M53 229h32M41 242h49M314 222h38M328 234h24" stroke-width="3"/>
+  </g>
+  <g fill="#fff9e9" opacity=".8">
+    <circle cx="79" cy="72" r="3"/>
+    <circle cx="345" cy="183" r="3"/>
+    <path d="M115 56l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/>
+  </g>
+
+  <ellipse cx="202" cy="323" rx="133" ry="12" fill="#6d9690" opacity=".18"/>
+  <path d="M61 322h278" stroke="#8eb5a7" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Tail -->
+  <path d="M223 211c22 2 32-10 35-29 3-17 15-27 28-22 14 5 17 21 8 39-12 26-36 41-63 40z"
+        fill="#9ba8a4" stroke="#344b4c" stroke-width="4" stroke-linejoin="round"/>
+  <g clip-path="url(#tail-clip)" fill="none" stroke="#536a69" stroke-width="11">
+    <path d="M239 207c5 12 11 21 18 27"/>
+    <path d="M257 190c7 10 15 15 27 17"/>
+    <path d="M267 169c8 6 17 8 28 7"/>
+  </g>
+
+  <!-- Arms -->
+  <path d="M170 181c-11 0-18 9-26 18l-20-19c-4-4-10-4-13 0s-2 8 2 13l25 29c4 5 10 5 15 2l28-23z"
+        fill="#899b97" stroke="#344b4c" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M222 182c13 0 24-6 38-17l11-9c5-4 11-3 13 1 3 4 1 9-3 13l-17 16c-11 10-23 17-37 18z"
+        fill="#899b97" stroke="#344b4c" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M111 180c-2-4 0-8 3-9 3-1 5 1 7 4l4 6M273 156c1-5 4-7 7-6 3 1 4 4 3 8"
+        fill="none" stroke="#344b4c" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Legs and feet -->
+  <path d="M169 231l-5 29c-7 1-13 4-15 9-2 4 1 7 6 7h26c5 0 8-3 8-8l4-31z"
+        fill="#596f6e" stroke="#344b4c" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M207 233l4 26c-5 2-8 5-8 9 0 3 3 5 7 5l27-2c5 0 7-3 6-7l-9-31z"
+        fill="#596f6e" stroke="#344b4c" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Body -->
+  <path d="M170 163c-10 8-15 24-14 43 1 19 5 31 12 40 7 7 45 9 56 1 9-8 13-24 13-42 0-20-6-34-16-42z"
+        fill="#9baaa4" stroke="#344b4c" stroke-width="4"/>
+  <ellipse cx="197" cy="208" rx="26" ry="31" fill="#dbe1d2"/>
+
+  <!-- Ears -->
+  <path d="M143 104l-1-27c0-9 6-12 13-8l21 16zM218 85l21-16c7-4 13-1 13 8l-3 28z"
+        fill="#718784" stroke="#344b4c" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M150 94l-1-16 16 12zM229 90l15-12-1 16z" fill="#e9b3a5"/>
+
+  <!-- Head -->
+  <path d="M134 119c0-25 25-41 62-41s62 16 62 41l-4 24c-4 21-26 33-58 33s-54-12-58-33z"
+        fill="#aab9b1" stroke="#344b4c" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M148 117c3-11 13-16 24-14 10 2 16 10 17 22-2 12-10 18-21 18-12-1-20-10-20-26z
+           M244 117c-3-11-13-16-24-14-10 2-16 10-17 22 2 12 10 18 21 18 12-1 20-10 20-26z"
+        fill="#526a68"/>
+  <ellipse cx="170" cy="123" rx="5" ry="6" fill="#fffdf2"/>
+  <ellipse cx="222" cy="123" rx="5" ry="6" fill="#fffdf2"/>
+  <circle cx="171" cy="124" r="2.5" fill="#263d3d"/>
+  <circle cx="221" cy="124" r="2.5" fill="#263d3d"/>
+  <path d="M165 145c3-9 15-13 31-13s28 4 31 13c-2 12-15 19-31 19s-29-7-31-19z"
+        fill="#f0eee0"/>
+  <path d="M188 139c0-3 3-5 8-5s8 2 8 5c0 3-4 6-8 6s-8-3-8-6z" fill="#344b4c"/>
+  <path d="M196 145v4m-8 1c2 3 5 4 8 4s6-1 8-4"
+        fill="none" stroke="#344b4c" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="155" cy="143" rx="6" ry="3" fill="#e9a99c" opacity=".7"/>
+  <ellipse cx="237" cy="143" rx="6" ry="3" fill="#e9a99c" opacity=".7"/>
+
+  <!-- Skateboard trucks and wheels -->
+  <g stroke="#344b4c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M129 284l2 12m-9-4h18M263 276l3 12m-9-3h18" fill="none"/>
+    <circle cx="131" cy="301" r="11" fill="#f5c36f"/>
+    <circle cx="266" cy="292" r="11" fill="#f5c36f"/>
+  </g>
+  <circle cx="131" cy="301" r="3" fill="#536a69"/>
+  <circle cx="266" cy="292" r="3" fill="#536a69"/>
+  <path d="M92 273l214-14c4 0 7 2 6 6-2 8-8 13-17 14l-182 12c-12 1-20-3-24-11-2-3 0-6 3-7z"
+        fill="url(#deck)" stroke="#344b4c" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M98 277l204-13" fill="none" stroke="#ffd1a5" stroke-width="3" stroke-linecap="round"/>
+
+  <g fill="none" stroke="#779e91" stroke-width="3" stroke-linecap="round">
+    <path d="M61 294h21M48 304h30M322 298h22"/>
+  </g>
+</svg>

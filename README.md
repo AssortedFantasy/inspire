@@ -6,6 +6,8 @@ Post-trained models suffer from RL mode collapse: ask an agent to make an open-e
 
 Everything is compiled into a single standalone binary with no network calls or runtime files.
 
+[See examples](docs/examples.md): short poems and skateboarding animals, with and without Inspire.
+
 ## Install
 
 Build and install with Cargo:

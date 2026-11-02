@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Skateboarding cat</title>
+  <desc id="desc">An orange cat wearing a red scarf rides a purple skateboard.</desc>
+
+  <rect width="400" height="400" rx="28" fill="#e1f3ed"/>
+  <circle cx="326" cy="75" r="30" fill="#ffdf8c"/>
+  <path d="M55 105h35m-22-12h43M42 126h54" fill="none" stroke="#b7ddd2" stroke-width="5" stroke-linecap="round"/>
+  <path d="M52 250h40m-53 16h37M317 239h39" fill="none" stroke="#b7ddd2" stroke-width="5" stroke-linecap="round"/>
+  <path d="M81 66l3 7 7 3-7 3-3 7-3-7-7-3 7-3zM344 161l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" fill="#fff8df"/>
+
+  <ellipse cx="202" cy="354" rx="142" ry="10" fill="#bcded3"/>
+
+  <!-- Tail -->
+  <path d="M151 235c-23 6-43 0-53-16-6-10-8-22-15-23" fill="none" stroke="#35494a" stroke-width="22" stroke-linecap="round"/>
+  <path d="M151 235c-23 6-43 0-53-16-6-10-8-22-15-23" fill="none" stroke="#ec9b52" stroke-width="15" stroke-linecap="round"/>
+  <path d="M99 220l9-7m0 18 9-8" fill="none" stroke="#c66d3f" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <path d="M135 218c5-31 30-46 64-44 40 2 64 24 67 58l-3 30c-1 13-13 21-30 21h-62c-26 0-39-12-39-32 0-12 0-23 3-33z" fill="#f4aa63" stroke="#35494a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M161 190c5 5 8 11 9 17m12-23c4 5 7 11 8 17m13-17c4 5 7 10 8 15" fill="none" stroke="#d37c46" stroke-width="6" stroke-linecap="round"/>
+  <path d="M184 249c10 7 24 8 35 3" fill="none" stroke="#e59155" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Scarf -->
+  <path d="M222 209c-12 0-22-3-30-9l-8 11 13 6-6 9c13 1 26-2 36-8z" fill="#e56f64" stroke="#35494a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M218 201c18 8 45 10 67 1l4 14c-22 11-50 10-72 1z" fill="#ef796d" stroke="#35494a" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Legs and paws -->
+  <path d="M158 251v35c0 8 4 13 12 13h12c5 0 7-3 7-7 0-5-4-8-9-8v-24" fill="#f4aa63" stroke="#35494a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M239 250v36c0 8 4 13 12 13h13c5 0 7-3 7-7 0-5-4-8-9-8v-32" fill="#f4aa63" stroke="#35494a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M169 291v7m84-7v7" fill="none" stroke="#d37c46" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Head and ears -->
+  <path d="M213 155l3-38c0-5 3-7 7-4l19 15c10-3 19-3 29 1l19-14c4-3 7-1 7 4l1 34c5 7 7 15 5 24-3 20-21 33-46 33-24 0-42-11-48-28-3-9-1-19 4-27z" fill="#f4aa63" stroke="#35494a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M222 123l1 20 12-10zm68 1-1 20-11-11z" fill="#dd8073"/>
+  <path d="M248 132l3 9m9-10 1 9m9-7-1 8" fill="none" stroke="#d37c46" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="239" cy="166" rx="3.5" ry="5" fill="#35494a"/>
+  <ellipse cx="281" cy="166" rx="3.5" ry="5" fill="#35494a"/>
+  <ellipse cx="225" cy="178" rx="7" ry="4" fill="#ee8b7c" opacity=".65"/>
+  <ellipse cx="294" cy="178" rx="7" ry="4" fill="#ee8b7c" opacity=".65"/>
+  <path d="M254 174h11l-5.5 6z" fill="#35494a" stroke="#35494a" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M259.5 180v4c-3 5-8 5-11 1m11-1c3 5 8 5 11 1" fill="none" stroke="#35494a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M228 181l-15-3m15 9-14 3m76-9 15-3m-15 9 14 3" fill="none" stroke="#35494a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Skateboard -->
+  <path d="M124 312v9m151-9v9" stroke="#35494a" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="124" cy="327" r="13" fill="#ffcb76" stroke="#35494a" stroke-width="5"/>
+  <circle cx="275" cy="327" r="13" fill="#ffcb76" stroke="#35494a" stroke-width="5"/>
+  <circle cx="124" cy="327" r="3" fill="#35494a"/>
+  <circle cx="275" cy="327" r="3" fill="#35494a"/>
+  <path d="M69 290c4 7 11 10 23 10h217c12 0 19-3 23-10l7 3c-5 15-14 21-30 21H94c-15 0-25-7-31-21z" fill="#886ab8" stroke="#35494a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M92 301h217" stroke="#f7e3b2" stroke-width="3" stroke-linecap="round"/>
+</svg>

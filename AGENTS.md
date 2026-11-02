@@ -26,6 +26,7 @@ Keep this up to date; list only important files and directories.
 - [docs/reviews/vibe-check-2026-11-02.md](docs/reviews/vibe-check-2026-11-02.md): multi-model sample reviews, strengths, gaps, and cleanup candidates.
 - [docs/reviews/improvement-pass-2026-11-02.md](docs/reviews/improvement-pass-2026-11-02.md): implemented review fixes, sourced expansions and validation.
 - `tests/`: build-tree and CLI integration tests.
+- [docs/examples.md](docs/examples.md), [docs/examples-details.md](docs/examples-details.md): poems and skateboarding SVGs with and without Inspire; prompts and run details.
 - `scripts/review_content.py`: counts, probabilities, duplicate checks, and output samples.
 - `scripts/token_count.py`: fast text/JSONL token counts and per-leaf length audits; [cleanup results](docs/token-length-audit.md).
 - `scripts/balance_*.py`, [docs/balance-study.md](docs/balance-study.md): counterfactual sampling experiments and measured results.

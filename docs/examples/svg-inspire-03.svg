@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title">
+  <title id="title">A cheerful cat riding a skateboard</title>
+  <rect width="400" height="400" fill="#faf4e8"/>
+  <circle cx="200" cy="190" r="151" fill="#d9eee7"/>
+  <path d="M48 161h37M37 173h27M311 130h35M326 142h27" fill="none" stroke="#a7d5c9" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#f3bd58">
+    <path d="M92 108l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/>
+    <path d="M310 205l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/>
+    <circle cx="73" cy="220" r="3"/>
+    <circle cx="321" cy="88" r="3"/>
+  </g>
+
+  <ellipse cx="201" cy="349" rx="137" ry="10" fill="#bed9cf" opacity=".6"/>
+
+  <!-- Wheels and deck -->
+  <g stroke="#344b4b" stroke-width="4" stroke-linejoin="round">
+    <path d="M135 309l5 15h20l4-15M239 309l5 15h20l5-15" fill="#94aaa4"/>
+    <circle cx="149" cy="327" r="13" fill="#efb54f"/>
+    <circle cx="255" cy="327" r="13" fill="#efb54f"/>
+    <circle cx="149" cy="327" r="4" fill="#faf4e8" stroke-width="2"/>
+    <circle cx="255" cy="327" r="4" fill="#faf4e8" stroke-width="2"/>
+    <path d="M87 290c7 7 17 10 29 10h168c12 0 21-4 28-11 2-2 5 0 4 3-4 14-15 23-31 23H117c-16 0-27-8-33-21-2-4 0-7 3-4z" fill="#e97c5b"/>
+    <path d="M106 305h191" fill="none" stroke="#f6ba91" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Tail -->
+  <path d="M168 244c-24 18-53 18-67 2-10-11-11-25-6-32" fill="none" stroke="#654634" stroke-width="19" stroke-linecap="round"/>
+  <path d="M168 244c-24 18-53 18-67 2-10-11-11-25-6-32" fill="none" stroke="#eaa35d" stroke-width="13" stroke-linecap="round"/>
+  <path d="M94 226c3 2 7 3 11 3M101 241c3-1 7-3 10-5" fill="none" stroke="#c97b48" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Legs -->
+  <g fill="#eaa35d" stroke="#654634" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M169 245l-7 36c-2 8 0 17 9 18h17c5 0 7-4 5-8l-4-6 7-37z"/>
+    <path d="M211 248l8 37-3 7c-1 4 1 7 6 7h17c9 0 11-8 8-17l-10-37z"/>
+    <!-- Arms -->
+    <path d="M166 184c-12 3-20 14-27 28l-11 10c-3 3-8 2-10-1-3-4-8-3-9 1-2 6 2 13 8 16 7 4 15 2 21-3l25-20 13-15z"/>
+    <path d="M237 183c13 2 22 12 30 22l11 4c4 2 7 0 8-3 2-4 7-4 9 0 3 5 0 12-5 16-6 4-13 4-20 1l-26-11-15-12z"/>
+    <!-- Body -->
+    <path d="M175 165c-17 8-24 26-24 47 0 19 4 36 14 47 12 13 58 14 72 0 11-11 15-29 15-47 0-22-9-40-27-47z"/>
+  </g>
+  <path d="M178 210c1-12 10-20 23-20s22 8 23 20l3 31c1 12-9 20-26 20s-27-8-26-20z" fill="#f8d8a6"/>
+  <path d="M169 293h9M226 293h9" fill="none" stroke="#b56f47" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Scarf -->
+  <path d="M167 166c19 9 47 10 68 0l3 13c-19 11-55 12-74 1z" fill="#438e86" stroke="#654634" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M228 178c12 3 18 11 21 20l-13-2-7 9-9-23z" fill="#438e86" stroke="#654634" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Head and ears -->
+  <path d="M145 121c-1-12 0-28 2-40 1-5 4-6 8-2l21 18c15-5 34-5 49 0l19-18c4-4 7-3 8 2l1 36c5 9 7 17 5 26-3 22-25 36-57 36s-54-14-58-35c-2-8-1-16 2-23z" fill="#eaa35d" stroke="#654634" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M152 89l2 22 15-11zM245 89l1 22-14-11z" fill="#d88575"/>
+  <path d="M187 101l5 10M201 99v11M215 101l-5 10" fill="none" stroke="#c77c49" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="177" cy="130" rx="4" ry="6" fill="#4e3b31"/>
+  <ellipse cx="225" cy="130" rx="4" ry="6" fill="#4e3b31"/>
+  <ellipse cx="166" cy="145" rx="8" ry="4" fill="#ed927d" opacity=".65"/>
+  <ellipse cx="236" cy="145" rx="8" ry="4" fill="#ed927d" opacity=".65"/>
+  <path d="M196 140q5-4 10 0l-5 5z" fill="#9c5a52"/>
+  <path d="M201 145v4c-3 5-8 5-11 1m11-1c3 5 8 5 11 1" fill="none" stroke="#654634" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M163 138l-20-3m20 10l-21 3m97-10l20-3m-20 10l21 3" fill="none" stroke="#654634" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

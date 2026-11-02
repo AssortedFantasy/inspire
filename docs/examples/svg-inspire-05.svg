@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <title>A cat riding a skateboard</title>
+  <rect width="400" height="400" fill="#f8f4e9"/>
+  <circle cx="200" cy="183" r="151" fill="#dcefe6"/>
+  <circle cx="292" cy="88" r="22" fill="#f5c76b"/>
+  <g fill="none" stroke="#a5cfc3" stroke-width="3" stroke-linecap="round">
+    <path d="M55 160h35m-45 12h23M302 136h37m-27 12h32"/>
+    <path d="M77 221h25m-34 12h21"/>
+  </g>
+  <g fill="#f5c76b">
+    <path d="M98 92l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/>
+    <path d="M322 245l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/>
+  </g>
+
+  <!-- Tail -->
+  <path d="M238 216c25 6 46 5 54-6 6-8 3-12-3-15-8-4-7-13 0-17 8-5 18 2 21 12 10 31-17 60-66 53z"
+        fill="#e9a65f" stroke="#33433e" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M298 179c5 6 7 12 6 19M303 211c-3 6-7 11-12 14"
+        fill="none" stroke="#bd7848" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Scarf ends -->
+  <path d="M221 181c17-4 27-8 39-18l-3 17 16 5c-14 9-29 11-46 10z"
+        fill="#ef7865" stroke="#33433e" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Body and feet -->
+  <path d="M153 185c-19 10-27 31-25 54 1 16 6 27 11 36l-8 7c-5 5-1 10 6 10h34c8 0 11-5 9-11l-2-17c12 6 25 7 37 1l2 17c1 6 5 10 12 10h19c7 0 10-5 5-10l-7-10c9-16 11-34 5-52-5-17-17-29-31-35z"
+        fill="#e9a65f" stroke="#33433e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M156 210c-3 16-1 31 4 44m69-44c6 12 8 24 6 35"
+        fill="none" stroke="#bd7848" stroke-width="7" stroke-linecap="round"/>
+  <path d="M144 277c7-4 16-3 21 1m59 1c6-3 14-3 19 0"
+        fill="none" stroke="#bd7848" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Scarf -->
+  <path d="M143 177c20 10 56 13 81 2l5 14c-25 12-62 10-88-2z"
+        fill="#ef7865" stroke="#33433e" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M208 188l7 6-7 6-7-6z" fill="#f9d892"/>
+
+  <!-- Head and ears -->
+  <path d="M139 126l1-42c0-6 4-8 9-4l22 17c11-3 23-3 34 0l23-17c5-4 9-2 9 4l-2 42c7 10 9 21 6 31-5 22-25 33-53 33-30 0-50-12-55-34-3-11-1-21 6-30z"
+        fill="#f2b770" stroke="#33433e" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M149 94l1 23 15-15zm78 0-2 23-14-15z" fill="#df8977"/>
+  <path d="M177 101l4 12m9-14v13m10-11-3 12"
+        fill="none" stroke="#c98650" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Face -->
+  <ellipse cx="161" cy="145" rx="4.5" ry="6" fill="#33433e"/>
+  <path d="M211 145q6-6 12 0" fill="none" stroke="#33433e" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="151" cy="157" rx="7" ry="4" fill="#e98e7d" opacity=".7"/>
+  <ellipse cx="224" cy="157" rx="7" ry="4" fill="#e98e7d" opacity=".7"/>
+  <path d="M182 151q6-4 12 0l-6 6z" fill="#33433e"/>
+  <path d="M188 157v4q-5 6-10 0m10 0q5 6 10 0"
+        fill="none" stroke="#33433e" stroke-width="3" stroke-linecap="round"/>
+  <path d="M145 153l-17-3m17 10-17 3m103-10 17-3m-17 10 17 3"
+        fill="none" stroke="#33433e" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Skateboard trucks and wheels -->
+  <path d="M109 305l3 13h19l4-13m130 0 4 13h19l3-13"
+        fill="#9baaa2" stroke="#33433e" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="116" cy="324" r="12" fill="#f5c76b" stroke="#33433e" stroke-width="4"/>
+  <circle cx="284" cy="324" r="12" fill="#f5c76b" stroke="#33433e" stroke-width="4"/>
+  <circle cx="116" cy="324" r="3" fill="#33433e"/>
+  <circle cx="284" cy="324" r="3" fill="#33433e"/>
+  <path d="M63 286c9 5 17 7 31 7h211c14 0 23-4 32-10-1 15-11 24-28 24H92c-17 0-26-7-29-21z"
+        fill="#ed806a" stroke="#33433e" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M79 295h242" fill="none" stroke="#f8c5a1" stroke-width="3" stroke-linecap="round"/>
+  <path d="M77 349h245" fill="none" stroke="#b9d7c9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M55 349h9m270 0h12" fill="none" stroke="#b9d7c9" stroke-width="4" stroke-linecap="round"/>
+</svg>

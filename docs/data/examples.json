@@ -1,0 +1,938 @@
+{
+  "binary_sha256": "6a93c67779f46ef31369c280726c462bb4fba1e7b01534e2c286597821c7d516",
+  "created_utc": "2026-11-02T22:13:25.718472+00:00",
+  "prefix": "Use this random text as inspiration. You may use or ignore it.\n\n<inspiration>\n{}\n</inspiration>\n\n{}",
+  "source_commit": "dd294b8380189dae9eb0cf3a6330071bc0f89264",
+  "tasks": {
+    "poem": [
+      "Write a short poem of 4–8 lines.",
+      "medium"
+    ],
+    "svg": [
+      "Draw an animal on a skateboard as a self-contained SVG with viewBox=\"0 0 400 400\". Use no scripts or external resources. Return only the SVG.",
+      "high"
+    ]
+  },
+  "jobs": [
+    {
+      "condition": "control",
+      "id": "poem-control-01",
+      "inspiration": null,
+      "position": 1,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Write a short poem of 4–8 lines.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "medium"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "poem",
+      "output": "The moon collects its silver change\nFrom puddles in the street;\nA moth, mistaken for a star,\nMakes night feel incomplete.",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 33,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 55,
+        "output_tokens_details": {
+          "reasoning_tokens": 22
+        },
+        "total_tokens": 88
+      },
+      "generated_utc": "2026-11-02T22:13:56.214259+00:00"
+    },
+    {
+      "condition": "inspire",
+      "id": "poem-inspire-01",
+      "inspiration": {
+        "payload": {
+          "kind": "record",
+          "path": "arts/painting/works",
+          "record_index": 45,
+          "text": "Drawing of an Elephant — c. 1700\nink on paper\nCulture - India, Mughal School, early 18th Century"
+        },
+        "seed": "1223725163901051235"
+      },
+      "position": 1,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Use this random text as inspiration. You may use or ignore it.\n\n<inspiration>\nDrawing of an Elephant — c. 1700\nink on paper\nCulture - India, Mughal School, early 18th Century\n</inspiration>\n\nWrite a short poem of 4–8 lines.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "medium"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "poem",
+      "output": "In a narrow river of ink,\nan elephant gathers its weight.\nThree centuries pass over the paper;\nstill its raised foot does not fall.\nSomewhere beyond the border,\nthe grass is waiting to bend.",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 84,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 45,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 129
+      },
+      "generated_utc": "2026-11-02T22:13:56.308093+00:00"
+    },
+    {
+      "condition": "control",
+      "id": "poem-control-02",
+      "inspiration": null,
+      "position": 2,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Write a short poem of 4–8 lines.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "medium"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "poem",
+      "output": "The evening folds its paper wings\nAbove the quiet town,\nAnd one by one, the windows bloom\nAs darkness settles down.\nA moth taps softly at the glass,\nA star that wandered close.",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 33,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 72,
+        "output_tokens_details": {
+          "reasoning_tokens": 26
+        },
+        "total_tokens": 105
+      },
+      "generated_utc": "2026-11-02T22:13:57.014649+00:00"
+    },
+    {
+      "condition": "inspire",
+      "id": "poem-inspire-02",
+      "inspiration": {
+        "payload": {
+          "kind": "generator",
+          "path": "systems/reliability/fault-trees",
+          "record_index": null,
+          "text": "TOP = AND(A, B, C)\nIndependent basic events on one demand\nP(A) = 0.04\nP(B) = 0.02\nP(C) = 0.03\nMinimal cut sets: {A, B, C}\nP(TOP) = 3/125000 ≈ 2.4e-5"
+        },
+        "seed": "17869591926096135607"
+      },
+      "position": 2,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Use this random text as inspiration. You may use or ignore it.\n\n<inspiration>\nTOP = AND(A, B, C)\nIndependent basic events on one demand\nP(A) = 0.04\nP(B) = 0.02\nP(C) = 0.03\nMinimal cut sets: {A, B, C}\nP(TOP) = 3/125000 ≈ 2.4e-5\n</inspiration>\n\nWrite a short poem of 4–8 lines.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "medium"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "poem",
+      "output": "Three locks held fast against the night,\neach with its own small chance to fail.\nOnly together could they yield\nand let the darkness through.\n\nBy morning, all three keys had turned;\na single star fell down the stair.",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 129,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 50,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 179
+      },
+      "generated_utc": "2026-11-02T22:13:56.587172+00:00"
+    },
+    {
+      "condition": "control",
+      "id": "poem-control-03",
+      "inspiration": null,
+      "position": 3,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Write a short poem of 4–8 lines.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "medium"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "poem",
+      "output": "The morning spills across the floor,\nA quiet gold beneath the door.\nThe world outside begins to hum;\nI let the light tell me to come.",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 33,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 58,
+        "output_tokens_details": {
+          "reasoning_tokens": 22
+        },
+        "total_tokens": 91
+      },
+      "generated_utc": "2026-11-02T22:13:56.520640+00:00"
+    },
+    {
+      "condition": "inspire",
+      "id": "poem-inspire-03",
+      "inspiration": {
+        "payload": {
+          "kind": "record",
+          "path": "food/nutrition/vegetables-and-vegetable-products",
+          "record_index": 16,
+          "text": "Asparagus, raw\nPer 100 g edible portion\nEnergy 20 kcal\nProtein 2.2 g\nFat 0.12 g\nCarbohydrate 3.88 g\nFibre 2.1 g\nSodium 2 mg"
+        },
+        "seed": "11624963402158238667"
+      },
+      "position": 3,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Use this random text as inspiration. You may use or ignore it.\n\n<inspiration>\nAsparagus, raw\nPer 100 g edible portion\nEnergy 20 kcal\nProtein 2.2 g\nFat 0.12 g\nCarbohydrate 3.88 g\nFibre 2.1 g\nSodium 2 mg\n</inspiration>\n\nWrite a short poem of 4–8 lines.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "medium"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "poem",
+      "output": "In the quiet grammar of the garden,\nasparagus lifts its green-tipped spears.\nMorning weighs each stalk in dew,\nand spring needs no more than that.",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 109,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 37,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 146
+      },
+      "generated_utc": "2026-11-02T22:13:59.167177+00:00"
+    },
+    {
+      "condition": "control",
+      "id": "poem-control-04",
+      "inspiration": null,
+      "position": 4,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Write a short poem of 4–8 lines.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "medium"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "poem",
+      "output": "The morning folds its silver wings\nAnd settles softly on the street.\nA window wakes, a kettle sings,\nThe day begins with quiet feet.\nSomewhere, beneath the thawing ground,\nA seed turns toward the light it found.",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 33,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 74,
+        "output_tokens_details": {
+          "reasoning_tokens": 21
+        },
+        "total_tokens": 107
+      },
+      "generated_utc": "2026-11-02T22:13:59.489879+00:00"
+    },
+    {
+      "condition": "inspire",
+      "id": "poem-inspire-04",
+      "inspiration": {
+        "payload": {
+          "kind": "record",
+          "path": "philosophy/primary-texts/james",
+          "record_index": 10,
+          "text": "The naturalist answer is that the environment kills as well as sustains us, and that the tendency of raw experience to extinguish the experient himself is lessened just in the degree in which the elements in it that have a practical bearing upon life are analyzed out of the continuum and verbally fixed and coupled together, so that we may know what is in the wind for us and get ready to react in time. Had pure experience, the naturalist says, been always perfectly healthy, there would never have arisen the necessity of isolating or verbalizing any of its terms. We should just have experienced inarticulately and unintellectually enjoyed. This leaning on 'reaction' in the naturalist account implies that, whenever we intellectualize a relatively pure experience, we ought to do so for the sake of redescending to the purer or more concrete level again; and that if an intellect stays aloft among its abstract terms and generalized relations, and does not reinsert itself with its conclusions into some particular point of the immediate stream of life, it fails to finish out its function and leaves its normal race unrun.\n\n— William James, Essays in Radical Empiricism, The Thing and Its Relations, II (1912)"
+        },
+        "seed": "2940616870255189056"
+      },
+      "position": 4,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Use this random text as inspiration. You may use or ignore it.\n\n<inspiration>\nThe naturalist answer is that the environment kills as well as sustains us, and that the tendency of raw experience to extinguish the experient himself is lessened just in the degree in which the elements in it that have a practical bearing upon life are analyzed out of the continuum and verbally fixed and coupled together, so that we may know what is in the wind for us and get ready to react in time. Had pure experience, the naturalist says, been always perfectly healthy, there would never have arisen the necessity of isolating or verbalizing any of its terms. We should just have experienced inarticulately and unintellectually enjoyed. This leaning on 'reaction' in the naturalist account implies that, whenever we intellectualize a relatively pure experience, we ought to do so for the sake of redescending to the purer or more concrete level again; and that if an intellect stays aloft among its abstract terms and generalized relations, and does not reinsert itself with its conclusions into some particular point of the immediate stream of life, it fails to finish out its function and leaves its normal race unrun.\n\n— William James, Essays in Radical Empiricism, The Thing and Its Relations, II (1912)\n</inspiration>\n\nWrite a short poem of 4–8 lines.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "medium"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "poem",
+      "output": "We named the wind to warn the wheat,\nthe dark cloud to bring the washing in.\nAll afternoon the words flew overhead.\nAt dusk I folded the warm, dry sheets\nand carried summer up the stairs.",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 303,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 46,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 349
+      },
+      "generated_utc": "2026-11-02T22:13:59.247733+00:00"
+    },
+    {
+      "condition": "control",
+      "id": "poem-control-05",
+      "inspiration": null,
+      "position": 5,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Write a short poem of 4–8 lines.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "medium"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "poem",
+      "output": "Morning unbuttons the dark,\nand rain slips off the leaves.\nA robin tests one note,\nthen sings as if it believes.",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 33,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 51,
+        "output_tokens_details": {
+          "reasoning_tokens": 19
+        },
+        "total_tokens": 84
+      },
+      "generated_utc": "2026-11-02T22:13:58.969301+00:00"
+    },
+    {
+      "condition": "inspire",
+      "id": "poem-inspire-05",
+      "inspiration": {
+        "payload": {
+          "kind": "generator",
+          "path": "philosophy/logic/syllogisms",
+          "record_index": null,
+          "text": "Some M are not P.\nSome S are M.\n∴ No S are P.\nOIE–1\nInvalid even assuming S, P and M are all nonempty.\nCountermodel\nD = {a0, a1}\nS = {a0, a1}\nP = {a1}\nM = {a0, a1}"
+        },
+        "seed": "7648719065386770608"
+      },
+      "position": 5,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Use this random text as inspiration. You may use or ignore it.\n\n<inspiration>\nSome M are not P.\nSome S are M.\n∴ No S are P.\nOIE–1\nInvalid even assuming S, P and M are all nonempty.\nCountermodel\nD = {a0, a1}\nS = {a0, a1}\nP = {a1}\nM = {a0, a1}\n</inspiration>\n\nWrite a short poem of 4–8 lines.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "medium"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "poem",
+      "output": "Some stars are wounds in the dark.\nSome wounds are windows.\nSo I mistook the night for a house\nand every light for someone waiting.\n\nStill, I stood outside until dawn.",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 127,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 42,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 169
+      },
+      "generated_utc": "2026-11-02T22:13:59.594324+00:00"
+    },
+    {
+      "condition": "control",
+      "id": "svg-control-01",
+      "inspiration": null,
+      "position": 1,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Draw an animal on a skateboard as a self-contained SVG with viewBox=\"0 0 400 400\". Use no scripts or external resources. Return only the SVG.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "high"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "svg",
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\" role=\"img\" aria-labelledby=\"title desc\">\n  <title id=\"title\">Skateboarding cat</title>\n  <desc id=\"desc\">An orange cat wearing a red scarf rides a purple skateboard.</desc>\n\n  <rect width=\"400\" height=\"400\" rx=\"28\" fill=\"#e1f3ed\"/>\n  <circle cx=\"326\" cy=\"75\" r=\"30\" fill=\"#ffdf8c\"/>\n  <path d=\"M55 105h35m-22-12h43M42 126h54\" fill=\"none\" stroke=\"#b7ddd2\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n  <path d=\"M52 250h40m-53 16h37M317 239h39\" fill=\"none\" stroke=\"#b7ddd2\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n  <path d=\"M81 66l3 7 7 3-7 3-3 7-3-7-7-3 7-3zM344 161l2 5 5 2-5 2-2 5-2-5-5-2 5-2z\" fill=\"#fff8df\"/>\n\n  <ellipse cx=\"202\" cy=\"354\" rx=\"142\" ry=\"10\" fill=\"#bcded3\"/>\n\n  <!-- Tail -->\n  <path d=\"M151 235c-23 6-43 0-53-16-6-10-8-22-15-23\" fill=\"none\" stroke=\"#35494a\" stroke-width=\"22\" stroke-linecap=\"round\"/>\n  <path d=\"M151 235c-23 6-43 0-53-16-6-10-8-22-15-23\" fill=\"none\" stroke=\"#ec9b52\" stroke-width=\"15\" stroke-linecap=\"round\"/>\n  <path d=\"M99 220l9-7m0 18 9-8\" fill=\"none\" stroke=\"#c66d3f\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n\n  <!-- Body -->\n  <path d=\"M135 218c5-31 30-46 64-44 40 2 64 24 67 58l-3 30c-1 13-13 21-30 21h-62c-26 0-39-12-39-32 0-12 0-23 3-33z\" fill=\"#f4aa63\" stroke=\"#35494a\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n  <path d=\"M161 190c5 5 8 11 9 17m12-23c4 5 7 11 8 17m13-17c4 5 7 10 8 15\" fill=\"none\" stroke=\"#d37c46\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n  <path d=\"M184 249c10 7 24 8 35 3\" fill=\"none\" stroke=\"#e59155\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n\n  <!-- Scarf -->\n  <path d=\"M222 209c-12 0-22-3-30-9l-8 11 13 6-6 9c13 1 26-2 36-8z\" fill=\"#e56f64\" stroke=\"#35494a\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M218 201c18 8 45 10 67 1l4 14c-22 11-50 10-72 1z\" fill=\"#ef796d\" stroke=\"#35494a\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n\n  <!-- Legs and paws -->\n  <path d=\"M158 251v35c0 8 4 13 12 13h12c5 0 7-3 7-7 0-5-4-8-9-8v-24\" fill=\"#f4aa63\" stroke=\"#35494a\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <path d=\"M239 250v36c0 8 4 13 12 13h13c5 0 7-3 7-7 0-5-4-8-9-8v-32\" fill=\"#f4aa63\" stroke=\"#35494a\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <path d=\"M169 291v7m84-7v7\" fill=\"none\" stroke=\"#d37c46\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n\n  <!-- Head and ears -->\n  <path d=\"M213 155l3-38c0-5 3-7 7-4l19 15c10-3 19-3 29 1l19-14c4-3 7-1 7 4l1 34c5 7 7 15 5 24-3 20-21 33-46 33-24 0-42-11-48-28-3-9-1-19 4-27z\" fill=\"#f4aa63\" stroke=\"#35494a\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n  <path d=\"M222 123l1 20 12-10zm68 1-1 20-11-11z\" fill=\"#dd8073\"/>\n  <path d=\"M248 132l3 9m9-10 1 9m9-7-1 8\" fill=\"none\" stroke=\"#d37c46\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n  <ellipse cx=\"239\" cy=\"166\" rx=\"3.5\" ry=\"5\" fill=\"#35494a\"/>\n  <ellipse cx=\"281\" cy=\"166\" rx=\"3.5\" ry=\"5\" fill=\"#35494a\"/>\n  <ellipse cx=\"225\" cy=\"178\" rx=\"7\" ry=\"4\" fill=\"#ee8b7c\" opacity=\".65\"/>\n  <ellipse cx=\"294\" cy=\"178\" rx=\"7\" ry=\"4\" fill=\"#ee8b7c\" opacity=\".65\"/>\n  <path d=\"M254 174h11l-5.5 6z\" fill=\"#35494a\" stroke=\"#35494a\" stroke-width=\"2\" stroke-linejoin=\"round\"/>\n  <path d=\"M259.5 180v4c-3 5-8 5-11 1m11-1c3 5 8 5 11 1\" fill=\"none\" stroke=\"#35494a\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n  <path d=\"M228 181l-15-3m15 9-14 3m76-9 15-3m-15 9 14 3\" fill=\"none\" stroke=\"#35494a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n\n  <!-- Skateboard -->\n  <path d=\"M124 312v9m151-9v9\" stroke=\"#35494a\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n  <circle cx=\"124\" cy=\"327\" r=\"13\" fill=\"#ffcb76\" stroke=\"#35494a\" stroke-width=\"5\"/>\n  <circle cx=\"275\" cy=\"327\" r=\"13\" fill=\"#ffcb76\" stroke=\"#35494a\" stroke-width=\"5\"/>\n  <circle cx=\"124\" cy=\"327\" r=\"3\" fill=\"#35494a\"/>\n  <circle cx=\"275\" cy=\"327\" r=\"3\" fill=\"#35494a\"/>\n  <path d=\"M69 290c4 7 11 10 23 10h217c12 0 19-3 23-10l7 3c-5 15-14 21-30 21H94c-15 0-25-7-31-21z\" fill=\"#886ab8\" stroke=\"#35494a\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n  <path d=\"M92 301h217\" stroke=\"#f7e3b2\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n</svg>",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 57,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2806,
+        "output_tokens_details": {
+          "reasoning_tokens": 947
+        },
+        "total_tokens": 2863
+      },
+      "generated_utc": "2026-11-02T22:14:33.286207+00:00"
+    },
+    {
+      "condition": "inspire",
+      "id": "svg-inspire-01",
+      "inspiration": {
+        "payload": {
+          "kind": "record",
+          "path": "philosophy/primary-texts/wollstonecraft",
+          "record_index": 3,
+          "text": "Men, in general, seem to employ their reason to justify prejudices, which they have imbibed, they cannot trace how, rather than to root them out. The mind must be strong that resolutely forms its own principles; for a kind of intellectual cowardice prevails which makes many men shrink from the task, or only do it by halves. Yet the imperfect conclusions thus drawn, are frequently very plausible, because they are built on partial experience, on just, though narrow, views.\n\n— Mary Wollstonecraft, A Vindication of the Rights of Woman, chapter 1 (1792)"
+        },
+        "seed": "14062307532474499100"
+      },
+      "position": 1,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Use this random text as inspiration. You may use or ignore it.\n\n<inspiration>\nMen, in general, seem to employ their reason to justify prejudices, which they have imbibed, they cannot trace how, rather than to root them out. The mind must be strong that resolutely forms its own principles; for a kind of intellectual cowardice prevails which makes many men shrink from the task, or only do it by halves. Yet the imperfect conclusions thus drawn, are frequently very plausible, because they are built on partial experience, on just, though narrow, views.\n\n— Mary Wollstonecraft, A Vindication of the Rights of Woman, chapter 1 (1792)\n</inspiration>\n\nDraw an animal on a skateboard as a self-contained SVG with viewBox=\"0 0 400 400\". Use no scripts or external resources. Return only the SVG.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "high"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "svg",
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">\n  <defs>\n    <linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n      <stop offset=\"0\" stop-color=\"#d9f3ef\"/>\n      <stop offset=\"1\" stop-color=\"#f7e9cf\"/>\n    </linearGradient>\n    <linearGradient id=\"deck\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n      <stop offset=\"0\" stop-color=\"#ef8063\"/>\n      <stop offset=\"1\" stop-color=\"#cf5c4b\"/>\n    </linearGradient>\n    <clipPath id=\"tail-clip\">\n      <path d=\"M223 211c22 2 32-10 35-29 3-17 15-27 28-22 14 5 17 21 8 39-12 26-36 41-63 40z\"/>\n    </clipPath>\n  </defs>\n\n  <rect width=\"400\" height=\"400\" rx=\"30\" fill=\"url(#sky)\"/>\n  <circle cx=\"307\" cy=\"79\" r=\"25\" fill=\"#ffd990\"/>\n  <g fill=\"none\" stroke=\"#fff9e9\" stroke-linecap=\"round\" opacity=\".8\">\n    <path d=\"M49 112h43M60 124h25M305 129h42M321 141h31\" stroke-width=\"4\"/>\n    <path d=\"M53 229h32M41 242h49M314 222h38M328 234h24\" stroke-width=\"3\"/>\n  </g>\n  <g fill=\"#fff9e9\" opacity=\".8\">\n    <circle cx=\"79\" cy=\"72\" r=\"3\"/>\n    <circle cx=\"345\" cy=\"183\" r=\"3\"/>\n    <path d=\"M115 56l2 5 5 2-5 2-2 5-2-5-5-2 5-2z\"/>\n  </g>\n\n  <ellipse cx=\"202\" cy=\"323\" rx=\"133\" ry=\"12\" fill=\"#6d9690\" opacity=\".18\"/>\n  <path d=\"M61 322h278\" stroke=\"#8eb5a7\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n\n  <!-- Tail -->\n  <path d=\"M223 211c22 2 32-10 35-29 3-17 15-27 28-22 14 5 17 21 8 39-12 26-36 41-63 40z\"\n        fill=\"#9ba8a4\" stroke=\"#344b4c\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <g clip-path=\"url(#tail-clip)\" fill=\"none\" stroke=\"#536a69\" stroke-width=\"11\">\n    <path d=\"M239 207c5 12 11 21 18 27\"/>\n    <path d=\"M257 190c7 10 15 15 27 17\"/>\n    <path d=\"M267 169c8 6 17 8 28 7\"/>\n  </g>\n\n  <!-- Arms -->\n  <path d=\"M170 181c-11 0-18 9-26 18l-20-19c-4-4-10-4-13 0s-2 8 2 13l25 29c4 5 10 5 15 2l28-23z\"\n        fill=\"#899b97\" stroke=\"#344b4c\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M222 182c13 0 24-6 38-17l11-9c5-4 11-3 13 1 3 4 1 9-3 13l-17 16c-11 10-23 17-37 18z\"\n        fill=\"#899b97\" stroke=\"#344b4c\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M111 180c-2-4 0-8 3-9 3-1 5 1 7 4l4 6M273 156c1-5 4-7 7-6 3 1 4 4 3 8\"\n        fill=\"none\" stroke=\"#344b4c\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n\n  <!-- Legs and feet -->\n  <path d=\"M169 231l-5 29c-7 1-13 4-15 9-2 4 1 7 6 7h26c5 0 8-3 8-8l4-31z\"\n        fill=\"#596f6e\" stroke=\"#344b4c\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M207 233l4 26c-5 2-8 5-8 9 0 3 3 5 7 5l27-2c5 0 7-3 6-7l-9-31z\"\n        fill=\"#596f6e\" stroke=\"#344b4c\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n\n  <!-- Body -->\n  <path d=\"M170 163c-10 8-15 24-14 43 1 19 5 31 12 40 7 7 45 9 56 1 9-8 13-24 13-42 0-20-6-34-16-42z\"\n        fill=\"#9baaa4\" stroke=\"#344b4c\" stroke-width=\"4\"/>\n  <ellipse cx=\"197\" cy=\"208\" rx=\"26\" ry=\"31\" fill=\"#dbe1d2\"/>\n\n  <!-- Ears -->\n  <path d=\"M143 104l-1-27c0-9 6-12 13-8l21 16zM218 85l21-16c7-4 13-1 13 8l-3 28z\"\n        fill=\"#718784\" stroke=\"#344b4c\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M150 94l-1-16 16 12zM229 90l15-12-1 16z\" fill=\"#e9b3a5\"/>\n\n  <!-- Head -->\n  <path d=\"M134 119c0-25 25-41 62-41s62 16 62 41l-4 24c-4 21-26 33-58 33s-54-12-58-33z\"\n        fill=\"#aab9b1\" stroke=\"#344b4c\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M148 117c3-11 13-16 24-14 10 2 16 10 17 22-2 12-10 18-21 18-12-1-20-10-20-26z\n           M244 117c-3-11-13-16-24-14-10 2-16 10-17 22 2 12 10 18 21 18 12-1 20-10 20-26z\"\n        fill=\"#526a68\"/>\n  <ellipse cx=\"170\" cy=\"123\" rx=\"5\" ry=\"6\" fill=\"#fffdf2\"/>\n  <ellipse cx=\"222\" cy=\"123\" rx=\"5\" ry=\"6\" fill=\"#fffdf2\"/>\n  <circle cx=\"171\" cy=\"124\" r=\"2.5\" fill=\"#263d3d\"/>\n  <circle cx=\"221\" cy=\"124\" r=\"2.5\" fill=\"#263d3d\"/>\n  <path d=\"M165 145c3-9 15-13 31-13s28 4 31 13c-2 12-15 19-31 19s-29-7-31-19z\"\n        fill=\"#f0eee0\"/>\n  <path d=\"M188 139c0-3 3-5 8-5s8 2 8 5c0 3-4 6-8 6s-8-3-8-6z\" fill=\"#344b4c\"/>\n  <path d=\"M196 145v4m-8 1c2 3 5 4 8 4s6-1 8-4\"\n        fill=\"none\" stroke=\"#344b4c\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <ellipse cx=\"155\" cy=\"143\" rx=\"6\" ry=\"3\" fill=\"#e9a99c\" opacity=\".7\"/>\n  <ellipse cx=\"237\" cy=\"143\" rx=\"6\" ry=\"3\" fill=\"#e9a99c\" opacity=\".7\"/>\n\n  <!-- Skateboard trucks and wheels -->\n  <g stroke=\"#344b4c\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M129 284l2 12m-9-4h18M263 276l3 12m-9-3h18\" fill=\"none\"/>\n    <circle cx=\"131\" cy=\"301\" r=\"11\" fill=\"#f5c36f\"/>\n    <circle cx=\"266\" cy=\"292\" r=\"11\" fill=\"#f5c36f\"/>\n  </g>\n  <circle cx=\"131\" cy=\"301\" r=\"3\" fill=\"#536a69\"/>\n  <circle cx=\"266\" cy=\"292\" r=\"3\" fill=\"#536a69\"/>\n  <path d=\"M92 273l214-14c4 0 7 2 6 6-2 8-8 13-17 14l-182 12c-12 1-20-3-24-11-2-3 0-6 3-7z\"\n        fill=\"url(#deck)\" stroke=\"#344b4c\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M98 277l204-13\" fill=\"none\" stroke=\"#ffd1a5\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n\n  <g fill=\"none\" stroke=\"#779e91\" stroke-width=\"3\" stroke-linecap=\"round\">\n    <path d=\"M61 294h21M48 304h30M322 298h22\"/>\n  </g>\n</svg>",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 201,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3377,
+        "output_tokens_details": {
+          "reasoning_tokens": 1034
+        },
+        "total_tokens": 3578
+      },
+      "generated_utc": "2026-11-02T22:14:39.546540+00:00"
+    },
+    {
+      "condition": "control",
+      "id": "svg-control-02",
+      "inspiration": null,
+      "position": 2,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Draw an animal on a skateboard as a self-contained SVG with viewBox=\"0 0 400 400\". Use no scripts or external resources. Return only the SVG.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "high"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "svg",
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\" role=\"img\" aria-labelledby=\"title desc\">\n  <title id=\"title\">A fox on a skateboard</title>\n  <desc id=\"desc\">A cheerful orange fox rides a teal skateboard through a sunny landscape.</desc>\n  <defs>\n    <linearGradient id=\"sky\" x2=\"0\" y2=\"1\">\n      <stop stop-color=\"#f8e9cd\"/>\n      <stop offset=\"1\" stop-color=\"#fff8e9\"/>\n    </linearGradient>\n    <linearGradient id=\"fur\" x2=\"0.8\" y2=\"1\">\n      <stop stop-color=\"#f7a54b\"/>\n      <stop offset=\"1\" stop-color=\"#e97832\"/>\n    </linearGradient>\n  </defs>\n\n  <rect width=\"400\" height=\"400\" rx=\"28\" fill=\"url(#sky)\"/>\n  <circle cx=\"303\" cy=\"91\" r=\"31\" fill=\"#f7c96a\" opacity=\".7\"/>\n  <path d=\"M0 264 Q78 228 148 262 T290 255 T400 249 V400 H0Z\" fill=\"#e9e5c9\"/>\n  <path d=\"M0 300 Q72 275 146 296 T291 290 T400 284 V400 H0Z\" fill=\"#d7e1c6\"/>\n  <path d=\"M0 344 Q109 329 207 342 T400 334 V400 H0Z\" fill=\"#c3d5b8\"/>\n  <g fill=\"none\" stroke=\"#fffaf0\" stroke-linecap=\"round\" opacity=\".8\">\n    <path d=\"M64 112h39m-29 10h23\" stroke-width=\"5\"/>\n    <path d=\"M287 154h44m-33 10h25\" stroke-width=\"5\"/>\n    <path d=\"M55 210h27m-39 12h30\" stroke-width=\"4\"/>\n  </g>\n  <g fill=\"#e8ad54\">\n    <path d=\"M104 158l3 7 7 3-7 3-3 7-3-7-7-3 7-3z\"/>\n    <path d=\"M289 214l2 5 5 2-5 2-2 5-2-5-5-2 5-2z\"/>\n  </g>\n\n  <ellipse cx=\"207\" cy=\"338\" rx=\"122\" ry=\"10\" fill=\"#789a80\" opacity=\".25\"/>\n\n  <!-- Skateboard and wheels -->\n  <g stroke=\"#394942\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M132 300l7 15h19l6-15m91 0 6 15h19l7-15\" fill=\"none\" stroke-width=\"6\"/>\n    <circle cx=\"149\" cy=\"319\" r=\"13\" fill=\"#f4b661\" stroke-width=\"4\"/>\n    <circle cx=\"270\" cy=\"319\" r=\"13\" fill=\"#f4b661\" stroke-width=\"4\"/>\n    <circle cx=\"149\" cy=\"319\" r=\"4\" fill=\"#fff5da\" stroke=\"none\"/>\n    <circle cx=\"270\" cy=\"319\" r=\"4\" fill=\"#fff5da\" stroke=\"none\"/>\n    <path d=\"M96 287q4-1 8 4 3 3 11 3h178q12 0 17-10 2-4 6-2 4 2 2 7l-4 10q-3 7-14 7H114q-12 0-16-8l-5-7q-2-3 3-4z\" fill=\"#4e9f91\" stroke-width=\"4\"/>\n    <path d=\"M107 297h197\" fill=\"none\" stroke=\"#a9ded0\" stroke-width=\"3\"/>\n  </g>\n\n  <!-- Tail -->\n  <path d=\"M181 230q-24 3-43-10-21-14-39-9-8 2-12 9 4 35 34 46 29 11 63-4l18-17z\" fill=\"url(#fur)\" stroke=\"#7d4935\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M87 220q4-7 12-9 14-4 29 4l-8 6 7 5-10 5 5 7-11 2 4 9q-23-9-28-29z\" fill=\"#fff1d8\"/>\n\n  <!-- Back leg -->\n  <path d=\"M190 239q-5 21-18 37-5 6 0 11 4 4 18 4h12q6-1 6-6l-3-10 18-21z\" fill=\"#df7736\" stroke=\"#7d4935\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M171 282q7-5 15-3l3 6h18q1 6-6 6h-24q-8 0-8-5z\" fill=\"#5b493d\"/>\n\n  <!-- Body -->\n  <path d=\"M185 183q-16 13-19 38-3 25 12 38 17 15 46 11 28-4 33-24 3-17-8-39l-14-24z\" fill=\"url(#fur)\" stroke=\"#7d4935\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M196 205q-12 10-12 28 0 21 19 27 17 5 29-7 10-11 5-29-5-17-20-22z\" fill=\"#fff0d6\"/>\n\n  <!-- Arms -->\n  <path d=\"M175 207q-13 5-22 16l-13-5q-7-3-10 2-3 5 4 9l20 10q5 2 9-2l18-14\" fill=\"#ef8b3b\" stroke=\"#7d4935\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <path d=\"M237 211q12 6 18 16l15-14q5-5 9-1 4 4-1 9l-19 20q-4 4-9 1l-18-12\" fill=\"#ef8b3b\" stroke=\"#7d4935\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n\n  <!-- Front leg -->\n  <path d=\"M218 249q16 1 22 11l10 19q4 8-2 11h-26q-7-1-7-7l-8-15\" fill=\"#f19442\" stroke=\"#7d4935\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <path d=\"M217 281q7-4 14-2l3 5h15q3 6-5 7h-22q-8-1-7-7z\" fill=\"#5b493d\"/>\n\n  <!-- Scarf ends -->\n  <path d=\"M179 190q-19 5-35-5l5 12-12 4q19 10 43 4z\" fill=\"#4e9f91\" stroke=\"#396e69\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n\n  <!-- Ears -->\n  <path d=\"M160 148l-6-45q-1-8 6-4l31 25m34-2 24-22q7-6 7 3l-5 46\" fill=\"#ed8b3f\" stroke=\"#7d4935\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M162 110l4 27 18-12zm83-1-15 17 16 11z\" fill=\"#d76d5e\"/>\n\n  <!-- Head -->\n  <path d=\"M156 140q8-16 31-20 28-5 49 7 17 10 17 29 0 22-20 34-21 14-45 4-25-10-32-29-5-14 0-25z\" fill=\"url(#fur)\" stroke=\"#7d4935\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M156 157q10 8 21 6 8-1 15 5 10 9 19 4 9-7 17-7 14 0 25-9 0 21-20 34-21 14-45 4-25-10-32-29z\" fill=\"#fff1d9\"/>\n  <ellipse cx=\"181\" cy=\"153\" rx=\"4\" ry=\"5.5\" fill=\"#49382e\"/>\n  <ellipse cx=\"226\" cy=\"153\" rx=\"4\" ry=\"5.5\" fill=\"#49382e\"/>\n  <circle cx=\"182\" cy=\"151.5\" r=\"1.3\" fill=\"#fff\"/>\n  <circle cx=\"227\" cy=\"151.5\" r=\"1.3\" fill=\"#fff\"/>\n  <ellipse cx=\"169\" cy=\"166\" rx=\"7\" ry=\"4\" fill=\"#ed9c82\" opacity=\".65\"/>\n  <ellipse cx=\"239\" cy=\"166\" rx=\"7\" ry=\"4\" fill=\"#ed9c82\" opacity=\".65\"/>\n  <path d=\"M199 174q5-4 10 0-1 5-5 5t-5-5z\" fill=\"#49382e\"/>\n  <path d=\"M204 179q0 6-6 7m6-7q0 6 6 7\" fill=\"none\" stroke=\"#7d4935\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n\n  <!-- Scarf collar -->\n  <path d=\"M182 191q23 12 49 0l3 9q-24 14-53 1z\" fill=\"#4e9f91\" stroke=\"#396e69\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n  <path d=\"M187 198q19 7 39 0\" fill=\"none\" stroke=\"#a8dfcf\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n</svg>",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 57,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3306,
+        "output_tokens_details": {
+          "reasoning_tokens": 946
+        },
+        "total_tokens": 3363
+      },
+      "generated_utc": "2026-11-02T22:14:39.136317+00:00"
+    },
+    {
+      "condition": "inspire",
+      "id": "svg-inspire-02",
+      "inspiration": {
+        "payload": {
+          "kind": "record",
+          "path": "literature/verse/english/early-modern/shakespeare/sonnet-quatrains",
+          "record_index": 4,
+          "text": "Not from the stars do I my judgement pluck;\nAnd yet methinks I have astronomy,\nBut not to tell of good or evil luck,\nOf plagues, of dearths, or seasons’ quality;\n- William Shakespeare, Sonnet 14 (1609), lines 1–4 [excerpt]"
+        },
+        "seed": "11985304782249288717"
+      },
+      "position": 2,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Use this random text as inspiration. You may use or ignore it.\n\n<inspiration>\nNot from the stars do I my judgement pluck;\nAnd yet methinks I have astronomy,\nBut not to tell of good or evil luck,\nOf plagues, of dearths, or seasons’ quality;\n- William Shakespeare, Sonnet 14 (1609), lines 1–4 [excerpt]\n</inspiration>\n\nDraw an animal on a skateboard as a self-contained SVG with viewBox=\"0 0 400 400\". Use no scripts or external resources. Return only the SVG.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "high"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "svg",
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\" role=\"img\" aria-labelledby=\"title desc\">\n  <title id=\"title\">Raccoon on a skateboard</title>\n  <desc id=\"desc\">A raccoon balances on a colorful skateboard against a sunny sky.</desc>\n  <defs>\n    <linearGradient id=\"sky\" x2=\"0\" y2=\"1\">\n      <stop stop-color=\"#c8f2ee\"/>\n      <stop offset=\"1\" stop-color=\"#f3f6d9\"/>\n    </linearGradient>\n    <linearGradient id=\"fur\" x2=\"1\" y2=\"1\">\n      <stop stop-color=\"#abb9b3\"/>\n      <stop offset=\"1\" stop-color=\"#718985\"/>\n    </linearGradient>\n    <clipPath id=\"tail\">\n      <path d=\"M163 231c-23 17-51 23-72 12-19-10-27-26-22-41 3-8 11-11 18-6 7 5 4 13 12 18 12 8 31 2 47-12z\"/>\n    </clipPath>\n  </defs>\n\n  <rect width=\"400\" height=\"400\" rx=\"24\" fill=\"url(#sky)\"/>\n  <circle cx=\"321\" cy=\"80\" r=\"36\" fill=\"#fff2b6\"/>\n  <path d=\"M38 119h51m-38 10h27M304 224h48m-32 10h33\" fill=\"none\" stroke=\"#fff\" stroke-width=\"4\" stroke-linecap=\"round\" opacity=\".65\"/>\n  <path d=\"M48 72l4 8 8 4-8 4-4 8-4-8-8-4 8-4zm232 38 3 6 6 3-6 3-3 6-3-6-6-3 6-3z\" fill=\"#fff\" opacity=\".8\"/>\n  <path d=\"M0 323h400v77H0z\" fill=\"#d8e5c6\"/>\n  <path d=\"M0 323h400\" stroke=\"#a9c5ad\" stroke-width=\"3\"/>\n  <path d=\"M29 348h55m235 12h43M104 374h30\" stroke=\"#b7ceb3\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <ellipse cx=\"199\" cy=\"327\" rx=\"139\" ry=\"10\" fill=\"#789a89\" opacity=\".18\"/>\n\n  <!-- Tail -->\n  <path d=\"M163 231c-23 17-51 23-72 12-19-10-27-26-22-41 3-8 11-11 18-6 7 5 4 13 12 18 12 8 31 2 47-12z\" fill=\"#a7b6af\" stroke=\"#344c49\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n  <g clip-path=\"url(#tail)\" fill=\"none\" stroke=\"#526966\" stroke-width=\"13\">\n    <path d=\"M76 190c-7 16-4 31 7 43M100 201c-8 14-7 30 3 45M129 206c-6 13-4 27 4 37\"/>\n  </g>\n\n  <!-- Wheels and skateboard -->\n  <path d=\"M119 290l7 18h17l5-18m107 0 6 18h17l7-18\" fill=\"#e2b975\" stroke=\"#344c49\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <circle cx=\"128\" cy=\"313\" r=\"12\" fill=\"#f5a66b\" stroke=\"#344c49\" stroke-width=\"4\"/>\n  <circle cx=\"273\" cy=\"313\" r=\"12\" fill=\"#f5a66b\" stroke=\"#344c49\" stroke-width=\"4\"/>\n  <circle cx=\"128\" cy=\"313\" r=\"3\" fill=\"#344c49\"/>\n  <circle cx=\"273\" cy=\"313\" r=\"3\" fill=\"#344c49\"/>\n  <path d=\"M78 276c5 7 12 10 23 10h200c11 0 18-3 23-10 2-3 7-1 6 3-3 11-13 18-29 18H101c-16 0-26-7-29-18-1-4 4-6 6-3z\" fill=\"#ef9d5f\" stroke=\"#344c49\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M88 285h224\" stroke=\"#f8d18c\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n\n  <!-- Legs and feet -->\n  <path d=\"M175 232c-8 13-20 25-27 37l-10 4c-5 2-7 7-4 11h34c5 0 8-3 9-8l15-21zm30 22 12 21c1 5 4 9 9 9h34c3-4 1-9-4-11l-12-4-13-36z\" fill=\"#849b94\" stroke=\"#344c49\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <path d=\"M136 278h34m56 0h31\" fill=\"none\" stroke=\"#526966\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n\n  <!-- Outstretched arms -->\n  <path d=\"M165 193c-13 3-23 15-32 21l-31-13-8 12 35 22c5 3 10 3 15 0l28-18zm67 0c14 2 23 10 32 13l26-29 11 9-26 37c-4 5-9 7-15 5l-32-11z\" fill=\"url(#fur)\" stroke=\"#344c49\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n  <path d=\"M102 201c-4-7-10-10-14-9-3 1-4 4-2 7-5-2-8 1-6 5 2 5 8 9 14 9m196-36c1-7 5-12 9-12 3 0 5 3 4 6 4-3 8-1 7 3-1 5-5 10-9 12\" fill=\"#526966\" stroke=\"#344c49\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n\n  <!-- Body -->\n  <path d=\"M170 180c-15 8-21 25-20 43 1 24 13 39 32 42 7 1 12-2 17-7 5 5 10 8 17 7 19-3 31-18 32-42 1-18-5-35-20-43z\" fill=\"url(#fur)\" stroke=\"#344c49\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n  <path d=\"M173 207c0-13 11-21 26-21s26 8 26 21c0 21-11 39-26 39s-26-18-26-39z\" fill=\"#dce2cf\"/>\n  <path d=\"M190 228c5 3 12 3 18 0\" fill=\"none\" stroke=\"#b4c4b4\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n\n  <!-- Ears and head -->\n  <path d=\"M160 130c-9-5-13-18-8-29 3-7 10-9 17-5l16 13m52 21c9-5 13-18 8-29-3-7-10-9-17-5l-16 13\" fill=\"#839a94\" stroke=\"#344c49\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n  <path d=\"M160 118c-2-6-1-11 2-13 4-2 8 1 11 5m64 8c2-6 1-11-2-13-4-2-8 1-11 5\" fill=\"#e8b2a2\" stroke=\"#526966\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n  <path d=\"M199 105c27 0 46 15 46 40 0 26-18 45-46 45s-46-19-46-45c0-25 19-40 46-40z\" fill=\"#b8c8bc\" stroke=\"#344c49\" stroke-width=\"5\"/>\n  <path d=\"M156 141c9-13 22-15 34-4l9 9 9-9c12-11 25-9 34 4l-2 15c-9 8-21 8-30 1l-11-8-11 8c-9 7-21 7-30-1z\" fill=\"#526966\"/>\n  <ellipse cx=\"178\" cy=\"145\" rx=\"4\" ry=\"5\" fill=\"#fffaf0\"/>\n  <ellipse cx=\"220\" cy=\"145\" rx=\"4\" ry=\"5\" fill=\"#fffaf0\"/>\n  <circle cx=\"179\" cy=\"145\" r=\"2\" fill=\"#263e3b\"/>\n  <circle cx=\"219\" cy=\"145\" r=\"2\" fill=\"#263e3b\"/>\n  <path d=\"M181 161c3-7 10-10 18-10s15 3 18 10c3 9-4 17-18 17s-21-8-18-17z\" fill=\"#e7ead9\"/>\n  <path d=\"M193 158c0-3 3-5 6-5s6 2 6 5c0 2-3 5-6 5s-6-3-6-5z\" fill=\"#344c49\"/>\n  <path d=\"M199 163v4m-8 2c2 3 6 3 8 0 2 3 6 3 8 0\" fill=\"none\" stroke=\"#344c49\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <path d=\"M163 162l-11-2m12 8-12 2m82-8 11-2m-12 8 12 2\" stroke=\"#526966\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n</svg>",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 142,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3141,
+        "output_tokens_details": {
+          "reasoning_tokens": 713
+        },
+        "total_tokens": 3283
+      },
+      "generated_utc": "2026-11-02T22:14:37.045845+00:00"
+    },
+    {
+      "condition": "control",
+      "id": "svg-control-03",
+      "inspiration": null,
+      "position": 3,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Draw an animal on a skateboard as a self-contained SVG with viewBox=\"0 0 400 400\". Use no scripts or external resources. Return only the SVG.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "high"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "svg",
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\" role=\"img\" aria-labelledby=\"title\">\n  <title id=\"title\">A happy cat riding a skateboard</title>\n  <rect width=\"400\" height=\"400\" fill=\"#faf4e9\"/>\n  <circle cx=\"201\" cy=\"192\" r=\"145\" fill=\"#dfede6\"/>\n  <path d=\"M39 226h43M51 238h25M319 185h35M329 197h22\" fill=\"none\" stroke=\"#a9cfc3\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <path d=\"M92 112v14m-7-7h14M335 244v12m-6-6h12M324 107v8m-4-4h8\" fill=\"none\" stroke=\"#eab77a\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n\n  <ellipse cx=\"200\" cy=\"350\" rx=\"131\" ry=\"9\" fill=\"#d8ddd0\"/>\n  <path d=\"M68 351h264\" fill=\"none\" stroke=\"#b6c7b8\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n\n  <!-- Tail -->\n  <path d=\"M157 207c-33 8-61-2-62-25-1-17 12-28 23-24 7 2 9 9 6 14\" fill=\"none\" stroke=\"#303e3b\" stroke-width=\"25\" stroke-linecap=\"round\"/>\n  <path d=\"M157 207c-33 8-61-2-62-25-1-17 12-28 23-24 7 2 9 9 6 14\" fill=\"none\" stroke=\"#e89b58\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n  <path d=\"M98 169c4-9 13-14 20-11 7 2 9 9 6 14\" fill=\"none\" stroke=\"#f9dbad\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n\n  <!-- Legs -->\n  <path d=\"M150 211l-7 64c-2 5-7 7-13 9-6 2-7 11 3 12h31c5 0 8-3 8-8l8-55\" fill=\"#d9824c\" stroke=\"#303e3b\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M229 215l3 60c-1 5-6 7-13 9-7 2-8 11 2 12h27c6 0 9-3 9-8l3-68\" fill=\"#d9824c\" stroke=\"#303e3b\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n\n  <!-- Body -->\n  <path d=\"M147 179c21-19 68-22 97-6 23 12 31 34 21 52-9 17-28 25-56 25h-49c-26 0-40-13-38-34 1-16 9-27 25-37z\" fill=\"#efa65f\" stroke=\"#303e3b\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M154 185c-5 9-6 17-3 24m15-31c-4 8-5 14-4 19\" fill=\"none\" stroke=\"#d9824c\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <path d=\"M184 247c4-10 14-16 26-16s23 6 27 16\" fill=\"#f8d5a5\"/>\n\n  <!-- Scarf -->\n  <path d=\"M243 211c-19 0-30-5-43-13 3 11 10 19 19 23-8 1-17 1-25-1 8 10 23 14 39 10l18-8z\" fill=\"#e66f5d\" stroke=\"#303e3b\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M231 207c8 3 19 4 30 1l5 12c-13 5-25 4-37 0z\" fill=\"#ed806c\" stroke=\"#303e3b\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n\n  <!-- Head and ears -->\n  <path d=\"M239 155l1-35c0-6 3-8 8-5l20 14c7-2 15-2 22 0l18-15c5-4 8-1 8 5l-1 37c8 8 12 18 11 29-2 22-20 35-46 35-27 0-46-13-48-35-1-11 2-21 7-30z\" fill=\"#efa65f\" stroke=\"#303e3b\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M247 126l2 22 13-14zM307 125l-2 23-12-14z\" fill=\"#df806d\"/>\n  <path d=\"M246 184c4-4 9-4 13 0m39 0c4-4 9-4 13 0\" fill=\"none\" stroke=\"#303e3b\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <path d=\"M273 192q6-3 12 0l-6 5z\" fill=\"#303e3b\"/>\n  <path d=\"M279 197v4c-3 5-8 5-11 1m11-1c3 5 8 5 11 1\" fill=\"none\" stroke=\"#303e3b\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n  <path d=\"M258 197l-13-2m13 8-14 2m55-8 13-2m-13 8 14 2\" fill=\"none\" stroke=\"#a45f42\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <ellipse cx=\"255\" cy=\"193\" rx=\"6\" ry=\"3\" fill=\"#e9816d\" opacity=\".65\"/>\n  <ellipse cx=\"304\" cy=\"193\" rx=\"6\" ry=\"3\" fill=\"#e9816d\" opacity=\".65\"/>\n\n  <!-- Skateboard wheels and trucks -->\n  <path d=\"M121 306l7 15h15l7-15m100 0 7 15h15l7-15\" fill=\"#8fa9a1\" stroke=\"#303e3b\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <circle cx=\"132\" cy=\"327\" r=\"12\" fill=\"#f2bd66\" stroke=\"#303e3b\" stroke-width=\"4\"/>\n  <circle cx=\"267\" cy=\"327\" r=\"12\" fill=\"#f2bd66\" stroke=\"#303e3b\" stroke-width=\"4\"/>\n  <circle cx=\"132\" cy=\"327\" r=\"3\" fill=\"#303e3b\"/>\n  <circle cx=\"267\" cy=\"327\" r=\"3\" fill=\"#303e3b\"/>\n  <path d=\"M88 291c5 4 13 5 23 5h176c10 0 18-1 24-5 2-1 4 1 3 4-4 9-13 15-27 15H112c-14 0-23-6-27-15-1-3 1-5 3-4z\" fill=\"#e87861\" stroke=\"#303e3b\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M111 301h177\" fill=\"none\" stroke=\"#f7b89a\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n</svg>",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 57,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2838,
+        "output_tokens_details": {
+          "reasoning_tokens": 1034
+        },
+        "total_tokens": 2895
+      },
+      "generated_utc": "2026-11-02T22:14:34.558456+00:00"
+    },
+    {
+      "condition": "inspire",
+      "id": "svg-inspire-03",
+      "inspiration": {
+        "payload": {
+          "kind": "record",
+          "path": "literature/narrative/anecdotes/persian/sadi/gulistan",
+          "record_index": 134,
+          "text": "An evil-disposed man is a captive in the hands of an enemy (namely, himself); for wherever he may go he cannot escape from the grasp of that enemy's vengeance:—Let a wicked man ascend up to heaven, that he may escape from the grasp of calamity; even thither would the hand of his own evil heart follow him with misfortune.\n- Sa’di; English translation by James Ross, The Gulistan (1900 revised anthology edition), Chapter VIII, anecdote XXII"
+        },
+        "seed": "14202904163762105680"
+      },
+      "position": 3,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Use this random text as inspiration. You may use or ignore it.\n\n<inspiration>\nAn evil-disposed man is a captive in the hands of an enemy (namely, himself); for wherever he may go he cannot escape from the grasp of that enemy's vengeance:—Let a wicked man ascend up to heaven, that he may escape from the grasp of calamity; even thither would the hand of his own evil heart follow him with misfortune.\n- Sa’di; English translation by James Ross, The Gulistan (1900 revised anthology edition), Chapter VIII, anecdote XXII\n</inspiration>\n\nDraw an animal on a skateboard as a self-contained SVG with viewBox=\"0 0 400 400\". Use no scripts or external resources. Return only the SVG.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "high"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "svg",
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\" role=\"img\" aria-labelledby=\"title\">\n  <title id=\"title\">A cheerful cat riding a skateboard</title>\n  <rect width=\"400\" height=\"400\" fill=\"#faf4e8\"/>\n  <circle cx=\"200\" cy=\"190\" r=\"151\" fill=\"#d9eee7\"/>\n  <path d=\"M48 161h37M37 173h27M311 130h35M326 142h27\" fill=\"none\" stroke=\"#a7d5c9\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <g fill=\"#f3bd58\">\n    <path d=\"M92 108l3 7 7 3-7 3-3 7-3-7-7-3 7-3z\"/>\n    <path d=\"M310 205l2 5 5 2-5 2-2 5-2-5-5-2 5-2z\"/>\n    <circle cx=\"73\" cy=\"220\" r=\"3\"/>\n    <circle cx=\"321\" cy=\"88\" r=\"3\"/>\n  </g>\n\n  <ellipse cx=\"201\" cy=\"349\" rx=\"137\" ry=\"10\" fill=\"#bed9cf\" opacity=\".6\"/>\n\n  <!-- Wheels and deck -->\n  <g stroke=\"#344b4b\" stroke-width=\"4\" stroke-linejoin=\"round\">\n    <path d=\"M135 309l5 15h20l4-15M239 309l5 15h20l5-15\" fill=\"#94aaa4\"/>\n    <circle cx=\"149\" cy=\"327\" r=\"13\" fill=\"#efb54f\"/>\n    <circle cx=\"255\" cy=\"327\" r=\"13\" fill=\"#efb54f\"/>\n    <circle cx=\"149\" cy=\"327\" r=\"4\" fill=\"#faf4e8\" stroke-width=\"2\"/>\n    <circle cx=\"255\" cy=\"327\" r=\"4\" fill=\"#faf4e8\" stroke-width=\"2\"/>\n    <path d=\"M87 290c7 7 17 10 29 10h168c12 0 21-4 28-11 2-2 5 0 4 3-4 14-15 23-31 23H117c-16 0-27-8-33-21-2-4 0-7 3-4z\" fill=\"#e97c5b\"/>\n    <path d=\"M106 305h191\" fill=\"none\" stroke=\"#f6ba91\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n  </g>\n\n  <!-- Tail -->\n  <path d=\"M168 244c-24 18-53 18-67 2-10-11-11-25-6-32\" fill=\"none\" stroke=\"#654634\" stroke-width=\"19\" stroke-linecap=\"round\"/>\n  <path d=\"M168 244c-24 18-53 18-67 2-10-11-11-25-6-32\" fill=\"none\" stroke=\"#eaa35d\" stroke-width=\"13\" stroke-linecap=\"round\"/>\n  <path d=\"M94 226c3 2 7 3 11 3M101 241c3-1 7-3 10-5\" fill=\"none\" stroke=\"#c97b48\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n\n  <!-- Legs -->\n  <g fill=\"#eaa35d\" stroke=\"#654634\" stroke-width=\"4\" stroke-linejoin=\"round\" stroke-linecap=\"round\">\n    <path d=\"M169 245l-7 36c-2 8 0 17 9 18h17c5 0 7-4 5-8l-4-6 7-37z\"/>\n    <path d=\"M211 248l8 37-3 7c-1 4 1 7 6 7h17c9 0 11-8 8-17l-10-37z\"/>\n    <!-- Arms -->\n    <path d=\"M166 184c-12 3-20 14-27 28l-11 10c-3 3-8 2-10-1-3-4-8-3-9 1-2 6 2 13 8 16 7 4 15 2 21-3l25-20 13-15z\"/>\n    <path d=\"M237 183c13 2 22 12 30 22l11 4c4 2 7 0 8-3 2-4 7-4 9 0 3 5 0 12-5 16-6 4-13 4-20 1l-26-11-15-12z\"/>\n    <!-- Body -->\n    <path d=\"M175 165c-17 8-24 26-24 47 0 19 4 36 14 47 12 13 58 14 72 0 11-11 15-29 15-47 0-22-9-40-27-47z\"/>\n  </g>\n  <path d=\"M178 210c1-12 10-20 23-20s22 8 23 20l3 31c1 12-9 20-26 20s-27-8-26-20z\" fill=\"#f8d8a6\"/>\n  <path d=\"M169 293h9M226 293h9\" fill=\"none\" stroke=\"#b56f47\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n\n  <!-- Scarf -->\n  <path d=\"M167 166c19 9 47 10 68 0l3 13c-19 11-55 12-74 1z\" fill=\"#438e86\" stroke=\"#654634\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M228 178c12 3 18 11 21 20l-13-2-7 9-9-23z\" fill=\"#438e86\" stroke=\"#654634\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n\n  <!-- Head and ears -->\n  <path d=\"M145 121c-1-12 0-28 2-40 1-5 4-6 8-2l21 18c15-5 34-5 49 0l19-18c4-4 7-3 8 2l1 36c5 9 7 17 5 26-3 22-25 36-57 36s-54-14-58-35c-2-8-1-16 2-23z\" fill=\"#eaa35d\" stroke=\"#654634\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M152 89l2 22 15-11zM245 89l1 22-14-11z\" fill=\"#d88575\"/>\n  <path d=\"M187 101l5 10M201 99v11M215 101l-5 10\" fill=\"none\" stroke=\"#c77c49\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <ellipse cx=\"177\" cy=\"130\" rx=\"4\" ry=\"6\" fill=\"#4e3b31\"/>\n  <ellipse cx=\"225\" cy=\"130\" rx=\"4\" ry=\"6\" fill=\"#4e3b31\"/>\n  <ellipse cx=\"166\" cy=\"145\" rx=\"8\" ry=\"4\" fill=\"#ed927d\" opacity=\".65\"/>\n  <ellipse cx=\"236\" cy=\"145\" rx=\"8\" ry=\"4\" fill=\"#ed927d\" opacity=\".65\"/>\n  <path d=\"M196 140q5-4 10 0l-5 5z\" fill=\"#9c5a52\"/>\n  <path d=\"M201 145v4c-3 5-8 5-11 1m11-1c3 5 8 5 11 1\" fill=\"none\" stroke=\"#654634\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <path d=\"M163 138l-20-3m20 10l-21 3m97-10l20-3m-20 10l21 3\" fill=\"none\" stroke=\"#654634\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n</svg>",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 183,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2847,
+        "output_tokens_details": {
+          "reasoning_tokens": 934
+        },
+        "total_tokens": 3030
+      },
+      "generated_utc": "2026-11-02T22:15:09.978292+00:00"
+    },
+    {
+      "condition": "control",
+      "id": "svg-control-04",
+      "inspiration": null,
+      "position": 4,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Draw an animal on a skateboard as a self-contained SVG with viewBox=\"0 0 400 400\". Use no scripts or external resources. Return only the SVG.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "high"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "svg",
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\" role=\"img\" aria-labelledby=\"title\">\n  <title id=\"title\">A happy corgi riding a skateboard</title>\n  <rect width=\"400\" height=\"400\" rx=\"28\" fill=\"#fbf6eb\"/>\n  <path d=\"M52 207C44 147 76 88 137 68c58-19 141-9 180 35 39 45 38 113 5 155-31 40-91 46-153 39-61-7-108-34-117-90Z\" fill=\"#dceeea\"/>\n  <circle cx=\"91\" cy=\"105\" r=\"23\" fill=\"#f6cb70\"/>\n  <path d=\"M306 80v14m-7-7h14M67 234v12m-6-6h12M333 217v10m-5-5h10\" fill=\"none\" stroke=\"#a6cfc5\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n  <path d=\"M49 260h23m-32 9h21m271-27h22m-12 9h20\" fill=\"none\" stroke=\"#b5d7ce\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <ellipse cx=\"203\" cy=\"337\" rx=\"151\" ry=\"9\" fill=\"#d8e3d9\"/>\n\n  <!-- Tail and legs -->\n  <path d=\"M110 187c-20 5-32 1-35-15-1-5-4-8-8-6-8 4-5 19 1 27 9 12 25 16 44 11Z\" fill=\"#e99450\" stroke=\"#3a3938\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M66 168c3-4 7-1 9 4 1 5 3 8 6 10-5 1-11-1-15-5-2-3-2-6 0-9Z\" fill=\"#fff5e5\"/>\n  <path d=\"M116 215c-5 12-5 27-2 39l-3 18c-1 5 2 8 7 8h20c5 0 7-3 6-7l-2-20 14-22Z\" fill=\"#dd8747\" stroke=\"#3a3938\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M112 267h31l1 6c1 4-1 7-6 7h-20c-5 0-8-3-7-8Z\" fill=\"#fff5e5\"/>\n  <path d=\"M201 215c-4 13-2 26 3 39l-2 18c-1 5 2 8 7 8h21c5 0 7-3 6-7l-2-21 8-24Z\" fill=\"#dd8747\" stroke=\"#3a3938\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M203 267h32l1 6c1 4-1 7-6 7h-21c-5 0-8-3-7-8Z\" fill=\"#fff5e5\"/>\n\n  <!-- Body -->\n  <path d=\"M99 195c0-28 19-44 53-44h43c29 0 48 15 50 41l3 27c1 17-13 28-35 30l-77 1c-25 0-37-15-37-38Z\" fill=\"#f2a45e\" stroke=\"#3a3938\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M111 223c13 7 28 8 42 5 22-4 42-4 58 4 8 4 18 4 28 0-5 11-15 16-29 17l-74 1c-14 0-23-7-25-27Z\" fill=\"#fff1db\"/>\n  <path d=\"M127 166c8-5 18-7 28-7m-46 34c0-6 2-11 5-15\" fill=\"none\" stroke=\"#ffd19a\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n\n  <!-- Ears -->\n  <path d=\"M220 151l-2-48c0-8 5-11 11-5l30 29Z\" fill=\"#ed9954\" stroke=\"#3a3938\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M228 111l2 26 16-8Z\" fill=\"#d87564\"/>\n  <path d=\"M267 130l17-32c4-8 10-7 11 2l3 50Z\" fill=\"#ed9954\" stroke=\"#3a3938\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M286 111l-9 21 13 5Z\" fill=\"#d87564\"/>\n\n  <!-- Head -->\n  <path d=\"M221 133c11-13 32-18 51-14 18 4 28 17 30 38l1 7 13 8c7 4 8 12 4 19-4 7-13 10-25 11-8 13-21 20-38 20-25 0-41-14-43-37-2-22 0-41 7-52Z\" fill=\"#f2a45e\" stroke=\"#3a3938\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M253 191c5-10 12-15 20-15 6 0 9 4 13 7 5-4 10-6 17-5l15 5c1 9-8 17-23 19-8 13-21 19-38 18-13-1-22-5-29-13 8 2 18-4 25-16Z\" fill=\"#fff5e5\"/>\n  <path d=\"M268 151c3-3 8-3 11-1\" fill=\"none\" stroke=\"#3a3938\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n  <ellipse cx=\"276\" cy=\"160\" rx=\"3.5\" ry=\"5\" fill=\"#3a3938\"/>\n  <ellipse cx=\"306\" cy=\"171\" rx=\"7\" ry=\"5\" fill=\"#3a3938\"/>\n  <path d=\"M303 185c-3 6-10 9-17 7\" fill=\"none\" stroke=\"#3a3938\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n  <circle cx=\"259\" cy=\"178\" r=\"5\" fill=\"#e88572\" opacity=\".65\"/>\n\n  <!-- Collar -->\n  <path d=\"M215 198c5 8 13 14 24 17l-5 11c-12-3-22-10-28-20Z\" fill=\"#53a99b\" stroke=\"#3a3938\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/>\n  <circle cx=\"231\" cy=\"222\" r=\"5\" fill=\"#f6cb70\" stroke=\"#3a3938\" stroke-width=\"2.5\"/>\n\n  <!-- Front paws -->\n  <path d=\"M177 233c-3 8-3 16-1 23l-2 17c-1 5 2 7 7 7h21c5 0 7-3 6-7l-3-17 4-20\" fill=\"#f2a45e\" stroke=\"#3a3938\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <path d=\"M175 268h32l1 5c1 4-1 7-6 7h-21c-5 0-8-2-7-7Z\" fill=\"#fff5e5\"/>\n  <path d=\"M185 274v5m10-5v5\" stroke=\"#d6c4ad\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n\n  <!-- Skateboard trucks and wheels -->\n  <path d=\"M116 294l5 13h16l5-13m112 0 5 13h16l5-13\" fill=\"#839a99\" stroke=\"#3a3938\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n  <circle cx=\"128\" cy=\"316\" r=\"15\" fill=\"#f6cb70\" stroke=\"#3a3938\" stroke-width=\"4\"/>\n  <circle cx=\"128\" cy=\"316\" r=\"5\" fill=\"#fbf6eb\" stroke=\"#3a3938\" stroke-width=\"2.5\"/>\n  <circle cx=\"267\" cy=\"316\" r=\"15\" fill=\"#f6cb70\" stroke=\"#3a3938\" stroke-width=\"4\"/>\n  <circle cx=\"267\" cy=\"316\" r=\"5\" fill=\"#fbf6eb\" stroke=\"#3a3938\" stroke-width=\"2.5\"/>\n  <path d=\"M69 278c3-2 8 2 16 3h222c10 0 18-3 23-9 2-3 5-2 5 2-1 14-12 22-30 22H101c-17 0-28-5-33-14-1-2-1-3 1-4Z\" fill=\"#e77e64\" stroke=\"#3a3938\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M85 282h222\" fill=\"none\" stroke=\"#3a3938\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <path d=\"M99 291h195\" fill=\"none\" stroke=\"#f8b89c\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n</svg>",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 57,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3257,
+        "output_tokens_details": {
+          "reasoning_tokens": 974
+        },
+        "total_tokens": 3314
+      },
+      "generated_utc": "2026-11-02T22:15:13.580668+00:00"
+    },
+    {
+      "condition": "inspire",
+      "id": "svg-inspire-04",
+      "inspiration": {
+        "payload": {
+          "kind": "record",
+          "path": "arts/drawing/works",
+          "record_index": 217,
+          "text": "Architectural Studies (verso) [partially visible on recto] — c. 1580\nPaolo Veronese (Italian, 1528–1588), artist\npen and brown ink\nCulture - Italy, Venice"
+        },
+        "seed": "7475801933202892818"
+      },
+      "position": 4,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Use this random text as inspiration. You may use or ignore it.\n\n<inspiration>\nArchitectural Studies (verso) [partially visible on recto] — c. 1580\nPaolo Veronese (Italian, 1528–1588), artist\npen and brown ink\nCulture - Italy, Venice\n</inspiration>\n\nDraw an animal on a skateboard as a self-contained SVG with viewBox=\"0 0 400 400\". Use no scripts or external resources. Return only the SVG.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "high"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "svg",
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">\n  <title>Skateboarding cat</title>\n  <desc>An orange cat rides a teal skateboard across a sunny background.</desc>\n\n  <rect width=\"400\" height=\"400\" fill=\"#fff8e8\"/>\n  <circle cx=\"205\" cy=\"187\" r=\"145\" fill=\"#ffe5a6\"/>\n  <circle cx=\"75\" cy=\"91\" r=\"5\" fill=\"#f4b866\"/>\n  <circle cx=\"337\" cy=\"137\" r=\"4\" fill=\"#f4b866\"/>\n  <path d=\"M91 137h17m-8-8v17M319 75h17m-8-8v17\" fill=\"none\" stroke=\"#e8ad58\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n\n  <path d=\"M49 231h48M35 246h51M54 260h35\" fill=\"none\" stroke=\"#dfa85f\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <ellipse cx=\"203\" cy=\"326\" rx=\"133\" ry=\"8\" fill=\"#e9d9b9\"/>\n\n  <!-- Tail -->\n  <path d=\"M158 225c-24 3-44-5-53-22-5-9-6-18-13-19-7-1-10 6-8 15 5 28 27 48 68 48\" fill=\"#ed9a48\" stroke=\"#553b35\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <path d=\"M99 193c-4 2-7 5-9 9m17 10c-4 2-7 5-9 9m24 1c-3 3-5 6-6 10\" fill=\"none\" stroke=\"#c96d35\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n\n  <!-- Body and legs -->\n  <path d=\"M146 202c5-22 32-31 62-26 25 4 44 13 51 34 5 15 3 33-5 47l-3 14c-1 5-4 7-9 7h-12c-5 0-7-3-5-8l6-19c-12 3-23 2-34-2l-5 21c-1 5-4 8-10 8h-11c-5 0-7-3-5-8l4-19c-14-4-23-12-26-25-2-8-1-16 2-24z\" fill=\"#f3a44f\" stroke=\"#553b35\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n  <path d=\"M160 188l9 14m7-20 9 15m7-17 7 14\" fill=\"none\" stroke=\"#ce7438\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n  <path d=\"M232 216c6 8 7 20 2 31M171 245c6 2 12 3 18 2\" fill=\"none\" stroke=\"#c87539\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n\n  <!-- Scarf -->\n  <path d=\"M219 179c-18 5-30 2-42-4l7 12-15 5c18 7 35 6 52 1\" fill=\"#e76554\" stroke=\"#553b35\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M214 173c17-5 36-2 50 7l-3 13c-17-8-33-9-48-5z\" fill=\"#e76554\" stroke=\"#553b35\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n\n  <!-- Head -->\n  <path d=\"M213 122l-2-33c0-4 3-5 6-3l23 17c10-3 20-3 29 0l22-17c3-2 6 0 6 4l-2 34c10 10 14 23 11 36-4 20-23 31-48 31-26 0-46-10-50-30-3-14-1-27 5-39z\" fill=\"#f3a44f\" stroke=\"#553b35\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n  <path d=\"M219 101l1 19 14-13zm69 0-1 19-13-13z\" fill=\"#e77765\"/>\n  <path d=\"M244 107l3 13m12-14 1 13m12-10-3 12\" fill=\"none\" stroke=\"#ce7438\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n  <path d=\"M224 143c3-4 8-4 11 0m34 0c3-4 8-4 11 0\" fill=\"none\" stroke=\"#553b35\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <ellipse cx=\"253\" cy=\"161\" rx=\"21\" ry=\"14\" fill=\"#ffe4bd\"/>\n  <path d=\"M248 154h10l-5 5z\" fill=\"#b65d50\"/>\n  <path d=\"M253 159v5c-2 4-6 4-9 1m9-1c2 4 6 4 9 1\" fill=\"none\" stroke=\"#553b35\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <path d=\"M231 157l-15-3m15 9-16 2m60-8 15-3m-15 9 16 2\" fill=\"none\" stroke=\"#805448\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n\n  <!-- Trucks and wheels -->\n  <path d=\"M131 287l4 14h17l4-14m108 0 4 14h17l4-14\" fill=\"#d5a86f\" stroke=\"#553b35\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <circle cx=\"142\" cy=\"307\" r=\"12\" fill=\"#f7c764\" stroke=\"#553b35\" stroke-width=\"4\"/>\n  <circle cx=\"277\" cy=\"307\" r=\"12\" fill=\"#f7c764\" stroke=\"#553b35\" stroke-width=\"4\"/>\n  <circle cx=\"142\" cy=\"307\" r=\"3\" fill=\"#553b35\"/>\n  <circle cx=\"277\" cy=\"307\" r=\"3\" fill=\"#553b35\"/>\n\n  <!-- Skateboard deck -->\n  <path d=\"M75 269c6 6 13 8 23 8h207c10 0 17-2 23-8-2 14-10 21-24 21H99c-14 0-22-7-24-21z\" fill=\"#42a9a1\" stroke=\"#553b35\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n  <path d=\"M104 283h194\" fill=\"none\" stroke=\"#a7e0cb\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n</svg>",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 129,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2585,
+        "output_tokens_details": {
+          "reasoning_tokens": 929
+        },
+        "total_tokens": 2714
+      },
+      "generated_utc": "2026-11-02T22:15:09.539909+00:00"
+    },
+    {
+      "condition": "control",
+      "id": "svg-control-05",
+      "inspiration": null,
+      "position": 5,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Draw an animal on a skateboard as a self-contained SVG with viewBox=\"0 0 400 400\". Use no scripts or external resources. Return only the SVG.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "high"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "svg",
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\" role=\"img\" aria-labelledby=\"title desc\">\n  <title id=\"title\">Skateboarding cat</title>\n  <desc id=\"desc\">A cheerful orange cat rides a teal skateboard against a warm background.</desc>\n  <defs>\n    <linearGradient id=\"background\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop stop-color=\"#fff8e9\"/>\n      <stop offset=\"1\" stop-color=\"#f9e6d8\"/>\n    </linearGradient>\n    <linearGradient id=\"fur\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop stop-color=\"#ffc46e\"/>\n      <stop offset=\"1\" stop-color=\"#ee8b50\"/>\n    </linearGradient>\n  </defs>\n\n  <rect width=\"400\" height=\"400\" rx=\"28\" fill=\"url(#background)\"/>\n  <circle cx=\"205\" cy=\"185\" r=\"142\" fill=\"#f7cdb9\"/>\n  <circle cx=\"205\" cy=\"185\" r=\"119\" fill=\"#fbdccc\" opacity=\".65\"/>\n\n  <g fill=\"none\" stroke=\"#d99881\" stroke-linecap=\"round\" opacity=\".65\">\n    <path d=\"M55 233h48M43 246h37M62 259h28\" stroke-width=\"4\"/>\n    <path d=\"M299 124h22M310 113h10M325 135h14\" stroke-width=\"3\"/>\n  </g>\n  <g fill=\"#fff9ec\" opacity=\".85\">\n    <path d=\"M107 104l3-9 3 9 9 3-9 3-3 9-3-9-9-3z\"/>\n    <path d=\"M313 205l2-6 2 6 6 2-6 2-2 6-2-6-6-2z\"/>\n  </g>\n\n  <ellipse cx=\"208\" cy=\"345\" rx=\"140\" ry=\"10\" fill=\"#bc8b7c\" opacity=\".17\"/>\n  <path d=\"M54 340h292\" fill=\"none\" stroke=\"#be8e7c\" stroke-width=\"3\" stroke-linecap=\"round\" opacity=\".5\"/>\n\n  <!-- Skateboard and wheels -->\n  <g stroke=\"#59413e\" stroke-width=\"4\" stroke-linejoin=\"round\">\n    <path d=\"M132 306l8 13h17l5-13M263 306l5 13h17l8-13\" fill=\"#edb75b\"/>\n    <circle cx=\"146\" cy=\"325\" r=\"12\" fill=\"#f4b665\"/>\n    <circle cx=\"278\" cy=\"325\" r=\"12\" fill=\"#f4b665\"/>\n    <circle cx=\"146\" cy=\"325\" r=\"4\" fill=\"#fff3d7\" stroke-width=\"2\"/>\n    <circle cx=\"278\" cy=\"325\" r=\"4\" fill=\"#fff3d7\" stroke-width=\"2\"/>\n    <path d=\"M93 283c10 9 24 12 44 12h151c18 0 29-5 39-13 1 12-9 23-25 25H126c-17 0-30-9-33-24z\" fill=\"#4b9c94\"/>\n    <path d=\"M105 294c8 4 19 5 32 5h150c13 0 24-2 32-6\" fill=\"none\" stroke=\"#a6ded0\" stroke-width=\"2\"/>\n  </g>\n\n  <!-- Tail -->\n  <path d=\"M166 211c-29 14-39-7-50-25-5-8-13-11-18-5-5 7 2 20 10 29 15 18 33 23 58 18\" fill=\"none\" stroke=\"#59413e\" stroke-width=\"19\" stroke-linecap=\"round\"/>\n  <path d=\"M166 211c-29 14-39-7-50-25-5-8-13-11-18-5-5 7 2 20 10 29 15 18 33 23 58 18\" fill=\"none\" stroke=\"#f4a45f\" stroke-width=\"12\" stroke-linecap=\"round\"/>\n  <path d=\"M112 205l8-6M124 216l7-8\" fill=\"none\" stroke=\"#d67748\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n\n  <!-- Body and paws -->\n  <path d=\"M207 178c-27-9-49 3-54 25-5 20 5 39 25 48 3 12-7 19-13 27-7 9-1 15 10 15h15c12 0 17-8 17-18l4-19c11 3 22 1 31-5l9 28c3 10 8 14 17 14h10c9 0 12-5 7-11l-11-11-9-43c-3-24-12-39-29-47z\" fill=\"url(#fur)\" stroke=\"#59413e\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M178 251c8 2 15 2 22-1M211 256c-4-4-6-9-6-15M242 251l-5-18\" fill=\"none\" stroke=\"#d87d4b\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <path d=\"M171 285h10m-3-7h10m78 7h10\" fill=\"none\" stroke=\"#c87247\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n  <path d=\"M166 201l12 6m-15 5 12 6m-6 7 9 5\" fill=\"none\" stroke=\"#d87948\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n\n  <!-- Scarf tails -->\n  <path d=\"M211 186c-15 0-28-5-39-12l-2 15-11 8c17 6 32 7 51 3z\" fill=\"#4b9c94\" stroke=\"#59413e\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M176 184c8 4 16 6 23 7\" fill=\"none\" stroke=\"#9ed9c9\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n\n  <!-- Head -->\n  <path d=\"M208 143l-3-35c-1-6 3-9 8-5l19 15c9-3 18-3 27 0l15-14c5-4 9-1 8 5l-3 30c8 10 10 22 4 33-7 14-23 20-40 20-20 0-34-7-39-20-4-10-3-20 4-29z\" fill=\"url(#fur)\" stroke=\"#59413e\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M212 112l2 22 12-12zM263 122l12-11-1 22z\" fill=\"#e99286\"/>\n  <path d=\"M236 119l4 10m6-11 2 11m7-9-1 9\" fill=\"none\" stroke=\"#d77948\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <ellipse cx=\"226\" cy=\"151\" rx=\"3.5\" ry=\"5\" fill=\"#59413e\"/>\n  <ellipse cx=\"267\" cy=\"151\" rx=\"3.5\" ry=\"5\" fill=\"#59413e\"/>\n  <ellipse cx=\"216\" cy=\"160\" rx=\"7\" ry=\"4\" fill=\"#ed8c7e\" opacity=\".6\"/>\n  <ellipse cx=\"276\" cy=\"160\" rx=\"7\" ry=\"4\" fill=\"#ed8c7e\" opacity=\".6\"/>\n  <path d=\"M242 159q4-3 8 0l-4 4z\" fill=\"#59413e\"/>\n  <path d=\"M246 163v3c-3 4-7 4-9 1m9-1c3 4 7 4 9 1\" fill=\"none\" stroke=\"#59413e\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <path d=\"M229 160l-15-3m15 8-16 2m50-7 15-3m-15 8 16 2\" fill=\"none\" stroke=\"#59413e\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n\n  <!-- Scarf collar -->\n  <path d=\"M209 182c15 11 39 14 65 1l3 10c-22 13-49 13-69 1z\" fill=\"#59aaa0\" stroke=\"#59413e\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M219 190c12 5 28 6 42 1\" fill=\"none\" stroke=\"#a9e0d2\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n</svg>",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 57,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2999,
+        "output_tokens_details": {
+          "reasoning_tokens": 884
+        },
+        "total_tokens": 3056
+      },
+      "generated_utc": "2026-11-02T22:15:13.868230+00:00"
+    },
+    {
+      "condition": "inspire",
+      "id": "svg-inspire-05",
+      "inspiration": {
+        "payload": {
+          "kind": "record",
+          "path": "chemistry/compounds/organic/biomolecules/carbohydrates/monosaccharides/aldoses/hexoses/pyranoses",
+          "record_index": 0,
+          "text": "D-allose (C6H12O6)\nPyranose, anomer unspecified\nMolar mass: 180.16 g/mol\nSMILES: C([C@@H]1[C@H]([C@H]([C@H](C(O1)O)O)O)O)O"
+        },
+        "seed": "9517153576612642625"
+      },
+      "position": 5,
+      "request": {
+        "input": [
+          {
+            "content": "Complete the requested creative task. Return only the finished work.",
+            "role": "developer"
+          },
+          {
+            "content": "Use this random text as inspiration. You may use or ignore it.\n\n<inspiration>\nD-allose (C6H12O6)\nPyranose, anomer unspecified\nMolar mass: 180.16 g/mol\nSMILES: C([C@@H]1[C@H]([C@H]([C@H](C(O1)O)O)O)O)O\n</inspiration>\n\nDraw an animal on a skateboard as a self-contained SVG with viewBox=\"0 0 400 400\". Use no scripts or external resources. Return only the SVG.",
+            "role": "user"
+          }
+        ],
+        "max_output_tokens": 16384,
+        "model": "gpt-6.1-terra",
+        "reasoning": {
+          "effort": "high"
+        },
+        "service_tier": "default",
+        "store": false
+      },
+      "task": "svg",
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">\n  <title>A cat riding a skateboard</title>\n  <rect width=\"400\" height=\"400\" fill=\"#f8f4e9\"/>\n  <circle cx=\"200\" cy=\"183\" r=\"151\" fill=\"#dcefe6\"/>\n  <circle cx=\"292\" cy=\"88\" r=\"22\" fill=\"#f5c76b\"/>\n  <g fill=\"none\" stroke=\"#a5cfc3\" stroke-width=\"3\" stroke-linecap=\"round\">\n    <path d=\"M55 160h35m-45 12h23M302 136h37m-27 12h32\"/>\n    <path d=\"M77 221h25m-34 12h21\"/>\n  </g>\n  <g fill=\"#f5c76b\">\n    <path d=\"M98 92l3 7 7 3-7 3-3 7-3-7-7-3 7-3z\"/>\n    <path d=\"M322 245l2 5 5 2-5 2-2 5-2-5-5-2 5-2z\"/>\n  </g>\n\n  <!-- Tail -->\n  <path d=\"M238 216c25 6 46 5 54-6 6-8 3-12-3-15-8-4-7-13 0-17 8-5 18 2 21 12 10 31-17 60-66 53z\"\n        fill=\"#e9a65f\" stroke=\"#33433e\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n  <path d=\"M298 179c5 6 7 12 6 19M303 211c-3 6-7 11-12 14\"\n        fill=\"none\" stroke=\"#bd7848\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n\n  <!-- Scarf ends -->\n  <path d=\"M221 181c17-4 27-8 39-18l-3 17 16 5c-14 9-29 11-46 10z\"\n        fill=\"#ef7865\" stroke=\"#33433e\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n\n  <!-- Body and feet -->\n  <path d=\"M153 185c-19 10-27 31-25 54 1 16 6 27 11 36l-8 7c-5 5-1 10 6 10h34c8 0 11-5 9-11l-2-17c12 6 25 7 37 1l2 17c1 6 5 10 12 10h19c7 0 10-5 5-10l-7-10c9-16 11-34 5-52-5-17-17-29-31-35z\"\n        fill=\"#e9a65f\" stroke=\"#33433e\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <path d=\"M156 210c-3 16-1 31 4 44m69-44c6 12 8 24 6 35\"\n        fill=\"none\" stroke=\"#bd7848\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n  <path d=\"M144 277c7-4 16-3 21 1m59 1c6-3 14-3 19 0\"\n        fill=\"none\" stroke=\"#bd7848\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n\n  <!-- Scarf -->\n  <path d=\"M143 177c20 10 56 13 81 2l5 14c-25 12-62 10-88-2z\"\n        fill=\"#ef7865\" stroke=\"#33433e\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <path d=\"M208 188l7 6-7 6-7-6z\" fill=\"#f9d892\"/>\n\n  <!-- Head and ears -->\n  <path d=\"M139 126l1-42c0-6 4-8 9-4l22 17c11-3 23-3 34 0l23-17c5-4 9-2 9 4l-2 42c7 10 9 21 6 31-5 22-25 33-53 33-30 0-50-12-55-34-3-11-1-21 6-30z\"\n        fill=\"#f2b770\" stroke=\"#33433e\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n  <path d=\"M149 94l1 23 15-15zm78 0-2 23-14-15z\" fill=\"#df8977\"/>\n  <path d=\"M177 101l4 12m9-14v13m10-11-3 12\"\n        fill=\"none\" stroke=\"#c98650\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n\n  <!-- Face -->\n  <ellipse cx=\"161\" cy=\"145\" rx=\"4.5\" ry=\"6\" fill=\"#33433e\"/>\n  <path d=\"M211 145q6-6 12 0\" fill=\"none\" stroke=\"#33433e\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <ellipse cx=\"151\" cy=\"157\" rx=\"7\" ry=\"4\" fill=\"#e98e7d\" opacity=\".7\"/>\n  <ellipse cx=\"224\" cy=\"157\" rx=\"7\" ry=\"4\" fill=\"#e98e7d\" opacity=\".7\"/>\n  <path d=\"M182 151q6-4 12 0l-6 6z\" fill=\"#33433e\"/>\n  <path d=\"M188 157v4q-5 6-10 0m10 0q5 6 10 0\"\n        fill=\"none\" stroke=\"#33433e\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n  <path d=\"M145 153l-17-3m17 10-17 3m103-10 17-3m-17 10 17 3\"\n        fill=\"none\" stroke=\"#33433e\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n\n  <!-- Skateboard trucks and wheels -->\n  <path d=\"M109 305l3 13h19l4-13m130 0 4 13h19l3-13\"\n        fill=\"#9baaa2\" stroke=\"#33433e\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <circle cx=\"116\" cy=\"324\" r=\"12\" fill=\"#f5c76b\" stroke=\"#33433e\" stroke-width=\"4\"/>\n  <circle cx=\"284\" cy=\"324\" r=\"12\" fill=\"#f5c76b\" stroke=\"#33433e\" stroke-width=\"4\"/>\n  <circle cx=\"116\" cy=\"324\" r=\"3\" fill=\"#33433e\"/>\n  <circle cx=\"284\" cy=\"324\" r=\"3\" fill=\"#33433e\"/>\n  <path d=\"M63 286c9 5 17 7 31 7h211c14 0 23-4 32-10-1 15-11 24-28 24H92c-17 0-26-7-29-21z\"\n        fill=\"#ed806a\" stroke=\"#33433e\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n  <path d=\"M79 295h242\" fill=\"none\" stroke=\"#f8c5a1\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n  <path d=\"M77 349h245\" fill=\"none\" stroke=\"#b9d7c9\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <path d=\"M55 349h9m270 0h12\" fill=\"none\" stroke=\"#b9d7c9\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n</svg>",
+      "response_model": "gpt-6.1-terra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 148,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2847,
+        "output_tokens_details": {
+          "reasoning_tokens": 1027
+        },
+        "total_tokens": 2995
+      },
+      "generated_utc": "2026-11-02T22:15:14.493200+00:00"
+    }
+  ]
+}
